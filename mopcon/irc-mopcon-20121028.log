@@ -1,0 +1,142 @@
+--- Log opened Sun Oct 28 00:00:24 2012
+00:14 -!- Yuhsien [~yuhsienle@111-254-138-246.dynamic.hinet.net] has joined #mopcon
+00:29 -!- Yuhsien [~yuhsienle@111-254-138-246.dynamic.hinet.net] has quit [Ping timeout: 272 seconds]
+01:02 -!- softcup [~softcup@114-35-206-151.HINET-IP.hinet.net] has quit [Quit: 暫離]
+04:36 -!- jserv-- [~jserv@122-117-174-134.HINET-IP.hinet.net] has joined #mopcon
+06:06 -!- test_ [722a4b57@gateway/web/freenode/ip.114.42.75.87] has joined #mopcon
+06:08 -!- test_ [722a4b57@gateway/web/freenode/ip.114.42.75.87] has quit [Client Quit]
+06:10 -!- FrankWu [722a4b57@gateway/web/freenode/ip.114.42.75.87] has joined #mopcon
+07:13 -!- thschee [~thschee@1-172-96-146.dynamic.hinet.net] has joined #mopcon
+07:17 -!- thschee [~thschee@1-172-96-146.dynamic.hinet.net] has quit [Ping timeout: 245 seconds]
+07:48 -!- FrankWu [722a4b57@gateway/web/freenode/ip.114.42.75.87] has quit [Ping timeout: 245 seconds]
+08:17 -!- FrankWu [722a4b57@gateway/web/freenode/ip.114.42.75.87] has joined #mopcon
+08:52 -!- FrankWu [722a4b57@gateway/web/freenode/ip.114.42.75.87] has quit [Quit: Page closed]
+08:52 -!- funnycat [~chatzilla@114-137-36-175.dynamic.hinet.net] has joined #mopcon
+08:57 -!- BeataLin [~BeataLin@111-254-36-239.dynamic.hinet.net] has joined #mopcon
+08:57 < mikimoto> 大家早 ^^
+09:02 -!- softcup [~softcup@111-254-36-239.dynamic.hinet.net] has joined #mopcon
+09:02 <@Aminzai> 早安！
+09:03 < softcup> 早安～
+09:03 < softcup> pjax
+09:03 < hechien> 早安
+09:04 < hechien> 哦哦，這車爬坡的能力好像很讚@@
+09:05 < softcup> problem of ajax
+09:05 < softcup> 不刷新頁面改變內容，蛋無法改變頁面網址
+09:06 < softcup> another issue
+09:07 < softcup> 講者好快，來不及打
+09:07 < hechien> pjax = ajax + pushState
+09:07 < hechien> http://pjax.heroku.com
+09:11 < mikimoto> pjax 真不錯
+09:11 < softcup> xhr.setRequestHeader('X-PJAX', 'true')
+09:11 < hechien> 與Rails綁定的時候如果 request.headers['X-PJAX'] 有東西的話就 render layout: false 回去
+09:12 < softcup> TurboLinks
+09:12 < softcup> pjax 對 container 斤斤計較
+09:13 < softcup> TurboLinks 放大絕招：換掉整個 body
+09:13 < mikimoto> 換掉整個 <body>, 放大絕了
+09:13 < softcup> Benefit
+09:13 < softcup> 不需要 jQuery
+09:13 < softcup> 不對每個 Page 重新 compile JS/CSS
+09:14 < softcup> 對 heavy asset, light content 有非常強的提速效果
+09:15 < hechien> https://github.com/steveklabnik/turbolinks_test
+09:15 -!- Derekhsu [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has joined #mopcon
+09:16 < softcup> 可排除不需要 turbolinks 的頁面
+09:16 < softcup> assets change detection: full reload
+09:17 < softcup> data-method, data-remote, data-confirm 
+09:17 < softcup> 延生問題
+09:17 < softcup> 衍生問題
+09:18 -!- ChuSiang_s3 [~ChuSiang_@42-78-136-198.dynamic-ip.hinet.net] has joined #mopcon
+09:18 < softcup> 多數JS 不假設有 Turbolinks 這東西
+09:18 < softcup> 多數熱門的 plugin 可以配合 turbolinks
+09:18 < ChuSiang_s3> morning ... :)
+09:18 < hechien> D.H.H. 這次大概是拿散彈槍，開一槍，一堆JS libs中彈 Orz
+09:18 < softcup> ChuSiang_s3: 早
+09:19 < softcup> 真的
+09:19 < Derekhsu> Ie8有實作嗎
+09:19 < softcup> Suggestion ==
+09:19 < softcup> designed to be long-lived across many different HTML pages without a refresh
+09:20 < Derekhsu> 我完全忘記把昨天的文件袋帶來了
+09:20 < hechien> Derekhsu: 我則是昨天忘記把文件袋帶回去 ... 然後就被保管了XDDD
+09:20 < softcup> 事件處理不要綁定在 refresh handler
+09:20 < softcup> 使用第三方 code 時，確定不會綁定在 DOM 上
+09:21 < softcup> DOM Ready events 上
+09:21 < Derekhsu> 我的文件袋裝了一堆吃的，怎麼能不帶回去啊
+09:21 < hechien> Derekhsu: ........ 那一定要帶回去了XD
+09:21 < Derekhsu> Coffeescript
+09:22 < softcup> 好快～
+09:22 < Derekhsu> 我真的不太熟
+09:22 < hechien> 外面還有一些資料袋看可不可以要好了XD
+09:22 < Derekhsu> 好短
+09:22 < hechien> 現在還沒九點半囧 ...
+09:22 < hechien> 拱她Live demo一下好了XDDDD
+09:22 < softcup> 誰要幫忙問問題...:P
+09:24 < Derekhsu> 阿，他把時間當成coscup在講了
+09:24 <@Aminzai> 冏....麥克風沒電了
+09:24 <@Aminzai> IE出現了
+09:24 < mikimoto> IE MUST Die
+09:24 < Derekhsu> 我本來也想問這個問題
+09:25 < softcup> Aminzai, 衝啊！幫忙問問題
+09:25 < hechien> IE MUST DIE ++
+09:25 < Derekhsu> 沒辦法
+09:25 -!- D-eye [~d-eye2@111-254-36-239.dynamic.hinet.net] has joined #mopcon
+09:25 <@Aminzai> softcup: 沒跟這不熟阿..(聳肩
+09:25 < Derekhsu> 作製造業就知道了
+09:25 -!- RJ_ [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has joined #mopcon
+09:26 < RJ_> 人有點少...
+09:26 < Derekhsu> 對啊
+09:26 < Derekhsu> 又有一堆吃的了
+09:26 <@Aminzai> RJ_: Conf通常都是第二天人會少XDDD
+09:26 < RJ_> XDDDD
+09:26 < softcup> Aminzai: 有這種慣例？
+09:27 < Derekhsu> 會爛掉，這樣麻煩
+09:27 <@Aminzai> softcup: COSCUP每年都這樣＠＠
+09:27 < softcup> xddd
+09:27 < Derekhsu> 因為我們都這樣做
+09:27 <@Aminzai> 軟杯杯衝了！！
+09:28 -!- Marcus [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has joined #mopcon
+09:28 < Derekhsu> 我在軟伯伯旁邊
+09:28 < softcup> 別這樣，讓講者多待一會兒
+09:28 < Marcus> XDite這場發問人比較多  
+09:31 -!- Marcus_ [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has joined #mopcon
+09:32 < Marcus_> XDite這場比較多人發問
+09:34 < mikimoto> 剛好可以繼續寫下一場的 source code
+09:34 -!- Derekhsu [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has quit [Ping timeout: 245 seconds]
+09:35 < mikimoto> Lightning talk 大家快衝吧
+09:37 < softcup> https://parse.com/  <-- BobChao
+09:42 < hechien> 記得Dofi剛說：只要有第三個lightning talk講者，他就要把第一個消掉 XDDDD
+09:43 < xdite> XD
+09:46 -!- FrankWu [722a4b57@gateway/web/freenode/ip.114.42.75.87] has joined #mopcon
+09:49 -!- chusiang [~jonny@host-219-69-115-205.static.kbtelecom.net] has joined #mopcon
+09:50 < chusiang> MOPCON 2012 Day1 IRC log - http://goo.gl/KIBw9
+09:51 -!- chusiang- changed the topic of #mopcon to: 非官方 MOPCON 2012 IRC | 官方網站 - http://mopcon.org/ |  座位表 - http://imcheck.in/mopcon2012.html | freenode Web IRC -  http://webchat.freenode.net/
+09:52 <@chusiang-> 非官方 MOPCON 2012 IRC | 官方網站 - http://mopcon.org/ | 座位表 - http://imcheck.in/mopcon2012.html | freenode Web IRC - http://webchat.freenode.net/ | Day1 log - http://goo.gl/KIBw9
+09:54 < mikimoto> hechien: 請阻止 Dofi 這麼作
+09:54 < softcup> 可以幫 Dofi 多加一場
+09:54 < mikimoto> 多加一場 ++
+09:54 -!- mode/#mopcon [+o mikimoto] by chusiang-
+09:55 [Users #mopcon]
+09:55 [@Aminzai  ] [ BeataLin   ] [ D-eye     ] [ funnycat] [ Marcus ] [ xdite] 
+09:55 [@chusiang-] [ BlueT_     ] [ DennyHuang] [ hechien ] [ Marcus_] 
+09:55 [@mikimoto ] [ chusiang   ] [ ericpi    ] [ hlb     ] [ RJ_    ] 
+09:55 [ afu      ] [ ChuSiang_s3] [ FrankWu   ] [ jserv-- ] [ softcup] 
+09:55 -!- Irssi: #mopcon: Total of 21 nicks [3 ops, 0 halfops, 0 voices, 18 normal]
+09:55 <@mikimoto> Lightning talk 需要大家幫忙集氣~~
+09:55 -!- chusiang [~jonny@host-219-69-115-205.static.kbtelecom.net] has quit [Quit: leaving]
+09:55 <@chusiang-> 今日有事，大家要好好玩啊！！
+09:56 <@mikimoto> chusiang-: Q_Q
+09:57 < hlb> lightning talk 還有名額嗎
+09:58 -!- jimmy_ [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has joined #mopcon
+10:00 < RJ_> 話說BlueT勒~
+10:00 -!- bobchao [~Thunderbi@111-254-36-239.dynamic.hinet.net] has joined #mopcon
+10:00 < ChuSiang_s3> 應該還是有五個以上!?
+10:01 < bobchao> 這頻道有人有 log 嗎？剛都連不上想回顧一下
+10:01 -!- D-eye [~d-eye2@111-254-36-239.dynamic.hinet.net] has quit [Ping timeout: 260 seconds]
+10:01 < RJ_> 交通上...
+10:01 < bobchao> (正在 mikimoto)
+10:01 < ChuSiang_s3> bobchao 今日的!?
+10:02 < bobchao> ChuSiang_s3: 嗯對啊
+10:02 < softcup> 有
+10:02 -!- jimmy_ [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has quit [Client Quit]
+10:02 < bobchao> softcup: (伸）
+10:03 -!- D-eye [~d-eye2@42-76-36-138.dynamic-ip.hinet.net] has joined #mopcon
+10:04 < softcup> http://paste.plurk.com/show/2KRWWh2rby3bU2zUpG1l/
+10:04 -!- jimmy_ [6ffe24ef@gateway/web/freenode/ip.111.254.36.239] has joined #mopcon
