@@ -1,0 +1,902 @@
+--- Log opened Sat Nov 03 08:32:12 2012
+08:59 < AndChat600084> testttttt
+09:07 < walile> 所以今天conf文字轉播是出現在這邊囉？
+09:09 < PN_tw> Hi all :)
+09:10 < PN_tw> Hi MouseMs :)
+09:10 < MouseMs> HI~~~~
+09:11 < MouseMs> ㄕHㄕㄈ口ㄇF
+09:11 < idfer> Cool
+09:11 < AndChat|600084> ....
+09:11 < PN_tw> Cool (woot)
+09:13 < davihuan> web irc 怎樣開第二個 channel 呀  XDDD
+09:14 < Orange_> 到 status 那 /join
+09:17 < davihuan> 謝謝橘子
+09:19 < michael52025> 早安 ~
+09:20 < kulokase> good morning
+09:20 < hashman> 感覺今天irc上面的人蠻少的
+09:20 < dca_> 開場沒提到irc
+09:20 < hashman> > <
+09:21 < walile> irc好冷清
+09:22 < michael52025> 今天穿短袖~忘了會義廳了冷氣會很冷....
+09:22 < afu> 早安
+09:22 < allenown> TigerHuang: <(_ _)>
+09:23 <@TigerHuang> allenown: allenown大大 <(_ _)>...
+09:23 <@TigerHuang> 有人作座位表嗎XDD?
+09:23 < dca_> TigerHuang: 不好意思我早上才看到信>///<
+09:24 < walile> <(_ _)> alenown大大
+09:24 < kulokase> <(_ _)> allenown 大大
+09:25 < PN_> Morning all :)
+09:25 < kikiqqp> 糟糕 輕微色盲
+09:26 < kulokase> 好友耿
+09:26 < kikiqqp> 講者要注意，大會議聽的投影機有嚴重色偏的老問題
+09:26 < davihuan> ??????
+09:27 < fntsrlike> code字好小，有提供PPT下載嗎？OAO
+09:30 < hashman> orinx<(_ _)>
+09:38 < kikiqqp> tinyurl.com/b5jl4po  這信號會好有鬼.....涵蓋率驚人 XD
+09:39 < orinx> hashman<(_ _)>
+09:42 < barneybook> 大家早安
+09:42 < barneybook> 有人有第一場的筆記或是投影片嗎?
+09:42 < swl> exit
+09:43 < Orange__> ls -alh
+09:43 < michael52025> ??
+09:44 < dylandy> 這樣跑字好有效果
+09:44 < zeroplex> 也跑太快了 @@
+09:46 < PN_> 手機收不到訊號呢 XD
+09:48 < AndChat600084>   /nick Fire_
+09:49 < PN_> Fire <(_ _)>
+09:52 < fntsrlike-> 剛剛提到線上直播的網址是？
+09:53 < kulokase> 我好喜歡講者的中文字幕!
+09:53 < PN_> 沒問題 太好了
+09:53 < PN_> XD
+09:54 < dylandy> 中華手機訊號滿格耶
+09:54 < ac> 請問有直播嗎？
+09:54 < Nagi> 有辦法拿到講者的投影片嗎？
+09:54 < PN_> Vibo 悲劇 :(
+09:55 < barneybook> 講者投影片應該晚上講者就會釋出了
+10:00 < kikiqqp> exit
+10:03 < hashman> 我也是威寶 我直接關機了orz
+10:03 < PN_> shutdown only      orz
+10:13 < DennyHuang_> 線上直撥網址 http://tw.weibo.com/topic/phpconf_2012
+10:18 < BardicheZ_> 有人想問等下休息時有東西吃嗎
+10:21 < ac> 直播似乎非常卡....(我用中華電信 50M
+10:21 < barneybook> 可以徵求第一場的筆記嗎?
+10:21 < kulokase> 第一場講師的github
+10:22 < kulokase> http://github.com/yftzeng/
+10:23 < chihchun> yo
+10:24 < chihchun> http://www.livedocx.com/pub/pricing.aspx # hum...
+10:25 < dylandy> 第1場簡報好像沒有在github 裡面
+10:30 < Shawn> t123
+10:31 < dca__> Live Demo !
+10:31 < PN_> 剛剛誤觸 Disconnect, 不曉得有沒有錯過什麼 > < "
+10:31 < Orange_> never
+10:32 < Orange_> :P
+10:32 <@TigerHuang> Orange_: 橘子耶!!!!!!
+10:32 < MouseMs> 橘子大大!!!!!!
+10:32 < Orange_> @@
+10:32 < PN_> Orang_: Thanks; and ..... <(_ _)>
+10:32 <@TigerHuang> Apple_: 好潮噢
+10:32 < Apple_> :P
+10:32 < AndChat600084> xdd
+10:32 < kulokase> XD
+10:32 < BardicheZ_> XD
+10:32 < PN_> SHawn: Echo :P
+10:32 < MouseMs> 把拔有人黑了蘋果
+10:33 < hashman> 快到你嚕
+10:33 < Shawn> 這次好像沒有點心時間Orz
+10:34 < _Orange> 沒有點心唷ˊˇˋ
+10:34 < _Orange> so sad
+10:34 < _Orange> 好餓
+10:34 < hashman> 講師肚子餓了
+10:34 < Shawn> 沒吃早餐+1
+10:35 < PN_> MouseMs: /******* /msg NickServ GHOST Orange_ pa$$w0rd *******/           XD'
+10:37 < MouseMs> XD
+10:42 < dca_> 今天有比較冷..
+10:43 < Shawn> 冷氣比較強
+10:43 < Shawn> 要換橘子了!
+10:44 < Nagi> \Orange/\Orange/\Orange/\Orange/\Orange/\Orange/
+10:46 < AndChat600084> 越黑越冷
+10:46 < Shawn> 今天大家都比較害羞，去年irc比較熱鬧:P
+10:47 < Nagi> \Orange/\Orange/\Orange/\Orange/\Orange/\Orange/
+10:47 < WitzHsiao> 真的要冷死了QQ
+10:47 < BardicheZ_> 這裡真的一年四季都很冷XD
+10:47 < PN_> ((拍拍拍拍拍拍
+10:47 < MouseMs> \Orange/\Orange/\Orange/\Orange/\Orange/\Orange/
+10:47 < mkfsn> \Orange/\Orange/\Orange/\Orange/\Orange/
+10:48 < barneybook> 今年果然比較弱
+10:48 < kulokase> 看過去都是mac
+10:48 < PN_> \Orange/ \Orange/ \Orange/ \Orange/ \Orange/ \Orange/
+10:48 < barneybook> 黑橘黑橘
+10:48 < dca_> 這邊視野超棒的，看過去都是Mac
+10:48 < Nagi> XDDD
+10:48 < mkfsn> \黑橘/\黑橘/\黑橘/\黑橘/\黑橘/\黑橘/\黑橘/\黑橘/
+10:49 < PN_> Orange 好強大 <(_ _)>
+10:49 < Nagi> php 愛好者... (抖抖
+10:49 < dca_> 愛好入侵php（？
+10:49 < barneybook> 好年輕
+10:49 < Shawn> 大二升大三.....好猛= =
+10:49 < kulokase> <(_ _)>
+10:49 < idfer> 哈
+10:49 < BardicheZ_> orange.tw
+10:51 < PN_> BardicheZ_: wow
+10:53 < dylandy> 來聽簡單的議程(?!)
+10:54 < PN_> DennyHuang, DennyHuang_: Where are you ~
+10:54 < AndChat600084> 誰要講yahoo攝影？php？
+10:54 < MagicDice> 高潮了...
+10:54 < Nagi> 資深駭客 _(黑)_(橘) 語錄
+10:55 < dylandy> 阿~進去了
+10:55 < dca_> 只好以後把網址改成.asp (?
+10:56 < fntsrlike-> wwww'
+10:56 < Nagi> XDDD
+10:56 < dylandy> live code review XDDDD
+10:58 < barneybook> 黑橘投影片有連結嗎?
+10:59 < hashman> 應該可以在他的blog看到
+11:02 < kctony> ping
+11:02 < PN_> kctony: pong
+11:06 < PN_> PHP的正規化 ((筆記ing
+11:07 < Nagi> XDDDDDDDDDDd
+11:07 < PN_> c>>>>>"<  這是work 的 ((XD
+11:07 < BardicheZ_> >"<
+11:07 < kctony> XDDDDDDDDD
+11:08 < dca_> 「我要感謝Windows給我那麼多弱點」
+11:08 < barneybook> 黑橘部落格只有舊的投影片
+11:08 < PN_> PHP 架在M$ Windows: 悲劇 (?)
+11:08 < Nagi> haha  uccu XDDDDD
+11:08 < allenown> 怎麼會想不開架在 Windows 呢
+11:09 < PN_> c>>>>>.<//
+11:09 < hashman> 太可愛了
+11:09 < hashman> x
+11:09 < Kikiqqp> 架在Windows主要是方便啦
+11:09 < Kikiqqp> 當然愈方便就愈危險
+11:09 < dca_> 架在windows還蠻常見的吧
+11:12 < barneybook> 好強大的黑橘
+11:13 < Kikiqqp> 哈哈哈 這情境
+11:17 < PN_> 沒記錯的話 Big-5 會造成很多悲劇發生        囧
+11:17 < kctony> 許功蓋
+11:17 < PN_> 啊 Big5 XD'
+11:19 < Shawn> 萬惡許功蓋
+11:19 < Shawn> 萬惡許功蓋
+11:19 < Shawn> aa
+11:19 < j100002ben> 許功蓋+1
+11:21 < locy69> 會場也很冷!!!
+11:21 < MagicDice> 很冷+1
+11:21 < dca_> 姓許錯了嗎(u_u)
+11:22 < mkfsn> 會場好冷（抖）
+11:23 < j100002ben> 冷氣好強.....哭哭
+11:23 < PN_> 等吃午餐補充體溫w
+11:23 < locy69> http://goo.gl/V24PN
+11:24 <@TigerHuang> 會場的冷氣已經調整過了，有些位置可能剛好在出風口旁邊。建議更換座位或穿著外套。
+11:24 < locy69> 第一波照片上線 http://goo.gl/V24PN
+11:25 < ronnywang> 網路公司應該優先雇用姓許的員工，這樣找 Big5 問題比較容易
+11:28 < kctony> 是跑跑
+11:28 < ronnywang> kctony: 哈囉!
+11:28 < dca_> ronnywang: 您如果當老板請記得我..
+11:29 < kctony> XDD
+11:29 < PN_> 我的網路剛剛被黑掉了 >口< ...
+11:30 < barneybook> https://github.com/appleboy
+11:33 < PN_> XDXie: Hello XD'
+11:36 < kctony> 冷氣終於沒這麼冷了
+11:37 < ronnywang> http://goo.gl/Wvhwb
+11:37 < ronnywang> http://goo.gl/Wvhwb
+11:37 < kctony> 剛那網址看不清楚
+11:37 < kctony> XD
+11:37 < kulokase> 已經打上來了
+11:38 < kiang> 新浪線上直播網址已經放上官方網站： http://phpconf.tw/2012/ ，不過目前卡卡
+11:38 < kiang> 宣傳一下~~~~外面T恤一件 350 、三件 1000 ，請大家多多支持 ~~~
+11:39 < kiang> 外面還有 lightning talk 報名 "急徵講者" "選情告急" "就差你一票" ，感恩 XD
+11:40 < kctony> @kiang 才剛買了三件
+11:41 < kiang> @kctony, m( _ _ )m
+11:41 < PN_> 啊 早知道大家就不分開買T恤了 XD'
+11:42 < kiang> 感謝 @PN_ 等三位朋友多贊助了 PHPConf 2013 50元 XD
+11:42 < kctony> XDDDDD
+11:42 < PN_> XD
+11:42 < Shawn> 有人要團購嗎XD
+11:43 < dylandy> 早知道就不早買了
+11:43 < kiang> @dylandy, 賣安ㄋㄟ啦 XD
+11:43 < Shawn> 退貨再重買一次
+11:44 < kctony> 大絕招
+11:44 < dylandy> @RJ 在線上嗎？
+11:44 < dylandy> 我想要退貨XD
+11:45 < fntsrlike-> dylandy 我們再找一位湊三件!
+11:45 < kiang> @dylandy, RJ 應該沒辦法上線，如果真的有需要，可以利用休息時間 XD
+11:45 < kctony> RJ應該在外面ㄇ賣
+11:45 < Nagi> 黑橘的投影片上了  http://blog.orange.tw/
+11:45 < kctony> 衣服
+11:46 < Shawn> 我比較想要點心QQ
+11:46 < PN_> Nagi: wow
+11:46 <@kiang> 便當快來了 XD
+11:46 < PN_> wow 提權了 !
+11:48 < Turkey> 我們也買了3件QQ
+11:49 <@kiang> 感謝 @Turkey 等三位朋友多贊助了 PHPConf 2013 50元 XD
+11:50 < dylandy> 外國講師的簡報不知道有沒有辦法拿到
+11:51 < zeroplex> Orange 的投影片上線了 http://goo.gl/qHRon
+11:51 < zeroplex> 我 lag  XD
+11:52 < ronnywang> http://www.phplivedocx.org/2012/11/03/slides-from-phpconf-taiwan-2012/
+11:52 < PN_> 謝謝 Orange !
+11:54 < Kikiqqp> 螃蟹半導體
+11:55 <@kiang> 今天如果有準備履歷的，可以丟給 螃蟹半導體 跟 Jonathan ;)
+11:55 < Shawn> 所以可以找appleboy找工作嗎XD
+11:55 < salagadoola> "非常強調他們公司在缺人"
+11:55 < dca_> //////
+11:59 < dca_> 吃個飯大家都收光光了XD
+12:23 < michael52025> 吃飽了 ~
+12:33 < Kikiqqp> Lightning talk白白的
+12:35 < PN_> R0空空, 感覺 R1 會炸掉 @@"
+12:40 <@kiang> @Kikiqqp, 等你報名啦，現在應該有了 ;)
+12:40 < PN_> Takeshi: owo//
+12:41 < Takeshi> I_I
+12:42 < PN_> MouseMs: owo//
+12:42 < MouseMs> QQ
+12:43 < Takeshi> OwO_/
+12:43 < Kikiqqp> 我是誤闖PHP小綿羊，總不能叫我講單晶片架構吧 XD
+12:43 < PN_> MouseMs: Have any seat?
+12:43 <@kiang> @Kikiqqp, 今天就有講師要分享嵌入式系統上的 PHP 啊，你可以講講單晶片如何最佳化 PHP 執行 ;)
+12:44 < Takeshi> 用PHP寫嵌入式系統()w()
+12:44 <@kiang> 不是寫嵌入式系統，是在嵌入式系統裡面放 PHP application
+12:45 < PN_> 在 Android 上架 PHP ((誤
+12:46 < Takeshi> 在小版子上架PHP?
+12:46 <@kiang> @PN_, 之前就真的有可以在 Android 執行 PHP 指令的程式啊
+12:46 <@kiang> @Takeshi, yes, 可以找找 owncloud ，這類應用還蠻多廠商想玩的 ;)
+12:46 < PN_> kiang: (woot)
+12:47 < Takeshi> ww
+12:47 <@kiang> http://phpforandroid.net/ php for android
+12:47 < Kikiqqp> 其實很實用，像上午的螃蟹公司就很需要這些人
+12:48 < MouseMs> 我在R2中間最後面
+12:48 <@kiang> 嗯，因為現在單賣硬體的利潤太低，所以很多廠商都想轉解決方案吧
+12:48 < Kikiqqp> 不過Android用的AVR好貴....
+12:48 < Kikiqqp> 商業化會被打槍 XD
+12:49 < PN_> wow, 可以在 Android 上 Coding 了 ((樂
+12:49 < Takeshi> Yap
+12:51 < Kikiqqp> 畢竟是PHP的場子...不然我挺想說說這個 http://images.plurk.com/34Tph6CmHFZZ2GD6ktgBJu.jpg XD
+12:52 < Takeshi> 這是?(woot)
+12:52 < KCTONY> 滿~~
+12:53 <@kiang> @Kikiqqp, lightning talk 並沒有侷限議題啦，報吧，只要你能夠在 4 分鐘內講完 ;)
+12:53 < PN_> 剛剛 R0 瞬間進來很多人 ww
+12:53 < Takeshi> @KIkiqqp 新的線的設計？
+12:54 < Kikiqqp> iphone5那條線的保護機制及土砲一條出來
+12:55 < PN_> kiang: 沒帶筆電 做簡報不方便, 不然其實想LT一下的w
+12:55 <@kiang> @PN_, 那我的借你，前面最右邊， Ubuntu Linux ;)
+12:56 < KCTONY> 搬倚子來了    哈哈
+12:58 <@kiang> Symfony1 跟 Symfony2 完全不相容
+12:59 < PN_> kiang:               :O
+12:59 < afu> http://www.slideshare.net/ronnywang_tw/2012-php-conf-slide-pixnet-php-15004028
+12:59 < afu> PIXNET 如何使用 php 簡報
+13:00 < sanyuan> Wow......pixnet 是 freebsd 8.3 耶………XD
+13:01 < PN_> from R0: Symfony1 跟 Symfony2 完全不相容, 只好砍掉重練.
+13:01 <@kiang> Twig 也是 Symfony2 裡面的一個元件，下午 Wake 講的是獨立使用 ;)
+13:03 <@kiang> Symfony 就是 Config 特別多， YML, XML, PHP
+13:04 < sanyuan> 聽起來真像是悲劇………XD
+13:04 <@kiang> 悲劇才能創造英雄 XD
+13:06 < sanyuan> 依賴注入………=____=
+13:06 <@kiang> symfony2 雖然 config 多，但是相關輔助工具也多，很多東西可以透過指令產生，只要你夠熟練 :)
+13:09 < locy69> 小場的爆場了嗎?
+13:09 < hashman> 爆哩
+13:10 < sanyuan> debug toolbar....:D
+13:10 < sanyuan> 登登…………
+13:11 < dca_> 比這個還複雜
+13:11 < PN_> 動手作就對了
+13:11 <@kiang> 表了一下 經濟推升方案 XD
+13:11 < PN_> XD
+13:12 < salagadoola> neal__: http://www.slideshare.net/ronnywang_tw/2012-php-conf-slide-pixnet-php-15004028
+13:13 < sanyuan> 我也放棄 Symphany 2 了.....XD
+13:13 < PN_> from R0: Symfony2.1 .... =)
+13:14 < afu> [R2] 今天的Warning可能就是明天的Error
+13:15 <@kiang> symfony 2.1 比 2.0 方便，現在比較麻煩的是文件還沒跟上，所以有時候跟著文件實做會遇到坑...不確定現在改善了沒就是(已經改回 CakePHP XD)
+13:15 < PN_> form R0: Code 被投影機黑掉了 QQ
+13:15 <@kiang> 嗯，連第一排都看不到 XD
+13:15 < fillano> 字有點小XD
+13:16 <@kiang> 可能得等投影片 XD
+13:16 < sanyuan> 好黑啊…………
+13:16 < sanyuan> 我的眼前一片漆黑………XD
+13:16 <@kiang> 其實是 Orage 正在工作中...
+13:17 <@kiang> Orange
+13:17 <@kiang> R0 白了 :)
+13:17 < PN_> 歡樂白底 O v O
+13:17 < Orange__> ..... T T
+13:17 <@kiang> XD
+13:20 < sanyuan> Orange__: 你又中槍了………：P
+13:21 < sanyuan> Symphony 是一套灰熊複雜的 Framework.......XD
+13:26 <@kiang> 根據側面了解， Symfony 的主要開發者認為這不是複雜，而不是專業 XD
+13:27 <@kiang> 而是專業 ...
+13:27 <@kiang> 今天講話跟打字都一直吃螺絲...
+13:28 < linroex> T-shirt快要賣完囉〜 要買要快xD
+13:28 <@kiang> 下一場議程結束後，原本提供給志工的早餐會 "釋出" ，如果肚子餓的可以去服務台旁的飲水機取用 ;)
+13:29 < sanyuan> 登登…………讓我想到 COSCUP 的工作人員早餐…………XD
+13:30 <@kiang> 另外， lightning talk 已經有人報名了，還是持續徵求可以在 4分鐘 征服全場的勇者!!
+13:31 <@kiang> lightning talk 報名處已經轉到了原本報到處旁邊的牆上
+13:33 < kulokase> PHPconf 精簡懶人包 http://goo.gl/MCKlq
+13:33 < KCTONY> 一直斷掉 /_\
+13:33 <@kiang> @KCTONY, 可能要換一下 AP
+13:34 < Kikiqqp> 前方有疲倦降臨，單兵該如何應對....請班長以咖啡來掩護我(倒)
+13:35 <@kiang> 咖啡無法帶入，請單兵到講台翻滾前進，保證做完就不會想睡覺!!
+13:36 <@kiang> 話說...我也很久沒有早上 5 點半起床了 -.-||
+13:36 < michael52025> ¡
+13:36  * sanyuan 舉手，我是懶得移動………XD
+13:37 <@kiang> XD
+13:37 < dylandy> 懶的動+1
+13:37 < salagadoola> (猩猩圖) "絕對沒有兄弟關係什麼的 我這個頭像用很久了"
+13:38 < sanyuan> Before session start 的意思是說：「在議程開始之前還是說在 http session 之前.....
+13:38 < sanyuan> XD
+13:39 < KCTONY> XDD
+13:39 < salagadoola> 那下一屆應該給每個議程一個id 增加混亂
+13:39 < Kikiqqp> HIGH起來了
+13:40 < sanyuan> =____+
+13:41 < sanyuan> 效率 100% 直逼php....
+13:41 < sanyuan> =___=
+13:41 < KCTONY> 讚!!
+13:41 < Kikiqqp> 有梗！
+13:41 < salagadoola> R0: "效率100% 直逼PHP" (投影片: <?php /* your code here */ ?>
+13:41 <@kiang> 很多人會覺得 PHP 本來就是一種樣板引擎吧 XD
+13:42 < Toby> 高潮了 \\\O__O///
+13:42 < Kikiqqp> 無理呀！
+13:42 < hashman> 速度只要有問題c都可以搞定
+13:43 < Shawn> 議程好像和卡片不太一樣@@
+13:43 < sanyuan> 手感……Hummmmmm
+13:43 < sanyuan> 聽起來哪裡怪怪的………
+13:43 < KCTONY> fu~
+13:43 < michael52025> 議程有改過了說 :}
+13:43 < Kikiqqp> 不過C真的能搞定，有時連用ASM(寫不好時)都沒這快，因為被很多PhD最佳化到不行
+13:43 <@kiang> @Shawn, 議程有調整過，可以看官方網站
+13:43 < Nagi> WTFramework
+13:43 <@kiang> http://phpconf.tw/2012/schedule.html
+13:44 < sanyuan> WTF Framework....XD
+13:44 < Shawn> 謝謝:D
+13:44 <@kiang> 只是 PHP 還是寫起來最輕鬆愜意，寫 C 很容易被指標搞死 XD
+13:46 < sanyuan> TWig filter 看起來真像是 UNIX pipe....:P
+13:46 <@kiang> 應該是跟 UNIX 致敬吧 :)
+13:47 <@kiang> 有前面的傢伙， Filter ；沒有前面的傢伙， Function 。我是 Filter XD
+13:49 <@kiang> twig 支援 block 的 reuse
+13:52 <@kiang> appleboy 上傳了中午前議題的投影片： http://www.slideshare.net/appleboy/restful-api-design-implementation-with-codeigniter-php-framework
+13:54 <@kiang> 如果發現無線網路不穩定，可以改用有線網路，應該會比較穩定些，如果有帶網路線的話...
+13:56 < Shawn> 請問一下，這附近有商店可以買東西嗎@@?
+13:56 < michael52025> 有7-11跟來爾富
+13:56 < michael52025> 順著河邊走是7-11
+13:56 < michael52025> 往大門走有來爾富
+13:57 < sanyuan> 沒有人要提問的話，我要重頭再講一次喔
+13:57 < sanyuan> XD
+13:57 < Shawn> 呃.....突然覺得自己方向感不好XD
+13:57 < salagadoola> R0: "沒有人要提問的話 我就要從頭再講一次喔"
+13:57 <@kiang> 有想買什麼嗎？
+13:57 <@kiang> 等一下會有便當跟點心釋出 XD
+13:57 < Shawn> 咖啡XD
+13:58 < michael52025> 讚啦
+13:58 <@kiang> XD 真的不行了
+13:58 < KCTONY> 對面大樓有MOS
+13:58 < michael52025> 中午俺沒吃飽
+13:58 <@kiang> 那等一下可以去服務處拿，早餐跟午餐應該都有多的可以釋出 ;)
+13:59 < KCTONY> 原來有早餐?
+13:59 < michael52025> 原來有早餐？
+13:59 < MagicDice> 原來有早餐？
+13:59 <@kiang>  工作人員的早餐 ;)
+13:59 < KCTONY> XDD
+13:59 < michael52025> 我早上沒吃耶
+13:59 < Orange___> '有 starbucks 嗎
+14:00 < PN_> R0 現在起算有15mins 的休息時間 XD'
+14:00 < sanyuan> 外面還有工作人員的早餐…………
+14:00 < sanyuan> XD
+14:00 < michael52025> 來吃早餐吧 :P
+14:00 <@kiang> starbucks 應該有點遠： http://goo.gl/maps/iD2Hq
+14:00 < sanyuan> 不過我倒是想去吃便當………（咦咦）
+14:00 < Nagi> 早餐++
+14:01 < michael52025> starbucks 在東湖有
+14:01 <@TigerHuang> .t PHPConf Taiwan 2012 http://phpconf.tw/2012/ | UTF-8 | 線上直播：http://goo.gl/iVOLl | Lightning talk 講者徵求中！！
+14:01 < michael52025> 有點遠
+14:02 < michael52025> 還有一間在南軟
+14:02 < locy69> phpconf 的 lightning talk 這麼冷場啊!!?
+14:02 < locy69> COSCUP 跟 OSDC 都搶到爆
+14:03 < locy69> 對面大樓有MOS 那棟叫做 活動中心@@! 上面有住宿的房間...
+14:06 < fripig> 冷氣好冷ORZ
+14:07 < huijun> 有沒有人要來報lighting talk
+14:07 < huijun> 快來噢
+14:09 < michael52025> 運氣好不用Q&A XD
+14:09 <@kiang> @locy69, 就等你啦 ;)
+14:10 < PN_> R0 人又多了起來 @@"
+14:11 < Orange___> 鐵神
+14:11 <@kiang> 再次提醒，外面還有早餐可以吃 XD
+14:11 < linroex> (worship)
+14:11 < PN_> kiang: 試問早餐內容 XD?
+14:12 < linroex> 三明治
+14:12 < linroex> 有人餓了的話，可以去報到處領便當xD
+14:13 <@kiang> 還有超冷蛋餅 XD
+14:14 < PN_> ((去觀賞早餐 XD'
+14:14 < sanyuan> 便當
+14:14 < KCTONY> 急凍蛋餅
+14:15 < sanyuan> 便當真不錯吃………
+14:15 <@kiang> @sanyuan, 再來一個吧 ;)
+14:16 < sanyuan> 起床囉…………XD
+14:17 < sanyuan> kiang: 吃飽了....:D
+14:17 < sanyuan> 登登…………發光了………
+14:17 <@kiang> 鋼鐵人的梗用很多次了 XD
+14:21 <@kiang> Laravel: http://laravel.com/
+14:21 < PN_> 出去觀賞個早餐 又斷線了 XP
+14:22 <@kiang> 無線網路只要人多就會出問題，有線還是比較好 XD
+14:22 < _Orange> Orange__: a
+14:23 < locy69> lightning talk 只有三個@@!?
+14:23 < Mark_Mew> @@?
+14:24 <@kiang> @locy69, 支援一個議題吧 XD
+14:24 <@kiang> 今天大家都太含蓄了，還是有人要上台告白嗎？ XD
+14:24 < hothero> ls
+14:26 < dylandy> 原來小鐵的簡報才剛做好
+14:26 < dylandy> 真新鮮
+14:27 < KCTONY> 可以上台徵人嗎?  XD
+14:27 < _Orange> locy69: 我要聽如何外拍(舉手
+14:27 <@kiang> @KCTONY, 當然可以啊， lightning talk 從來沒有限制的，只有時間要求 ;)
+14:28 <@kiang> @locy69, 直接秀外拍美女照就可以得到大量掌聲 ;)
+14:28 < dca_> KCTONY: 上台徵人大好
+14:28 < KCTONY> XDDDDD
+14:28 <@kiang> lightning talk 是任何你想要講的話都可以，所以告白的最好機會就在此!!
+14:29 < sanyuan> 王子的易讀性…………XD
+14:29 < _Orange> XDDDDDD
+14:29 < _Orange> 告白
+14:29 <@kiang> 只要你能夠在 4 分鐘內講完 ;)
+14:29 <@kiang> @Orange 有興趣嗎？ XD
+14:29 < Nagi> 四分鐘的告白XDDDDD
+14:29 < _Orange> 四分鐘一句我愛你
+14:29 < sanyuan> 告白不是指要…………3 秒鐘………
+14:29 < _Orange> 沒。
+14:30 <@kiang> 那不合格，要講 我愛你 講 4 分鐘 ;)
+14:30 < sanyuan> 我愛你講四分鐘…………這樣舌頭會打結………
+14:30 < KCTONY> 要三分半的時間韻釀
+14:31 <@kiang> 如果告白成功，舌頭打結是可以接受的 XD
+14:31 < _Orange> kiang: 可以向你告白嗎
+14:31 < KCTONY> !!
+14:31 < Orange__> 對不起我隨便說說的別當真T T
+14:31 <@kiang> 可以啊，不過 @Orange 應該是想告訴我，我已經被入侵了 XD
+14:32 < Orange__> Q Q
+14:32 < KCTONY> 馬上備份
+14:32 <@kiang> 嗯，突然發現好久沒有備份資料 XD
+14:33 <@kiang> 資料褲 !!
+14:34 <@TigerHuang> Orange__: O_Q
+14:35 <@TigerHuang> 橘子家有很多資料褲
+14:35 <@kiang> ORM = Orz
+14:38 < ronnywang> 前端工具師
+14:38 < _Orange> 前端工具師XDDD
+14:40 <@kiang> 跟 Symfony2 一樣叫 Bundles
+14:40 < KCTONY> 要上台還得準備簡報耶.....   好懶...
+14:40 < KCTONY> 遭羔高遭
+14:41 < KCTONY> 我竟然在認真思考
+14:41 <@kiang> @KCTONY, 只要你有勇氣不靠投影片講 4 分鐘也 OK 啦 ;)
+14:41 < KCTONY> 哈哈
+14:41 < dca_> 上次在mopcon有看到沒簡報的 XD
+14:41 <@kiang> 一定要的啊，順便告白也可以，多種需求一次滿足 ;)
+14:42 <@kiang> 沒簡報的難度比有簡報還大啊
+14:42 < locy69> _Orange: 簡單一個字 "錢" XD
+14:42 < zeroplex> 之前三秒緯在 COSCUP 也沒簡報 = w =
+14:43 < locy69> kiang: 我沒有東西可以講啊@@!
+14:43 <@kiang> 三秒緯已經是爐火純青了 XD
+14:43 < locy69> 我是隱藏的紀錄組@@ 哈
+14:43 <@kiang> @locy69, 剛剛有人提到你有大量外拍照片啊，不要藏私啦 ;)
+14:44 < sanyuan> zzzz......XD
+14:44 < zeroplex> @locy: 貼照片順便宣傳一下影像紀錄區
+14:44 < _Orange> locy69: 你在要我給你還是你給其他人XDDD
+14:44 < locy69> kiang: http://goo.gl/M2q01 裡面就很多了@@!
+14:45 <@kiang> @locy69, 不是麻豆外拍嗎？ XD
+14:46 < locy69> http://pi.isuphoto.org/locy @@ 幫 Toomore
+14:46 < locy69> 網站打廣告嗎@@!
+14:47 < Takeshi> 所以現在有多少場Lighting Talk?
+14:47 < locy69> 上一場休息時間是 3個而已 https://lh4.googleusercontent.com/-b2g7VKT8STA/UJS8SjQRlOI/AAAAAAAClj4/uSJRBMGuGQw/s720/DSC_1215.JPG
+14:48 < Takeshi>  ><
+14:49 <@kiang> @locy69, 有看到美眉有加分 :)
+14:49 < dca_> ////
+14:50 < michael52025> yo
+14:50 < sanyuan> T-Shirt 目前還有 6*7 = 42 件………XD
+14:51 <@TigerHuang> [4~[4~[4~[4~[4~[1~[6~[6~[6~[5~[5~[C[C[C[B[B[B[B[B[B[A[B[A[A[A[A[A[A[5~[5~[5~[5~[A[A[A[A[A[A[A[5~[5~
+14:57 < zeroplex> 講師沒在寫 PHP 了 XD
+14:58 < dca_> 「我現在已經沒在寫PHP」
+14:58 < fripig> 講好快XD
+14:58 < dca_> 微Demo
+14:59 < salagadoola> R0: 輸人不輸陣 我們也要來工商服務
+14:59 < PN_> >/////<
+14:59 <@TigerHuang> ！！
+14:59 < sanyuan> 小林志玲…………熬屋………
+15:01 < salagadoola> R0: 等下不會有任何一行PHP code
+15:01 < PN_> 免費早午餐和小林志玲一樣吸引我 O////O ........ ((無誤
+15:01 < sanyuan> 等等不會有任何一行 PHPCode...
+15:01 < sanyuan> 為什麼沒有免費晚餐………XD
+15:02 < Mark_Mew> 小林志玲 =w=
+15:02 < zeroplex> 官方一直更新 deprecated tool  XD
+15:03 < PN_> sanyuan: 這樣員工就想住公司不想回家啦 = w = ..
+15:04 <@TigerHuang> 真。雲端機
+15:04 < salagadoola> 真．雲端機 XD
+15:05 < jaceju> https://speakerdeck.com/jaceju/laravel-framework-modern-website-building 剛剛的投影片
+15:06 < jaceju> 講得不好的地方請大家見諒 Orz
+15:08 < salagadoola> 一整個機房一整層樓 被雷打到整個對外的router壞掉
+15:08 < Kikiqqp> 記得還蠻常有這種鳥事的
+15:08 < BardicheZ_> 火雞肉飯:Q
+15:09 < Mark_Mew> 火雞肉飯？
+15:09 < salagadoola> .net 和 php 的 hybrid system
+15:09 < Mark_Mew> 看起來還蠻好吃的
+15:09 < PN_> 好可怕, Data 價值遠超過載體機器 @~@ ((抖
+15:10 < Kikiqqp> 檳榔虎
+15:10 < Kikiqqp> 這不是很正常嗎？
+15:11 < Kikiqqp> 作 就對了
+15:11 < salagadoola> 要怎麼解釋puppet這個東西呢? demo就對了
+15:11 < sanyuan> PN_: 這樣可以順便提供住宿服務………XD
+15:12 < zeroplex> 講師：「為什麼比爾蓋茲笑起來都這麼奇怪」 XD
+15:13 < Nagi> XDDDDDD
+15:13 < sanyuan> Never live Demo 定理要出現了嗎？……XD
+15:13 < dca_> 好想問他現在都寫什麼
+15:13 < PN_> Windows噎 \owo/
+15:13 < dylandy> yii 看起來不錯耶
+15:13 < sanyuan> vi 耶…………
+15:14 < locy69> 這樣投影出來要改一下字體才對@@! 不清楚說
+15:14 < sanyuan> mysql root 密碼 lala123......XD
+15:14 < Nagi> XDDD
+15:15 < Nagi> 洋人的東西!!!
+15:15 < PN_> putty噎 \owo/
+15:15 < locy69> 連步到的機器 知道 root 密碼也沒用
+15:15 < dca_> 作者長得比你帥，這是不能容許的
+15:15 < fntsrlike-> 作者長得比我們帥 不能允許wwwww
+15:15 < dylandy> 作者長的比你帥，不能容忍
+15:15 < locy69> 連不到!!
+15:15 < PN_> 講師: 成功了, 呼 .. 好感動 Q口Q
+15:15 < dylandy> 親和多了
+15:15 < dylandy> wwwwwww
+15:16 < minipai> O.O
+15:16 < salagadoola> 有選單列 看起來像pietty
+15:17 < PN_> salagadoola: 啊 真的 ^ ^"
+15:17 < Takeshi> 剛剛示範的phpmyadmin，密碼真的是lala123耶XDDD
+15:18 < Orange__> IP來一下 //flee
+15:18 < Nagi> Orange要出手了  (抖抖
+15:18 < Takeshi> 176.34.14.213   這樣沒問題嗎XD
+15:19 < _Orange> 我隨便說說的拉T T
+15:19 < Takeshi> ><
+15:19 < _Orange> 妨害電腦使用罪 358~363 大家要注意唷^^
+15:19 < Nagi> XDDD
+15:20 < Takeshi> >||<
+15:20 < PN_> <(_ _)>
+15:20 < Takeshi> well......他IP就大大方方的寫在投影螢幕上囉～XDDD
+15:21 < salagadoola> 我只注意到 amazon 那個 10.* 開頭的
+15:21 < Takeshi> 我猜某人現在應該是開了一台伺服器在Log這一串.....
+15:28 < salagadoola> R0: 大部分看到的公司 一半的service在ec2 另一半自己own或在其他的cloud
+15:30 < PN_> 剩R0了 @@
+15:30 < dca_> 好想問他現在都寫什/
+15:34 <@kiang> lightning talk 最後召募中!!!
+15:36 < Takeshi> 看不清楚，LT變成5人了？
+15:37 <@kiang> LT 五人無誤，歡迎來報名 ;)
+15:38 <@kiang> 好像又多了兩個塞最後的 XD
+15:38 <@kiang> 目前剩三個名額
+15:38 < KCTONY> XD
+15:38 <@kiang> @KCTONY, 來吧
+15:38 <@kiang> 補夢網都報名囉 ;)
+15:38 < KCTONY> http://goo.gl/gFN4y  在這偷徵就好 XDDD
+15:38 <@kiang> -.-|| 這樣太低調啦
+15:40 < KCTONY> 隨緣吧 XDDD  順便徵明年的研發替代役 XDDD
+15:40 <@kiang> XD
+15:40 < Nagi> XDD
+15:40 < KCTONY> 學生不知道多不多
+15:41 <@kiang> 最後一場的壓力好像特別大，因為人都來了 XD
+15:41 < Kikiqqp> 今年沒有實體徵人攤？
+15:42 <@kiang> 今年其實異客有，但是他們臨時沒辦法過來，有興趣可以從官方網站連結過去看職缺
+15:43 <@kiang> 今天的活動應該很多都來自業界，因為要收費 XD
+15:43 <@kiang> 學生看到收費好像就少了一大半
+15:43 < KCTONY> 我想聽課不想顧攤位 XDD
+15:43 < far> kiang: 異客有人來..只是不想顧攤位 :Q
+15:44 < far> kiang: 兩個人都不想顧
+15:44 <@kiang> @far, 至少也放個海報啦，這樣子空桌子看起來很怪 XD
+15:44 < KCTONY> XDD
+15:44 < far> kiang: 因為美術懶得做海報 XD....上線比較重要 XD
+15:44 < PN_> 不少學生後天開始期中考 O_____O ..
+15:44 <@kiang> 看樣子苦主都在 IRC 上了 XD
+15:44 < far> kiang: 就當佛心來著吧
+15:44 < KCTONY> XDD
+15:44 <@kiang> @far, 好吧，希望明年繼續 XD
+15:45 < far> kiang: 只要 PHPConf 還有辦的話 XD
+15:45 <@kiang> @far, 那我先代表明年的團隊感謝啦 ;)
+15:45 < far> kiang: 前提是明年我還在這家公司的話...zz
+15:46 < KCTONY> far: 等下別偷跑   有事找你 XDDD
+15:46 < far> KCTONY: ok
+15:46 <@kiang> @far, XD
+15:46 < fntsrlike> 期中考是什麼(欸)
+15:47 < Takeshi> 我們學校，期中考排在星期一二三四五 ="=
+15:48 < Orange___> 期中考下禮拜四!
+15:48 < Orange___> 完全沒看GG
+15:48 < jais> 期中考周 不用考試!!
+15:48 <@kiang> 話說今年好多講師都在徵人，如果有帶履歷來應該就可以直接面試吧 XD
+15:48 < PN_> Takeshi: 期中考這種東西不是都排一整週嗎 ?
+15:49 < Takeshi> 以前是排4,5,1,2,3
+15:49 < Kikiqqp> 快快樂樂用中文寫程式
+15:49 < Takeshi> 中間有緩衝....
+15:49 < fntsrlike> Orange 表示： 偶爾去上課
+15:49 < _Orange> 期中考不能偶爾考
+15:49 < ronnywang> 小時候用中文寫過小海龜
+15:49 < Takeshi> 中文寫程式，好像聽過一個較週莽的東西...
+15:49 < sanyuan> 好黑好黑………看不清楚
+15:49 < PN_> Takeshi: 羨((慕 QQ
+15:49 < Nagi> Orange快拿ppt去換期中考的分數XDD
+15:49 < PN_> Takeshi: ((羨慕 QQ
+15:49 <@kiang> 原來現在才要介紹主角 XD
+15:50 < jais> @Takeshi 明明就是 3,4,5,1,2
+15:50 < Takeshi> PN_:ww
+15:50 < _Orange> Nagi: 可以的話我也想Q Q
+15:50 < Kikiqqp> 大考大玩 小考小玩 不考不玩
+15:50 < Takeshi> jais:  ..
+15:50 < KCTONY> $會員['帳號']       誤...
+15:51 < sanyuan> 大考大玩，小考小玩，不考更要玩到翻天賦地
+15:51 < Takeshi> http://zh.wikipedia.org/wiki/%E5%91%A8%E8%9F%92
+15:51 < _Orange> <---- 大考大玩 小考小玩 不考還是繼續玩
+15:51 <@kiang> 尷尬，我也不知道怎麼唸 XD
+15:52 < sanyuan> 好黑好黑………看不清楚………XD
+15:53 < Kikiqqp> 餓了
+15:53 < sanyuan> 我討厭黑底 深藍色的字
+15:53 < huijun> 以後知道投影片要做白的
+15:53 <@kiang> 嗯...
+15:53 < Kikiqqp> 也不能說講者錯
+15:53 <@kiang> 第一排都看不到的投影片配色
+15:53 < sanyuan> 講者沒有想太多啦……不怪他
+15:53 < Kikiqqp> 投影機從我知道這場地時就沒好過
+15:54 < Takeshi> 投影片要做橘色的，因為會議廳好冷XDDD
+15:54 < sanyuan> 只是這個投影機效果不太好…………
+15:54 <@kiang> 嗯，但是這個場地最便宜（免費） XD
+15:55 < sanyuan> 深色字加上暗色字通通陣亡
+15:55 < fntsrlike> 黑漬在白紙上和沾滿黑墨水只有一些地方是白的。感覺還是白中帶黑比較吸引目光XD
+15:55 < Kikiqqp> 免費的最貴....(LINUX觀念) xd
+15:55 <@kiang> 嗯，免費的最貴，但是便宜的買不起，真糟糕 XD
+15:55 < sanyuan> 更正，黑色背景加上暗色字……通通陣亡
+15:55 < Kikiqqp> 恩 只要有女僕裝就可以吸引我了(低需求)
+15:56 < jaceju> 剛剛我那場沒注意到投影效果，會不清楚嗎？
+15:56 <@kiang> 嗯，女僕裝的價格好像便宜不起來 XD
+15:56 < sanyuan> 來人啊…………把小飛機綁來穿女僕裝
+15:56 < zeroplex> 現在小飛機沒頭髮喔
+15:56 <@kiang> @jaceju, 你的投影片配色已經很好了 ;)
+15:56 < wake> @jaceju 不會，感覺 ok
+15:56 < Kikiqqp> 假髮！
+15:57 < jaceju> 3Q
+15:57 < Nagi> 沒有女僕裝阿....  (sad
+15:57 < KCTONY> 為啥我一直聽成PTT     ....
+15:57 < wake> @jaceju 鐵神 GJ
+15:57 < fntsrlike> @jaceju 很好
+15:57 <@kiang> 等一下 demo ，好像時間快沒了 XD
+15:58 < huijun> 我都聽不懂...我要切腹了
+15:59 <@kiang> @huijun, 先上台講完 4 分鐘再切 XD
+15:59 < huijun> 我切腹了 沒辦法上去了
+15:59 <@kiang> -.-||
+16:00 < Kikiqqp> 塞回去用膠帶黏好
+16:00 <@kiang> @Kikiqqp++
+16:00 < wake> http://blog.hubert.tw/tag/behat/ 這個 slide 解釋的還不錯 :Q
+16:01 < Kikiqqp> 為什麼我會想到某個寫的很像歌劇的程式呢
+16:01 <@kiang> @wake, 邀請他  2013 來講吧 :)
+16:01 < sanyuan> vim 神人啊…………
+16:02 < wake> @kiang XD，我只是聽不太懂亂搜搜到的
+16:04 < locy69> _Orange: !!! 橘底投影片~
+16:04 <@kiang> 真的沒有時間了 XD
+16:05 < _Orange> locy69: 感謝支持
+16:05 < Kikiqqp> 提醒講者了
+16:05 < PN_> 剛剛畫面上是橘底 !!
+16:05 < KCTONY> 畫圈圈
+16:06 < _Orange> <--- 橘黃控
+16:06 <@kiang> @KCTONY, 不要畫啦，衝上來，第一個留給你 ;)
+16:06 < KCTONY> 不要    馬上烙跑
+16:06 <@kiang> XD
+16:07 < Mark_Mew> 橘黃色很棒>///<
+16:07 < Kikiqqp> DEMO費非定律
+16:07 < PN_> 橘底要配什麼字色好呢 :Q
+16:08 <@kiang> again, never live demo ...
+16:08 < _Orange> 黑字 & 白字
+16:08 <@TigerHuang> PN_: 黑色
+16:08 <@TigerHuang> 黑橘嘛
+16:08 < _Orange> ....
+16:08 < sanyuan> 工商服務………
+16:08 < sanyuan> ：P
+16:08 < Kikiqqp> 黑 白 橘
+16:09 < locy69> 不免俗工商服務
+16:09 < _Orange> ....
+16:09 <@kiang> 大家都缺人 XD
+16:09 < salagadoola> 這邊不免俗的還是做一下工商服務 XD
+16:09 < PN_> TigerHuang: O////O"
+16:09 < huijun> 換我了
+16:09 < _Orange> 早知道我也徵才
+16:09 < dca_> KKBOX總是會來一下
+16:09 < sanyuan> 這邊不免俗的度估一下
+16:09 < sanyuan> XD
+16:09 < _Orange> 最後貼個爭女友 //flee
+16:09 < fntsrlike> php conf (x) hiring conf (O)
+16:09 < _Orange_> 啾咪 > .  ^
+16:10 < PN_> 萬年線路長 >////<
+16:10 < _Orange> op 幫我 kick 0range 謝謝
+16:10 < Kikiqqp> 媽 我在這裡
+16:10 < salagadoola> 今年我們已經不用拔了 用切換器切一下就好
+16:11 < fntsrlike> 萬年線路長 >////<
+16:11 < PN_> KVM (?)
+16:11 < dylandy> 這次不用練習了
+16:11 <@kiang> <===一個不知道怎麼當 op 的 op
+16:11 <@TigerHuang> 來聽Talk 0.0
+16:11 < appleboy_> 這邊人數正常多了 Orz
+16:12 < bency> 想說畫面怎麼不一樣
+16:13 < PN_> TigerHuang: "來聽" Talk XD'
+16:14 < locy69> 萬年線路長 沒D沒G的 Davihuan ~~
+16:15 < sanyuan> adihuan <---這個才是沒D沒G…………（逃）~~
+16:15 < sanyuan> 打錯 avihuan 才對
+16:15 < johnny> 請問衣服買了可以退嗎?
+16:15 <@kiang> @johnny, why?
+16:16 < Guest42497> 因為原本是幫同學買，結果他後來說不要了這樣
+16:17 < sanyuan> 那…………自己多買一件應該OK吧？
+16:17 < sanyuan> :P
+16:17 <@kiang> @Guest42497, ok, 你可以跟櫃台說 kiang 同意的
+16:17 < barneybook> 今天用中研院網路完成兩部動畫的下載~~ 真不錯
+16:17 < Takeshi> 有沒有黑色限定版的衣服可以買嘛？
+16:17 < sanyuan> barneybook: 你欠打喔……XD
+16:17 < PN_> Takeshi: 尋問+1
+16:17 < Guest42497> thank you!
+16:17 <@kiang> 黑色只提供給工作人員跟講師喔 :)
+16:17 < Takeshi> QAQ
+16:18 < sanyuan> 換句話說：「工作人員跟講師都很黑…………」（逃）~~~
+16:18 < salagadoola> "看起來很像廣告 效果很差"
+16:19 <@kiang> @salagadoola, 是指？
+16:19 < PN_> 買兩件 一件丟染缸自己 DIY =w= ..
+16:20 < salagadoola> @kiang: 剛剛lightning talk在說分享新聞到facebook的時候跳出來的圖片
+16:21 <@kiang> @salagadoola, lightning talk 本來就是不侷限主題的，希望能夠多多見諒 :)
+16:21 < PN_> RJ !!
+16:21 < dca_> !!
+16:21 < PN_> 11/17 =w=
+16:21 < sanyuan> 喔喔喔喔喔…………
+16:21 < Nagi> 這是泰莎吧..?
+16:22 < zeroplex> 泰莎 + 笑面男
+16:22 < sanyuan> 微議程………
+16:22 < dca_> 微議程
+16:22 < fntsrlike> 微議程
+16:22 < sanyuan> 把議程微分…………
+16:22 < PN_> 微打燈
+16:22 < _Orange> 薇薇安！
+16:22 < sanyuan> 薇薇安…………登登
+16:22 < Nagi> XDDD
+16:22 < salagadoola> @kiang: 我那句是轉錄講者的話啦
+16:23 <@kiang> @salagadoola, 了解，是我誤會了 XD
+16:23 < sanyuan> 打朋友、聊天…………（咦咦）
+16:23 < PN_> Ya 有台中 ~~~~~~~~~~~~
+16:23 < Nagi> QQ XDD
+16:23 < sanyuan> TC......
+16:24 < salagadoola> "很抱歉 我沒在關注 我也不知道" XD
+16:24 < zeroplex> 高雄！
+16:24 < PN_> 歡迎大家來台中玩 owo//
+16:24 < Nagi> 404 XD
+16:24 < sanyuan> XD
+16:24 < salagadoola> 每場都分享!
+16:24 < sanyuan> 登登登
+16:25 < salagadoola> "都沒有人timeout 不好玩"
+16:25 < PN_> Denny !!
+16:25 < sanyuan> 坐下來康出現了………
+16:25 < Mark_Mew> 都是打廣告＠＠？
+16:25 < Nagi> 機關腔!!
+16:25 < dylandy> 好快
+16:25 < sanyuan> 這樣才不會超時啊………
+16:25 < zeroplex> 講師記得換氣啊
+16:25 < Kikiqqp> 好快
+16:26 <@kiang> 目前看樣子大部分都是打廣告，不過還是有清流的 XD
+16:26 < salagadoola> 24小時內100人!
+16:26 < KCTONY> 被快轉了
+16:26 < sanyuan> 熬~~~~~~~
+16:26 < PN_> Denny's 肺 timeout 了 @@"
+16:26 < sanyuan> 坐下來康看起來不錯唷
+16:26 < fntsrlike> 新鮮的肝~
+16:26 < salagadoola> 青春的肉體~ 新鮮的肝~
+16:26 <@kiang> 青春的肉體，可以限定性別嗎？ XD
+16:26 < Nagi> ....新鮮的肝XD
+16:26 < KCTONY> 新鮮的肝.......  舔嘴角.....
+16:26 < sanyuan> 登登…………黑暗的 script
+16:27 < allenown> rm -rf /
+16:27 < Kikiqqp> 愛肝愛肝 一罐20元
+16:27 < sanyuan> 一個空白引發的血案…………
+16:27 < Nagi> QAQ (x)   Q&A (o)
+16:27 < PN_> 5 mins \owo/
+16:27 < salagadoola> "2分鐘喔 我有講這麼快喔"
+16:27 < KCTONY> 超快...
+16:27 < KCTONY> <<<<
+16:27 < dylandy> 我講那麼快窩~
+16:28 < sanyuan> 講題：「如何向上管理你的老師……………XD」
+16:28 < bency> 聽到buffer都快滿了
+16:28 <@kiang> session@sitcon.org
+16:28 < Kikiqqp> 螺絲
+16:29 < sanyuan> 儀…………
+16:29 < PN_> I/O 發生瓶頸
+16:29 < allenown> 1秒都不浪費
+16:29 < Nagi> "...先講個笑話好了" XDD
+16:30 < Takeshi> http://sitcon.org/2013/   Denny忘記說，我們3天就有官方網站了！
+16:30 < Nagi> XDDD
+16:30 < salagadoola> 如何實作雲端留言板!
+16:30 <@kiang> 雲端留言板 XD
+16:30 < KCTONY> 雲端留言板
+16:30 < dylandy> 雲端留言板wwwww
+16:30 < Takeshi> www
+16:30 < sanyuan> 雲端留言板…………
+16:30 < sanyuan> XD
+16:30 < KCTONY> 雲端購物車
+16:30 <@kiang> 沒有 slide ， david 沒辦法切 XD
+16:30 < sanyuan> Hahahaha
+16:31 < Takeshi> 好快XD
+16:31 < sanyuan> 我有點太矮了………XD
+16:31 <@kiang> 工商服務時間 XD
+16:32 < sanyuan> 美女打廣告時間…………
+16:32 < michael52025> 跟戰國箂的服務有得比....？
+16:32 < salagadoola> 高大英挺的業務
+16:32 < dca_> 戰國策....
+16:32 < sanyuan> 這麼嚴重………
+16:32 <@kiang> 戰國策不是已經去打廣告了？行政院那個什麼經濟什麼的 XD
+16:32 < Takeshi> 戰國"箂"？
+16:33 < KCTONY> 戰國測
+16:33 < sanyuan> 登登……………雲端……………
+16:34 < KCTONY> 啥都要扯雲端
+16:34 < sanyuan> V-i-c-k-y....XD
+16:34 < Takeshi> 當然，要放置雲端留言板也OK喔 >.O
+16:34 <@kiang> 雲端好用啊 :)
+16:34 < Kikiqqp> 戰國O很鳥
+16:34 < dca_> 下次要來個雲端議程
+16:34 < dylandy> 我們還有做~~~雲端留言板
+16:34 < Nagi> GG了XDD
+16:34 < KCTONY> 是芥末日
+16:34 < sanyuan> 下課
+16:34 < Kikiqqp> 雲端女友
+16:34 < zeroplex> 杯具
+16:34 < salagadoola> 按到休眠XD
+16:34 < Takeshi> XDDDD
+16:34 < Nagi> 世界末日→GG→休眠→(?
+16:34 < PN_> Cool
+16:34 < dca_> 啊靠，我按到休眠
+16:35 < BardicheZ_> 雲端休眠
+16:35 < mkfsn> 休眠XDDDD
+16:35 < KCTONY> 真的世界末日
+16:35 <@kiang> 是芥末日
+16:35 < sanyuan> 大黑黑…………
+16:35 < sanyuan> 2012 conf 年………XD
+16:36 < PN_> SA \owo/
+16:36 < sanyuan> 等等………大黑黑怎麼戴帽子…………
+16:36 < zeroplex> BlackHat
+16:37 < sanyuan> 全台灣第一位考到不知道什麼證照的
+16:38 <@kiang> ITIL
+16:38 < sanyuan> ITIL.....這個…………嗯…………
+16:38 < sanyuan> 一堆 management....XD
+16:39 < Nagi> thanks XDD
+16:39 < kulokase> thanks
+16:39 < dca_> 他上禮拜用台語講ＸＤ
+16:40 < Nagi> 截止報名了XDD
+16:40 < salagadoola> 不過目前已經截止報名了XD
+16:40 < salagadoola> 評審增加中
+16:41 <@kiang> 教到會，但是不保證
+16:41 < Nagi> XDDDDD
+16:41 < sanyuan> 你來送你電子書，你不來也可以拿到電子書
+16:41 < PN_> Node JS 黑客頌
+16:41 < salagadoola> 來就送電子書
+16:41 < sanyuan> XD
+16:43 < sanyuan> 一堆EOF......
+16:43 < salagadoola> 這是... 手動組合json?
+16:43 < PN_> 拆開 組合 又丟出去
+16:43 < michael52025> 不說真的沒人知道 XD
+16:44 < Mark_Mew> 怨念也可以這麼有梗
+16:44 < ronnywang> 題目:示範一百種不用 json_encode 達到 json_encode 的效果
+16:44 < michael52025> 林北也常常碰到這個天才 XD
+16:44 < KCTONY> 天才真的狠多
+16:44 <@kiang> 發洩怨念 part II
+16:46 < ronnywang> dirname(__DIR__) 寫錯了 XD
+16:46 < ronnywang> dirname(__FILE__) or __DIR__
+16:46 < salagadoola> global!
+16:46 <@kiang> extract 是無敵的 XD
+16:46 < dca_> golbal ˋˊ
+16:46 < ronnywang> extract 我超怕
+16:46 < salagadoola> 原來重點是更可怕的extract
+16:47 < michael52025> 西瓜注射 ~
+16:47 < MagicDice_> 撿肥皂 >"<
+16:47 < allenown> Hacker Friendly
+16:47 <@kiang> 大量使用 extract 的程式很難追 bug XD
+16:47 < salagadoola> 標準的sql injection
+16:47 < sanyuan> XD
+16:47 < ronnywang> 同樣可怕的還有 parse_str
+16:48 < allenown> 要用Prepared Statement
+16:48 < PN_> 10
+16:48 < PN_> XP
+16:48 < mkfsn> 差點 XD
+16:48 < michael52025> bye
+16:48 < kulokase> bye
+16:48 < dylandy> (wave)
+16:48 < KCTONY> 謝謝大家    掰
+16:48 < mkfsn> 81 (wave)
+16:48 < Nagi> bye^2
+16:48 < Turkey> ㄅ
+16:48 < _Orange> 變量覆蓋 以及 SQL Injection
+16:49 < MagicDice_> bye^2
+16:49 < Mark_Mew> 含淚～說掰掰～
+16:49 < sanyuan> bye bye~~
+16:49 < jaceju> dirname(__DIR__) 在這裡指的是 '../'
+16:49 < jaceju> dirname(__FILE__) = __DIR__
+16:50 < fntsrlike> 感謝工作人員
+16:50 < salagadoola> 原來是要拿上一層目錄
+16:50 < locy69> 有沒有大食團啊 !! 日落問
+19:06 < _PN> owo//
