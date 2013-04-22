@@ -1,6 +1,6 @@
 # About
 
-此為凍仁存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，目前收入的有:
+此為凍仁存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，目前收錄的有:
 
 * [coscup](http://coscup.org) - 開源人年會 (Conference for Open Source Coders, Users and Promoters)。
 
@@ -11,4 +11,9 @@
 * [osdc](http://osdc.tw) - (Open Source Developers` Conference)。
                                
 * [phpconf](http://phpconf.tw/) - (PHP Conference)。
+ 
+
+# Reference 
+
+* [Taiwan Conference List](http://goo.gl/90yt5)
  
