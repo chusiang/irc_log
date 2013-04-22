@@ -1,6 +1,4 @@
-# irc_log
-
-## about
+# About
 
 此為凍仁存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，目前收入的有:
 
