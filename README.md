@@ -2,7 +2,7 @@
 
 ## about
 
-此為在下存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，目前列入的有：
+此為凍仁存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，目前收入的有:
 
 * [coscup](http://coscup.org) - 開源人年會 (Conference for Open Source Coders, Users and Promoters)。
 
