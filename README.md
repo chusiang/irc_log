@@ -1,4 +1,4 @@
-# About
+# IRC Logs #chusiang
 
 此為[凍仁](http://note.drx.tw/p/about-chu-siang-lai.html)存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，目前收錄的有:
 
