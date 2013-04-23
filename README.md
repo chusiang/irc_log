@@ -1,6 +1,8 @@
 # IRC Logs #chusiang
 
-此為[凍仁](http://note.drx.tw/p/about-chu-siang-lai.html)存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，目前收錄的有:
+此為[凍仁](http://note.drx.tw/p/about-chu-siang-lai.html)存放台灣 (Taiwan) 各個會議 (Conference) 的 IRC 紀錄檔 (log)，以下為目前收錄的部份，若您手邊還有其它的檔案或連結，請分享給凍仁 [1]，謝謝。
+
+[1] 您可以使用 GitHub 的 [issues](https://github.com/chusiang/irc_log/issues) 回報系統或寫信到 chusiang.lai (at) gmail.com。
 
 ### COSCUP (開源人年會)
 
