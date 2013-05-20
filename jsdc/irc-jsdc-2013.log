@@ -1,0 +1,3921 @@
+Day 1
+========
+
+--- Log opened Fri May 17 02:30:59 2013
+16:31 < grass7boy> !!!
+18:15 < fantasybz> test
+21:03 < RplusTW> 嗨~
+21:03 < RplusTW> 試水溫~XD
+21:08 < PTC> 大家好XDD
+21:08 < RplusTW> 哩齁
+21:09 < RplusTW> 這年代IRC好像少人用了XD
+21:10 < PTC> 會嗎@@
+21:11 < PTC> 我是新手XDD
+21:11 < patw> HIHI
+21:12 < PTC> Hi~XD
+21:52 < mkfsn> 請問 ... 明天的 JSDC 會用這個 channel 嗎 ?
+23:16 < PTC> mkfsn: Yes~
+23:17 < PTC> 話說這裡的topic還在2012 XDD
+--- Day changed Sat May 18 2013
+00:07 < mkfsn> 嗯嗯謝謝 ~
+00:43 < PTC> mkfsn: 不會XD
+02:49 < hlb_> 喵
+02:49 < S3p_lin> ㄍㄡˊ~
+08:12 < ericsk> Good morning
+08:35 < PTC> 大家早安XD
+08:38 < othrees> 以為三十分開場
+08:42 < barneybook> 大家早安
+08:45 < barneybook> 聽說今天有不少正妹!!!
+08:48 < pichu__> 大家早
+08:48 < syno_jamie> Morning
+08:49 < clifflu> 早安早安 O.o/
+08:49 < patw> hihi
+08:49 < Irvin_> 今天有接駁車嗎？ #mrt
+08:51 < othrees> 優揚的旋律
+08:53 < barneybook> http://goo.gl/0qq0x JSDC.TW 懶人包 (內附正妹座位表)
+08:53 < barneybook> http://goo.gl/0qq0x JSDC.TW 懶人包 (內附正妹座位表) [歡迎廣為流傳]
+08:53 < barneybook> http://goo.gl/0qq0x JSDC.TW 懶人包 (內附正妹座位表) [歡迎廣為流傳] {歡迎編輯}
+08:54 < barneybook> http://goo.gl/0qq0x JSDC.TW 懶人包 (內附正妹座位表) [歡迎廣為流傳] {請會眾努力編輯}
+08:57 < CrBoy> 睡過頭了QQ
+08:58 < RplusTW> 安安
+08:58 < JoanTW> 大家早安！
+08:59 < SammyLin_> 大家早
+08:59 < J-H> 各位早安~~
+08:59 < RplusTW> 忘記帶網路線了 Q_Q
+09:00 < Casear1> 早安～～
+09:00 < clifflu> RplusTW: 我有多帶一條, 但長度只有 20cm O.o
+09:00 < jason3e7> 大家早安  ^^
+09:00 < chitsaou> 喔喔子母畫面!!
+09:01 < smallr> 讚！
+09:02 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw
+09:02 < ericsk> 子母畫面++
+09:02 < barneybook> 我也有一條捲線的，有人要嗎???
+09:03 < chuiyi1> 去年有送線 然後我沒帶mba轉RJ45頭 Orz
+09:07 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw
+09:08 < Irvin_> 誰來開個一般人座位表=_=;
+09:08 < clifflu> 我這邊放眼所見都是大叔啊 ˇˇ
+09:08 < barneybook> 一般人也可以編輯到正妹座位表
+09:08 < barneybook> 可以假裝是正妹
+09:08 < zhusee2> 不是正妹也可以填正妹座位表嗎
+09:08 < Irvin_> 南港展覽館站賭不到人共乘…
+09:09 < FrankWu> c8 c8 
+09:09 < FrankWu> 哈
+09:09 < CrBoy> 官方公佈是南港站喔
+09:10 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw
+09:10 < clifflu> mic 沒聲音 ?
+09:10 < PTC> CrBoy: 好像是南港展覽館@@
+09:10 < barneybook> keynote開始了
+09:10 < Irvin_> 我現在才發現公告是南港…
+09:10 < CrBoy> 啊？我確認看看
+09:11 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw
+09:11 < Irvin_> Anyway #愧對北極熊
+09:11 < Irvin_> 行前是寫南港沒錯
+09:11 < Zhusee> 行前南港 +!
+09:12 < PTC> CrBoy: 剛剛又去看一次..公告沒置頂QQ..看到的是別人發問
+09:12 < barneybook> keynote講者不常寫JS...............XD
+09:12 < metavige> OK, I'm a Nerd......
+09:12 < CrBoy> 還好沒給錯資訊XD
+09:12 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw
+09:12 < JoanTW> double click http://www.google.com/intl/zh-TW/dfp/info/sb/
+09:13  * ericsk 去年講 keynote 還好會寫 JavaScript
+09:14 < SammyLin> 還好我會拼JavaScript
+09:14 < RplusTW> 我英聽好弱的說 orz
+09:15 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw  
+09:15 < J-H> ＝口＝|||
+09:16 < Casear1> 懶人包裡面我沒看到正妹阿…囧
+09:16 < barneybook> 沒有人幫忙編輯怎麼會有正妹XD
+09:16 < barneybook> 哈!!!
+09:16 < barneybook> 想要正妹請自己找到並且填入
+09:17 < JoanTW> 正妹正在拍照
+09:17 < barneybook> 一早就聽亞馬遜歷史XD
+09:17 < chiehyou> 網路發展史~XD
+09:17 < Zhusee> Y U NO INTERNET?
+09:18 < J-H> Windows 95~
+09:18 < RplusTW> Opera 被神隱了嗎~
+09:18 < CJH829> 講古
+09:18 < barneybook> http://goo.gl/0qq0x JSDC.TW 懶人包 (內附正妹&一般人座位表) [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw  
+09:18 < mkfsn> Opera 表示
+09:18 < Casear1> 再來要說firefox了嗎？...
+09:18 < clifflu> NCSA/slip 被跳過了 美好的過去
+09:18 < Mark_> "想當年...那個年代的browser..balabala
+09:19 < CJH829> 左前方有倒數計時XDD
+09:19 < RubenTan> Netscape named javascript. Cue next 20 years of confusion between java and javascript. 
+09:19 < jsdc_dieter> Netscape Gold edition~~~
+09:19 < FrankWu> 瑪莉歐什麼時候畫上去的啊XD
+09:19 < JoanTW> 這題太難了
+09:20 < white19> 馬力歐不是一開始就有了?XD
+09:20 < barneybook> 應該來預測一下今年JS的梗
+09:20 < RplusTW> livescript?
+09:20 < jsdc_dieter> wow first JavaScript in 10 days 
+09:20 < FrankWu> 喔!! 我剛往下拉才注意到
+09:20 < barneybook> 我不是老人不知道答案
+09:21 < tonyq> 台上的講者以前在 netscape 工作時跟 JS 創始人是同事
+09:21 < RplusTW> tonyQ本尊嗎?
+09:21 < RplusTW> XD
+09:22 < RubenTan> <3 Harmony
+09:22 < barneybook> http://goo.gl/0qq0x JSDC.TW 懶人包 (內附正妹&一般人座位表) [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw  
+09:22 < Zhusee> coool
+09:23 < Casear1> 是 ten man days….(好強..
+09:23 < Casear1> 嗎？
+09:23 < RubenTan> nope, 10 days
+09:23 < RubenTan> 240 hours
+09:23 < RubenTan> non stop
+09:23 < RubenTan> :P
+09:23 < metavige> j我怎麼記得我好像在 Ie6 就用過 XMLHttpRequest
+09:24 < Zhusee> 「在場誰喜歡為 IE7 開發，請舉手」
+09:24 < chitsaou> 他不是說這是 IE6 發明的嗎
+09:24 < ericsk> IE6 應該是要透過 ActiveX control 來用 XMLHttpRequest
+09:24 < othrees> 前兩年還看到有人問說JS某某東西為什麼不支援
+09:24 < tonyq> ie6 是用 activeX
+09:24 < Mervyn> ie tax, i like
+09:24 < tonyq> ie7 開始才是原生支援
+09:24 < StarNigh1> !!!
+09:24 < metavige> got it~
+09:24 < othrees> 作者跳出來說因為時間不夠
+09:26 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw
+09:27 < tonyq> lol , hi Ruben 
+09:27 < RubenTan> hi tony
+09:27 < tonyq> #RplusTw 對 是我 但是我今天超忙 大概就趁亂上來一下而已XD
+09:28 < barneybook> 今天有網路直播嗎?
+09:28 < tonyq> Good to see you here.
+09:28 < Mervyn> 這次更大更忙吧
+09:28 < tonyq> 有，但是我記得是申請制
+09:28 < RplusTW> R1 在哪間?
+09:28 < tonyq> R1 就是第一會議室
+09:29 < tonyq> 面對國際會議廳右手邊的那間
+09:29 < RplusTW> 甘溫~
+09:29 < idreamers> 網路轉播只有提供給贊助商及工作人員監控用
+09:30 < RplusTW> 用Google+開個視訊直播如何?
+09:30 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw
+09:31 < lionlai> 一般人是怎麼回事ＸＤＤＤ
+09:31 < metavige> hangout!! 可以轉播嘛？
+09:32 < ddio> 我要帥哥座位表～～
+09:32 < barneybook> 也可以註明在座位表上唷!!!
+09:33 < clifflu> 弱弱的問一下，有什麼方法快速得知自己的坐位嗎 ? 例如某 app 這樣 ? 算數或三點定位好像都不太適合
+09:33 < JoanTW> 我也算好久誒＠＠ＱＱ
+09:33 < FrankWu> 還好我在前面...很好算
+09:34 < J-H> 算麥克風?
+09:34 < frankwu_> nick tteeessst
+09:34 < SammyLin_> 最快的方法就是叫大家報數~~
+09:34 < barneybook> 可以偷偷數!!! 差不多位置就好
+09:34 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw  更新中.......
+09:35 < idreamers> 填錯會被黑掉的噢...((欸?
+09:35 < JoanTW> 被坐在那個位置的人 delete 掉
+09:36 < idreamers> 例如會這樣: <del>orange</del>
+09:36 < barneybook> AWS SDK for Node.js - Amazon Web Services
+09:36 < jsdc_dieter> http://aws.amazon.com/sdkfornodejs
+09:39 < XDDDD> amazon賣藥大會(誤
+09:39 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw  更新中.......
+09:39 < clifflu> 把那個整天 copy&paste 的傢伙轟下台 !!! (誤)
+09:40 < othrees> 還不就是複製貼上那堆字母和符號，順序問題而已
+09:40 < ericsk> 另一個贊助商在 IRC 裡賣藥 http://www.windowsazure.com/en-us/develop/nodejs/
+09:41 < happybean> 終於進來了~ XD
+09:41 < barneybook> http://goo.gl/0qq0x (JSDC.TW 懶人包) 內附正妹&一般人座位表 [歡迎廣為流傳] {請會眾努力編輯} #jsdc.tw  更新正妹中.......
+09:42 < AChu> 如果攤位有正妹要怎標記XD?
+09:42 < RplusTW> 不用貼了 直街換topic
+09:42 < frankwu12> =口=
+09:43 < barneybook> 好威!!!
+09:43 < PTC> 好長的topic...
+09:43 < barneybook> AChu: 請標註在底下
+09:44 < Mark_> 話說不是大家等下就跑到不同的會議室了嗎
+09:44 < barneybook> 今天正妹也太多!!!XD
+09:44 < Mark_> 座位表可能等下就失效了
+09:44 < FrankWu> 嘿啊 回來位子也變了
+09:44 < barneybook> 為什麼有底色的一整片????
+09:44 < StarNight> 好可惜 講者看不到二樓
+09:45 < barneybook> 可以更新唷!! 
+09:45 < barneybook> Google文件有修改紀錄
+09:45 < ddio> 擋到投影片～
+09:45 < barneybook> 請大家即時更新
+09:45 < yc> 擋到投影片了
+09:45 < yc> 關一下同步阿~
+09:45 < Peni> 原來有二樓＠＠
+09:45 < tonyq_> 正在處理了 orz
+09:45 < CJH829> 子母畫面好檔喔
+09:46 < tonyq_> 有關子母畫面 正在請中研院協助處理了
+09:46 < fubuki> @Q@
+09:46 < tonyq_> Orz
+09:46 < barneybook> 二樓是秘密基地XD
+09:47 < idreamers> 那是4(dot)5F...
+09:47 < locy69_> aa1112112
+09:47 < locy69_> 正妹沒有嫌多的吧!?
+09:48 < jsdc_poying> 對喔，那是 5F XD
+09:48 < JoanTW> AWS solution architech : Hin
+09:48 < barneybook> 快補充正妹位置
+09:48 < barneybook> 雖然要換場了XD
+09:48 < JoanTW> 剛剛在發書那位
+09:50 < chiehyou> 螢幕上的可以
+09:50 < RplusTW> 剛說什麼領發票?
+09:51 < oldjason> 企業票的
+09:51 < JoanTW> 搬去R2 , 等等見
+10:04 < Orange_> @@
+10:04 < JoanTW> @@
+10:04 < PTC> @@
+10:04 < sjhuang> @@
+10:05 < barneybook> @@
+10:05 < Guest94568> @@
+10:05 < othrees> @@
+10:05 < Orange_> @@
+10:05 < barneybook> @@
+10:05 < Casear> @@
+10:05 < Orange_> ＠＠
+10:05 < oliver__> @@
+10:05 < barneybook> @@
+10:05 < JoanTW> @@ 我在 R2 (舉手
+10:05 < barneybook> @@ R0
+10:05 < chitsaou> 可以求一下 agenda 嗎? 在網站上都找不到
+10:05 < Guest94568> @@ R2
+10:05 < Orange_> @@@
+10:05 < barneybook> @@@
+10:05 < Guest94568> @chutsaou 在title
+10:05 < Guest94568> http://jsdc.tw/schedule
+10:06 < FrankWu> @@
+10:06 < JoanTW> @@ 我對 async flow control 好不熟阿 (抱頭
+10:06 < fripig_> 有人有網路不穩的感覺嗎?  我SSH跟VPN連線一陣子都會斷一下ORZ
+10:06 < chitsaou> 我是說 agenda 
+10:06 < mark_> (in async flow control )
+10:06 < FrankWu> 大大們 推薦用哪套軟體連 IRC? (MAC
+10:06 < PTC> fripig_: 我用無線蠻穩的@@
+10:06 < JoanTW> http://jsdc.tw/schedule/
+10:07 < Casear> Adium
+10:07 < JoanTW> 這個 @chitsaou
+10:07 < PTC> FrankWu: irssi XD
+10:07 < JoanTW> http://jsdc.tw/schedule/ @chitsaou
+10:07 < chitsaou> 我就是說這個網頁上面只有標題沒有 agenda 啊...
+10:07 < mark_> browser直接連不好嗎
+10:07 < tonyq_> agenda 這次沒有提供 （汗
+10:07 < chitsaou> [okay]
+10:07 < tonyq_> 作業不及 請見諒
+10:08 < appleboy_> XD
+10:08 < tonyq_> 有人掉了 Nokia 折疊手機的話 請到報到台領取
+10:08 < FrankWu> 瀏覽器 有時候要自己手動往下拉=..=?
+10:08 < tonyq_> 看起來像公務機
+10:08 < PTC> FrankWu: Web版IRC http://webchat.freenode.net/
+10:08 < jsdc_poying> R2 "Easier async -flow control 的原理、應用、實作及展望" 要開始啦！
+10:09 < tonyq_> 昨天跟文明聊了一陣子 他們公司有蠻多純前端，就只寫 JS 的開發者
+10:09 < wenv> tonyq_: 那間公司
+10:10 < tonyq_> 奇虎360
+10:10 < wenv> 謝謝
+10:10 < tonyq_> 雖然我不確定大家對 360 安全衛士的印象如何
+10:10 < tonyq_> lol 
+10:10 < FrankWu> bj4
+10:10 < kpman> 請問利用瀏覽器連線，有辦法自動置底嗎？
+10:10 < yc> mic聲音太大@@
+10:10 < FrankWu> 不過正要聽
+10:10 < davidou> 據說有一堆木馬？
+10:11 < tonyq_> 以前比較大的爭議是無法刪除
+10:11 < barneybook> 懶人包分享連結為 http://goo.gl/0qq0x
+10:11 < tonyq_> 不過我覺得技術上而言他們還算是蠻強的 產品我不太熟
+10:11 < tonyq_> 他們這次也是大會的贊助商
+10:11 < barneybook> R0一開始就拉哩~~~
+10:12 < barneybook> 對岸真強大!!!
+10:12 < PTC> webirc ERROR: Closing Link: gateway/web/freenode/session (Too many user connections (global))
+10:12 < PTC> lol
+10:12 < RplusTW> [R0] XD 昨天拍的圖
+10:13 < tonyq_> 我剛好像把答案講出來了
+10:13 < tonyq_> 嘖嘖
+10:13 < CJH829> 吉祥物XDD
+10:13 < barneybook> 有吉祥物
+10:13 < tonyq_> 捧個場啊 XDDD
+10:13 < CJH829> 好像展場show girl
+10:13 < tonyq_> 請大家發言 按鈕一下 XDDD
+10:13 < CJH829> 辦活動
+10:13 < chitsaou> callback hell™
+10:13 < Zhusee> 「有沒有人知道 360 最著名的產品是什麼，我們可以送你一個吉祥物」
+10:13 < tonyq_> 這樣事後錄影才會入鏡喔 lol
+10:13 < wenv> pyramid
+10:13 < FrankWu> 都忘了有 麥克風= =
+10:14 < barneybook> 我知道XBOX  360   XD
+10:14 < EIA> Kinect !
+10:15 < PTC> web版irc 暫時不能用XDD
+10:15 < barneybook> 終端就是後端吧?!
+10:15 < yc> @barneybook yes
+10:15 < othrees> 不是使用者端嗎
+10:15 < CJH829> 終端是user端吧?
+10:15 < ericsk> 終端是指 client side 吧
+10:15 < Zhusee> 字好小啊
+10:15 < barneybook> 有上下篇XD
+10:15 < frankwu_> 好像是使用端?
+10:16 < barneybook> 所以有中場休息?
+10:16 < Zhusee> 喔所以他要談的是 Mobile client?
+10:16 < othrees> Mobile web app 開發真是很累
+10:16 < RplusTW> (JSDC.TW 懶人包 好像太多人在裡頭了
+10:16 < barneybook> 混合式交叉編譯?
+10:16 < othrees> 子母畫面又出現了
+10:17 < tonyq_> 他們會談到一部分的 html5 in mobile app (ex phonegap 
+10:17 < tonyq_> 麥克風是按一下會開始 按一下會結束
+10:17 < tonyq_> 所以不要按住馬上講喔 XD 
+10:19 < Zhusee> 這個圖根本無法讀....
+10:19 < Andre> 字好小
+10:19 < FrankWu> 有沒有即時反饋系統...(誤XDD
+10:20 < barneybook> RplusTW: 連結改這個吧 sTW> (JSD
+10:20 < barneybook> RplusTW: 連結改這個吧 http://goo.gl/zNnxt
+10:20 < Peni> 懶人包沒辦法編輯耶
+10:21 < chuanxd> 太多人lol
+10:21 < CJH829> 坑爹XDD
+10:22 < jsdc_dieter> [R1] ExtJS 包好大
+10:22 < fantasybz> 哈！終於加入了
+10:23 < CJH829> 神馬XDD
+10:23 < FrankWu> 笑了
+10:24 < FrankWu> 朋友被標記上座位表自己不知道
+10:24 < fantasybz> 好像進不去
+10:24 < jsdc_dieter> [R1] predictable & programmer familiarity +flexibility? = Sencha class system
+10:24 < jsdc_poying> https://github.com/caolan/async/
+10:24 < chuiyi> web ㄟ頗
+10:25 < billy3321> 360....
+10:25 < billy3321> http://big5.ce.cn/gate/big5/blog.ce.cn/html/60/312760-1636008.html
+10:25 < billy3321> http://www.donews.com/net/201303/1429169.shtm
+10:25 < jsdc_dieter> [R1] IE4 畫面讚 ccc
+10:26 < billy3321> http://cn.ibtimes.com/trad/articles/25616/20130410/864720.htm
+10:27 < jsdc_dieter> [R1] ExtJS since Nov. 2006
+10:27 < Ryan403> 硬傷？
+10:28 < jsdc_poying> promise https://github.com/kriskowal/q
+10:28 < Zhusee> [R0] 這投影片字超小 不 friendly ...
+10:28 < patw> 硬傷 http://baike.baidu.com/view/282349.htm
+10:28 < tonyq_> 沒辦法預先讀取
+10:29 < xinbe> 介紹 ExtJS 哪些東西啊？
+10:29 < tonyq_> 所以在記憶體 預載圖片上很有影響
+10:29 < chuiyi> winphone T_T
+10:29 < Zhusee> [R0] 竟也跟進表了最大贊助商
+10:30 < xdite> XDDDD
+10:30 < PTC> XDDDD
+10:30 < CrBoy_> 終於搞定網路了orz
+10:30 < jsdc_dieter> Richi 攤位有送巧克力喔 >///<
+10:30 < XDDDD> xdite大大叫我耶~~
+10:30 < metavige> SD
+10:30 < J-H> 神器!!
+10:30 < xdite> 我終於搞定電源。昨天睡覺前充電，今天出門前就直接丟進背包，來會場才發現電腦沒充到電
+10:31 < Zhusee> [R0] 恭喜獲得「安仔」吉祥物乙個
+10:31 < xdite> 充電器也是壞的，差點天窗....
+10:31 < metavige> ~
+10:31 < RplusTW> 喔喔喔~
+10:31 < barneybook> [R0]傳說中這個神器有HTML5版
+10:31 < metavige> 感覺不太懂大陸人的語法阿～
+10:32 < jsdc_dieter> xinbe: 講一下古和demo
+10:32 < RplusTW> 問一下 連著兩堂的議題 可以中間換教室嗎?
+10:32 < hinablue> [R0] C++ 寫 js...
+10:32 < othrees> 可以啊，只是可能要走後門
+10:33 < xdite> 請問 lighting talk 要去哪裡報? 我同事想報
+10:33 < chuiyi> 借s
+10:33 < CJH829> "界s" = javascript?
+10:33 < chuiyi> 借s = js
+10:33 < hinablue> 原來是 binding（驚醒
+10:33 < jsdc_poying> 姐s >///<
+10:34 < aaronchi_> [R0]鋪梗這麼久，原來是介紹這個Cocos2d這個『神器』
+10:34 < jsdc_poying> Q https://github.com/kriskowal/q
+10:35 < luzia> 巧克力 >////<
+10:35 < othrees> Flow control 是在講 q 嗎
+10:35 < jsdc_poying> othrees: 對阿！
+10:35 < xdite> othrees: 你在哪
+10:36 < Irvin_> cocos2d 居然是 powered by mozilla tech...
+10:36 < frankwu_> !!
+10:36 < Irvin_> 好久沒看到不是用 V8 的東西了
+10:36 < othrees> R0 很前面
+10:36 < FrankWu> nick fw_1
+10:36 < ericsk> Irvin_:  是指 SpiderMonkey ?
+10:37 < Irvin_> ericpi: yeah
+10:37 < MrOrz> 一直想成 costco 2d (?
+10:37 < othrees> 現在是離子猴了
+10:37 < barneybook> 根據懶人包的短網址分析 http://goo.gl/#analytics/goo.gl/0qq0x/two_hours MAC第一名
+10:37 < PTC> barneybook: XDD
+10:37 < Likey> www
+10:37 < jsdc_dieter> [R1] use YUI utilities, jQuery plugins, prototype.js
+10:38 < FrankWu> mac 一定啊 哈
+10:38 < Casear> 請問國際會議廳的slide有換嗎？有人反映web stream停在某個畫面沒有動
+10:38 < Casear> ppt title: 坑爹阿！界面神馬的最討厭了！（目前是這一頁嗎？
+10:38 < patw__> 這頁過很久了
+10:38 < Irvin_> XD
+10:39 < CrBoy> 又忘記 tmux + irssi 會怪怪的....QQ
+10:39 < PTC> 10+fps www
+10:39 < othrees> Mac 可是最佳Windows 筆電
+10:39 < PTC> CrBoy: @@?
+10:39 < Irvin_> 今年的這小貓袋好大啊
+10:39 < barneybook> cocos2d-jsb
+10:39 < CrBoy> PTC: 不曉得原因....
+10:39 < PTC> CrBoy: 網路不穩@@?
+10:39 < yc> r0冷氣超強 有感受到風在吹
+10:40 < PTC> yc: 感覺有點冷.....
+10:40 < kpman> [R0] 冷氣很強+1
+10:40 < jsdc_dieter> CrBoy: 哪裡怪？我正在用..
+10:40 < CrBoy> PTC: 不是 是顯示方面的問題...
+10:40 < Irvin_> r0的冷氣要看位置的……最上面很冷，最下面會熱
+10:40 < Irvin_> 台上會熱……
+10:40 < PTC> CrBoy: @@
+10:41 < othrees> 不是風在動，是你的心在動
+10:41 < PTC> Irvin_: 因為緊張 (!?
+10:41 < CrBoy> 我捲頁只有上半部會更新(不是只捲半頁 是只更新半個畫面)
+10:41 < StarNight> 講者熱情如火XD
+10:41 < metavige> 老實說阿～看到這投影片的字型實在是感覺挺糟阿
+10:41 < othrees> 其實我在前面是有點涼啦
+10:41 < CJH829> 有看到幾位刺客裝扮應該是冷到了
+10:41 < PTC> CrBoy: 你是MAC?
+10:41 < jsdc_dieter> [R1] ExtJS學習曲線很抖 XD
+10:41 < davidou> 保衛蘿蔔 窘
+10:41 < davidou> nadroid下載不能玩阿
+10:42 < RplusTW> [R0]  前面有點涼+1
+10:42 < yc> [R0] 後面幾排超冷XD
+10:42 < LionLai> ExtJs 一開始入門會很抖ＸＤ
+10:42 < davidou> 為什麼會抖
+10:42 < CrBoy> Thinkpad + Ubuntu 13.04 + gnome-terminal + ssh 到 debian 用 tmux
+10:43 < J-H> 好冷+1
+10:43 < PTC> CrBoy: 我是MAC SSH到Debian+tmux
+10:43 < barneybook> 少量接口不一致的坑
+10:44 < CrBoy> 需越獄XD
+10:44 < jsdc_poying> [R2] harmony::generator 可中斷函式執行，必要時還可回到中斷點繼續執行！
+10:44 < Irvin_> 這個QR Code 可以掃
+10:44 < LionLai> 使用上應該跟jQuery有很大的不同
+10:44 < Zhusee> [R0] 遊戲 Demo 中
+10:44 < Irvin_> 難得看到台片上的 QR Code 掃得到……
+10:44 < FrankWu> www.75team.com/cocos2dx/Box_JS
+10:44 < jsdc_dieter> [R1] 互動式文件 @@
+10:45 < Zhusee> [R0] 剛剛那關太難了（換關）
+10:45 < CrBoy> 「剛剛那關太難了」
+10:45 < CrBoy> XDDD
+10:45 < barneybook> 剛剛那關太難XD
+10:45 < metavige> [R0] 可惜不是用 MAC 阿～可以用放大鏡放大～
+10:45 < ericsk> Windows 也有放大鏡喔
+10:46 < RplusTW> [R0] 講者本身好像也不是用360瀏覽器
+10:46 < davidou> [r0]win也可以放大鏡阿
+10:46 < FrankWu> windows 有放大鏡=..=
+10:46 < Zhusee> RplusTW XDDDDDDDD
+10:46 < metavige> [R0] Chrome~~~
+10:46 < RplusTW> win+U
+10:46 < metavige> [R0] 所以是不會用吧
+10:46 < FrankWu> 欸對喔!! 怎用 Chrome
+10:46 < Zhusee> RplusTW 突破盲點XDDDDD
+10:46 < barneybook> [r0]真不錯有音樂的推箱子
+10:46 < RplusTW> 他有裝360 但沒開
+10:46 < RplusTW> 那個綠色ie就是360的logo
+10:46 < CJH829> chrome偵錯介面比較強吧XDD
+10:47 < JoanTW> 360 用來測試
+10:47 < fantasybz> chrome++
+10:47 < metavige> [R0] 還是說 360不支援 HTML5?
+10:47 < RplusTW> 千萬別
+10:47 < chuiyi> 綠色...中毒的ie
+10:47 < Zhusee> 360 不是拿 Chromium 來改的而已嗎
+10:47 < RplusTW> 一鍵安裝的browser  要裝請裝在VM裡
+10:48 < barneybook> QR可以安裝耶
+10:48 < CJH829> 沒有介紹他們家的產品 不錯 
+10:48 < davidou> 快問他安全阿
+10:48 < fantasybz> 三台Mac
+10:48 < PTC> XDD
+10:49 < RplusTW> 對耶
+10:49 < RplusTW> [R0] 好閃的第一排
+10:49 < CJH829> 蘋果超明顯
+10:49 < FrankWu> 優盤勢啥
+10:49 < CrBoy> U盤
+10:49 < Zhusee> [R0] 優盤大方送
+10:49 < PTC> u盤 www
+10:49 < oldjason> usb
+10:49 < barneybook> 哇!!!
+10:50 < BardicheZ_> 安仔U盤
+10:50 < davidou> 優盤xddd
+10:50 < CJH829> 綠色那隻娃娃比較想要XDD
+10:50 < FrankWu> [R0] 優盤是啥
+10:50 < RplusTW> 主持人去穿長袖了
+10:50 < CJH829> 隨身碟吧
+10:50 < CrBoy> 360防毒軟體!!
+10:50 < chuiyi> udisk
+10:50 < barneybook> 大陸真的用比較多OPEN SOURCE
+10:50 < xinbe> 這個問題好坑阿 
+10:50 < FrankWu> [R0] 喔...U盤? 怎聽起來是 "優"盤
+10:50 < chuiyi> 大陸人土法煉鋼的精神其實很讓人敬佩 XD
+10:51 < RplusTW> (y)
+10:51 < barneybook> 用COCOS2d做APP不會太慢?
+10:52 < RplusTW> 這邊的沒mac
+10:52 < Zhusee> [R0] 觀眾席 Live 放送中
+10:52 < Zhusee> 說真的我覺得那個看不見的攝影機蠻厲害的⋯⋯到底藏在哪裡？
+10:53 < J-H> JSDC有貼紙嗎XDD 想貼筆電
+10:53 < chrono_> +1
+10:53 < Irvin_> 台上的那兩個「路燈」就是攝影機吧
+10:53 < MrOrz> 嗯那是攝影機 XD
+10:53 < yea_> 路燈正解
+10:53 < jsdc_dieter> Amazon 攤位有貼紙啊啊啊~~~
+10:54 < Zhusee> 好強的攝影機 感謝大大解答XD
+10:54 < CrBoy> 他說的是 coco2d叉html5 嗎？
+10:54 < yc> coco2d 插？
+10:54 < JoanTW> 我要去  R1 大家再會
+10:54 < J-H> 休息時間衝了!!!為了貼子衝刺!!
+10:54 < FrankWu> 衝喔
+10:55 < FrankWu> [R0] 還沒結束...
+10:55 < jsdc_dieter> [R1] 來不及講完了 Orzzzz
+10:55 < metavige> [R0] 我想他應該不會知道未來 Coco2d 的發展吧～ 
+10:56 < CrBoy> 主持人正妹
+10:56 < Likey> cocos2d
+10:56 < Irvin_> 我真的不覺得subject強調正妹座位表是好事，不舒服。
+10:57 < jsdc_carl> 我也認為過於強調正妹，可能會給當事人帶來困擾。
+10:57 < othrees> 看到有人拿小白MacBook 耶
+10:58 < CrBoy> othrees: 我有看到
+10:59 < fantasybz> 是保哥
+10:59 < egistli> 好像有人提到macbook小白，有人想收嘛 xd
+10:59 < fantasybz> 上次見面是Webconf 2013
+11:00 < othrees> 50 收
+11:00 < egistli> xd
+11:00 < tonyq> Lawrence 有到了嗎? 
+11:00 < othrees> XD
+11:00 < othrees> 沒見到，昨天他好像熬夜
+11:01 < ericsk> 直接用 speakerdeck 網站虛擬研討會? # Lawrence
+11:01 < jsdc_carl> 哇！是保哥耶！！
+11:01 < PTC> 問一下 Amazon攤位在哪@@?
+11:01 < jsdc_carl> (worship)
+11:01 < hinablue> [R0] 開賭盤寶哥一定講不完 XD
+11:02 < J-H> 保哥~~!!!
+11:02 < fantasybz> 哈哈
+11:02 < LionLai> ＸＤ
+11:02 < J-H> 專注100%模式開啟!!!
+11:03 < s25g5d4> yo, 大家早
+11:03 < chuiyi> 這講義是打算講兩小時嗎...
+11:03 < barneybook> [R0] 講不完+1
+11:03 < jsdc_carl> 效能調校三部曲
+11:03 < Zhusee> [R0] 效能調教三部曲（1）測量
+11:03 < tonyq> 有看到 lawrence 請他到國際會議廳前方找主持人報到 感謝
+11:03 < tonyq> 他有報到了 應該在會場內 哈
+11:03 < hinablue> [R0] 誰叫你用 IE8
+11:03 < Zhusee> [R0] 第三位講者開表最大贊助商
+11:03 < LionLai> ＵＣＣＵ
+11:03 < jsdc_carl> 當然要用 Fx 啊！
+11:04 < jsdc_carl> 三部曲：測量、理解、調校
+11:04 < StarNight> R0說了甚嗎？
+11:04 < othrees> 微軟現在是推 IE10 啦
+11:04 < chuiyi> IE
+11:04 < hlb> IE10 很好啊
+11:04 < Guest38487> 上午的後兩場都撞到想看的啊～～
+11:04 < chuiyi> IE10 有些ASP.NET跑起來怪怪的 XDDD
+11:05 < s25g5d4> 為什麼會有正妹座位表XDD
+11:05 < FrankWu> win8上...IE 10 最快=..=
+11:05 < Zhusee>  AWS 貼紙示意圖 http://i.imgur.com/jxME5O5.jpg
+11:05 < jsdc_carl> 竟然是開 Google，為啥不是 Bing 呢？
+11:05 < FrankWu> 贊
+11:05 < jsdc_carl> wwwwwwwwwwww
+11:05 < barneybook> 恩~ [R0]講者開IE10無誤 
+11:05 < jsdc_poying> 注意！Amazon 原本抽獎的獎品已經改成 $100 Credit，電子書已經沒有哩！
+11:05 < jsdc_carl> 甚麼電子書？（狀況外
+11:06 < fubuki> kindle
+11:06 < jsdc_carl> 喔
+11:06 < FrankWu> !!!
+11:07 < jsdc_poying> jsdc_carl: Amazon 有辦抽獎阿！
+11:07 < Scully> ！
+11:07 < ericsk> 這場session 大概是 IE 出現最久的一場吧.....
+11:07 < Peni> 想要貼紙
+11:07 < FrankWu> 貼紙哪找啊
+11:08 < Zhusee> FrankWu 你去他們攤位 他就會連同問卷一起給你了
+11:08 < barneybook> [R0] 作者在場，我就不講他是誰了!!
+11:08 < xdite> 抽 kindle ?
+11:08 < Zhusee> xdite: 改抽 $100 credit
+11:08 < barneybook> 又表IE8
+11:08 < FrankWu> 剛剛出去就沒找到...
+11:08 < xinbe> [R0]講的好細，看起來真的講不完
+11:08 < J-H> 問卷剛經過瞄了一下 是全英文問卷嗎XDD?!
+11:08 < Guest38487> xdite！！！！
+11:08 < jsdc_carl> 真的！IE 出現最久的一場！
+11:08 < Irvin_> 難得看到IE8
+11:09 < Zhusee> 是全英文沒錯，不過總共只有 4 題
+11:09 < Irvin_> 怎麼不是IE10 XD
+11:09 < ericsk> 這個是 IE10 啊
+11:09 < xdite> 我剛要去 R2 他攔住我叫我填問卷 我說我是講者我要去測設備
+11:09 < J-H> Will是用Windows 8吧 那應該是IE10
+11:09 < xdite> 他說你可以晚點測 先幫他填 XD
+11:09 < Irvin_> 咦，保哥不是說「我馬上開了IE8的開發者工具」XD
+11:09 < J-H> XD
+11:09 < barneybook> 現在到chrome了
+11:10 < chitsaou> http://blogs.msdn.com/b/ie/archive/2008/09/11/introducing-the-ie8-developer-tools-jscript-profiler.aspx
+11:10 < jsdc_carl> 保哥用 Win8，當然不會是 IE8
+11:10 < jsdc_poying> jsdc_carl: XD
+11:10 < ericsk> chitsaou++
+11:10 < conancat> hello world!
+11:11 < Irvin_> Chrome 這個 js heap snapshot 我一直很好奇，他照出來的記憶體大小比chrome的tab info 的記憶體差超多的
+11:11 < barneybook> [R0] Chrome分析工具比IE好好幾十倍XD
+11:11 < chitsaou> 被 GC 了
+11:11 < Irvin_> 之前在抓 memory leak 一直抓不到這個差距在哪
+11:12 < fubuki> 破舊立新
+11:12 < CrBoy> PTC: Amazon 在4F後面門外左邊
+11:12 < jsdc_carl> 會介紹到 Fx 開發工具嗎？記得保哥網站有專門錄一段影片。
+11:12 < barneybook> jsperf.com
+11:12 < CrBoy> 畫面GG
+11:12 < barneybook> 拔現了
+11:12 < Zhusee> [R0] 投影機失效
+11:13 < xdite> GG
+11:13 < PTC> CrBoy: 3Q
+11:13 < CJH> 藍畫面
+11:13 < Irvin_> https://d2dq6e731uoz0t.cloudfront.net/9928042d99517a782b7b1edbf9ea748f/as/2013-03-27%2011.44.31.png 悲劇的memory leak
+11:13 < Ryan403> http://jsperf.com/
+11:13 < Zhusee> back
+11:13 < chuiyi> "等一下要補我兩分鐘喔"
+11:13 < jsdc_carl> jsPerf 測試片段 code snippet 效能
+11:13 < jsdc_carl> 大家快去看！
+11:13 < conancat> xD
+11:13 < Zhusee> 為什麼開不出來@@
+11:14 < barneybook> 10分鐘講工具
+11:15 < FrankWu> 好細喔
+11:15 < Irvin_> 發現網頁上的 irc log 停了
+11:15 < J-H> jsperf 開不起來+1...
+11:15 < Ryan403> 投影片共38頁
+11:15 < LionLai> ＧＧ了
+11:15 < BardicheZ_> ppt當掉惹XD
+11:15 < Likey> GG
+11:15 < jsdc_dieter> [R2] Why waste your time
+11:15 < CrBoy> windows 應該是 never live demo 的支持者XD
+11:15 < PTC> www
+11:15 < Zhusee> [R0] Frozen
+11:15 < barneybook> [R0]GG
+11:15 < J-H> 看來這次要補不只兩分鐘了
+11:15 < jsdc_carl> 盡量使用 constructor 建立物件，而不要用 Object.create()
+11:16 < Hans> 其實是效能評比~~
+11:16 < chuiyi> PowerPoint當掉
+11:16 < barneybook> [R0] 這就是Demo魔咒
+11:16 < jsdc_carl> 它的 PPT 是怎麼回事！XDDDDD
+11:16 < davidyun> XD
+11:16 < HCI> 兩分鐘用完了
+11:16 < Guest38487> XD
+11:16 < J-H> never live demo
+11:16 < CJH> 超多張耶 這講的完嗎XDD
+11:16 < Irvin_> 應該要放上 office 365 的啊
+11:16 < LionLai> 冏
+11:16 < davidou> [r0]網路gg
+11:16 < jsdc_carl> 所以保哥網路斷了嗎？
+11:17 < evenwu_> 保哥！
+11:17 < yydon> 預設瀏覽器是chrome
+11:17 < davidou> 也太慘
+11:17 < FrankWu> 我看過微軟的人拿750mb PTT...果斷整場打不開= =
+11:17 < xinbe> [R0]38頁現在才12頁
+11:17 < jsdc_carl> LINQPad 有 chrome extension，好讚（離題
+11:17 < barneybook> [R0] Demo跳過
+11:17 < Irvin_> 我發現有開始啊，這是Win7吧？
+11:17 < fantasybz> 網路加油
+11:17 < xinbe> Start軟體吧
+11:17 < Guest38487> http://jsperf.com/ 掛了！
+11:17 < jsdc_carl> Win8 也可以有開始，另外裝軟體就有
+11:17 < J-H> Win 8 畫面...
+11:18 < Irvin_> XD
+11:18 < FrankWu> 改的
+11:18 < chuiyi> Win 8 的網路介面長得是右邊那排
+11:18 < xinbe> 看那個logo應該是
+11:18 < barneybook> jsperf.com可以用唷!! 有掛一下下
+11:18 < tonyq> Fred 請到第二會議室報到~
+11:18 < chitsaou> 為什麼 create 比 new 慢？
+11:18 < chuiyi> 其實是Windows 8.1 Release (疑
+11:18 < jsdc_carl> 我也不清楚，可是這種作法本來就有問題啊，應該要用 constructor
+11:18 < J-H> 記得他blog 有說怎弄出開始鍵
+11:18 < s25g5d4> isup.me表示jsperf.com活著
+11:18 < jsdc_carl> Win 8.1 暑假才會出
+11:19 < ericsk> 暑假只是 public preview
+11:19 < Irvin_> 字實在有夠小……
+11:20 < PichuChen> http://jsperf.com/object-create-vs-constructor-vs-object-literal/7
+11:20 < chuiyi> 很像視力檢查的畫面 XD
+11:20 < PichuChen> jspref.com/type-inference-performance/2
+11:20 < EIA1> 感謝 !
+11:20 < tonyq> 啊  irc log 被我關掉了 重開中
+11:20 < tonyq> Orz
+11:20 < Irvin_> tonyq: XD
+11:21 < Irvin_> 他跑在你的NB啊……？
+11:21 < CrBoy> jsdc_carl: LINQPad on Rozzz 好像不在 chrome web store 上了
+11:21 < jsdc_carl> 速度差一半叫做慢一點？！
+11:21 < jsdc_carl> CrBoy: 囧
+11:21 < J-H> 原來他有注意到時間XDD
+11:21 < Irvin_> GC被跳過了QQ
+11:21 < barneybook> 狂跳ing
+11:22 < jsdc_carl> 總結了！
+11:22 < CrBoy> 時間就是很大的問題啊
+11:22 < barneybook> 終於到主題了XD
+11:23 < CrBoy> 我其實一直不太確定「強型別」跟「弱型別」的定義.....
+11:23 < jsdc_carl> 弱型別應該就是沒有明確指定是哪一種
+11:23 < jsdc_carl> C/C++ 要指定 int, char, 之類的
+11:23 < Guest80302> 強型別的狀況下型別是必須要嚴格被規定好的
+11:23 < fubuki> duck type
+11:24 < RubenTan> http://wtfjs.com/
+11:24 < metavige_> 變數可以在執行階段變換型別
+11:24 < s25g5d4> var a=1; vs int a=1;
+11:24 < ericsk>  強型別是在 compile time 就決定了, runtime 不一樣就會爆
+11:24 < s25g5d4> 不過其實js裡的數字應該是double float...
+11:24 < tonyq__> hi ericsk 
+11:24 < ericsk> hi tonyq__ 
+11:25 < Irvin_> R0的螢幕應該頂天立地的
+11:25 < CrBoy> 但 python 是強型別....上面各位大大說的應該是「靜態型別」跟「動態型別」吧？
+11:25 < tonyq__> 請講者們提前一個 session 到前面安排 謝啦
+11:25 < Irvin_> 不夠大，需要IMAX支援
+11:25 < HermanLee> 對GC的議題比對型別轉換的議題有興趣多了....
+11:25 < Irvin_> HermanLee: ++
+11:25 < evenwu_> 下次只好租IMAX了
+11:26 < CrBoy> HermanLee: ++
+11:26 < barneybook> [R0] js新手教學
+11:26 < chitsaou> http://coding.smashingmagazine.com/2013/04/18/introduction-to-programming-type-systems/
+11:26 < HermanLee> orz
+11:26 < ericsk> CrBoy:  you're right
+11:26 < PichuChen> GC ++
+11:27 < chitsaou> always use triple equal™
+11:27 < CrBoy> ericsk: 所以我還是不太清楚強型別的定義.....orz
+11:28 < Irvin_> IMAX一天有六場，一個人400塊、一場有350人
+11:28 < jsdc_carl> 維基百科：弱型別意指一個語言可以隱式的轉換型別（或直接轉型）
+11:28 < ericsk> 應該說, 強型別是 "2" concat 2 會錯, 弱型別 "2" concat 2 就出 "22"
+11:28 < Irvin_> 只要有840k就可以在IMAX辦三百人的Conf.....
+11:28 < jsdc_carl> JavaScript 是動態型別 / 弱型別
+11:28 < J-H> 剩三分鐘...
+11:29 < ioan_> q
+11:29 < Irvin_> 這樣就不用怕投影片字太小了 \(^o^)/
+11:29 < RubenTan> parseInt(x, 10) <-- don't forget the 10
+11:30 < Peni> 不太懂2..toString()和2 .toString()是什麼
+11:30 < __Marty__> GC有趣多了,竟然跳過了 ><
+11:30 < jsdc_carl> 就是避免轉成浮點數
+11:30 < jsdc_carl> 因為遇到一個點會變成浮點數
+11:30 < LionLai> ＧＣ大概要看投影片了ＯＴＺ
+11:31 < CrBoy> Peni: 叫 js interpreter 把 2 當成物件 後面的 .ToString() 是 method call
+11:31 < Likey> [R0] 有投影片可以看嗎?
+11:31 < chitsaou> https://bugzilla.mozilla.org/show_bug.cgi?id=786135
+11:31 < CrBoy> Peni: 2..ToString() 的話就是對 2. 這個物件呼叫 .ToString()
+11:31 < Peni> 原來是這樣阿！
+11:31 < J-H> SO尬~
+11:31 < J-H> XDD
+11:31 < jsdc_carl> 快！！手機拿出來！
+11:32 < LionLai> 原來這是祕技！！
+11:32 < hinablue> 大保哥！大絕招
+11:32 < jsdc_carl> Will 保哥的 Youtube 影音中心
+11:32 < Irvin_> 錄影在youtube放大絕XD
+11:32 < CrBoy> Peni: 因為寫 2.ToString() 的話會會syntax error
+11:32 < evenwu_> youtube 大絕XDDDD
+11:32 < LionLai> 以後講者都要用這招了
+11:32 < Guest23942> 太強了 XDDDD
+11:32 < xinbe> kaykaywa.me/dGt7R
+11:32 < Andre> 最後面掃不到.XD
+11:32 < s25g5d4> ToString根本也寫錯了吧XD
+11:32 < xinbe> http://kaywa.me/dGt7R
+11:32 < CJH> 阿可以換教室嗎
+11:32 < FrankWu> http://kaywa.me/dGt7R
+11:34 < BardicheZ_> '各位同學大家早'
+11:34 < Irvin_> 有點聽不清楚
+11:35 < Irvin_> 同學XD
+11:36 < othrees> 老師好._.>
+11:36 < CrBoy> s25g5d4: 啊對不起 大小寫錯誤orz
+11:36 < barneybook|2> R1 50分才開始
+11:36 < jsdc_dieter> [R2]全職<del>殺手</del>生意人
+11:37 < CrBoy> R2回音好重
+11:37 < tomchentw> R2回音超重XDD
+11:37 < CrBoy> ping @工作人員
+11:37 < Zhusee> [R2] Rails 踢館中
+11:37 < evenwu_> 其他平台 
+11:38 < CrBoy> 7s -> 1s 立馬少掉兩個3秒！
+11:39 < jsdc_poying> 注意！lightning talk 報名表已經出來了！在報到處斜對面！
+11:39 < Ryan403> 講話速度很快
+11:39 < jsdc_dieter> 注意！lightning talk 報名表已經出來了！在報到處斜對面！
+11:40 < xinbe> 好像有偽娘....
+11:40 < chueh> R0 https://speakerdeck.com/linyiru/ai-liao-li-wang-zhan-qian-duan-kai-fa-jing-yan-tan
+11:41 < Irvin> Handlebar 超棒
+11:41 < xinbe> [R0] 只有一個工程師
+11:42 < ericsk> xinbe:  他是說只有一位前端工程師吧
+11:42 < jsdc_dieter> [R2] CDN 擋鋤頭鄉民 XD
+11:43 < PichuChen> 話說有R2的PPT網址嗎?
+11:43 < metavige_> [R1] 用到最近的 72 小時的梗阿
+11:43 < jsdc_poying> [R1] 捍衛主權！XD
+11:43 < yu0410aries> [R0]那位大大有剛剛寶哥的網址,我沒照到剛剛的QRCODE
+11:43 < PichuChen> QR code(http://kaywa.me/dGt7R): http://www.youtube.com/user/doggy8088/videos
+11:43 < yu0410aries> 感謝大大
+11:43 < J-H> 懶人包好像有
+11:44 < jsdc_poying> [R1] https://github.com/cfsghost/npk
+11:45 < metavige_> [R1] - 贊喔！這個梗不錯！爸爸媽媽都不認得！
+11:45 < aaronchi> [R1]目前為止最好笑的梗
+11:45 < barneybook|2> 通通不認得
+11:46 < PTC> 美好的生命花在IE上www
+11:47 < CrBoy> [R2] 可是 compass 做 sprite 要等好久XD
+11:48 < Zhusee> CrBoy 應該只有第一次比較痛吧？
+11:48 < CrBoy> (我很乖都有乖乖等待...)
+11:48 < Zhusee> 編完就輕鬆了XD
+11:48 < CrBoy> Zhusee: 每次 re-generate 都一樣久
+11:48 < bc___> 鬆了
+11:48 < CrBoy> 噢我是指產生 sprite 不是產生 css
+11:49 < barneybook|2> [R1] live demo
+11:49 < Zhusee> 喔喔XD 不過還是比手排快XDD
+11:51 < othrees> R0 有十點嗎，時間已經過一半了XD
+11:51 < CrBoy> 這次 xdite 的 talk 意外的基礎@@ 我竟然聽得懂XD
+11:51 < sjhuang> rails session
+11:51 < barneybook|2> 可以先問領便當在哪邊嗎????
+11:52 < JoanTW> R2 外面有誒 (飄香
+11:52 < Mervyn> 應該兩側吧, 剛剛有看到
+11:52 < JoanTW> R2 後門
+11:52 < Zhusee> [R2] 投影片 http://xdite.github.io/jsdc-2013-slide/
+11:52 < BC___> 已餓
+11:52 < Mervyn> R1 後面也有
+11:52 < PichuChen> @Zhusee 謝謝~
+11:52 < tomchentw> 人是非常懶惰的，而且看到規則會不自覺地遵循。
+11:53 < RplusTW> R2 也很有趣XD
+11:53 < Vantist> XDD
+11:53 < tonyq_> 午餐在三樓南側 北側跟四樓交誼廳
+11:54 < CrBoy> R2 slides 有個 ` 是意外嗎？
+11:54 < CrBoy> 第四個 bullet point
+11:54 < BC___> 意外
+11:54 < Vantist> 應該是意外
+11:55 < tonyq_> 三樓用餐區示意圖
+11:55 < chitsaou> 我會把 compass 生的 sprite 給 commit 進去
+11:55 < tonyq_> http://screencast.com/t/4EkznBM6
+11:55 < CrBoy> chitsaou: 我也是 但我的原因是我 prodution 沒有 compass
+11:55 < Isken__> [R0] 如何兼顧速度與品質：拋開羞恥心
+11:56 < fredchu> [R0] 如何兼顧速度與品質「拋開羞恥心」
+11:56 < CrBoy> 好奇R0
+11:56 < tonyq_> 四樓用餐區 http://screencast.com/t/nUqGhZAYo7
+11:56 < tonyq_> R0 是我也會切開做...orZ
+11:56 < Irvin_> 只有一個前端耶，一起作一作啦（耗盡）
+11:57 < tonyq_> 這個理由蠻精準的
+11:57 < hlb> 這邊有人在寫 stylus 的嗎 :p
+11:58 < CJH> r2總結了
+11:58 < CrBoy> 12:00 了
+11:58 < Irvin_> 我們的群組 line 上面有人講到， clean(this) 沒有包成 function 耶XD
+11:58 < chitsaou> *安安*
+11:58 < jsdc_dieter> [R2] "我先下班了～"
+11:58 < Vantist> 觸手...
+11:58 < Toomore> 各位大大 歡迎申請~
+11:58 < Irvin_> 是要清潔清潔布嗎XD
+11:58 < Toomore> http://registrano.com/events/coscup2013-osc-vip COSCUP 2013 開放原始碼貢獻者專屬報名方案
+11:58 < viproom> .
+11:59 < mark_> 把Rails當宗教在傳播了呀
+11:59 < CrBoy> 還有6分半@@
+11:59 < jsdc_dieter> rails 傳教士 ~"~
+11:59 < JoanTW> R2 搶便當 go!
+11:59 < CJH> r2 用餐說明了
+11:59 < RplusTW> 放飯了~
+12:00 < idreamers> test
+12:00 < jsdc_dieter> 搶便當 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+12:01 < barneybook|2> [R1]開放打臉
+12:01 < evenwu_> R0 工程師的浪漫！
+12:01 < LionLai> 看起來不是很浪漫ＯＴＺ
+12:03 < jsdc_poying> [R1] 佛地魔 <~~ 不知道是不是和當下一個等級？...
+12:03 < J-H> [R0] 在技術上有卓越表現，是工程師的浪漫...
+12:05 < LionLai> quit
+12:05 < PTC> 好餓......
+12:08 < barneybook|2> [R1]QA
+12:09 < aaronchi> [R1]source code馬上被review
+12:10 < dxseva> 搶便當摟
+12:17 < carlcarl> 剛睡醒 來看一下irc XD
+12:34 < SammyLin> 吃飽了...
+12:38 < barneybook|2> IRC艇多人的
+12:40 < barneybook|2> http://goo.gl/Dj9OF (互換聯絡方式)
+13:00 < RplusTW> 想睡
+13:00 < RplusTW> 可惡，想睡
+13:03 < othrees> 時間快到了
+13:03 < mkfsn> [R1] evenwu, allenown 大大出現了 m(_ _)m
+13:03 < s25g5d4> 跪了
+13:04 < othrees> 20年精華
+13:07 < rsghost> 請問一下AWS的抽獎抽完了？
+13:07 < LionLai> 是的
+13:07 < chuanxd> yes
+13:07 < FrankWu__> 抽完了
+13:07 < metavige> 感覺每個議題都很短，這就是 jsdc 的慣例嗎？短而有力？
+13:08  * littlebtc QAQ
+13:08 < CJH> r0 有點小聲
+13:08 < CrBoy> R0 好奇妙的自行
+13:08 < metavige> [R0] 講師講的感覺有點無力阿～
+13:09 < hinablue> [R0] 的字體超酷的！
+13:09 < CrBoy> s/自行/字型/
+13:09 < rsghost> 康熙字典體？
+13:10 < hinablue> 好像是字典體
+13:10 < jsdc_carl> 這字體的 license 可以給一下嗎？（誤
+13:10 < rsghost> 想起之前justfont有寫一篇在講康熙字典體....http://blog.justfont.com/2013/05/lets-talk-about-kanghsi/
+13:10 < RplusTW> 康熙字典體
+13:10 < PTC> [R1]https://speakerdeck.com/evenwu/ru-he-jiao-she-ji-shi-qian-duan-ji-shu
+13:10 < chitsaou> 手寫!
+13:10 < XDDDD> XD
+13:10 < mkfsn> 手寫出現了
+13:11 < CrBoy> R0 這字體讓我好不專心啊XD"
+13:11 < Zhusee> [R1] 投影片網址 https://speakerdeck.com/evenwu/ru-he-jiao-she-ji-shi-qian-duan-ji-shu
+13:11 < yu0410aries> r1的投影片很有趣
+13:13 < jsdc_carl> [R0] 前端是在使用者端瀏覽器執行
+13:14 < Irvin_> 悲劇，這個位子網路恐不通T_T
+13:14 < FrankWu__> r0 r1 字體都一起玩字型
+13:14 < Irvin_> 難怪還有空位
+13:14 < metavige> [R0] 說真的，現在很多工程師不太知道前後端是差別在哪邊
+13:14 < Infax> #Irvin_  你在哪個位置？
+13:14 < dxseva> Irvin  請問你的資訊插座編號
+13:14 < FrankWu__> [r1]手寫?
+13:14 < jsdc_carl> metavige: 真的假的？
+13:15 < Infax> 座上應該是有編號的
+13:15 < Irvin_> dxseva: 3PB4-13
+13:15 < Infax> 麻煩看一下編號並回報一下
+13:15 < Irvin_> R0 右邊最後一個
+13:15 < CJH> [R0]現在講的是基本概念吧
+13:15 < metavige> 真的～
+13:15 < CJH> [R0] 坑爹XDD
+13:15 < CrBoy> R0剛剛聽到 ingress 登入語音XD
+13:15 < Infax> Irvin_ 座上是不是有寫3D288？
+13:16 < Irvin_> Infax: 對對
+13:16 < Irvin_> 看到了
+13:16 < metavige> [R0] 不錯的登入畫面～
+13:16 < metavige> [R0] twitter bootstrap 吧～
+13:16 < chuiyi> 我也聽到Ingress 以為我幻聽...
+13:16 < chitsaou_> 高達九成!
+13:17 < locy69_> @Irvin_ 那個確定故障
+13:17 < dxseva> Irvin  沒錯 那個座位的資訊插座是故障的 
+13:17 < Irvin_> davidou: locy69_ 悲劇……還好無線看起來不錯
+13:18 < chuiyi> 被客戶煩死的那個就是前端 (誤
+13:18 < CrBoy> chuiyi: XDDD
+13:18 < infax_> #Irvin_ 恭喜你，此孔經線路組認證，他是壞的！
+13:18 < CrBoy> 也是滿中肯
+13:18 < metavige> chuiyi: +++
+13:18 < chitsaou> 外面轉播的聲音好大聲
+13:18 < Irvin_> Infax: XD
+13:18 < mkfsn> 一直聽到回音 @_@
+13:19 < BC___> #Irvin 獲得一個壞掉的插座成就
+13:19 < fubuki> sql 嵌在 js上?
+13:19 < dxseva> Irvin_你的網卡有5G 頻道嗎
+13:19 < infax_> @chitsaou 請問你在哪一間？
+13:19 < Haraguroicha> #Irvin 你的運氣超好，居然找到我確認有問題的網孔xDDD
+13:19 < locy69_> @chitsaou 哪間會議室外面轉播很大聲?
+13:19 < chitsaou> R1
+13:19 < Irvin_> dxseva: 2010 mbp，不清楚……
+13:19 < Irvin_> Haraguroicha: 成就 get
+13:19 < infax_> @chitsaou 好的，已通知人處理
+13:19 < chitsaou> @infax_ 謝謝
+13:20 < CJH> [R0] 現在講的真的有人這樣寫嗎
+13:20 < xinbe> [[R0] 真的有人會把 SQL 語法寫在前端?
+13:20 < J-H> 看到有人在玩Candy Crush...
+13:20 < davidou> 沒愈過寫前端的
+13:20 < xinbe> 我真的沒遇過
+13:20 < metavige> [R0] 我遇過啦～不過是幾年前～
+13:20 < xinbe> :O
+13:21 < metavige> [R0] 是說寫在 hidden 欄位中實在是太瞎了
+13:21 < fubuki> 沒遇過這種情形
+13:21 < xinbe> 也是
+13:21 < Zhusee> [R2] 出現手繪本 CSS 烤飛魚書
+13:21 < davidou> 不過有愈過不少是用js做驗證的 連有沒有序號都是用js驗證
+13:21 < CJH> [R0] javascript filter也很瞎
+13:21 < metavige> [R0] 寫在 javascript 中我真的就看過
+13:22 < Haraguroicha> @Irvin 你試試看打airport -s看看channel欄位的結果有沒有1xx的數字出現就可以知道有沒有5G能力
+13:22 < xinbe> 有點過於離譜
+13:22 < fubuki> 寫在js 只有在node js上看過
+13:22 < DennyHuang> [R0] 這是那個browser啊  看起來和chrome 的又有些許不同 看起來方便一點
+13:22 < Zhusee> [R1] http://d.pr/i/s1qn
+13:22 < xinbe> XD
+13:22 < Zhusee> 剛剛說錯 不是 R2 是 R1 XD
+13:22 < Haraguroicha> @Irvin 或者是用airport -I看看有沒有連線到5G的ap
+13:22 < metavige> [R0] firefox
+13:22 < davidou> [r0]firefox
+13:22 < metavige> [R0] 左上角有火狐圖案
+13:23 < DennyHuang> ?! 我在五樓看不到上面XDD
+13:23 < chitsaou> iPad 保護蓋
+13:23 < chitsaou> (yay)
+13:23 < Irvin_> Haraguroicha: 沒這個指令（不過 man 有XD）
+13:24 < Irvin_> 我找找看
+13:24 < Haraguroicha> @Irvin airport指令的位置在 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport
+13:24 < Haraguroicha> 預設這個path沒有辦法直接用   我是直接link到/usr/sbin/airport   這樣才可以直接打來用＠＠
+13:25 < Irvin_> Haraguroicha: 看起來是有 5G
+13:26 < infax_> 自從用了5G後，頭腦變清楚了，考試都100分
+13:26 < dxseva> Irvin_ 聽說連5G基地台  網路會比連2.4G 順喔
+13:26 < CJH> [R0] 酷 兩個冒號
+13:26 < jsdc_carl> [R0] 還是怪怪的
+13:26 < Irvin_>        HTC Portable Hotspot 32F0 e8:99:c4:c3:df:06 -67  6       Y  TW WPA2(PSK/AES/AES) 
+13:26 < Irvin_>                Xperia S_AlphaCID 90:c1:15:ba:47:7d -63  6       Y  -- WPA2(PSK/AES/AES) 
+13:26 < Irvin_>                   yu0410aries_pf 5c:ff:35:75:23:d5 -83  6       Y  US WPA2(PSK/AES/AES) 
+13:26 < Irvin_> XDDDD
+13:26 < Zhusee> [R1] 這是一種魯蛇的表現
+13:27 < CrBoy> 坑爺：比坑爹還慘
+13:27 < Haraguroicha> @Irvin 怎麼看起來都是2.4G的channel6@@....?
+13:27 < chiehyou> R0 5G 比 2.4 G 順很多 # 2.4G 的 channel 有點擁擠
+13:27 < Irvin_> Haraguroicha: 其實我發現按著option點右上角的wifi，就會顯示有連到 5G 了XDDDD
+13:28 < Haraguroicha> @Irvin 對，其實我正要說這件事情xDDDD
+13:28 < Zhusee> [R1] 技術問題都是假的、只有把技術做出來才是真的
+13:28 < Irvin_> 難怪覺得特別順
+13:28 < metavige> Cool! 原來還有這一招
+13:28 < yuan817> Eric Chuang講者有在R2會議室嗎？？
+13:28 < CJH> [R0] 輕薄的假象
+13:29 < davihuan> 我是線路長, 不過我還是晚上看 IRC LOG 比較輕鬆 @@
+13:29 < Haraguroicha> 就大家抱怨網路很差的時候，用5GHz的都完全無感，不能體會他們的感受
+13:29 < jsdc_carl> [R0] CSRF 的攻擊可以跟網域無關
+13:29 < davihuan> 2.4G 暗潮洶湧 XD
+13:29 < barneybook|2> 人類視覺官能委靡錯亂驗證碼
+13:29 < Oliver__> 人類視覺官能委靡錯亂驗證碼....XDD
+13:29 < Vantist> XDD
+13:29 < CJH> [R0] CAPTCHA XDD
+13:29 < chuiyi> 人籟視覺官能委靡錯亂驗證馬
+13:29 < CrBoy> 人類視覺官能委靡錯亂驗證馬
+13:30 < rsghost> 人類視覺官能委靡錯亂驗證碼
+13:30 < s25g5d4> ....
+13:30 < grass7boy> [R0] (舉手) 有怎麼樣才能把表單文字方塊自動記錄的功能關掉呢？
+13:30 < metavige> [R0] PASS!
+13:30 < chuiyi> 把這串字當成網站驗證碼也夠卡人的了
+13:30 < CJH> [R0] autocomplete=FALSE?
+13:31 < littlebtc> CAPTCHA 在前端wwwwwwww
+13:31 < grass7boy> autocomplete=false 在舊ie也work嗎？
+13:31 < jsdc_carl> [R0] 似乎可以 <textarea autocomplete="off"></textarea>
+13:32 < jsdc_carl> [R0] 但這是標準嗎？
+13:32 < grass7boy> soga .... thanks m(_ _)m
+13:32 < CrBoy> R0 置入性行銷XD
+13:32 < rsghost> 打廣告阿XDD
+13:32 < othrees> text area 也有 autocomplete 嗎
+13:32 < Oliver__> 還真的是輕薄的假象...
+13:33 < xinbe> [R0]之前FB很流行的色情影片發到塗鴉牆也都類似的方法
+13:33 < CrBoy> 那 clickjacking 怎麼防？
+13:33 < Haraguroicha> textarea應該沒有吧？ 不曾看過那個有autocomplete的功能＠＠
+13:34 < hinablue> [R0] 中木馬比中獎容易
+13:35 < barneybook|2> http://www.cirt.net/clickjack-test
+13:35 < Zhusee> [R1] 在徵設計師的時候可能要注意一下、他可能需要會喜歡「會動的東西」
+13:35 < barneybook|2> 請問工作人員，紙杯哪邊可以拿嗎???
+13:36 < idreamers> <R1> even對會眾表示:下次你應該來講一堂「設計師如何激勵工程師」
+13:37 < idreamers> 紙杯在4F南北側餐飲區都有噢~
+13:37 < grass7boy> R1 有 「他在動~~~」的梗嗎(逃)
+13:37 < barneybook|2> 不要相信任何客戶端的驗證
+13:37 < idreamers> PS.紙杯不可以帶入會議室噢
+13:37 < barneybook|2> [R0]不要相信任何客戶端的驗證
+13:38 < s25g5d4> <barneybook|2> [R0]不要相信任何客戶端的驗證 <<應該看一下這篇 #1HbnCUXp (Web_Design) 馬上被搞了 XD
+13:38 < s25g5d4> <script>alert('簡單留言板好像很有趣唷 :))');for(i=0;i<1;){alert('小妹最喜歡嗆駭客大哥了 :P');}</script>
+13:39 < wenv> 有沒有人知道 ant 的 slide 使用什麼做的？效果很有趣！
+13:40 < CrBoy> wenv: 看起來像是可以換頁的 sm (screen message)
+13:41 < Peni> [R2] CSS flexbox很好用
+13:42 < metavige> [R0]http://www.sildeshare.net or https://speakerdeck.com?
+13:42 < AChu> [R0]剛才的議程有人有投影片連結嗎？
+13:43 < davidou> http://openetherpad.org/25LBKzlw6M
+13:44 < metavige> [R0] 講師好像只放了前傳
+13:44 < Rich_> hello~
+13:45 < othrees> 3rd party JavaScript
+13:45 < infax_> @@
+13:45 < Haraguroicha> 好慘  整片的timeout
+13:46 < metavige> [R0] Sublime Text 真的不錯用～
+13:46 < Peni> [R2]待會要送Yahoo小鴨
+13:46 < J-H> 會變色的小鴨
+13:46 < barneybook|2> 用錄的
+13:47 < metavige> [R0] 不過真的是這樣快～
+13:49 < PTC> R2爆滿XDD
+13:49 < CrBoy> R0 華麗的威力展示XD
+13:50 < dxseva> ping 
+13:50 < DennyHuang> (vim user 飄過
+13:51 < HexJan> [R0]sublime 首頁展示！？
+13:51 < rsghost> vim 真男人！
+13:51 < stevece> 線上議程壞了！？
+13:51 < jsdc_carl> 啥？國際會議聽在講 Vim 嗎？
+13:52 < xinbe> subline text 
+13:52 < rsghost> 在講sublime text...
+13:52 < DennyHuang> 在 vim 可以用 plugin ctrlp
+13:52 < othrees> Ctrlp
+13:52 < rsghost> 不過其實很多vim都可以做到...
+13:52 < othrees> Multicursor
+13:52 < DennyHuang> (意圖拉攏人家用vim
+13:53 < othrees> 很多都是 sublime 先有的
+13:53 < xinbe> 我還是尬意vim
+13:53 < CrBoy> vim++
+13:53 < PTC> vim++
+13:53 < fubuki> vim
+13:53 < HexJan> vim--
+13:53 < Aotoki> vim++
+13:53 < AChu> [R0]加長F5的使用壽命
+13:53 < rsghost> console.log(vim);
+13:53 < BC___> [R0] 講者人生好多種
+13:53 < oliver__> F5的字都不見了
+13:53 < RplusTW> sublime 後援隊~
+13:54 < barneybook|2> 沒有vim
+13:54 < jsdc_carl> [R1] 設計師好累！XDDD
+13:55 < barneybook|2> 300壯士
+13:55 < fubuki> R1 內容是?
+13:55 < HexJan> [R0]坑爹呀
+13:55 < jsdc_carl> justfont
+13:55 < jsdc_carl> 講 web font
+13:55 < jsdc_carl> 中文字型體積很大，幾乎整個結構都要重寫，問題還非常多
+13:56 < jsdc_carl> 怎樣的環境根本沒辦法知道，客戶只會跟你說有問題
+13:56 < fubuki> 恩
+13:56 < fubuki> 不過他怎麼做到的
+13:57 < othrees> 沒有XD
+13:57 < Peni> [R2]設定viewport很重要
+13:57 < jsdc_carl> 就改對照表
+13:57 < jsdc_carl> [R1] 而且中文字型嚴重不足，還要找合作廠商
+13:57 < CrBoy> 後悔了....想去聽 justfont.....
+13:57 < clifflu> f5 如果壞了，還有 ctrl-r 可以用啊 ˇˇ
+13:58 < FrankWu> 還有滑鼠...
+13:58 < fubuki> 我換想去聽 justfont
+13:58 < jsdc_carl> [R1] 自動更新不可行，會造成字型服務不穩定的假象
+13:58 < jsdc_carl> [R1] 手動更新反而更好
+13:58 < barneybook|2> [r0]廣告跟厲鬼一樣
+13:58 < othrees> 其實可以提供 latest 和固定版本號兩種路徑
+13:58 < chitsaou> 跟 jQuery 不要從CDN 拉最新版的 practice 很像
+13:59 < jsdc_carl> justfont 這場在分享許多慘痛經驗
+13:59 < othrees> 和 google Ajax lib can 一樣
+13:59 < AChu> [R0] Skitch也是evernote的
+13:59 < metavige> [R0] 不過好像是 Free 的～
+13:59 < jsdc_carl> [R1] 目標客群一開始根本就找錯了
+14:00 < littlebtc> [R1] "Blog 使用者是根本不會付費的"
+14:00 < jsdc_carl> [R1] 部落客不太可能成為客源，通常會來買都是設計師
+14:00 < CrBoy> 難道 R0 是 evernote 派來的？XDDD
+14:00 < chuiyi> 待會就要講Evernote搜尋了
+14:00 < rsghost> XD....
+14:00 < CrBoy> 果然XD
+14:00 < AChu> XD
+14:01 < littlebtc> [R1] "永遠搞不清楚 ct1 到底定義啥字型"
+14:01 < chiehyou> XD
+14:01 < davidou> 出來的xd
+14:01 < fubuki> 出來了
+14:01 < AChu> 置入式行銷阿
+14:01 < oliver__> XDD
+14:01 < kpman> [R0] 都是Evernote XD
+14:01 < barneybook|2> [R0] 其實是 Evernote 行銷
+14:01 < BC___> [R0] 阿阿 出來惹
+14:01 < jsdc_carl> [R1] 模仿並不可恥！！
+14:01 < yydon> 等下會講Hello跟Food
+14:01 < chuiyi> 待會可能也會講名片收納 XD
+14:01 < jsdc_carl> [R1] 這我有很深的體認
+14:01 < yuan817> 有人知道Sean在哪裡嗎？？
+14:01 < chuiyi> Evernote Hello XD
+14:01 < BC___> [R0] Evernote置入
+14:01 < metavige> [R0] 講 hello / food 就太超過了！
+14:02 < littlebtc> [R1] CTBOX 從第一版網站就抄 orz
+14:02 < ni291187> icook和evernote有合作
+14:02 < allenown> [R1] 「這段可以不要錄嗎」 XDDD
+14:02 < chitsaou> 喔…真的跟某___站很像
+14:02 < tonyq_> 嘖嘖 XD
+14:02 < tonyq_> 欺負我沒做 html parse
+14:03 < tonyq_> 剛好呼應一下 ant 的講題 XD
+14:03 < tonyq_> ls
+14:03 < jsdc_carl> [R1] 太棒了！付一次費用，不限制字型使用數量
+14:04 < evenwu_> Zhusee 飛魚的照片借我貼 fb 可以嗎？
+14:04 < chuiyi> 有沒有快速拉好css的 >.<
+14:04 < Zhusee> evenwu_ 沒問題 請用
+14:04 < jsdc_carl> [R1] 設定檔直接都在前端 JS 調，感覺不錯耶
+14:05 < fubuki> 只要用載入JS?
+14:05 < evenwu_> Zhusee 謝謝 
+14:05 < jsdc_carl> 還要會改 css
+14:05 < yydon> [R0] 結束了 @@
+14:05 < stevece> 這adobe配的ＸＤ
+14:06 < tonyq_> 我呼應一下 ant 的講題好了
+14:06 < jsdc_carl> [R1] 以 script 載入字型永遠都會閃
+14:06 < tonyq_> 剛剛 05:49 < s25g5d4> <script>alert('簡單留言板好像很有趣唷 :))');for(i=0;i<1;){alert('小妹最喜歡嗆駭客大哥了 :P');}</script>
+14:06 < barneybook|2> r0 自己破梗
+14:06 < tonyq_> 這個訊息讓我們的 irc-discuss 頁面被 alert 無窮迴圈洗版（汗
+14:07 < tonyq_> 我剛修掉了 lol
+14:07 < Peni> [R2] Android browser對webworker支援度不佳？
+14:07 < jsdc_carl> [R1] 如果以 html tag 處理，設計師就可以自行控制瀏覽器行為
+14:07 < jsdc_carl> html tag 套用不同的 class name
+14:08 < jsdc_carl> [R1] 自動產生的 css 好噁
+14:08 < Peni> [R2]視覺化的欺敵戰術
+14:10 < jsdc_carl> FitText 套件似乎還不錯
+14:10 < jsdc_carl> 支援 web font
+14:10 < jsdc_carl> lettering.js 可以把每個字元切開處理
+14:10 < littlebtc> [R1] Q: 請問 justfont 打算什麼時候出 SSL A: 成本會增加...... orz
+14:10 < Zhusee> [R1] 提問：「請問 JustFont 什麼時候推出 SSL？」
+14:11 < Zhusee> XDD
+14:11 < tonyq_> lol
+14:11 < tonyq_> Michael 很辛苦的
+14:11 < tonyq_> 大家多買他們服務就有機會了
+14:11 < tonyq_> 哈哈
+14:11  * littlebtc [R1] :'(
+14:11 < othrees> 自己掛ssl proxy XD
+14:15 < metavige> R2 還沒結束阿～
+14:15 < tonyq_> 早上 icook 的簡報 https://speakerdeck.com/linyiru/ai-liao-li-wang-zhan-qian-duan-kai-fa-jing-yan-tan
+14:15 < tonyq_> R2 看起來會晚一點結束
+14:15 < tonyq_> 等下移動大家要辛苦一點了
+14:17 < barneybook|2> 轉移到R1
+14:20 < Zhusee> [R2] Three.js Demo Link http://begeeben.github.io/begin-threejs/
+14:22 < PTC> [R1]http://www.sarien.net/kingsquest
+14:22 < jsdc_carl> [R0] 可以到外面 Synology 攤位參觀喔，他們的產品已經在用了
+14:22 < BC___> [R2] LIVE DEMO 魔咒
+14:23 < jsdc_carl> [R0] 簡單拖拉就可以管理
+14:23 < jsdc_dieter> [R2] http://begeeben.github.io/begin-threejs/
+14:24 < jsdc_carl> [R0] 透過不斷 refresh view 的方式，減少大量 DOM 的產生
+14:25 < jsdc_carl> [R0] 簡單圖片預覽頁面！！
+14:26 < jsdc_carl> [R0] 所以 Synology 設備內建 OS
+14:26 < jsdc_carl> [R0] 真的有人在聽嗎？XDD
+14:27 < fubuki> 看圖
+14:27 < FrankWu__> 我跑錯廳了...
+14:27 < LionLai_> 恩 講到那了
+14:27 < HexJan> [R0]我很認真在看
+14:27 < LionLai_> 演講圖很重要阿！！
+14:27 < jsdc_carl> 快來 R0！
+14:27 < jsdc_carl> 連工作管理員都有了！！
+14:27 < J-H> 突然發現R0的議題比較吸引我
+14:27 < CJH> [R0]現在是在做產品demo嗎
+14:27 < LionLai_> ＸＤ
+14:28 < FrankWu__> 沒注意到是Synology= =
+14:28 < jsdc_carl> 超熱血的，NAS 可以做成這樣也不容易
+14:28 < FrankWu__> 來回去 r0
+14:28 < chuaxnd> 根本
+14:28 < FrankWu__> Synology 好用啊!!
+14:28 < jsdc_carl> 快來！（招手
+14:28 < OAO_> 啊啊啊阿=口=
+14:28 < xinbe> 他們 NAS 就是用那個來管理的
+14:28 < LionLai_> Synology的管理界面真的很棒
+14:28 < carlcarl> synology那個還滿威的吧 之前有來我們學校演講過 live demo超穩XD
+14:28 < CJH> [R0] 他現在講的都是web做的嗎
+14:28 < jsdc_carl> 怎麼辦我想敗一台！
+14:28 < jsdc_carl> 對！
+14:28 < xinbe> 敗了阿 
+14:28 < fubuki> web os
+14:28 < LionLai_> 用Extjs做的
+14:28 < xinbe> 家裡就敗一台了
+14:28 < jsdc_carl> 不過我看好像還是會跑 Java applet
+14:28 < CJH> [R0] cool
+14:28 < othrees> Pchome is your friend
+14:29 < OAO_> synology我覺得還好QNAP的比較推=w=
+14:29 < FrankWu__> 超好用的 回R0 go
+14:29 < carlcarl> 也很難進去~~
+14:29 < jsdc_carl> 快來！這好像 wmp
+14:29 < HexJan> JAVA applet是要讀取內部電腦資料才會用到
+14:29 < CJH> [R0] 根本火力展示 他都沒有講怎麼做的
+14:29 < jsdc_carl> 範例音樂也一樣，怎回事
+14:29 < LionLai_> 是指面試很難嗎ＸＤＸＤ
+14:29 < carlcarl> synology比qnap還賺 強者也很多~~
+14:29 < fubuki> html5
+14:29 < andre> 開放JSDC MEMBER團購NAS折扣......XD
+14:29 < xinbe> XD
+14:29 < jsdc_carl> 他們的 OS 太屌了！！
+14:29 < othrees> 很賺也很難進去的樣子
+14:29 < jsdc_carl> 揪團
+14:29 < othrees> 聽說
+14:30 < J-H> 可以舊換新嗎...XD
+14:30 < xinbe> extjs 官網有 webos 的簡易版
+14:30 < OAO_> 跟hitcon一樣來個基本款5400*1台吧= =+
+14:30 < jsdc_carl> JavaScript 作業系統
+14:30 < LionLai_> 寫後台extjs滿好用的
+14:30 < CJH> [R0] Synology有沒有缺人阿 感覺很酷耶
+14:31 < xinbe> 如果整個都是 free license 就更好了 XD
+14:31 < carlcarl> 現在不知道有沒有缺 不太清楚XD
+14:31 < metavige> N-User 的福，工程師的痛？ (誤
+14:31 < jefferykao> synology 不容易進去吧
+14:31 < jsdc_carl> 大會報告，有人移失一隻鐵灰色自動伸縮傘嗎？請至報到處認領。
+14:32 < carlcarl> 面試會被釘在白板上(聽幾個去面試的經驗)
+14:32 < LionLai_> ptt之前有人分享 面試丁在白板上
+14:32 < LionLai_> XD
+14:32 < CJH> 嘖嘖
+14:32 < carlcarl> XD
+14:32 < OAO_> OAOa
+14:32 < hlb> 釘在白板上 O_O
+14:32 < OAO_> 那請問各位...小弟斗膽請問
+14:32 < metavige> [R2] window.requestAnimationFrame - https://developer.mozilla.org/en-US/docs/Web/API/window.requestAnimationFrame?redirectlocale=en-US&redirectslug=DOM%2Fwindow.requestAnimationFrame
+14:32 < hlb> |---------------------------> 很大的鋼釘
+14:32 < OAO_> s牌跟Q牌的主要差距再哪OAO
+14:33 < jsdc_dieter> [R2] renderer ( scene x camera x  object )
+14:33 < yydon> [R0] 好威啊
+14:33 < jsdc_carl> 不來會後悔
+14:33 < LionLai_> Ｓ界面很棒 Ｑ好像是硬體棒
+14:33 < CJH> 大陸QQ也有做類似的東西 Synology根本狂勝
+14:33 < carlcarl> 可能也要看部門 一般RD的話最好有練過ACM之類的~~
+14:33 < xinbe> webqq 也挺不錯的
+14:33 < jefferykao> 沒練過ACM就需要天生神力
+14:34 < xinbe> http://webqq.cn/
+14:34 < chuiyi> extjs web application那套是要錢的?
+14:34 < OAO_> 了解 謝謝賴桑的解說
+14:34 < davidou> 「r0]感覺好像在看nas功能介紹...
+14:34 < xinbe> extjs 本身就是要錢的
+14:34 < jsdc_carl> [R0] 就是 NAS 啊
+14:34 < CJH> 需要acm嗎(默)
+14:34 < evenwu_> R1 的視覺效果超讚.....
+14:34 < aaronchi> extjs有兩種授權方式
+14:34 < OAO_> jsdc還好了....hitXon才是產品介紹大會阿(無誤
+14:34 < Casear> R1..safari開了就掛了...XD
+14:36 < tonyq_> 學了 JS 做產品才是實際的啊 XD
+14:36 < chuiyi> extjs的api算是超級完整
+14:36 < LionLai_> 恩
+14:36 < LionLai_> doc也很完整
+14:36 < chuiyi> 逛他的api reference是很美妙的
+14:36 < tonyq_> extjs 把開發拉到元件層級
+14:36 < LionLai_> 範例也是
+14:36 < tonyq_> 需要的技能知識會比較多一點
+14:37 < davidou> 「r0] s跟q兩家的介面都是extjs開發的 圖型介面還蠻讚的 可是有點肥？
+14:37 < appleboy2> sench touch 也是
+14:37 < appleboy2> sencha
+14:37 < jsdc_carl> Ext JS 也不是仙丹，JS 基礎是很重要的
+14:37 < OAO_> 看起來在開發RIA就好用很多?!
+14:37 < LionLai_> extjs 就是 sencha下的分支
+14:37 < jsdc_dieter> [R2] 電腦圖學 O_o
+14:37 < tonyq_> 不過這類元件都有只要上手後就可以快速解決問題跟效能難以調校的幾個特色
+14:37 < LionLai_> touch是 mobile板
+14:37 < appleboy2> 開發 mobile 不建議用 touch XD 要 Hack UI 實在太痛苦了
+14:38 < Elvisli> join now
+14:38 < tonyq_> 對，第三個特色就是 ui 難以客製化
+14:38 < metavige> 胖胖的 extjs 讓我想到 asp.net?
+14:38 < Orange_> @@
+14:38 < Orange_> @@
+14:38 < allenown> @@
+14:38 < yuan817> http://begeeben.github.io/begin-threejs/
+14:38 < rsghost> 樓上都駭客
+14:38 < Elvisli> @@
+14:38 < metavige> 拉拉畫面就搞定～
+14:38 < Orange_> Elvisli: good
+14:38 < Will_Huang> 請問，剛剛 UP Chen 剛展示的
+14:38 < J-H> 怕怕@@
+14:38 < tonyq_> asp.net 跟 Extjs 不是同一個層級的東西...
+14:38 < LionLai_> 遭 ＷＥＢ ＯＳ要被ＨＡＣＫ了
+14:38 < appleboy2> XDD 肥肥 touch 搞到公司最後整個打掉重寫
+14:39 < OAO_> @@
+14:39 < Will_Huang> 請問，剛剛 UP Chen 剛展示的 Sublime Text 2 有個可以快速搜尋多檔案的外掛是哪一套？
+14:39 < TigerHuang> @@
+14:39 < xinbe> extjs 還有一套自己寫的編輯器
+14:39 < metavige> 嗯～我只是想到，用 extjs 會不會搞不懂前後端是在幹嘛阿？
+14:39 < aaronchi> for asp.net user 可以參考ext.net
+14:39 < idreamers> <R1> 在場有很多駭客都知道，沒有任何client是安全的..
+14:39 < metavige> 哈哈～
+14:39 < tonyq_> metavige 不會 因為 data access 還是要透過 web ..
+14:39 < allenown> 意門科技 
+14:40 < metavige> 也對～
+14:40 < OAO_> 好多綿羊(羞恥
+14:40 < jsdc_carl> node.js 應該可以解決 blocking 的問題吧
+14:40 < LionLai_> extjs應該不包含後端
+14:41 < xinbe> 有附贈，不過好像沒人喜歡用
+14:41 < luzia_jsdc> 咩
+14:41 < LionLai_> synology應該是透過cgi去跟後端溝通
+14:42 < OAO_> 哞
+14:42 < appleboy2> XD
+14:43 < Orange_> @
+14:43 < Orange_> @@
+14:43 < Orange_> @@@
+14:43 < othrees> @@
+14:43 < BlueT_>  @@@@
+14:43 < BlueT_>  ---...---
+14:43 < appleboy2> @@？
+14:44 < XDDDD> @@"
+14:45 < hlb> 這邊這麼多 @, 是台灣前三大駭客正在發功嗎
+14:45 < allenown> 我看著 @@ 筆電自動的跳出了小算盤 @_@"
+14:45 < Orange_> 三大駭客之首 hlb
+14:46 < hlb> allenown: 產生報價嗎 O_O
+14:46 < hlb> Orange_: 哇你做了什麼，我的螢幕忽然黑掉了
+14:47 < jsdc_carl> 我螢幕也黑了！
+14:47 < hlb> Orange_: 我只會 SEO，大大饒了我吧
+14:47 < allenown> hlb: 我以為只有卓姓駭客會SEO
+14:47 < clkao> hlb: 小弟不當男優有十年以上，現在做做小生意給鄉民用，千萬別搞笑了
+14:47 < PichuChen> SEO XDD
+14:47 < OAO_> XDDD又是卓先生的梗
+14:48 < clkao> clkao: 小弟不當講者有十年以上，現在發發小廢文給八卦用，千萬別神話了
+14:48 < allenown> clkao++  XDDD
+14:48 < idreamers> 兩位神大大出現了!!
+14:48 < PichuChen> Clone XD
+14:48 < clkao> hlb++ # http://bingo.handlino.com/machines/50165
+14:49 < yydon> 縮小燈出現了
+14:49 < CJH> [R0] 說穿了不值錢
+14:50 < Guest27930> jj
+14:51 < chitsaou_> "法線 normal" ?
+14:51 < oliver__> 哭哭
+14:51 < metavige> 髮線？
+14:51 < clifflu> 法線指的是方向向量，用來決定反光/打光
+14:54 < carlcarl> 搬家時間?
+14:54 < aaronchi> 話說extjs的前身是YUI
+14:54 < FrankWu> 我怎剛打完 "哈" 就斷線= =?
+14:54 < jsdc_carl> 驚！還真的不曉得
+14:54 < BlueT_> 1234567890qwe123
+14:55 < liic> carlcarl: 沒這麼誇張啦, 不需要練過 ACM 一樣可以進... # 可能也要看部門 一般RD的話最好有練過ACM之類的~~
+14:55 < BlueT_> 為什麼都不會頻敝
+14:55 < barneybook|2> !!!
+14:55 < RplusTW> 準備吃點心
+14:55 < DennyHuang> 贊助單位能給這麼有值量的議程還滿不錯的
+14:56 < tonyq_> 我們對議程審核很嚴格..
+14:56 < chuaxnd> 口卡口卡
+14:56 < yuan817> http://begeeben.github.io/begin-threejs/carousel.html
+14:56 < ericsk> tonyq_++
+14:57 < DennyHuang> 好傷感的問題XDD
+14:57 < tonyq_> ie7 早就該被丟掉了
+14:57 < tonyq_> XDDD
+14:57 < XDDDD> IE7 XDD
+14:57 < PichuChen> 請問一下 你們這個系統支援IE7嗎?
+14:57 < LionLai> 怕的是還有用IE6ＱＱ
+14:57 < tonyq_> 子母畫面又出現了 我去回報一下..
+14:57 < oliver__> 萬惡的IE 7
+14:57 < tonyq_> 是說現在出現子母畫面好像也沒差就是了...
+14:58 < OAO_> 台北市政府是IE7...
+14:58 < tonyq_> ie7 市佔應該很低吧
+14:58 < tonyq_> 他不是 os based 的 browser 又很短命 （我記得半年還一年內就換了 ie8
+15:01 < OAO_> 午茶時間瞬離一堆
+15:14 < carlcarl> liic: 練過ACM也不會很誇張吧XD 
+15:17 < xinbe> 台灣現在 acm 技術會的人已經越來越少了
+15:23 < tonyq_> 有沒有人掉了東西的 記得認領 http://imgur.com/1y3b4WJ
+15:23 < tonyq_> 去報到台認領 感謝
+15:25 < dxseva> ping
+15:26 < jsdc_carl> pong
+15:26 < liic> carlcarl: 推薦來面試的學弟只有兩位有練過 ACM, 比例非常低 XD
+15:27 < xinbe> 不要再談這個傷心的話題了，這裡是 JSDC
+15:29 < CJH> 30歲了才開始練acm來得及嗎(遮臉(
+15:30 < jsdc_carl> [R0] KKBox 一起聽
+15:30 < StarNigh1> 傷眼...
+15:30 < chiehyou> [R0] 出音
+15:30 < Zhusee> [R0] 講者 COSPLAY XDDDDDD
+15:30 < PichuChen> 可以來報CPE喔 
+15:30 < PichuChen> 如果要練ACM的話 ((推坑
+15:31 < jsdc_carl> [R0] 眼睛好痛！
+15:31 < Zhusee> [R0]「KKBOX 立志成為全台灣最宅的公司」
+15:31 < barneybook|2> ㄎㄎ科技
+15:32 < fubuki> kerkerbox
+15:32 < tonyq_> 關於我(嘆氣)
+15:32 < othrees> ㄎㄎㄎ
+15:32 < dxseva> ㄎㄎㄎ
+15:32 < PichuChen> ㄎㄎㄎ
+15:32 < OAO_> 一起聽ㄎㄎㄎ
+15:32 < barneybook|2> ㄎㄎㄎ
+15:32 < mouson> 科科科
+15:32 < CJH> ㄎㄎbox
+15:32 < mouson> 真的很宅～
+15:32 < barneybook|2> ㄎㄎbox
+15:33 < davidou> 有ro照片嗎
+15:33 < chitsaou> R1 爆滿
+15:33 < ericpi> 每次我介紹科科科都沒人相信... orz
+15:33 < CJH> R1爆滿 yahoo鴨鴨威能
+15:33 < OAO_> 是鴨鴨嗎?
+15:34 < CJH> 桌上擺了四隻紫鴨
+15:34 < OAO_> 香港那隻被點爆的不錯...
+15:35 < mouson> 似乎可以發動團購 SubLime Text 
+15:35 < mouson> 超過50人只要50US (原價70US)
+15:35 < mouson> https://www.sublimetext.com/buy
+15:35 < chitsaou> 四隻
+15:35 < chiehyou> [R0] 大家一起聽歌
+15:35 < CJH> [R1] 注入強健的福華靈魂
+15:36 < fubuki> R1 內容是?
+15:36 < fantasywind> Sublime Text +1
+15:36 < OAO_> 所以node.js在哪...(目
+15:36 < othrees> Service plus
+15:36 < CJH> [R1] 樸實與浮華
+15:36 < othrees> Performance and usability
+15:37 < fubuki> 聽起來很像是設計相關
+15:37 < xinbe> [R0] 到目前為只都還在工商服務啊
+15:37 < CJH> [R1] 講到javascript大家就只想到 跳新視窗
+15:37 < fubuki> 現在開始了
+15:38 < RplusTW> 什麼都找
+15:38 < RplusTW> 什麼都不奇怪
+15:38 < chitsaou> 「他就是雅○牌的奇○○」
+15:38 < CrBoy> Yahoo 牌的奇集集XD
+15:38 < CrBoy> 咦？irc有不可以置入行銷嗎？XDD
+15:38 < barneybook|2> 我不是jserv大大
+15:39 < CJH> [R1] 只要發現那朵花一直轉不停 就是市府站到了
+15:39 < CJH> [R1]出現站票
+15:39 < CrBoy> 原來中研院跟市府站這麼進...
+15:39 < barneybook|2> 哪來這麼多NODE.js
+15:40 < CrBoy> s/進/近/
+15:40 < jsdc_carl> 超多的
+15:40 < jsdc_carl> KKBOX 現在在介紹第一版架構
+15:40 < yydon> [R1] 鬼屋換重機
+15:40 < barneybook|2> 有人幫筆記R1嗎???
+15:41 < J-H> R2漫畫風來了...
+15:41 < CJH> [R1] Yahoo真的是什麼死人骨頭都賣
+15:41 < CrBoy> Yahoo專產白痴問答集
+15:41 < barneybook|2> 六分鐘挺有用的
+15:41 < J-H> [R2]靠杯，它顯示無法連線上網耶...
+15:42 < jaster_> 最好一般使用者看這麼細XD
+15:42 < fubuki> rabbitmq
+15:42 < J-H> 打錯 是[R1]
+15:42 < grass7boy> 種花電信再度中槍(淚)
+15:42 < jsdc_carl> 一起聽總共改了三次？
+15:42 < tonyq_> fred 有在嗎
+15:42 < CJH> [R1] 工程師的用心 已經確實的傳到使用者的心坎裡了
+15:42 < CrBoy> 會不會連不回來....
+15:43 < chitsaou> live demo!
+15:43 < yydon> [R1] 回不來了
+15:43 < yydon> xdxdxd
+15:43 < CrBoy> 看來......真的連不回來了......
+15:43 < CrBoy> XD
+15:43 < grass7boy> 可是網路 回不來了
+15:43 < ddio> XD
+15:43 < davidou_> 「r1]網路回來的時候呢？轉頭
+15:43 < CJH> [R1] 網路回不來了XDD
+15:43 < Oliver__> 我們都在市府站???(誤)
+15:43 < chitsaou> gg
+15:43 < jaster_> 結果網路悲劇XD
+15:43 < jsdc_carl> [R0] 開始介紹 comet streaming 了
+15:43 < yydon> GG
+15:43 < RplusTW> 網路回來後就能點了
+15:43 < fubuki> [R1]好像很歡樂
+15:43 < RplusTW> 可是瑞凡~ 
+15:44 < davidou_> 回不來惹
+15:44 < jaster_> [R1] 講者怎麼這麼有趣w
+15:44 < RplusTW> wwwwww
+15:44 < davidou_> 麻瓜www
+15:44 < CJH> [R1] 對麻瓜來說 ajax不能上下頁很困擾
+15:45 < J-H> [R1]PJAX = pushState + AJAX
+15:45 < Benson> 為什麼感覺在拖時間@@
+15:45 < xinbe> html 5 history 不介意 IE 的話在ajax挺好用的
+15:45 < RplusTW> XDDDDD
+15:45 < Oliver__> 瑞凡出現了
+15:45 < davidou_> 「r可是銳煩xd
+15:45 < jaster_> [R1] 瑞凡梗w
+15:46 < CJH> [R1] 嗆591回不去了
+15:46 < grass7boy> 拿591來嗆啦XDD
+15:46 < CJH> [R1] pjax支援網址直接分享
+15:46 < davidou_> 他的網址會把所有茶過的過程都記下來˙耶
+15:46 < chitsaou> 上一頁搜尋結果 | Y: ✓ (勝) | 591: X |
+15:47 < davidou_> 所以我查過幾百個 網址就會有 帝寶 漢堡 歌德保  xx保..
+15:47 < AChu> [R1]狂抽猛送
+15:47 < BC___> 富堡
+15:48 < jaster_> [R1] 其實是在推他們家的網站w
+15:48 < metavige> 現在在談 Cons
+15:49 < CrBoy> 好奇 服務+ 的瀏覽器支援狀況如何....
+15:50 < chitsaou> HTML5 boss key!
+15:50 < jaster_> [R1] 小地方作的真好
+15:50 < CrBoy> jaster_: 真的
+15:51 < CrBoy> 魔鬼藏在細節裡
+15:51 < xinbe> [R0] 有點悶
+15:51 < RplusTW> R1 正在狂抽猛送中
+15:52 < ni291187> R0超悶
+15:52 < metavige_R0> 可能是因為講師的語調相當低沈吧
+15:52 < CrBoy> 那 mighty blue bar 可以用 jk 移動嗎XD
+15:52 < tonyq_> 這張採地雷圖好經典
+15:53 < fredchu_> 真的有 hotkey
+15:53 < CrBoy> 真的可以XDDDDDDDDDDDD
+15:53 < chitsaou> XDD 可以耶
+15:53 < jaster_> [R1] 有jk超棒 XD
+15:53 < chitsaou> wads (X)
+15:53 < CrBoy> 突然覺得 yahoo 服務+ 跟我的 mindset 好相近(LOL)
+15:54 < RplusTW> R1 把服務+當星海
+15:54 < CrBoy> 小確幸XD
+15:54 < PTC> 看到旁邊有人在玩GTA www
+15:54 < CJH> [R1] 小卻幸
+15:54 < J-H> 會有種程度的小確幸
+15:54 < FrankWu> 悶
+15:55 < RplusTW> ／跳到搜尋框 
+15:55 < CJH> [R1] 也是火力展示
+15:55 < jaster_> [R1] ......好像有點強大w
+15:55 < CrBoy> 發現有個缺點....他 jk 移動時的 blue bar 都在畫面最上面@@
+15:55 < RplusTW> 我記得我是在Opera第一次看到
+15:55 < fredchu_> [R1] 服務+火力展示太強大
+15:55 < japie> 這次議程為何沒有abstract呢?
+15:56 < chitsaou> jjj 到底會不會換頁呢？
+15:56 < CJH> [R1] 看得出來工程師有用心在規劃功能
+15:56 < othrees> 不能Backspace回上一頁
+15:56 < japie> 這樣變成單看名字決定要聽啥@@
+15:56 < Zhusee> [R0] 「用 JavaScript 寫 server 好像很愉快⋯⋯但是請大家三思而後行」
+15:56 < luzia> 希望有錄影檔 T^T
+15:56 < PTC> www
+15:57 < mlwmlw> 噢噢噢噢噢噢
+15:57 < fubuki> 目前台灣公司使用nodejs有哪幾家嗎
+15:57 < chitsaou> 「User 感受到的，就只有快☆」
+15:57 < ericpi> Y!、MiCloud、KKBOX
+15:57 < MrOrz> Fandora
+15:58 < ericpi> 應該還有不少公司有利用 node.JS
+15:58 < chitsaou> Web SQL 說要被丟掉了… http://en.wikipedia.org/wiki/Web_SQL_Database
+15:59 < MrOrz> 大四上時說 deprecated，我現在碩一下學期 XD"
+16:00 < fubuki> 有聽過是開發app遊戲server
+16:00 < chitsaou> 「page render 做不好，畫面閃跳少不了」
+16:00 < CJH> [R1] page render做不好 畫面閃跳少不了
+16:00 < fubuki> R1 有slide嗎
+16:01 < davidou_> 矯情
+16:01 < wenv> r1 因為我們不想讓大家看到我們裸體
+16:01 < ddio> http://mei.homin.com.tw/Keynote_plain_and_vanity_yahoo.html#!p=0
+16:01 < jaster_> [R1] 太腳勤w
+16:01 < RplusTW> 實在有夠好笑
+16:01 < CJH> [R1] css要放最開頭
+16:02 < CJH> [R1] css沒放最開頭會被看到裸體XDD
+16:03 < barneybook|2> R0 投影GG了
+16:04 < xinbe> 想說怎麼還沒開始
+16:04 < jaster_> [R1] 可以了解講者為什麼要常常加班....細節實在很多...
+16:05 < chitsaou> [R1] 惡意擾人的購物社團
+16:05 < mark_> 每個功能都有名字 hmm
+16:05 < barneybook|2> R0 英文場
+16:06 < xinbe> [R0] 又要訓練英聽了
+16:06 < metavige_R0> 英文有腔調
+16:06 < sjhuang> malaysia @@
+16:07 < jsdc_carl> R0 超威
+16:07 < chiehyou> 頗專業的感覺
+16:08 < chitsaou> 季先生
+16:10 < fripig> 不知道是不是新加坡片看多了...這個腔調蠻能接受的
+16:10 < mouson> +i
+16:10 < fripig> 應該說聽得蠻習慣的XD
+16:11 < chuiyi> simple 的腔調好像印度人
+16:11 < chuiyi> 好像TBBT的Raj
+16:12 < wenv_> r0 講者是新加坡人嗎？
+16:12 < tonyq_> r0 是馬來西亞人
+16:12 < xinbe> 馬來西亞
+16:12 < chuiyi> 馬來西亞？
+16:12 < wenv_> 謝謝
+16:12 < TigerHuang> 報到處這裡拾獲一台Nokia的貝殼機，有遺失的會眾請到報到處來領取
+16:13 < tonyq_> 以前失物都很快找到的
+16:13 < tonyq_> 今天的失物待好久 XD
+16:13 < chuiyi> 可能想換手機？
+16:13 < begeeben> 他可能想趁機換android
+16:13 < xinbe> simple、contury、longer 這些尾音聽起來挺有趣的
+16:13 < grass7boy> 現在才知道為什麼Google的js source會被拿麼多註解包起來了(筆記)
+16:14 < fripig> 會不會失主跑回去找了
+16:14 < tonyq_> what can fail , WILL FAIL
+16:14 < MrOrz> 失物主人會不會提早離開了啊  XD
+16:14 < tonyq_> maybe 各廳已經各自廣播兩次以上了
+16:14 < tonyq_> Orz
+16:14 < fubuki> 剛好都錯過
+16:14 < xinbe> 手機應該好找，其他失物就比較麻煩了吧
+16:15 < PichuChen> 跑回家找手機?
+16:15 < begeeben> 他可能刻意想留給誰...?
+16:15 < metavige_R0> 剛在座位旁才撿到一把雨傘～
+16:15 < aaronchi_> 也許不是這次活動遺失者
+16:15 < xdite> 有人撿到一顆 magic mouse 嗎？
+16:15 < xinbe> begeeben: 剛聽完你們那場，你們公司有玩過 asm.js 嗎?
+16:15 < begeeben> 沒有
+16:16 < ni291187> 會不會是掃地阿姨的...
+16:16 < tonyq_> asm.js 明天會有人可以問
+16:16 < tonyq_> lightning talk 講師清單已經出來囉
+16:16 < xinbe> 了解
+16:16 < fubuki> osdc有講過一次
+16:17 < tonyq_> 請到 http://jsdc.tw/schedule  確認
+16:17 < tonyq_> 等下也請直接到國際廳右前方第一排來報到  all lightning talks 
+16:18 < davidou_> [r1]剛剛那個縮圖的網頁有誰知道在哪嗎
+16:18 < xinbe> lighting talks 有額滿了嗎?
+16:18 < chuiyi> [r0]黑底灰字 Orz
+16:18 < DennyHuang> LT講者如果不希望投影悲劇 敬請準時報到提早測試投影無誤哦
+16:18 < chuiyi> 白字也有點看不到
+16:19 < fripig> 字會閃ORZ
+16:19 < fubuki> 好小
+16:19 < clifflu> [r0] batman ! Hero of the night~
+16:20 < BC___> lighting talks 會在R0？
+16:20 < jsdc_poying> BC___: 應該是滴
+16:20 < DennyHuang> yep
+16:20 < davidou_> [r1]投影片有分享出來嗎
+16:20 < begeeben> he's a hero that Gotham deserves
+16:20 < BC___> Thanks
+16:22 < J-H> [R1]WebP JPEG品質 大小為JPEG 2/3
+16:22 < xinbe> 這兩天的 Google IO 已經有炫耀過了
+16:23 < xinbe> video 還有 vp9 打趴 mp4 part 10
+16:23 < tonyq_> @BC___ yes, lightning talk will be at R0.
+16:23 < chuiyi> Google會推進Html5標準裡嗎 目前webm是vp8?
+16:24 < Zhusee> vp8 不是有專利問題嗎
+16:24 < Zhusee> 不知道 vp9 繞開了沒
+16:24 < othrees> HTML 標準不限制格式
+16:25 < xinbe> 專利問題不是說要使用了，大家才會開始找碴嗎 XD
+16:25 < wenv> on defensiven programming, once I talked about it with other erlang engineers in my company. They said, "You don't do defensive programming in erlang. You just let them crash and decide to or not to start them again." Which is interesting and makes code really clean.
+16:26 < xinbe> [R0] 每次看到 js 的 scope ，都覺得這樣的寫法好有趣
+16:27 < dxseva> ping
+16:27 < xinbe> pong
+16:28 < tonyq_> 其實像 java 也能玩這種 trick 啊
+16:28 < tonyq_> 只是限定 final variable 
+16:28 < begeeben> 考試常考那個，不過真的寫起來不好維護
+16:28 < jaster_> [R1] 非常快速的演講XD
+16:29 < AChu> 沒轉播Q_Q
+16:29 < tonyq_> R0 這寫過 nodejs 的人應該會很有共鳴
+16:29 < xinbe> XD
+16:30 < tonyq_> 我覺得只是大家英文沒跟上 所以才沒笑 哈
+16:30 < clifflu> callback hell 的問題大公恰好提過了 ㄎㄎ
+16:30 < tonyq_> Proper error handling policy
+16:30 < begeeben> 做遊戲動畫也是XD
+16:30 < tonyq_> intelligent logging 
+16:30 < tonyq_> 是啊 那個議題就是要用那樣解的
+16:31 < tonyq_> 把訊息藏起來的 code 
+16:31 < tonyq_> 那是跑 node，把 output 輸出到 /dev/null
+16:31 < tonyq_> i will find you , and i ill crash you
+16:31 < tonyq_> lol
+16:31 < jsdc_poying> XDD
+16:31 < xinbe> [R0] 還蠻少見的，以為只有在系統場才會看到這個 > /dev/null 2>&1
+16:32 < clifflu> 2>&1 是把 stderr 也導到 null ( stdout)
+16:32 < tonyq_> 還好吧 
+16:32 < tonyq_> 哈
+16:32 < MrOrz> git blame www
+16:32 < tonyq_> general error deteched!
+16:32 < tonyq_> what the fcking error is 
+16:35 < metavige_R0> Reliability & Consistency > Speed
+16:37 < CrBoy> 從四樓後面的樓梯走上二樓XD
+16:38 < othrees> 四樓上去是五樓吧XD
+16:41 < chuiyi> Stem OS!
+16:41 < fantasybz> Lightning talks~~
+16:41 < xinbe> 幹 OS
+16:42 < jason3e7> quit [Remote host closed the connection]
+16:42 < jason3e7> 16:48 < CrBoy> 從四樓後面的樓梯走上二樓XD
+16:43 < CJH> 請問有辦法撈離線過程中的訊息出來看嗎 我是用mIRC
+16:44 < fubuki> 之後會放全部log吧
+16:45 < CrBoy> LT 清一色 MacBook?
+16:45 < CrBoy> CJH: 無法
+16:45 < yydon> 線比較好拔吧
+16:45 < CJH> 謝謝回應
+16:45 < fantasybz> 哈哈
+16:46 < chiehyou> XDD
+16:46 < CrBoy> 原來XDDDD
+16:46 < jsdc_dieter> audio sprite: bumblrt to speech
+16:46 < fantasybz> ~~
+16:46 < metavige_R0> Cool
+16:46 < CrBoy> 真的是經典範例！！！！XD
+16:46 < jsdc_dieter> 還數到20 是怎樣 XD
+16:47 < BCLee> 可以數到99
+16:47 < CJH> 專業
+16:47 < metavige_R0> 11 = 1 + 1
+16:47 < jsdc_dieter> "謝謝大家請坐"
+16:47 < wenpei> 真是辛苦他了
+16:47 < chitsaou> 人肉 de-spriting 
+16:47 < chuiyi> 聽這麼多次不會崩潰嗎
+16:47 < CJH> 還以為是自動抓 原來是手工XDD
+16:48 < patw> http://zhusee2.github.io/bumbler-to-speech/
+16:48 < dxseva> 推 線比較好拔
+16:48 < barneybook|2> 時事梗好
+16:48 < CrBoy> 這場根本就是上來 demo XD
+16:49 < barneybook|2> 總統梗
+16:49 < metavige_R0> 其實現場寫應該也來得及吧～
+16:49 < jaster> 只是來表馬皇的w
+16:49 < jsdc_dieter> http://bit.ly/bumbler
+16:49 < chuiyi> 待會會有菲律賓DDoS嗎 lol
+16:50 < barneybook|2> http://zhusee2.github.io/bumbler-to-speech/
+16:51 < barneybook|2> 剛剛那個網路引擎是啥?
+16:51 < jaster> 我竟然聽不懂他在講什麼w
+16:51 < CJH> 講話超快== 
+16:51 < rsghost> 強調選擇 (rofl)
+16:51 < DennyHuang> 有點酸XD
+16:51 < CrBoy> 小B，不意外XD
+16:52 < jaster> 他說是小B的是我以為是小畢..........(離太遠看不到人XD)
+16:52 < xinbe> 樂動魔方
+16:52 < SarsTW> 他這次已經講的不算快了 XD
+16:52 < yc> 講的快咬字要清楚阿XD
+16:52 < CJH> node.js最潮
+16:52 < CrBoy> jaster: :o
+16:52 < chuiyi> xdite拍桌
+16:53 < CrBoy> 我聞到了被拔線的味道....
+16:53 < barneybook|2> 有機會
+16:53 < CJH> 聽不清楚因為他一直轉頭吧 沒對著麥克風
+16:53 < RplusTW> 突然覺得我中文不太好的樣子..
+16:53 < BCLee> 有慢速播放按鈕嗎
+16:53 < xinbe> 我覺得我有聽力障礙
+16:54 < clifflu> 去幹他 去幹他 去幹他 怎麼幹啊啊啊
+16:54 < lindsayrain> 比英文還難懂
+16:54 < jaster> 是香港人來著? 總覺得很像廣東話
+16:54 < chitsaou> 「一樣是小綠綠 中女中和北一女不一樣」
+16:54 < rsghost> li*ode嗎
+16:54 < xinbe> 日本的應該不是吧
+16:54 < CJH> 要拔線了
+16:54 < metavige_R0> 講的完嗎？
+16:55 < Ioan_> [大會公告] 請問誰有遺失手提袋, 內有滑鼠
+16:55 < barneybook|2> 準備
+16:55 < yydon> 來了來了
+16:55 < CJH> 準齁
+16:55 < Peni> safe
+16:55 < CJH> 超準
+16:55 < xinbe> DigitalSwift ?
+16:55 < CrBoy> Ioan_: 什麼滑鼠？
+16:56 < CrBoy> Ioan_: 剛剛 xdite 有問有沒有人撿到 magic mouse
+16:56 < rsghost> http://www.sakura.ne.jp/
+16:56 < jsdc_dieter> http://touchlim.it
+16:56 < rsghost> 看起來是這家
+16:56 < xdite> Ioan_: 有可能...是我的
+16:56 < JoanTW> audio.playbackRate 放慢  :P
+16:57 < Ioan_> For xdite 大大 有  麻煩請到工人休息室領取  
+16:57 < Ioan_> 麻煩請帶筆電來配對
+16:57 < Ioan_> 謝謝
+16:58 < jsdc_dieter> www.tin.tw
+16:58 < CJH> 把妹達人
+16:58 < DennyHuang> Project init的關鍵XD
+16:58 < CJH> 織田紀香是哪位阿?
+16:58 < jaster> wwwwww
+16:59 < jsdc_dieter> 前端設計師程式設計師都是*設計師*
+16:59 < CrBoy> 我有這張貼紙!XD
+16:59 < littlebtc> 超歪的wwwwww
+16:59 < metavige> https://www.facebook.com/norika1207
+17:00 < CJH> github版本管理
+17:00 < jsdc_dieter> *貼心*的男人要作筆記
+17:00 < CrBoy> 那有 social 功能嗎？
+17:00 < CrBoy> 還有一分半耶
+17:00 < Zhusee> Live Demo… 時間不夠（立馬換頁）
+17:01 < CrBoy> DEMO 勒？(敲碗)
+17:02 < chitsaou> *設計師
+17:02 < jaster> 反正大家都設計師就對了w
+17:02 < grass7boy> 噗浪的搜尋最近好像怪怪的0rz...
+17:02 < jsdc_dieter> Irvine: 噗浪最近有點胖
+17:02 < grass7boy> 我被cue到了！
+17:02 < rsghost> ....
+17:03 < rsghost> 原來我掛掉是因為這樣
+17:03 < CrBoy> 狂吃XDDD
+17:03 < jsdc_dieter> 悲劇 XD
+17:03 < CrBoy> 還好我都用 plurk mobile....
+17:03 < chitsaou> 穩定成長 xdd
+17:03 < jaster> 是說最近有變好嗎 XD
+17:04 < littlebtc> "大神寫的 Code 都是很經簡單是我看不懂" -- @irvinfly
+17:04 < littlebtc> 精簡 qq
+17:04 < xinbe> 看起來來不及了
+17:05 < begeeben> 那個線圖
+17:05 < begeeben> 如果是股票多好
+17:05 < xinbe> XD
+17:06 < chuiyi> Chrome的記憶體觀察似乎不是很準?
+17:06 < xinbe> 幹OS
+17:07 < xinbe> 名稱不好，所以投影機也不給力?
+17:07 < fantasybz> 哈哈
+17:08 < Zhusee> 傳真機的資安問題XDD
+17:08 < barneybook|2> 傳真機有資安問題
+17:08 < littlebtc> "是不是我家傳真機有資安問題wwwwwww"
+17:09 < jaster> XDDDD
+17:10 < xinbe> 沒介紹那一套 OS 啊
+17:10 < begeeben> 這不是昨天晚上吃飯的slogan嘛
+17:10 < barneybook|2> 原來傳真機可以賺錢~
+17:10 < CrBoy> 隔壁的公司跟我買了一台XD
+17:10 < jsdc_dieter> Stem OS
+17:10 < chuiyi> OSDC好像介紹過 XD
+17:10 < SarsTW> Stem OS
+17:10 < barneybook|2> http://stem.mandice.org/
+17:10 < jaster> 看來隔壁公司也一起被駭了w
+17:12 < Peni> 不放全螢幕？
+17:13 < rsghost> 時間夠嗎..?
+17:14 < DennyHuang> power point設定問題  全螢幕會悲劇  來不及調 所以......
+17:14 < CrBoy> 有的是程式設計師 有的是一般設計師(村民的意思)
+17:14 < RplusTW> 鐘響要到城鎮中心集合嗎?
+17:15 < rsghost> 我的設計師都擠在我的城鎮中心附近。 難怪你會勝利！看來我該讓賢了。
+17:15 < CrBoy> rsghost: ++
+17:15 < barneybook|2> 拔現了
+17:15 < barneybook|2> ㄎㄎ
+17:15 < jaster> 歐歐歐
+17:15 < barneybook|2> ㄎㄎ!!!
+17:16 < jaster> AngularJS!!
+17:16 < rsghost> tonyq看起來超開心
+17:16 < CJH> 開寶箱
+17:16 < jsdc_dieter> 終於拔到了佛心啦XD 
+17:16 < CrBoy> 怎麼很像抽獎XDDDD
+17:17 < begeeben> xdite的magic mouse?
+17:17 < jaster> 好多獎品(?)
+17:17 < jsdc_dieter> 好多東西
+17:17 < LionLai> quit
+17:17 < mouson_> 滑鼠如果是magic mouse的話，是xdite的
+17:17 < CrBoy> 大家明天見
+17:17 < StarNight> byebye
+17:17 < jaster> 撤退~大家明天見w
+18:20 < mark____> jsdc.tw連不到？
+19:00 < clifflu> mark____: 我在家連 jsdc 是好的
+21:43 < flyworld> 各位帥氣的講師、贊助商、會眾。記得明天憑你的名牌簽到並領取便當券喔！
+21:43 < flyworld> 如果有人有失物，請到報到組詢問台找我！謝謝！
+21:49 < RplusTW> 明天還能領發票嗎? 今天忘記拿了
+21:49 < flyworld> 可以的
+21:49 < flyworld> 請到報到處旁邊ｍ
+21:50 < flyworld> 一樣是詢問台 可以領取
+21:57 < RplusTW> 甘溫
+23:30 < clkao> 幫懶人包開了 folder: http://hackfoldr.org/#/jsdctw2013
+
+Day 2
+========
+
+--- Day changed Sun May 19 2013
+00:23 < FrankWu> http://hackfoldr.org/#/jsdctw2013 讚!! 快來填 梗全集XDD
+00:29 < test_> test
+00:59 < FrankWu2> test
+01:05 < FrankWu> test
+01:06 < test__> 234
+01:06 < FrankWu> test
+01:08 < FrankWu> test
+01:09 < test_> 1
+07:40 < PTC> 大家早～～
+07:42 < SammyLin> 早呀
+07:42 < bensanuj> 大家早!!
+08:23 < Ioan_> 早安 
+08:33 < FrankWu> http://hackfoldr.org/#/jsdctw2013
+08:34 < Peni> 大家早安
+08:37 < kerry> 安安你好
+08:38 < RplusTW> 10人就走
+08:38 < yuan817> 這裡是元兒～XDDD
+08:38 < J-H> 各位真早@@
+08:38 < CJH> 早安
+08:38 < metavige> Good morning!!!
+08:38 < jsdc_idreamers> 這裡是紀錄組<卡賓>
+08:39 < FrankWu> 早
+08:39 < kerry> XD FrankWu
+08:40 < jsdc_carl> 早！:-D
+08:41 < jsdc_carl> 大家應該還在路上
+08:41 < CJH> [R0] 目前坐了4~5成
+08:42 < jsdc_carl> 超期待 MVC / MVP / MVVM 那場，有興趣的朋友不要錯過喔！
+08:43 < RplusTW> 有人有昨天lighting talk的議題跟講者嗎?
+08:43 < RplusTW> 昨天FB有看到一張相片 不過眨眼間又找不到了 orz
+08:43 < CJH> 官網schedule不是有更新嗎
+08:44 < RplusTW> www
+08:44 < RplusTW> 真的 感謝~
+08:44 < jsdc_carl> http://jsdc.tw/schedule/
+08:45 < FrankWu> 在轉貼一下 昨晚看到的連結 http://hackfoldr.org/#/jsdctw2013/
+08:46 < barneybook> 大家早安
+08:46 < barneybook> 差點忘記要進來
+08:46 < jsdc_carl> A書早安！
+08:48 < JSDC-Staff> 053
+08:48 < JSDC-Staff> RDOKNU021
+08:48 < bensanuj> 目前r1還滿空的
+08:49 < CrBoy> 大家早
+08:51 < jsdc_carl> CrBoy: 早！
+08:52 < jsdc_idreamers> <---我只是宣布一下遺失物的尋找方式，居然打完就斷線 orz
+08:52 < Truesun> 早安
+08:54 < CJH> 開場了 R0約坐 6~7成
+08:54 < jsdc_carl> jsdc_idreamers: 我的螢幕怎麼黑了？！
+08:54 < jsdc_poying> 昨天太累了，今天大家都爬不起來 ?!
+08:55 < Et_> r2坐兩成
+08:56 < CrBoy> 138秒
+08:57 < aaronchaing> R1好空
+08:58 < JSDC_Ioan> test
+08:58 < jsdc_carl> jsdc_poying: poying 超強，12點睡還起得來！
+08:58 < jaster> 大家早w
+08:59 < FrankWu> 我兩點睡= =
+08:59 < CJH> 報到率高達九成五
+08:59 < CJH> 擔心便當一度短缺
+09:00 < jsdc_carl> 報到率高達九成五，便當竟然還會短缺，超威！
+09:00 < jsdc_carl> 提醒大家不要把飲料帶進來聽講喔
+09:00 < jsdc_idreamers> -->葷食的便當被吃光光，卡賓只有素食的可以吃...((偶爾養生一下也不錯
+09:01 < jsdc_carl> 也希望大家不要開手機無線 AP，請用 USB tethering
+09:01 < CJH> [R0]坐滿8成了
+09:02 < jsdc_carl> 東西有掉的記得去認領嘿
+09:02 < ShaWu> L
+09:03 < Et_> 請大家食物不要帶進會場吃@_@
+09:03 < jsdc_poying> jsdc_carl: 六個小時很夠阿
+09:03 < jsdc_carl> lightning talk 希望各位踴躍報名
+09:04 < jsdc_carl> jsdc_idreamers: 你太晚去領了嗎？
+09:05 < CJH> 阿嗚 keynote開場
+09:05 < jsdc_dieter> keynote 要開始啦！
+09:05 < bensanuj> r1的會眾好熱情，剛剛還拍手XDD
+09:05 < jsdc_carl> 咦？華人耶！
+09:06 < jsdc_dieter> keystone?
+09:06 < CJH> 前端工程 軟體開發的關鍵
+09:06 < chitsaou> 拱心石
+09:06 < jsdc_carl> 不認識的來電… XDDD
+09:06 < jsdc_carl> 我是卓姓駭客啦！
+09:06 < jsdc_poying> 不小心就被抓來了 :p
+09:06 < CJH> 「透抽是誰阿」
+09:06 < jsdc_dieter> 透丟
+09:07 < RplusTW> 透抽
+09:07 < CJH> 「透抽」= tonyQ
+09:07 < jaster> 不審者(誤)
+09:07 < jsdc_carl> 我進去 Google 改了參數
+09:07 < jsdc_dieter> 真男人 XD
+09:07 < jsdc_poying> 真男人透抽！
+09:07 < jsdc_idreamers> [大會報告] 歡迎各位參加 #JSDC .TW 2013 Days 2，提醒各位以下幾點事項(1).會場內嚴禁飲食，也請不要把「紙杯」、「沒有蓋子的飲料」攜入會議廳內。(2).大會現場有提供無線網路，如您要使用行動上網，請使用USB進行連線，不要開啟無線基地台(hotpot)，以免影響到大會網路之穩定度。感謝各位的配合，
+09:07 < jsdc_idreamers> 祝各位今天收穫滿滿！
+09:07 < chitsaou> http://tinyurl.com/tonyq-nick
+09:07 < CJH> 為什麼待遇總不如後端工程師
+09:07 < kerry> TonyQ改名啊XDD
+09:07 < FrankWu> 透抽 不是一種魚嘛XDD
+09:07 < aaronchaing> 不是應該都叫『設計師』嘛
+09:07 < jaster> 透抽不算魚吧XD
+09:08 < FrankWu> 喔 啪謝我講錯
+09:08 < CJH> 講古-工業革命起園地
+09:08 < FrankWu> 透抽 想起來是啥了
+09:08 < kerry> 軟體生物=W=
+09:08 < jsdc_carl> 講者解析度調 10248768
+09:09 < jsdc_carl> 1024*768
+09:09 < CJH> 前端魂  但是 圖片魂斗羅
+09:09 < jsdc_carl> 麻煩協助提醒一下工作人員
+09:09 < RplusTW> https://speakerdeck.com/josephj/f2e-the-keystone
+09:09 < jsdc_carl> 不然畫面播不出去
+09:10 < CJH> 1998 網頁標準化小組 2013結束
+09:10 < CJH> 阿嗚從ie4就開始寫了
+09:11 < jsdc_idreamers> 怎麼不是前端"設計師"?
+09:11 < RplusTW> 3 > 600 人  前端
+09:11 < RplusTW> 應該有些是轉職的吧?
+09:11 < CrBoy> 圖片好抖XD
+09:11 < jaster> 真的XD
+09:12 < CJH> 調解析度中
+09:13 < CJH> hedger 旅美先驅
+09:13 < CJH> 龜毛進化論
+09:14 < CJH> 2004面試Yahoo震撼教育
+09:15 < CrBoy> 我還以為答案是 :before
+09:15 < CJH> 會做不代表know why
+09:16 < CJH> 我要成為一個最強的人(周星馳圖)
+09:18 < CJH> 誤人子弟XDD
+09:19 < CJH> eo3
+09:19 < jsdc_dieter> 掌聲>///<
+09:19 < CJH> 給jsdc一個掌聲
+09:20 < CJH> 前端=熱血
+09:20 < jsdc_poying> 熱血！！
+09:20 < jsdc_dieter> 前端、你的名字叫熱血
+09:20 < RplusTW> 不停改善~ 永遠beta
+09:21 < CJH> 大師平常都不太睡的....
+09:21 < jaster> 平常都不睡 =口=
+09:21 < CJH> 那是神仙吧XDD
+09:21 < jsdc_dieter> 超人 週末才在睡 (Nate)
+09:21 < RplusTW> 生前不必久睡 死後可以長眠...
+09:21 < Peni> 同感 根本是神
+09:21 < azole>  Ｒ2沒畫面沒聲音 有人可以處理一下嗎
+09:22 < azole> hello 有工作人員嗎
+09:22 < RplusTW> 態度!
+09:22 < CJH> 好奇沒經驗10分鐘錄取的人到底表現出怎麼樣的態度
+09:23 < jsdc_dieter> 十分鐘就決定錄取 態度!!!
+09:23 < xinbe> 順眼?
+09:23 < jaster> 同時要作後端加前端(倒)
+09:23 < jsdc_dieter> 順眼的名字校正妹嗎？
+09:24 < _JonaTW> me 2 (崩潰 T皿T
+09:24 < PTC> 下午才能去QQ...
+09:24 < CJH> 正妹 然後又表現出沒有公主病嗎XDD
+09:24 < infax> @azole  已通知相關人員處理
+09:24 < azole> 感謝
+09:25 < jsdc_dieter> 前端工程師薪水很便宜，你不冰斗嗎
+09:25 < CJH> 工程師和設計師不愛切版
+09:25 < Truesun> R2 又一片沈默
+09:25 < jaster> 那到底誰愛切版XD
+09:25 < jsdc_poying> 各位可能不傳統 :p
+09:25 < CrBoy> 設計師、工程師XD
+09:25 < _JonaTW> 程式設計師喜歡切板嗎 (?
+09:25 < J-H> 討厭死了...
+09:25 < jsdc_dieter> keystone 出來了
+09:25 < CJH> 前端=切版XDD
+09:26 < yyken> 什麼是切版@@
+09:26 < RplusTW> 之乎
+09:26 < infax> 程式設計書喜歡洗版
+09:26 < jsdc_dieter> 前端包含切版吧 !?
+09:26 < RplusTW> 知乎
+09:26 < CJH> 我都把切版丟給設計XDD
+09:26 < J-H> XDD
+09:27 < fubuki> 套版很麻煩
+09:27 < irvin__> 我沒切過板…
+09:27 < fubuki> 結果自己動手弄了
+09:27 < xinbe> Server -side developers have it easy. (有戰意的一句話
+09:27 < CJH> 好的前端可以顧及效能 安全係 與 responsive design
+09:28 < othree> ozoneo
+09:28 < Truesun> 我是設計師喜歡切板～所以自稱前端視覺設計師＠＠
+09:28 < jsdc_dieter> 也對分工細的也會給設計
+09:28 < jaster> 嘖嘖XD
+09:28 < othree> XD
+09:28 < RplusTW> 要戰嗎
+09:28 < RplusTW> geek魂
+09:28 < jsdc_idreamers> R2是外面的問題
+09:28 < jsdc_dieter> 豆瓣張克軍
+09:29 < CJH> 玩技術的都玩深 玩設計不想弄髒手 ->靠前端
+09:29 < yydon> 玩技術是把手弄髒？
+09:29 < jsdc_idreamers> 因為外面沒有訊號進來@@
+09:29 < hans> 原來我們是半黑手 ==
+09:29 < jsdc_dieter> 社工XD
+09:29 < CJH> 前端工程師 = 社工xdd
+09:30 < chitsaou> 社工（悲情
+09:30 < jsdc_idreamers> 我以為設計師=小叮噹
+09:30 < jsdc_dieter> 不用黑手改稱程式社工
+09:30 < lindsayrain> 社工有熱情！
+09:30 < LionLai_> 其實學校沒教的東西很多
+09:31 < grass7boy> XD
+09:31 < jsdc_dieter> 後天培養，也要足夠的天份QQ
+09:31 < _JonaTW> 全部教完 => (學生崩潰
+09:31 < LionLai_> 通常都是熱血自己學吧
+09:31 < RplusTW> 前端歷史較短 師資還不夠?
+09:31 < jsdc_dieter> 社工也是要有薪水的,可是...
+09:32 < mervyn> 社工薪水超低的
+09:32 < mervyn> Ex
+09:32 < davidou> 學校老師表示：我也不會
+09:32 < jaster> php programmer (倒)
+09:32 < CJH> 前端換工作容易 沒有程式語言不同的累贅
+09:33 < jsdc_dieter> 有前端轉程式設計師的人嗎？？
+09:33 < jsdc_carl> 如果得不到應有的重視和尊重，劣幣逐良幣，這樣的工作沒甚麼人做得下去吧
+09:33 < grass7boy> 現在是 Frontend "Designer" 正潮
+09:34 < CJH> 前端混的不錯的都出國了XDD
+09:34 < grass7boy> 前端總監 聽起來就好前端
+09:34 < jsdc_dieter> 盛大前端總監 Bobby
+09:34 < Truesun> 設計師囀前端口以嗎XD
+09:34 < jsdc_dieter> 錢盛大前端總監
+09:35 < jsdc_dieter> 點名Bobby Adam Rex Huge
+09:35 < CJH> 鼓勵大家出國(誤)
+09:35 < jaster> 來開個前端工程師學系 (誤)
+09:35 < jsdc_dieter> 鬼島轉型中
+09:36 < jsdc_dieter> jslint will hurt your feeling !
+09:36 < RplusTW_> 蓋樓ing
+09:36 < RplusTW> clearfix
+09:36 < jsdc_dieter> clear float !!
+09:36 < CJH> 90%的人不會clear float
+09:36 < japie> 剛剛09:10在四樓女廁 打開廁所門時 看到一個男生急急忙忙從另外一間廁所下方把手機拿出來@@
+09:36 < ddio> 真的假的...
+09:36 < FrankWu> 哈 我會
+09:37 < jsdc_dieter> japie: ！？
+09:37 < jaster> @@
+09:37 < RplusTW> !!?
+09:37 < kerry> @@
+09:37 < _JonaTW> !!
+09:37 < CJH> japie沒把它逮住嗎
+09:37 < FrankWu> !!
+09:37 < Peni> 有看到人嗎
+09:37 < jsdc_dieter> 你確定是男的
+09:37 < RplusTW> 掛名牌嗎?
+09:37 < Truesun> (握拳
+09:37 < kerry> Frank Wu是= =??
+09:38 < ddio> 他在回clear吧..
+09:38 < yyken> 點技能嗎 XD
+09:39 < CJH> 避免盲目追求新技術 深入研究並整合
+09:39 < CJH> 積極分享 回饋
+09:39 < jaster> 可以考慮 twitter flight XD
+09:40 < jsdc_dieter> 深入研究and整合開發女性工程師市場（誤
+09:40 < irvin_>  調監視器吧
+09:40 < grass7boy> 問一下喔
+09:40 < CJH> 沒github還能算是工程師嗎
+09:40 < CrBoy> 「還是不夠多啊！這樣不行！」
+09:40 < grass7boy> 有人自己的GitHub連上去是404嗎？
+09:40 < kerry> 我沒github
+09:40 < kerry> qq
+09:40 < jaster> c9s XD
+09:40 < jsdc_dieter> c9s！
+09:40 < CJH> 我沒有= =
+09:40 < jsdc_poying> 不能沒有自己的 repo ！
+09:41 < _JonaTW> 我的repo都是fork的 (等於沒有 :(
+09:41 < chitsaou> @grass7boy 我曾經這樣，寄信給 support 說系統誤判我是 spam ，就修好了
+09:41 < jaster> 有只有一堆fork w
+09:41 < metavige> http://f2eclass.com/
+09:41 < grass7boy> 哇嗚！
+09:41 < grass7boy> 謝謝 chitsaou
+09:41 < jsdc_dieter> 從百到千
+09:41 < RplusTW> )=b
+09:41 < barneybook|2> 沒github還算是工程師嗎?
+09:41 < jaster> 那網站我有看過w
+09:42 < FrankWu> @kerry 不是我啦…我前面是說 會clear float = =
+09:42 < CJH> 多主導架構與導入工具 會獲得更多
+09:42 < yuan817> 咳咳...麻煩請叫"設計師"XDDDDD
+09:43 < Peni> 第一步是要玩新技術?
+09:43 < barneybook|2> 導入架構真的可以學到很多
+09:43 < RplusTW> 僧侶  快招降
+09:44 < jaster> 雞肉1!!
+09:44 < jsdc_dieter> ㄚ烏: You can do it~~~
+09:45 < RplusTW> 尖銳~
+09:45 < PichuChen> 講到錢就傷感情
+09:45 < CrBoy> 好可怕的問題
+09:45 < CJH> 這問題超尖銳吧
+09:45 < metavige> 可能理想與現實還是有差異的吧
+09:45 < jaster> 真的蠻低的......
+09:45 < jaster> 不過我作後端也很低啊@@
+09:45 < CJH> 新手28k~30k  架構詩等級100k up  middle 50~60k
+09:45 < jsdc_dieter> 好問題!!
+09:45 < metavige> 可惜架構師很難找阿
+09:45 < RplusTW> 執詢
+09:46 < yuan817> http://www.slideshare.net/josephj/f2e-the-keystone
+09:46 < CJH> 趨勢 yahoo 蕃薯藤 <--早期有f2e的公司
+09:46 < RplusTW> 新手是多新呀?
+09:47 < jsdc_idreamers> TO:japie & 全體會眾：若有在會場看到該嫌犯，請設法攔下該名男士，並通知最近的工作人員處理
+09:47 < fantasybz> will
+09:47 < jaster> 有特徵嗎 = =
+09:47 < fantasybz> 保哥
+09:47 < grass7boy> ?嫌犯？
+09:47 < Lienfa> Will!!
+09:47 < jsdc_dieter> 捷徑不是最短的路
+09:47 < OAO> 蝦米嫌犯
+09:48 < RplusTW> 要先找下線
+09:48 < CJH> 嫌犯 可能要給圖才知道
+09:48 < jsdc_dieter> 找對的人教 XD
+09:48 < CJH> 阿嗚比較喜歡願意分享的人
+09:48 < OAO> 什麼嫌犯XDDD
+09:49 < aaronchiang> 被消音了
+09:49 < xinbe> [09:47] <japie> 剛剛09:10在四樓女廁 打開廁所門時 看到一個男生急急忙忙從另外一間廁所下方把手機拿出來@@ <== 有特徵?
+09:49 < metavige> R1 沒聽到！！！
+09:49 < chiehyou> 在台灣應該比較多人同時是會前後端的吧～？
+09:49 < aaronchiang> R1沒聽到問題
+09:49 < RplusTW> MIC 多按了一次
+09:49 < CJH> 阿嗚：我講YUI我怕沒人知道阿XDD
+09:49 < fantasybz> YUI
+09:49 < chitsaou> "YUI is awesome"
+09:49 < metavige> 在台灣應該前端只是『兼著做』吧～
+09:50 < chuiyi> "順便"做前端 Orz
+09:50 < PichuChen> 除了長的像男生以外有其他特徵嗎?
+09:50 < chitsaou> Q: "你們有用 YUI 為什麼還需要 require.js"
+09:50 < OAO> 瞎@@
+09:50 < jaster> 薪水沒有順便加上去啊QQ
+09:50 < RplusTW> 為什麼不用mic
+09:50 < CJH> 為何不用麥克風= =
+09:50 < chitsaou> Q: "如何把 YUI 的動態載入能力帶入 jQuery"
+09:51 < jaster> A: 改用YUI (大誤)
+09:51 < aaronchiang> 請R0工作人員要求用麥克風啦
+09:51 < metavige> jQuery 的出發點不是在做 Application 吧！
+09:51 < othreess> 對 YUI 不熟
+09:51 < metavige> 我想應該只是『方便』開發者操作 DOM~ 我想～～～
+09:51 < chitsaou> Q: "用 YUI 動態載入有遇到在 IE 的 bug 嗎"
+09:52 < FrankWu> mic
+09:52 < aaronchiang> 其他會議室都聽不到問題
+09:52 < hans> good job.
+09:52 < chitsaou> Q: "用動態載入可以替代 script 放在 /body 之前的 practice 嗎"
+09:52 < jsdc_idreamers> 如果有圖應該就放上電視轉播了 ((咦?
+09:54 < RplusTW_> q: f2e 需要後端能力否? (by TonyQ)
+09:54 < CJH> 前端需要了解後端基礎理解
+09:55 < jaster> 為什麼只有女性發問會轉播XD
+09:55 < StarNight> XDDDD
+09:55 < jsdc_carl> 不然咧？XDDD
+09:55 < jsdc_dieter> 這是福利啦
+09:55 < RplusTW_> Q: VD / F2E / 後端 分工如何切分 
+09:55 < chuiyi> 不然轉播是幹嘛用的（疑
+09:56 < jsdc_dieter> jobs也會寫程式, 總是要有概念的
+09:56 < metavige> VD?
+09:56 < chuiyi> 視覺設計
+09:56 < metavige> UX => ?
+09:56 < RplusTW> Q: 專案執行時間，前端該何時開始?
+09:56 < PichuChen> Visual Design?
+09:56 < jaster> wwwww
+09:57 < StarNight> haha
+09:57 < RplusTW> 樁腳
+09:57 < jsdc_idreamers> 你不是我們公司的人嗎?還問我...
+09:57 < jsdc_idreamers> XDD
+09:57 < RplusTW> 條仔咖
+09:57 < CrBoy> 「ㄟ你不是我們公司的人嗎？怎麼還問我...」
+09:57 < jaster> XDDDD
+09:57 < jsdc_dieter> XD
+09:57 < jsdc_carl> 臥底
+09:57 < RplusTW> 公司內會議
+09:57 < chuiyi> 前端兼UX?
+09:58 < aaronchiang> 個人覺得前端通常是第一群先上線的
+09:58 < RplusTW> tonyQ: 補刀
+09:58 < jsdc_dieter> wireframe
+09:58 < aaronchiang> 因為客戶跟老闆通常都是『沒畫面沒真相』
+09:59 < Kevin-WY> 上來囉>w< /
+09:59 < RplusTW> 前端: 驗證可行性~
+10:00 < J-H> R0冷氣好冷...
+10:00 < flyworld> [報到處]  失物招領 - MDS經理手機一枚，INTOPIC/Legitech 滑鼠各一顆
+10:02 < metavige> [09:47] <japie> 剛剛09:10在四樓女廁 打開廁所門時 看到一個男生急急忙忙從另外一間廁所下方把手機拿出來@@  在這麼熱血的研討會中有這樣的事情感覺討厭的～～～
+10:05 < RplusTW_> 大風吹時間
+10:05 < xinbe> [R0] 好冷清
+10:06 < jsdc_carl> [R1] 原來這場是傳說中的 york！！
+10:06 < jsdc_carl> socket.io + node.js + redis，超期待的！
+10:06 < J-H> [R0]冷氣好冷...XDD外套再度穿起...
+10:06 < FrankWu_> +1
+10:07 < xinbe> 今天大風吹網路居然穩穩的
+10:07 < chuiyi> 5G ftw...
+10:07 < CrBoy> xinbe: 我也是 好驚訝XD
+10:08 < CrBoy> 我 ssh 完全沒斷線XD
+10:08 < J-H> [R0]好多空位...
+10:08 < jsdc_poying> J-H: 溫度有調囉
+10:08 < Kevin-WY> R1人很多ww
+10:08 < J-H> 感謝
+10:09 < mkfsn> R1 爆滿了 XD
+10:09 < jsdc_carl> [R1] 我選的場都超紅的！！
+10:09 < chuiyi> sake.io
+10:09 < jsdc_carl> [R1] XDDDDDDD
+10:09 < metavige> [R1] 讚啦，還有 live demo sock.io + nodejs web 耶！
+10:09 < jsdc_poying> jsdc_carl: 有眼光！
+10:09 < metavige> http://jsdc.york.tw/
+10:09 < jsdc_carl> jsdc_poying: 因為我第一時間收到信，所以就先選了！XDDDDD
+10:09 < jsdc_carl> R1 這場人超多
+10:10 < jsdc_carl> 設計師！！
+10:10 < barneybook|2> R0講題不一樣???
+10:10 < _JonaTW> 設計師
+10:10 < jsdc_carl> 來 JSDC 的都是設計師！
+10:10 < CJH> [R0]冷清
+10:10 < CJH> [R0]只有滿6成左右吧
+10:10 < chuiyi> 我都碼講我設計師 但是外表馬上就被揭穿了 <O>
+10:10 < barneybook|2> R0 不是 [High-performance games and more in JavaScript with asm.js]
+10:10 < metavige> [R1] live demo = ppt!!
+10:10 < ddio> 有沒有R2可以分享投影片阿～
+10:10 < bensanuj> R1要line demo
+10:10 < chitsaou> R1 Live Slides
+10:11 < fantasystar> 是我認識的秋意歌嗎
+10:11 < jaster> [R1] 超強大
+10:11 < _JonaTW> http://jsdc.york.tw:3939/
+10:11 < jsdc_carl> R1 好酷！！
+10:11 < barneybook|2> 怎麼變成 C++ on the web you're crazy!
+10:11 < jsdc_carl> 簡報會即時變化！
+10:11 < jsdc_carl> 即時簡報耶！！
+10:11 < jsdc_carl> http://jsdc.york.tw:3939/
+10:11 < barneybook|2> 怎麼變成 C++ on the web ? you're crazy!
+10:11 < StarNight> R0 C++ ont the WEB? You're crazy!
+10:11 < jsdc_carl> 大家快來跟風
+10:11 < CJH> [R0]講題換了嗎= =
+10:12 < StarNight> [R0] C++ on the WEB? You're crazy!
+10:12 < jsdc_carl> socket.io cross browser, including IE6！
+10:13 < jsdc_poying> [R0] WebGL 發明者要上場囉！
+10:14 < metavige> [R1] Coffee Script???
+10:14 < StarNight> 有神 快拜～
+10:14 < chuiyi> socket.io對應到ie6會切成舊的…舊的socket是怎麼做 QQ
+10:14 < jsdc_carl> [R1] server / client 寫起來好簡單！
+10:14 < jsdc_dieter> [R0] m(_^_)m
+10:14 < jaster> [R1] 為什麼要including IE6 XD
+10:14 < jsdc_carl> [R1] 那不是很好嗎？
+10:14 < chiehyou> chuiyi: flash
+10:15 < othrees> 是安全性有問題的那版嗎
+10:15 < chuiyi> 之前用socket.io寫聊天室 XD
+10:15 < barneybook|2> r0 用 slid.es
+10:16 < jsdc_carl> socket.io 的聊天室，有種 IRC 的 fu
+10:16 < jsdc_carl> socket.join('room')
+10:16 < jsdc_carl> socket.leave('room')
+10:16 < jsdc_dieter> web = platform
+10:16 < chitsaou> 誰在洗啦wwwww
+10:17 < metavige> [R1] 有人在 hack!?
+10:17 < jsdc_poying> chuiyi: http://blog.hinablue.me/entry/nodejs-first-look-socket-io
+10:17 < chuiyi> 手指hack...
+10:17 < jsdc_carl> jsdc_poying: 你是臥底！XDD
+10:18 < jsdc_poying> jsdc_carl: 之前有看到過類似文章，所以就去翻了一下阿 :p
+10:18 < jsdc_carl> jsdc_poying: 感謝技術支援
+10:18 < chuiyi> 舊的作法就是一直斷開重連嗎 X
+10:19 < jsdc_carl> 不清楚哩
+10:20 < jsdc_carl> data persistence
+10:20 < jsdc_poying> chuiyi: http://josephj.com/entry.php?id=358
+10:20 < littlebtc> [R0] emscripten 剛開始時大家都認為 Performance 會很悲劇
+10:20 < StarNight> Ting-Yuan Huang 說：現在大部分的人都使用兩種OS，一個是PC、NB用的Windows, MAC OS or Linux；另一個是手機的Android or iOS
+10:21 < StarNight> 打錯，是老外說的
+10:21 < jsdc_carl> jsdc_poying: 我發現你的那場我也有選，但不知為啥變成你了！XDD
+10:21 < littlebtc> [R0] asm.js 讓速度只變比 C 慢 15% （小B備註：with OdinMonkey on Firefox）
+10:22 < jsdc_carl> jsdc_poying: 可能因為時間相衝，因為 socket.io 這場我也有選
+10:22 < chiehyou> 50%吧？
+10:22 < jsdc_carl> 怎麼辦，我兩場都想聽
+10:23 < chuiyi> jsdc_poying: 感謝 >.<
+10:23 < littlebtc> ouch 是 50% 對不起 QAQ
+10:23 < littlebtc> OdinMonkey 只花了兩個月
+10:25 < xinbe> [R0] acm.js 官網有把 Unreal 的遊戲轉成在 web 跑的範例
+10:25 < xinbe> asm.js
+10:26 < jsdc_carl> [R1] Redis subscript 不能中斷
+10:26 < jsdc_carl> 一個 node.js 只會佔掉兩條 Redis 連線
+10:27 < jsdc_idreamers> <R2> 為什麼要使用knockout.js: 因為html&javascript分離、設計人員和開發人員可同時進行、獨立，可以其他函示庫相容、易於測試、客製化
+10:28 < jsdc_poying> irvin_: http://images.plurk.com/dfDo-1HXfmTCUVFoa4WZJeTEUhP.jpg
+10:28 < jsdc_carl> 筆電忘了關無線網路 XD
+10:28 < littlebtc> [R0] Epic Citadel -> http://www.unrealengine.com/html5/
+10:28 < jsdc_carl> Redis 可以支援 SSL
+10:29 < littlebtc> [R0] (Running 60fps in my 13" retina mbp on OS X :P)
+10:29 < jsdc_carl> 修正：socket.io 可以支援 SSL
+10:29 < chitsaou> 沒有文件！？
+10:29 < irvin_> jsdc_poying: ?
+10:29 < jsdc_poying> irvin_: 轉貼一下相片 :p
+10:30 < jsdc_carl> socket.io 可以 cross domain
+10:30 < metavige> irc 貼照片？正妹？
+10:30 < CrBoy> 請問 josephj 有 release slides 嗎？
+10:30 < irvin_> jsdc_poying: XD
+10:30 < Peni> 有
+10:30 < Peni> https://speakerdeck.com/josephj/f2e-the-keystone
+10:31 < CrBoy> Peni: 感謝
+10:31 < jsdc_poying> metavige: 大神講師帥帥演講照
+10:31 < jsdc_carl> 太棒惹！放到懶人包
+10:31 < jsdc_poying> jsdc_carl: 什麼東西阿？
+10:32 < jsdc_carl> jsdc_poying: 簡報啊，放到懶人包
+10:32 < jsdc_poying> 喔喔 XD
+10:32 < jsdc_carl> jsdc_poying: f2e-the-keystone
+10:32 < littlebtc> [R0] Native + JS mix
+10:32 < metavige> [R1] 剛被壓側了
+10:32 < jsdc_carl> 所以成功 live demo!!!
+10:32 < jsdc_carl> 都沒掛！
+10:33 < tonyq_> 剛剛在忙 現在才有空出現
+10:33 < tonyq_> XD
+10:33 < metavige> [R1] 有大師現場寫壓測程式吧～
+10:33 < xinbe> greasemonkey 是個好東西 XD
+10:33 < jsdc_carl> [R1] 現場超歡樂
+10:33 < tonyq_> 有沒有什麼大會這邊要協助傳達的? 我們有專人在看 irc 跟即時處理 有事情就直接說 :)
+10:33 < tonyq_> :D
+10:34 < s25g5d4> 我要看鍵盤實況@@/
+10:34 < chuiyi> 所以這個投影片會後怎麼分享 XD
+10:34 < ddio> 請問之後會整理所有講者的投影片嘛？
+10:34 < tonyq_> 鍵盤實況啊 紀錄組加油 XD
+10:34 < jsdc_carl> 有任何大會相關問題，可以找前面有 'jsdc_' 的工作人員唷！
+10:34 < tonyq_> 會 
+10:34 < xinbe> R1 的 只好請交出 source code了
+10:35 < jsdc_poying> tonyq_: @@
+10:35 < tonyq_> 我們會請講者想辦法的（喂
+10:35 < jsdc_carl> 好吧，開 turbo mode！
+10:35 < ddio> 他剛才說會給pdf XD 但應該不會附留言吧..
+10:35 < jsdc_carl> 但會不會有洗版問題？
+10:36 < jsdc_carl> R1 直接看 live 簡報
+10:36 < jsdc_carl> 有人可能沒跟到風，只好再貼一次了：http://jsdc.york.tw:3939/
+10:36 < jsdc_carl> 這是對外公開的
+10:36 < jsdc_carl> 簡報還沒掛耶！
+10:36 < xinbe> (R1 除了原始碼，記得附贈 redis 資料庫，可以當紀念 XD
+10:36 < s25g5d4> 進擊的鄉民XD
+10:37 < jsdc_carl> 快！！
+10:37 < jsdc_carl> VIP 禮券一千元！
+10:37 < tonyq_> R0 感覺很炫欸
+10:37 < Peni> 這個是?
+10:38 < FrankWu> ？
+10:38 < jsdc_carl> R1 送禮券 1000 元！
+10:38 < jsdc_carl> 快來下指令
+10:38 < FrankWu> 下啥指令啊？
+10:38 < tonyq_> R0 compile c++ 可以把native轉成 firefox OS apps ...
+10:38 < jsdc_carl> 詳見簡報
+10:38 < FrankWu> 複製貼上？XDD
+10:38 < tonyq_> R0 真有趣
+10:38 < jsdc_carl> socket.emit "prize", "your name"
+10:39 < jsdc_carl> Put your name here to win $1,000 EZTABLE VIP voucher!
+10:39 < jsdc_carl> 有人要衝嗎？
+10:39 < jsdc_carl> 會場外衝可能領不到這樣
+10:39 < barneybook|2> http://jsdc.york.tw:3939/ ←可以請工作人員玩爆嗎???
+10:39 < jsdc_carl> 因為你會沒辦法舉手，舉了也沒人看到！XDD
+10:39 < CJH> R0是把c++ code直接利用asm.js在web上跑嗎
+10:39 < s25g5d4> 那我衝心酸的阿 (翻桌
+10:39 < jsdc_carl> barneybook|2: 網路線拔掉就爆了！！
+10:39 < jsdc_poying> jsdc_carl: 幫舉...
+10:39 < jsdc_carl> jsdc_poying: 你玩爆了嗎？XDD
+10:40 < jsdc_carl> 快來啊！
+10:40 < tonyq_> @CJH 對
+10:40 < tonyq_> 事實上是 emscriptn 吧
+10:40 < irvin_> tonyq_: 是把c++轉js啦
+10:40 < othrees> Emscripten 轉 js 吧
+10:40 < irvin_> Emscription 
+10:40 < jsdc_carl> jsdc_poying: 我也好想聽 asm.js
+10:40 < tonyq_> 是啊 就轉 js 在 web 上跑啊 XD
+10:40 < othrees> 轉成 asm.js
+10:40 < StarNight> [r0] 超酷
+10:40 < evenwu_> tonyq_ 轉接頭剛已放報到處 <(_ _)>
+10:40 < CJH> R0 這樣不就把source code丟出來給大家看
+10:40 < tonyq_> got it
+10:41 < tonyq_> asm code 你有興趣的話本來就..
+10:41 < CJH> R0 現在demo的好酷
+10:41 < tonyq_> wow
+10:41 < CJH> 說的也是 哈哈
+10:41 < evenwu_> R0 嗎呀這也太強了
+10:41 < tonyq_> 硬體應該有一定要求
+10:41 < tonyq_> 但是還是很威
+10:42 < davidou> 好像衝r0
+10:42 < jsdc_carl> R1 這公司好棒
+10:42 < evenwu_> 請問有人知道 你不可不知的前端開發工具 是什麼內容
+10:43 < jsdc_carl> Vim 可以編成 JavaScript 嗎？（大誤
+10:43 < aaronchiang> EZTABLE在復興北路上
+10:43 < tonyq_> 我來回吧
+10:43 < tonyq_> 這個前端開發工具是講 lib 的
+10:43 < tonyq_> 主要是一些前端 JS lib 的介紹
+10:44 < tonyq_> 後面的 brooky 的那個「好的開發工具帶你上天堂
+10:44 < evenwu_> 了解 這樣可以聽聽... 很怕又是sublime介紹XD
+10:44 < jsdc_carl> https://github.com/yorktsai/jsdc2013
+10:44 < jsdc_carl> 快加星號
+10:44 < RplusTW> https://github.com/yorktsai/jsdc2013
+10:44 < tonyq_> 應該跟昨天的 up chen 重疊比較高 屬於開發環境的部份
+10:44 < irvin_> 我一直很好奇unreal engine 就這樣公開程式碼了…
+10:44 < xinbe> [R0] http://www.flohofwoe.net/demos/dsomapviewer_asmjs.html
+10:44 < jsdc_carl> 超怕又是 sublime 介紹
+10:44 < chitsaou> 超怕又是 inspector 介紹
+10:44 < RplusTW> 講者昨天有說不是sublime
+10:44 < FrankWu> 怎換頁...
+10:44 < jsdc_carl> R1 簡報，想了解的請看 https://github.com/yorktsai/jsdc2013
+10:45 < RplusTW> 主要是用 nodejs 的
+10:45 < tonyq_> lol
+10:45 < legist> Hi 大家好, 我是 Richard (legist 強哥)~
+10:45 < jsdc_carl> 現在三顆星
+10:45 < tonyq_> inspector 介紹也不一定有沒有有趣的東西啊XD
+10:45 < legist> 大會報告：關於今天上午有會眾表示，有發現某人持智慧性手機於四樓女廁疑似進行偷拍之一事，目前大會已經於第一時間通知人文社會科學館的負責人及保全人員，請其調閱監視系統及相關調查，請大家請勿擔心，我們會盡最大努力進行處理，謝謝 :)
+10:45 < jaster> 工作人員辛苦了 :)
+10:46 < xinbe> "use asm"
+10:46 < _JonaTW> 辛苦了!
+10:46 < Haraguroicha_> 智慧"性"手機(?
+10:46 < davidou> 辛苦了
+10:46 < EIA> 辛苦了~
+10:46 < tonyq_> 有對議程有問題的可以 cue 我 我可以幫忙回應
+10:46 < JSDC_Ioan> 0/////0
+10:46 < littlebtc> @Irvinfly 不用擔心，50MB 的 asm.js binary 幾乎不具可讀性
+10:46 < legist> 對不起我打錯了 Orz
+10:46 < tonyq_> 不過我昨天昨天 sublime 簡介也很精彩 XDDD 大家這樣會傷講者的心喔
+10:47 < tonyq_> * 覺得
+10:47 < xinbe> XD
+10:47 < jaster> sublime簡介很有趣啊~雖然是推坑無誤w
+10:47 < evenwu_> tonyq_ 主要是沒有簡介真的很可怕 聽眾會怕選錯
+10:48 < xinbe> (事先做功課也是很重要的
+10:48 < RplusTW> 簡介需要~
+10:48 < davidou> 推 沒簡介 應該要的
+10:48 < RplusTW> wwww R1  這邊在掃原始碼了
+10:48 < irvin_> littlebtc: 我當然不擔心啊XD Unreal等商業公司也不擔心就很奇妙
+10:49 < tonyq_> @evenwu_ 會改進 XD
+10:49 < PichuChen> live debug
+10:49 < aaronchiang> @tony_q 今天就有兩場都是介紹開發工具
+10:50 < aaronchiang> R1的獎項送出了
+10:50 < tonyq_> yep , 因為 js 應用在很多語言跟有許多工具可以協助, 大多數講者提供的都是比較算是套裝的介紹
+10:50 < tonyq_> 都是各自開發環境上的一些經驗 XD
+10:50 < Isken_> https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
+10:50 < tonyq_> 所以整體而言 他們的重疊度會有一定比例
+10:50 < metavige> 簡介的確是很重要，要用標題去猜內容不容易
+10:51 < tonyq_> yep , i know that's important , will improve next time. 
+10:51 < metavige> Good!
+10:51 < RSChiang> ?
+10:51 < Peni> 有講者簡介
+10:51 < Peni> 會更好
+10:52 < chuiyi> r1大量移動鐘
+10:52 < othrees> 獎者的有吧
+10:52 < tonyq_> 在這裡對於大家可能對議程上有些誤會趕到很抱歉，主要還是因為大會作業的時程跟困難 XD
+10:53 < othrees> 因為獎品發出了嗎XD
+10:53 < tonyq_> 如果有什麼議程不瞭解的我再盡力轉達。:) 
+10:53 < tonyq_> 先說聲抱歉 o(_ _)o
+10:56 < xinbe> [R0] 今天很努力的工商服務
+11:01 < littlebtc> 目前正在領"微博"的薪水
+11:01 < steven5538> 卓姓駭客
+11:01 < littlebtc> 20年前「駭客正夯」
+11:01 < J-H> 梗出來了..
+11:02 < _JonaTW> 卓哥表示：
+11:02 < mkfsn> 20 年前，駭客正夯 XD
+11:02 < barneybook|2> 有20年前的梗說明嗎???
+11:02 < BardicheZ_> https://www.facebook.com/evenwu/posts/10151395219840718
+11:02 < jsdc_idreamers> <r2> 用NVM來管理node.js
+11:02 < steven5538> http://bit.ly/best-hacker
+11:02 < metavige> https://github.com/jaceju
+11:02 < FrankWu> 竟然沒簽到XD
+11:02 < yuan817> [R2] https://github.com/appleboy/nvm
+11:02 < evenwu_> XDDD 在這 駭客簽到簿 http://bit.ly/best-hacker
+11:03 < jsdc_poying> [R1] http://blog.blackbing.net/WorkerD/why.html
+11:04 < barneybook|2> 推卸責任
+11:04 < jaster> [R2] bower
+11:04 < yydon> [R0] 推缷責任 XD
+11:05 < CJH> [R1] 1+.....+100 => 梯形公式比較快
+11:05 < FrankWu> 誰有拍下剛剛那張的照片？ 20年前 駭客正夯
+11:05 < metavige> R2 講 nodejs?
+11:05 < jaster> [R2] 講開發工具
+11:05 < metavige> bower!!! 好想聽～
+11:05 < fubuki> 管理工具吧
+11:05 < jaster> [R2] 基本上都是簡介w
+11:06 < jsdc_poying> [R1] http://caniuse.com/#search=worker
+11:06 < CJH> [R1] web worker android 預設browser不支援
+11:06 < metavige> [R0] mvc 簡介...
+11:06 < evenwu_> R2 簡介中 也不錯啦...
+11:07 < metavige> https://zh.wikipedia.org/wiki/MVC
+11:07 < fubuki> R2 目前介紹那些工具
+11:07 < CJH> [R1] postmessage 不能clone function
+11:07 < irvin_> Compass coffeescript 
+11:07 < irvin_> Bower
+11:07 < jaster> [R2] nvm bower coffeescript compass
+11:08 < chitsaou> [R2] bower, coffeescript, compass, sass
+11:08 < _JonaTW> 請問今天還有賣T-shirt嗎？ 還是昨天就備買光了ＱＱ
+11:09 < idreamers_> 大會T在4F OSSF攤位有賣
+11:09 < chitsaou> 現在還有人在寫 @include border-radius 嗎？
+11:09 < chitsaou> 大家都支援 unprefixed version 了
+11:09 < _JonaTW> thanks 我一直跑去 Richi 那邊看
+11:10 < _JonaTW> 昨天那邊好像有百 :P
+11:10 < evenwu_> chitsaou 會阿...  這樣可以控制 legecy support 的部份？
+11:10 < luzia> 求 R0 code url
+11:10 < CJH> [R1] worker不一定會比較快 只能保證不會被block住
+11:11 < StarNight> View由Model來更新
+11:11 < chitsaou> evenwu_: 像是？Firefox 3.6 嗎？
+11:11 < evenwu_> chitsaou 將來如果真的都要移除就設定 false 即可
+11:11 < jsdc_poying> [R1] IndexDB 適合放到 web worker 處理
+11:11 < irvin_> 而且大部分CSS3都會只差webkit還沒unprefix...
+11:11 < FrankWu> 梗全集 只能看不能改耶 那這樣不就沒人能新增?
+11:12 < chuiyi> 用web worker事實上還是單一執行緒?
+11:12 < clkao> FrankWu: 上面有個 edit ?
+11:12 < jsdc_idreamers> [r2] Javascript套件 RequireJS
+11:12 < irvin_> ie很多CSS跟本沒prefix version
+11:12 < FrankWu> 無效
+11:12 < chitsaou> -ms-border-radius 其實也沒有這種東西
+11:13 < CrBoy> 又出現 LiveReload 了XD
+11:13 < jsdc_carl> R0 現場蠻多人的
+11:13 < clkao> FrankWu: browser? 點橘色 edit (旁邊有虛線那個) 無效嗎? # http://hackfoldr.org/#/jsdctw2013/1hURnQAGuFWn39ThOYRFaUCkndlum33sF0Ay838y49Tg
+11:14 < jsdc_carl> 調查一下有多少人聽過 MVP 呢？
+11:14 < CrBoy> ubuntu 12.04 XD
+11:14 < jsdc_idreamers> [r2] 簡易Web Server node express
+11:14 < CrBoy> jsdc_carl: ._./
+11:14 < metavige> jsdc_carl: +1
+11:14 < xinbe> +1
+11:14 < ddio> ._./
+11:14 < fubuki> +1
+11:14 < jsdc_carl> 還蠻多的耶
+11:14 < jsdc_carl> MVVM 就比較少人知道怎麼用了
+11:14 < idreamers_> MVP? Most valuable professor??
+11:14 < jaster> [R2] Grunt!!
+11:15 < CrBoy> Grunt.js
+11:15 < FrankWu> http://cl.ly/image/271i0O0e0d2S
+11:15 < metavige> Grunt!
+11:15 < jsdc_carl> Model-View-Presenter
+11:15 < FrankWu> clkao: http://cl.ly/image/271i0O0e0d2S
+11:15 < CrBoy> idreamers_: Model-View-Presenter 吧
+11:15 < jsdc_carl> 把不該出現在 view 的邏輯放在 presenter
+11:15 < barneybook> 總統是隻水木~XD
+11:15 < idreamers_> 我以為是微軟的MVP ....
+11:15 < mkfsn> 水母出現了 ...
+11:15 < littlebtc> 簡單來說要在發生某個事件後我們才會知道「總統來是水母」
+11:15 < littlebtc> 才是
+11:15 < jsdc_carl> 切割乾淨方面測試
+11:15 < chitsaou> Presentator / Decorator
+11:15 < jsdc_carl> 方便測試*
+11:15 < jsdc_idreamers> [R2] GRUNT
+11:16 < evenwu_> irvin_ 對阿 -ms 的部份我都直接設定不給
+11:16 < jsdc_carl> 也容易推卸負任
+11:16 < chitsaou> s/presentator/presenter
+11:16 < metavige> http://jsfiddle.net/tgHra
+11:16 < japie> (現在才發現有人問剛剛女廁那個男生的特徵) 穿黃白寬條紋相間衣服 我只有看到背面
+11:16 < jsdc_carl> 不過其實 presenter 也都還是不夠好
+11:16 < clkao> FrankWu: http://d.pr/i/PaDv 有按那個虛線中的 edit? # http://d.pr/i/PaDv
+11:16 < chitsaou> [R2] Grunt
+11:17 < CrBoy> jsdc_carl: 橫條還是直條？
+11:17 < japie> 我確定是男的 因為在我走進廁所的時候 有看到他在廁所外面講手機
+11:17 < CrBoy> japie: 橫條還是直條？
+11:17 < jsdc_carl> CrBoy: 你密錯人惹
+11:17 < japie> 坐在廁所外面的椅子上 w/手機 
+11:17 < japie> 橫條
+11:17 < CrBoy> jsdc_carl:  sorry orz
+11:17 < jsdc_poying> [R1] Chrome 上有不少問題阿...
+11:17 < japie> 寬條紋
+11:18 < BCLee> 黃白寬條紋相間衣服(筆記)
+11:18 < jsdc_carl> 依賴於抽象而不依賴實作
+11:18 < FrankWu> clkao: http://cl.ly/image/212p393P1O1b 點完還是 http://cl.ly/image/1d371N0C0S3Y
+11:18 < jsdc_carl> 這很重要
+11:18 < irvin_> evenwu_: -moz 我現在也不用了，prefix 都是一年以上的版本了。現在反而是js的部分比較多prefix
+11:19 < evenwu_> irvin_ 原來如此 所以是什麼時候拿掉的阿
+11:19 < fantasywind> irvin_: js prefix 是指功能檢查嗎?
+11:19 < CJH> [R1] 用inline worker可以保持dependency
+11:20 < chitsaou> 看 MDN 寫的是 Firefox 4.0 就拿掉了 border-radius 的前綴了
+11:20 < jsdc_carl> 可是 Fx 一直都有 border-radius 的 bug，至今依然未解決
+11:20 < jsdc_carl> 都六、七年了
+11:21 < CJH> [R1] 大量資料postmessage時，一樣會造成ui block
+11:21 < irvin_> box-shadow 之類樣式也都一年了
+11:21 < jsdc_poying> [R1] 很難 debug
+11:21 < clkao> FrankWu: 怪了. browser ?
+11:21 < jsdc_poying> [R1] Split Data，一個一個傳入 worker
+11:21 < s25g5d4> fx甚麼bug?
+11:21 < chuiyi> [R1]結果切資料的時候hang住...
+11:21 < jsdc_carl> [R0] 原來 knockout.js 就是 MVVM
+11:22 < ddio> 是阿～～
+11:22 < jsdc_carl> 該來追追看了
+11:22 < jsdc_carl> Fx 的重大 bug
+11:23 < CPRTeam> 有VIP Room理面的人反應 冷氣有點冷 有辦法協助處理嗎0.0
+11:23 < jsdc_idreamers> [R2] 這不是後端工程師該做的嗎?
+11:23 < irvin_> evenwu_: Firefox CSS unprefix 是在 Fx16，七個半月，前五個版本
+11:23 < metavige> 昨天就發現冷氣很冷～今天就多穿了一件外套了～
+11:23 < jsdc_idreamers> [R2] 可是台灣的老闆並不這麼想
+11:24 < tonyq_> 是 VIP room 冷還是國際廳冷?
+11:24 < jaster> [R2] 學完Grunt變超強前端
+11:24 < Haraguroicha> 都說VIP Room了....
+11:24 < metavige> 我個人覺得 r0 也冷～
+11:24 < tonyq_> 因為 vip room 裡面的人應該有對講機可以直接回報啊 XDD
+11:24 < idreamers_> XD
+11:24 < jsdc_carl> 用事件代替引用，解耦物件之間的關係
+11:24 < FrankWu> clkao: Chrome, 懶人包等都可, 就梗全集不可, 所以是我單一問題嘛?
+11:24 < CJH> [R1] workerD 因為有D的都比較厲害
+11:24 < jsdc_carl> 維東事件與 callbacks
+11:24 < metavige> tonyq_: 不過很多人穿短袖
+11:24 < jsdc_carl> 維繫*
+11:24 < xinbe> [R0] 昨天比較冷
+11:24 < Haraguroicha> 我們要保持無線電的乾淨 (?
+11:25 < jsdc_carl> trigger event 之後可以不用管它做甚麼事情
+11:25 < jsdc_carl> 可在 event 註冊很多 callbacks
+11:25 < jsdc_carl> 當 object 或某程式做 trigger 時，event 就會找到該事件並執行裡面的 callback
+11:26 < fubuki> 事件驅動
+11:26 < yuan817> [R2] https://github.com/appleboy/html5-template-engine
+11:27 < evenwu_> irvin_ 原來如此 感謝
+11:27 < metavige> https://github.com/hij1nx/EventEmitter2 也不錯用喔
+11:27 < Guest31197> ²×©ó
+11:27 < Guest31197> ¤£ª¾¹D¬°Ô£¬Q¤Ñ¤@ª½Áp¤£¶i¨Ó
+11:28 < jsdc_carl> Guest31197: UTF-8 plz
+11:28 < TigerHuang> Guest31197: UTF-8
+11:28 < jsdc_idreamers> [r2] 講者GITHUB https://github.com/appleboy
+11:29 < Guest31197> 正常了嗎? 抱歉
+11:29 < StarNight> 其實每個我都沒用過XD
+11:29 < Haraguroicha> ok了＠＠
+11:29 < FrankWu> 其實我每一個都沒有用過XD
+11:30 < jaster> [R2] AppleBoy好強(崇拜)
+11:30 < tonyq_> 他至少用過 backbone 啦 XD
+11:30 < tonyq_> 只是 backbone 說他們不是 MVC (咦
+11:31 < othrees> Backbone 的 view 其實是controller XD
+11:31 < chitsaou> R2 湧入
+11:33 < fubuki> R2 講this
+11:33 < evenwu_> R2 湧入大量人潮
+11:34 < FrankWu> [R0] 沒有計時？？
+11:34 < Guest31198> R2要爆了
+11:34 < CJH829> 工作人員已經在吃便當了好香= =
+11:34 < FrankWu> 所以沒人計時了喔xD
+11:34 < fubuki> R2很夯呀
+11:35 < fubuki> R0 計時好了
+11:35 < jaster> [R2] 人潮湧入中@@
+11:35 < evenwu_> R2 開始賣站票了....
+11:35 < CJH829> [R2] HTC威能
+11:35 < Guest31198> Hㄒㄈ
+11:36 < RplusTW> 閃光洽霸氣: 我應該不用講到半小時
+11:36 < jsdc_idreamers> [R2] R2湧入大量人潮，可望成為 NEW R2
+11:37 < Zhusee> othree 本來的 banner 很酷啊XDD
+11:37 < chitsaou> *設計師*
+11:37 < FrankWu> R2D2
+11:37 < CrBoy> HTC 在找前端「設計師」
+11:37 < Guest31198> 前端"設計師"
+11:37 < CJH829> [R2] htc爭前端 "設計師"
+11:37 < jsdc_idreamers> [R2] othree:我們在找前端"設計師"
+11:37 < jsdc_poying> [R0] HTML 開發遊戲 render 很慢
+11:37 < jsdc_carl> R1 閃光洽要送書！
+11:38 < Guest31198> XD
+11:38 < jsdc_poying> [R0] translate3d 硬體加速
+11:38 < jsdc_carl> [R1] IE 還有一招叫做 HTC
+11:38 < evenwu_> 喔喔，發現大家都不會翻譯 context 
+11:38 < jsdc_carl> EcmaScript-262
+11:38 < jaster> [R2] context 翻情境好像也不錯(?)
+11:39 < ddio> [R2] 脈洛？
+11:39 < jsdc_dieter> [R2] 好多人
+11:39 < jsdc_poying> [R0] 少用 CSS3 漸層，用 CSS3 keyframe 取代 jQuery 動畫，混合使用 canvas 小型動畫
+11:40 < jsdc_poying> [R0] 一定要實機測試！
+11:41 < CJH829> [R2] this的決定是看你怎麼去call那個function
+11:41 < metavige> [R2] 所以感覺 "情境" 應該是個不錯的翻譯～
+11:41 < jsdc_carl> [R1] IE MUST DIE?
+11:41 < RplusTW> http://browserhacks.com/
+11:42 < jsdc_carl> [R0] 你為甚麼討厭 IE？Fx, Chrome, Safari 難道就不需要 hack 嗎？
+11:42 < jaster> [R2] borrowing method感覺好詭異@@
+11:42 < fubuki> @@?
+11:42 < jsdc_carl> 各瀏覽器 document.getElementByName 解讀不太一樣
+11:42 < irvin_> 使用this也要閱讀空氣…
+11:43 < Guest31198> IE is suck
+11:43 < metavige> jsdc_carl: 因為 ie6,7,8,9, 10 自己規格都不一致吧
+11:43 < jsdc_poying> [R0] display:none or visibility:hidden 元素會被重繪
+11:43 < chuiyi> IE6~現在 經歷了W3C龍頭易主的歷史...
+11:43 < CJH829> [R2] strict mode 強制用new 建立物件
+11:43 < chuiyi> 從不鳥ECMA變成不做不行 XD
+11:44 < FrankWu> jsdc_poying: 好像是說不會重繪??
+11:44 < jsdc_poying> FrankWu: Sorry 打錯
+11:44 < jsdc_carl> [R1] 閃光洽真的不懂為甚麼大家討厭 IE
+11:44 < CJH829> [R2] .call .apply 指定this
+11:45 < jsdc_carl> [R1] JavaScript 對於前端除錯一直不算友善
+11:45 < jsdc_carl> IE8 直到 8.0+ 才完全依循 W3C 的 CSS 2.1 規範
+11:45 < CJH829> [R2] .bind也可指定this但是效能差
+11:45 < jsdc_poying> [R0] 設定 offset 讓隱藏區塊不在顯示範圍內，想顯示實在去改 offset，這樣就不會有 delay
+11:46 < zorro0555> IE 除錯工具難用所以討厭他
+11:46 < chitsaou> coffee 的 fat arrow 好像也是這樣做的
+11:46 < jsdc_carl> [R1] ECMAScript 消失的十年，到底出現甚麼東西？
+11:47 < jaster> [R2] js 的 this真的太神奇@@
+11:47 < littlebtc> [R0] 10MB 記憶體 QQ
+11:47 < fubuki> this很好用呀
+11:47 < RplusTW> opera js debug 很難 
+11:48 < metavige> jsdc_carl: 我討厭 ie 是因為他綁在 windows 中，很多人換不掉或不會換，所以，前端"設計師"恨累
+11:48 < RplusTW> XDDDD
+11:48 < RplusTW> 愛已不能動
+11:48 < grass7boy> (舉手調查) 請問有什麼誘因會讓F2E寫"use strict"啊？(除"我符合標準我很爽"外)
+11:48 < chuiyi> IE不能動 還有什麼值得我心痛
+11:48 < RplusTW> 許如芸 1996
+11:48 < RplusTW> ie沒什麼不好  只是活太久
+11:49 < lloydhuang> [R0] 的網路轉撥，只有聲音，畫面不會動了。
+11:49 < zorro0555> open沒人用 除錯困難就直接忽略 XD
+11:49 < ddio> @grass 避免手滑打錯字生出新變數...
+11:49 < jsdc_poying> [R0] 記憶體管理：避免全頁硬體加速，只加速必要元素
+11:50 < CJH829> [R2] function轉來轉去看到昏了
+11:50 < davidou> 我曾經跑去戶政事務所的公共電腦 下載chrome然後再把它的圖標換成ie
+11:50 < metavige> 寫 use strict 會被檢查是否符合標準吧
+11:51 < jsdc_poying> lloydhuang: 可能是網路的問題，這邊轉撥的電腦看起來是正常的
+11:51 < jsdc_dieter> [R2] bind performance...
+11:51 < lloydhuang> jsdc_poying: ok 我在試試看。
+11:51 < jsdc_dieter> [R2] _.bind()
+11:52 < jsdc_dieter> [R2] $.proxy()
+11:52 < DennyHuang> lloydhuang: 已經有專人前往處理囉
+11:52 < jsdc_poying> DennyHuang: 已經抵達 XD
+11:53 < jsdc_dieter> [R2] bind on demand
+11:53 < jsdc_dieter> [R2] 建議不要用this XD
+11:53 < CJH829> [R2] 急轉直下XDD
+11:53 < Zhusee> [R2] (講了15分鐘的 this 之後) 接下來我其實是要建議大家，不要用 this 2k7
+11:53 < jaster> [R2] 開始講不要用this XD
+11:53 < davidou> 「r2]aavoid use this
+11:53 < grass7boy> R2 超展開
+11:53 < RSChiang> this is insane!! XD
+11:53 < jsdc_carl> polyfill - JavaScript Polyfills, Shims and More
+11:54 < metavige> [R2] - 怎麼又看到 ie ?~
+11:54 < BCLee> [R2] This表示: 現在是在耍我嘍
+11:54 < Peni> 不愛this的舉手
+11:54 < CrBoy> this 表示難過
+11:54 < lloydhuang> jsdc_poying: DennyHuang: 有畫面了。感謝!
+11:54 < CJH829> [R2] 不用this 用that/self XDD
+11:55 < jsdc_carl> ECMAScript-262 6th 改進許多不優良的部分
+11:55 < jaster> 改用 that XD
+11:55 < chuiyi> js good part真的薄薄一本 XD
+11:55 < kerry> this:怪我囉?
+11:55 < RSChiang> DennyHuang 好黑
+11:55 < chuiyi> 但是一開始不好消化 lol
+11:55 < jsdc_carl> 對於設計師來說，學 JS 好處？以後你可以大聲的跟客戶說？我會寫 JavaScript！
+11:55 < CJH829> [R2] 後面也有人講不要用that/self....
+11:55 < RSChiang> 用that XD
+11:55 < jsdc_carl> 幸福的年代
+11:55 < jsdc_carl> 當代的瀏覽器支援度相當完全
+11:55 < HexJan> [R2]要this要不然跟that走
+11:56 < jsdc_carl> 市面上工具、套件與解決方法相當多元
+11:56 < CJH829> [R2] 達成method context-free
+11:56 < jsdc_carl> IDE 的支援越來越完整
+11:56 < jsdc_carl> 門檻是用來跨越的，不是讓你去被絆倒的
+11:56 < jsdc_carl> by 閃光洽
+11:56 < metavige> 所以要去學 Coffee Script (誤？
+11:56 < chitsaou> 蚯蚓
+11:56 < DennyHuang> RSChiang: ........
+11:56 < jsdc_dieter> [R2] tilde
+11:56 < CrBoy> 小蚯蚓？還有別的念法嗎？
+11:56 < kerry> ~>
+11:56 < BCLee> 肥蚯蚓
+11:57 < zeroplex> CrBoy:「抖」？
+11:57 < chitsaou> ≈ 肥蚯蚓
+11:57 < jaster> [R2] 蚯蚓++
+11:57 < CrBoy> zeroplex: XDDDDDD
+11:57 < kerry> Q線~
+11:57 < CJH829> [R2] 波浪線XDD
+11:57 < DennyHuang> 波浪!!
+11:57 < irvin_> 扭扭
+11:57 < evenwu_> 蛆蛆
+11:58 < RSChiang> ~蚯蚓 ≈雙蚯蚓 §蚯蚓繁殖中
+11:58 < DennyHuang> home
+11:58 < aaronchiang> [R2]有冷～
+11:58 < chuiyi> [R1]變成心靈開導時間
+11:58 < jsdc_dieter> [R2] wavy arrow "~>"
+11:59 < jsdc_carl> R1 在談人生哲學
+11:59 < jsdc_carl> 你有興趣的東西，才會想去做
+11:59 < jsdc_dieter> [R2] long wavy arrow "~~>"
+11:59 < jsdc_carl> 熱情！
+12:00 < jsdc_carl> 不要還沒做就先說自己做不到
+12:00 < jsdc_carl> 總要先去試著做，做出來就是你的！
+12:00 < jsdc_carl> try and error 總比甚麼都沒有做得好
+12:00 < jsdc_carl> 以上是閃光洽感人的對話
+12:01 < jsdc_carl> 如果你有用過 IE5.5，就知道甚麼是崩潰
+12:01 < jsdc_carl> 常常會看到 JS 執行錯誤的訊息
+12:01 < jsdc_dieter> [R2] 領便當前都會有感人的發言 (逃
+12:01 < chitsaou> [R2] $.deferred 是 context-free 的
+12:02 < jsdc_dieter> [R2] promise or defer
+12:02 < Zhusee> [R2] $deferred.promise().done()  = resolveCallbacks.add
+12:03 < littlebtc> [R0] <del>蟬在叫人在殺</del>寒蟬悲鳴時
+12:03 < Et_> 領便當前的感人發言@@
+12:03 < jsdc_dieter> 等一下大家都要領便當 XD
+12:03 < CJH829> [R2] 總結 不要用this 用 context-free的方法
+12:04 < CJH829> [R2] 不要用this的缺點是會多吃記憶體
+12:04 < Zhusee> [R2] https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/this
+12:05 < Et_> 喔！！！！好多人領便當
+12:08 < jsdc_dieter> [R2] 用this有繼承概念好觸
+12:40 < JSDC_tshirt> JSDC T-shirt ~~~~
+12:41 < JSDC_tshirt> 現在買 JSDC t 恤，送禮物！
+12:42 < JSDC_tshirt> 最後四件機會！
+12:42 < JSDC_tshirt> lol
+12:42 < zorro0555> 送啥?
+12:43 < JSDC_tshirt> 歡迎來攤位參觀！
+12:46 < chiehyou> 剛剛看到外面 synology 在徵才耶@@...強者快上
+12:49 < Kevin-WY> testing message
+12:51 < Et_> testtest
+13:00 < barneybook|3> 網址???
+13:00 < andre> R2 can't see the url
+13:00 < RplusTW> http://goo.gl/????
+13:00 < mark_wu> XD
+13:00 < RplusTW> 手速太慢
+13:00 < barneybook|3> 看不到唷
+13:00 < dwi2> http://goo.gl/xSxLT
+13:04 < jaster_> 竟然第二天就有前一天的花絮XD
+13:04 < _JonaTW> 快速剪片王！
+13:07 < azole> 花絮怎麼沒有caesar晚上在飯店的照片
+13:08 < RplusTW> 18禁
+13:08 < fantasybz_> 是昨天facebook上的照片！！
+13:09 < othrees> 敲桌
+13:09 < FrankWu> Live coding online  我這還有一個 http://rextester.com/live/MNVTP73558
+13:10 < CJH> 講出名字 誰上傳履歷的不就被知道了嗎XDD
+13:10 < RplusTW> 81,1,114,
+13:10 < RplusTW> 36
+13:10 < RplusTW> 375
+13:10 < RplusTW> 280
+13:10 < RplusTW> 107
+13:11 < RplusTW> *307
+13:11 < RplusTW> 394
+13:11 < RplusTW> 458
+13:11 < flyworld> 昨晚的太精采不公開 （誤
+13:11 < _JonaTW> 潮宅欸！
+13:15 < aaronchiang> [R2]EZTABLE行銷了一下
+13:16 < barneybook|3> 用vim才是真男人XD
+13:16 < andre> 請教一下 sketching with code 講什麼呢???
+13:17 < aaronchiang> [R2]Coding 打越少越快
+13:17 < jsdc_poying> 目前再講一些設計、工程師之間合作的方式
+13:17 < jsdc_carl> R2 snippet, auto complete
+13:17 < andre> thanks poying
+13:17 < jsdc_carl> jump to the position, open the file you want ASAP
+13:18 < jsdc_carl> realtime syntax checking
+13:18 < bensanuj> 請問r1 第二場的Aidan Wu 大大，有在這嗎?
+13:18 < CJH> [R0] 設計師應該是副駕駛( 咦?大家不是都是"設計師"嗎?)
+13:19 < _JonaTW> 設計師和開發設計師一起工作
+13:19 < jsdc_carl> R2 希望有更多善良的人！
+13:19 < metavige_> 裝文青
+13:19 < jaster> [R2] 工程師愛裝文青XD
+13:20 < evenwu> [R0] 講的真棒
+13:20 < CrBoy> evenwu: 已知用火嗎XD
+13:20 < jsdc_carl> CodeRunner 一次前進一點點
+13:20 < flyworld> [報到處] 書局區撿到一支手錶 "Vasuch"牌, 布值錶帶，有遺失的人請到報到處報到
+13:21 < jsdc_carl> Live Reload 是要錢的
+13:22 < jsdc_carl> Sublime 和 Vim 都有這樣的工具
+13:22 < evenwu> ..... [R0] 現在也在講 titanium.... 跟 R1 戰了？
+13:22 < CJH> 結果R0和R1都講Titanium?
+13:22 < York_> 補充一下 https://github.com/guard/guard-livereload 是cli tool，版本比較舊, but free XD
+13:22 < jsdc_carl> Using Source Map
+13:22 < othrees> 我花了錢買了，但是都沒用
+13:23 < jsdc_carl> 真男人就是要用 Vim
+13:23 < flyworld> 他也是open source :P
+13:23 < BeataLin> 女生用了Vim會變硬漢
+13:23 < aaronchiang> R0的講師阿修之前待過Titanium啊
+13:24 < evenwu> [R0] https://github.com/dbankier/TiShadow
+13:24 < andre> 有任何工具可以在web介面上 模擬像live reload在各種device的即時結果嗎?
+13:24 < jsdc_carl> 女生用了會變女神！
+13:24 < chitsaou> LiveReload 的 script 就會自動刷新
+13:25 < chitsaou> 像 Fire.app (內建 LiveReload)
+13:25 < evenwu> [R0] http://tisnippet.com
+13:25 < CrBoy> [R0] 有捲到我耶 我上電視了 ._.\~/
+13:25 < fubuki> live demo 魔咒
+13:25 < jsdc_carl> Phtonjs?
+13:25 < jsdc_carl> 打錯字？
+13:25 < RplusTW> R0 太多人了
+13:25 < CJH> [R0] live demo 網路死
+13:25 < BardicheZ_> 網站掛了？連不到
+13:26 < RplusTW> 太多人掛在上面   進不去
+13:26 < evenwu> 應該是網站掛了
+13:26 < aaronchiang> [R2]PhantomJs
+13:26 < jsdc_poying> 網站掛了...
+13:26 < JSDC_tshirt> http://www.tisnippet.com/#-Iut1FnvYFKyz0VJoQNJ
+13:26 < jsdc_carl> PhantomJS 真的是個好物
+13:26 < fubuki> R2 目前有講到那些工具
+13:26 < jsdc_carl> headless WebKit
+13:26 < rsghost> 連不進去..
+13:26 < evenwu> [R0] 誰來跟阿修說其實是網站掛了
+13:26 < jsdc_carl> 方便用來做自動化測試
+13:26 < FrankWu> [R0] 應該是網站備用掛了
+13:26 < RplusTW> 別連了吧
+13:27 < andre> 剛剛live reload有個畫面( 即時在各種裝置reload), 有web介面直接用模擬所有裝置的平台嗎??....(就是不用自己買一堆device)
+13:27 < aaronchiang> [R2]TimelineTab
+13:27 < CrBoy> q5g瞬間就被搞爆XD
+13:27 < rsghost> 太可怕了..XDD|||
+13:27 < FrankWu> [R0] 跟講者說 是網站掛了=..=
+13:27 < CJH> [R0]工作人員?
+13:28 < henryyang> ~Never live DMEO   XDDD
+13:28 < aaronchiang> [R2]Demo
+13:28 < evenwu> 幹只好衝去前面講XD
+13:28 < RplusTW> evenwu 大大救援
+13:28 < CJH> 結果[R0]工作人員沒人看IRC XDD
+13:28 < RplusTW> 好帥唷  <3~~
+13:29 < rsghost> [R0] 講者：我不應該公佈的...server被打掛了O_Q
+13:29 < TigerHuang> ＠＿＠
+13:29 < CrBoy> 我差點要舉牌了XD
+13:29 < Kevin-WY> 竟然XDD
+13:29 < CJH> [R0] 講者現場開local server XDD
+13:30 < rsghost> 怒開local serverXDD
+13:30 < jsdc_carl> dtao/lazy.js
+13:30 < CJH> [R0] 怒改css XDD
+13:30 < othrees> 為什麼他的 FB 訊息有 iTunes 傳給他的
+13:31 < CPRTeam> ping ..
+13:31 < rsghost> 網站好像ping的到了
+13:31 < FrankWu> = =
+13:31 < othrees> 莫非定律
+13:31 < RplusTW> 10 mins
+13:31 < CJH> [R0] demo終於搞定
+13:32 < jaster> [R2] EzTable有用AngularJS!
+13:32 < jsdc_carl> [R2] Build 內部 ERP with Angular.js
+13:32 < CJH> [R0] 講者：因為沒有時間了  所以我就寫的很快然後就寫好了
+13:32 < rsghost> [R0] 因為我現在沒有時間了...所以我就很快的寫好了(paste)
+13:33 < metavige_> [R2] 看來也是 live demo 的 slide
+13:34 < jaster> [R2] 請問這次有其它講者講到AngularJS的議題嗎
+13:35 < jsdc_carl> [R2] 昨天 lightning talk 據說最後一場有提及
+13:36 < evenwu> [R0] demo live 滿有趣
+13:37 < jaster> [R2] 不support IE XDDD
+13:37 < PTC> [R2]從此不再support IE www
+13:37 < oliver__> 重此不在支援IE...xddd
+13:37 < jaster> 只能給個GJ ?
+13:37 < jsdc_carl> [R2] 那是 EZTABLE 夠硬
+13:37 < CJH> [R0] 我忘了我網站掛了XDD
+13:37 < barneybook|3> 砍爆IE
+13:37 < barneybook|3> 微軟繼續被打臉
+13:37 < metavige_> 政治手段～～～
+13:38 < jaster> 我們的最大贊助商從昨天被打臉到今天XD
+13:38 < CJH> [R0] 這時候應該要有個什麼 掌聲阿 XDDD
+13:38 < jsdc_carl> 最大贊助商也很討厭他們的 IE6,7,8 吧
+13:38 < barneybook|3> IE要不被打臉最快的解決方案是????  (以下開放回答)
+13:38 < begeeben_> 七龍珠梗出現了
+13:39 < jsdc_carl> barneybook|3: 冒充 Firefox！
+13:39 < RplusTW> 工程師要跟設計師合體 (羞///
+13:39 < fubuki> 打掉重練
+13:39 < evenwu> [R0] 不是每次合體都會成功
+13:39 < chuiyi> "請大家不要用IE8以下瀏覽器, 像我現在都用Firefox"
+13:39 < barneybook|3> 等一下要跟正妹出去玩
+13:39 < barneybook|3> 才是增加效率最好的方式
+13:40 < CJH> [R0] MOZ - porting to web
+13:40 < barneybook|3> IE要不被打臉最快的解決方案是????  (正解：不要研發IE了XD)
+13:40 < aaronchiang> [R2]又開始行銷EZTABLE
+13:41 < jaster> [R2] 徵才惹w
+13:41 < barneybook|3> eztable缺F2E唷
+13:42 < lloydhuang> DennyHuang: [R0] 的網路轉撥，只有聲音，畫面又不會動了。
+13:42 < metavige_> [R2] IE10 是比較好的版本???
+13:42 < StarNight> plurk掛了？？？連不上
+13:43 < StarNight> ls
+13:43 < FrankWu> 我可以
+13:43 < barneybook|3> 鋪浪正常
+13:45 < metavige_> [R2] IE 又被打臉～
+13:45 < Vantist> ie好可憐阿T_T
+13:45 < jsdc_dieter> lloydhuang: 已前往處理
+13:46 < jaster> [R2] IE QQ
+13:46 < lloydhuang> jsdc_dieter: 謝謝
+13:46 < fubuki> R2 內容是?
+13:47 < barneybook|3> R2 demo time
+13:47 < jaster> [R2] 一開始就live demo XD
+13:47 < metavige_> 如何打造雲端開發平台
+13:47 < Et_> 雲端開發
+13:48 < FredC> :-)
+13:48 < timdream> 有沒有大德可以借一個 Magsafe 1 Apple 充電器 QQ 我在國際會議廳最後一排
+13:48 < jsdc_carl> R0 在講 Emscripten 的 memory model
+13:48 < fubuki> R0有點硬
+13:48 < jsdc_carl> R0 應該是給有 C/C++ 背景的人聽的
+13:48 < othrees> 應該不太熟悉吧XD
+13:48 < metavige_> [R2] 在講解他們公司的 Web 開發工具阿
+13:49 < othrees> 很少人用過array buffer
+13:49 < jaster> [R2] 那個開發工具好像有點強w
+13:50 < barneybook|3> R2 這開發工具好威
+13:50 < andre> [R2] demo their PAAS Product ( i think)
+13:50 < Guest70325> 可是要學習它們的語言
+13:50 < Et_> 好犯規的工具
+13:51 < oliver__> [R2] 看畫面好像是用ExtJs為底..
+13:51 < CJH> [R0] 吃飽看code 好愛困
+13:51 < metavige_> [R2] not paas, I think it's a saas projecy
+13:51 < metavige_> project
+13:51 < fubuki> R1呢
+13:52 < evenwu> 來偷渡去R2... 嗚嗚
+13:52 < jsdc_poying> [R1] 遊戲、Web 的結合
+13:52 < chitsaou> [R0] 看起來好像 assembly +_+
+13:52 < fubuki> 底層架構呀
+13:53 < barneybook|3> R2 應該是獨立開發的工具
+13:53 < oliver__> asembly...這麼硬...一"一.
+13:53 < chiehyou> [R0] Compiler
+13:53 < barneybook|3> jq grid
+13:53 < RplusTW> Mozilla 果然硬梆梆
+13:53 < CJH> [R0] 感覺轉過去很難debug, 還要先allocate
+13:53 < PichuChen> 是大象
+13:54 < ken8203> .
+13:54 < HexJan> [R1]回顧電視機
+13:54 < othrees> 真男人不debug
+13:54 < othrees> 有Bug就砍掉重寫
+13:54 < barneybook|3> R2 重點是什麼時候釋出~~~~
+13:55 < chitsaou> [R0] compile-time optimization
+13:55 < CJH> [R0] 講的和早上asm.js是一樣的工具嗎
+13:55 < metavige_> [R2] 感覺上在做另一個 AngularJS? 
+13:56 < jsdc_carl> asm.js 的環節包含 emscripten
+13:56 < jaster> [R2] 跟Angular真的蠻像的XD
+13:56 < othrees> 不算是
+13:56 < irvin_> CJH: 一樣
+13:56 < jsdc_carl> 所以整件事都是在說從 C/C++ 轉到 JavaScript
+13:57 < yiching> 從c/c++轉js是什麼時候可以用？ 請控制記憶體的時候嘛
+13:57 < chiehyou> asm.js 是 js 的子集, emscripten 轉到 asm.js 會快一點　～？
+13:57 < othrees> asm.js 是讓 js 跑直接做一些事情，沒經過 js engine 那手所以也可以自己寫
+13:57 < barneybook|3> R2 放大縮小畫重點的工具是????
+13:57 < FredC> 離開 Firefox 之後就不會變快 XD
+13:57 < othrees> Emscripten 做的是llvm to js
+13:57 < fubuki> Emscripten is an LLVM to JavaScript compiler.
+13:58 < begeeben> 聽起來像是依照asm.js的語法規定寫javascript，就可以在javascript裡面享受加速的效能
+13:58 < othrees> 其實也沒有限制在c/c++
+13:58 < irvin_> 在porting現有專案時好用
+13:58 < othrees> 兩者可以串起來
+13:58 < timdream> FredC: V8 也在朝 asm.js 做最佳化喔，Google I/O 有提到
+13:59 < chitsaou> asm.js 需要 runtime 支援嗎？
+13:59 < begeeben> 現在講到因為asm.js裡面有規定variable type，所以可以省下jit type check的時間
+13:59  * timdream 電腦沒電了 T_T
+13:59 < othrees> 因為以前 native to js 轉出來速度還是差太多
+13:59 < othrees> 其實V8 就已經有預設 variable type 了
+14:00 < othrees> 盡量保持同個變數沒有變換型別，也會跑的比較快
+14:00 < jaster> [R2] 越講越像Angular XD
+14:00 < othrees> 不過還沒asm.js 直接
+14:01 < metavige_> [R2] 講師也自己也自爆是『借用』angularjs 的作法了吧
+14:01 < chiehyou> 沒有提到是用 JIT 加速很容易上人懷疑速度怎麼可以快成這樣 XD
+14:01 < FredC> 基本上，asm.js 就是逼你寫的很低階 XD
+14:01 < begeeben> 有沒有工具可以把現有js程式轉換成符合asm.js語法？
+14:01 < othrees> 前陣子有v8的人抱怨asm.js 還以為v8不會有
+14:01 < FredC> begeeben, 我想要是有這樣的工具，也不需要有 asm.js 了
+14:02 < othrees> 現在看來他應該是實作的很不爽吧XD
+14:02 < begeeben> :D
+14:02 < FredC> 直接做進 javascript engine 就好 XD
+14:02 < fubuki> IE
+14:02 < othrees> 有些困難，其實他目前能做的看起來都比較是數值相關的操作
+14:03 < zorro0556> 話說R1的那個google遊戲 有人有傳送門嗎?
+14:03 < FredC> 沒辦法，Google 不可看 Firefox 在那邊拿 Game 當令劍 XD
+14:03 < jaster> [R2] LiveDemo真的頗強大XD
+14:03 < poying> [R1] http://chrome.com/supersyncsports/
+14:03 < fubuki> 火力展示嗎
+14:04 < zorro0556> 3Q
+14:04 < oliver__> [R2] 剛剛有說到把寫到js的UI定義改到tag屬性...是用什麼方式嗎...
+14:04 < metavige_> [R2] 原本 javascript 就可以取得 DOM 的自定屬性了
+14:05 < othrees> Angularjs 的做法？
+14:05 < barneybook|3> R2 這樣用json傳遞，不會有安全性的問題嗎???
+14:05 < zorro0556> R2那個就是Angularjs
+14:05 < chitsaou> [R0] 把新酷音編譯成 javascript
+14:05 < metavige_> document.getElemenetById('a').arrtibutename ~
+14:06 < jsdc_dieter> lighting talk 額滿了嗎？
+14:06 < jsdc_carl> R0 live demo GG 了
+14:07 < begeeben> R0 demo bananabread
+14:07 < Vantist> 高雄XDDD
+14:07 < barneybook|3> 高雄公司徵人
+14:07 < jsdc_carl> emscripten-qt
+14:07 < jsdc_idreamers> [R2] 有一點我們和其他公司不一樣的，我們在高雄
+14:07 < fubuki> 中冠在高雄呀
+14:07 < barneybook|3> R2 廣告中~~~高雄工程師
+14:08 < RplusTW> time's up
+14:08 < fubuki> 好像跟中鋼有關係
+14:08 < andre> 那棟不是中鋼大樓嗎
+14:08 < Lienfa> “設計師”
+14:08 < jsdc_idreamers> 徵Web前端開發工程師 
+14:08 < irvin_> 那是中鋼子公司
+14:08 < zorro0556> R2那家公司就是中鋼轉投資的子公司啊
+14:09 < othrees> 現在都是前端設計師吧
+14:09 < xinbe> [R0] 好艱深，聽得很勉強
+14:09 < jsdc_carl> http://vps2.etotheipiplusone.com:30176/redmine/projects/emscripten-qt/wiki
+14:09 < CJH> [R0] 有支援64bit數字處理
+14:09 < chitsaou> [R0] 64-bit 數字用大數模擬
+14:10 < poying> [R0] Canvas 作遊戲需要 Tile + Sprite
+14:10 < jsdc_idreamers> [R2] https://github.com/ezoengine/gkmobile
+14:10 < poying> 打錯 [R1]
+14:10 < chiehyou> R0 問問題這位真強者～
+14:11 < poying> [R1] Cnavas Layer 概念
+14:11 < chitsaou> [R0] 不支持動態增長 array size # 那 realloc() 可以嗎？
+14:11 < begeeben> 真強者
+14:11 < tonyq_> 有兩個餘額
+14:11 < metavige_> 我剛剛嘗試做了一下怎麼去抓類似 angularjs 的屬性，分享一下～http://jsfiddle.net/gBCdj/
+14:11 < othrees> 就是講者回答的copy的方法
+14:12 < chitsaou> calloc 一塊新的，再 memcpy 過去嗎
+14:17 < irvin_> grass7boy: 你在哪呀
+14:18 < jsdc_dieter> 便當還剩好多阿~~~~
+14:18 < BardicheZ_> 便當山
+14:20 < jsdc_carl> R0 responsive Web Design
+14:20 < zorro0556> 話說 交大官網被菲菲打爆了 資料被全砍了  還連續兩次
+14:20 < Guest14494> 沒錯
+14:20 < fubuki> 恩
+14:20 < Zhusee> 中央好像也被打了
+14:21 < CrBoy> 原來 RWD = Responsive Web Design.....XD
+14:21 < s25g5d4> 113顏面無光
+14:21 < CrBoy> zorro0556: @@
+14:21 < RplusTW> 113....
+14:21 < zorro0556> 誰叫我?
+14:21 < CrBoy> [R0] 他說他以前做什麼行銷？
+14:22 < jsdc_carl> [R0] 我也沒聽清楚 XDD
+14:22 < jsdc_dieter> [R2] 14:35開始
+14:22 < evenwu> [R0] 威能...
+14:22 < jsdc_carl> [R0] 有空看一下這簡報：http://nowills.blogspot.tw/2013/04/rwd-rwd.html
+14:22 < jaster> [R0] 感覺非常威
+14:22 < jsdc_carl> 有分上下集
+14:23 < jsdc_carl> 這位講者的內容蠻充實的，簡報我大概看過
+14:23 < Zhusee> [R0] 「RWD 聖經」 http://www.abookapart.com/products/responsive-web-design
+14:23 < jsdc_carl> 不管是不是前端設計師，都可以了解一下
+14:23 < barneybook> 設計師!!!
+14:23 < jsdc_carl> RWD 橫跨各平台、各種解析度
+14:23 < evenwu> [R0] 現在才聽過 RWD 你已經落後兩年了
+14:23 < jsdc_carl> 解析度真的超麻煩的
+14:24 < jsdc_carl> 還會有直的跟橫的
+14:24 < barneybook> 幸好我去年就知道RWD
+14:24 < jsdc_carl> RWD: 響應式網頁設計
+14:24 < CJH> [R0] 針對解析度有好解法嗎
+14:24 < tonyq_> R1 的講者也是 gaaan.com 的作者
+14:24 < jaster> [R0] 雖然知道但從沒寫過(哭)
+14:24 < jsdc_carl> [R0] 這要請專業的來解答了
+14:24 < tonyq_> R1 平常是不太常看到他出來講場的 XD
+14:24 < jsdc_carl> [R0] 就我淺薄的知識，應該沒有
+14:25 < barneybook> CJH: 聽說解法不少~~
+14:25 < metavige_> <meta name="viewport" content="width=device-width" />??
+14:25 < evenwu> 原來長頸鹿就是 gaaan 的作者喔
+14:25 < jsdc_carl> Respond.js
+14:26 < jsdc_carl> 似乎是讓不支援 CSS3 的瀏覽器可以支援
+14:26 < jsdc_carl> 網頁設計師分三種：視覺、前端、後端
+14:26 < jsdc_carl> [R0] 前端很多時候都需要後端協助，例如圖片壓縮
+14:26 < CJH> [R1] 人不多 看來[R0]應該爆滿
+14:27 < othrees> 順便偷推薦投影片
+14:27 < othrees> https://speakerdeck.com/davatron5000/mo-pixels-mo-problems
+14:27 < othrees> 講Responsive image
+14:27 < evenwu> othrees 現在國外投影片都寬螢幕嗎
+14:28 < jsdc_carl> PowerPoint 2013 開始是寬螢幕
+14:28 < othrees> 是啊
+14:28 < evenwu> 喔喔喔
+14:28 < barneybook> ICON有替換的問題
+14:28 < othrees> 都 HD 了
+14:28 < evenwu> 那下次也做寬螢幕好了
+14:28 < othrees> 隨便都有 HDMI 
+14:28 < barneybook> RWD 好工具  http://froont.com/
+14:28 < zorro0556> R0人好多....
+14:28 < jsdc_carl> 可是會場要切 1024*768 解析度
+14:29 < chitsaou> 上下留空還是有 HD 的感覺（誤
+14:29 < RplusTW> froont 很有趣~  又回到拖拉了
+14:29 < jsdc_carl> 不是每個網站都適合 RWD
+14:29 < othrees> 可是這個場地的系統只能 1024 x 768
+14:29 < jsdc_carl> 資料量大、網路遊戲，都不適合 RWD
+14:30 < jsdc_carl> 專案類型需要比較單純，做 RWD 比較容易成功，不然容易成為不快樂的回憶，這樣真的不太好
+14:30 < tonyq_> 沒看過 javascritp 書 沒上過課 javascript 不太熟 
+14:30 < tonyq_> (但是做了 gaaan.com )
+14:30 < jsdc_carl> RWD五大秘訣
+14:30 < metavige_> UX !
+14:30 < jsdc_carl> 1. 掌握解析度
+14:30 < othrees> gaaaaaaaaaan
+14:30 < tonyq_> http://gaaan.com/ 
+14:31 < tonyq_> 我雖然是個網頁，但是我立志成為一個BBS。
+14:31 < othrees> 320 x 480 真是超小的
+14:31 < CJH> [R1] 喜歡做出一個東西大於技術本身
+14:31 < jsdc_carl> RWD五大秘訣 2. 流動佈局
+14:31 < jsdc_carl> liquid layout
+14:31 < jsdc_carl> 捨棄固定寬度，改用液態排版
+14:32 < RplusTW> 感覺比較適合WebConf
+14:32 < evenwu> http://pxtoem.com
+14:32 < tonyq_> R1 開發產品跟專案不一億
+14:32 < tonyq_> * 不一樣
+14:32 < tonyq_> 同一陀程式 年復一年的改下去
+14:32 < tonyq_> 用了 lib 幾乎最後都會被拔掉
+14:32 < jsdc_carl> em 較 px, pt 適合流動
+14:32 < tonyq_> lib 是爽一時 適合專案開發
+14:32 < tonyq_> 遲早碰到 lib 沒辦法做到的事情
+14:32 < tonyq_> 產品使用 lib 要想清楚退場或替代方案
+14:32 < jsdc_carl> RWD 五大秘訣之三：使用者經驗
+14:33 < othrees> 只好自己幹一套 lib
+14:33 < CJH> [R1] 你今天在裡面拉了一沱屎 今後的三年五年你都要聞那個臭味
+14:33 < barneybook> R0 講者很激動
+14:33 < barneybook> 網頁很糟不是第一天了~~~~~~
+14:33 < jaster> [R0] 很生動啊XD
+14:33 < FrankWu> 嗯嗯
+14:34 < jsdc_carl> R0 超棒的！！
+14:34 < CJH> [R1] 用lib只是爽一時 要考慮退場機制
+14:34 < metavige_> [R0] 為什麼要作這個網站？ ----> 老闆要作！
+14:34 < jsdc_carl> 堅持做對的事
+14:34 < jsdc_poying> [R1] 自己刻是比較好的作法，用 lib 是爽一時
+14:34 < barneybook> 建模!!!!
+14:34 < jsdc_carl> 調查→建模→需求→研究或訪談→修正→測試
+14:35 < jsdc_carl> 建模會不會就是 user scenario？
+14:35 < barneybook> 這張講30分鐘
+14:35 < begeeben_> 謎之片
+14:35 < barneybook> 迷之片
+14:35 < chuiyi> 迷汁片
+14:35 < legist> 大會報告：中午 t-shirt 抽獎的中獎人, 請儘速至四樓南側的 t-shirt 攤位領獎喔！！！
+14:35 < fubuki> 就使用者情境
+14:35 < jsdc_dieter> [R2] 結合Access 功能與 Excel界面
+14:35 < jaster> [R0] 迷汁(誤)
+14:36 < barneybook> 這時候就要(推卸責任) 使用者經驗到底要誰負責?
+14:36 < barneybook> 前端?PM?
+14:36 < evenwu> [R0] 感覺相當理解晚上看片的經驗...
+14:36 < fubuki> PM
+14:36 < begeeben_> PM
+14:36 < CJH> [R1] 任何操作都理所當然 就是好的使用經驗
+14:36 < zorro0555> PM
+14:36 < metavige_> 倒楣的人? (誤
+14:37 < FrankWu> 我這座位的網路有時會跳掉耶 不知道是線的問題還是...@@
+14:37 < zorro0555> 反正不管發生啥事 該死的都是PM (疑?
+14:37 < FrankWu> 3D041
+14:37 < barneybook> 所以這場應該要去PM的研討會講~~~~(干前端屁事.....)
+14:37 < jsdc_dieter> [R1]  >"< 
+14:37 < jaster> [R0] 看來很宅(誤)
+14:37 < CJH> [R1] 講者很聰明的錄了影片 避免了live demo魔咒
+14:38 < RplusTW> 鋼琴下的祕密
+14:38 < barneybook> 所以RWD是PM的責任!!!!!
+14:38 < chuiyi> 鋼琴下的 ㄇ一 ㄇ一
+14:38 < evenwu> 沒看過
+14:38 < jsdc_dieter> [R1] 讓使用者開表單做出資料庫的系統
+14:38 < RplusTW> 打不開的琴房外有兩雙鞋
+14:39 < jsdc_carl> R0 這頁還真的講很久
+14:39 < fubuki> 說要30分鐘
+14:39 < jsdc_carl> 都是非常珍貴的經驗
+14:39 < barneybook> jsdc_carl: 就說30Zp 5j/ kx7
+14:39 < barneybook> 30分鐘!!!
+14:39 < oliver__> 講完就結束...
+14:39 < oliver__> XDD
+14:39 < metavige_> XD
+14:39 < jaster> [R0] 應該是個很適合webconf的主題w
+14:39 < StarNight> 然後就有迷之片
+14:40 < jsdc_carl> 所以會一直講到結束嗎？這其實是簡報最後一頁？
+14:40 < barneybook> 講故事時間!!!!
+14:40 < fubuki> 今年已經結束了
+14:40 < fubuki> 要等明年了
+14:40 < yiching> 這是標準使用者經驗研究流程...很少公司能這樣做
+14:40 < jsdc_carl> yiching: 真的！
+14:40 < barneybook> 使用者研究通常都是一個人專屬的工作
+14:40 < fubuki> 公司我看到都是老闆爽不爽
+14:40 < BlueT_> 真的很少人會做這麼完整
+14:41 < legist> 大會報告：中午 t-shirt 抽獎的中獎人，尚未領獎者有：131號，賴逸駿；1號，王佑哲；36號，楊盛帆； 280號，林筱誼；307號，鄭偉成；394號，徐偉鈞。煩請儘速於四樓南側 tshirt 販賣櫃台索取獎品，謝謝！
+14:41 < chuiyi> 這是人類行為學研究嗎...
+14:41 < barneybook> 光做使用者研究就可以開一個職缺了!! 而且薪水還挺高的
+14:41 < metavige_> 感覺講師自己很high
+14:41 < jsdc_dieter> [R1] repeat mvc concept
+14:41 < tonyq_> 大會報告 失物持續成長中 請有遺失東西的到報到處領 XD
+14:41 < barneybook> 果然是做行銷出生的~~~~
+14:41 < othrees> 初音控!
+14:42 < yiching> 使用者經驗研究有分為開發前的用戶研究跟開發中後的易用性測試  基本上用戶研究根本沒人做  大家比較相信自己對市場的敏銳度
+14:42 < othrees> 越長越大的失物塊
+14:42 < jaster> [R0] 看到persona一直讓我想到某異聞錄......
+14:42 < kingsley> 抽獎抽中的  現在再聽演講  可以這堂聽完再去領嗎?
+14:42 < begeeben_> 我們是老板使用經驗
+14:42 < barneybook> 這可以用機器人處理嗎??? 使用者訪談XD
+14:42 < tonyq_> R1 rerender 其實很多時候比一行一行插快
+14:42 < yiching> 使用者研究的缺很少！！！有的話請告訴我！！謝謝XD
+14:43 < yydon> 把老闆關起來觀察嗎？
+14:43 < FrankWu> o4o4
+14:43 < FrankWu> 讚喔
+14:43 < HexJan> [R1]用起來沒這麼爽！
+14:43 < jaster> [R0] 整個作完好像要很久 =口=
+14:43 < jsdc_dieter> [R1] condiser partial update
+14:43 < chuiyi> 這流程好像香港廉政公署拷問...
+14:43 < FrankWu> 他好像說1個月?
+14:43 < fubuki> 他說要1個月
+14:43 < evenwu> [R0] 主題聽起來比較像使用者經驗研究
+14:43 < barneybook> 恩~~剛剛說一個月
+14:44 < barneybook> RWD果然跟前端比較無關
+14:44 < begeeben_> 我們老板使用經驗從產品開始開發到上線之間都要持續研究
+14:44 < samuelololol> 有人試過webinar 嗎？？
+14:44 < othrees> 我們中間還有一層，都要先照他的改，然後在往上，改來改去的
+14:44 < barneybook> 技術上剛剛前一頁已經講完了!!!
+14:44 < FrankWu> 我爺爺也會用Line...
+14:44 < jaster> 爺爺好強!!
+14:44 < lloydhuang> samuelololol: 我現在在用 webinar
+14:44 < chuiyi> 給老闆看的版本跟發行的版本分出兩個branch???
+14:45 < othrees> 還有假傳聖旨，不知道到底是他要的還是上面的意見
+14:45 < HexJan> [R1]教你怎麼使用ＥＸＣＥＬ
+14:45 < fubuki> R1在火力展示吧
+14:45 < legist> hi, @kingsley, 抽獎請於四前點至四樓南側tshirt攤位領取喔，因為四點開始撤外場了！
+14:45 < barneybook> 外掛!!!
+14:45 < begeeben_> 假傳聖旨+1
+14:45 < kingsley> @legist  好的
+14:45 < tonyq_> 相較於 csv 來講 json 還是有點胖
+14:45 < tonyq_> XDDD
+14:45 < CJH> [R1] 表格送csv
+14:46 < barneybook> 我的NB有觸控!!!
+14:46 < RplusTW> csv大好~
+14:46 < samuelololol> lloydhuang: wow, 我用email的連結他說[webinar is not available]
+14:46 < tonyq_> 所以 UI 看起來像是 table 操作而已
+14:46 < tonyq_> 比想像中簡單
+14:47 < tonyq_> make sense 
+14:47 < yiching> 如果不講標準使用者經驗研究流程，改講lean UX流程應該會比較能被大家接受
+14:47 < tonyq_> 複雜的在邏輯層
+14:47 < othrees> 換張了！
+14:47 < yydon> 終於換下㱸一女 了2
+14:47 < jsdc_carl> 換張了！
+14:47 < chuiyi> 超有手感之你的手
+14:47 < begeeben_> lean tao ge研究
+14:47 < jsdc_carl> RWD五大秘訣 4. 體驗操作
+14:47 < lloydhuang> samuelololol: 哦，我用 ipod II 上的。因為實在是無腦安裝，我沒有遇到問題。
+14:48 < samuelololol> lloydhuang: XD
+14:48 < jsdc_carl> iPhone 也有實體鍵盤！
+14:48 < tonyq_> 第一個版本一定效能最不好
+14:48 < tonyq_> 哈哈
+14:48 < jsdc_dieter> [R1] 聽說server side實作儲存方式很特別
+14:48 < barneybook> 幾個妹
+14:48 < tonyq_> 是啊 server side 也很複雜
+14:48 < CJH> [R1] 格子拖拉功能，posistion-absoute設定可拖拉的元件
+14:48 < tonyq_> 是動態的 db 結構，用 jetty 做的
+14:48 < fubuki> jetty?
+14:48 < tonyq_> 不對 說錯了
+14:49 < tonyq_> db 歸 db server 是 jetty
+14:49 < evenwu> [R0] 切成講者畫面超強
+14:49 < legist> 大會報告：jsdc 2013 版本 tshirt 即將售完，請有需要的朋友於下午四點前至四樓南側攤位進行購買，剩最後一小時，以免向隅。
+14:49 < barneybook> R0 投影片太威
+14:49 < barneybook> 所以轉講者了
+14:49 < othrees> 畫面XD
+14:49 < jaster> 畫面切講者哪招XD
+14:49 < FrankWu> 因為畫面停太久了吧XDD
+14:49 < tonyq_> R1 有客戶全公司只用 IE7 
+14:49 < barneybook> http://mediaqueri.es/
+14:49 < tonyq_> XD
+14:50 < jsdc_dieter> [R1] IE被cue
+14:50 < evenwu> [R0] 
+14:50 < evenwu> [R0] http://mediaqueri.es
+14:50 < PTC> www
+14:50 < jsdc_dieter> 500大公司 XD
+14:50 < CJH> [R1] 全公司只能用ie7 不能升級 不能安裝其他軟體
+14:50 < tonyq_> 之前去過全美二十大，他們要支持 ie6 是因為...
+14:50 < CJH> [R1] 講者跳了一下
+14:50 < tonyq_> 產場機器太多 全面淘汰太困難 所以只好繼續吃持
+14:50 < tonyq_> 哈
+14:50 < jaster> 可以統計一下IE到底被幾個講者cue到了XD
+14:50 < tonyq_> 支持
+14:51 < othrees> 越大越難換
+14:51 < fubuki> 成本問題
+14:51 < tonyq_> R1 以預先 cache 賺取效能
+14:51 < CJH> [R1] 換頁不render 改用隱藏
+14:51 < oliver__> 太多的歷史包袱...要升級真的很難....
+14:52 < barneybook> 支援IE就是成本問題
+14:52 < jsdc_dieter> [R1] browser randerer outside screen
+14:53 < jsdc_dieter> [R1] 類似double buffer原理
+14:53 < tonyq_> 看起來 R1 有追求完美得傾向 XDDD
+14:54 < jaster> [R0] 聲控XD
+14:54 < chuiyi> 這時候就要買S4 眼球捲動！
+14:54 < fubuki> 眼球控制吧
+14:54 < CJH> [R1] 選取框 用floating elemnt蓋上去
+14:54 < othrees> Lawrence 還在場嗎XD
+14:54 < jsdc_carl> RWD三大關鍵：Media Queries, 流動佈局, 資訊流
+14:55 < chuiyi> 有人為了吃點心先奔出去了 lol
+14:55 < BCLee> iPad不是只能用手阿
+14:55 < tonyq_> R1 剪貼簿客製化實做
+14:55 < _JonaTW1> 我也想偷跑去吃  (嚼嚼
+14:55 < FrankWu> 他講到的 電容筆就好了啊~~
+14:55 < jsdc_dieter> [R1] 不只看來是看到了 :P
+14:55 < barneybook> 其實Google IO有發表，把聲控放到Chrome裡面了
+14:55 < chuiyi> 我最常嚕iPad的器官是手指關節吧...
+14:56 < BCLee> 舌頭也可以
+14:56 < othrees> 有聲控api的樣子
+14:56 < barneybook> 跟GLASS一樣的操作方式，在Google首頁
+14:56 < FrankWu> = =
+14:56 < begeeben_> 你都用舌頭玩什麼ＡＰＰ...
+14:56 < jsdc_carl> 太威了
+14:56 < evenwu> [R0] 沒什麼難度喔 真的 我講真的 那他的難度在哪裡 你在做這件事上面的經驗而已
+14:56 < tonyq_> R1 ^C ^V 是可以 support 複製貼上的，右鍵則只能在 app 裡面
+14:57 < zorro0555> 剛突然發現一件事 我忘了拿我的筆電包忘了放在哪 請問 失物堆裡有個黑色的筆電包嗎?
+14:57 < RplusTW> 昨天沒吃到點心 //__\\
+14:57 < barneybook> 回到成本問題XD
+14:57 < begeeben_> 有R1投影片連結嗎？謝謝
+14:57 < barneybook> 吃點心啦~~~~
+14:57 < RplusTW> 太多人惹  動線有點卡
+14:57 < tonyq_> #zorro0555 我有收到一個
+14:57 < tonyq_> 去報到組認領看看是不是你的
+14:57 < CJH> R1投影片沒有講怎麼做
+14:57 < CJH> 都是現場講的
+14:57 < begeeben_> orz
+14:58 < tonyq_> 因為他是腦袋就一堆實作的強者啊
+14:58 < tonyq_> XDDD
+14:58 < barneybook> 所以我還是不懂RWD
+14:58 < barneybook> 哈哈哈哈
+14:58 < fubuki> @Q@
+14:58 < zorro0555> 聽不懂啦  來吃點心
+14:58 < zorro0555> GO
+14:58 < jsdc_dieter> tsv(tab-separated values
+14:58 < FrankWu> 衝喔
+14:59 < TrendyOt1ku> 好像很多人掉東西...= = 這是JSDC的傳統嘛@@? 之前去OSDC跟COSCUP好像很少掉東西的
+14:59 < tonyq_> R1 完全硬幹 widget ...
+14:59 < tonyq_> 去年也掉很少
+15:00 < tonyq_> 今年比較多 XD 
+15:00 < CJH> [R1] 利用函式同名達成偽多型
+15:00 < tonyq_> R1 實作繼承的方式很有趣 他是所有 widget 的 prototype 都取同樣名字
+15:00 < TrendyOt1ku> 我是掉FF Phone的(逃
+15:00 < tonyq_> 你掉的是這個金 FF phone 還是這個 銀 FF phone
+15:00 < Kevin-WY> 我撿到的XDDD
+15:01 < CJH> [R1] 鍵盤動作跳過了阿阿阿阿
+15:01 < TrendyOt1ku> xd
+15:01 < tonyq_> 每次聽到長頸鹿講 一般來說也沒有這麼困難我就抖一下
+15:02 < LionLai> http://bit.ly/14iU3jh 保哥公司徵人喔
+15:02 < LionLai> ＸＤ
+15:02 < tonyq_> 嘖嘖 要做到這樣要做很多基礎建設啊 XD
+15:02 < CJH> [R1] 講者每個功能都覺得很簡單= =
+15:02 < davidou> [r1]根本就都全部硬幹widget阿 超強
+15:02 < tonyq_> 如果 ui 跟邏輯已經分離
+15:02 < tonyq_> 他能直接 render table 的話 的確會很簡單
+15:03 < tonyq_> 特別是還有 widget 一致的話 就真的是很簡單
+15:03 < tonyq_> 問題是要做這個核心不簡單..
+15:04 < tonyq_> 這就是他最威的地方
+15:04 < tonyq_> 多對多的資料欄位連結
+15:04 < DennyHuang> 我沒有掉 FF Phone 我很誠實 所以金色和銀色的FF Phone 可以送我嘛~
+15:04 < jsdc_dieter> [R1] 拖拉產生表單 @@
+15:04 < tonyq_> 他的後端是沒有 關聯式資料庫的
+15:04 < CJH> [R1] 拖拉要算座標 沒辦法用mouseover
+15:04 < jsdc_dieter> Raphael.js
+15:05 < PichuChen> [r1] 我用了library ((小聲
+15:05 < jsdc_dieter> [R1] XD
+15:05 < CJH> [R1] 畫方塊 畫線 用canvas
+15:06 < CJH> [R1]火力展示線上教學模式
+15:06 < davidou> 這跟intro.js好像
+15:06 < tonyq_> 我才不相信是故意的 XDDD
+15:07 < PichuChen> R1太強大了
+15:07 < davidou> http://usablica.github.io/intro.js/
+15:07 < CJH> [R1] json流程劇本
+15:07 < jsdc_dieter> [R1] 用json紀錄步驟內容
+15:08 < tonyq_> 他們大概在 nodejs 還沒出知前就用 rhino 了
+15:08 < CJH> [R1] server用rhino
+15:08 < tonyq_> 因為後台本來就是 java based (jetty) 
+15:08 < tonyq_> 所以就很合
+15:08 < jsdc_dieter> [R1] 硬派真男人
+15:09 < davidou> 不知道為什麼 連噗浪有點慢
+15:09 < tonyq_> 因為很浪漫
+15:10 < jsdc_dieter> 噗浪有點慢因為很浪漫 (誤
+15:10 < CJH> [R1] 後端用nosql
+15:10 < PTC> [R1]tea time! XD
+15:11 < Tr3ndy0t4ku> 下次換掉MacBook了嘛(逃
+15:12 < legist> 衣服剩下不到 15 件
+15:19 < RSChiang> ...?
+15:26 < zorro0555> 今天人沒少很多 可是食物多很多?
+15:26 < zorro0555> 感覺會剩很多
+15:27 < othrees> 要四十分了
+15:30 < fubuki> 開始了
+15:30 < _JonaTW> R1 CreateJS gogo
+15:30 < barneybook> R1爆滿
+15:31 < othrees> Gogo
+15:32 < fantasybz> 應該是佔位很滿
+15:33 < zorro0555> R1爆滿可是一堆人都東西佔位沒人在位子上
+15:33 < CJH> [R1] 我已經講那麼多張了可是才過3分鐘XDD
+15:33 < _JonaTW> 中間第一排好空噢！！ QQ
+15:33 < zorro0555> 我沒位置阿FK
+15:34 < zorro0555> 佔位子不來聽真靠杯
+15:34 < othrees> 每次都這樣
+15:35 < CJH> [R1] flash真正的殺手 是Jobs
+15:35 < othrees> 人會回來還好，比較討厭的是去聽別場把這邊的佔住
+15:35 < barneybook> 真的死得差不多了!!!
+15:35 < nat_> Lightning talks 的主題？
+15:35 < zorro0555> 後面站一排人 前面一堆紙袋站位置
+15:36 < CJH> [R1] flash player會死, flash本身不死
+15:36 < evenwu> [R1] 我剛差點以為那個app是小朋友
+15:37 < RplusTW> R1 第一排左側有空位 
+15:37 < kingsley> 把佔位的東西丟地上啊
+15:38 < CJH> [R1] flash大神挪抬以示尊敬
+15:39 < evenwu> [R1] 大神說的話就不會有錯
+15:39 < CJH> [R1] 大神說的話不會有錯
+15:39 < davidou> 大概有不少人還在樓上覓食 忘記時間吧
+15:39 < tonyq_> 我也覺得應該是吃東西的  主要應該是因為這次議程比較趕
+15:39 < mkfsn> [R1] grant skinner  http://gskinner.com/
+15:40 < CJH> [R1]大神總是可以邊開發邊生出一些lib給凡人用
+15:40 < RplusTW> 海盜愛雛菊
+15:40 < RplusTW> 聽起來怪怪的XD
+15:40 < metavige_> 吃東西的地方好像沒人了～我剛剛去喝東西～
+15:40 < jaster> [R1] 海盜愛菊花w
+15:40 < FrankWu> 外面吃的人應該很少了…我很晚回來= =
+15:41 < fubuki> 有用aws的人有多少呀
+15:41 < CJH> [R1] 懂得人一定知道我是騙投影片的XDD
+15:41 < _JonaTW> (舉手,用三年了,
+15:41 < othrees> 什麼東西XD
+15:42 < evenwu> 影片demo正夯
+15:42 < RplusTW> R1   http://code.createjs.com/createjs-2013.02.12.min.js
+15:42 < CJH> [R1]都用demo影片避免詛咒
+15:43 < jsdc_poying> [#JSDC 大會報告] 各位參加 #JSDC 2013 的朋友們如果有時間的話請幫我們填寫一下活動問卷喔！
+15:43 < jsdc_poying> http://goo.gl/cXNge
+15:43 < evenwu> Arial 打錯了 T^T
+15:44 < CJH> [R1] 嘴巴講比打字快 超強XDD
+15:44 < barneybook> 錄影超強!!!!
+15:44 < jaster> [R1] 龍哥超有趣w
+15:44 < davidou> [r1]嘴砲打程式XD
+15:44 < davidou> [15:54] <evenwu> Arial 打錯了 T^T
+15:44 < CJH> [R1] 寫玩hello world當然要畫圈圈 這是基本的= =
+15:46 < CJH> [R1] 寫這樣後面維護怎麼辦= =
+15:47 < jaster> [R1] 原來等下有真 Live Demo XD
+15:47 < barneybook> 等等有live demo 不用擔心
+15:48 < davidou> 「r1]維護過某人的code變數是從str1一路打到str60去 這些變數功能都不一樣 整個快瘋掉了
+15:48 < jsdc_poying> [#JSDC 大會報告] 各位參加 #JSDC 2013 的朋友們如果有時間的話請幫我們填寫一下活動問卷喔！
+15:48 < jsdc_poying> http://goo.gl/cXNge
+15:49 < york1> [R0] 剛剛git commeit的時候似乎delete了一些js files = =
+15:49 < york1> [R0] 這是陷阱嗎 Q_Q
+15:50 < CJH> [R1] 所以create.js就是用flash語法寫js? 
+15:50 < MrOrz> [R0] 如果問說  elastic beanstalk 是不是會和 Heroku 競爭這種問題會不會很無禮啊 :P
+15:50 < JSDC_dieter> [R0] 噗哏 live debuging
+15:51 < EIA> > CJH 寫起來會有熟悉的感覺, 但不太相同
+15:51 < MrOrz> [R0] elastic beanstalk 看起來完全是個 PaaS 說
+15:51 < JSDC_dieter> [R0] 都是PaaS
+15:51 < jaster> [R1] 應該是用JS寫Flash ?
+15:52 < MrOrz> 不過 Heroku 一直都是用 AWS 來做的 XD
+15:52 < CJH> [R1] 還以為是flash轉js的工具...看來不是囉
+15:52 < MrOrz> 所以就是 AWS 想搶他們客戶 Heroku 的生意 (?
+15:53 < fubuki> 很多都是用aws吧
+15:53 < evenwu> [R1] 真的live demo了
+15:53 < wenv> 原本以為 r0 要講 deployment tools e.g. chef or puppet. orz
+15:54 < davidou> [r1]zoe好好用的感覺
+15:54 < JSDC_dieter> [R0] 是demo產品吧
+15:54 < StarNight> [R1] 很麻煩，但它幫我算好了，不麻煩
+15:54 < CJH> [R1] Zoe - SWF轉 json + png
+15:54 < wenv> JSDC_dieter: yeah..............................orz
+15:54 < davidou> 會動的水母www
+15:54 < jaster> [R1] 水母 XD
+15:54 < mkfsn> [R1] 水母出現了 XD
+15:55 < FrankWu> !! 我真的走錯間了
+15:55 < fubuki> 是demo
+15:55 < JSDC_dieter> 有人比較過 Heroku, Beanstalk, 或Openshift嗎?
+15:55 < CJH> [R1] toolkit for createjs -> 輸出html code
+15:55 < jaster> [R1] createJS 有點強大啊wwww
+15:56 < fubuki> 輸出html5
+15:56 < CJH> [R1] 數1~10了 科科
+15:56 < JSDC_dieter> [R0] 至少好處是amazon可以深度整合
+15:56 < StarNight> [R1] 水母倒數
+15:56 < evenwu> R1 笑死我
+15:56 < jaster> [R1] 倒數水母梗XD
+15:56 < PTC> XDD
+15:56 < barneybook> 水母出現
+15:57 < fantasybz> 水母倒數!
+15:57 < MrOrz> Heroku + EngineYard 淚目 (?
+15:58 < CJH> [R1] 能不能改的動就看個人造化 XDD
+15:58 < barneybook> 能不能改就看個人造化
+15:58 < jaster> [R1] 看大小跟長短w
+15:58 < JSDC_dieter> EngineYard?
+15:58 < davidou> 「r1]我們都很在乎大小跟"長短"
+15:58 < wenv> r0, 為什麼跟 aws 相提並論沒提到 linode? am I missing something?
+15:58 < MrOrz> Linode 是 VPS 說
+15:58 < JSDC_dieter> linode算VPS?
+15:58 < wenv> ic thx
+15:59 < MrOrz> 就是給你一台主機，裡面東西自己灌
+15:59 < fubuki> 兩個不一樣吧
+15:59 < CJH> [R1] 講者不在乎瀏覽器相容性XDD
+15:59 < StarNight> 瀏覽器相容問題，我不在乎 XD
+15:59 < Vantist> 因為不在乎..
+15:59 < Vantist> XDD
+15:59 < MrOrz> PaaS 型如 Heroku, ElasticBeanstalk 會把執行環境弄好，開發者只要 push code 上去就會跑
+15:59 < JSDC_dieter> linode compare to EC2
+15:59 < MrOrz> yap
+15:59 < jaster> [R1] 瀏覽器相容? 我不在乎XD
+15:59 < wenv> 謝謝大家熱心回答，我了解了：）
+15:59 < PTC> 講師手上那支遙控器是Wii的搖桿嗎@@?
+16:00 < othrees>  Y
+16:00 < lindsayrain> 是的
+16:00 < MrOrz> (離題) 不過其實我分不太清楚 VPS 和 IaaS XD
+16:00 < PTC> @@
+16:00 < othrees> 神器
+16:00 < jaster> WebConf!!  我覺得我又要報不到了XD
+16:00 < wenv> vps 本質上不就是 IaaS? do I misunderstand something?
+16:00 < jaster> [R1] 下一場是阿土伯!!!(拜)
+16:00 < PichuChen> 可擴張姓?
+16:01 < JSDC_dieter> http://en.wikipedia.org/wiki/Cloud_computing#Service_models
+16:01 < PichuChen> Cloud一個特點是要就要不要就不要沒有月租問題?
+16:02 < PTC> 坐在電腦前面的前端工程師XDD
+16:02 < jaster> [R1] 坐在電腦前的前端工程師w
+16:02 < MrOrz> pay as you go + multi-tenancy
+16:03 < jaster> [R1] 偷偷表了一下win8 XD
+16:03 < Zhusee> R1 的動畫… 好想看
+16:04 < wenv> 再謝謝大家回答：）
+16:04 < fantasybz_> R1移動至R0
+16:04 < evenwu> [R1] 精采
+16:04 < CJH> [R0] 爆滿
+16:05 < davidou> r1還剩多少人阿 剛剛好像大洗牌
+16:05 < jaster> [R1] 人真的不多w
+16:05 < FrankWu> [R0] 右邊前兩排 大概還有2個
+16:05 < othrees> 一個
+16:06 < othrees> 兩個佔位
+16:06 < FrankWu> 我旁邊一個 前面一個 
+16:06 < jsdc_poying> [#JSDC 大會報告] 各位參加 #JSDC 2013 的朋友們如果有時間的話請幫我們填寫一下活動問卷喔！
+16:06 < jsdc_poying> http://goo.gl/cXNge
+16:06 < jaster> [R1] 又是倒數梗wwww
+16:07 < timdream> R0 到底是在講什麼服務 …. XDD
+16:07 < Tr3ndy0t4ku> 那我看在COSCUP也會有一堆倒數梗XD
+16:07 < fubuki> YAHOO 2012關閉的服務?
+16:08 < chitsaou> http://zh.wikipedia.org/zh-tw/Yahoo!%20%E5%A5%87%E6%91%A9
+16:08 < timdream> fubuki: Y! 嗎？講者 2012 年已經不在 Y 了吧
+16:08 < CJH> [R0] coding style guildline
+16:08 < FrankWu> [R0] https://github.com/josephj/f2e-styleguide
+16:09 < CJH> [R0] code review - 品質決定於 被罵「什麼鬼」的次數
+16:09 < fubuki> 那就不知道了
+16:09 < littlebtc> http://www.osnews.com/story/19266/WTFs_m
+16:09 < zorro0556> WWWTTTFFF!!!
+16:09 < jsdc_carl> 每次 code review 都能學到很多東西
+16:10 < wenv> js coding standard 可以看 Principles of Writing Consistent, Idiomatic JavaScript https://github.com/rwldrn/idiomatic.js/
+16:10 < CJH> [R0] 模組化
+16:10 < jsdc_carl> 一個模組就是一個 javascript
+16:10 < jsdc_carl> R0 在講 code quality
+16:10 < StarNight> [R0] 模組：寫法一致、避免全域變數
+16:11 < ddio> [
+16:11 < CJH> [R0] 模組 配合 觀察者模式
+16:11 < jsdc_carl> 最近很夯 JavaScript Ninja
+16:11 < jsdc_carl> 認識軟體工程與持續集成，事半功倍！
+16:12 < jsdc_poying> [R1] http://todomvc.com/
+16:12 < jsdc_carl> 導入自動化、減少「手工」，才能提升品質
+16:12 < jsdc_carl> Compass: 用 high level 的語言讓 CSS 簡化
+16:12 < jsdc_carl> Skeleton 自動建立樣板檔案
+16:15 < chitsaou> 行號2229
+16:15 < PTC> [R1]萌典 https://www.moedict.tw/
+16:16 < jsdc_carl> R0 壓縮開發時程之謎
+16:17 < metavige_> DRY!
+16:17 < jsdc_carl> 導入 EDD 設計文件
+16:17 < jsdc_carl> [R0] 避免數小時開發的 code，要花數天修 bug，甚至一直砍掉重練
+16:18 < jsdc_carl> 重構應打掉 NIH 綜合症
+16:18 < CrBoy> Not Invented Here Syndrome
+16:18 < jsdc_carl> Not Invented Here Syndrome
+16:18 < jsdc_carl> 把重構納入產品開發的 Iteration
+16:18 < jsdc_carl> 開發→重構→開發→重構
+16:18 < wenv> r0 完全沒提到 test case?
+16:18 < jsdc_poying> [R1] 你有看出差異嗎？沒有是正常的 @@
+16:19 < jsdc_carl> 慢慢把不好的地方改掉，而不是整個打掉
+16:19 < jsdc_carl> 重構讓未來開發更容易
+16:20 < jsdc_carl> 程式需要抽離，避免 JS 一大包
+16:21 < jsdc_carl> [R0] 代碼抽象三原則
+16:21 < jsdc_carl> DRY - 不要重複自己
+16:21 < jsdc_carl> YANGI - 你不會需要他
+16:21 < jsdc_carl> Rule of 3 - 三次原則
+16:22 < jsdc_carl> 當同樣情況出現三次才進行抽象化
+16:22 < CrBoy> http://www.ruanyifeng.com/blog/2013/01/abstraction_principles.html
+16:22 < jsdc_carl> CrBoy: (rock)
+16:22 < FrankWu> http://www.ruanyifeng.com/blog/2013/01/abstraction_principles.html
+16:22 < FrankWu> 喔 有了
+16:22 < jsdc_carl> 一個 JS 檔案不應超過 500 行
+16:22 < jsdc_carl> 一行不超過 100 字元
+16:23 < jsdc_carl> 自動化可解決無聊重複浪費時間的事，專注在工作上
+16:23 < Isken_> http://pmd.sourceforge.net/
+16:23 < jsdc_carl> R0 在介紹抓出程式重複的工具
+16:24 < jsdc_carl> 這不是 jslint 可以辦到的
+16:24 < jsdc_carl> Sentry 工具
+16:24 < jsdc_carl> 接收各種程式語言錯誤、分組、寄通知信
+16:25 < jsdc_carl> Esprima
+16:25 < jsdc_carl> 最近講到 JS 品質，都會談到這東西
+16:26 < jsdc_carl> 跑一次 Esprima 實作的 CodePainter 工具，問題全搞定
+16:26 < chitsaou> http://esprima.org/ ECMAScript Parser written in ECMAScript
+16:26 < jsdc_carl> 講到 Continuous Integration 了！！
+16:26 < tonyq_> 今天的 lightning talk 也出來囉
+16:26 < MrOrz> 感覺像是 eclipse 裡面的 reformat tool
+16:26 < jsdc_carl> 持續整合系統
+16:26 < jsdc_carl> 所有自動化檢查，都應該與 CI 整合
+16:26 < RplusTW> CI讚
+16:27 < chitsaou> MrOrz: no, 那只是 esprima 的用途之一
+16:27 < MrOrz> 嗯嗯， esprima 感覺像是個 parser
+16:27 < MrOrz> 有 syntax tree 之後可以做很多事情 (?
+16:27 < jsdc_carl> 免費 CI 伺服器：CodeShip, CloudBees, Travis
+16:27 < othrees> 還有 typo 偵測之類的
+16:27 < jsdc_carl> 免費 CI 伺服器
+16:28 < jsdc_carl> 團隊更緊密綁在一起：把所有訊息都倒進聊天室
+16:28 < MrOrz> 我覺得像 reformat tool 的是剛剛講者說的 code painter XD
+16:28 < jsdc_carl> 文學編程 (literal programming)
+16:28 < jsdc_carl> 寫程式的理想形態
+16:28 < jsdc_carl> 很久以前由 Donald Knuth 提出
+16:28 < PTC> [R1]mozIJSSubScriptLoader https://developer.mozilla.org/zh-TW/docs/XPCOM_Interface_Reference/mozIJSSubScriptLoader
+16:29 < jsdc_carl> Leo Editor - 依自己的思路撰寫文件、組織代碼
+16:29 < jsdc_carl> 看起來不錯耶
+16:30 < jaster> [R1] 阿土伯太強大w
+16:30 < jsdc_carl> 以 JavaScript 實作的文學編程
+16:30 < jsdc_carl> 寫程式就像寫部落格一樣
+16:31 < jsdc_carl> gist.github.com/josephj/550918
+16:31 < PTC> [R1]ViViPOS http://www.vivipos.tw/
+16:31 < MrOrz> 好有趣的思維 XDD
+16:31 < MrOrz> (literal programming)
+16:31 < jsdc_carl> CoffeeScript 作者，文學編程的大力推廣者
+16:31 < chitsaou> 原來 Docco 是他做的...
+16:32 < jsdc_carl> 程式碼應該是給人閱讀的
+16:32 < jsdc_carl> 寫程式是個良心的事業（？
+16:32 < chitsaou> 良心事業
+16:32 < metavige_> 程式碼應該是給人閱讀的 (推＋
+16:32 < chuiyi> 要遇到真正給人看的程式碼是一種福份...
+16:32 < chitsaou> 業界良心
+16:32 < jsdc_carl> 業界良心（？
+16:33 < StarNight> 2b || !2b
+16:33 < wenv> 2b || !2b that is a question
+16:33 < jsdc_carl> er bi
+16:33 < chuiyi> 2b || ! 2b 恆等於true 
+16:33 < chitsaou> 二逼 || 不二逼
+16:33 < jaster> [R1] demo 魔咒
+16:33 < JSDC_dieter> [R1] xul overlay
+16:33 < azole> 現在t-shirt還有的買嗎？
+16:34 < jsdc_carl> 終於來到 lightning talk 時間
+16:34 < FrankWu> 應該沒了
+16:34 < evenwu> [R1] 這東西也太強大... 
+16:34 < FrankWu> 他們說4點要收
+16:34 < JSDC_dieter> [R1] 只能說不簡單
+16:34 < jaster> [R1] 不愧是可以賣的商品w
+16:35 < aaronchi_> t-shirt收了
+16:35 < jsdc_poying> 又要倒數 XD
+16:35 < PTC> [R1]倒數梗XDD
+16:36 < FrankWu> https://speakerdeck.com/josephj/javascript-code-quality
+16:36 < evenwu> [R1] 在座各位有人管過6000台server嗎？
+16:37 < jsdc_poying> [R1] 投影片 http://goo.gl/w1Wlh
+16:37 < chuiyi> 為何又出現馬邦伯
+16:38 < davidou> 馬幫伯功能有更新耶 昨天沒有逐字念的功能
+16:39 < chuiyi> 我一開始看到的第一版只有1~99 XD
+16:39 < fubuki> R1 那個連結?
+16:40 < davidou> 馬幫伯每天都多一個功能XD
+16:40 < StarNight> 馬幫伯 酷
+16:40 < JSDC_dieter> prepare lighting talks
+16:41 < metavige_> JSDC_poying: 投影片超連結怪怪的 
+16:41 < fubuki> 很奇怪的網站
+16:43 < JSDC_dieter> lighting talks ready go!
+16:43 < JSDC_dieter> grassboy 無障礙驗證馬
+16:44 < chitsaou> CAPTCHA
+16:44 < chuiyi> 華碩同心圓投影片 lol
+16:44 < PTC> wwwwwww
+16:44 < JSDC_dieter> 馬邦伯又上場
+16:44 < chitsaou> wwwwwwwwww
+16:44 < chuiyi> 語音辨識碼 -> 語音便是馬
+16:44 < Zhusee> 居然拿馬邦伯做語音驗證碼XDD
+16:45 < chitsaou> （對機器而言）無障礙驗證碼
+16:45 < JSDC_dieter> 對機器人無障礙的驗證碼
+16:46 < jaster> 馬邦博驗證碼
+16:46 < chuiyi> 還是個紅衣女子
+16:47 < HexJan> ＧＧ
+16:47 < FrankWu> 哇乎
+16:47 < JSDC_dieter> 哇呼~
+16:47 < SarsTW> 資料太多了
+16:47 < BCLee> 哇呼呼
+16:47 < fubuki> 魔咒
+16:47 < timdream> is.gy
+16:47 < chitsaou> gg
+16:48 < RplusTW> 看起來gg了
+16:48 < JSDC_dieter> 萬能的重新處理 GG
+16:48 < BCLee> 我們請出馬幫博幫他倒數
+16:48 < HexJan> GG
+16:48 < HexJan> GG^2
+16:48 < mkfsn> GG
+16:48 < chuiyi> 讓我們默哀十秒
+16:48 < PichuChen> GG
+16:48 < PichuChen> 7
+16:48 < PichuChen> 3
+16:48 < PichuChen> 2
+16:48 < mkfsn> 1
+16:48 < PichuChen> 1
+16:48 < PichuChen> B
+16:48 < BCLee> 謝謝大家 請坐
+16:49 < JSDC_dieter> 還有溫馨提醒 使用有風險請三思而後行
+16:49 < Zhusee> 所以他最終要做的是，用電腦幫你聽驗證碼嗎XD
+16:49 < metavige_> 刺激的 lighting talk, 第一場救拔線了
+16:50 < RplusTW> 感謝Firebug
+16:50 < CJH> 似乎不太順
+16:50 < jaster> 拔完線忘記插回去XD
+16:51 < RplusTW> 怎麼斟酌呀?  = =
+16:51 < davidou> 他好緊張
+16:51 < ycavatars> 他好冷XD
+16:51 < fantasybz_> 自我介紹SHOW
+16:51 < JSDC_dieter> 閃電秀 我才不告速逆勒
+16:51 < StarNight> ...
+16:51 < RplusTW> 嗯 一分終
+16:51 < LionLai> QQ
+16:51 < othrees> XD
+16:51 < jaster> 超緊張w
+16:52 < JSDC_dieter> tonypai冷自介
+16:52 < CJH> 很努力要湊梗 但是很冷
+16:52 < jaster> 它到底來幹嘛的w
+16:52 < ycavatars> 兩分鐘了
+16:52 < Vantist> XDDD
+16:52 < HexJan> 騙吃騙喝他自己講白了
+16:52 < chitsaou> 主題是什麼？
+16:52 < JSDC_dieter> Q3:你愛我嗎？
+16:52 < RplusTW> 他朋友在害他嗎?
+16:52 < LionLai> 兩分鐘了＝＝
+16:52 < StarNight> 三分鐘
+16:52 < RplusTW> 到底要講啥
+16:52 < lindsayrain_> 壞朋友
+16:52 < StarNight> 交友不慎阿XDE
+16:52 < CJH> 是不是大冒險輸了...
+16:52 < Vantist> 哈哈哈...
+16:52 < ycavatars> 大冒險輸了吧？....XD
+16:53 < PTC> CJH: wwwww
+16:53 < oliver__> 大冒險+1
+16:53 < evenwu> 也不錯
+16:53 < fantasybz_> 浪費2分鐘
+16:53 < JSDC_dieter> 進擊的<del>好男人</del>鄉民
+16:53 < davidou> 大冒險不是這樣搞的吧
+16:53 < mkfsn> 大冒險輸了 XD
+16:53 < LionLai> 在場三四百人的五分鐘就這樣！！
+16:53 < StarNight> demo
+16:53 < Vantist> XDDD
+16:53 < StarNight> kerker
+16:53 < BCLee> 阿~~~~~(高八度)
+16:53 < ycavatars> kerker...
+16:53 < HexJan> GG電腦都想自己拔線了
+16:53 < jaster> 根本悲劇w
+16:53 < davidou> wt~~
+16:53 < CJH> 有效果XDD
+16:53 < _JonaTW> 偽拔線
+16:53 < fantasybz_> 讚！！
+16:53 < evenwu> XDDDDDDD 自動拔
+16:53 < chuiyi> 自動脫落
+16:53 < JSDC_dieter> WTF 紫畫面
+16:53 < davidou> 微拔線
+16:53 < LionLai> 線頭表示 ： 我忍不住了！！
+16:54 < BCLee> 已拔
+16:54 < ycavatars> 要四分鐘了
+16:54 < MrOrz> anonymous 駭進 VGA 線 (?
+16:54 < mkfsn> 再度 XD
+16:54 < JSDC_dieter> 再次紫畫面
+16:54 < PTC> 阿靠腰XDD
+16:54 < jaster> 投影機表示 : 才不告訴逆嘞
+16:54 < FrankWu> https://docs.google.com/spreadsheet/ccc?key=0Ar68dAH_b8XNdGJnNlBIUUp4ZTJ1NnRMeV9LaS1xMGc
+16:54 < JSDC_dieter> 技術一行文 requirejs async
+16:54 < FrankWu> 他是第三位
+16:54 < FrankWu> 資料
+16:54 < ycavatars> yes!
+16:55 < JSDC_dieter> BJ4？？
+16:55 < FrankWu> 不解釋
+16:55 < JSDC_dieter> = ="
+16:55 < zorro0557> BJ4 不解釋
+16:55 < HexJan> 1.哇嗚～ 2.阿～ 3.?
+16:55 < begeeben_> 請你告訴我好嗎
+16:55 < begeeben_> 到底BJ4是什麼意思
+16:55 < zorro0557> 不解釋阿
+16:55 < begeeben_> 請借試一下
+16:55 < begeeben_> 解釋
+16:55 < davidou> 不解釋
+16:55 < JSDC_dieter> m(_"_)m
+16:55 < fubuki> 不解釋
+16:55 < jaster> CrBoy女友超級正妹
+16:55 < FrankWu> 就 BJ4 啊
+16:55 < PTC> 不解釋XD
+16:55 < HexJan> 不解釋＝BJ4
+16:56 < davidou> 那是mosky吧
+16:56 < StarNight> QQ
+16:56 < nat> 這可以上笨版了
+16:56 < PTC> wwww
+16:56 < ycavatars> 聽不到!!!!
+16:56 < zeroplex> 原來 CrBoy 這麼多女朋友
+16:56 < JSDC_dieter> GeeKias Lee functional programming in 5 min
+16:56 < chitsaou> "K"
+16:56 < mkfsn> K !
+16:56 < chuiyi> Korean?
+16:56 < jaster> 原來不是嗎~從遠處看超像女友XD
+16:56 < JSDC_dieter> Gias Kay Lee  ~"~
+16:56 < mkfsn> 背景圖意圖明顯 ...
+16:57 < CJH> 太小聲
+16:57 < evenwu> 投影片為何會被切... 詭異
+16:57 < nat> 解係度問題
+16:58 < CJH> 覺得這篇應該會被拔線XDD
+16:58 < chitsaou> 科里化
+16:58 < JSDC_dieter> 柯理化
+16:58 < chitsaou> 咖哩化
+16:58 < _JonaTW> 所有的 t 都打成 d
+16:58 < jaster> 這個講者真厲害 好順
+16:58 < zorro0557> 聽不懂啦~~~~~~~~~~~~
+16:59 < chuiyi> 冷知識 lol
+16:59 < evenwu> 投影片風格很棒
+16:59 < chitsaou> 又回想起恐怖的微積分…
+16:59 < HexJan> = =科里複雜化？
+16:59 < grass7boy> https://gist.github.com/anonymous/5604490 馬邦伯逐字唸 (請在DevTool Console使用XDD)
+16:59 < chuiyi> lightning show講這很難吸收啊 還沒看懂就下一夜了 Orz
+16:59 < JSDC_dieter> 哏勒~~~~
+16:59 < CJH> 聽不懂他講啥
+17:00 < fubuki> 要寫過fp比較好懂
+17:00 < RplusTW> 簡報很漂亮 
+17:00 < clifflu> 如何用 js 煮咖哩
+17:00 < zorro0557> 這東西因該藥給他30分鐘獎的....
+17:00 < RplusTW> 這東西很強大~
+17:00 < FrankWu> 結果他還真講完沒拔線欸…
+17:00 < PichuChen> slid.es
+17:00 < evenwu> 也太強大
+17:00 < PichuChen> 然後勒
+17:00 < mkfsn> 超強 ...
+17:00 < SarsTW> 感覺用 python 來寫比較容易 Orz
+17:00 < hans> 又順又準的
+17:00 < CJH> 等於都沒講= =
+17:00 < davidou> 還沒搞懂他在幹嘛的就走惹
+17:00 < nat> 然後呢
+17:00 < zorro0557> 完全沒有懂 就過了
+17:01 < jaster> 有強w
+17:01 < FrankWu> 小畢上!!
+17:01 < PichuChen> 斜線後面的東西我沒抄到阿
+17:01 < JSDC_dieter> uncurry
+17:01 < jaster> 小畢w
+17:01 < CJH> 他是上來練5分鐘演講的吧XDD
+17:01 < ddio> rhttp://slid.es/gsklee
+17:01 < ddio> http://slid.es/gsklee
+17:01 < PichuChen> 感謝 > <
+17:01 < JSDC_dieter> 坑爹啊
+17:02 < yiching> 下台時神態自若
+17:02 < CJH> 坑爹 好像很流行
+17:02 < JSDC_dieter> gitit wiki
+17:03 < jaster> 不愧是小畢
+17:03 < JSDC_dieter> open source -> haskell -> 崩潰
+17:03 < MrOrz> 咦，講者的脈絡是：不喜歡 media wiki 的文字格式，所以用 gitit 這個可以用 markdown 的 wiki 這樣嗎
+17:03 < chitsaou> 成大資工 Wiki
+17:04 < chuiyi> 重工啊 XDD
+17:04 < FrankWu> 前端魂!!
+17:04 < jaster> 超屌XD
+17:04 < JSDC_dieter> 魂斗羅前端魂
+17:04 < CJH> 所以他是document.ready之後才用js去改東西喔XDD
+17:05 < JSDC_dieter> github.com/crBoy/csiewiki
+17:05 < evenwu> 厲害
+17:05 < davidou> document.wite
+17:05 < zorro0557> 貌似是
+17:05 < JSDC_dieter> 讚啦！！
+17:05 < zorro0557> 這樣效能不會很爛嗎?
+17:06 < CJH> 阿修上來雪恥XDD
+17:06 < PichuChen> goo.gl/lgHAp
+17:07 < chitsaou> xdd
+17:08 < _JonaTW> 快速講完然後馬上demo嗎ＸＤ
+17:08 < FrankWu> 等等會不會真的又被玩掛?
+17:08 < zorro0557> 再度被玩爛
+17:08 < zorro0557> goo.gl/lgHAp
+17:08 < FrankWu> 上 AWS!!!!!
+17:08 < jaster> 瞬間就上去了XD
+17:08 < PichuChen> 其實是AWS的陰謀對吧
+17:09 < JSDC_dieter> xd
+17:09 < JSDC_dieter> 貼出師表 XD
+17:09 < zorro0557> 好像死了
+17:09 < zorro0557> 不動了
+17:09 < CrBoy> MrOrz: 對
+17:09 < jaster> 又哭哭了XD
+17:09 < StarNight> 掛了XD
+17:10 < mkfsn> 一分鐘 XD
+17:10 < PTC> www
+17:10 < RplusTW> 唉
+17:10 < FrankWu> QQ
+17:10 < jaster> 看來只好明年再來雪恥XD
+17:10 < HexJan> 1.哇嗚～ 2.阿～ 3.... 4.haskell阿～ 5.又掛了
+17:10 < StarNight> AWS也是撐不住的XD
+17:10 < CrBoy> u.又 local server XD
+17:10 < zorro0557> 我按個ctrl+V出師表就死了
+17:11 < RplusTW> 10秒
+17:11 < PichuChen> 出師表XDD
+17:11 < nat> 兇手@@
+17:11 < FrankWu> iDevice 螢幕到 Mac 是哪套？
+17:12 < jaster> tonyQ自己上了XD
+17:12 < BardicheZ_> reflector?
+17:12 < Hokila> reflection
+17:12 < JSDC_dieter> Tony壓軸 如何真心合作
+17:12 < HexJan> WebConf Plurk：幹！
+17:12 < FrankWu> right!! THX
+17:13 < JSDC_dieter> 我不喜歡可不可以換一個（loop
+17:13 < timdream> http://bingo.handlino.com/machines/3586
+17:14 < JSDC_dieter> 路過得嗎婆的都可以給UI意見
+17:14 < timdream> http://bingo.handlino.com/machines/189 應該是這個 ~?
+17:14 < chitsaou> 新細明體wwwwwwwww
+17:14 < RplusTW> 拔他線XD
+17:14 < FrankWu> 嗯嗯
+17:14 < JSDC_dieter> 新細明體你已經死了
+17:14 < FrankWu> 他會不會自己先搶拔？？ 敬業
+17:16 < JSDC_dieter> 其實它只知道什麼是它不要的
+17:16 < HexJan> 拔線
+17:16 < JSDC_dieter> 要做框架圖
+17:16 < evenwu> 哎呀
+17:16 < jaster> 只是自己想被拔線XD
+17:17 < JSDC_dieter> 閉幕回顧
+17:17 < JSDC_dieter> 大家來年見 ,_,\~/
+17:18 < CrBoy> 這波浪XD
+17:18 < evenwu> 畫面充滿了波浪
+17:18 < xinbe> 這個IRC又要只剩小貓兩三隻掛在線上了 !?
+17:19 < jaster> 非常動感的畫面XD
+17:19 < FrankWu> 為什麼影像會有波浪紋? 故意的?
+17:20 < othrees> 技術問題XD
+17:21 < CrBoy> 大家再見~ ._.\~/
+17:22 < PTC> 大家再見<(_ _)>
+17:22 < zorro0557> bye
+17:22 < zorro0557> ~~
+17:22 < zorro0557> av8d
+17:22 < BlueT_> XD
+17:22 < hans> 大家881~~~
+17:22 < BlueT_> CrBoy: 天線寶寶掰掰
+17:23 < jaster> 大家掰www
+17:23 < CrBoy> BlueT_: 掰掰~
+17:23 < FrankWu> 掰掰
+
