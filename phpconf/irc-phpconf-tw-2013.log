@@ -1,0 +1,399 @@
+--- Day changed Sat Oct 05 2013
+06:50 -!- mode/#phpconf-tw [+o TigerHuang] by ChanServ
+06:51 -!- TigerHuang changed the topic of #phpconf-tw to: PHPConf Taiwan 2013 http://phpconf.tw/2013/ | UTF-8
+06:55 < davihuan> 大家好 www
+06:55 <@TigerHuang> DennyHuang: 你是掛了一年嗎ＸＤ？
+08:41 < BarneyChen_lL> 大家好
+08:59 < elleryq> 怎麼好像沒什麼人用 IRC ??
+08:59 < jeremy5189> Hello
+09:00 < elleryq> Hello
+09:02 < jasteralan> 大家早XD
+09:03 < jeremy5189> Good morning
+09:04 < elleryq> 早
+09:14 < jasteralan> 人超多
+09:17  * darkx 大家早安
+09:19 < jaster> 放廣告XD
+09:19 < darkx> Allen Own  出現了！ｷﾀ━━━━(ﾟ∀ﾟ)━━━━ｯ!!
+09:20 < fntsrlike> :quit
+09:25 < fillano> showtime...
+09:27 < jaster> 交換名片XD
+09:30 < fntsrlike> you-shall-not-hack.me
+09:30 < jaster> 入侵的第一步是要網址
+09:32 < fntsrlike> 「欸，要付費欸。」
+09:32 < jaster> 要付費XD
+09:34 < jaster> 少一個w XD
+09:35 < linroex> test
+09:38 < jaster> 好強大XD
+09:38 < walie> (茶)... 速度修好快
+09:38 < linroex> 在被駭一次...XD
+09:39 < darkx> walie: 他剛剛 cp show_a1.php show.php
+09:39 < FrankWu> orange 沒螢幕了XDD
+09:39 < darkx> 黑黑
+09:40 < walie> @darkx: 我知道~ 所以喝茶了XD
+09:40 < jaster> 現場改code XD
+09:42 < jaster> 鐵神當麥克風架XD
+09:43 < darkx> wget -o http://orange.tw/p.html
+09:45 < mkfsn> wget -o http://orange.tw/p.html
+09:48 < jaster> 打卡XD
+09:52 < j100002ben> 我不知道有多一張VIP票可以用啊啊啊啊啊... T_T
+09:54 < Aotoki> Poka XDDD
+09:54 < zeroplex> http://orange.tw/w/
+09:54 < j100002ben> 身上掛著兩張狗牌ing......
+09:55 < Aotoki> 趕快貢獻給來運動的阿伯（誤
+09:55 < j100002ben> XDDDDDD
+09:56 < zeroplex> 又被表了 XD
+09:56 < jaster> 超酸XD
+09:56 < FrankWu> 賭盤在哪？
+10:02 < jaster> 一直改首頁XD
+10:02 < mkfsn> http://orange.tw/w/ 這怎麼拿到的 XD
+10:03 < darkx> 迅雷不及掩耳盜鈴 XD
+10:04 < j100002ben> XD
+10:04 < jaster> XD
+10:04 < asd0915> !!
+10:06 < darkx> 	
+10:06 < darkx> ${print(12345)}
+10:06 < darkx> ${@eval($_POST[cmd])}
+10:07 < Shengwen> Test
+10:09 < darkx> 感覺想要婊 joomla XD
+10:09 < j100002ben> XD
+10:10 < jaster> gg的行為XD
+10:12  * darkx http://ppt.cc/3iju
+10:12 < darkx> TigerHuang: 幫忙換 topic? http://ppt.cc/3iju
+10:13 < barneybook> 今天IRC人不多呢~
+10:13 < darkx> ˊˋ
+10:14 < FrankWu> 大家在認真看表演
+10:14 < jaster> 很精彩的演講
+10:15 < barneybook> 網路弄掛的話~~DAVID大大會生氣
+10:16 < eia> XD
+10:16 < j100002ben> David拔拔會生氣+1
+10:16 < fine246> XD
+10:16 < FrankWu> 北斗爆orang
+10:17 < darkx> 時間到！
+10:19 < jaster> 徵才XD
+10:21 < AndChat93396> 兩人的大戰啊～～～
+10:21 < darkx> 你是駭客嗎？我有辦駭客年會
+10:22 < SarsTW> 直接拿官網下手了 XDD
+10:22 < linroex> 打官網XDD
+10:22 < darkx> 結果官網不是用 php 寫的(?
+10:22 < locy> 要打官網@@
+10:23 < jaster> 好機車XD
+10:23 < darkx> XD
+10:24 < twolights> lolz
+10:24 < mkfsn> 竟然打下來了 XD
+10:24 < FrankWu> 我要官網看議程QQ
+10:24 < mkfsn> http://phpconf.tw/2013/schedule.html
+10:31 < RainnyQ> [大會] 請還沒領取晚宴餐卷的lightning talk講者，到服務台領取餐卷喔～
+10:38 < jyny> any body home?
+10:39 < jeremy5189> Yes?
+10:42 < jaster> phpconf的app剛才竟然更新了XD
+10:46 < BarneyChen_lL> 有人在R1嗎???
+10:46 < hashman> 有人知道evernote講者slice的url嗎？
+10:47 < jaster> 我們還在用smarty XD
+10:48 < linroex> R2吧
+10:48 < linroex> phpconf的app有ios版本了嘛？
+10:49 < dca_> 早上搜尋沒看到 說不定還在審核（？）
+10:49 < davidou> evernote的silde在localhost
+10:50 < J-H> 唷!!
+10:50 < darkx> davidou: 大大快把他拿下來 (錯
+10:51 < RainnyQ> [大會] 請還沒領取晚宴餐卷的lightning talk講者，到服務台領取晚宴餐卷喔
+10:51 < davidou> HACKING localhost  .....   30%   (是這樣嗎..）
+10:51 < Zurg_> localhost XDDD
+10:54 < allenown> 跟錯channel... XD
+10:54 < BarneyChen_lL> 大會有提供講者投影片連結嗎???
+10:54 < darkx> allenown: 表演非常精彩，辛苦了！  <(_ _)>
+10:57 < rocboy> 也想要投影片，回家才能夠好好的消化一下～～
+10:57 < QQ> 相似的…https://speakerdeck.com/racklin/phalcon-php-framework-and-phalcon-kernel-introduction-phpconftw2012
+10:58 < cqd_> 排列組合....XD
+10:58 < jaster> 阿土伯的演講真硬XD
+10:59 < QQ> XD
+10:59 < darkx> XD
+10:59 < rocboy> 大會有沒有第一場矛盾大對決的投影片？
+11:01 < gggg_> 有人嗎
+11:01 < dca_> res
+11:01 < darkx> 為什麼看起來有點像是 Java (逃
+11:01 < cqd_> 咦，那這樣 zend 去哪裡了....
+11:02 < xie_> gg了（誤）
+11:02 < QQ> 喔喔~
+11:02 < jaster> 阿土伯GG
+11:02 < darkx> 我的 Mac 掛掉啦！
+11:02 < xie_> 真的gg了
+11:02 < darkx> 挖賽～
+11:02 < QQ> XD
+11:02 < xie_> XD
+11:03 < QQ> 囧
+11:03 < blackteacat> 0.0
+11:03 < jaster> zephir 好酷
+11:05 < jaster> 準備萬全
+11:06 < jaster> 阿土伯超強w
+11:06 < xie_> 微軟又被酸 XD
+11:06 < xie_> 跟 facebook php HipHop  比起來，不曉得效能是不是差不多
+11:06 < barneybook> X軟產品就算到MXC上還是跟垃圾一樣
+11:07 < fntsrlike> 請問大會，投稿文章的VIP會眾，Ｔ-Shirt和餐券也是找時間去服務台領取嗎
+11:09 < Aotoki> fntsrlike +1 同樣疑問
+11:11 < darkx> gslin 表示：
+11:11 < cqd_> 這個跟 HipPop 看來要解決的問題不一樣。雖然是可以把整個網站都寫成一個 php extension 啦...
+11:12 < cqd_> 60 秒 XD
+11:15 < xie_> 刺激的live demo
+11:16 < RainnyQ> [大會] 晚上ＰＨＰＣＯＮＦ晚宴開放現場報名，想要一起跟講師工作人員同樂的會眾們可以到服務台報到處購買入場餐卷，售完為止喔！ ＮＴ500./人  時間：五點半  地點：中研院哲思軒
+11:17 < jaster> 太酷了XD
+11:17 < darkx> 所以現在會變成 zep 吐出來的 .so 作 reverse engineering 嗎  lol
+11:18 < barneybook> https://speakerdeck.com/p8361/phpconf-2013-mao-dun-da-dui-jue (PHPConf 2013 - 矛盾大對決)
+11:18 < xie_> 阿土伯超強！
+11:20 < jyny> evernote 影像辨識看起來頗強
+11:22 < Zurg_> 整個超強<(_ _)>
+11:22 < Zurg_> https://github.com/rexchen/Evernote-Samples-PHP
+11:24 < RainnyQ> ＠fntsrlike 是的，請到報到處領取喔～
+11:26 < barneybook> 第一次在conf感覺女性頗多
+11:27 < barneybook> 140.109.127.238
+11:27 < barneybook> [R0]140.109.127.238
+11:27 < barneybook> 橘子快打XD
+11:28 < jason3e7> 140.109.127.238
+11:29 < jastermou> R2真冷清w
+11:30 < darkx> https://speakerdeck.com/allenown/phpconf-2013-mao-dun-da-dui-jue
+11:32 < locy> R0 爆滿
+11:37 < davihuan> @@
+11:37 -!- TigerHuang changed the topic of #phpconf-tw to: PHPConf Taiwan 2013 http://phpconf.tw/2013/ | UTF-8 | 晚宴(17:30)開放現場報名(NT＄500/人)，詳情請洽服務台。
+11:40 < RainnyQ> [大會] ＰＨＰＣＯＮＦ2012的Ｔshirt在報到處開始販售囉～ ＮＴ350/件  ＮＴ1000/三件
+11:41 < xie_> 2012 的 Tshirt ?
+11:41 -!- TigerHuang changed the topic of #phpconf-tw to: PHPConf Taiwan 2013 http://phpconf.tw/2013/ | UTF-8 | 晚宴(17:30)開放現場報名(NT＄500/人)，紀念T shirt販售中(一件350，三件1,000)，詳情請洽服務台
+11:41 < fntsrlike> fntsrlike: 請問大會，投稿文章的VIP會眾，Ｔ-Shirt和餐券也是找時間去服務台領取嗎？
+11:41 < barneybook> R0的真主題其實是DB調教
+11:42 < jastermou> magento真麻煩@@
+11:42 < jaceju> @fntsrlike 是的
+11:43 < xie_> 真的是窮人server調教
+11:43 < xie_> 實戰
+11:43 < fntsrlike> @jaceju THX~
+11:45 < RainnyQ> ＠fntsrlike 是的，請到報到處領取喔～
+11:45 < Zurg_> magento好難QQ
+11:45 < luzia> PHPConf 2013 - 矛盾大對決 by https://speakerdeck.com/allenown
+11:45 < luzia> https://speakerdeck.com/allenown/phpconf-2013-mao-dun-da-dui-jue
+11:46 < luzia> PHPConf 2013 - 矛盾大對決 by https://speakerdeck.com/p8361
+11:46 < luzia> https://speakerdeck.com/p8361/phpconf-2013-mao-dun-da-dui-jue
+11:48 < RainnyQ> [大會] 肚子餓了沒？中午用餐時間要到囉，請遵照工作人員的指示，憑名牌領取便當喔
+11:50 < RainnyQ> [大會] 有會眾撿到橘色的小袋袋嗎？有撿到遺失物的請繳回大會服務台！
+11:50 < davihuan> QQ 好想睡覺唷
+11:50 < racklin> 程式開發的世界不是非 0 即 1 。 有時你不需要把整個網站用 hiphop compiled。而是你 “核心“ 的 Libraries 用 Zephir Compiled, 整個專案還是跑在 php-cgi/mod_php ， 一樣有效能上的大改進。
+11:51 < locy> 只有 10Mbps ??!
+11:51 < xie_> @racklin 謝謝阿土伯的解釋 ^^
+11:52 < davihuan> 甚麼東西只有 10Mbps ?
+11:53 < RainnyQ> [大會] 肚子好餓！中午用餐時間要到囉，請遵照工作人員的指示，憑名牌領取便當！
+11:54 < bency> 肚子餓了
+11:58 < darkx> 我們公司買了一套 cluster
+11:59 < locy> 用 pi
+11:59 < racklin> 今天的 Phalcon/Kernel/Zephir 簡報及相關 Source Codes  https://speakerdeck.com/racklin/zephir-jian-jie
+11:59 < locy> 難怪只有 10MBps
+11:59 < QQ> 超有喜感…XD
+11:59 < xie_> XD
+12:00 < RainnyQ> [大會] 投稿大會手冊的會眾，請到服務台報到處領取ＴＳＨＩＲＴ與晚宴餐券
+12:00 < davihuan> 唷, TCP/IP 超級吃 CPU, CPU 慢的時候就更慘了 XD
+12:01 < jastermou> magento後台功能也太多
+12:01 < mlwmlw> @Q@
+12:03 < barneybook> https://speakerdeck.com/racklin/zephir-jian-jie (Phalcon / Phalcon Kernel / Zephir 簡介 by Rack Lin (阿土伯))
+12:03 < QQ> http://www.akamai.com/
+12:06 < RainnyQ> [大會] 請遵照工作人員的指示，憑名牌領取便當喔～ 領取地點在三樓西側ＶＩＰ ＲＯＯＭ外側 以及 四樓交誼廳
+12:08  * darkx https://goo.gl/NyLRKE 沒人要的座位表QQ
+12:44 < rock> ??
+12:58 < RainnyQ> [大會] 早上的紙杯數量已經用完了，要等到下午茶點的時候才會有噢～也請各位盡量使用用自己的環保杯，或是重複使用，謝謝！
+12:58 < Aotoki> 早上想說紙杯應該也不能帶進去，就拿去丟了 Orz
+12:59 < AndroUser> R0人也太多@@
+12:59 < zeroplex> http://www.codeigniter.org.tw/
+13:00 < leeee> 請問附近哪邊可以買喝的 ?
+13:01 < bency> 一樓有販賣機
+13:04 < RainnyQ> [大會] 晚上ＰＨＰＣＯＮＦ晚宴開放現場報名，想要一起跟講師工作人員同樂的會眾們可以到服務台報到處購買入場餐卷，售完為止喔！ ＮＴ500./人  時間：五點半  地點：中研院哲思軒
+13:07 < kiang> https://speakerdeck.com/kiang/magento-extension-at-phpconf-taiwan-2013 今天使用的投影片， Magento Extension
+13:10 < darkx> https://gist.github.com/appleboy/6774735
+13:13 < davidou> magento 之前安裝時 不知道為什麼效能超慢 完全不知道哪邊搞錯了
+13:14 < kiang> 看樣子還是得要帶網路線才對...XD
+13:14 < bency> 其實剛剛蠻想問宗董那張照片是哪個時期的照片XD
+13:14 < QQ> XD
+13:15 < davidou> 不行換照片阿！！換了我就不知道那是他的blog了 我任照片的阿
+13:15 < QQ> 咪吐…
+13:15 < QQ> 辨識度超高
+13:16 < davidou> 常常找不到資源時 他的blog就會出現... 看到大頭貼就知道得救了
+13:16 < linroex> 剛剛是誰對我airplay.....OAO
+13:16 < davidou> xdddddd
+13:16 < kiang> 仰慕者？ XD
+13:17 < darkx> XDDDD
+13:17 < bency> 哈哈 不知道他有沒有上irc
+13:19  * medicalwei 下午才到 QwQ
+13:19 < linroex> 我以為是認識的就案同意
+13:19 < linroex> 結果問我朋友，他說不是他XDD
+13:19 < Aotoki> 你的電腦已經中毒了（誤
+13:19 < linroex> XDD
+13:20 < linroex> 回家timemachine
+13:23 < darkx> http://122.146.119.100:8080/
+13:23 < linroex> 媽，我上電視了XDD
+13:23 < darkx> XDDDDDDD
+13:24 < Aotoki> 聽風在哪？電視在哪！？
+13:24 < darkx> davidou: 出來面對！
+13:25 < xie_> XDDDD
+13:25 < linroex> davidou1234@gmail.com
+13:25 < linroex> XDDDD
+13:25 < davidou> .......  竟然會列email  orz
+13:26 < linroex> 蒼時你XDD
+13:26 < Aotoki> XDD
+13:26 < darkx> http://122.146.119.100:81/haproxy  503?
+13:27 < AndroUser> R2亂入那招XD
+13:27 < Zurg_> http://i.imgur.com/JNe907M.png
+13:28 < AndroUser> 痞客邦偷打廣告XD
+13:30 < davidou> 不更新了？
+13:31 < RainnyQ> [大會] 早上的紙杯已經全數用盡，下午茶點時才會再提供喲～也請各位盡量使用自己的環保杯，或重複使用紙杯 (紙杯喝光後，可帶入廳內存放)，謝謝！ :D
+13:33 < walile> 可是我想買今年的t-shirt
+13:33 < kiang> R0 收工
+13:33 < RainnyQ> [大會] 報到處獨家販售：「PHPConf 2012 已 Compiler 無 Bug 純白 T 」!! ＮＴ350./件  ＮＴ1000./三件
+13:34 < zeroplex> davidou:
+13:34 < zeroplex> davidou: http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter
+13:34 < RainnyQ> [大會] 晚上 PHPConf 晚宴開放現場報名!! ＮＴ500./人  時間：五點半  地點：中研院哲思軒。想要跟講師或工作人員親密接觸的朋友們，可至服務台購買入場餐卷，售完為止喔！ :D
+13:35 < kiang> R0 投影片 - http://tiny.cc/Faster-Web-Apps
+13:41 < locy> 大風吹
+13:42 < locy> 還是有小貓帶佔位...
+13:42 < kiang> R0 英文開講中
+13:50 < RainnyQ> [大會] 晚上 PHPConf 晚宴開放現場報名!! ＮＴ500./人  時間：五點半  地點：中研院哲思軒。想要跟講師或工作人員親密接觸的朋友們，可至服務台購買入場餐卷，售完為止喔！ >///<
+13:57 < locy> R2 這場女生還蠻多的
+13:59 < zeroplex> locy: 相機拿起來啊 XD
+14:00 < locy> 30mm 1.4F 拍不到! 要拿大砲的火力支援
+14:01 < davidou>  @locy 直接走到他旁邊拍阿
+14:01 < RainnyQ> [大會] 有報名晚宴的會眾：Yen YungFu, Senio 您的餐卷還沒領取請到服務台領取餐卷喔～
+14:02 < bency> 可惜這次沒有座位表阿
+14:02 < locy> @davidou 就算是工作人員也沒這麼猛吧?!
+14:02 < darkx> bency: 有啊！
+14:02 < darkx> bency: https://docs.google.com/spreadsheet/ccc?key=0AvFMHfovbnYqdENPNGpoWFNSbC0tLTI3VzRoV2Nzbnc&usp=sharing#gid=24
+14:02 < bency> 哦～ 感恩XD
+14:03 < darkx> 都沒人填  T_T
+14:03 < locy> phpconf 比較不流行@@!
+14:04 < locy> 要 OSDC or COSCUP 比較多人填
+14:04 < bency> 感覺有點冷清
+14:04 < barneybook|2> R2有投影片連結嗎??
+14:07 < davidou>  ＠RainnyQ : Senio 晚宴沒空去...
+14:08 < zeroplex> R0 speed web site 可以看這本書：High Performance Web Sites http://goo.gl/16XaXH
+14:12 < jaster> 真心希望拍照不要用閃光燈阿@@
+14:13 < darkx> 可是有時真的不用的話拍不起來...
+14:14 < darkx> 萬年 conf 議題... Orz
+14:16  * medicalwei 想知道會建議用 sprite technique 還是把 image 用 base64 嵌在 CSS 上
+14:17 < davidou> 把img 用sprite 後丟cdn ?
+14:18 < davidou> 樓上神人
+14:18 < bency> 出出出出出現了
+14:19 < tsung_> @.@a.. 剛進來... 不知道之前在聊什麼...
+14:19 < medicalwei> 14:19 * medicalwei 想知道會建議用 sprite technique 還是把 image 用 base64 嵌在 CSS 上
+14:19 < RainnyQ> [大會] 還沒領發票的朋友，快點來報到處領取發票噢～
+14:19 < medicalwei> 14:15 < jaster> 真心希望拍照不要用閃光燈阿@@
+14:19 < bency> \who
+14:19 < zeroplex> medicalwei: image -> bas64 大小應該大很多吧
+14:19 < YuFeng126> 剛到會場ＯＡＯ“
+14:20 < medicalwei> zeroplex: 可是還有 gzip 壓縮過？
+14:20 < xie_> 神人出現了～～
+14:20 < davidou> css  code會很多 不喜歡..
+14:20 < medicalwei> 呀也會…
+14:21 < jaster> 是說大圖sprite起來對user來說感覺反而慢吧?
+14:21 < medicalwei> jaster: 就一堆 UI 上的小 icon 呀
+14:21 < xie_> 感覺起來會出現3mb  的 css file ...之類的
+14:22 < davidou> sprit 主要是減少http 的request數吧 大圖就不要再變成更大圖了
+14:22 < davidou> http request 的hank shack很吃時間
+14:23 < zeroplex> image to base64 也是減少連線數不是嗎
+14:23  * medicalwei 為了應付高解析度螢幕直接餵大圖 (?)
+14:23 < davidou> 對阿
+14:23 < davidou> 我只是單純不想看到我有一個超大的css檔xd因為base 64後會變更肥
+14:24 < jaster> UI應該是要sprite起來比較好
+14:24 < jaster> c9s大神要上場了 w
+14:24 < medicalwei> C9S >w<
+14:24 < darkx> >w<
+14:25 < zeroplex> c9s 的投影片看起來很漂亮
+14:25 < jaster> 只好推spdy...
+14:25 < dca_> 小 icon, 怒換 Font Awesome
+14:27 < davidou> icon都丟bootstrap去.. (話說bootstrap 也是splite)
+14:28 < jaster> Go推坑XD
+14:28 < fntsrlike> XD
+14:29 < medicalwei> jaster: http2 QwQ
+14:36 < AndroUser> 怎麼感覺c9s的assetkit超強大
+14:37 < darkx> https://github.com/c9s/php-AssetToolkit
+14:38 < RainnyQ> [大會] 請投稿大會手冊的朋友：陳Ｘ克，吳Ｘ斌，江Ｘ賓，到服務台領取ＴＳＨＩＲＴ或晚宴餐卷！
+14:39 < xie_> 跟上一堂的內容串起來了
+14:39 < RainnyQ> [大會] 點心來囉～點心區為三樓兩側。不要偷睡覺，趕快出來吃吃喝喝交朋友！開放時間：ㄓ15:10
+14:39 < darkx> ohoh!
+14:43 < locy> 發布 海上陸上颱風警報 了!!
+14:45 < RainnyQ> [大會] 點心來囉～點心區為三樓兩側。不要偷睡覺，趕快出來吃吃喝喝交朋友！開放時間：15:10   http://i.imgur.com/oQtjttG.jpg
+14:45 < linpc> R0 冷氣可以開小一點嗎...
+14:46 < AndroUser> 還是看不太懂c9s大神的工具要怎麼用@@
+14:46 < Milkker> 忘了帶外套+1
+14:46 < linpc> 帶了外套還是沒用啊，這種冷度穿了外套還是超冷...
+14:46 < fine246> 看到相片就餓了
+14:47  * darkx http://i.imgur.com/jg9ywA3.jpg !!!!
+14:47 < zeroplex> c9s / 點心選一個？
+14:48 < blackteacat> (ˉ﹃ˉ) 餓了
+14:50 < darkx> 好酷的 shell!
+14:51 < xie_> 搭配作者的blog服用，療效更佳： http://c9s.blogspot.tw/2013/03/php-assettoolkit.html
+14:52 < RainnyQ> [大會] 點心來囉～點心區為三樓兩側。不要偷睡覺，趕快出來吃吃喝喝交朋友！開放時間：15:10   http://i.imgur.com/oQtjttG.jpg
+14:53 < darkx> 點心預備！
+14:53 < AndroUser> 神速的結束了@@
+14:54 < fntsrlike> (HUNGRY)
+14:59 < AndroUser> 騷動了XD
+14:59 < kyoni> 出閘了
+15:18 < barneybook|2> 第一次看吃這麼乾淨
+15:26 < jeremy5189> R2議程已經開始
+15:28 < darkx> R0 開始
+15:30 < jaster> 是說講師身上發光的東西是什麼XD
+15:32 < jason3e7> 究竟是什麼呢!?
+15:33 < darkx> 黑暗原力(?)
+15:33 < dca_> 講師會發光(?)
+15:39 < locy> 錄影收音
+15:41 < darkx> 馬囧 XDDDDD
+15:41 < jaster> 髒髒
+15:41 < locy> 穩~~ XDDD
+15:46 < jaster> 比golang快...真假@@
+15:46 < fine246> "Go" back to PHP XDD
+15:46 < davidou> 「r0]要開聊天室了嗎xd
+15:48 < barneybook|2> libevent php實作的git在哪??
+15:48 < darkx> https://github.com/nmathewson/Libevent
+15:51 < barneybook|2> 上面那個是C實作
+15:52 < Aotoki> http://pecl.php.net/package/event 這個？
+15:53 < barneybook|2> 似乎是
+15:54 < barneybook|2> https://github.com/RickySu/phpsocket.io
+15:57 < darkx> compiz!
+16:08 < luzia> 我用的是
+16:08 < luzia> shmphony T^T
+16:10 < kiang> Symfony 讀書會 - https://www.facebook.com/groups/332091706917396/
+16:10 < locy> Lighting Talk !!!
+16:10 < racklin> php extension 寫的比 golang 快是理所當然的， 以 fibonacii 40 來看， go 還比 java 慢。
+16:10 < racklin> http://fengmk2.github.io/blog/2011/fibonacci/nodejs-python-php-ruby-lua.html
+16:11 < kiang> 慣 C 哥還是最強的 XD
+16:11 < jastermou> 阿土伯！！(拜)
+16:16  * Aotoki slaps Aotoki around a bit with a large trout
+16:17 < jastermou> c9s大神又出現惹
+16:18 < Aotoki> 神裝 phpbrew XDD
+16:19 < darkx> https://github.com/c9s/phpbrew
+16:19 < jastermou> 不知道有沒有5.5版
+16:19 < jastermou> 有欸!!
+16:20 < dca_> php5.5 有
+16:20 < zeroplex> 2 分鐘
+16:21 < fntsrlike> SO FAST!
+16:21 < jastermou> 我記得上次玩還沒有XD
+16:21 < jastermou> 好酷
+16:21 < darkx> 前有 c9s / 後有 allenown
+16:22 < jastermou> 前後夾攻
+16:24 < jastermou> 沒有slide的演講還蠻帥XD
+16:24 < fntsrlike> 有Wake的相關資訊或個人頁面嗎？
+16:24 < linroex> 小弟是Nexmo那場的講場，先來PO簡報XD
+16:24 < linroex> https://dl.dropboxusercontent.com/u/6241767/PHPConf%202013%20Lightingtalk%20Nexmo.pdf
+16:25 < darkx> 30s!
+16:26 < darkx> http://winwu.github.io/
+16:27 < jastermou> 髒髒
+16:30 < darkx> less is more!
+16:30 < fntsrlike> 有梗ＸＤ
+16:33 < darkx> https://www.nexmo.com/
+16:34 < kiang1> https://github.com/linroex/Nexmo-PHP-Library
+16:36 < darkx> 沒有拔線嘛XD
+16:37 < kiang1> PHPConf 是善良的 XD
+16:38 < jastermou> 開場跟結尾 超屌XD
+16:38 < kiang1> http://plainpass.com/
+16:40 < linroex> 超時了QQ
+16:40 < kiang1> 原本以為會看到拔電線的慘況 XD
+16:40 < linroex> XDD
+16:44 < allenown> <(_ _)>
+16:44 < allenown> 講了第一場跟最後一場好累 XD
+16:45 < davidou> 超時竟然沒拔插頭
+16:45 < linroex> 圖章可以拿走嘛（誤
+16:45 < jastermou> 印章可愛w
+16:45 < fine246> <(_ _)>
+16:46 < jastermou> 可是大家都不寫php惹QQ
+16:47 < jastermou> 小蘿莉
+19:26 < a0000778> °Ý¤U ³o­ÓIRC¦³°O¿ý¥i¥H¬Ý?
