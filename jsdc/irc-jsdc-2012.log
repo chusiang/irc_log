@@ -1,0 +1,1457 @@
+--- Day changed 六  5月 19 2012
+01:23       Robin  is now known as Guest3202
+01:24   Guest3202  is now known as Pymaster
+01:25    Pymaster  is now known as pc035860
+08:40   JSDC-Kay_  is now known as JSDC-Kay
+08:49 <  JSDC-Kay> 大家好！我是今天負責為各位進行實況轉播的 Kay！
+08:50 <  JSDC-df1> 大家好！我是今天負責為各位進行實況轉播的 df1！
+08:51 <    Kande_> 真是太好了^^
+08:51  salagadool  is now known as salagadoola_
+08:55 <    ericsk> Good morning~
+08:59 <     qrtt1> morning
+09:00 <    ericsk> 每次要開場就覺得特別地緊張, 希望等等各位大大下手輕一點...
+09:01 <  JSDC-Kay> XD
+09:01 <    Kande_> ericsk 加油 ~~ 我在台中幫你加油  
+09:01 <    Kande_> XD
+09:02 <  JSDC-df1> 大家好，今日中研院人社館地下停車場因故無法開放，若有親友需要停車，請代為告知需找院內停車位停車，謝謝！
+09:02 <    ericsk> lol 我已經註定要被取笑了
+09:02 <    Kande_> 不會啦 有怎麼會有人取笑了 你想太多了 (拍拍
+09:03 <     qrtt1> 不知道今天會不會有轉播xd
+09:03 < JSDC-Tony> Dear all, 今天由我們 JSDC 文字紀錄組為大家作線上的 IRC 轉播，場內有掛 JSDC- 是我們官方工作人員
+09:03 <  JSDC-df1> 國際會議廳座位表：http://goo.gl/iw99t
+09:04 < JSDC-Tony> 親愛的來賓 請就坐，在您的名牌背後有今日的議程與便當卷（葷素若有問題請向報到處提出反應）
+09:07 < JSDC-Tony> 今日座位表https://docs.google.com/spreadsheet/ccc?key=0Ak0W9Qk-Y3mmdGxyU1hSTkFnZXN5aTRGWGdKTHR1bEE#gid=40
+09:07 < JSDC-Tony> 活動即將開始，請大家進入會場～
+09:08 <     kidwm> ericsk: 重量級講者XD
+09:08 <    ericsk> 體重重量級
+09:08 < kaochenlo> 司儀的聲音真好聽
+09:09 <  neoesque> ericsk: LOL
+09:12 <  JSDC-df1> 第一場Keynote開始！Node.JS on Windows Azure 講者：Ericsk
+09:13 <    dryman> 不知道azure上面能不能裝npm?
+09:13 <   othrees> Test
+09:14 <   othrees> 好像人不多
+09:14 <  carlcarl> @@
+09:17 < Shocklinb> test
+09:17  Shocklinba  is now known as Shock
+09:17 <     Shock> morning
+09:17 <  ddsakura> morning :)
+09:17 <     ensky> morning
+09:17 <   MouseMs> morning!
+09:17 <  JSDC-df1> 國際會議廳座位表 http://goo.gl/iw99t
+09:17 <  carlcarl> morning ~
+09:18 < kurotansh> morning
+09:18 < kurotansh> 今天是不是提早開始  @@ run down 寫 0920 
+09:18 <    Kande_> 大家早~~~~~~~~
+09:18 < JSDC-Tony> 有早了五分鐘
+09:19 <  carlcarl> 噗浪是不是連很慢啊@@?
+09:20 <  JSDC-df1> NodeJS適用於：即時更新的通訊  較不適用：Heavy的CPU運算
+09:23 <     qrtt1> 買好早餐了 :D
+09:23 < JSDC-Tony> 你讓我想到我剛六點半去附近早餐店掃完他們桌上的三明治...xd
+09:23 <     qrtt1> 大戶xd
+09:23 < JSDC-Tony> 四十幾個XD
+09:24 < kurotansh> 今天講者有兩張牌子 所以可以吃兩個便當嗎 (誤
+09:24 <     qrtt1> 呵。以前出隊是會前幾天先去訂，不然有時小地方太偏遠就掃不到那麼多份了xd
+09:25 <   othrees> 我只有一張啊
+09:25 < kurotansh> 報到的時候我有拿到聽眾 + 講者兩張牌 @@
+09:25 <  JSDC-df1> Eric：當著大家的面把Visual Studio關起來XD
+09:25 < kurotansh> 這次的黑底好清楚
+09:26 <  timdream> C:\ 出現了
+09:28 < JSDC-Tony> 很棒吧 昨天測投影機時我也很興奮
+09:28 < JSDC-Tony> 真的好很多
+09:28 < JSDC-Tony> 上次OSDC 聽說剛好一顆燈泡爆了，所以剩兩顆才那麼黃
+09:28 < JSDC-Tony> 這次是四顆好的
+09:29 < JSDC-Tony> @qrtt1 昨天才臨時決定加碼的 XD
+09:29 <  JSDC-df1> 開始懷念海苔了(誤)
+09:29 < JSDC-Tony> @kuro 恭喜你拿到隱藏版
+09:29 < kurotansh> (y)
+09:29 <     qrtt1> JSDC-TonyQ: 呵。原來如此。
+09:30 <  carlcarl> 嗯嗯 這次真的清楚很多
+09:30 < kurotansh> 剛剛問了一下，鐵神也拿到兩張牌說 XD
+09:30              qrtt1 這樣自相公嗎
+09:30              qrtt1 s/自/算/
+09:31 <  JSDC-Kay> ._.
+09:31 <  JSDC-df1> Windows Azure Storage除可以使用API去access之外，它也內建了RESTful的service，方便.NET之外的系統存取服務
+09:31 < JSDC-Tony> 便當很多盡量吃 （跟著誤）
+09:32 <     jcrt_> JSDC-TonyQ:  ＋＋＋＋＋
+09:32 <     qrtt1> 通常都會有人臨時不能到的xd
+09:32 < kurotansh> 噗哧
+09:33 <  allenown> 投影機狀況真不錯
+09:33 <  JSDC-Kay> Free Trial!
+09:34 <  JSDC-df1> 投資一定有風險，基金投資有賺有賠，申購前請詳閱公開說明書
+09:34 <  JSDC-Kay> XD
+09:34 < JSDC-Tony> @JSDC-df1 ++++++++++++
+09:38 <  JSDC-df1> var azure = require('azure');
+09:38 <  JSDC-Kay> 傳說中的 live demo?
+09:38 <     ensky> OLWlOj9BQKXpQDgwnKXZrjvA+/tNRKMQn ...阿來不及
+09:39 <     Shock> XD
+09:39 <     qrtt1> 真男人就是要 live demo <== 忘了誰說的
+09:40 < JSDC-Tony> XDDDD
+09:40 < kurotansh> 講台上面有 mic stand， eric 手上又拿了一隻，看起來好多 mic
+09:40 <  JSDC-Kay> 喔喔！
+09:40 <  carlcarl> XD
+09:40 <  JSDC-Kay> 亮點
+09:40 <  JSDC-Kay> 多一點吧
+09:40 <  JSDC-df1> XDD
+09:40 < JSDC-Tony> 重點過去了...
+09:41 <  ddsakura> akb
+09:41 <  JSDC-Kay> （默
+09:41 <  Al_cho__> qrtt1,: 應該是Jserv大 ...XD
+09:41 <       CQD> 看到這 PPT，只能說預設字型真的很重要....
+09:41 <     qrtt1> Al_cho__: !!!
+09:42 <       cyj> 這時候該在這邊宣導會眾不要分享無線網路嗎XD?
+09:42 < JSDC-Tony> Yep 請大家不要自己開手機基地台
+09:42 <   MouseMs> 掃到好多基地台XD
+09:42 <  carlcarl> npm for windows
+09:42 < JSDC-Tony> 會蓋到官方 JSDC Session 
+09:42              qrtt1 現在才說可能為時已晚xd
+09:42 < JSDC-Tony> 等下我會請主持人再說明一次
+09:44 <       cyj> 已經有黑鬼出去抓交替了(疑)?
+09:44         cyj  is now known as CYJ
+09:45 <  hashman_> 上了XDD
+09:45 <     qrtt1> 簡易的方法可以用 Droid Wifi Analyzer 拿著手機去看誰的訊號比較強，慢慢靠近他xd
+09:45 <  JSDC-Kay> XDD
+09:45 <   MouseMs> 去年COSCUP不是還有自製工具XD
+09:46 <   othrees> 潮男都不用手機分享wifi的
+09:46 <       hlb> 終於抵達會場 O_O
+09:46 <   othrees> 現在都改用new iPad
+09:46   ascheriit  is now known as alive
+09:46 < Guest9587> ooo 你照片有放到網路上嗎? 上次 OSDC的？
+09:46 <     Shock> OOO
+09:47 <   othrees> 有啊
+09:47       Angel  is now known as Guest58907
+09:47 < Guest9587> 哪呢？？＠＠？
+09:47 < Guest9587> https://plus.google.com/u/0/photos/105274501484374472959/albums/5744050252659628769 JSDC 第一批照片上傳完畢
+09:48 <  JSDC-df1> 在測試或publish時候都可以透過PowerShell，不需要VisualStudio
+09:48 < JSDC-Tony> @qrtt1 主要是沒有人手做這件事情 XD 這也是為什麼送網路線
+09:49 < JSDC-Tony> 大家的袋子裡面都有網路線喔～記得拿出來用 XD
+09:49  Guest95873  is now known as locy69
+09:49 <   othrees> 本來有想拍一下報到的，結果被困在停車場
+09:49 < kurotansh> JSDC-TonyQ, 有網路線!!!
+09:49 <     jyyan> 這麼快就出照片了～真有效率
+09:49 < JSDC-Tony> 有一個可愛的小圈圈
+09:49 <   othrees> OSDC http://www.flickr.com/photos/othree/sets/72157629813540539/
+09:50 <  JSDC-Kay> 可以拉來拉去的那捆
+09:50 <     jyyan> 有網路線很貼心
+09:50 <     jcrt_> 我的袋子裡面居然沒有筆 orz
+09:50 < kurotansh> 網路線++
+09:50 <   MouseMs> 網路線好可愛XD
+09:50 <     jcrt_> JSDC-TonyQ: 網路線++++++
+09:50 <  carlcarl> 喔喔 現在才發現有網路線!!
+09:50 < JSDC-Tony> ...Orz  請到報到處索取 
+09:50 <     qrtt1> JSDC-TonyQ: 送網路線超棒的！！！
+09:50 <   MouseMs> (我還自己帶網路線XD)
+09:50 < JSDC-Tony> Sorry 宣導不足...Orz
+09:50 <     jcrt_> JSDC-TonyQ: 哈其實我有自己帶XD
+09:50 < kurotansh> 是說能在這裡的應該都能連上線了 XDDDDD
+09:50 <       hrs> 報到通知信裡面有寫阿XD
+09:50 < JSDC-Tony> 我也記得我有寫啊 T.T
+09:50 <     jyyan> 有送筆喔0.0?
+09:50 < JSDC-Tony> 等下我會請主持人再說一次
+09:51 < JSDC-Tony> 主持人：我好忙
+09:51 < JSDC-Tony> XDDDD
+09:51 <   MouseMs> XD
+09:51 <  carlcarl> XD
+09:51 < kurotansh> XD
+09:51 <    locy69> ooo 收到~~ 哈 我在你後面阿~
+09:51 < JSDC-Tony> 然後宣導一下 網路線請不要把他當溜溜球玩   會壞的（<< 昨天三分鐘就弄壞他的笨蛋）
+09:52 <   Orange_> cc
+09:52 <   Orange_> test
+09:52 <  allenown> Orange_: <(_ _)>
+09:52 <    locy69> 黑橘
+09:52 < JSDC-Tony> XD
+09:52 <   Orange_> allenown: <(_ _)>
+09:52 <     kidwm> JSDC-TonyQ: 袋子裡有筆？我沒看到耶
+09:52 <   Orange_> .....
+09:52 <    mOrris> 講者別忘了可以使用MIC架， 這樣就不用一手打字了
+09:52 <   Orange_> locy69: ...
+09:52 <  carlcarl> 我的袋子裡也沒有筆@@a
+09:53 <    locy69> 哈哈哈
+09:53 <    mOrris> 所以沒拿到的都沒得筆了。。。
+09:53 <  hashman_> 嘿嘿
+09:53 <  hashman_> 網路快消失了這樣XDDD
+09:53 < kurotansh> 溜溜球 XDDDDD
+09:53 <   othrees> 沒袋子~」
+09:53 < JSDC-Tony> 理論上會有 如果沒有就是漏了 請稍後到
+09:53 < JSDC-Tony> 櫃台索取 XDDDD
+09:53 <     jcrt_> ooo你也太哀傷了
+09:53 < JSDC-Tony> 有很多人沒拿到筆嗎
+09:53 < kurotansh> 然後講者就會拿到第二張牌了 XD
+09:53 < JSDC-Tony> 讓我知道一下情況 :D
+09:54 <   MouseMs> JSDC-df1: 國際會議廳座位表 http://goo.gl/iw99t    
+09:54 <     jcrt_> 連袋子都沒拿到
+09:54 <       hlb> [無責任廣告] 如果你有用敝公司的 Compass.app/Fire.app 產品，歡迎來給我們一些建議/純聊天/hacking
+09:54 <     jcrt_> 咦正想問座位表
+09:54 <  JSDC-Kay> XD
+09:54 <  allenown> hlb: <(_ _)>
+09:54 <  hashman_> 我的網路線已經壞了> < 都還沒有剛開始用> <
+09:54 < JSDC-Tony> O袋子等下我們專人送達
+09:54 < JSDC-Tony> O大
+09:54 <       hrs> 有筆
+09:54 <     jcrt_> 咦可以在這邊打徵才廣告嗎XD
+09:54 <  JSDC-df1> express framework搭配的template language是Jade
+09:54 < JSDC-Tony> 可以
+09:54 <     kidwm> hlb: 要負起責任啊XD
+09:54 <   othrees> 不用專人啦
+09:54 <   othrees> 不是講者沒有嗎
+09:55 <       hlb> kidwm: open source software... patches welcome... :p 
+09:55 <       CYJ> JSDC-TonyQ: 照片有要找人先修嗎?
+09:55 < JSDC-Tony> 這應該是有一點誤會 XDDDD
+09:55 < JSDC-Tony> 基本上不用啦 :D
+09:55 <     kidwm> hlb: 這說法會搞得有人不想買吧XD
+09:55 <     jcrt_> 哈哈哈 感謝 tonyq
+09:56 <       hlb> 發現會場非 apple 電腦還不少 :q
+09:56 <   othrees> 不想買的要自己compile
+09:56 <     kidwm> ericsk: 幹嘛不拿todoMVC那個來改XD
+09:56 <       hlb> kidwm: I don't really care :p
+09:57 <     kidwm> othrees: 啥要自己compile?
+09:57 <  JSDC-df1> Azure產品網站： http://www.windowsazure.com/
+09:58 <     jcrt_> [工商時間] 敝公司 Zalora 徵才中， Rails & JavaScript & PHP 都缺人，有興趣的可以來找我（小蟹）聊聊 :))))
+09:58 <   othrees> Fire.app
+09:58 <  JSDC-Kay> Azure 即將在台上市
+09:59 <       CQD> Azure 有中文了啊 XD
+09:59 <   MouseMs> (拍手)
+09:59 <   othrees> 早上找不到github t shirt 只好穿Mozilla
+10:00 < kurotansh> 主持人出現了
+10:00 <       hlb> 可以帶不會倒的飲料！
+10:00 <  allenown> 好冷好冷
+10:00    notebook  is now known as inori01
+10:00 <  Al_cho__> 主持人聲音真好聽！
+10:00 <  carlcarl> 英文唸好快XD
+10:00 <   Orange_> 厲害
+10:00 <  carlcarl> 好聽+1
+10:00 <   aar0ntw> 念了一串咒語 講者就出現了
+10:00 <   MouseMs> 好聽++
+10:00 <   MouseMs> 咒語XDD
+10:01 <  JSDC-df1> 上官Eric將在會場第一排為大家服務！
+10:01 <  hashman_> 真的
+10:02 <  JSDC-df1> 第二位Keynote講者：Mozilla的Andreas Gal準備上場！
+10:02 <  allenown> 看到有人筆電開D3
+10:03 <   aar0ntw> 真是太過分了
+10:03 <   othrees> 那邊
+10:03 < _Angel_Jo> @@
+10:03 <   othrees> 我要拍下來
+10:03 <  JSDC-Kay> ...
+10:03 <    walile> 冷氣超冷...(抖)
+10:03 <  hashman_> 往allen的角度看XDD
+10:03 <       hlb> !
+10:03 <     mrorz> 看成 d3.js (炸
+10:03 < kurotansh> d3.js XDDDDDDDDDDDDD
+10:03 <       hlb> 應該來玩個 d3 嗎... *思*
+10:03 <       hrs> XD
+10:03 <  JSDC-df1> XDDDD
+10:04 <     jyyan> 組隊玩D3 ?? XD
+10:04 <     ensky> XDDDD
+10:04 <     Shock> 糟
+10:04 <     Shock> 好快的英文
+10:04 <  carlcarl> !!
+10:04 <       CQD> 有點快
+10:04 <  morris32> 喂～講太快了啦
+10:04 < kurotansh> 跟不上 QQ
+10:05 <  JSDC-df1> 講題：Building Mobile Devices with the Open Web
+10:05 <     ensky> 開始體會到上課時外籍生的艱苦QQ
+10:05 <  JSDC-df1> 主要是關於Boot to Gecko
+10:05 <     Shock> 能不能召喚唐鳳XD
+10:05 <  JSDC-Kay> 有請timdream
+10:05 <  morris32> 口音適應了
+10:05 <  Fripig__> 好快orz
+10:05 <  timdream> JSDC-Kay: Orz
+10:06 <       CQD> Mozilla 介紹中
+10:06 <       CQD> 除了核心外，很多人做 add-on
+10:06 <  morris32> 切換成老外模式
+10:06 <   othrees> 沒找到D3
+10:06 <       CQD> 我們不自己做 customization ，很多人會做
+10:06 <     kidwm> CQD: 學姐妳也有來喔XD
+10:06 <       CQD> 我們提供平台
+10:07 <       CQD> 我不是 QQ 姊~~~
+10:07 <       CQD> 啊肝
+10:07 <  timdream> Mozilla 的核心理念是為網路帶來選擇與創新
+10:07 <       CQD> 講瀏覽器發展歷史
+10:07 <  JSDC-df1> 工商服務：明天在Mozilla將有Add-on開發課程 http://registrano.com/events/mozilla-addon-workshop
+10:07 <  timdream> 目前有 30% 的全球市佔率
+10:07 <   othrees> 但是沒否認'學姊'？
+10:07 <       CQD> 瀏覽器開始不用錢
+10:08 <  timdream> 歐洲市佔率第一
+10:08 <       CQD> 我不是學姊~~~
+10:08 <  JSDC-Kay> netscape 杯具
+10:08 <  morris32> M＄如何起來， 變大
+10:08 <  JSDC-df1> ActiveX的恐怖(茶)
+10:09 <  JSDC-Kay> horrible piece of M$ tech
+10:09 <  JSDC-Kay> 上官大大人勒
+10:09 <  morris32> 咳。
+10:09 <   othrees> 在我旁邊
+10:09 <    ericsk> 沒關係, 我們家的 Metro IE on Windows 8 也是鼓勵 plugin-free
+10:09 <  timdream> Mozilla 選擇實作的技術，都是其他廠商也可以實作的開放技術
+10:09 <    Irvin_> 終於連上freenode
+10:10 <  morris32> 請erick發炎／言
+10:10 <    ericsk> 我都用 IE10
+10:10 <  JSDC-df1> You can decide what you want to use. You don't have to use Internet Explorer, there are couple of choices
+10:10 <       CQD> IE6 使用經驗 sux
+10:10 <  carlcarl> XD
+10:10 <       hlb> 打臉時間
+10:10 <  timdream> IE6 -- the web basic suck these days
+10:10 <   MouseMs> XD
+10:10 < kurotansh> 還被圈起來
+10:10 <  morris32> ooops
+10:10 <       hlb> 還好 ericsk 那時候還不在 M$
+10:10 <    Irvin_> 講到metro最近Mozilla戰MS很大啊
+10:10 <       hlb> 自從 ericsk 到了 M$, IE 版本就一直出
+10:10 <  JSDC-Kay> keynote schedule 這樣安排是要專門表ms嗎
+10:10 <       CQD> 但這視線在的基礎，MS 開始實作 blah blah ，帶來壓力
+10:11 <  timdream> hlb: 錯誤歸因呀
+10:11 <  timdream> 又不是 eric$k
+10:11 <       hlb> ericsk++ # 推動 IE 版本進步
+10:11 <    ericsk> 這叫做豪洨
+10:11 <    ericsk> 我現在用的是 IE10.0.8250.0
+10:11 <  timdream> IEricsk
+10:11 <  JSDC-df1> Our mission is to make sure that you can choose
+10:12 <       hlb> ericsk: yell to him, "bullshit"
+10:12 <       CQD> make sure all the browser implement the same technology
+10:12 <       CQD> 好快..
+10:12 <  hashman_> 字好小> <
+10:12 <  timdream> * 右邊的圖是 http://arewefastyet.com/
+10:12 <    ericsk> 沒關係啦, 公司代表都是有立場的　XD
+10:13 <       hlb> 這三條線各是什麼? 好遠看不ˇ到
+10:13 <       CQD> 效能競爭，為什麼？因為這是個選擇基準
+10:13 <  morris32> v8 benchmark
+10:13 <  carlcarl> oops
+10:13 <    Irvin_> 測速線 
+10:13 <   othrees> Safari chrome Firefox js engine performance
+10:13 <    ericsk> JavaScript engine 測速線
+10:13 <   othrees> Lower is better
+10:13 <     ensky> 最上面好像是ff?
+10:14 <   othrees> Purple line is Firefox
+10:14 <       CQD> 實務上這枚有這麼重要，但對公關有差
+10:14 <   othrees> Jaguar monkey?
+10:14 <  timdream> Firefox 4 (JIT+TI) / Firefox 3 / Chrome (v8)
+10:14 <   othrees> Red line is safari
+10:14 <   othrees> Green line is chrome
+10:14 <  timdream> othrees: oh 我看錯了 O_O
+10:14 <  JSDC-Kay> js engine 的 benchmark 還是?
+10:14 <    Irvin_> 最近還有ion monkey要上了
+10:14 <       CQD> browser 競爭激烈
+10:14 <  JSDC-df1> v8bench
+10:14 <       CQD> 但不是說大家會加入各自的鬼標準
+10:15 < JSDC-Tony> Hi all 
+10:15 <       CQD> 大家都實作一樣的標準
+10:15 <    ericsk> logo 沒放 IE9 以後的 XD
+10:15 <    Irvin_> arewefastyet.com 有三種測速分數
+10:15 <  JSDC-Kay> 呵呵..
+10:15 < JSDC-Tony> 剛剛我被檔在  IRC 外 XDDD
+10:15 <   othrees> V8最近好象在做不同平台最佳化
+10:16 <  timdream> OS 已經不重要了，不管用哪個 OS 都是開著瀏覽器
+10:16 <   othrees> x64 x32 android
+10:16 <  timdream> * Desktop OS
+10:16 <       CQD> 然後來談談 smart phone
+10:16 <    ericsk> 噗, 有WP7連我都驚訝了
+10:17 <  timdream> Web 在手機上不重要，且 API 與服務都是廠商私有的
+10:17 <  morris32> 這叫先拖出來。。。等會不知會不會鞭一下
+10:17 <  JSDC-Kay> terrible language!
+10:17 <       CQD> android 是純 google 平台，他們關起門來稿出來的，API blahblah.... iOS 也是
+10:17 <  timdream> morris32: XDDD
+10:17 <   othrees> 偷偷罵 objective c
+10:17 <  JSDC-df1> 持續鋪梗中
+10:17 <       CQD> 各平台上寫的只能在各平台上用
+10:17 < nightmare> 這位speaker戰力好強
+10:18 <       CQD> 這跟桌面的開放方向剛好相反
+10:18 <  JSDC-Kay> XD
+10:18 <  morris32> 看來老外很愛來這套， 鞭來鞭去的
+10:18 <  JSDC-Kay> 全錶一次
+10:18 <   othrees> 我一定要出來説句公道話
+10:18 <       CQD> 如果你在 iPhone 上面買了怒鳥，你只能一直用 iPhone...
+10:18 <       CQD> 不然沒得玩
+10:18 <   othrees> 我沒寫過所以完全不知道XD
+10:19       house  is now known as Guest57546
+10:19 <  JSDC-df1> If you want to stay with the AngryBird you've paid for, you have to stick with your iPhone
+10:19 <  morris32> 看來是推 browser base
+10:19 <  morris32> web base
+10:19 <   othrees> B2G
+10:19 <       CQD> data 更為重要，但 iPhone 的裝置卡死在 iCloud， Google 的卡死在 Google 的 Cloud
+10:19 <     kidwm> othrees: 你要幫哪個陣營說公道話？
+10:19 <       CQD> blah blah pretty bad
+10:20 <   othrees> 我講完啦
+10:20 <  JSDC-Kay> everything is terrible, apple is robbing you
+10:20 <       CQD> stores are completely controlled by the vendors
+10:20 <  JSDC-df1> pretty much robbery XD
+10:21 <       hlb> 這個 talk 除了婊人之外, 有講什麼任何有建設性的東西嗎 :-(
+10:21 <  JSDC-Kay> 還在鋪梗中
+10:21 <  JSDC-Kay> XD
+10:21 <    Irvin_> 還在埋梗
+10:21 <     ensky> 英文聽力QQ
+10:21 <     kidwm> othrees: 我沒寫過所以完全不知道XD ←這句？
+10:21 <  morris32> 只是梗比較大根。。請耐心等候
+10:21 <  JSDC-Kay> 最後Mozilla以救世主之姿登場XD
+10:21 <   othrees> 對啊
+10:21 <   MouseMs> XD
+10:21 <    kk1fff> 到 phone 抱點應該快出了
+10:21              ericsk <-- 沒表人, 擁抱大家 XD
+10:21 <  timdream> 各位沒有發現他講這麼多其實才過了 10 幾分鐘嗎 …..
+10:22 <     kidwm> othrees: 這算暴投吧XD
+10:22 <  JSDC-df1> "dumb pipe"
+10:22 <  carlcarl> 才10:22 @@"
+10:22 <       CQD> HTC 做的手機，因為是 做了好手姬
+10:22 <       CQD> 大家想買
+10:22 <  morris32> 有佷多可以學的， 因為大家專注力都在
+10:22 <     kidwm> nokia不也是這樣而已XD
+10:22 <   othrees> kidwm: 超公道的啊
+10:22 <       CQD> 但廠商越來越不能有自己的風格，越來越一至
+10:22 <  timdream> * Android is not open
+10:23 <  JSDC-Kay> android is not open
+10:23 <  timdream> you cannot influence Google
+10:23 <  JSDC-df1> These are proprietary platforms
+10:24 <  morris32> 應該是談在台灣分公司在推的那個專案？
+10:24 <  timdream> 我想到之前某推：20 年前現在沒人想過 smart phone 竟然是 Linux vs BSD 之爭，BSD 竟然介面還比較漂亮
+10:24 <  JSDC-df1> 黑阿 為B2G鋪梗中
+10:24 <       CQD> ....missing a open standard
+10:25 <       CQD> 我們想用過去十年讓桌面環境變公開的的戰略，來讓 mobile device 變得公開...(之類的?)
+10:26 <   othrees> 事實證明，開了網路和螢幕的new iPad，差著電也不會讓電量增加
+10:26 <    ericsk> othrees: 電流太小?
+10:26 <       CQD> currently all the ..... are property standard
+10:26 <  timdream> othrees: 不是會說「Not Charging」嗎？
+10:27 <   othrees> 已經是直接轉差座了，應該螢幕太耗電了
+10:27 <  JSDC-df1> "Everyone is using a Mozilla smart phone," that's not the goal
+10:27 <  JSDC-Kay> 這麼耗電讓我猶豫要不要敗下去XD
+10:27 <   MouseMs> 好耗電...orz
+10:28 <   othrees> timdream: 沒有說，所以電流是夠的
+10:28 <       CQD> 第一步，要提供各種 smpart phone 需要的功能
+10:28 <     ensky> API!
+10:29 <  Fripig__> 我的ipad電量已經20%不見了
+10:30 <       CQD> 這些 api 已經是 in production ，快速把技術推向 user ....之類的，這邊又晃神了
+10:30 <     jcrt_> 字真的很小……
+10:31 <     jyyan> 後排看字很吃力...
+10:31 <  JSDC-df1> 最大的差別是Native API Layer
+10:31 <   othrees> 第一排的勝利
+10:31 <  JSDC-Kay> XD
+10:31 <    ericsk> 放大鏡++
+10:31 <  allenown> 譲人想兩指拖拉放大的大小
+10:31 <       CQD> 比較架構，底層， kernel ，差不多。但 API 以上並不相同， B2G 的 API 是 Web Engine API
+10:32 <   inori01> 冷氣也太冷OTZ
+10:32 < BardicheZ> 冷氣好冷...
+10:32 <  morris32> 胖子表示：溫度剛剛好呀～（茶）
+10:32 <    ericsk> Metro Style App 也有 HTML5 Runtime 
+10:32 <  carlcarl> 我也覺得剛剛好XD
+10:32 <    walile> 後頭近冷氣孔的都快冷屎了..
+10:32 <  morris32> 胖子（指）
+10:32 <  timdream> CQD: 那張圖是要說，拿掉了 Native API 那個層次，網頁會跑的更有效率
+10:32 < BardicheZ> 只能用筆電散熱取暖
+10:33 <  timdream> Web App is the "Native App"
+10:33 <  morris32> 還蠻有興趣的說。。。
+10:33 <  Fripig__> 我的ipad 充電電量有增加欸 已經81%了
+10:34 <  timdream> Mozilla 的 Web App 標準，是全面開放的，其他廠商也可以用同樣的標準建立 store
+10:34 <     ensky> 這font...
+10:34 <  timdream> OWA 的 .webapp 設定檔出現了 … 字好小orz
+10:35 <     Shock> 那張圖放了等於沒放...
+10:35 <  carlcarl> 嗯嗯......
+10:35 <  timdream> https://developer.mozilla.org/en/Apps/Manifest
+10:35 <   othrees> 我猜他他投影片是做高解析度的
+10:35 <  neoesque> 投影機解析度太好了 XD 要是設定成 1024 x 768 也許好一點 0rz...
+10:35 <   othrees> 還是寬比例的
+10:36 <   othrees> 投影機應該只支援 1024吧
+10:36 <    Irvin_> 解析度調低，pdf的字不會更大，只會更不清啊
+10:36 <  timdream> 瀏覽器內的 mozApps API 可以幫使用者管理 Web App
+10:36 <       hlb> 投影片應該是作 1280x720 or larger..
+10:37              ericsk 昨天晚上花時間研究放大鏡要怎麼用
+10:37 < JSDC-Tony> 冷氣的部份歡迎回報 http://0rz.tw/KKugM
+10:37 <    Irvin_> 這是要上google io那種全背大螢幕用的吧
+10:37 <   othrees> XD 還好我不demo
+10:37 < JSDC-Tony> 我會看狀況請場地幫忙協調溫度 不過要先瞭解大家感受的現況
+10:38 <     Shock> 穿外套感覺還好:P
+10:38 < JSDC-Tony> 投影機支援 1024*768 , 1280*1024 
+10:38 <   othrees> 國外會議場地對HD的支援很普遍了
+10:38 <   othrees> 有點冷
+10:38 < JSDC-Tony> 不過要求解析度是因為這樣他們錄影機才抓的到 XD
+10:38 <       hlb> othrees: 我上一次也做成 1280x720, 然後 30mins 前改投影片 XD
+10:38 <  timdream> 網頁/ WebApp 可以使用 HTML5 offline AppCache 來完成離線使用功能
+10:38 < JSDC-Tony> 請填 form XD 我們要瞭解各區域的溫度狀況
+10:38 <  hashman_> 填完~~~~
+10:38 <     alive> 火星wwww
+10:39 <  timdream> 除了 Marketplace ，網頁也可以提示使用者安裝，增加 discoverability
+10:39 <   othrees> hlb: 我相信未來十年還是只要做1024
+10:39 <  timdream> 到 browserID 了
+10:39 <  timdream> Mozilla 提出的身分認證標準
+10:39 <  JSDC-Kay> 繼續推 Browser ID
+10:39 <       hlb> othrees: 不過這邊的螢幕色偏越來越嚴重了...
+10:40 <     Shock> BrowserID是綁著手機的嗎？
+10:40 <       hlb> othrees: 應該會換新款吧 XD
+10:40 <  timdream> 用公開的身分認證來完成商店金流的最後一步，讓 App 驗證使用者付費
+10:40 <   othrees> hlb: 你在國際會議廳嗎
+10:40 <  timdream> Shock: no
+10:40 < JSDC-Tony> 看起來大家覺得冷的比較多 
+10:40 < JSDC-Tony> 不過目前已經切成純送風狀態了 應該會慢慢回暖
+10:40 <    walile> 囧，沒帶外套超冷
+10:40 < JSDC-Tony> 請大家再忍耐一下
+10:41 <       hlb> othrees: 是啊
+10:41 <    Irvin_> BrowserID.org 現在就可以用來作網站登入了
+10:41 <  timdream> Gaia: 所有東西都是 HTML，所有的 app 其實都是 system app 的 iframe
+10:42 <  neoesque> http://grs.toomore.net 這個就有 BrowserID @@
+10:42        Will  is now known as Guest33148
+10:42 < Guest3314> I'm in. :-D
+10:42 <  timdream> http://timc.idv.tw/gaia-keyboard-demo/ <-- 鍵盤 demo （需要 Firefox)
+10:42 <    Irvin_> 目BrowserID前用起來有點像openID,未來會內建進Firefox
+10:42  Albaforia_  is now known as Albaforia
+10:43 <  timdream> 新的 UI mockup 首次發佈！
+10:43 <  Al_cho__> 座位表出現苦力怕！
+10:44 < salagadoo> 剛才是說 改top會讓畫面整個重繪 但是用transform就不會觸發這個事件?
+10:44 <  JSDC-Kay> （拍手
+10:44 <       CQD> yeap
+10:44 <       CYJ> 攤位上有販賣T-shirt，數量剩下個位數，敬請把握....
+10:44 <       CQD> 南瓜瓜我在你八點方向w
+10:44 < kurotansh> 好搶手
+10:44 <  carlcarl> 也太快0.0""
+10:45 <  timdream> 提問者問了 Web 的原始碼露出問題
+10:45 <  timdream> 還有效能問題
+10:45 <       hlb> 所以到底講了什麼任何有意義的事情......
+10:46 < JSDC-Tony> Microsoft session 意見調查 歡迎參與 http://0rz.tw/Q7pU8
+10:46 <    Irvin_> salagadoola_: wave!
+10:46 <  timdream> * 其實 Javascript 在 Android 上比 Java 快(!?)
+10:46 <       CQD> Javascript 甚至比 dalvik 快了，因為有競爭壓力
+10:46 <  timdream> hlb: meh, 宣傳議程嘛
+10:46 <    Irvin_> time will resolve threshold
+10:46 < salagadoo> Irvin_: hi~
+10:46 <  timdream> 提問者問了 Web 的 3D 與影片支援
+10:47 <       hlb> timdream: well, it is a DEVELOPERS conference
+10:47 <    ericsk> hlb: Create awareness 吧, 也許還有很多人不知道 B2G
+10:48 < salagadoo> 上次和人提這東西 就完全想不起來它叫B2G
+10:48 <       CQD> 我覺得是在宣傳「為什麼要有 B2G」
+10:49 < JSDC-Tony> 沒關係 我們會開放問卷讓大家反應問題 XD
+10:49 < JSDC-Tony> 我們會轉達給有關單位 :D
+10:49 <   othrees> 都往前10分嗎
+10:49  Albaforia_  is now known as Albaforia
+10:50 < JSDC-Tony> 下一個議程時間是11:10
+10:54 <    Irvin_> We faced the problem, We are asking for developers to join B2G
+10:57 <  JSDC-Kay> test
+10:57 <      rein> test test
+11:01 <  JSDC-Kay> 連線開始有點慢了..
+11:01 <  davihuan> 我上來了, 哈哈哈
+11:02 <     Shock> [2]是龍哥耶
+11:02 <  davihuan> 我把 http://webchat.freenode.net/ 繞我家的 PPTP VPN Tunnel 
+11:02 <  mangoice> 我剛直接連就可以連上了不用繞~ lol
+11:03 <   kurohsu> 換場到 r2
+11:03 <  davihuan> 其實連線只有 20Mbps 左右
+11:03     kurohsu  is now known as kurotanshi
+11:03 <  davihuan> 唷, 剛剛大概有很多人離線吧 lol
+11:03 <  davihuan> QQ
+11:03 <       hlb> 自己錄 cast! :D
+11:03 <  neoesque> davihuan: 換場++
+11:04 <  davihuan> QQ 反正我 VPN 開了 XD
+11:04 <  JSDC-df1> (二會)接下來在第二會議室即將進行的議程是：Happy Programming with CoffeeScript 講者是龍哥！
+11:05 <     spin1> 痾終於進來了
+11:05 <  JSDC-Kay> (國際) 講者自介中
+11:06 < JSDC-Tony> 如果too many client 有可能是因為中研院 ip 太多人 自己有煮得人可以改用自己主機來連 
+11:06 < JSDC-Tony> 主機
+11:06 <  JSDC-Kay> 繼續推Azure XD
+11:06 <  davihuan> TonyQ ++
+11:06 <  davihuan> multi-homing 還沒測過, 我還不會用綁多 IP QQ
+11:07 <  JSDC-Kay> 網路開始很不穩
+11:07 < JSDC-Tony> 第二場 Keynote 活動問卷 0rz.tw/9IsnO 
+11:07 <   MouseMs> 已經掛ssh了 XD
+11:07 < JSDC-Tony> 我剛被檔在門外也是改掛 ssh  XD
+11:08 <       hlb> JSDC-TonyQ: 沒有 poor 的 option
+11:08 <  mangoice> 第二會議室的主持人聲音好甜美唷~~ <3
+11:08 <     jyyan> @r2 剛用中華電信測速跑出下載 95.27 Mbps ...
+11:08 < kurotansh> r2 主持人++
+11:08 <  carlcarl> 聲音好甜++
+11:08 <     Shock> JSDC的主持人都好優!
+11:08 <    JoeyWu> 二場真的是Coffee show...
+11:08 < nansenat1> 求國際簡報URL~
+11:09 < JSDC-Tony> @hlb 歡迎寫在意見區 XD 
+11:09 < JSDC-Tony> 我會再跟bob 說 (咦) 
+11:09 <  JSDC-Kay> （國際）等等有傳說中的 live demo
+11:09 <  JSDC-Kay> 去年在網路中的資料: 1.8ZB
+11:09 <  JSDC-Kay> 7.9 ZB by 2015
+11:09 <  JSDC-df1> (二會)龍哥上場！
+11:09 < kurotansh> (rock)
+11:09 < JSDC-Tony> (二會) 主持人聲音也很甜美
+11:09 < JSDC-Tony> (二會) *講者聲音也很甜美
+11:09 < JSDC-Tony> 講錯 XD
+11:10 < kurotansh> 講者 XD
+11:10 < JSDC-Tony> 往上聊 XD
+11:10 <  davihuan> 人文館區網目前都是 1000Mbps, 剛換兩個星期的設備...
+11:10 < kurotansh> 美國隊長
+11:10 < JSDC-Tony> (二會) 擠滿中...
+11:10 <  appleboy> ?
+11:10 <     kidwm> appleboy: 你也有來喔？
+11:10 <  JSDC-df1> (二會)龍哥：JS現在除了生孩子不行，其他都OK啦
+11:11 <     jyyan> 老梗～XD
+11:11 <  appleboy> yes 
+11:11 <     Shock> r2重點是快樂
+11:11 <       hlb> 色偏真是越來越可怕了 XD
+11:11 < JSDC-Tony> 龍哥:寫程式真的要快樂嗎? 不然就不好玩了
+11:11 <     jyyan> 接得很妙
+11:11 < JSDC-Tony> (二會)龍哥: 我不知道怎麼那麼多人喜歡用食物當專案名字
+11:11 < JSDC-Tony> (二會)龍哥:coffee 是一個我心目中所崇拜的大大寫出來的
+11:11 < JSDC-Tony> (二會)龍哥:根據 Github紀錄他大概在2009年時做了第一次commit
+11:12 < JSDC-Tony> (二會)龍哥:去年我自己開始寫 差不多滿一年 主要原因是因為 rails 把 coffee 列入標準
+11:12 < JSDC-Tony> (二會)龍哥: coffee 作者發現有人有 coffee 有五年經驗  驚為天人 想要去跟他學學
+11:12 <  carlcarl> XD
+11:12 <    walile> XDDDD
+11:13 <     Shock> 雜種
+11:13 <     Shock> ->coffeescript
+11:13 < JSDC-Tony> (二會)龍哥: 他的確還是 JavaScript 
+11:13 < JSDC-Tony> (二會)龍哥:這裡中間剛好有一條線
+11:13 <  carlcarl> 被螢幕婊XD
+11:13 < JSDC-Tony> Coffee|Script
+11:13 <     jyyan> 螢幕被自動劃線XD
+11:13 < JSDC-Tony> (二會)龍哥:JavaScript 做的到的 coffee 都做的到
+11:14 < JSDC-Tony> (二會)龍哥: 大概可以少 30% code
+11:14 < kurotansh> 內建刪除線
+11:14 < JSDC-Tony> (二會)龍哥:兩萬行寫到剩五千行（驚） 打二點五折
+11:14 <  neoesque> 題外話，問一下龍哥是拿 Wii Controller 當 Apple Remote Control 用 XD?
+11:14 < JSDC-Tony> (二會)龍哥:coffee compile 是用 coffee 寫出來的
+11:15 < JSDC-Tony> [大會宣傳]第一場 Keynote 活動問卷 0rz.tw/Q7pU8
+11:15 < JSDC-Tony> 第二場 Keynote 活動問卷 0rz.tw/9IsnO 
+11:15 < JSDC-Tony> 有來的朋友請幫忙散播問卷!!XD
+11:15 < JSDC-Tony> 第一場 Keynote 活動問卷 http://0rz.tw/Q7pU8
+11:15 < JSDC-Tony> 第二場 Keynote 活動問卷 http://0rz.tw/9IsnO 
+11:16 < JSDC-Tony> (二會)龍哥: 這是縮排 可是你看不到
+11:16 <     jyyan> 因為不到... XD
+11:16 <  JSDC-df1> (二會)龍哥：這就是縮排XD (畫面空白
+11:18 <  allenown>  http://www.wazug.nl/media/4084/hadoopinwindowsazure.pptx
+11:18 <  JSDC-df1> (二會) 陣列以前：[1,2,3,4,5,6,7,8,9,10] 現在：[1...10]
+11:19 <  appleboy> 第2會場有現場文字轉播喔
+11:19 < JSDC-Tony> (二會)龍哥: 其實是我喜歡他 (停頓) 最大的原因
+11:19 < JSDC-Tony> 其實國際也有啦 XD 只是我打字比較快
+11:19 <    JoeyWu> 一場表示：想跳槽了XDD
+11:19 < nansenat1> 問一下國際是講Azure嗎?
+11:19 <    JoeyWu> YES
+11:20 <  SammyLin> 其實龍哥不是拿wii~~~
+11:20 <    ericsk> nansenat16: Actually 是 hadoop
+11:20 <    walile> coffescript 看成小叮噹的翻譯年糕！！！
+11:20 <  JSDC-df1> (二會)龍哥：如果不知道這是甚麼東西，可以把它想像成：(登登登)翻譯年糕
+11:21 < nansenat1> @ericsk 感謝大大
+11:21 <  JSDC-df1> (二會)龍哥即將進行DEMO!
+11:21 <   othrees> live demo
+11:22 <    walile> 這個是影片demo
+11:22 <  neoesque> XD
+11:23 <     Irvin> 語音coding
+11:23 <   othrees> 悲劇，我的 iPad 電量不增反減
+11:24 <     Irvin> othrees: 這有問題吧…
+11:24 <    Chuiyi> new iPad海量電量消耗
+11:24 <    ericsk> Hadoop on Windows Azure!
+11:24 <       CYJ> 即將開放預購 https://www.facebook.com/A.Damn.Thing 
+11:25 <    Fripig> 我這台能充欸
+11:25 <  JSDC-Kay> 終於連上了Q_Q
+11:25 <    Fripig> 只是超級慢
+11:25 < fire_rfef> ＠＠
+11:25 < fire_rfef> 超難連的
+11:26 < JSDC-Tony> 國際的講播有狀況 被檔在irc 外 已經搶救成功XD
+11:26 <  JSDC-Kay> 海量資料
+11:26 <  JSDC-Kay> XD
+11:27 <  JSDC-Kay> 第二會議室都還OK吧?
+11:27 <  appleboy> 剛剛超級難連上 irc
+11:27 <  SammyLin> 第二會議室OK
+11:27 < JSDC-Tony> (二會)龍哥:coffee script 不是拿來取代 JS
+11:27 <  carlcarl> 第二會議室OK+1
+11:27 < JSDC-Tony> 等下國際會議室會由我現場轉播議程 （被拖走）
+11:27 <  JSDC-Kay> 不是嗎XD
+11:28 <   aar0ntw> 講者：微軟是一個很開放的公司
+11:28 <     alive> 邊講邊文字轉播go
+11:28 <  JSDC-Kay> JS6不是要採用coffeescript的syntax
+11:28 <  carlcarl> lol
+11:28 < JSDC-Tony> 不過我不得不說 這次活動 M$ 很幫忙 XD 
+11:28 <      anfa> 說好的 JavaScript 呢
+11:28 <  allenown> 很幫忙還用＄來寫XD
+11:29 < salagadoo> 縮排寫錯也能compile 不會error 只會編譯出預期外的東西 請善用人腦debug~
+11:29 < JSDC-Tony> 不是要採用吧 那只有 fat arrow 不能說是 coffee
+11:29 < JSDC-Tony> 哎呀 囧 露餡了
+11:29 <    dryman> 第一會議室講者：微軟是一家很開放的公司
+11:29 <  JSDC-Kay> ...
+11:29 <   othrees> 肥arrow
+11:29 <  JSDC-Kay> 國際到目前為止都還沒出現js?
+11:29 <  JSDC-Kay> =>
+11:29 <   aar0ntw> 半小時了 除了第一頁 我還沒看到 javascript
+11:29 < JSDC-Tony> (二會) 龍哥: 我個人認為：你要學 JS
+11:30 <   MouseMs> 出現了XD
+11:30 <   aar0ntw> 有了有了
+11:30 <    JoeyWu> �
+11:30 <  JSDC-Kay> pig!
+11:30 < JSDC-Tony> https://docs.google.com/spreadsheet/viewform?formkey=dHJwVUVDOHhJd3A1Qk9hQm5mRE1PTEE6MA
+11:30 <  JSDC-Kay> pig.from("xxx")
+11:31 <  carlcarl> XD
+11:31 < salagadoo> Q&A時間: 各位有什麼不會太難的問題?
+11:31 < kurotansh> 縮得很進去 >/////<
+11:31 < kurotansh> 龍哥表示：我自己就讓它縮
+11:32 <     alive> 怎麼CoffeeScript的選項還有Mozilla 是我的愛 XD
+11:32 < nansenat1> 國際投影片滾玩 沒出現JS這是哪招???
+11:32 <  JSDC-Kay> 縮什麼XD
+11:32 <   othrees> 現在這不是嗎
+11:32 < JSDC-Tony> 確保你不是跑錯場
+11:32 <    ericsk> 現在不就是 JavaScript console?
+11:33 <       Kej> 想要跳槽結果一開門就 END … orz
+11:33 <  JSDC-Kay> 第二結束樓?
+11:33 <  JSDC-Kay> 真快
+11:33 < nansenat1> Sorry 小弟不在現場
+11:34 <  JSDC-Kay> ms big data roadmap...3_3
+11:34 <       Kej> 第二結束了
+11:34 <  JSDC-Kay> 最後了
+11:34 <     asdfw> 囧，希望最後會有IRC log的分享
+11:35 <    locy69> 龍哥好快阿@@!
+11:35 <    locy69> 已經結束了@@?
+11:35 < kurotansh> room2 好多人跑掉了
+11:35 < JSDC-Tony> https://docs.google.com/spreadsheet/viewform?formkey=dEwyOU9weXlFNXBRNV8wSVNMdFdzYkE6MA
+11:35 <  JSDC-Kay> MS:希望餵大家持續加值?
+11:35 <  hinablue> 龍哥好快!?
+11:35 <  JSDC-Kay> 跑去哪?XD
+11:35 <  JSDC-Kay> live demo
+11:35 <   othrees> 人都過來了
+11:36 <  SammyLin> 人呢....
+11:36 < JSDC-Tony> coffee 議程調查 http://0rz.tw/PQ8CA   M$ 議程調查 http://0rz.tw/x6cHl
+11:36 <   othrees> 師兄們都回來了
+11:36 <       hrs> 人變好多
+11:36 <  JSDC-Kay> http://www.hadooponazure.com
+11:36 < kurotansh> [room2] 不是布丁 orz
+11:37 < nansenat1> hadooponazure 的JS引擎是V8 or J#?
+11:38 <     Irvin> 有沒有人覺得#2的攝影妹有點恐怖？
+11:38 <  SammyLin> 恐怖？
+11:38 <     jyyan> 拿大砲？
+11:38 <     Irvin> 到處殺
+11:39 <  SammyLin> 是不搭嗎？XDDD
+11:39 <     Irvin> 殺氣超重（有點干擾）
+11:39 <     Irvin> 剛問問題的 medicalwei 被他擋在講者正前方
+11:40 <  JSDC-Kay> TONYQ!
+11:40 <     jcrt_> Irvin: 我幫你跟他轉達
+11:41 <     jcrt_> XDDD
+11:41 <  JSDC-Kay> 連線又慢了
+11:41 <   othrees> 開始了
+11:42 <  JSDC-Kay> 哎呀XD
+11:42 <    ericsk> nansenat16: chakra  # J# 是語言不是 engine 啊
+11:42 <   minipai> MVC~
+11:42 <  hinablue> 所以說用的是 V8? 還是自己的 Engine?
+11:43 <    itoyxd> 很幽默喔
+11:43 <  JSDC-Kay> 抖抖
+11:43 <  JSDC-Kay> 二場
+11:43 <  JSDC-Kay> 的轉播是不是挂了
+11:43 <  JSDC-Kay> lag
+11:44 <  JSDC-df1> (二會)轉播回來了!
+11:44 <  JSDC-Kay> ember.js!
+11:44 <  hinablue> AngularJS!
+11:44 <    ericsk> hinablue: nansenat16: 應該是用 NodeJS (V8) http://blogs.msdn.com/b/windowsazure/archive/2011/12/12/improved-developer-experience-interoperability-and-scalability-on-windows-azure.aspx
+11:44 < nansenat1> @ericsk 抱歉表達有點失誤,好奇轉譯JS運算是基於V8還是JAVA6的實做
+11:44 <  JSDC-Kay> getopensource.info/explore/javascript/mvc/
+11:45 <    ericsk> nansenat16: JavaScript 不是 Java 啊...@@
+11:45 <  JSDC-Kay> 就直接叫javascript mvc 喔...
+11:46 <  JSDC-df1> (二會)josephj:模組化的概念：把東西儘量塞小，把不相干的程式儘量抽離
+11:46 <   othrees> 那時候只有它嘛XD
+11:47 <     alive> jmvc code generator我有在用啊 QQ
+11:47 < jason2506> http://impressjs.tonyq.org/jsdctalk/
+11:47 < salagadoo> 連平行下載的數目都用算的....
+11:47 < michael52> 測試測試 ~ 咳咳
+11:48 <  JSDC-df1> (二會)josephj:jQuery作者：YUI實在是在sexy了
+11:48 <  JSDC-Kay> puremvc, ported from ActionScript
+11:48 <  JSDC-Kay> Xd
+11:48 <  JSDC-Kay> laaaaaaaaaag
+11:48 <  JSDC-Kay> ...
+11:48 <  JSDC-Kay> laaaaaag
+11:48 <  JSDC-Kay> dddd最新實況 => irc://freenode/#JSDC.twtest
+11:48 < nansenat1> @ericsk http://dennyglee.com/2012/02/17/hadoop-javascript-microsofts-vb-shift-for-big-data/
+11:48 <  JSDC-Kay> =.=
+11:48 <   othrees> YUI 真的不錯
+11:48 <  hinablue> @ericsk Azure 可以用 mongodb 啊（吸引力還蠻大的
+11:49 <       hlb> othrees: 可是 yahoo 真的快... 了
+11:49 <  hinablue> YUI 寫起來好煩（笑
+11:49 <    ericsk> nansenat16: 所以意思是?
+11:50 <  hinablue> @tonyQ 隔壁場好像在講 YUI wwwwwww
+11:50 <  JSDC-Kay> framework dependency
+11:50 <     Irvin> Module loader combo CDN(有錢才會有)
+11:50 <  JSDC-Kay> backbone: underscore+jQ
+11:50 < kurotansh> [room 2] 在講 YUI
+11:50 <    ericsk> hinablue: 可以啊 http://www.windowsazure.com/en-us/develop/nodejs/tutorials/web-app-with-mongodb/
+11:50 <  JSDC-Kay> Spine: Coffeescript+jQ
+11:50 <  JSDC-df1> (二會)josephj:比起require.js，YUI可以自動計算的部分是比較好的
+11:51 <    ericsk> 大家好像忘了 @ 在 irc 裡不會 highlight XD
+11:51 <     ensky> [room 1] JavascriptMVC綁4個自己家的東西
+11:51 <  JSDC-df1> (二會)josephj:程式碼總行數減少35%以上！
+11:51 <     qrtt1> ericsk: highlight 一下xd
+11:51 < nansenat1> @hinablue mongodb的mapreduce還無法多線程
+11:51 <    ericsk> qrtt1: QQ
+11:52 <  JSDC-df1> (二會)josephj:使用原生JS寫OOP令人挫折，Framework就是要帶人脫離原始！
+11:52 <     alive> backbone應該也可以把核心換成zepto
+11:52              qrtt1 這週寫了 email 去 highlight 別 team
+11:52 <     jcrt_> Rails 的那個特異功能叫做 asset pipeline
+11:52 <  JSDC-df1> (二會)josephj正在講解YUI OOP的屬性封裝、自訂事件
+11:52 <     alive> javascriptMVC的steal跟jquerymx是必備 其他兩個不必要（test framework跟documentation)
+11:53 <     jcrt_> 包含處理 css, js, image
+11:53 <     alive> jquerymx裡面其實是jquery1.7.?+MVC
+11:53 <  hinablue> @ 以前用 xchat 太習慣了...
+11:53 <    dryman> 沒有在表剛剛那一場XDDD
+11:53 <    ericsk> 但明明剛才那一場都有在 local 測啊
+11:54 <  hinablue> @nansenat16 如果機器夠強，量不大的話單線應該也還好啦 XD
+11:54 <  JSDC-df1> (二會)前端工程師的辛酸(淚)
+11:54 < sleepnova> 喔, 好嗨喔
+11:54 < salagadoo> (二會) 像是mvc 隔壁正在講嘛 所以人都跑過去了 好難過
+11:55 <  SammyLin> 好難過...
+11:55 <  carlcarl> XD
+11:55 <   minipai> XD
+11:55 <  hinablue> XD
+11:55 < michael52> XD
+11:55 <     jcrt_> XD
+11:55 <  SammyLin> XD
+11:55 < sleepnova> YUI 沒人要聽 :p
+11:55 <    dryman> XD
+11:55 <     jcrt_> SammyLin: 看一下fb訊息
+11:55 < kurotansh> 淡淡的哀傷
+11:55 < michael52> (國際) 快睡ㄌ
+11:56 <    locy69> c9s 不是要在家休息?
+11:56 <       c9s> locy69: 在家休息不能上 irc 嗎 hahah
+11:56 <    locy69> 也進 IRC 湊熱鬧阿~~ 呵
+11:56              qrtt1 在家ing
+11:56 <       c9s> locy69: 嘿阿
+11:56 <  SammyLin> jcrt_ 是Jerry??
+11:57 <     jcrt_> right
+11:57 <  SammyLin> ok
+11:57 <  JSDC-Kay> (1) tonyq: 等等會有qqa
+11:57 <  JSDC-Kay> 時間
+11:57 <  JSDC-Kay> 會有qa g6ru0 
+11:57 <  JSDC-Kay> sorry 已經
+11:58 <  JSDC-Kay> lag 到無法轉播了@@
+11:58 <  JSDC-df1> (二會)josephj:YUI支援Unit Test、Automation(Yeti)、YUI in Node、MVC、Y.log()可以指定group、AsyncQueue
+11:58 <   othrees> iPad 不能接有線網路 QQ
+11:59 <  JSDC-df1> (二會)josephj:YUI強項是架構面的處理，解決中大型團隊開發的問題
+12:00 <  JSDC-df1> (二會)提問時間
+12:00 <  JSDC-Kay> (1) 正在介紹template engine
+12:00 <   minipai> zk這樣硬喔 |||
+12:01 <  hinablue> whois hinablue
+12:01 <  hinablue> 打錯視窗 XD
+12:02 <   MouseMs> XD
+12:02 <  SammyLin> XD
+12:02 <  carlcarl> XD
+12:02 <    walile> 還好不是打成了exit
+12:02 <  JSDC-Kay> EJS 可以跑for loop
+12:02 <  hinablue> screen 開太多 XD
+12:04 <    ericsk> hinablue: 還好不是 /msg NickServ identify ...
+12:04 < kurotansh> XDDDDDDDD
+12:04 <       CYJ> c9s: 快來阿
+12:04 < kurotansh> [room 2] 結束
+12:05 <  JSDC-df1> (二會)josephj:對YUI有問題可以隨時找我聊！
+12:05 < kaochenlo> 主持人聲音專業!
+12:05 <   othrees> 這麼專業的聲音哪裡找
+12:05 <  JSDC-df1> 二會吃飯囉！ 下午議程將在1:40開始
+12:06 <      jovi> 我還以為會有水果報那種比較表 （誤）
+12:06 <  hinablue> 吃飯也太快了！
+12:07 <  JSDC-Kay> (1) TonyQ: 老實說，我也很少做unit testing
+12:07 <  hinablue> EXTJS 解壓縮有 2xxMB 然後 doc 有 1xxMB  XD
+12:08 <  JSDC-Kay> (1) TonyQ: integration test 最簡單啦!
+12:09 <  JSDC-Kay> (1) TonyQ: http://seleniumhq.org/
+12:09 <  JSDC-df1> (二會)感謝joseph！剛剛的投影片：http://www.slideshare.net/josephj/yui-is-sexy-yui
+12:10 < sleepnova> 感覺這次的講者都打安全牌, 太中庸了
+12:10 < sleepnova> 都不講些獨門絕技, 不夠嗨
+12:10 <       c9s> sleepnova: 恩恩
+12:11 <    ericsk> sleepnova: 大家愈來愈怕被表 XD
+12:11 <  JSDC-Kay> (1) 結束
+12:11 <       Kej> XD
+12:19      Irvin_  is now known as Irvin
+12:36 <    walile> test
+13:03 <  JSDC-df1> 第二會議室已經將近滿場，大家都來為了O3大大的Module Pattern, AMD, RequireJS卡位！
+13:09 < michael52> 吃飽飯ㄌ
+13:11     jaceju_  is now known as jaceju
+13:12 <  SammyLin> 好熱門喔......整個大爆滿
+13:13 <  hinablue> 二場要爆了
+13:13 <  hinablue> 各位袋子裡面的網路線可以用嗎？我的不能用耶，該不會這條線還挑網卡吧 XD
+13:14 <    JoeyWu> 位子的有些port不能用
+13:14 <    JoeyWu> 二場的
+13:14 <  JSDC-df1> 如果是網路線有問題，可以去服務台換一個喔！
+13:15 <     Fire_> test
+13:15 <  hinablue> 我在一場用朋友帶的跟會場發的，同一個孔，會場發的就是不能用 XD
+13:16 <  hinablue> 而且身邊三四個朋友的線來測試都不能用（噴笑
+13:16 <     jyyan> 網路恐有問題
+13:17 <     jyyan> *孔
+13:17  Administra  is now known as Guest6895
+13:18 <  SammyLin> XDD
+13:20 < kurotansh> room2 好多人
+13:20 <  hinablue> 網路孔同一個，自己帶的線可以用，會場發的不行，應該不是孔的關係，我在猜線跟我的硬體不合 XD
+13:22              kurotanshi 覺得午休有點久
+13:22 <  hinablue> 還可以睡一下（ㄟ
+13:23 <  SammyLin> 有很多人在閉目養神了
+13:24 <     Ioan_> 現場如果網路線有問題, 請通知跟任何一個工作人員
+13:28 <     Ioan_> 阿...抱歉...手殘打錯字了  現場如果網路線有問題, 請通知身邊任何一個工作人員＠＠
+13:31 <  JSDC-df1> 下午議程將於10分鐘後開始！
+13:31 <  SammyLin> 被主持人打了>_<
+13:31 <  SammyLin> 太害羞幹麻打我.......><
+13:32 < nansenat1> 出發來去MOSTU 大家掰~
+13:34       tonyq  is now known as JSDC-TonyQ
+13:35 <  hinablue> 二場後面超多人 @@
+13:35 < JSDC-Tony> Hi all , 有個不情之請, 如果有早上 irc log 的朋友，不曉得是不是方便寄份 log 到我信箱以利大會紀錄
+13:35 < JSDC-Tony> 我早上忘記開irc log =_= 
+13:35 < JSDC-Tony> tonylovejava@gmal.com
+13:36 <  hinablue> 要很早到的人應該會有，因為早上一開始 irc 就爆滿了 XD
+13:36 <  SammyLin> 二場講者想知道什麼那麼多人....
+13:37 <  neoesque> JSDC-TonyQ: 要 plain text 還是 Safari 的 WebArchive XD
+13:37 < JSDC-Tony> 都可以 XDDD
+13:37 < JSDC-Tony> 有字就行
+13:37 <  hinablue> 因為隔壁我聽過了（喂
+13:37 <  neoesque> ok~
+13:37 < JSDC-Tony> 大感謝!!!
+13:39 <  SammyLin> o3很可愛..
+13:39 <     Shock> OOO
+13:39 <  JSDC-df1> (二會)O3大大上場！
+13:40 < kurotansh> O3 很可愛
+13:40 <  neoesque> JSDC-TonyQ: Sent it!
+13:40 <     Shock> (OOO mic被拿走)
+13:40 <  timdream> 用 ID 埋梗把妹！
+13:40 <  hinablue> ID 埋梗把妹 +1
+13:40 < JSDC-Tony> thanks!!
+13:41 <  SammyLin> 所以是主持人把妹 還是O3把妹？= =a
+13:42 <  JSDC-df1> (二會)othree：OO的資料封裝->避免非預期的修改
+13:43 < JSDC-Tony> (國際) 外國人流利的講著
+13:43 < JSDC-Tony> (國際) 沒有很多人喜歡.net 所以那是個問題
+13:43 <  JSDC-df1> (二會)othree：1.在JS用naming convension方式達到資料封裝效果
+13:44 <  JSDC-df1> (二會)othree：2.Priviledged method用fuction包住區域變數
+13:45 <   inori01> ?!
+13:45 <   MouseMs> XDDD
+13:45 <  carlcarl> XD
+13:45 < JSDC-Tony> (國際) 外國人突然講起了中文
+13:45 <     ensky> 外國人表示：麻煩
+13:45 <  JSDC-Kay> (1) 很媽范！
+13:45 <   minipai> XDD
+13:45 < JSDC-Tony> (國際) 外國人：我們都知道這很嗎凡
+13:45 < Administr> 大會之後會提供投影片嗎
+13:45 <  hinablue> (二會) O3 圖是我隨便畫的
+13:45 <     jyyan> XD
+13:45 < JSDC-Tony> 如果講師有給我們就會
+13:45 < JSDC-Tony> 影片也會在講師同意的前提下在活動後兩週內公佈
+13:45 <  JSDC-df1> (二會)othree：3.Module Pattern優點：很好懂；缺點：很難繼承
+13:46 < JSDC-Tony> @neoesque 我沒有收到東西 please double check 
+13:46 <  JSDC-Kay> (1) Mojito is not the solution to Yahoo's problem
+13:46 < JSDC-Tony> 不確定是不是我打錯 mail ,  tonylovejava@gmail.com
+13:47              mrmoneyc o3 場內容很棒，可是人快掛了，好想睡 ..
+13:47              medicalwei 也是 =w=
+13:47 <  hinablue> (二會) O3: no standard API, YUI 有解法，但是只有 YUI 自己能用
+13:47 <  SammyLin> tony love java? 不是應該 tony love javascript嗎？...
+13:47 <  JSDC-df1> (二會)othree介紹CommonJS
+13:48 <  mrmoneyc> 應該是今年的 OSDC
+13:48 <  JSDC-df1> (二會)othree：CommonJS建立JS的ecosystem
+13:48 <  neoesque> JSDC-TonyQ_: XD 真的錯了 gmal.com 哈 我重寄
+13:49 <  neoesque> JSDC-TonyQ_: resent
+13:49 < JSDC-Tony> got the mail :D
+13:49 < JSDC-Tony> thanks
+13:50 <  JSDC-Kay> (1) Mohito supports unit testing, i18n
+13:50 <  JSDC-df1> (二會)othree：開始介紹AMD
+13:50 < JSDC-Tony> 他對我跟 YUI 的看法蠻一致的...
+13:50 <  JSDC-Kay> (1) Mojito sits on top of YUI3, Node.js/ Mustache
+13:51 < JSDC-Tony> yep , it's too generic ...
+13:52 < JSDC-Tony> (國際) Yahoo! OMG!
+13:52 <  JSDC-df1> (二會)othree：jQuery中的AMD
+13:52 <  hinablue> (二會) O3: jQuery 不完全支持 AMD
+13:53 <  hinablue> (二會) O3: 比較偏向於 requireJS
+13:53 <  JSDC-Kay> (1) With Mojito Yahoo is trying to be presentation-centric
+13:54    hinablue  is now known as JSDC-hinablue
+13:55 < JSDC-hina> (二會) O3: AMD, Path alias, Circular dependency, Plugins
+13:58 < JSDC-hina> IE 上面很慢...
+14:00 <  JSDC-Kay> (1) template engine is Mustache
+14:02 < kurotansh> 最後的更新是 readme orz
+14:02 <  JSDC-Kay> (1) UI Action => Binder => Mojit Core
+14:05 <  JSDC-Kay> (1) 傳說中的 live demo!?
+14:05 <  JSDC-Kay> (1)all in realtime
+14:05 <  JSDC-Kay> 炸彈超人XD
+14:06 <   MouseMs> XDDDD
+14:06 < salagadoo> 轟炸超人emo XD
+14:06 <  JSDC-Kay> 挂了
+14:06      tonyq_  is now known as JSDC-df1
+14:06 < JSDC-Tony> 誰有看到kuro
+14:07 < kurotansh> ._./
+14:07 < JSDC-Tony> Ben 再找你
+14:07 < JSDC-Tony> 議程的ben 找他報到一下
+14:07 < kurotansh> 到哪
+14:07 < kurotansh> 在哪 @@
+14:07 < JSDC-Tony> 你現在在二會嗎
+14:07 < kurotansh> 對
+14:08 < JSDC-Tony> 等下議程結束你就到講台前
+14:08 < kurotansh> ok
+14:08 <  JSDC-Kay> (1) 好冷清...
+14:08 <  JSDC-Kay> (1) 終於有一個老外發問
+14:08 < JSDC-Tony> 我沒掉我都想聯絡（咦）
+14:09 < JSDC-Tony> 掉戒指是求婚梗嗎
+14:09 <     Shock> 掉東西就可以...
+14:09 <  JSDC-df1> (二會)感謝O3的演講！接下來是JiaHan Su的針對行動平台最佳化的HTML5動畫引擎設計與實作
+14:10 <    mervyn> XDD
+14:10 < JSDC-hina> SenseJS
+14:11 <   MouseMs> wow一堆人要換會2
+14:12 < kurotansh> [R2] CSS + Canvas 好棒
+14:12 <  JSDC-df1> (二會)JiaHan：即將爆料HTC在mobile HTML5所得到的一些經驗
+14:12 < JSDC-Tony> 第二會議廳本來就滿了...
+14:12 <  carlcarl> 一堆人走掉0.0
+14:12 < JSDC-Tony> 哦哦哦哦
+14:12 < kurotansh> 我最愛聽爆料了 :p
+14:12 <  carlcarl> !!
+14:12 <    mervyn> 我也跑來會2
+14:13 <  JSDC-df1> (二會)JiaHan：這個投影片就是用HTML5+kmockout.js製作的！
+14:13 <  carlcarl> 看來是選錯邊了
+14:14 <     Shock> 投資HTML5就對了
+14:14 <     spin1> 用knockout.js做投影片！！
+14:14 <     spin1> 有投影片網址嗎？
+14:14 <    mervyn> TonyQ 我叛逃到會2
+14:15 <  JSDC-df1> (二會)JiaHan：今年是個分水嶺，從今年開始，很多炫麗的網站已經不是用flash做了
+14:15 < JSDC-Tony> 我回來聽大公
+14:15 <       Kej> 會2爆炸了 XD
+14:15 < JSDC-Tony> 我對怎麼重新詮釋nodejs 有興趣 XD
+14:15 < JSDC-Tony> (PS) 是我推費大下坑的
+14:15 <  carlcarl> wow
+14:15 < JSDC-hina> @TonyQ 兇手就是你 XD
+14:16 <  JSDC-Kay> (1) 並不是寫node的就比較厲害XD
+14:16 < JSDC-Tony> XD
+14:16 < JSDC-Tony> 其中很多八卦 (笑)
+14:16 <  JSDC-df1> (二會)JiaHan：CSS原來是給你排版用，不是要給你做動畫的
+14:16 < kurotansh> [R2] 好花俏
+14:16 <     Shock> (2)十年前做的東西
+14:17 <  carlcarl> XD
+14:17 <  JSDC-df1> 二會似乎正妹雲集中XD
+14:17 <  carlcarl> !!
+14:17 <  JSDC-Kay> (1) JavaScript 是很依賴 host environment 的語言
+14:17 < kurotansh> [R2] 真的　妹頗多
+14:18 <   othrees> 快拍
+14:18 < JSDC-hina> 挑對會場了（喂
+14:18 <  SammyLin> 快推
+14:18 <  SammyLin> (誤~
+14:18 <  JSDC-df1> (二會)JiaHan介紹CSS 2D/3D Transformation
+14:18 < salagadoo> (1) 在browser就是靠window這個全域物件 在node.js就是靠叫做global的這個全域物件
+14:18 <     Shock> (2)好厲害
+14:19 <       Kej> 讚
+14:19 < kurotansh> [R2] transform 好強大
+14:19 <    mervyn> 以為只有webGL可以這樣做
+14:19 <  JSDC-df1> (二會)超經典的一個範例
+14:19 < JSDC-hina> 那個 transform 數學要超強!!!
+14:19 <     Shock> (2)可以要投影片嗎？
+14:19 <  carlcarl> +1
+14:19 < kurotansh> 我想要 demo 程式碼 >////<
+14:20 <   othrees>  3D 電腦圖學有教怎麼 transform ~~
+14:20 < kurotansh> [R2] 太超過了
+14:20 <  JSDC-df1> http://www.edankwan.com/lab/ 之前看到這個超炫
+14:20 <      jovi> Node.js 後面看不到碼 可以放大嗎
+14:20 < JSDC-hina> webgl 有 GPU 支援更強大（像是 IE9...
+14:21 <   othrees> IE 説不打算支援
+14:21 <  JSDC-df1> (二會)JiaHan:介紹canvas
+14:22 <  JSDC-df1> (二會)JiaHan:CSS Transform最小單位就是一個DOM element
+14:22 <     Irvin> https://developer.mozilla.org/en-US/demos/devderby/2012/march/
+14:22 <  JSDC-df1> (二會)JiaHan:Canvas2D是對pixel
+14:23 <     Irvin> 剛那個紙箱Demo是Mozilla Developer Center的三月Demo比賽得獎作品
+14:23 <  JSDC-df1> (二會)JiaHan:WebGL是一定要有硬體加速，因為threading是在GPU執行
+14:23 <     Irvin> 附加一提，本月比賽主題是WebSocket
+14:24 < JSDC-Tony> JS MVC Framework 意見調查
+14:24 < JSDC-Tony> http://0rz.tw/tREQV
+14:24 < JSDC-Tony> Better Choice :YUI 意見調查
+14:24 < JSDC-Tony> http://0rz.tw/iEF3y
+14:24 < JSDC-Tony> 歡迎各位朋友分享你們對議程的意見唷:D
+14:24 < salagadoo> (1) node.js可以用jquery 但是除了做蜘蛛以外不太會用到
+14:24 <  JSDC-df1> Mozilla網址：https://developer.mozilla.org/zh-TW/demos/devderby
+14:24 <  JSDC-Kay> (1) 單一執行續是寫js的必備概念
+14:25 <       CYJ> 原來r2塞爆的原因是妹多(誤)
+14:26 < JSDC-hina> R2 投影片好像有錯字 XD
+14:26 <  JSDC-df1> (二會)JiaHan:setTimeout/setInterval是早期用JS做動畫唯一的方式
+14:27 < JSDC-hina> requestAnimFrame
+14:27 <  JSDC-df1> (二會)JiaHan:requestAnimationFrame由瀏覽器對repaint做最佳化
+14:28 <   othrees> 錯字，只好拍下來了
+14:28 < JSDC-hina> browser prefix 好煩 XD
+14:28 <  JSDC-df1> (二會)JiaHan:requestAnimationFrame在每個瀏覽器有不同的prefix
+14:28 <   othrees> 必要之惡啊
+14:29 <  JSDC-df1> (二會)JiaHan:深入介紹CSS Transition
+14:30 < JSDC-hina> 以前研究過 transition 的 mitrix 寫法，實作過之後好想死啊 T_T
+14:30 <  carlcarl> prefix真得很煩
+14:31 <  JSDC-df1> (二會)JiaHan:CSS Animation比起CSS Transition可以做出更複雜的控制
+14:31 <   othrees> Matrix?
+14:32 < JSDC-Tony> [大會]Mojito 議程意見調查
+14:32 < JSDC-Tony> http://0rz.tw/zfSdO
+14:32 < JSDC-Tony> [大會]Module Pattern,AMD , RequireJS 議程意見調查
+14:32 < JSDC-Tony> http://0rz.tw/nbO4F
+14:33 < JSDC-hina> @othrees http://goo.gl/hKUdB
+14:34 <  JSDC-df1> (二會)JiaHan:CSS Animation"在大部分的情況下"效能比較好
+14:34 < JSDC-hina> @othrees 跟 transform 有關
+14:34 <   othrees> 其實我是想說你是不是拼錯XD
+14:34 <  JSDC-Kay> (1) Ｈello World 總是很美好..
+14:34 < JSDC-hina> (二會) 一般 Android 手機是指 htc 嗎（疑
+14:35 < JSDC-hina> @othrees 對，我打錯了 XDD
+14:35 <  JSDC-df1> 意思好像是samsung比htc快? 囧
+14:35 <       hrs> xd
+14:35 < JSDC-hina> XD
+14:35 <  JSDC-Kay> (1) 鐵人賽
+14:36 <     Irvin>  居然自己說出是山寨Cooliris了...
+14:36 <  JSDC-Kay> (1) nipster
+14:36 < JSDC-hina> 二會塞車了
+14:38 < JSDC-hina> 跑起來跟幻燈片一樣
+14:38 <     Shock> CSS2D跑起來慢
+14:38 < JSDC-hina> Canvas 在 mobile devices 上面效能真的不是多好
+14:39 <     Shock> CSS3D在mobile上會好很多的意思？
+14:40 <    dryman> IE9被打臉打得好腫XD
+14:40 < JSDC-hina> 他的意思是 Canvas 2D 好像不是說 CSS
+14:40 < JSDC-hina> Canvas 2D/3D 要有硬體支援才會快... CSS3D 也是，CSS2D 其實就沒有太要求硬體
+14:41 < JSDC-hina> CSS2D 應該是在各平台上面算是比較快的吧
+14:41 <  JSDC-df1> (二會)JiaHan:技巧：visibility:hidden比display:none快
+14:42 < JSDC-hina> (二會)(爆掛) visibility:hidden 會佔位, display:none 不會佔位 (break-flow 的結果不同
+14:42 <  JSDC-Kay> (1) Flow Control: 用函數處理函數
+14:42 <  JSDC-Kay> (1) CoffeeScript 被快速跳過
+14:43 < JSDC-hina> 快速跳過 XD
+14:43 <  JSDC-Kay> (1) zzz
+14:43 <  JSDC-Kay> (1) 國際廳的講題怎麼都那膜催眠
+14:44 <  JSDC-Kay> (1) Q&A
+14:44 <  JSDC-Kay> (1) 看來看去沒人舉手
+14:44 < happybean> 同意樓上
+14:44 < JSDC-Tony> 大公:前面忘了自介 XD
+14:45 <  JSDC-Kay> (1) 結束
+14:45 < happybean> 換場
+14:46 <  morris32> 因為換場有人掉線， 所以才擠的進來orz
+14:47 <       Kej> 好想要會2這場的簡報喔
+14:47 <  JSDC-Kay> 二廳的演講有講者提供slide網址了嗎?
+14:47 <     ensky> 想伸網址++
+14:51 <     Shock> 有人伸到r2上一個投影片網址嗎？
+14:51 < salagadoo> (1) 其實我是永遠的大四學生 因為我永遠在延畢
+14:52 <  JSDC-Kay> (1) 永遠18歲
+14:52 <   othrees> 18歲又3524天
+14:52 <  JSDC-Kay> web 1.0 : 做很多網頁來賺錢!
+14:53 <  JSDC-Kay> web 2.0 : 讓用戶做網頁來賺錢!
+14:53 <  JSDC-Kay> cloud: 錢滿到天上
+14:53 <  JSDC-Kay> (以上為商人幻想)
+14:53 < salagadoo> (1) 工程師: web page -> cgi -> 泡沫化 -> 已經看不懂自己在做什麼了
+14:53 <  JSDC-Kay> ...
+14:54 <  carlcarl> XDD
+14:54 < salagadoo> 神祕的三角地帶
+14:54 <  JSDC-Kay> (1) MVC 讓大家爽歪歪
+14:54 < JSDC-Tony> (1) XDDDDD
+14:54 <  JSDC-Kay> (1) 強者的條件 = 自幹一個framework
+14:54 < salagadoo> (1) 發現一個事實, 強者都要自幹一套mvc framework!
+14:54 <  JSDC-Kay> (1) 講者沒有爽歪歪
+14:55 <    tonyq_> (二會)Ben：How and why I roll my own node.js framework
+14:55 <    tonyq_> test
+14:56 < salagadoo> (1) 前端工程師 只看臉蛋!
+14:56 <  JSDC-Kay> (1) TONYQ🈶有影分身嗎@@
+14:56       chph_  is now known as chph
+14:56 <    ETBlue> 第二會議室又有講者回不去了..
+14:56 <  mrmoneyc> session 有更動 ..
+14:56 <   minipai> 國際會議聽終於比較有趣了w
+14:56 <  JSDC-Kay> (1) 姦夫淫婦劍...
+14:57 <     alive> 醒了
+14:57 <    ETBlue> (二會) 一個 app 行情 40 - 50 萬 /OoO/
+14:57 <     Shock> (2)現在做網站沒價值
+14:57 <    tonyq_> (二會)Ben：Mobile App行情價：40~50萬
+14:58 <  JSDC-Kay> (1) JS != JS
+14:58 <  SammyLin> 好貴...
+14:58 <       Kej> session有更動？
+14:58 < salagadoo> (1) 當javascript移到後端的時候 他就已經不再是javascript了 已經和原本的javascript差很多了
+14:58 <    ETBlue> 二會講者 Aidan
+14:58 <     Irvin> 講者在抒發感動了-o-
+14:58 <    mervyn> 有這個價碼嗎?? 我報了個 HTML5 3D 的 15萬... 沒人理
+15:00 <       Kej> 我想回國際廳了…
+15:00 <   aar0ntw> 40萬...
+15:00 <     Shock> mervyn:客戶都不懂行情的
+15:00 <    mervyn> 對啊... 
+15:01 <   aar0ntw> 現在這年頭 衛生衣講成發熱衣馬上大賣，說你寫程式沒人理，改說寫 app 馬上就潮了
+15:01 <    ETBlue> 二會講者 Aidan 的投影片... 有高見龍風格 +_+
+15:01 <     Shock> mervyn:現在都要包裝起來賣
+15:01 < JSDC-hina> 潮了
+15:01      tonyq_  is now known as JSDC-df1
+15:01 <   othrees> 超潮的
+15:01 <   inori01> 原來早有的衛生衣就是發熱衣！？
+15:02 <    mervyn> 她們要我報價的時候還是說 html5 在 mobile 上的說. 
+15:02 < JSDC-hina> 原來衛生衣很潮
+15:02 <    mervyn> 為啥我想西斯
+15:02 < salagadoo> (1) 你也不需要去學ajax什麼的 那已經過時了
+15:02 <     Irvin> #2感覺還在開場白…
+15:02 <     Shock> mervyn:跟客戶談連改CSS都要說成很難 這樣價碼才會好
+15:03 < JSDC-hina> ajax 不是本來就是老技術了嗎 XD
+15:03 <     Fire_> 姥姥技術了
+15:03 <    mervyn> 老技術了喔~ 
+15:04 <     Shock> (2)設計一個看起來能觸控的UI
+15:04 < JSDC-hina> 說 xhrhttprequest 大家都不買帳，說 ajax 馬上大賣（疑
+15:05 <    mervyn> xhr 太專業了.
+15:05 <    mervyn> 她們聽不懂. 
+15:05 <   aar0ntw> 其實他們只是想買清潔劑(?
+15:05 < JSDC-hina> 我遇過客戶這樣問：為什麼表單送出不會換頁......
+15:05 <   othrees> HTML也要加個5才好賣
+15:06 < salagadoo> aar0ntw: comet?
+15:06 <    jyyan_> 換頁 ＝ 跳至下一頁
+15:06 <   aar0ntw> ajax 是清潔劑的名字...
+15:06 <  mrmoneyc> XD
+15:07 <   aar0ntw> 客戶需要安全感 假裝換一下頁 多收點錢...
+15:07 <    jyyan_> 似乎是越多頁越好賣的意思...Orz
+15:07 < JSDC-hina> (二會) M - Moving toward, V - Looking touchable, C - Touch(Gesture)-aware
+15:07 <  JSDC-Kay> (1) 以express重新包裝RedTea
+15:07 <     Shock> 其實算頁數賣客戶會買單
+15:07 <     Irvin> R2還在開場白嗎
+15:07 < JSDC-hina> 假裝換一下頁 XDD
+15:08 < JSDC-hina> 好像還是開場白
+15:08 <     Irvin> 剩十分鐘還在演講前半段耶XD
+15:08 <     Shock> R2要看code了
+15:08 < BardicheZ> 演講後半段:剩下12分鐘
+15:08 <  JSDC-Kay> (2) 全世界唯一神明認可!! 的framework
+15:08        root  is now known as Guest18732
+15:08 < JSDC-hina> 他應該用加藤鷹來放手指畫面（疑
+15:08 <     jyyan> (1) 神明認證過的XD
+15:08 < kurotansh> [R2] 這一場講的是設計嗎?
+15:09 <  mrmoneyc> Kamalan ..XD
+15:09       root_  is now known as JSDC-df1
+15:09 <  JSDC-Kay> (1) 只是改名而已!!
+15:09 <  mrmoneyc> 現在只是 Express，只是改名 Kamalan ..XD
+15:09 <  JSDC-Kay> (1) 歡迎大家上台打臉
+15:09 <   aar0ntw> (1) 第一個要要求打臉的講者XD
+15:09 <  mrmoneyc> 第一個要求打臉的講者
+15:09 <  JSDC-Kay> (1) Live Demo
+15:09 < JSDC-hina> R2 介紹 events
+15:09 < salagadoo> (1) 現在他還是express 還沒移植redtea XD
+15:10 <  JSDC-df1> (二會)抱歉文字轉播剛斷線orz
+15:10 <       Kej> 要先做山寨才能作進一步的研發 XD
+15:10 <   aar0ntw> (1) 只是名字改叫做kamalan而已
+15:10 < JSDC-hina> 要先山寨 XD
+15:10 <  JSDC-df1> (二會)Ben：現在W3C已經講touch的event列為標準，現在為draft 2
+15:11 <  JSDC-df1> (二會)正在播放多點觸控的DEMO影片
+15:11 <  JSDC-Kay> (1) 提姆提拉米蘇顯示上線
+15:12 <     Shock> R2影片做的很好
+15:12 <   othrees> (Y) 
+15:12 < JSDC-hina> Kamalan 不是葛瑪蘭客運嗎
+15:12 <   othrees> 這次是 Mario 上線了
+15:13 <     Shock> R2改firefox的kernal耶
+15:13 <     Irvin> 這個技術力展示影片好威
+15:13 <  JSDC-df1> (二會)Ben：剛剛是幫飯店作的導覽系統，主要用HTML5canvas實作，並修改firefox的kernel讓他支援多點觸控
+15:14 < JSDC-hina> 改 Kernal 耶!!!!!
+15:14 <     Irvin> jGestures Hammer.js
+15:14 <  JSDC-df1> (二會)Ben：介紹JS的gesture library：jGestures與Hammer.js
+15:14 <    mervyn> 前公司幹過這事... 5年前. 
+15:14 < JSDC-hina> (二會) jGestures
+15:15 <  JSDC-df1> (二會)Ben：jGestures支援jQuery
+15:15 <  JSDC-Kay> (1) github.com/cfsghost/Kamalan
+15:16 <  JSDC-df1> (二會)Ben：想跟大家交流多點觸控遊戲的開發：辣妹在玩滑板車
+15:16 <     Shock> R2可以用手勢讓辣妹跳起來
+15:17 < JSDC-hina> 但是手機展示畫面沒有辣妹 XD
+15:17 <  JSDC-df1> 加藤鷹表示：
+15:17 < JSDC-hina> God finger 表示：
+15:18 <      anfa> 二會 的是 Aidan 不是 Ben 吧
+15:18 < salagadoo> (1) 聽眾表示: 看起來還是mvc啊? (ps.本次講題是non-mvc framework)
+15:18 <     orinx> 測試
+15:18 <  JSDC-df1> Sorry，謝謝更正！
+15:18 <  JSDC-Kay> (1) 沒有打臉?
+15:18 <   othrees> Ben 在這邊打講者臉
+15:18 <  carlcarl> 好凶
+15:20 <  JSDC-df1> (二會)Aidan：如何有效做圖層管理、用JS作圖層優化
+15:20 <     Irvin> 這五個issue應該是大家想聽到的內容？
+15:20 <  JSDC-df1> (二會)Aidan：歡迎到IxDA交流
+15:21    hinablue  is now known as JSDC-hinablue
+15:22 <  JSDC-df1> (二會)主持人：大家盡情享受tea-time!
+15:27 <  SammyLin> https://www.facebook.com/groups/ixda.taiwan/
+15:27 <  SammyLin> IxDA的FB
+15:37   timdream_  is now known as timdream
+15:39      Irvin_  is now known as Irvin
+15:41   timdream_  is now known as timdream
+15:50 <   othrees> Start 
+15:51 < JSDC-df1_> 接下來的議程即將開始！ 在第二會議室是Kuro帶來的：淺談 PhoneGap + HTML5 + JavaScript 開發 Android Apps
+15:51 <  morris32> 我在案發第二現場
+15:52 < JSDC-df1_> (二會)Kuro：這場分享想先以HTML5在mobile上的觀點切入
+15:53 < JSDC-df1_> (二會)Kuro：到2016年會有21億的行動裝置支援HTML5!
+15:54 <     Shock> mobilehtml5.org
+15:54 < JSDC-df1_> (二會)Kuro：mobilehtml5.org提供每個裝置對html5支援的對照表
+15:57 < JSDC-df1_> (二會)Kuro：mobile-css-reset、Media Query
+15:59   JSDC-Kay_  is now known as JSDC-Kay
+15:59 < JSDC-df1_> (二會)Kuro：HTML5的一些增強功能：Advanced forms in mobile
+16:00 < JSDC-df1_> (二會)Kuro：HTML5在mobile的一些增強功能：撥號的連結
+16:01 < JSDC-df1_> (二會)Kuro：HTML5在mobile的一些增強功能：video/audio的airplay支援屬性等等
+16:01 <  JSDC-Kay> (1) XPCOM -> XP Connect -> Interface JS
+16:01 < JSDC-df1_> (二會)Kuro：Orientation event、Touch event
+16:02 < JSDC-df1_> (二會)Kuro：Gesture event：start、end、change
+16:02 <   othrees> 坐在電腦前面那個人是不是idiot
+16:02 <   inori01> www
+16:03 < JSDC-df1_> (二會)Kuro：DeviceMotion event：加速感應等裝置的event
+16:03 < JSDC-df1_> (二會)Kuro：Canvas是一定要的！
+16:04 <  JSDC-Kay> (1) js-ctypes 是從 python 的 ctypes port 過來的
+16:07 < JSDC-df1_> (2) 傳統cookie有諸多缺點限制，LocalStorage/SessionStorage則可以滿足不同需求
+16:08 < JSDC-df1_> (2) 『電扶梯永遠不會壞』：Progress enhancement
+16:10 < JSDC-df1_> (2) 有些因素不是我們自己可以決定的XD (老闆：Mobile App, not mobile web!)
+16:10 < JSDC-df1_> (2) PhoneGap出場！
+16:10 <  JSDC-Kay> (1) ril_worker.js
+16:12 < JSDC-df1_> (2) PhoneGap現在有了一個新的名字：Apache Cordova
+16:13 < JSDC-df1_> (2) http://incubator.apache.org/cordova/
+16:13 < JSDC-df1_> (2) PhoneGap讓我們從HTML5就可以存取各種裝置原生API的功能
+16:14 <    mervyn> XDD WriteOnceDebugEverywhere
+16:15 < JSDC-df1_> (2) Write once, run everywhere(誤)   Write once, debug everywhere(正)XD
+16:16 < JSDC-df1_> (2) 有些功能在各平台差異太大，目前PhoneGap官方不支援，但是github上面有很多大大XD
+16:16 <    mervyn> phonegap 也可以跑 webGL 喔
+16:16 <    mervyn> 不過是plugin
+16:18 <  JSDC-Kay> (1) 有人提問
+16:19 < JSDC-df1_> (2) PhoneGap在各平台的debugging工具介紹中
+16:19   JSDC-df1_  is now known as JSDC-df1
+16:19 <    locy69> 都累了~~
+16:19 <  JSDC-Kay> (1) 謝謝大家...
+16:20 <    locy69> 所以很淡定~~
+16:20              mrmoneyc sleepy ...
+16:20 <  carlcarl> zzz
+16:20 <  JSDC-df1> (2) "PhoneGap終極目標就是讓PhoneGap消失！"
+16:20 < mangoices> 聽成大澤木小姐... (woot)
+16:20 <  mrmoneyc> 小鐵大！<(_ _)>
+16:20 < JSDC-hina> 大澤木小姐 XDD
+16:21 <   othrees> Arc reactor
+16:21 <       hrs> 發血
+16:21 <  JSDC-Kay> (1) 鋼鐵人
+16:21 < chenjenpi> XDD
+16:21 <  JSDC-df1> (2) 工商服務：WebDev Party
+16:22 <    orinx_> 講者胸口!!!!
+16:22 <  JSDC-Kay> (1) 小狗屁屁
+16:22 <     spin1> 哈哈胸口竟然有...
+16:22 <  carlcarl> 衣服是不是有啥在亮
+16:22 <  JSDC-Kay> (1) Write 萬屎 亂 everywhere
+16:22 < salagadoo> (1) write once & run everywhere --> write 萬屎 & 亂 everywhere
+16:22 <  JSDC-df1> (2) 掌聲歡迎Ben!
+16:23 <    orinx_> 講者胸口有鋼鐵人的那個電弧發電機！
+16:23 <    locy69> 螢幕亮光 打在名牌上剛好反光
+16:23 <  JSDC-Kay> (1) 丁國琳
+16:23 <    walile> 名牌在下方，jace發亮的那個不是名牌
+16:23 < salagadoo> (1) 前一個人離職留下來的專案 通常也會亂到讓你想要離職
+16:23 <  JSDC-Kay> (1) 河馬磅賽
+16:23 <    locy69> 喔@@ 有裝 LED 燈耶~~
+16:23 <    locy69> 鋼鐵人~~!!!
+16:23 <  JSDC-df1> (2) Ben上場！講題：How and why I roll my own node.js framework
+16:24 <  Al_cho__> 鋼鐵人！！！
+16:24 <    orinx_> 等等來要簽名（誤
+16:24 <    locy69> 胸口會發電~~
+16:25 <  JSDC-Kay> (1) 砍掉重練時：盡量不要改DOM  &  JS 邏輯
+16:26 <  JSDC-Kay> (1) 使用backbone.js來重構
+16:26 <  JSDC-df1> (2) coke-js.org
+16:26 <  JSDC-Kay> (1) 買個保險 - version control
+16:26 <  JSDC-df1> (2) Ben: coke-js.org是昨天半夜三點多才臨時把DNS設上去XD
+16:27 <  JSDC-Kay> (1) 自動化測試
+16:27 < JSDC-hina> (1) 是 Tony 鐵
+16:28 < JSDC-hina> 請務必收下我的電話號碼（遞給講者
+16:29 <  carlcarl> XDD
+16:31 <  JSDC-df1> (2) Express是node.js上最有名最多人使用的framework，但是覺得以middleware方式實作有效率低的地方，但是最後還是比需在performance跟flexibility做tradeoff
+16:32 < JSDC-hina> schema free 如果弄不好就悲劇了
+16:33 < mangoices> 擦掉這些大便... XDDDD
+16:33 < salagadoo> (1) 很多人會嫌棄template的速度 反正做苦工的是使用者的瀏覽器 這種事就不用太在意了
+16:34 <  JSDC-df1> (2) coke-js特點介紹中
+16:34 < JSDC-hina> 順便寫了蠻多的 packages!!!!
+16:37 <  JSDC-df1> (2) Flow control / View parser / Asset Packer / Inflection
+16:38 <  JSDC-df1> (2) 既然feature都是從rails copy來的，那為啥不用rails就好呢？ 因為它比較快XD
+16:39 <  JSDC-Kay> (1) 小三....
+16:39 <  JSDC-df1> (2) LIVE DEMO!
+16:40 <  carlcarl> XDD
+16:40 <  JSDC-Kay> (1) 小三最吸引人的事當他身上穿的東西改變以後  會引發你身上的某種change
+16:40 <       hrs> never...
+16:41 <    locy69> 身為好男人@@~~
+16:42 <  SammyLin> 好酷
+16:43 <  JSDC-Kay> (1) 累了
+16:43 <     ensky> (1) 教了新女朋友後總是會想換新花招
+16:43 <    locy69> 快睡著了@@!
+16:44 <    locy69> 今天拍到好多打哈欠中的照片~ 我也開始打哈欠了@@!
+16:44 <    locy69> 可見 WEB RD 都很累...
+16:45 <  morris32> WEB RD 一直都很淚
+16:45 <  morris32> WEB RD＝ WEB 阿弟
+16:45 <  JSDC-df1> (2) 為什麼要自己寫web framework？ 因為好玩！
+16:46 < salagadoo> 果然就像前面說的 每個大大都要自己幹一個framework XD
+16:46 <  timdream> 請問講者的 Github 在？
+16:46 <       Kej> XD
+16:46 <  SammyLin> 所以是強著....
+16:47 <  SammyLin> 強者
+16:47 <  JSDC-df1> (2) 提問：目前支援mongodb，那可以支援其他DB嗎？ 答：目前還沒有做relational DB的wrapper
+16:47 < salagadoo> (1) 時間就像...那個...一樣 總是會有的
+16:47 <     york_> https://github.com/jaceju
+16:47 < jason2506> (1) https://speakerdeck.com/u/jaceju/p/refactoring-with-backbonejs
+16:48 < JSDC-Tony> (1) 硬著頭皮上，不要問我太難的問題
+16:48 <  JSDC-df1> (2) Ben: 謝謝大家！
+16:48 <   aar0ntw> (1) 小鐵: 因為好像沒有時間了 這邊就不QnA了 主持人:因為我們還有三分鐘的時間，所以我們進行一下三分鐘的QnA
+16:49 <  morris32> 被打一槍
+16:49 <   aar0ntw> rofl
+16:49 <  carlcarl> XD
+16:50 <  morris32> 主持人表示： 我們也是有練過的。。。想溜？
+16:50 <   MouseMs> XD
+16:51 <   aar0ntw> 小鐵: 時間 結束...(血量歸0
+16:51 < salagadoo> 外面還有一些茶點 歡迎大家打包回家
+16:51 < JSDC-Tony> 歡迎填問卷～ 小鐵 Refactorying to backbone.js ： http://goo.gl/8Uj2h
+16:51 <       Kej> 一整個很想逃 XD
+16:52 <   sadfwww> .
+16:54        fire  is now known as Guest64858
+16:56  Guest64858  is now known as Fire_
+17:00 <  JSDC-Kay> LIGHTNING TALKZ
+17:00 <  JSDC-df1> 接下來是在國際會議廳的閃電講！
+17:00 <    orinx_> 耶 閃電秀
+17:00 <  JSDC-Kay> Wat JS
+17:00 < JSDC-Tony> (1) i hower 上場
+17:00 <   kurohsu> 來了！　閃電秀！
+17:00 <  JSDC-Kay> i嚎爾
+17:00 < JSDC-Tony> 我要懺悔一下 是我把他名字打成 ihover ..
+17:01 <   sadfwww> wat
+17:01 <    jaceju> 今天的投影片 https://speakerdeck.com/u/jaceju/p/refactoring-with-backbonejs
+17:02 < salagadoo> 打成hover, 這算是js中毒嗎
+17:03 <  JSDC-df1> WAT
+17:03 <   aar0ntw> wtf.js
+17:03 <   kurohsu> wat
+17:03 <  Al_cho__> WAT
+17:03 <  carlcarl> WAT
+17:04 <  JSDC-Kay> WAAAAAAAAaaaaaaatt
+17:04 <    orinx_> jaceju: 讚
+17:04 <  JSDC-df1> 閃光洽上場!
+17:04 <  JSDC-Kay> 什麼?
+17:05 <  JSDC-Kay> 閃閃閃
+17:05 <    dryman> wat
+17:05 <  timdream> http://wtfjs.com/
+17:05 < salagadoo> 所謂lightning talk就是閃閃閃嗎XD
+17:05 <  JSDC-Kay> 慘叫
+17:05 < salagadoo> 講者發出哀號
+17:06 <   kurohsu> wattttttt
+17:06 <     Fire_> 閃電秀
+17:06 <   sadfwww> .
+17:06     kurohsu  is now known as kurotanshi
+17:07 < JSDC-Tony> wat
+17:07 < kurotansh> 閃光洽
+17:07 < kurotansh> 時間開始了嗎 XD
+17:07 <     Shock> Wat
+17:08 < kurotansh> 還有兩分鐘
+17:08 <       Kej> wat
+17:08 <     alive> wat
+17:08 < salagadoo> (1) 大家好 我是閃光洽 我今天要講的是...... 咦 我開錯畫面了
+17:08 < kurotansh> 把妹
+17:08 < salagadoo> http://jsdc.hinablue.me/
+17:09 < kurotansh> 要造輪子，我為什麼不造飛機
+17:09 <  JSDC-df1> http://jsdc.hinablue.me/showoff
+17:10 < salagadoo> (1) 可是他畫面一直跳 這樣我怎麼講
+17:11 <  timdream> http://jquery.hinablue.me/jqiphoneslide/
+17:11 <    orinx_> 504 Gateway Time-out Q_Q (slide開不起來（汗
+17:11 < salagadoo> 說不定是太多人玩 玩壞了?
+17:12 <    orinx_> 好像是 換個IP看看
+17:12 < kurotansh> d3.js
+17:12 < salagadoo> 講者: 不好意思, 用windows xp, 不要打我臉
+17:14 <  carlcarl> 嗯嗯?
+17:14 <    jaceju> 講者...聲音…令人…
+17:14 <  mrmoneyc> 羞了！好萌呀！
+17:15 <     alive> 阿姨不能動
+17:15 <  JSDC-df1> 閃電秀第三場：D3.js
+17:15 <    dryman> 只有IE678不能動而已
+17:15 <    dryman> XD
+17:16 <  carlcarl> XD
+17:16 <    walile> XD
+17:16 <     Shock> 超炫！！！
+17:16 <  SammyLin> 太厲害了
+17:16 <    jaceju> 老板看到這個就一直要 (羞)
+17:16 <  JSDC-df1> 超炫++
+17:17 < salagadoo> 講者: 我真的不是用社交工程的方式進場的
+17:17 <  Al_cho__> D3好強啊！！！
+17:17 <  neoesque> 高橋流!
+17:17 <  SammyLin> 好快...
+17:17 < salagadoo> 天大, 地大, CP (copy & paste) 最大
+17:18 <  JSDC-Kay> 應該改成白底黑字
+17:18 <  JSDC-df1> 閃電秀第四講： JS的法律問題！ 講者：ant
+17:18 < salagadoo> (1) 我們看不懂也沒關係 因為法律人也不一定看得懂 (範例: Lazy loadind)
+17:19 <  JSDC-df1> blah blah blah
+17:19 < kurotansh> 坑爹
+17:19 < salagadoo> 運氣好的時候就是對的 XD
+17:19 <   aar0ntw> 100/211
+17:20 < kurotansh> 211/ 5 min
+17:21 < salagadoo> 哭哭
+17:21 <      anfa> 哭哭
+17:21 < kurotansh> 這一頁比較久
+17:21 < salagadoo> 其實被認為沒有問題的 通常都是最有問題的
+17:22 <   othrees> 沒有強制執行
+17:22 < salagadoo> 為了相容問題 我們通常都會用minifier之類的東西 會把註解拿掉 就自然也把授權條款要求的顯名要求拿掉了
+17:22 < kurotansh> time's up
+17:22 < salagadoo> (上面打錯 為了效能問題)
+17:23 <  JSDC-Kay> 今天最大的掌聲!
+17:23 <  JSDC-df1> 主持人：ant太久了
+17:23 <    orinx_> 跪求slide網址 m(_ _)m
+17:24 < kurotansh> LDS 喇滴賽
+17:24 <    ETBlue> 他的投影片快轉竟然還可以看的懂！
+17:25 <  JSDC-df1> 閃電秀第五講：BlueT帶來的Spatial Publish Subscribe for LBS Applications
+17:26 <  JSDC-df1> 講者：BlueT | Matthew Lien | 練喆明
+17:26 < JSDC-hina> 感謝大家幫我壓測 XD
+17:27 < JSDC-hina> 竟然碰到 504，下次要把 AWS 機器開大一點了 @@
+17:28 < kurotansh> 進入加速模式了
+17:29     ETBlue_  is now known as ETBlue
+17:29 < salagadoo> http://gaiasup.com/ 剛才是這個?
+17:29 <  JSDC-df1> Art Pai：有backbone真是太好了
+17:29 <  JSDC-Kay> 名片網站
+17:31 <  JSDC-df1> jQuery前：黑暗時代
+17:32 <  JSDC-df1> jQuery後：封建時代(誤)
+17:33 < kurotansh> 時間抓很準
+17:34 <  mrmoneyc> 呼 ..
+17:34 <  mrmoneyc> GaiaSup Lib: http://gaiasup.com/dl.html
+17:47      Irvin_  is now known as Irvin
