@@ -1,0 +1,4435 @@
+--- Day changed 六  4月 14 2012
+00:00 <   hcchien> 算了，洗澡睡覺去。明天看緣份了   :D
+00:18 <   cls_bsd> ....
+00:34 <     jnlin> hcchien: 我有...
+07:37 <     darkx> 大家早安
+08:36 <  miyagawa> which building is the venue? http://www.sinica.edu.tw/as/map/asmap_c.html
+08:39 <    clkao_> miyagawa: 24
+08:39 <  miyagawa> thanks
+08:39 <    clkao_> hcchien: 為什麼我的 abstract 沒有出現
+08:57      clkao_  is now known as clkao
+08:57 <     clkao> i forgot my mini-displayport adapter again
+09:06 <   hSATAC_> 早
+09:11 <    BlueT_> 早
+09:12 <    Conrad> 早
+09:13 <    BlueT_> hcchien: hackathon 名額有多少？
+09:13 <    Conrad> BlueT_: 60
+09:14 <    BlueT_> Conrad: 瞭解。那趕快來 fork XD
+09:15              FourDollars fells hungry. :(
+09:19 <     lin4h> test
+09:20 < jeffhung_> 原來開始了。
+09:21 <     lin4h> 這次wi-fi不知道是用哪家的
+09:21 <      roga> 好想要 pixnet 送的隨身網路線...在這個場合，感覺上就是非常實用
+09:22 <     lin4h> @roga 學長你也來啦？
+09:22 <      roga> 早安lin4h
+09:22 <  brianhsu> 所以結論是 IE MUST DIE 嗎？XD
+09:22 <     lin4h> 科科
+09:22 < FourDolla> 好餓喔... :Q~~~
+09:23 <     lin4h> 剛剛才開始沒多久，我這邊WIFI就開始爛線了
+09:23 <     jnlin> roga: 歡迎過來拿 :-)
+09:23 <     lin4h> 走HSPA還比wifi穩
+09:23 <      roga> :$ 好的 等等就過去 
+09:23 <   hSATAC_> 愛惜生命，請打 VPN
+09:24 <  allenown> VPN++
+09:24 <     lin4h> XDD
+09:24 <     jnlin> VPN++
+09:25 <     darkx> ssh tunnelling XD
+09:25 <    benlau> 早晨
+09:25 <    Conrad> IE MUST DIE!
+09:25 <      roga> --> 因為 IE 沒有創新 火狐有創新 -- by 宮力博士
+09:26 <     lin4h> →只是靠搭配Windows而活是嗎XDrz
+09:28 <    Irvin_> 今天有座位表嗎？
+09:28      sct99m  is now known as TaiZai
+09:28 <  aitjcize> 隨意座吧？
+09:29 <     lin4h> 隨意 :P
+09:29 <    Irvin_> aitjcize: 找人用的那種
+09:29 < lkkgenius> 隨意做所以需要座位表呀XD
+09:29 <  brianhsu> 是指大家自己填自己坐哪的那種座位表。XD
+09:29 <     lin4h> 各自報坐位？
+09:30 <  aitjcize> 喔喔XD
+09:30 <     lin4h> 不然拍照好了(有帶手機的話XD)
+09:30 <  aitjcize> 誰要來看一個google docs來填吧:P
+09:30 <   huangmc> exit
+09:30 <     jnlin> 正妹座位表啊 (敲碗
+09:30 <  aitjcize> 開
+09:30   jeffhung_  is now known as jeffhung
+09:31 <   gh40402> 愈來愈多人了~
+09:31 <      roga> 正妹座位表 + 1
+09:31 <    Irvin_> 誰開一個吧
+09:31 <     lin4h> 看到很多熟悉的人
+09:31 < kurotansh> 正妹座位表++
+09:31 <  aitjcize> 估計大家昨天都玩太晚XD
+09:31 <   toomore> 昨天是玩太晚了……
+09:32 <     lin4h> 那我就是太早睡了
+09:33 <  brianhsu> 他把 Apple 講的好陰險的感覺。 XD
+09:34 <  ChAndrew> 聽說昨晚工作人員太嗨，好險今年我只是會眾 XD
+09:34 <      roga> 他也把 google 講的很陰險啊 XD
+09:34 <     lin4h> 座位表簡表製作中 by me 
+09:34 <  ChAndrew> 因為他要替自家的B2G鋪梗呀
+09:34 <  aitjcize> Apple不是一直都很陰險嗎？XD
+09:34 <     darkx> google does evil!
+09:34 <      roga> 這個梗鋪得很長
+09:34 <  ChAndrew> 我要「正妹座位表」!!!!
+09:35 <    Irvin_> 一個是光明正大的黑，一個是暗地裡陰人
+09:35 <  aitjcize> 突然想到可憐的WebOS
+09:35 <  brianhsu> Android 的地方怪怪的吧？我怎麼記得反而是要用 Google Service 是要和 Google 買 License，所以才有一些小廠家的 Android 手機沒有 Google Service (ex. altek 那隻照相手機)
+09:35 <  ChAndrew> Irvin早餐有沒有吃？
+09:35 <     lin4h> @brianhsu 沒跟G買就沒有Gapps
+09:35 <  ChAndrew> 聽說很多人餓著肚子來:P
+09:36 <    wenpei> 終於開始講主題了！ XD
+09:36 <  aitjcize> 餓肚子+1
+09:36 <      roga> 喔喔，開始介紹 B2G 了
+09:36 <     darkx> 肚子好餓++  Q___Q
+09:36      wenpei  is now known as Sars
+09:36 <  allenown> VPN 竟然被打掛 
+09:36 <  aitjcize> 等下就有東西可以吃了 (望外面
+09:36 < kurotansh> 救世主 B2G 總算出現了
+09:37 <      Deva> 正在用 sslvpn 中
+09:37 <     jnlin> https://docs.google.com/spreadsheet/ccc?key=0AqLOSy3AYBWidEdEc1RJcDktd1hqd294dTNlRGpSTEE
+09:37 <  aitjcize> 話說這次還有人在arpspoofing 嗎 (用手機上網無感)
+09:37 <   toomore> Irvin 正在開座位表
+09:37 <     jnlin> 剛剛用去年的改了一份座位表
+09:37 <    BlueT_> toomore: Irvin 來了嗎？
+09:38 <  brianhsu> 重點是有到底沒有人要做 B2G 的手機啊？ :p
+09:38 <   toomore> BlueT_: 來了
+09:38 <    BlueT_> Irvin_: ping
+09:38 <  ChAndrew> Goole的口號被提到了XD
+09:38 < FourDolla> 專門來打 Google 臉的嗎？
+09:38 <    Irvin_> @BlueT_ 我在座位表上XD
+09:39 <   toomore> BlueT_: 右側七排
+09:39 <    BlueT_> Irvin_: 你在『哪個』座位表上？ XD
+09:39 <    Irvin_> BlueT_: 上面那一個XD
+09:39 <     lin4h> 那我改現成的
+09:40 <    BlueT_> Irvin_ , toomore: 我在左側第三第 XD 這邊好空，我還有幫 Irvin_ 留位子 XD
+09:40 <  ChAndrew> 「非營利不是不吃不喝，還是要吃喝的」
+09:40 <   toomore> BlueT_:  Cool~
+09:40 <  momofarm> Google licenese 很貴......
+09:40 <  momofarm> Google Android licenese 沒有幾千萬台幣買不到.......
+09:41 <    Irvin_> BlueT_: 看到了，你的髮型超好認的
+09:41 <    Irvin_> XD
+09:41              momofarm 印象中..........
+09:41 <      Deva> 座位表 update.. 
+09:41 <  momofarm> 所以很多小廠商根本買不起
+09:41 <  ChAndrew> 「留一點時間」（？）
+09:41 <    BlueT_> Irvin_: 啥啦 XD
+09:42 <     jnlin> BlueT_: 正妹!
+09:42 <  ChAndrew> 所以現在是開放觀眾問答嗎？ XD
+09:42 <    BlueT_> jnlin: 在哪？
+09:42 <    Irvin_> jnlin: 你有第一跟第二會議室的座位表嗎？
+09:42 <     jnlin> 我來標一下 XD
+09:42 <     lin4h> 先down，切wi-fi來刷手機
+09:43 <     jnlin> Irvin_: 我找一下
+09:43 < legnaleur> hackathon 的 trender 率好高 ...
+09:43 <  jeffhung> legnaleurc: 因為先抓同事測試報名程序。XD
+09:43 < legnaleur> jeffhung: XD
+09:44 <    Irvin_> medicalwei: salagadoola_: ping!
+09:44 < legnaleur> 現在有報名的都是知名工司員工啊啊啊
+09:44 <     jnlin> Irvin_: 我這邊的版本跟國際會議廳一樣 XD
+09:45 <     jnlin> Irvin_: 直接 fork 就好了 XDDD
+09:45 <    Irvin_> jnlin: 囧，要不要直接開新tab就好啦
+09:45 <   cls_bsd> 大家好1
+09:46 <      Deva> 開 tab.  但去年那有分每一場。覺得不用分每場
+09:46 <      Deva> 即時 update 就好了. 
+09:46 <     jnlin> Irvin_: ok 啊
+09:46 <     kidwm> Irvin_: 肚子餓…
+09:46 <     jnlin> 4cell 的快沒電了...
+09:46 <  ChAndrew> 看到Orinx好專心
+09:46 <    Irvin_> kidwm: 我跟toomore剛開場的時候在後面趕著吃早餐XD
+09:46 < pioneerLi> 反正有history XD
+09:46 <  ChAndrew> 宮力結束了
+09:47 <    Irvin_> kidwm: 你在哪
+09:47 <     kidwm> Irvin_: 忘記麻煩你支援早餐
+09:47 <  aitjcize> 我快睡著了XDrz
+09:47 <     kidwm> Irvin_: 我們在第一排
+09:47 <    BlueT_> jeffhung: pull request sent :p
+09:47 <    Irvin_> kidwm: 我又不是賣早餐的...
+09:47 <  ChAndrew> 填問卷！
+09:47 <    Irvin_> BlueT_: 你那東西來不及了，delay 到JSDC吧
+09:48 <  ChAndrew> 有員工的識別證遺失XDDDD
+09:48 <    BlueT_> Irvin_: 哭哭
+09:48 <     Sorry> 趨勢科技※※※的識別證
+09:48 <      lynn> 十分鐘...是吃早餐時間嗎
+09:48 <  jeffhung> BlueT_: merged. :-)
+09:48 <    BlueT_> Irvin_: 不是差不多能用了嗎？ XD
+09:48 <     Sorry> ていうか「一砲而紅」？
+09:48 <  ChAndrew> 正咩在哪裡？座位表要標明清楚呀
+09:48 <    BlueT_> miyagawa 來了
+09:48 <    BlueT_> jeffhung: thanks :)
+09:49 <     darkx> 來了
+09:49 <     darkx> 剛剛 twitter 上有看到他打卡
+09:50 <    BlueT_> darkx: 我是看到到從我旁邊走過 XD
+09:51 <    Conrad> lynn: 10:30 # 09:48 < lynn> 十分鐘...是吃早餐時間嗎
+09:51 <  miyagawa> come to the COOKPAD booth and pick up your bag and chopsticks 箸
+09:52 <     lin4h> 十點半才能吃外面那些(餓死了)
+09:53 <   cls_bsd> XDXDXD
+09:56 <     clkao> zzz
+10:00 <     kidwm> 為什麼點心時間不跟COSCUP一樣早，等到快發放中餐的時候才開始實在很奇怪啊
+10:00 <  brianhsu> kidwm: 呃，外面已經開始吃了耶。
+10:01 <     clkao> !
+10:02 <  miyagawa> food?
+10:02 < legnaleur> food?
+10:02 <  momofarm> clkao: 長輩好
+10:04 <  brianhsu> 開始囉~
+10:04 <     clkao> miyagawa: it's supposed to be at the next break
+10:05 < legnaleur> miyagawa: ビュッフェは十時半から利用できるようです
+10:05 <  miyagawa> legnaleurc: 謝謝
+10:06 < legnaleur> miyagawa: np :D
+10:06 <     kidwm> miyagawa: 腹はペコペコだ
+10:07 <     ecilA> 到底有多想吃啦XD
+10:07 <     darkx> 大家都餓了
+10:07      lin4h_  is now known as lin4h
+10:07 <  miyagawa> kidwm: 我餓了！
+10:07 < legnaleur> 說不能吃反而越想吃 XD
+10:08 <     lin4h> 餓
+10:10 <    mrorz_> hi
+10:10 <     kidwm> ronnywang: 去你們家填問券會送什麼？
+10:11 <      Jcrt> kidwm: 網路線、袋子、筆記本
+10:11 < ronnywang> kidwm: 有送筆記本購物袋網路線
+10:12 < ronnywang> 不過網路線已經快送完了，好熱門
+10:12 <    Irvin_> 本日最贊紀念品：筷子
+10:12 <    poying> XD
+10:13 <    Conrad> XD
+10:13 <    benlau> XD
+10:13 <    TaiZai> XD
+10:13 <   toomore> 筷子很讚，中午就可以拿出來用了
+10:13 <    ericsk> 筷子是 cookpad 送的?
+10:13 <   toomore> ericsk: 對
+10:14              clkao <3 mojito
+10:14 <    ericsk> very impressive
+10:14 <     kidwm> toomore: 攤位在哪？
+10:14 <  ChAndrew> 昨天搬貨的人聽說是筷子就傻眼了 XDDDDD
+10:15 <   hSATAC_> 筷子超讚 袋子質感也很棒
+10:15 <   toomore> kidwm: 右邊轉角右邊
+10:15 <    ericsk> 看起來攤位要爆了
+10:15 <  ChAndrew> 明年會送湯匙嗎？（然後後年就有餐盒了XDDDDD）
+10:15 <   toomore> kidwm: Mozilla Taiwan 對面攤位
+10:16 <   toomore> 我覺得等等筷子應該會沒了， 因為送禮自用兩相宜~~
+10:16 <     kidwm> toomore: 等等搶看看
+10:16 <     lin4h> XD
+10:17 <  jeffhung> 上個禮拜，雅虎有一些事情。
+10:17 <      roga> 哈哈..上禮拜雅虎有一些事情
+10:17 <  Howard28> 我以為要講裁員lol
+10:17 <      lynn> commen端...是啥
+10:18 <      lynn> 不只有server 跟client端呦
+10:18 <      roga> common 不是"端" 
+10:18 <  jeffhung> lynn:  我猜事如 library 可以共用
+10:18 <      roga> 他的意思是 server side 和 client side 的寫法想趨於統一, p.s. 目前沒有
+10:18 <  miyagawa> ericsk: http://www.flickr.com/photos/bulknews/7075347483/in/photostream
+10:18 <  jeffhung> e.g., form validation 不用不同語言各寫一套。
+10:19 <      lynn> <jeffhung> thank you~
+10:19 <      roga> jeff 說的對
+10:19 <    ericsk> miyagawa: awesome
+10:19 <      lynn> ^_____^
+10:20 <        au> miyagawa: whoa, seriously stylish chopsticks!
+10:20 <        au> -> wakes up, hopping on a taxi -> sinica
+10:21 <     orinx> 座位表一排只有八個位子吧(中間
+10:21 <  ChAndrew> 「磨X頭」XDDDDDD
+10:22 <      lynn> 筷子那一家徵人的待遇其中一項是:公司每層都有廚房,員工可以隨意在公司做飯,材料由公司負擔....(是可以每天都打包回家嗎XD)
+10:22      nansen  is now known as nansenat16
+10:22 <  ChAndrew> 中間只有8個
+10:23 <    poying> 難怪剛剛怎麼屬都怪怪的...
+10:23 <    Irvin_> XD
+10:23 <   toomore> lynn: XD
+10:24 <     wwwww> 前幾排8個  後面10個
+10:24 <  brianhsu> 所以 Mojit 是類似「一個 project」這樣的概念嗎？
+10:25 <    ericsk> lynn: 其實廚藝也要進行 performance review (大誤)
+10:25 <    Irvin_> 第幾排開始十個？
+10:26 <   hSATAC_> 話說 CookPad 徵人是到日本工作嗎= =?
+10:26 <      lynn> ericsk: 所以也要有Unit Test囉
+10:26 <      Deva> 字超糊~~ 
+10:26 < nansenat1> cookpad在新加坡也有office
+10:26 <    poying> 黑阿，看不清楚
+10:27 <  tomjpsun> PowerPoint 在  Mac 上有沒有放映模式啊？
+10:28 <      Sars> 當然有 XD
+10:28              roga brianhsu 可以參考一下 http://developer.yahoo.com/cocktails/mojito/docs/getting_started/mojito_getting_started_tutorial.html
+10:29 < lunastorm> 原來不是我眼睛有問題
+10:29 <      obra> oha hackers
+10:29 <       in2> 大家早安 ^^Y
+10:29 <  miyagawa> obra: ohai
+10:30 <  thschee_> daal1416
+10:30 <     kidwm> in2: 今天有穿女僕裝嗎:P
+10:30 <       in2> kidwm: 沒有耶 XD
+10:31 <       hlb> in2: 那明天呢 :D
+10:31        KIN_  is now known as Kin_Lo
+10:31 <       in2> hlb: 明天也不是女僕裝唷 XD
+10:33 <      Deva> 看那麼久的課，才發現講者是 live code.  Orz
+10:33 <      Deva>  因為沒有爆炸關係嗎？
+10:33 <    ericsk> LOL
+10:37 < legnaleur> 怎麼好像開始有人陸續拿到筷子了　XD
+10:37 <   aar0ntw> 黑色的color scheme 不適合demo XD
+10:38 <     darkx> 白色也不適合阿 ：\
+10:38 <    jaceju> 好深…的藍色
+10:38 <    jaceju> 看不到字寫什麼了…
+10:38 <  miyagawa> Pro tip: don't use black background 
+10:38 < legnaleur> 字也不夠大
+10:39 <      obra> and if you do, use 120 point white text
+10:39 < FourDolla> 無線網路已經不行了... :(
+10:39 <      roga> 這個 session 從 10:00-10:40 , 現在是 10:39
+10:39 <       hlb> in2: 啊 :|
+10:39 <       in2> hlb: 啊 :?
+10:39 < legnaleur> FourDollars: 還好我昨天真的有去買網路線 XD
+10:39 <    ericsk> 投影程式碼應該要白底啊, 字型也要放大才是 orz orz
+10:39 <      lynn> 有線的也慢
+10:39 <  ChAndrew> Live coding 藍字看不到，杯具
+10:40 < FourDolla> Pixnet 今天有發網路線~ 就甘心ㄟ
+10:40 <  ChAndrew> 「還好我昨天真的有去買網路線」---> 大推這句 :P
+10:40 <       hlb> in2: 那有什麼裝
+10:40 <   thschee> hi guys i've set up a small field studio by the rest room... if you're interested you can come around
+10:40 <      Deva> pixnet 網線好用。把自帶網線收起來了
+10:40 < legnaleur> 如果講者看得到 IRC 的回饋會不會比較好？
+10:40              mrmoneyc 忘了網路線這回事
+10:40 <   thschee> I am schee
+10:40 <   thschee> http://www.flickr.com/photos/schee/archives/date-posted/2012/04/14/
+10:40 <      roga> <-- 剛剛拿到了一條, pixnet 的網路線, 推一下~
+10:41 < pioneerLi> 我覺得wifi還滿穩定的0.0
+10:41 <     darkx> 0w0
+10:41 < legnaleur> 重要的是我忘了 MBA 其實沒 RJ45 的接孔 XD
+10:41 <     darkx> lol
+10:41 <      Deva> wifi 早上來時會亂一下. 現在比較好多了
+10:41 <   gh40402> XDDDD
+10:41 <  mrmoneyc> XDD
+10:41 <  brianhsu> XD
+10:41 <      Deva> XDDDD
+10:41 <  brianhsu> 有線沒接孔，這超杯具的啊。
+10:41 <    Irvin_> 他的code好黑好多層
+10:42 < legnaleur> 這 code 不是 JSON 嗎？
+10:42 <      roga> 那是 config 啦...
+10:42 <   gh40402> 字好小...
+10:42 < legnaleur> Apple 誤我一生
+10:42 <  brianhsu> 是啊，不過 key 的名字完全看不到，囧。
+10:42 <   aar0ntw> 我眼睛中箭了
+10:42 < pioneerLi> 真的太小了.....  *_*
+10:42 < lkkgenius> 做第三排都覺得很勉強...
+10:42 <     orinx> 第一排都看不太清楚 @@
+10:42 <     darkx> <<--0.0 ----<
+10:42 <       hlb> @@
+10:42 <      Deva> 8排後的人，更慘
+10:42 < legnaleur> 這樣要響鈴嗎？是不是超過時間了？
+10:43 <    poying> 沒錯 = =
+10:43 <   gh40402> 時間到了...
+10:43 < legnaleur> 哦，白底了
+10:43 <    BlueT_> legnaleurc: 就交給你了！
+10:43 <   hSATAC_> 神 indent
+10:43 <     darkx> 說好的點心時間呢 (hungry)
+10:43 < legnaleur> 可是字更小
+10:43 <   gh40402> 講者好像沒看到最後面的時間通知
+10:43 <      Deva> Y講者 忙著 Live code. 
+10:43 <      roga> 人家難得來講一下嘛..總要讓他表演完
+10:43 < legnaleur> BlueT_: 我會被工作人員拖出去問斬吧 XD
+10:44 <      lynn> 畫面切換太快...攝影聚焦一直很模糊中...=.=
+10:44 <    Irvin_> 他用AIR嗎？這樣解析度太恐怖了
+10:45 <     clkao> .... 
+10:45 < lkkgenius> 應該是 air  右上角寫著 ddsakuramba
+10:45 <      roga> 也對 -- ddsakuramba 那是唯一一行看的清楚的字..
+10:45 <      Deva> 快講完了
+10:45 <     darkx> lkk 專業
+10:46 <   hSATAC_> roga: XDDDD
+10:46 <   aar0ntw> 是air吧 他console寫著 ddsakuramba-de-Macbook-Air
+10:46 <    ericsk> roga: 好酸 XD
+10:46 < legnaleur> PowerPoint 字樣也很清楚
+10:46 <      roga> XDDDD
+10:46 <   aar0ntw> code應該白底才對
+10:46 < legnaleur> 哦哦！好像收尾了
+10:46 <    ericsk> 白底+字要大
+10:46 <  ChAndrew> 「時間結束了，應該也沒有什麼Q&A時間」
+10:47 <  ChAndrew> 有贈品！
+10:47 <   aar0ntw> 贈品隨便送 所以應該用灑的XDD
+10:47 < kurotansh> 開飯了嗎 XD
+10:47 <    Al_Cho> 色壓壓？
+10:47 <      roga> Yahoo紫色鴨鴨還滿推薦的
+10:47 < legnaleur> -7
+10:47 <     darkx> 餓了！
+10:47 <   hSATAC_> 用丟的嗎 XD
+10:47 <    poying> 筷子！！
+10:47 < legnaleur> 搶～筷～子～
+10:47 <      roga> <-- 已經搶到筷子了，今日沒有懸念
+10:47 <    Irvin_> http://www.flickr.com/photos/irvin/6929290240/in/photostream
+10:47 <     kidwm> 可以吃了
+10:47 <    Irvin_> --拿到筷子可以安心的回家了--
+10:51 <    poying> 拿到了 T T
+10:54 <      Deva> 筷子有日式質感.  XD
+11:01 <    jaceju> 消失好多人 @@
+11:01 <     lin4h> = =b
+11:01 <      roga> "滑掌"..
+11:01 <      Deva> 大部份在吃上午茶
+11:02 <      Deva> 講者的聲音控制有點太大聲
+11:02 <  allenown> 無線網路有人在做ARP Spoofing 喔
+11:02 <  allenown> 大家小心
+11:02 <  allenown> b8-70-f4-83-4a-e0
+11:02 <      Deva> = =  工頭有說發現後，直接落人外面解決
+11:02 <  tonysan_> 這已經是每次Conf的定番了嗎...
+11:02 <    ericsk> 筷子入手!
+11:02 <  ChAndrew> （抖抖）
+11:03 <     lin4h> 又來了...
+11:03 <     jnlin> 筷子超讚 XD
+11:03 <  ChAndrew> 筷子是大熱門！
+11:03 <  Howard28> 筷子不錯!
+11:03 <      roga> 筷子應該都被拿光了吧..
+11:03 <      Deva> 剛剛去拿筷子 剩下不多了
+11:03 <     lin4h> 應該吧
+11:03 <       in2> note 可以帶回家嗎? XD
+11:03 <     lin4h> 我拿的是倒數個位數
+11:03 <    ericsk> 今年OSDC.tw的theme 主key就是筷子了!
+11:04 <      Deva> jobs 表示，當然方便
+11:04 <  tonysan_> 看到筷子就想到哲學家問題....
+11:05              jnlin waiting for next session..
+11:06 <  NotExist> 畫得好不好都他在說 XD
+11:06 <       in2> jnlin: 拒絕進入 samsung 的場子嗎? XD
+11:07 <     jnlin> in2: 我在裡面啊 XD
+11:07 <       in2> 咦 XD
+11:07 <  jeffhung> 剛剛有問，是，要到東京辦公室工作。# 10:26 < hSATAC_> 話說 CookPad 徵人是到日本工作嗎= =?
+11:07 <     jnlin> https://docs.google.com/spreadsheet/ccc?key=0AqLOSy3AYBWidEdEc1RJcDktd1hqd294dTNlRGpSTEE#gid=40
+11:07 <  brianhsu> 覺得議程開始應該要廣播一下。 XD
+11:07 <     jnlin> in2: https://docs.google.com/spreadsheet/ccc?key=0AqLOSy3AYBWidEdEc1RJcDktd1hqd294dTNlRGpSTEE#gid=40
+11:07 <     jnlin> CookPad 的名片也很特別~~
+11:08 <    ericsk> hSATAC_: 快去吧 *顯示為推坑模式*
+11:08 <      Deva>  要送機子才有人會想去學 S PenSDK 吧
+11:08 < kaochenlo> 我剛取得Coodpad的小禮物了 XD
+11:08 <     kidwm> Irvin_: 你們誰有拿到pixnet的網路線，我剛好沒搶到
+11:08 <  NotExist> 那...有工作簽證協助 甚至居住協助嗎 #< jeffhung> 剛剛有問，是，要到東京辦公室工作。
+11:09 < legnaleur> 啊 ... 可恨我沒研究 RoR
+11:09 <    ericsk> 錄取了就主動要求呀
+11:09 <  NotExist> 我有 現在就靠它 早上還扼腕忘記了 pixnet惠我良多 #< kidwm> Irvin_: 你們誰有拿到pixnet的網路線，我剛好沒搶到
+11:09 <     lin4h> 我剛剛出去有問，pixnet線拿光了
+11:09 <       in2> 我們家之前有一堆不要的 cat6 , 應該拿來發的 @@
+11:09 <    ericsk> legnaleurc: 我自以為如果是優秀的公司, 不會在意你是不是會特定的語言或工具
+11:09 <    benlau> 幸好還拿得到網線，但很快就給別人了.
+11:10 <       in2> 安卓的開發環境 @@
+11:10 <   macpaul> 習慣就好啦
+11:10 <   macpaul> 大陸用語越來越流行啦
+11:10 <   macpaul> 而且這麼多跨國公司...冏
+11:10 <      roga>  "< ericsk> legnaleurc: 我自以為如果是優秀的公司, 不會在意你是不是會特定的語言或工具"  -> 有這種公司嗎？
+11:10 <    tonyni> 他是北京來的啊
+11:11 <       in2> 我上次看某集康熙, 來賓說 "內地" 不過下面的字幕是寫 "大陸" XD
+11:11 <   macpaul> 肯定不是韓國來的 XD
+11:11 < FourDolla> 雞鴨文件? JAR 文件?
+11:11 <    ericsk> roga: 我知道的還蠻多的呀
+11:11 <    poying> XD
+11:11 <     lin4h> NOTA咧note
+11:11 <      roga> 好好喔...
+11:11 <       in2> 可是誰要做只有 galaxy note only 的 app 啊 @@"
+11:12              roga in2  samsung 的工程師阿 XD
+11:12 < legnaleur> ericsk: 好的公司的確是會有好的培訓流程啦
+11:12 <      kcwu> 我也在想他是在唸 jar 的英文還是說 "積壓"?
+11:12 <      lynn> 箕拉文件
+11:12 <    ericsk> 早上3場已經有2場是 china speaker 了 # 不知道該不該算宮力博士
+11:12 <   macpaul> 應該是galaxy全系列都可以用才對吧
+11:12 <  NotExist> 沒那個spen就不能用
+11:13 < legnaleur> miyagawa: 箸が意外と大ウケだった件
+11:13 <    ericsk> 我想起 hTC 的 flyer 好像也有 pen SDK
+11:13 < dreamcwli> HTC 又是另一套了
+11:13 <     kidwm> jaceju: 鐵神，我在你左前方穿白色外套
+11:13 < salagadoo> roga: 我工作過的公司 都是進去以後才學語言..
+11:14 <       in2> 好像只有 note 有附那隻筆, 還是可以拿那隻筆去其他的手機上用? O_O
+11:14 <  macpaul_> @in2 去攤位借一下就可以實測了
+11:14 <    jaceju> @kidwm: Hello :D
+11:15 <      roga> to salagadoola 了解~
+11:15 <     kidwm> toomore: 還是你有拿到網路線，好奇長怎樣
+11:16 <      roga> to kidwm, 網路線就是扁平可捲式的那種 像這樣： http://zzb.bz/KxSw7  但線上有貼 pixnet 貼紙
+11:16 <   hSATAC_> https://twitter.com/#!/hSATAC/status/190971922073399298 長這樣
+11:16 < legnaleur> 這個英文有個腔
+11:16 <   hSATAC_> 國際會議廳有點熱 是我的錯覺嗎
+11:16 <   gh40402> 覺得熱++
+11:17 <  ChAndrew> 有點熱+1，去年是有點冷XD
+11:17 <       in2> pixnet 生產好多週邊啊 @@
+11:17 <     kidwm> hSATAC_: 感謝~
+11:18 <    Irvin_> kidwm: 我沒有拿到網路線； Mozilla 的 Arky 做在我後面的後面
+11:18 <       in2> 明年我們家來送這個好了 XD 有人會拿嗎 XD http://tw.page.bid.yahoo.com/tw/auction/b64338853?u=Y9150930281
+11:18 <    Irvin_> lighting talk 的報名方法在哪？看到有人在問
+11:18 < FourDolla> in2++
+11:18 < salagadoo> 網路線絕對是osdc最熱門紀念品
+11:18 <    ericsk> "透過這樣的組件來叫用這個窗口" <-- 一句話好多china用語
+11:19 <     jnlin> in2: 好可愛~~~~
+11:19 <     kidwm> ronnywang: 明天還會有網路線嗎？
+11:19 < FourDolla> 聽累了就拿抱枕出來睡~
+11:19 <    Irvin_> salagadoola: 剛剛有遇到 CQD
+11:19 <    ericsk> 其實 pen sdk 就像 google maps sdk 一樣吧, 只能在支持的裝置上使用 # 有些 android phone 沒有 google maps
+11:19 <       in2> jnlin: 那個是沒有 license 的, 我在想來去訂一打叫他寄到神來也法務部 XDXD
+11:19 <   hSATAC_> 哇這不是分子大大嗎
+11:20 <       hrs> hi~ :)
+11:20 <       in2> hi~ :)
+11:20 <     jnlin> hrs: !!
+11:20 < salagadoo> Irvin_: !!
+11:20 <       hrs> jnlin: !!
+11:20 <    Irvin_> salagadoola: 不行我投筷子一票
+11:20 <     jnlin> in2: 壞人 (指
+11:20              roga ericsk 類、宏、接口、變量、調用、多態數組、語句、指針、哈希、元數據、栈、队列、內存洩漏
+11:20 <    ericsk> hrs: (worship)
+11:20 <      roga> 大陸用語我前陣子看很多..還做了對照筆記
+11:20 <    ericsk> roga: 用功的好孩子
+11:20 <   hSATAC_> 宏是什麼? macro?
+11:20 <       in2> 剛才在報到處碰到 zonble , 他說他是 kkbox 結果在單子上找好久找不到, 後來才發現他在講者那邊 XD
+11:21 <      roga> hSATAC_ 你得到他了 
+11:21 < legnaleur> 腳本好像也叫宏
+11:21 <    Irvin_> salagadoola: 晚上一起來去 Mozilla Taiwan 辦公室吃pizza
+11:21 <     jnlin> wikipedia 上有對應表的樣子
+11:21 <     kidwm> 請下次增設贊助商贈品票選活動XD
+11:21 <       in2> kidwm: 這樣子壓力很大耶 XD
+11:22 <   hSATAC_> XDDD
+11:22 <    orinx_> XD
+11:22 <    ericsk> kidwm: 其實就是攤啇的顧客滿意度調查
+11:22 <     jnlin> kidwm: 壓力很大++
+11:22 <       in2> kidwm: 會搞的大家都不贊助了 XDXD
+11:22 <       hrs> XD
+11:22 <   hSATAC_> 目前拿過不錯的贈品有 coscup 水壺 ossf 多合一筆 cookpad 筷子 pixnet 網路線
+11:22 < freedomtw> 筷子很好
+11:23 <    ericsk> 大家都是為了研討會內容而來的, 不是贈品吧!
+11:23 <     kidwm> hSATAC_: shuttle浩鑫側背包啊
+11:23 < salagadoo> Irvin_: ok
+11:23              FourDollars 羞
+11:23 <   hSATAC_> kidwm: 那個太熱門了 那次沒拿到
+11:23 <       in2> ericsk: 贈品才是重點啊!!! *逃*
+11:23 <      roga> 我有點想要捲線器，或是魔鬼沾的束線帶
+11:23 <    Irvin_> shuttle 背包好大
+11:23 <   hSATAC_> in2: 正妹才是重點啊!!!
+11:23 <    ericsk> hSATAC_++
+11:23 <     jnlin> hSATAC_++ # 11:23 < hSATAC_> in2: 正妹才是重點啊!!!
+11:24 < legnaleur> 有線也開始有點慢惹
+11:24 <    Irvin_> http://26.media.tumblr.com/tumblr_m1v6z8mSDV1rrf1eeo1_500.jpg 大家快一起去外面 @bobchao 面前敲碗
+11:24 < salagadoo> kidwm: shuttle背包那次 還聽到有人身上紀念品太多 抱怨紀念品太大個XD
+11:24              in2 決定看到正妹就來去搭訕 *握拳*
+11:24 <       in2> ieon_: 好久不見
+11:24 <  macpaul_>  cookpad 筷子 +++
+11:25 <      roga> 哇，他開始介紹 API 了耶
+11:25 < FourDolla> 每人一隻 B2G 嗎？
+11:25 <    jaceju> 講太細了...
+11:25 <      roga> yes, 講太細了
+11:25 < freedomtw> 這講者沒 live coding 還一直講 code
+11:25 <    jaceju> 這場合不適合講這麼細的東西哩
+11:25 <  macpaul_> 可以等一下提問的時候跟他講，講太細了嗎
+11:26 <       in2> Sinica 拿 2001:C08::/32 耶, 好大 @@
+11:26 < salagadoo> 今年有ossf t-shirt嗎?
+11:26 < freedomtw> 等一下我要的一個問問題 — 請問你們的 ice pen sdk 有  open source 嗎?
+11:26 <    Irvin_> 要不然等下發問的時候問問有沒有一人一台 G Note
+11:26 <    ericsk> 台下有拿 Samsung Galaxy Note 的人嗎?
+11:26 <  macpaul_> freedomtw++
+11:26 <      Deva> 一半會塲的螢幕都在網上沖浪 或 zzzzzzz
+11:26 <  macpaul_> 對我剛才也想到這個問題 XD
+11:26 <  macpaul_> 搞不好有patent
+11:28 < FourDolla> 請問剛剛講者有提到任何的官方開發文件的網址嗎？
+11:29 <      roga> sdk 下載  http://innovator.samsungmobile.com/cms/cnts/knowledge.detail.view.do?platformId=1&cntsId=10644&nacode=uk
+11:29 < FourDolla> roga: thx
+11:30 <      roga> 裡面有些 sample 但 lib 本身看來沒有 open source
+11:30 < legnaleur> ?! 這不是 OSDC 嗎？
+11:30 < lkkgenius> XD
+11:30 <      roga> XD
+11:30 <    jaceju> 三波
+11:30 <     jnlin> XD
+11:30 < Windslash> XD
+11:30 <    kk1fff> 付錢來教大家他們的專有 lib XD
+11:30              jnlin 想起去年的 HTC
+11:31 <    ericsk> 人夠帥, o不open沒差 (?)
+11:31 <    Conrad> XD
+11:31 <     darkx> XD
+11:31 <  albb0920> XDDD
+11:31 <   gh40402> OSDC lol
+11:31 <  NotExist> jnlin: 你是說有人跟講者OK的那次嗎
+11:31 <  NotExist> *PK
+11:31 <     jnlin> ya
+11:32 <    ericsk> 只能説議程組要顧好內容啊
+11:33 <  NotExist> 贊助商內容管不動吧？
+11:33 <   aar0ntw> 整個場子都samsung
+11:33 < salagadoo> 所以是行前教育?
+11:34 <  NotExist> 是...補眠時間(誤
+11:34 < pioneerLi> 會不會是配合明天的Samsung Apps Contest
+11:34 < pioneerLi> 那個Contest到底是..?
+11:34 <      lynn> 補眠+1
+11:34 < kaochenlo> S pen的S是指samsung的意思嗎? 那還好不是Acer或是Asus，會變A pen
+11:34 <  Denir-Li> 補眠++
+11:34 <       in2> 真好奇 samsung 到底贊助多少 XD
+11:34 <  NotExist> 可以建議雙A效法 這樣一定很有話題性
+11:34 <    orinx_> @in2++
+11:35 <    tonyni> 買 pad 送 A 騙嗎？
+11:35 <  ChAndrew> 座位表開始上黑色了XD
+11:35 <  NotExist> 買變形金剛送APEN
+11:35 <     jnlin> 上黑色是表示...?
+11:35 <       hrs> A Pen XDD
+11:35 < salagadoo> kaochenlong: 難怪apple要用i 不用公司字首
+11:35 < freedomtw> 坐我旁邊的 Thinker 剛開始說要找咖啡, 然後就沒回來了
+11:35 <   hSATAC_> i pen
+11:36 <    Irvin_> salagadoola: 你在哪，要不要出去喝咖啡
+11:36 <    Irvin_> XD
+11:36 <     clkao> freedomtw: 請他順便幫我5l3
+11:36 <     lin4h> (聽不下去了....)
+11:36 <     lin4h> 來聽音樂
+11:37 <     clkao> freedomtw: 我在第二會議室旁邊 有東西要拿給你
+11:37 <     jnlin> 11:37
+11:37 <      Sars> 「這個不是一個重要的東西」
+11:37 <      Sars> (有重要的東西嗎 QQ )
+11:37 < legnaleur> 它的 API license 看很久 ... 還是搞不懂到底有沒有 open
+11:37 <     darkx> XD
+11:37 < salagadoo> Irvin_: 我在你前一排 中間左側走道的左邊
+11:38 <   thschee> https://plus.google.com/u/0/106434758264277256407/posts/d9odJrmXyCW
+11:38 <    ericsk> 這個議程應該是給 app contest 當充電營或是 hands-on lab 才對
+11:38 <  ChAndrew> 現在在講的究竟有沒有Open出來呀？
+11:38 < freedomtw> clkao: 我在國際會議廳第一排
+11:39 < freedomtw> 他好像打算把時間用完 不想給人問問題
+11:39 <    ericsk> 剛才 Y! 講者在台上 live demo 的 code: https://github.com/ddsakura/mojitoHelloworld
+11:39 <     lin4h> 小B有來喔？
+11:39 <       hrs> from hinet?
+11:40 < FourDolla> ericsk: thx
+11:40 < pioneerLi> "OWNERSHIP OF INTELLECTUAL PROPERTY RIGHTS"
+11:40 <     Sorry> 「S Pen 這個設備受到廣大用戶的喜愛」
+11:40 <      lynn> 我跟大家介紹兩個重要的內容,一個是咖樂思繆另外一個還是咖樂思繆....(是要幽默一下嗎...都沒有人朋場)
+11:40 <     jnlin> lighting talk 要怎麼報名
+11:40 <     Sorry> 「也許許多開發用戶已經熟悉這個站點了」
+11:40 <     jnlin> time's up
+11:40 < salagadoo> http://developer.samsung.com/android/spen.sdk
+11:40 <    kk1fff> 麥克風會消音嗎？
+11:41 <     lin4h> XD
+11:41 <    ericsk> 已經期待下一場 keynote 很久了 XD
+11:41 <     jnlin> ericsk++ # 11:41 < ericsk> 已經期待下一場 keynote 很久了 XD
+11:41 < legnaleur> Licensee must not sell, redistribute, rent, lease, lend or sublicense all or any part of the SDK, or enable or allow others to do such things except to the extent expressly permitted under this Agreement. Except to the extent permitted by licensing terms in respect of Open Source Software components or sample code included with the SDK, Licensee must not copy (except as expressly permitted under this Agreement), modify, adapt, redistribute, 
+11:41 < legnaleur> decompile, reverse engineer, disassemble, or create derivative works of the SDK or any part thereof, or enable or allow others to do such things. The foregoing restrictions apply except as prohibited by applicable law and only to the extent of such prohibition.
+11:41 <     Sorry> 準時結束！
+11:41 <  ChAndrew> 終於結束了
+11:41 < salagadoo> 非常感謝大家的收聽 謝謝大家
+11:41 < legnaleur> PK!
+11:41 <     Sorry> 打臉了。。
+11:41 < pioneerLi> !!
+11:41 <      roga> 哇
+11:41 <  allenown> XDDDDDD
+11:41 <    orinx_> 讚!!!
+11:41 <     jnlin> XDDDD
+11:41 <  ChAndrew> 打臉了打臉了
+11:41 < nightmare> XD
+11:41 <    kk1fff> 哇靠！
+11:41 <       dm4> 問題來了
+11:41 < pioneerLi> !!!!!!
+11:41 <    Conrad> !!!
+11:41 <     darkx> XDDDDD
+11:41 <  Denir-Li> XD
+11:41 <  allenown> 超讚的！！！！！
+11:41 <      roga> 打臉
+11:41 <       hrs> XDDDDD
+11:41 < pioneerLi> !!!
+11:41 <    kk1fff> 好強喔
+11:41 <  Howard28> XD
+11:41 <    orinx_> XXXXXXXXD
+11:41 <      roga> XDDD
+11:41 < executort> !! XD
+11:41 < kurotansh> 好腫
+11:41 <  albb0920> XDDDDDDD
+11:41 <     mp607> XDDDDDDDDD
+11:41 <       in2> XDXD
+11:41 <      roga> XDDDD 哇
+11:41 <    ccchiu> XD
+11:41 <      Sars> 囧 XD
+11:41 <     lin4h> 科科
+11:41 < salagadoo> 直衝核心
+11:41 <    Al_Cho> XDD
+11:41 <    hSATAC> 猛啊
+11:41 < nansenat1> XD
+11:41 <    Kin_Lo> !!
+11:41 <  ChAndrew> 有木有Open呀？
+11:41 <      roga> 打臉打不停
+11:41 <    tonyni> 勇者在哪？
+11:41 <    orinx_> 帥啊!! 
+11:41 <    ericpi> 有梗...
+11:42 <     Sorry> 人家應該也出了不少錢
+11:42 <  tomjpsun> Freedom ++
+11:42 <      roga> XDDDDDDDDDDD
+11:42 <  ChAndrew> 果然
+11:42 <     lin4h> 科科
+11:42 <      roga> 酷
+11:42 <    ericpi> 目前沒有..
+11:42 <     darkx> 科科
+11:42 <       hrs> XDD
+11:42 <    orinx_> wwwwwwwwww
+11:42 <    dryman> ker
+11:42 < legnaleur> 承認啦！
+11:42 <  albb0920> 這樣對嗎XDDDDDDDD
+11:42 < pioneerLi> 這個目前還沒有Open Source
+11:42 <    kk1fff> 好硬啊！
+11:42 < kurotansh> 這下打得好痛 XDDDDDDDDDDDDD
+11:42 <   gh40402> 有妹有opensource呀
+11:42 <      roga> 嗯~~
+11:42 <     Sorry> 「這個目前還木有 open source」
+11:42 <   aar0ntw> 科科
+11:42 <      roga> 阿阿..
+11:42 <    hSATAC> 有木有 有木有啊
+11:42 <  allenown> XDDDDDDDDDD
+11:42 <     darkx> 哪你講屁阿
+11:42 <  macpaul_> 洗版了
+11:42 <     ecilA> ＝▽＝
+11:42 <      roga> 酷
+11:42 <    poying> XD]
+11:42 <  ChAndrew> 「這個目前還沒有Open Source」
+11:42 <   aar0ntw> 木有啊
+11:42 <    orinx_> wwwwwww
+11:42 <  chitsaou> 傷不起呀
+11:42 <    Conrad> XDDD
+11:42 < pioneerLi> 木有啊....
+11:42 <      roga> 臉好腫
+11:42 <  allenown>  /kick 講者
+11:42 <      lynn> 這個問題..以後是不是open還不清楚....
+11:42 <       c9s> XD
+11:42 < legnaleur> 結果來 OSDC 打廣告 XD
+11:42 <     FredC> 說好不打臉的！！！
+11:42 <  macpaul_> cowork都這樣 XD opensource不清楚
+11:42 <     lin4h> 所以呢？
+11:42 <    ericpi> 這就叫做正面打臉 (無誤
+11:42 < salagadoo> 「是不是以後會open source我還真的不是很清楚」
+11:42 <    hSATAC> 我也是一個做技術方面的工程師 直到我膝蓋中了一箭
+11:42 <   aar0ntw> open source是技術問題
+11:42 < pioneerLi> 靜默..
+11:42 < legnaleur> 臉都打腫了
+11:42 <     lin4h> 爽死了
+11:42 <  macpaul_> 應該要問說，叫你們經理出來
+11:42 <      roga> 臉好痛
+11:42 <    dryman> 打臉打得好重XDD
+11:42 <  ChAndrew> 「其他方面的問題我也不太好回答」
+11:42 <      Deva> 打臉是傳統. XD
+11:42 <  ChAndrew> 很誠實
+11:42 <    tonyni> Samsung 不知有沒有派人看 IRC
+11:43 <     ecilA> 被打臉後酸惹……
+11:43 <    orinx_> 哈哈 XXD
+11:43 <     jnlin> zonble!!
+11:43 <  allenown> 臉好腫
+11:43 <      roga> 哈哈
+11:43 <   aar0ntw> 臉腫了
+11:43 < FourDolla> 誠實的工程師
+11:43 < kurotansh> 三爽表示：出錢還要被打臉　哭哭
+11:43 <     jnlin> 可以加入本日名言了
+11:43 <  NotExist> 至少他誠實了 XD
+11:44 <   fulamce> 工程師哭哭
+11:44 <   gh40402> samsung：明年不贊助了
+11:44 <       in2> 搞不好是主辦單位哭哭, 明年又要重新找贊助了 XD
+11:44 < FourDolla> 體嫌口正直
+11:44 <       c9s> orz
+11:45 <      Deva> 這樣下次可以找別家來。免得年年重複
+11:49 <      Deva> 簡報4:3  
+11:52 <       in2> 原來 zonble 叫楊維中啊 XD
+11:53 <    Irvin_> lin4h: 小B沒有報到名
+11:54 <       CQD> 講這麼白 XD
+11:54 <       in2> 這也, 太誠實了吧 orz
+11:54 <  brianhsu> zonble 好坦白，工商服務。 XD
+11:54 <    Irvin_> 本日最期待 keynote
+11:54 < kaochenlo> 好誠實
+11:54 <  Denir-Li> 好坦白啊 XD
+11:54 <    poying> XD
+11:54 <      roga> 哈哈
+11:54 <      anfa> XD
+11:54 <        au> XD
+11:54 <     wwwww> 先消毒...wwwwwwwwww
+11:54 <   aar0ntw> XDD
+11:54 <       hrs> XDD
+11:54 <     darkx> XDDD
+11:54 <  albb0920> XDDDDD
+11:54 <     jnlin> xd
+11:54 <     SamWu> XD
+11:54 <    Conrad> XD
+11:54 <  chitsaou> ｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
+11:54 <     FredC> XD
+11:54 <      roga> XD
+11:54 <  brianhsu> 我們公司沒有什麼 open 的東西可以拿出來講。  XD
+11:54 <    Al_Cho> XDD
+11:54 < pioneerLi> 糟糕XDDDD
+11:54 <   fulamce> 自首無罪...XDD
+11:54 <  ChAndrew> XDDDDDDDDDDDD
+11:54 <   gh40402> XDDDDDDDDDDDDDDDDDDDDD
+11:54 <  allenown> XDDD
+11:54 < kurotansh> 預防針 XD
+11:54 < nansenat1> XD
+11:54 <    ericsk> 先自首
+11:54 <  Howard28> XD
+11:54 <  ChAndrew> 全場掌聲響起
+11:54 <     lin4h> XDD
+11:54 <      Deva> XD
+11:54 <   toomore> 風格回來了~
+11:55 <     Sorry> http://blog.chinatimes.com/blognews/archive/2006/12/27/139264.html
+11:55 <      Deva> 工商時間
+11:55 <       in2> 很有誠意的十天 kkbox 體驗卡!
+11:55 <  ChAndrew> 「我才不要幫你修電腦」----> zonble 這首歌超好笑
+11:56 <     darkx> 還蠻多得嘛~
+11:56 <    Irvin_> 台灣天氣超贊的
+11:56 <       CQD> iPhone user 竟然有一半...
+11:56 <  ChAndrew> （驚）
+11:56 <     ecilA> QQ
+11:57 <     jnlin> kkbox 推的單曲下載很讚
+11:57 <     jnlin> 可惜只有 windows Orz
+11:57 <    Irvin_> jnlin +1
+11:57 <  brianhsu> 單曲下載++ 沒有 DRM 保護。 :p
+11:57 <     darkx> +1
+11:57 <     tonyq> Hi all 
+11:57 <     mp607> 一首一首買不錯阿XD
+11:57 <  allenown> hihi
+11:57 <      Jcrt> hi
+11:58 <    hSATAC> hi
+11:58 <     ecilA> 囧境
+11:58 <     darkx> 窘境 <--- 錯字?XD
+11:58 <    Irvin_> AAC 320k 音質也超贊
+11:59 <     lin4h> 單曲下載XDD
+11:59 <  NotExist> 真的。
+11:59 <  chitsaou> 中略萬言的感覺
+11:59 <     tonyq> 現實跟理想是有差距的
+11:59 <    Irvin_> thschee 應該進來搖旗吶喊一下的
+11:59 <     ecilA> 而且差很大
+11:59 <   aar0ntw> 中肯！
+11:59 <     tonyq> that's so-called open source...
+11:59 <     Sorry> 「只有要交學校作業的學生，才會看你的程式碼」
+11:59 <     tonyq> 我們家的產品也是碰到bug 才會有人去看程式碼 XD
+11:59 <  brianhsu> 只有要交學校作業的學生，才會看你的程式碼…… GJ!
+11:59 <  jeffhung> 都老了。
+11:59 <      Sars> 因為後天要期中考吧 XD
+11:59 <   thschee> Irvin_: i am uploading some video up with pretty limited bandwidth
+12:00 < pioneerLi> 期中考TAT
+12:00 < kurotansh> 超中肯... 
+12:00 <     Sorry> 「而且通常是寫信問，他們就算有了程式碼還是看不懂」
+12:00 <  NotExist> 期中考一年兩次 OSDC一年只有一次啊！
+12:00 <     Sorry> 「而不是交了作業寫信感謝你」
+12:00 <    Irvin_> thschee zonble 在台上開幹 gov open  data XD
+12:00 < salagadoo> 因為你出社會以後 不會知道是誰在看你的履歷表XD
+12:00 <     Sorry> 「他們沒有想到以後出了社會是誰在看你的履歷表」
+12:00 <     jnlin> "因為你出社會以後 不會知道是誰在看你的履歷表XD
+12:00 < lunastorm> XD
+12:00 < lunastorm> xd
+12:00 <   thschee> Irvin_: 我是在張善政前面開幹 open gov data XD
+12:01 <       in2> 不是裡面直接包 webview 嗎? *咦*
+12:01       ieon_  is now known as ieon
+12:01 <     tonyq> @in2  lol  GJ
+12:01 <    Irvin_> thschee: 結論就是應該請張善政來會場讓大家開幹 open gov data XD
+12:01 <     jnlin> 開幹 GPL 了 XD
+12:02 <       CQD> 搞不好在（？）
+12:02 <   thschee> 他現在會被賴士葆搞吧
+12:02 <   thschee> 賴士葆找他去罰站
+12:02 < salagadoo> CQD: 午安
+12:02 <  jeffhung> GPL 放出來的程式，自己應該還是可以用吧？因為 copyright owner 還是自己。(只是別人幫忙加的 patch 就不能收了。)
+12:03 <  albb0920> 對的
+12:03 <       CQD> 是南瓜 XD
+12:03 <     kidwm> CQD: 學姐你晚上有要跟來Mozilla Taiwan嗎
+12:03 <    tonyni> 用 GPL 的程式必須全部 Open 出來
+12:03 <    tonyni> 所以以公司立場會有疑慮
+12:04 <    Irvin_> 自己可以對公司做單獨授權啦……
+12:04 <       CQD> 我會去吃披薩，不過等等哪裡有學姊 =3=
+12:04 <    tonyni> ok
+12:04 <    Irvin_> --兔子好正--
+12:04 <  ChAndrew> 這就跟PTT有很多「小妹」一樣
+12:04 <     kidwm> CQD: 你不是QQ姐嗎
+12:04 < lunastorm> test
+12:04 < lunastorm> test
+12:05 <  terrence> test
+12:05 <  jeffhung> tonyni: 用別人寫的 GPL 程式是這樣沒錯，但自己的程式用 GPL 放出去的話，自己另外用應該還是可以不用 open。
+12:05 <    maxwux> 如果我幫公司寫程式，另一方面又用GPL的方式授權出去，那會發生什麼事？
+12:05 <     jnlin> 授權應該是可以雙授權
+12:05 <  albb0920> 不會
+12:05 <        au> 那要請其他開發者簽 contributor assignment
+12:05 <  albb0920> 不過你不能 merge 別人的修改回公司
+12:05 <    tonyni> 最簡單還是 LGPL or APL 放出算了
+12:05 <        au> (相當複雜的程序)
+12:05 <     jnlin> maxwux: 你幫公司工作的話，你的 work 著作權是公司的...
+12:06 <     jnlin> BSD++; MIT++;
+12:06 <    tonyni> 看公司
+12:06        ych_  is now known as ych
+12:06 <       in2> 幫氣象局測試 XD
+12:07 <    maxwux> jnlin: 所以照裡來說我不應該以GPL的方式授權出去，不然我就是違法？會被告？
+12:07 <   hcchien> 筷子++   # 雷格了
+12:07 <     tonyq> 「奇怪的改版」
+12:07 <      roga> 我記得氣象局好像有 rss
+12:07 <     jnlin> maxwux: 要獲得公司 approve
+12:07              Sorry ←受害者  #中央氣象局網頁常改版
+12:07 <  jeffhung> 「我們最經常需要花力氣的是，如何避免帶來最差的使用者體驗。」
+12:07 <     gasol> 我研究過官方版的app，其實是有xml可以parsing的...
+12:07 <      roga> 如何避免帶來最差的使用者體驗
+12:07 < salagadoo> 像是 it breaks --> i didn't touch it! 這樣嗎
+12:07 <      roga> XDDD
+12:08 <      roga> http://www.cwb.gov.tw/V7/service/eservice/rss.htm   ->  氣象局 RSS
+12:08 < ronnywang> 氣象局 ftp 好像也可以抓到即時天氣
+12:08 <       in2> roga: 你可能一個月後發現變成 /V8/ 了
+12:08 <     tonyq> 好慘 
+12:08 <  albb0920> 我以為官方是 webview 開他們的網頁 xdrz
+12:08 <     tonyq> 這樣應該要有資料中介層吧
+12:08 <      roga> in2 - 也對 ...orz
+12:08 <       hrs> V8 XDD
+12:08 <     tonyq> 這樣才有得搞 Orz
+12:08 <       hrs> 然後app store審核過了就變V9 XD
+12:08 <    dryman> 氣象局的RSS基本上沒什麼用...
+12:08 <  jeffhung> open data!!
+12:09 < salagadoo> 「遇到不穩定的server，再好的client都沒有意義」XD
+12:09 <        au> 而且「不得更改 RSS內容及解析本 RSS 相關資訊用以製作衍生產品。」
+12:09 <        au> (RSS 使用聲明)
+12:09 <   toomore> v8 會變比較快嗎
+12:09 <      roga> Oooops .. 
+12:09 <     tonyq> 「改版不通知，這樣怎麼用」
+12:09 < miyagawa_> hcchien: 雷格了 = cookpad?
+12:09   miyagawa_  is now known as miyagawa
+12:09 < salagadoo> au: 原來有這條 這樣怎麼玩.....
+12:09 <     jnlin> miyagawa: lag = 雷格
+12:09 <        au> (攤手)
+12:09 < kaochenlo> "惟"
+12:10 <       hrs> 不負預先通知之責..
+12:10 <      Deva> 自已訂一個改版服務通知.  = =
+12:10 <   thschee> cwb 有一些法律上的東西寫在這 http://www.opendata.tw/gov-data/cwb/
+12:10 <  miyagawa> jnlin: what does 雷格了 mean? google translate fail :)
+12:10 <  albb0920> 中央氣象局也真的很閒
+12:10 <    ericpi> 每年有固定預算要消化?
+12:10 <    Conrad> 因為每年都有預算啊 XD # 每年一次大改版
+12:10 <  jeffhung> miyagawa: lag
+12:10 <        au> miyagawa: "lagged"
+12:10 <     jnlin> miyagawa: 雷格
+12:10 <     jnlin> 12:09 < au> (攤手)
+12:10 <  miyagawa> jeffhung: au: ok!
+12:10 <     jnlin> miyagawa: lag
+12:11 <     tonyq> 一週提供 北中南東 預報，突然改成每縣市跟晚上還有白天 ..Orz  資料模型應該改超大
+12:11 <     Sorry> Unit test 永遠抓到 2011/12/18 的資料 orz
+12:11 <  chitsaou> 難怪有陣子我都看到 2011年12月 XDD
+12:11 < kurotansh> 幾乎是換一套了吧.....
+12:11 <  ChAndrew> 「停留在2011年12月18號」XD
+12:11 <   fulamce> XD
+12:11 < salagadoo> 所以unit-test還要加上一條 日期是不是舊的...
+12:11 <     tonyq> 高雄是無辜的
+12:12 <       hrs> 又回來了XDD
+12:12 <   hcchien> tonyq: rofl
+12:12 <   thschee> 聲音沒處理，should be cool http://www.flickr.com/photos/schee/7075547821/in/photostream
+12:12 <   gh40402> 又回來了 lol
+12:12 <     tonyq> lol
+12:12 < kurotansh> 血淚辛酸啊
+12:12 <  albb0920> 搞不好每天打一通 116 parse 語音比較安全 (誤
+12:12 < salagadoo> 高雄! 我那時候也修過這種bug~~
+12:12 <       hrs> XDD
+12:12 <     darkx> XDDDDDD
+12:12 <     tonyq> 借屍還魂阿
+12:12 <     jnlin> XDDDDD
+12:12 < kurotansh> 靠夭啊 XD
+12:12 <   gh40402> XDDDD  靈魂跑錯殼了
+12:12 <     jnlin> 高雄與新竹的天氣也差不多 XD
+12:12 <      roga> 高雄和新竹的天氣好像也差不多 XDD
+12:12 <        au> 海角七號@嘉義半島
+12:12 <     ecilA> wwwwwwwww
+12:13 <  ChAndrew> 高雄14變成新竹市，恆春16變成嘉義市
+12:13 <    dryman> XDDDDDDD
+12:13 <     tonyq> 技術往往會被用在奇怪的地方]
+12:13 < salagadoo> 「技術往往會被用在奇怪的地方」
+12:13 <     Sorry> Unit test 預防網頁改版
+12:13 <     darkx> vgod <(_ _)>
+12:13 <   gh40402> vgod <(_ _)>
+12:13 < kurotansh> vgod <(_ _)>
+12:13 < legnaleur> sikuli 的本意不是 testing tool 吧 XD
+12:13 <     tonyq> vgod <(_ _)>  跟敗
+12:13 < salagadoo> Sikuli絕對不是UI testing工具 是flash game機器人工具! (認真)
+12:13 <     jnlin> sikuli 拿來定會議室XD
+12:14 < kurotansh> sikuli 是按鍵精靈啊 XD
+12:15 < legnaleur> Google 表示：don't be evil (?)
+12:15 <    benlau> 我用Sikuli來玩Buddy Rush這遊戲 XDD
+12:15 <     tonyq> 拍拍
+12:15 < salagadoo> i'm not being eveil. I AM THE EVIL
+12:15 <     jnlin> 營養午餐 XD
+12:15 <     Sorry> 「台灣天氣 App 有一個很奇怪的。。天氣越差的時候流量越多」
+12:15 <       CQD> google instance hour 計費方式變更還真是搞死不少人...
+12:16 < legnaleur> 好多人跳去 heroku
+12:16 <     jnlin> 現在可以用 AWS 的 elastic beanstalk
+12:16 <     Sorry> 每天處理大概 8000 個連線
+12:16 <     jnlin> bootstrap 速度比 heroku 快一些
+12:16 <        au> beanstalk++ # IaaPaas
+12:16 <     tonyq> 囧
+12:16 <     darkx> XD
+12:16 <     tonyq> unit test 連線也要花多少錢
+12:16 <  albb0920> 莫非定律XDD
+12:16 <       CQD> 其實那個問題是預設值問題，其實可以改啊 XD
+12:17 <    dryman> 悲慘...
+12:17 <     tonyq> 向中央氣象局致敬
+12:17 < kurotansh> 悲劇....
+12:17 <    ericpi> 當你把 unit test 拔掉那一瞬間, 中央氣象局改版了 XXD
+12:17 <     Sorry> 省錢先拔掉 unit test，因為 unit test 連線也要不少錢。。然後中央氣象局這時候改版了 orz
+12:17 <  ChAndrew> 「拔掉Unit Test」XDDDDDDDDDD
+12:17 < salagadoo> 「我這邊只是告訴你什麼是你付不起的」
+12:18              ericsk 囧
+12:18 <    ericpi> 而且...
+12:18 <       hrs> XDDDDD
+12:18 <     tonyq> 上官...
+12:18 <      Sars> XDD
+12:18 <      roga> 哈哈
+12:18 < legnaleur> 理論上 unit test 可以在 localhost 跑吧
+12:18 <  Denir-Li> XD
+12:18 <  chitsaou> xddddd
+12:18 <      anfa> XDDDDDDDD
+12:18 <    Conrad> 台灣生育率那麼低都是 Google 害的
+12:18 <     jnlin> XDDDD
+12:18 <     tonyq> xdddddddddddddddd
+12:18 <       CQD> 而且 XDDD
+12:18 <   fulamce> XDDD
+12:18 <  allenown> ericsk: 中槍XDDDD
+12:18 <   gh40402> XDDDDDDDDDDD
+12:18 < kurotansh> XDDDDDDDDDDDDDDDDDDDDDDDD
+12:18 <  jeffhung> 「而起當初在台上講 GAE 的人現在都去微軟上班了。」
+12:18 <     Sorry> 做 open source 花你的時間就算了，還可能花到你的房屋頭期款或結婚基金
+12:18 <     SamWu> XD
+12:18 <     ecilA> XDDDDDDDDDDDDDDDDDDDDD
+12:18 <      Deva> 全場眼光瞄向某人
+12:18 <    Al_Cho> XDDD
+12:18 <     darkx> 婊好大
+12:18 <    Conrad> XD
+12:18 <     tonyq> XDDDDDD
+12:18 <  ChAndrew> 婊好大XDDDDDDDDD
+12:18 <    ericpi> 謹慎選擇你聽到的技術 XXD
+12:18 <     tonyq> 「最大的問題是沒空」
+12:18 < salagadoo> 「在open source研討會有一個原則 請仔細謹慎的選擇你聽到的資訊」
+12:18 <    dryman> 好辛酸的沒空...
+12:18 < FourDolla> ericsk: 表示?
+12:19 < ronnywang> 當沒空兩字出現，場內好多人倒抽一口涼氣
+12:19 <    ericsk> 還好當初換工作不是去 KKBOX?
+12:19 <    hSATAC> ericsk表示： Azure 歡迎你
+12:19 <     jnlin> Azure XD
+12:19 <  chitsaou> 好悲摧
+12:19 <     tonyq> flask 是 python 體系的?
+12:20 < brucehsu_> python無誤
+12:20 <   toomore> tonyq: python
+12:20 <     darkx> 負評XD
+12:20 <    ericsk> 如果換工作去KKBOX, 那今天的理由是不是變成 "當初講 google app engine 的人來我們公司上班" 
+12:20 < kurotansh> 好哀傷...
+12:21 < CindyLinz> ericsk: 快換吧! XD
+12:21 <    ericsk> hSATAC: Windows Azure 也是可以跑 Python 就是了 *flee*
+12:21 <    ericpi> ericsk: 其實是 "初講 google app engine 的人現在坐在我旁邊" (無誤
+12:21 <  albb0920> 那個 app 不知道花了政府多少錢...
+12:21 <     tonyq> mobile 上的 ui thread 跟 data thread 真的還沒有很好的 pattern ..
+12:21 <     tonyq> 還是會常看到 ui thread 上跑去寫資料庫的...
+12:22 <     Sorry> 沒空怎麼辦？KKBOX 誠徵工程師。。
+12:22 <    YChao_> (LOL)
+12:22 <     darkx> 中國信託紅利點數XD
+12:22 <     tonyq> 我中國信託的紅利點數也是租 vps 累積來的 XDDD 還有 happygo點數...
+12:22 < salagadoo> 過去我從來沒有過這麼快累積我的信用卡點數XD
+12:22 < legnaleur> 有的 app 在撈資料時動 UI 會 crash 會是 thread 的問題？
+12:22 <   thschee> CQD: 你的專訪出爐了，不過沒聲音 XD
+12:22 <       CQD> sad XD
+12:23 < salagadoo> Faith, we must have
+12:23 <    YChao_> 分享本身就是件快樂的事
+12:23 <        au> zonble++
+12:23 <     tonyq> 甘願作 歡喜受
+12:23 <  jeffhung> zonble++
+12:23 <     ecilA> 娘，孩兒是受
+12:23 <     darkx> 孩兒是受！
+12:23 <    dryman> zonble++
+12:23 <     tonyq> zonble ++
+12:23 <   gh40402> 孩兒是受XD
+12:23 <  NotExist> subtitle:
+12:23 <      Jcrt> zonble++
+12:23 <    ericsk> zonble++
+12:23 <       dm4> zonble++
+12:23 < kurotansh> zonble++
+12:24    ufohead_  is now known as ufohead
+12:24 <  ChAndrew> zonble++
+12:24      tonyni  is now known as tonyni_mIRC
+12:24 < salagadoo> 因為他的變化可能會超過你regular expression的範圍
+12:24 <     Sorry> 真的不是改 regex 那麼簡單  #過來人經驗
+12:25 <     tonyq> 他的意思應該是 client 自己蒐集資料  
+12:25 <        au> "為什麼不改成 single-page-application"
+12:25 <     tonyq> parser 另外抽開下載這樣
+12:25 <  albb0920> 網址 + XPath + RegExp 之類的?
+12:25 <        au> "整個程式就可以放在 Amazon S3"
+12:25 < legnaleur> 送 pull request 啦
+12:25 <     darkx> 開動！
+12:25 < CindyLinz> 要用 perl 的 context-free-grammar complete regex XD
+12:25 <        au> (說真的這是這兩年才能做的事)
+12:25 < salagadoo> 那時候是iOS2 而那時候iOS提供的regular expression是非常爛的
+12:25 <     jnlin> 在裡面放個 lux parser XD
+12:25 <     kidwm> ericsk: 你沒有話要說嗎？
+12:26 <     jnlin> lua parser XD
+12:26 < CindyLinz> 「我現在如果推荐的話, 我以後可能會出現在人家的投影片裡面」
+12:26 < salagadoo> 「如果我現在告訴你哪一家(推薦的hosting)的話 下次我可能就被寫在你家的投影片」
+12:26 <    ericsk> 他説的沒錯啊, 我的確上台講過 appengine, 現在也真的到微軟上班啊 orz orz
+12:26 <    Irvin_> 吃飯
+12:27 <     test_> ...
+12:27 <  ChAndrew> 「打臉動作耗費許多體力」XD
+12:27 <  NotExist> 今天的座位表有人有address嗎
+12:27 <      lynn> 原來就是ericsk(指~)
+12:27 <   gh40402> 座位表 https://docs.google.com/spreadsheet/ccc?key=0AqLOSy3AYBWidEdEc1RJcDktd1hqd294dTNlRGpSTEE#gid=40
+12:28 <  NotExist> TY
+12:31  pioneerLik  is now known as pioneerLike
+12:35 <   hcchien> 一瞬間所有人都去吃飯了
+13:13 <    fj_lin> finally got connected!!!
+13:24    macpaul_  is now known as macpaul
+13:27 <   macpaul> 喵
+13:28 <       in2> 喵
+13:28 <     tonyq> 下午場開始跑三軌了
+13:29 <     clkao> 寫不完 寫不完
+13:30 <       in2> clkao: 你只剩三個小時可以寫了耶 XD
+13:30 < lunastorm> test
+13:30 < lunastorm> test
+13:30 <  JasonLin> test
+13:32 <      Ray_> test
+13:34 <     clkao> in2: 我知道 ><
+13:34 <     clkao> 還有一半
+13:34 <     tonyq> XD
+13:35 <     tonyq> 第二會議廳++
+13:36 <    fj_lin> test
+13:36 <    dryman> clkao加油!!
+13:38 <    pofeng> clkao: 加油 :p
+13:39 < FourDolla> Go!
+13:42 <   macpaul> pofeng來啦
+13:43 <    pofeng> macpaul: 沒耶，遠端參加 ( 上班賺奶粉錢 )
+13:46              Singing is using a Milestone running Android 2.2.1 (SHOLS_U2_05.26.4)
+13:50              lzy 中文測試 ._./
+13:50 <       lzy> :P
+13:50 <   hcchien> tests pass
+13:50 <       lzy> hcchien: <(_ _)>
+13:50 <       lzy> 有座位婊^H表嗎 XD
+13:51 <     tonyq> https://docs.google.com/spreadsheet/ccc?key=0AqLOSy3AYBWidEdEc1RJcDktd1hqd294dTNlRGpSTEE#gid=40
+13:51 <     tonyq> 國際會議廳的
+13:51 <       lzy> tonyq: cooooooool
+13:51              hcchien @國際會議廳
+13:51      lin4h_  is now known as lin4h
+13:52 <     lin4h> 煩…一直爛線
+13:54 <       lzy> 感覺現在活動越來越年輕化 (Y)
+13:54              lzy 其實是都沒看到啥認識的老人 ... Orz
+13:55 <   hcchien> 難道是說....  XD   lol
+13:55 < legnaleur> 是第二會議廳的網路比較差還是現在大家都變差了？
+13:56 <       lzy> 有線網路還頗順的阿 ._.a *國際會議廳*
+13:56 <   hcchien> iPhone demo 完全是考驗工作人員啊  *茶*
+13:57 <      Deva> 第二會議室。 隔一段時間沒來，有增加左右兩台(講者後面那台超亮)
+13:57 <      Deva> 投影螢幕
+13:59 <  brianhsu> 國際會議廳的自己炮好像要開始囉~
+13:59 <  brianhsu> 自走砲
+14:00 <      Deva> 殘念，今天下午是兩邊跑。
+14:00 <   hcchien> 幸好不是自打炮
+14:00 <   hcchien> 其實第一會議室那個好像也滿有趣的
+14:00 <       lzy> 話說三爽怎都沒妹 ...
+14:01 <  mrmoneyc> 三爽工作人員比 sg 好看
+14:01 <       lzy> 這年頭 sg 都太重口味了 *攤*
+14:01 <   macpaul> 感覺kkbox的sg有誠意
+14:01 <       in2> 那 pixnet 的可愛美女工作人員呢?
+14:01 < freedomtw> 第一會議室這個日本人的英文聽不懂啊
+14:01 <      Deva> 香港來講者，用英文中文雙聲道.   XD
+14:01 <   hcchien> PIXNET 的比較可愛
+14:01 <   macpaul> 阿打錯了
+14:02 <   macpaul> kkbox
+14:02 <       in2> 我沒看到 kkbox 的 SG >_<
+14:02 <   macpaul> 打錯了 pixnet
+14:02 <     Jedi_> 圖～圖～圖～～
+14:02 <   macpaul> 就是白色雷斯+事業線
+14:02 <       in2> pixnet 的如果不要加牛仔褲會再更++
+14:02 <   hcchien> kkbox 這次弱掉了   :p
+14:02 <   hcchien> in2: 色
+14:02 <     darkx> XD
+14:02 < freedomtw> 比口音很重的印度英文還難懂
+14:02 <       in2> hcchien: 不相信你問 s3p
+14:02 <     Shock> 三爽講者被表第三次了XD
+14:02 <  ChAndrew> 「早上三X被打臉」
+14:03 <   macpaul> in2: 你可以馬上貢獻一件替換牛仔褲嗎
+14:03         hrs  is now known as hrs_r0
+14:03 <       in2> macpaul: 我只有一件牛仔長褲 @@
+14:03 <   hcchien> macpaul: 人家都說不要牛仔褲了啊
+14:04 <     lin4h> SXDDD
+14:04 <    hrs_r0> 意思是用手遙控嗎？
+14:04 <   macpaul> 可以拿裙子換牛仔褲阿
+14:05 <   macpaul> 快衝五分烳
+14:05 <   hcchien> macpaul: in2 是說直接牛仔褲脫掉就好
+14:05 <     Jedi_> macpaul: 圖，快交出來
+14:05 <   macpaul> 我只有背面..
+14:05 <  mrmoneyc> 今年的常駐梗不會就是三爽被打臉的梗吧 XDDD
+14:06 <     Jedi_> macpaul: 你 OK 的，去拍正面吧
+14:06 <     Jedi_> macpaul: 靠你了
+14:06 <     darkx> cool
+14:06 <     Jedi_> macpaul: 我剛剛才下班回到家盥洗完，晚上還要出差去訪視 T_T
+14:07              in2 為什麼我們家沒有攤位沒有贈品沒有SG連用的網路線都被 googler 說沒質感呢 Q_Q 真是窮苦公司 QQ
+14:07 <  michael_> :D
+14:07 <   macpaul> in2: 你什麼時候要在小島上面養滿整個島的SG?
+14:07 <     Jedi_> 因為錢被一級主管污去買小島了？ *誤*
+14:07 <   hcchien> in2: 因為你自己不肯出動
+14:08 < legnaleur> 有 paging 還需要 compaction 嗎？
+14:08 <       in2> macpaul: 等敝公司被 Facebook 10億美金買掉的時候? *誤*
+14:08 <   macpaul> 因為錢被一級主管污去買高中制服了？ *誤
+14:09 <   macpaul> 人家 zonble 都說要做自拍軟體了.....
+14:09 <     Sorry> 好暈 @@
+14:09 <    YChao_> 這個日本人就是上次來coscup的那位喔...
+14:09 <   macpaul> 於是推出自拍麻將服務 XD
+14:11 <     jnlin> 圖 https://plus.google.com/u/0/b/118413196435918944474/118413196435918944474/posts/inZmSrwc23g
+14:11 <       lzy> 我想要看色兔子家的 sg, coscup 能看到嗎 :D
+14:11 <   macpaul> jnlin++
+14:11 <   macpaul> 太邪惡了
+14:11 <     Jedi_> jnlin++
+14:11 <    tonyni> 事業線呢！（翻桌）
+14:11 <   macpaul> 但是事業線為什麼被擋住了 *誤＊
+14:11 <    YChao_> 果然是有圖有真相
+14:11 <     Jedi_> macpaul: 快效法，我要全身，我要正面，正面不要遮！
+14:12 <    BlueT_> jnlin++ 
+14:12 <    BlueT_> jnlin-- # 事業線咧？
+14:12 <    tonyni> 為什麼手上拿火狐
+14:12 <    hrs_r0> live demo!!
+14:12 <   macpaul>  默默的追蹤了 pixnet lab
+14:12 <        au> Live Demo!
+14:12 <  Denir-Li> Live Demo!
+14:12 <     jnlin> 國際會議廳要 live demo
+14:12 < salagadoo> 這是真正的live demo, 我們不知道會遇到什麼狀況
+14:12 <  jeffhung> 這年頭，從後面往前看，妹的螢幕變成 Pinterest 了。
+14:12 <    BlueT_> 自走炮是吧 XD
+14:13 < ronnywang> (話說我們 sg 正在看 IRC 中...)
+14:13 <    BlueT_> macpaul: 快效法，我要全身正面，正面不要有衣服！！
+14:13 <  mrmoneyc> XDD
+14:13 <      Deva> 祝成功，不會炸掉
+14:13 <    hrs_r0> 『對不起  出了點狀況』
+14:13 <     Sorry> never live demo
+14:13 <    hrs_r0> XDDD
+14:13 <     orinx> wwwww
+14:13 <  Denir-Li> XD
+14:13 < salagadoo> 對不起, 出了點狀況
+14:13 <    Irvin_> LIVE DEMO!
+14:13 <        au> _never_ live demo
+14:13 <    hrs_r0> never live demo XDD
+14:13 <  Denir-Li> 真的很危險啊 XD
+14:13 < kurotansh> Never Live Demo
+14:13 <     darkx> 勇氣！
+14:13 < salagadoo> 如大家所知, 在osdc live demo是很危險的 XD
+14:13 <     clkao> XD
+14:13 <     lin4h> 科科
+14:13 <     jnlin> never live demo
+14:14 <    BlueT_> "Most objects die young."
+14:14 <     darkx> 不能過太快XD
+14:14 <  mrmoneyc> 我們還沒有最佳化過XDD
+14:14 <    BlueT_> OGC # OpenJDK Garbage Collection
+14:14 <    hrs_r0> XDD
+14:14 <     orinx> Never Never Never live demo 
+14:14 <    YChao_> XD
+14:14 < legnaleur> 所以把常 realloc 的部分其他部分分開以保持連續性？
+14:15 <     Sorry> 不是有飛彈？（誤）
+14:15 <     darkx> 說好的紅外線雷射對戰呢
+14:15 <  jeffhung> legnaleurc: 寫 C 會用這招減少 memory consumption。
+14:15 <     orinx> https://github.com/mobilogics
+14:15 <    BlueT_> 車子壞掉，只有飛彈是好的，所以幫忙把衣服炸飛 # ?
+14:15 <   macpaul> http://www.youtube.com/watch?v=mEZ_d0iON9c   Zonble 的錄影可以看了
+14:15 <     Jedi_> ronnywang: 快，我們要看六面視圖
+14:15 <   hcchien> 可以用這個去拍 PIXNET 妹？
+14:16 <    Irvin_> 可以把戰車開出去外面三爽的領地逛逛嗎
+14:16 <       lzy> in2: coscup 擺攤來點女僕 sg 好了 *大心*
+14:16 <    Irvin_> 小惠會！
+14:16 < legnaleur> jeffhung: 我有在 small object allocation 看過類似的做法，不過我個人絕對不會想自已做這些事 XD
+14:16 <    hrs_r0> 這樣真的沒問題嗎XDD
+14:16 <    Irvin_> 惠惠
+14:16 <     jnlin> 這樣真的沒問題嗎 XD
+14:16 <       in2> lzy: 害羞 >//><
+14:16 < salagadoo> 這嘴砲會不會太大了 XD
+14:16 <     darkx> 還有十五分鐘/
+14:17 <    Irvin_> 可以把ip公開出來讓大家搶遙控
+14:17 <     clkao> crazy demo in room 1
+14:17 <     orinx> 飛彈在哪裡 !!XD
+14:17 <    YChao_> 要穿成這樣子啊...
+14:17 <  ChAndrew> 結束了......會不會太快呀？
+14:17 <       lzy> in2: 還是色兔子要親自下海(咦?
+14:17 <     clkao> brain wave sensor
+14:17 <   gh40402> 標題吸引到我了
+14:17 <     lin4h> XDD
+14:17 <    hrs_r0> 『請問一下飛彈在哪裡』XDDDD
+14:17 <  jeffhung> legnaleurc: 你可以用 apr 的memory pool 或 loki 的 small object allocator。
+14:17 <  ChAndrew> 「請問一下飛彈在哪裡？」
+14:18 <   macpaul> 中研院上傳1.2GB到youtube 不用花5min 超快
+14:18 <  Denir-Li> 因為公司的馬達不夠用 XD
+14:18 < salagadoo> 「飛彈的馬達被拿掉了 因為公司的馬達不夠用」xd
+14:18 <    BlueT_> clkao: room 在 demo 什麼？
+14:18 <     darkx> 自走炮XD
+14:18 <     clkao> brainwave controlled robot
+14:19 <    BlueT_> clkao: room 在 1 demo 什麼？
+14:19 <    BlueT_> clkao: !!
+14:19 < legnaleur> jeffhung: 我就是在 Loki 看到的，不過好像有人不建議用它的 small object allocator ... 不知道是什麼理由就是了
+14:19 <     clkao> crazy
+14:19 <     Shock> room1的好像很酷？
+14:19 <    Jimmy_> room1 看起來好像是用腦波控制機器人
+14:19 <       in2> lzy: 不色 :3
+14:19 <        au> "沒保固不行"
+14:19 <    YChao_> 好像是用腦波控制方向
+14:20 < legnaleur> 有必要 stop all thread 嗎？
+14:20 <       lzy> in2: 那穿不色的這樣 (?
+14:20 < ronnywang> Jedi_: 六面視圖(上) http://pic.pimg.tw/ronnywang/1334384369-2654360967_t.jpg?v=1334384373
+14:20 <    BlueT_> 嘖嘖。從 session 標題看不出來是那麼酷的東西，選錯 session 了
+14:20 <     Shock> room1 純用想的嗎？還是有偵測眼球？
+14:20 <     Jedi_> ronnywang: (Y)  繼續期待其他幾面
+14:20 <       in2> lzy: 穿怎樣? o.o
+14:20 <     Jedi_> ronnywang++
+14:20 < ronnywang> http://pic.pimg.tw/ronnywang/1334384369-2654360967.jpg?v=1334384373
+14:20 <    YChao_> 不懂那個kinet要做什麼
+14:20 < legnaleur> Java Object 應該有 thread affinity 吧？
+14:21 <    BlueT_> ronnywang: 圖太小了啦。而且為什麼還是被檔住？ XD
+14:21 <       lzy> in2: 好吧，本 channel 好像不宜深入討論 *逃*
+14:21 <    Jimmy_> 個人解讀：他的腦波控制器(?)上面有三個 sensor 各有不同功用，用來偵測腦波狀態，然後傳送給機器人行走
+14:22 < ronnywang> http://pic.pimg.tw/ronnywang/1334384437-472351455.jpg (左)
+14:22 <  tomjpsun> 那機器人怎麼沒動作？
+14:22 <     Jedi_> ronnywang++ # 每多一面多一次加加 :D
+14:23 <    YChao_> 果然是有錢的日本人，為了closed driver，多加一塊arm板...
+14:23 <    Jimmy_> demo 的同學可能情緒太淡定吧，主講人說他等等要自己 demo XD
+14:23 <    BlueT_> ronnywang: 不能遮呀 # 15:01 < Jedi_> macpaul: 快效法，我要全身，我要正面，正面不要遮！
+14:23              jnlin 準備換到 r2 聽 c9s 大大演講
+14:23 <    BlueT_> Jimmy_: 現在一直在 demo 嗎？
+14:24 <       in2> ronnywang: 你家的反解設錯了啦! 60.199.247.154 -> 60-199-247-154.static.pixnet.tw. 然後就解不回來了
+14:24 <    Jimmy_> 沒有，現在在講他的裝置
+14:24 <    BlueT_> mrmoneyc: ping
+14:24 <    BlueT_> Jimmy_: 那現在殺去還有機會看到 demo 嗎？
+14:24 <    Jimmy_> 在講他怎麼去偵測不同情緒的腦波
+14:25 <    YChao_> train 30 min來學習腦波控制... XD
+14:25 <    Jimmy_> 可能可以吧XD 看他等等會不會自己表演
+14:25              BlueT_ 收東西趕過去 &
+14:25 <    YChao_> 恩... 娘...
+14:25              au 很想去聽 c9s 但得待在 room1 準備根據 node.js 的內容改簡報
+14:25 <        au> c9s++ # 加油
+14:26 <    YChao_> 日本公務人員是最好的工作...
+14:26 <    YChao_> XD
+14:26 <  tomjpsun> public servant is the best job…..在台灣也是吧
+14:26 <  jeffhung> Finalizers are evil?! 這個 finalizer 是指什麼？
+14:26 <    YChao_> 公務人員喜歡coding... XD
+14:27 < FourDolla> Java 的
+14:27 <      Deva> r2 講完了，正在 q&a
+14:30 <     tonyq> 相當精彩的 Q&A
+14:30 <    YChao_> 可能以後這位日本人來得安排翻譯... XD
+14:31              jserv-- 終於從醫院回家休息～
+14:31 <     tonyq> 我們這邊是有一個英文講的比中文流利的 XD
+14:31 <     tonyq> 香港人
+14:31              jserv-- 睡前聽 zonble 的演講 XD
+14:31 <   macpaul> 沒錯反解好像有問題
+14:31 <     tonyq> 第二會議廳結束了
+14:33 <   macpaul> ronnywang 感謝 SG的分享～～
+14:33 <   jserv--> 喔，有關鍵字
+14:33 <    BlueT_> au: room1 不是 luaJIT 嗎？ # 15:15  * au 很想去聽 c9s 但得待在 room1 準備根據 node.js 的內容改簡報
+14:33 <        au> er sorry
+14:33 <        au> room0
+14:34 <        au> NodeJS
+14:35              BlueT_ room0 also
+14:36 <        au> 意外的是用 wifi 上傳新簡報到 ethercalc.tw 還滿快的
+14:36 <  jeffhung> au: 可是 download 好像都很慢。
+14:36 <        au> 對，一般是相反的情況
+14:36              Singing is listening to: " - "
+14:37 <   hcchien> jserv--: 還好吧
+14:37 <     lin4h> 嗝
+14:38 <     Jedi_> au~
+14:38 <        au> ~Jedi_
+14:38 <     Jedi_> :D
+14:38 <     lin4h> (來這邊真的是不斷的吃吃吃~~)
+14:39 <  brianhsu> 國際會議廳的 Node.js 快要開始囉
+14:39 <  ChAndrew> Node.js 即將開始
+14:39 <      Deva> 第一天跑場有位子可以坐. 
+14:41 <   hcchien> room0 看來人還是滿多的
+14:41   tonyni___  is now known as tonyni
+14:41 <   hcchien> 另兩間開始了嗎
+14:42              mrmoneyc r0
+14:42 <       in2> r2 開始了
+14:42 <  NepTunic> r1剛開始
+14:43 <     lin4h> 傻了
+14:43 <     lin4h> 現在才發現到
+14:44 <     lin4h> r0這位是我高中同學
+14:44 <   hcchien> .....
+14:44 <  keitheis> python 差點舉不出個所以然來
+14:44 <  king1223> 0.
+14:44 <  keitheis> r1
+14:45 < legnaleur> xpud!
+14:45 <  mrmoneyc> 講到 xpud 才想到今天好像沒看到 penk
+14:45 <  NotExist> http://ieon.pixnet.net/album/photo/121590920
+14:46 <  NotExist> pixnet SG
+14:46 <  keitheis> Lua 就是沒有任何缺點的 javascript...
+14:46 < ronnywang> PIXNET SG 也在看著 IRC
+14:46 <   hcchien> NotExist++
+14:46 <       in2> PIXNET_SG: 妳好可愛喔 >_^
+14:46 <   hcchien> ronnywang: 所以要問他什麼時候排外拍的意思？
+14:47 <   hcchien> in2: lmao
+14:48 <      lynn> Lua 就是沒有任何缺點的 javascript...?
+14:49 <     tonyq> javascript 唯一的缺點就是它被拿來作太多事情了
+14:49 <     tonyq> Lua 剛好就沒有這個缺點
+14:49 <     tonyq> (Just kidding)
+14:49 <        au> . o O ( CoffeeScript 就是少掉很多標點的 javascript? )
+14:49 <        au> (MoonScript 就是沒有任何標點的 Lua...)
+14:49 <     gugod> c9s slide 上的數字都寫很清楚，然後嘴巴上講 *大概*
+14:50 <     darkx> XDDD
+14:50 <     tonyq> XDDD
+14:50 <   aar0ntw> XDD
+14:50 <   hcchien> 寫的時候很確定，講的時候.....時代也變了？
+14:51 < legnaleur> 那不知道會不會有 boost_js XD
+14:51 <    jacter> 問剛剛 自走砲 github 網址 感謝
+14:51 <     orinx> shttps://github.com/mobilogics
+14:52 <     orinx> https://github.com/mobilogics
+14:52 <     orinx> @jacter : 應該是我剛貼的那個
+14:52 <     darkx> c9s rage comic 好多
+14:53 <    jacter> ＠orinx 感謝
+14:53 <  mrmoneyc> XD
+14:53 <  king1223> Lua跟C連接....
+14:53 <    tonyni> NotExist: Good Job!
+14:54 <     jnlin> XDDD
+14:54 <     gugod> 電視的顏色對比真
+14:54 <     gugod> 好
+14:54 <    dryman> Package.xml...XD
+14:54 <     tonyq> 投影幕跟電視的對比也很好 XDDD
+14:54 <    Irvin_> kidwm: 你昨天應該就是碰到這個「debian 的 node」的問題？
+14:55 <       dm4> c9s 不是說不打臉嗎…XDD
+14:55 <     gugod> xml = 20% signal-to-noise ratio
+14:55 <     darkx> 打 php 打很大
+14:55 <   hcchien> gugod: (Y)
+14:55 <    Irvin_> au: 我覺得 coffeeScript 是用 python 在寫的 javascript…
+14:56 <   aar0ntw> 姚明出現了
+14:56 < mikimoto_> hcchien: IRC lag 很大，IRC log 希望 ^^
+14:56 <    dryman> 說好不打臉的XDDDD
+14:56 <     tonyq> 不過 php package 本來就不是顯學吧 XD
+14:56 <        au> Irvin_: 是啊 (還有 Ruby、Haskell、Perl(5/6) 各家的影響)
+14:56 <     kidwm> Irvin_: Fedora上一樣有，只是裝了之後指令叫nodejs，要裝相容套件讓node指令指向nodejs
+14:56 <   macpaul> ieon++
+14:56 <   macpaul> NotExist++
+14:57 <     gugod> c9s 顯然最近寫很多 php
+14:57 <  NotExist> tonyni: ieon owned, 我repost而已 XD
+14:57 <    dryman> 我記得c9s寫了一個php packager 叫onion?
+14:58 <        au> node.js 上其實有 zombie.js 和 jsdom 等瀏覽器模擬器 #room0
+14:58 <     darkx> 果然出來了XD
+14:58 <    dryman> 出現啦～
+14:58 <     clkao> 沒用 coffee script 真的會想殺人
+14:59 < legnaleur> brew search npm
+15:00 <       lzy> 會場的 mac 真是多，從下面往上面一看，一堆發光的蘋果 o_o
+15:01 <    tonyni> 有還有看到一台沒發光的蘋果
+15:01 <   hcchien> 有人看到 thinker 嗎
+15:01 <     lin4h> 沒有像之前facebook那張那麼誇張就是
+15:01 <    tonyni> 結果仔細一看發現是一台 Thinkpad
+15:02 <     Shock> 每個星期四創立方有Node.js聚會
+15:02 <  keitheis> hcchien: 好像看到在 room 1
+15:02 <    jacter> @mikimoto_ 自走砲 beagleboard 部份有opensource 嗎?
+15:02 <   hcchien> 那有人在 room1 可以幫忙看一下嗎  :p
+15:02 <    YChao_> 下面打錯了... XD
+15:03 < legnaleur> 任你督 ...
+15:03 <    Al_Cho> 創立方是好地方！
+15:03 <     Jedi_> NotExist++
+15:03 <  ChAndrew> 創立方是好地方！+1 
+15:03 <     lin4h> +1
+15:03 <   jserv--> hcchien, 現在好多了，只是有點胸悶
+15:04 <     Shock> 創立方＋＋
+15:04 <   Wraecca> ++
+15:04 <  king1223> 請問一下 這裡有人去過台中KDE聚嗎?
+15:04 < mikimoto_> jacter: 會，但是還沒整理好，過幾天應該會放上去
+15:05 <     darkx> jserv--: 保重阿 O_o
+15:05 < mikimoto_> jserv--: 剛剛聽到你的消息，保重
+15:08 <   macpaul> c9s live demo
+15:08 <  mrmoneyc> 咦？r0 的 session 有更動？
+15:09 <  mrmoneyc> oops .. 看到測試投影的畫面嚇到
+15:10 <     jnlin> phpbrew 
+15:13 <     tonyq> 第二會議廳結束
+15:13 <     tonyq> c9s++
+15:13 <     jnlin> c9s++
+15:15 <    BlueT_> jserv--: 保重呀 Orz
+15:17 <    BlueT_> tonyni: 沒發光的蘋果，是在 romm0 面對講台左邊第三排的嗎 XD
+15:19      sct99m  is now known as carlcarl
+15:21 <    BlueT_> NotExist++ # 15:35 < NotExist> http://ieon.pixnet.net/album/photo/121590920
+15:22 <     lin4h> 真的會胖...
+15:22 <    BlueT_> 真的滿正的...
+15:22 <    BlueT_> 而且看起來竟然是用 scrren + irssi 上 IRC?!?! *驚*
+15:25 < freedomtw> hcchien: thinker 在第一會議室
+15:26 <   hcchien> freedomtw: 搞定了，謝謝
+15:26 <  NotExist> BlueT_: 真的
+15:28 <      obra> it's not the same without ingy here
+15:29      lin4h_  is now known as lin4h
+15:30 <     darkx> 唐鳳！
+15:30 <     lin4h> = =他跟wikipedia有啥關係？
+15:31 <    YChao_> @jserv--: 保重！
+15:31 <      a2n_> 唐鳳說話好快
+15:31 < lindsayra> 唐鳳開講!!!
+15:31 <    BlueT_> 哪個網址？
+15:32 <     Sorry> 速度快到無法紀錄 QQ
+15:32 <  jeffhung> 高科技的黑板
+15:32 < salagadoo> "高科技黑板" "高科技板擦"
+15:32 <    BlueT_> NotExist: 他自己的電腦？！
+15:32 <  NotExist> 高科技的 黑板跟板擦
+15:32 <     darkx> http://ethercalc.tw/
+15:32 <  mrmoneyc> BlueT_: http://www.aosabook.org/en/index.html
+15:32 < salagadoo> 1977
+15:32 <  NotExist> BlueT_: 恐怕不是
+15:32 <    BlueT_> obra: how come I don't see ingy? @@
+15:33 <     darkx> google glass?
+15:33 < salagadoo> 這真是太完美了
+15:34 < salagadoo> 別說是一般學校 就連哈佛也沒辦法買這麼多頭戴式顯示器給每一個學生
+15:34 <     lin4h> 這個速度實在會讓人想睡覺
+15:34    hcwei95u  is now known as carlcarl
+15:34 <    Jimmy_> 這位講者其實是饒舌歌手
+15:34 <    tonyni> 聲音有點小，加上高速聲音有點小，加上高速說話... RM0
+15:35 <  NotExist> 有點不清楚
+15:35 < salagadoo> 這就是第一個殺手級應用軟體
+15:35 <     Sorry> 1981 年發生了一件大事，我出生了
+15:35 <  Denir-Li> XD
+15:35 <     Sorry> 啊不是，是 IBM。。
+15:35 < salagadoo> 但是好景不長 我出生了 XD
+15:35 <  NotExist> 不 是IBMPC出生
+15:35 <    dryman> 我出生了XD
+15:35 <     darkx> 別人都不知道的 API 
+15:35 <   aar0ntw> 寫出了只有微軟自己知道的api
+15:36 <     darkx> 現在已經不知道什麼 office 了 XD
+15:36 <     lin4h> = =b講啥啊
+15:36 <    tonyni> 跟周董唱歌有拼
+15:36 < salagadoo> 根本就是換湯不換藥
+15:36 <  NotExist> 根本就是換湯不換藥
+15:36 <    ecilA_> 0.0a
+15:36 <  king1223> 0.0
+15:36 <     darkx> 中毒了
+15:36 <     orinx> 抖抖
+15:36 <    dryman> 好梗好梗XDDD
+15:37 < salagadoo> 用email寄試算表是最痛苦的事情之一
+15:37 <     lin4h> = =bb
+15:37 <  NotExist> (剛剛是說 跟什麼東西比 運算速度一半都不到啊)
+15:37 <    Irvin_> 長輩之所以為長輩就是因為思考速度三倍速，所以講話也是三倍速嗎
+15:37 <     darkx> 好險昨天半夜有先偷看一下簡報，還跟的上 :P 
+15:38 <  NotExist> 很多東西找不到的意思
+15:38    hcwei95u  is now known as carlcarl
+15:38 <   hcchien> 還好我已經習慣他講話的速度
+15:38 <     Shock> wikicalc.pl
+15:38 <     Sorry> 非常適合寫※※的。。
+15:38 <   hcchien> 但還是沒辦法跟上他頭腦的速度，只能怪我媽
+15:38 < salagadoo> 非常適合網頁的語言
+15:39 <  NotExist> 非常適合語言的方式(?
+15:39 <     darkx> 先進的技術把他 POST 出去
+15:39 < salagadoo> 這樣它就會用當時非常先進的技術把它post出去
+15:39 <    BlueT_> 當時的尖端技術！
+15:39 <     darkx> XML！
+15:39 <     Sorry> 當時非常尖端的技術 XD
+15:39 <    BlueT_> .pl !!
+15:39 < salagadoo> 而且如果上千人一起上線的話 這個loading恐怕是永遠也跑不完XD
+15:40 <      a2n_> 10k <td>
+15:40 < salagadoo> 這要怎麼辦 只好打掉重練
+15:40              a2n_ 100k <td>
+15:40 <  Denir-Li> 原地重建
+15:40 <    Irvin_> 都更了
+15:40 <  mrmoneyc> 建商XDDD
+15:40 <    BlueT_> 找了一個建商 XD
+15:40 <    Conrad> 都更!!
+15:40 <    hrs_r0> XDD
+15:40 <     darkx> 原地重建！
+15:40 < salagadoo> 要怎麼原地重建 他就去找了建商.... 不對! XD
+15:40 <     Sorry> 怎麼原地重建呢？他就去找了一個建商。。
+15:41 <    BlueT_> 所以就相信的他
+15:41 <  NotExist> <td>ˆ10
+15:41 <  NotExist> 相信我之術
+15:41 <    Irvin_> cache住→$住
+15:41 <    BlueT_> 就 'cash' 住
+15:42 <      ieon> gasol: 快出來抽煙
+15:42 < salagadoo> 所以他不是http server, 他根本就是ftp server
+15:42 <  NotExist> 他舌頭為何都不會打劫
+15:42 <    BlueT_> 不是 http server 是 ftp server XD
+15:42 <     darkx> crash （誤
+15:42 <     Sorry> command pattern
+15:42 <     darkx> 先進！
+15:42 <     gasol> ieon: 等等，正精采的...!!
+15:42 <     gasol> ieon: 速度快到沒辦法理你了...
+15:42 <      ieon> 痞客邦網路線到貨了...
+15:42 <  king1223> OAO
+15:42 <  allan914> ieon++
+15:42 <  king1223> 可以去拿了??
+15:42 <     lin4h> OAO
+15:42 <     orinx> 網路線 !!
+15:43 <  king1223> 網路線!!
+15:43 <   hcchien> NotExist: 因為 rehearsal 過很多次
+15:43 <     Sorry> 複雜細節請自行看書
+15:43 <    BlueT_> 抽煙要揪呀！
+15:43 <  jeffhung> 犧牲了許多工程師
+15:43 <       in2> 今天早上從 pchome 24h 下單的嗎? XD
+15:43 <  NotExist> hcchien:  太令人感動了
+15:43 <     lin4h> @in2 XDDD
+15:43 <    Irvin_> 正精彩+1
+15:43 <  king1223> XDDDD
+15:43 <     gasol> BlueT_: 大大要來一根嗎...
+15:43 <    Conrad> 網路線!!
+15:43 <    Irvin_> 聽完再去還有沒有剩啊
+15:43 <     Sorry> 在試算表按讚就跟他交個朋友
+15:43 < salagadoo> 你看到別人按了你的試算表讚 你就可以去follow他~
+15:43 <    BlueT_> 看了他的試算表就可以 friend 他 XD
+15:43 <     darkx> socal
+15:43 <  king1223> 早上去寫現在可以拿網路線嗎?
+15:44 <     Sorry> 工欲事其善，必先棄其利
+15:44 <  NotExist> 工欲事其善 必先棄其利
+15:44 <  jeffhung> GPL = C++
+15:44 <  mrmoneyc> 除了 C 之外，還有 C++
+15:44 < salagadoo> 當然 除了c之外 還有c++
+15:44 <    BlueT_> gasol: 洨蒂有榮幸幫^H跟大大哈一根嗎？ *羞*
+15:44 <    BlueT_> ASP 漏洞 XD
+15:45 < salagadoo> 這個不是微軟的那個asp漏洞 雖然他確實有很多漏洞
+15:45 <     gasol> BlueT_: where are you, 這場結束，take a break一下?
+15:45 <    Irvin_> Affero GPL
+15:45 <     darkx> 這就是為什麼沒人再用ｍｅｒｇｅ
+15:45    gh40402_  is now known as gh40402
+15:45 <    BlueT_> gasol: room0 左邊地三排
+15:45 <  mrmoneyc> 這就是為什麼沒有人用 Affero GPL ..XD
+15:46 <    BlueT_> CPAL
+15:46 <  Denir-Li> 犧牲了許多律師 XD
+15:46 < salagadoo> 以及犧牲了許多律師的折衝之後 
+15:46 <    Irvin_> Palm Pilot
+15:46 <     darkx> 這是我完全不懂的科技
+15:46 <  mrmoneyc> 本來今天應該坐在這裡的，可是班機延誤XD
+15:47 <    BlueT_> OLPC Mech 網路
+15:47 <    BlueT_> 一離開教室就斷網了
+15:47 <  keitheis> BlueT_: XD
+15:47 <     gasol> BlueT_: sure...你在我附近而已，等下去找你...
+15:48 <    BlueT_> 必須同時開啟所有試算表
+15:48 <    BlueT_> 這一端很多笑點 打不完
+15:49 <    BlueT_> long hair comet
+15:49 <    dryman> clkao XDDDDDD
+15:49 <      lynn> 講很多...都沒有講到重點...
+15:49 <       in2> 不不, 這才是重點 XD
+15:49 <     darkx> XDDDDDDD
+15:49 <  miyagawa> love how 事件駆動 translates into event driven 
+15:49 <    BlueT_> lynn: 『今天講故事，不講程式』
+15:49 < CindyLinz> 很重的笑點?
+15:49 <    tonyni> 主講者講笑話時自己也爆笑就聽不懂了
+15:49 <     darkx> 感覺這很像 google 表單?
+15:50 < salagadoo> 當你進聊天室的時候 如果有100個人丟log給你 你要相信誰
+15:50 <  NotExist> 這錄影不知道聲音有沒有夠清楚.......
+15:50              BlueT_ is porting Mojolicious app to Tatsumaki
+15:50 <  mrmoneyc> 這次的建商是誰呢？XD
+15:50 <  Denir-Li> 又原地重建 XD
+15:50 < salagadoo> 實在是一個很累的事情 所以只好打掉重練
+15:51 <    BlueT_> miyagawa++
+15:51 < salagadoo> 看水晶球xd
+15:51 <  mrmoneyc> 劣即是夯XD
+15:51 <  Denir-Li> XD
+15:51 <    hrs_r0> 我開始相信你了
+15:51 <      lynn> 好不容易講到重點了... 30秒結束...=.=
+15:52 < salagadoo> 我本來以為是javascript 2.0, 不過他被和諧掉了
+15:52 <  NotExist> 本週工作-15K行
+15:53 <      lynn> 應該留在會議廳的說...
+15:53 < salagadoo> 後來我才發現有線上翻譯機 我完全是白做這些工
+15:53 <    YChao_> 我也選錯演講廳... XD
+15:53 <     darkx> 你看，寫起來跟 haskell 多像
+15:53 < kaochenlo> 那個logo XD
+15:54 <  mrmoneyc> logo++
+15:54 <    tonyni> 太久沒碰 haskell 了
+15:54 <    dryman> functional coffeescript 正夯？
+15:54 < salagadoo> 所以說 我就在底下拼命寫程式
+15:55 <    BlueT_> Redis++
+15:55 <     darkx> 其實當年 asp 也做過
+15:57 <    dryman> REST太威...
+15:57 < salagadoo> 所以你其實也不用把它當一個編輯器 也可以把它當成一個計算引擎
+15:59 <  miyagawa> 我很困
+15:59 <     tonyq> 會議室二結束
+16:00 <     tonyq> 剛在講精誠的 etu  如何設計 hadoop 架構解決電信業者資料收集 的議題跟其中的挑戰
+16:03 <  chitsaou> 大遷徙
+16:03 <     Jedi_> 嗚嗚，好像很精采
+16:05 <        au> 抱歉聲音太小，下次會改進 ^^;
+16:05      lin4h_  is now known as lin4h
+16:06 <  ddsakura> http://www.slideshare.net/ddsakura/cocktails-shaken-not-stirred-osdctw 今早第二場的 slide 請享用 :)
+16:06 <        au> lin4h: 我在 Socialtext 和 Apple 和 Wikimedia Foundation 上班啊
+16:06 <     Shock> r1一開門...
+16:06 <      Deva> au : Good Job. 這是今天最好聽演講之一
+16:07 <      Deva> r1 全爆。我排在第一順位進去
+16:07 <  mrmoneyc> r1 爆滿 -_-
+16:07 <    YChao_> 喔喔喔...一堆人殺進來了...
+16:07 <        au> Deva: 感謝 m(__)m
+16:07     ccchiu_  is now known as ccchiu
+16:07 <    tonyni> rm1 爆炸了
+16:08 < salagadoo> 就看到一條人龍從國際會議廳殺到r1
+16:08 < freedomtw> 這幾年 Thinker 的場子從來沒有這麼多人過!!!
+16:08 <     Shock> R1出現好折凳！
+16:09 <  ddsakura> 有人自備好折凳!!
+16:09 <  NepTunic> 自帶好折凳的勇者
+16:09 <     Ray__> 媽我上電視了
+16:09 <  ChAndrew> 走道也站滿人！
+16:09 < wwwwwwwww> ^O^ \~/
+16:09 <    YChao_> xpdf...
+16:09 <     darkx> 媽我在這~
+16:09     jaceju_  is now known as jaceju
+16:09 <   hcchien> freedomtw: 這句話好辛酸   # 這幾年 Thinker 的場子從來沒有這麼多人過!!!
+16:09 <    ccchiu> @@
+16:09 <     jnlin> hcchien: ping
+16:09 <    dryman> 媽我在這～～
+16:09 <       in2> gugod 好帥~!
+16:09 < FourDolla> 做網頁前端的都進來了嗎？
+16:10 <    Kin_Lo> woooo!!!!
+16:10 <      lynn> 第一間爆滿
+16:10 <   macpaul> 喵
+16:10 <     Shock> html5正夯
+16:10 <  keitheis> 這就是 html5 + app + web + thinker 的題目啊
+16:10 <     orinx> 第一會議室大爆滿 XD
+16:10 < wwwwwwwww> 哺嚕~
+16:10 <  keitheis> 喔，對，mozilla
+16:10      hrs_r0  is now known as hrs_r1
+16:11 <    YChao_> B2G++
+16:11 <   hcchien> 直接開始吧
+16:11 <   hcchien> rofl
+16:11 <       in2> hcchien: gugod 問你在哪
+16:12 <  ChAndrew> 「這場原本是要由Timdream來講.........」 XD
+16:12 <    jaceju> 代打這事怎麼跟某場好像？
+16:12       jeff_  is now known as Guest84701
+16:12 <     adaam> 會議室這邊少好多人
+16:12 < salagadoo> event-driven 重要的只有這兩個字: "event-based" "flow"
+16:12 <       lzy> 不知道有沒有一百人 ...
+16:13 < lindsayra> 第一會議室後面滿滿滿
+16:13 <  ddsakura> Timdream 呢?
+16:13 <  king1223> @lzy: ??
+16:13 <   hcchien> ddsakura: 出差爽了
+16:13 <  king1223> 國際會議廳人好少
+16:13 <      Deva> r1 聽的人數= r0  規模人數
+16:13 <   hcchien> 好吧，我承認我沒想到這麼多人   XDD
+16:13 <  king1223> r2人很多嗎?XD
+16:14 <       in2> r2沒人站著, 差不多坐滿吧?
+16:14 <     jnlin> r2 還有一些空位
+16:14 <  carlcarl> 0.0
+16:15 <  king1223> 剛剛他們不讓我拿網路線Orz
+16:15 <  tomjpsun> r2 is about 90% full
+16:15 <  king1223> 下午填的人才有= =
+16:15 <      Deva> 網路線, 上午我有填
+16:15 <     crboy> hihi
+16:16 <  allenown> crboy: hi
+16:16       crboy  is now known as CrBoy
+16:16 <  king1223> @Deva: 所以你有拿到嗎?
+16:16 <   hcchien> r2 應該有 95% 吧
+16:16 <  ddsakura> @hcchien XDD
+16:16 <     orinx> nyannyannyan
+16:16 <    hrs_r1> nyanyanyan
+16:16 <  mrmoneyc> nyancat ...
+16:16 <  chitsaou> nyannyan
+16:16 <    YChao_> nyan nyan nyan...
+16:16 <     darkx> 俗稱 CrBoy 的畢神出現了！
+16:16 <  king1223> wwwwww
+16:16 <   hcchien> 這樣 r0 好像太空了
+16:16 <  carlcarl> nyannyan
+16:16 <  chitsaou> mozilla 的傳單有 web nyan
+16:16 <    YChao_> 剛剛還打不開門... XD
+16:16 <     CrBoy> darkx: 你是@@?
+16:17 <  ChAndrew> 有人手機響想衝出去，結果門鎖住XD
+16:17 <  king1223> r0真的超空的Orz
+16:17 <      Deva> 拿到了. 
+16:17 <     darkx> 聚乳酸 @ plurk :P
+16:17 <  ChAndrew> 小畢出現了！
+16:17 <      Deva> r1 demo 想想，這個很有殺手級應用等級
+16:18 <     jnlin> anyevent!
+16:18 <    hrs_r1> XD
+16:18 <     orinx> we are sorry XD
+16:18 <  carlcarl> XD
+16:18 < legnaleur> never live demo
+16:18 <     darkx> rxvt!!
+16:18 <    tonyni> 超多分頁
+16:18 <  ChAndrew> Error
+16:18 <    tonyni> 跟我一樣，完全就靠分頁過活
+16:19 <    YChao_> 這時候bar tab就很重要了...
+16:19 <  mrmoneyc> 應該不會有人的瀏覽器 tab 比 BlueT 多 ...XD
+16:19              mrmoneyc flee
+16:19 <     CrBoy> darkx: ok
+16:19 <  carlcarl> firefox 選開啟不讀其他頁就可以了吧
+16:19    mrmoneyc  is now known as medicalwei-m6c
+16:19 <     orinx> mrmoneyc ++
+16:19 < medicalwe> 對不起 >///<
+16:20  medicalwei  is now known as mrmoneyc
+16:20 <    hrs_r1> medicalwei-m6c: nyanyanyan
+16:20 <       c9s> au++ talk 好精彩!
+16:20 <    hrs_r1> 被騙了..
+16:20 <        au> c9s: 謝謝! m(__)m
+16:20 <  king1223> BlueT大大的分頁XDDD(worship)
+16:20 <  mrmoneyc> hrs_r1: 那是他本人沒錯 XD
+16:20 <       c9s> 看來要著手寫 coffeephp 了... XDDD
+16:20 <    hrs_r1>  ....
+16:20 <  mrmoneyc> c9s++
+16:20 <        au> 衝啊 XD
+16:20 <    tonyni> au 那場的內容真的很好
+16:20 <     jnlin> c9s++ # 16:20 < c9s> 看來要著手寫 coffeephp 了... XDDD
+16:21 <    BlueT_> au: 啊啊還有 Apple 喔？ XD
+16:21 <  mrmoneyc> (medicalwei) coffeephp++
+16:21 <        au> BlueT_: 是啊，可是我在 apple 管的是 backend perl 和 icu 部份，所以也有 open source
+16:22 <     Jedi_> 完蛋了，我現在看到 icu 只想得起加護病房
+16:22 <        au> XD
+16:22 <  NotExist> Jedi_: 大濕職業病
+16:22 <     Jedi_> T_T
+16:22      mp607_  is now known as mp607
+16:24 <    BlueT_> mrmoneyc: 靠, 在 r2 也中槍 # 17:09 < mrmoneyc> 應該不會有人的瀏覽器 tab 比 BlueT 多 ...XD
+16:24 <    BlueT_> au++
+16:24 <     jnlin> XD
+16:24 <    Irvin_> mrmoneyc +1
+16:24 <    BlueT_> CrBoy 上台？where? @@
+16:25 <    BlueT_> au: 太酷了。不過 Apple backend perl 是說他們網站？
+16:25 <    BlueT_> au: icu?
+16:26 <    crboy_> BlueT_: 我哪有上台@@
+16:26 <    BlueT_> crboy_: 那怎麼會提到你 @@
+16:26 <  mrmoneyc> intense care unit
+16:26      crboy_  is now known as CrBoy
+16:26              BlueT_ 沒讀書
+16:27 <     CrBoy> BlueT_: 我現在是舉牌妹^H小弟XD
+16:27 <  mrmoneyc> CrBoy: HI, 畢妹
+16:28 <    BlueT_>   CrBoy: HI, 畢妹
+16:28 <     CrBoy> mrmoneyc: Hi, bitmap.
+16:28              BlueT_ sitting next to miyagawa 
+16:29 <    BlueT_> mrmoneyc: 應該不是吧...||| # 17:16 < mrmoneyc> intense care unit
+16:29 <  mrmoneyc> BlueT_: 不是呀
+16:29              mrmoneyc 雙人共用帳號狀態
+16:30              mrmoneyc 喵
+16:30 <    BlueT_> mrmoneyc: 合體獸
+16:30 <     CrBoy> mrmoneyc: 你是雙修狀態？XD
+16:30 <  mrmoneyc> =w=
+16:30 <  ChAndrew> 唉油
+16:30 <     orinx> mrmoneyc : 你們 :$
+16:31              mrmoneyc (mwei) 電腦丟 WoFOSS
+16:31 <    hrs_r1> B)
+16:31 <        au> BlueT_: libICU, unicode processing
+16:31 <      roga> au: 剛剛的 talk 很精采 !!
+16:32 <    BlueT_> wow
+16:32 <        au> 很底層的東西, 只占教 Siri 講中文的極小一部份
+16:32 <        au> roga: 謝謝!
+16:32 <      roga> <-- 專心聽 talk 現在才開始番 irc log 
+16:32 <  jeffhung> au: siri 中文辨識是 apple 自己做，還是找廠商？
+16:32 <    BlueT_> au: 酷。
+16:33 <     CrBoy> 哭哭沒有irc log
+16:33 <        au> jeffhung: 整家公司買下來 (SRI International)
+16:33 <    BlueT_> CrBoy: 不是有掛機器？
+16:33 <        au> 所以算自己做
+16:33 <    BlueT_> XDDDDDDDD
+16:33 <  momofarm> au: 那家國防部不要的廠商?
+16:33 <        au> (SRI 之前沒人力練中文 model)
+16:33 <    BlueT_> 整家公司買下來++
+16:33 <        au> *nod*
+16:34 < freedomtw> 鴉雀無聲
+16:34 < freedomtw> 被 Thinker 嚇呆了
+16:34 <  momofarm> 有人聽clkao的trade session嗎?
+16:34 <     CrBoy> BlueT_: 很晚才上來...而且我也忘記有沒有開log了XDDD
+16:35 <    BlueT_> freedomtw: 被 Thinker 的什麼嚇呆？
+16:35 <  momofarm> 想去聽 可惜在趕東西....
+16:35 <    BlueT_> momofarm: 我待會會聽 clkao 的
+16:35 <    dryman> 如果可以用AnyEvent來寫BBS爬文機器人不知道會有多棒...
+16:35 <      roga> osdc 這種場合嘛.. 一早起床先就開始掛 screen + irssi 就對了
+16:35 <  momofarm> BlueT_: thanks, 幫我問他資訊廠商界接是哪家的  :)
+16:35 <    BlueT_> CrBoy: 我的機器可以讓你掛，要嗎？
+16:35 <  jeffhung> au: 所以看起來會是簡中鮮友囉？
+16:36 < freedomtw> 剛剛 Thinker 問有沒有問題, 大概有三十秒的 silence
+16:36 <     CrBoy> BlueT_: 目前沒差啦 我現在有機器
+16:36 <     CrBoy> 只是沒有之前的log XD
+16:36 <     CrBoy> roga: 不是大會前一週就要開始掛在上面嗎XD
+16:36 <    BlueT_> CrBoy: oh 好那晚點可以給你
+16:37 <      roga> XDD
+16:37 <     CrBoy> BlueT_: Thanks!
+16:37 <  Denir-Li> r0 結束了
+16:37 <     jnlin> AnyEvent::Worker 好用
+16:39 <  jeffhung> 先有XD
+16:39 <     darkx> http://search.cpan.org/dist/AnyEvent-Plurk/lib/AnyEvent/Plurk.pm  AE::Plurk XD
+16:39 < CindyLinz> 「寫得非常漂亮, 但是非常難讀」
+16:39 <    BlueT_> CrBoy: dcc 給你今天的了
+16:40 <        au> node.js 可以用 fiber + node-promise
+16:40 <     CrBoy> BlueT_: 嚇死我 你這句話出現瞬間我手機振動....XD
+16:40 <        au> 或是用 IcedCoffeeScript 做 await/defer
+16:41 <        au> 意思一樣
+16:41 <     CrBoy> BlueT_: dcc?
+16:41 <    BlueT_> fiber++
+16:42 <        au> threads_a_gogo++ # pure kernel threading in node
+16:42 <    BlueT_> CrBoy: irc /dcc
+16:42 <    BlueT_> au: 有看妳上次噗浪講的阿哥哥 XD
+16:42 <     darkx> clkao 上場！
+16:43 <        au> jeffhung: 我真的不知道簡中和繁中會不會同時出... (而且即使知道也是 #NDA 範圍 XD)
+16:43 <    BlueT_> XD
+16:43              JasonLin slaps ypcat around a bit with a large trout
+16:44 <    BlueT_> 有個 ruby programmer 來找 miyagawa 問 coolpad 的事，試著用日文溝通中 XD
+16:44 <   macpaul> clkao的桌面好閃
+16:44              BlueT_ 
+16:44 <    BlueT_> 聽不懂
+16:44 <   hcchien> 好像是我拍的....  XD
+16:46 < pioneerLi>     R0 的 QRCode 有人掃到的話可以丟上來嗎, 謝謝:)
+16:47 <      Deva> r0 qrcode: http://trendmicro.github.com/tme/ 
+16:48 <      Deva> r0 40% 
+16:50              miyagawa needs some caffeine 
+16:50      hrs_r1  is now known as hrs_r2
+16:50 <  jeffhung> 真的簡單到靠杯
+16:51 <     mhsin> 簡單到靠杯  XD
+16:51 < pioneerLi> Deva: Thank you 
+16:51 <     Irvin> R1開始了
+16:52 < salagadoo> 一秒鐘幾十萬!
+16:52 <      Deva> 請問 r2 主題在講什麼？
+16:52 <     tonyq> test
+16:52 <  jeffhung> s/開場/暖場/ # 才對吧？！
+16:52 <  NotExist> r2: Auto Trade
+16:53 <       in2> r2 在講自動炒股(?)
+16:53 <    YChao_> 一秒鐘上下幾十萬... 
+16:53 <     tonyq> 剛剛一會太滿了 = =a  坐階梯連個網路都沒有看不到 irc ...
+16:53 <      Deva> 期貨？
+16:54 <    dryman> 人生勝利組
+16:54 < salagadoo> 今天會介紹你要怎麼寫一個策略 然後一秒鐘幾十萬
+16:54 <     Irvin> 發現自動炒股訊息的 toomore 奪門而出衝往 R2
+16:54 <    YChao_> You'll doom to fail... XD
+16:54 <     Sorry> 大萌神！？ (woot)
+16:55 <  mrmoneyc> Irvin++ .. XDD
+16:56 <  ChAndrew> toomore XDDDDDD
+16:56 <     Irvin> mrmoneyc: 趁人不在XD
+16:56 <   macpaul> Gugod 的錄影上傳 1.01GB 只花了 3min
+16:57 <    BlueT_> Deva: TradeSpring
+16:57 <   hcchien> macpaul: au 的呢
+16:57 <   macpaul> macpaul 我沒有在 au 那一場阿阿阿阿阿阿阿阿阿阿阿阿阿阿阿阿阿阿阿
+16:58 <    YChao_> 有技巧的賭博
+16:58 <    YChao_> Mote Carlo simulation
+16:58 <   macpaul> 中控室不是都會錄影嗎？XD
+16:58 < salagadoo> ㄟ.. 電視好像不能用.... 電視不會反光耶 (雷射筆失敗XD
+16:59 <   macpaul> 可以用Samsung的sPen指投影片嗎？ ＊誤＊
+16:59 <        au> ethercalc.tw 上有內嵌十倍速 video XD
+16:59 <     mhsin> 這兩場應該合作一下：用 TME 雲端炒股  （誤）
+16:59 <        au> macpaul: Samsung 當然要用 Galaxy Bean 手機直接投影 (大誤)
+16:59 <        au> *Beam
+16:59 <       lzy> rename 成 TMD 控股 (誤
+16:59 <    BlueT_> invoker.pm
+16:59 <        au> use methods-invoker; # 請愛用
+17:00 <    BlueT_> methods-invoker.pm
+17:00 <   macpaul> (大XD)
+17:00 <  NotExist> 畢竟是賺錢的工具 只要打$是很合理也很合乎邏輯的
+17:00 <     darkx> coffeeperl
+17:00 < salagadoo> "某種 coffee perl"
+17:00 < FourDolla> Coffee Perl 
+17:00 <     Sorry> 這樣你寫的 code 就會像 coffee script...是嗎？XD
+17:00 <     adaam> r0 有雞叫聲!
+17:00 <   macpaul> 進行一個下單的動作
+17:01    tonyni__  is now known as tonyni
+17:01 <  mrmoneyc> adaam: 剛剛 r1 有 nyancat ..lol
+17:02 <  miyagawa> any recommendations on a wifi+power cafe around 忠孝新生駅?
+17:02 <   macpaul> miyagawa brown coffee?
+17:02 <  miyagawa> taxi-able distance would be fine too. I may have to hack/work on slides till midnight
+17:02 <     lin4h> Mr. Brown ?
+17:03 <  miyagawa> mrmoneyc: lin4h: looking
+17:03 <     Sorry> 「時間點是什麼時候呢？Talk 結束再告訴你們」（賊笑）
+17:03 <  brucehsu> session 5566 created; use port 7788. XDDDDDDD
+17:03 <     Irvin> miyagawa: BurgerKing at 八德路
+17:04 <  miyagawa> Irvin: burgerKing has wifi + power? 
+17:04 <     lin4h> @miyagawa http://g.co/maps/tepp5
+17:04 <  brucehsu> message示意圖：人型蜈蚣XDDDDD
+17:05 <  NotExist> 八德路上是不是有兩家BK啊
+17:05 <      obra> miyagawa: sadly, my best rec around there was trilobite. but they're closed forever
+17:05 <    YChao_> 看你願意虧損多少...
+17:05 <  NotExist> 一家在光華 一家遠一點？
+17:05 <     lin4h> BK的網路是接中華的吧？
+17:05 <     Irvin> miyagawa: Its special one near 光華商場 every seat with iPhone Speaker too
+17:05 < pioneerLi> @miyagawa  you have to apply for a free wifi account
+17:06 <     Irvin> BK用wifly而且特別是免費的
+17:06 < pioneerLi> @miyagawa Not So Sure about the power
+17:06 <       hlb> miyagawa: coffeelab http://g.co/maps/deqf9
+17:07 <        au> coffelab 周末只到 8pm?
+17:07 <    BlueT_> Monte carlo?
+17:07 <       hlb> ah
+17:07 <        au> (不確定)
+17:07 <  miyagawa> what about Mucho mucho?
+17:07 <       hlb> miyagawa: mucho mucho has great coffee too.
+17:07 <        au> BlueT_: 隨機取樣模擬測試法
+17:07 <  miyagawa> i wonder what time they close
+17:08 <        au> miyagawa: 12noon to 0am
+17:08 <  miyagawa> ok that works 
+17:09 < pioneerLi> Some say that they close at 2am on weekends
+17:09 <     Sorry> 「有時候你會發現你的策略都是禮拜三輸的...那禮拜三就不要做啊 XD」
+17:10 <     mhsin> 字太小 + 綠色  orz
+17:10 <     Irvin>  miyagawa: i think you have to had an mobile to receive the free wifi password in BK
+17:10 <  miyagawa> Irvin: oh yeah
+17:10 <  NotExist> 那個圖只是個demo吧
+17:10 <  miyagawa> Irvin: i have 中華電信 SIM card but it's data only, can't receive SMS
+17:11 <    tonyni> RM1 透過網路放投影片... 慘...
+17:11 <     mhsin> jeffhung: 打個 pass 給 Scott？
+17:11 <    BlueT_> Irvin: 要再當地申請，還視線在就能申請？
+17:11 <    tonyni> 翻頁每次 5 秒以上
+17:11 < pioneerLi> https://www.wifly.com.tw/WiflyLogin/BurgerKingLogin.aspx
+17:11 <  jeffhung> mhsin: ipad 改設定應該很麻煩，大概沒解了。XD
+17:11 <  NotExist> miyagawa: you may ask someone there to have one account?
+17:11 <  miyagawa> right
+17:12 < salagadoo> TradeSpring 這邊的雷射筆沒電了
+17:12 <     Irvin> BlueT_: 上面那個網址就可以申請了XD 
+17:12 <     darkx> you can apply an account from the url pioneerLike gave
+17:12 <   hcchien> 515 cafe is close to mucho mucho. 10am to 0am.
+17:12 <    BlueT_> 每隻手機門號僅限申請1組帳號，請牢記您的帳號密碼，若遺失帳密請洽客服專線並須提供當初申請基本資料以茲核對
+17:13 <    BlueT_> miyagawa: I'm allying the account/password for you
+17:13 <    BlueT_> s/allying/applying/
+17:13 <  miyagawa> BlueT_: already got one, no problem :) 
+17:13 <    BlueT_> miyagawa: (Y)
+17:15 <     darkx> 宗教信仰 XD
+17:15 <    BlueT_> bcoz Perl Rocks!
+17:15 < salagadoo> "好像是做這件事不錯 可是我不想用perl的樣子" xd
+17:15 <    YChao_> (LOL)
+17:15 <     darkx> lol
+17:15 <     Sorry> 「Things will fail」
+17:15 <    YChao_> Things will fail...
+17:15 < salagadoo> "做這種軟體一定會fail 尤其是和錢有關的"
+17:15 <     mhsin> 咦這故事好眼熟
+17:15 <     mhsin> Implicit Message Forwarding  XD
+17:16 <  mrmoneyc> TME Irc bot !!
+17:16 <     Sorry> 竟然在 YAPC 問為什麼用 Perl！？（誤）
+17:16 <       lzy> 為啥我開始想會後的活動了 ._.a
+17:17 < salagadoo> Sorry: YAPC XDD
+17:17 <    YChao_> 大家都是會用軟體的人... 不要傻傻的
+17:17 <        au> 「你不理財，財不離你」-- @clkao 名言
+17:18 < pioneerLi> True story
+17:18 <     darkx> pioneerLike:  lol
+17:18 <     Jedi_> (Y)
+17:19 <     mhsin> 字太小了
+17:19 <    kk1fff> 看了 TME 的簡報才知道 iPad 那麼強
+17:19 <  king1223> XDDD
+17:20 < pioneerLi> iPad Live Demo...!!
+17:20 < pioneerLi> 突然發現很厲害XDDD
+17:20 <  albb0920> 神人XDDD
+17:20 <  mrmoneyc> iPad live demo 超強的呀！
+17:20 <  bardiche> !
+17:20 <  mrmoneyc> 媽，我在這！
+17:20 <      roga> 媽 我上電視了
+17:20 <   gh40402> 講者live demo 又帥又強
+17:20 <  king1223> 都上去啦XDDD
+17:21 <     darkx> 偷窺封包XD
+17:21 < salagadoo> "在ec2上面開一個window去取報價" "不過你會發現 他的封包很好解" xd
+17:21 <  king1223> 蘋狗日報
+17:21 <    IKARi_> 封包 科科
+17:24 <     adaam> r0 版號 勝！
+17:24 <   gh40402> 版號 勝XDD
+17:24 <    JanYeh> 版號大勝！三倍多
+17:24 <  mrmoneyc> 版號 (勝) ++
+17:24 <  king1223> 版號勝++
+17:24 <   gh40402> 法輪大法好www
+17:24 < pioneerLi> XDDDDD
+17:25 <  king1223> XDDDDD
+17:25 < legnaleur> gfw
+17:25 < pioneerLi> 輸出技術到中國
+17:25 < pioneerLi> XDDDDDD
+17:25 <     mhsin> akame!
+17:25 <  king1223> Web IDE!!
+17:25 <     adaam> 看到泡麵就餓了
+17:25 <  king1223> 餓了QQ 好好吃的感覺
+17:25 <   gh40402> 統一麵牛肉麵沒牛肉
+17:26 < legnaleur> 意圖使人吃消夜
+17:26 <  king1223> 喔阿 !!真材實料的照片www
+17:26 <  carlcarl> XDD
+17:26 <   gh40402> 看到吃的都醒了
+17:26 <  king1223> XD
+17:27 <  king1223> r0帥哥照
+17:27 <   gh40402> 會議廳結束!
+17:27 <     adaam> r0 over 
+17:28 < pioneerLi> 大家明天見^_<
+17:28              lzy 撤退，徵續攤(?)
+17:30     Irvin__  is now known as Irvin_
+17:36     Irvin__  is now known as Irvin_
+17:38     Irvin__  is now known as Irvin_
+17:43     Irvin__  is now known as Irvin_
+17:54 <    Irvin_> 有誰要去Mozilla還沒上接駁車嗎？
+19:29    bardiche  is now known as BardicheZ
+20:17 <     clkao> zzzz
+20:18 <     clkao> bonus slides 沒用到 乎
+20:18 <      obra> hi
+20:20 <     clkao> obra: ohai!
+20:53           d  is now known as Guest7725
+21:47 <      CYJ_> 1
+21:50 < jnlin_tfn> 2
+21:50 <       in2> 3
+21:50 <       in2> jnlin_tfn: 明天晚餐要一起吃嗎?
+21:52 < jnlin_tfn> in2: 我們要先收東西回公司，收好後看哪裡吃？
+21:52 <       in2> 喔, 我原本想說中研院裡有一家可以吃 XD
+21:52 <       in2> 我們之前好幾次都是去吃那家 @@
+21:52 < jnlin_tfn> in2: 明天結束才 4:30 耶 XD
+21:54 <       in2> 咦, 對耶! XD
+21:54 <       in2> 真早 XD
+22:01 <     clkao> gugod: how's the cafe you go to?
+22:01 <     clkao> in2: 今天去 好像服務人員很少 動作超慢的
+22:02 <    zonble> clkao: 我跟 gugod 過去我才看一眼就決定回家吃 :D
+22:02 <     Jedi_> KD
+22:02 <    zonble> clkao: 因為感覺應該會等很久XD
+22:02 <       in2> XD
+22:02 <       in2> 那明天晚餐怎麼辦 QQ?
+22:13 <    zonble> 根據我在南港工作的心得，嗯
+22:13 <    zonble> 吃飯是一定要離開南港的（茶）
+22:14 <     clkao> 中研院附近最好吃的餐廳是水廣川
+22:14 <     clkao> 不然就去小高玉吧 XD
+22:15 <       in2> 食記：隱藏版的小高玉迴轉壽司 !!!
+22:15 <   cls_bsd> XD
+22:18 <       in2> 隱藏版的聽起來不錯!!
+22:18 <       in2> 可是我們是五點去吃嗎? XD 16:30 就結束了 XD
+22:20              hcchien 喝完喜酒...
+22:21 <       in2> hcchien: 你辦 osdc 還去喝喜酒會不會太拼 @@
+22:22 <     Jedi_> (Y)
+22:30 < jnlin_tfn> (L)
+22:32 < jnlin_tfn> http://www.flickr.com/photos/jnlinn/7076593565/in/set-72157629814286071
+22:33 <       in2> clkao: http://www.facebook.com/photo.php?fbid=412773308737202&set=a.347436431937557.98673.346902505324283&type=1 第一個星期日和第三個星期日公休 orz
+22:35 < jnlin_tfn> in2: 我本來想說本週應該是第二個星期六...沒想到卻是第三個星期日orz
+22:35 <       in2> XD
+22:35 <       in2> 下一家 XD
+22:35 <     clkao> LOL
+22:38 <       in2> 可惡, 我看圖都看到餓了, 公休是哪招 XD
+22:38 <     Jedi_> KD
+22:39 <     clkao> 不然 可以去東湖站
+22:39 <     clkao> 姚記小館不錯
+22:41 <       in2> 週一公休, 這個看起來 ok :p
+22:44 <       in2> 看不出價位多少, 不過反正可以刷卡(?)
+22:48 <     clkao> 吃完可以去 tutti home... 蛋糕很好吃
+22:48 <       in2> 蛋糕很肥!!!!
+22:49 <       in2> 不過玩飛行傘, 不會有懼高症的問題嗎 o_O
+22:50 <       in2> 或是就被風吹走了? O_o
+22:51 < CindyLinz> in2: 不就是要被風吹走嗎?
+22:51 <       in2> CindyLinz: 不會就下不來飛去太平洋或外太空嗎 Q_Q
+22:52 <     Jedi_> ...
+23:30 <     gugod> clkao: 大直的話，還是庫卡咖啡好 :D
+23:46 <     clkao> in2: 我又不懼高... XD
+23:49 <       hlb> in2: 不會
+23:50 <       in2> clkao: 那就可以去上海環球金融中心觀景台!!! http://www.yododo.com/diary/01274BD9BCE41BA8FF8080812749ACB7
+23:50 <       hlb> in2: 我有懼高症 ：D
+23:50 <       in2> hlb: 你也玩飛行傘? @@"
+23:50 <       hlb> in2: 也還是去飛哩
+23:50 <       hlb> in2: 某次帶小丁去找 clkao 飛 :D
+23:50 <       in2> @_@
+23:51 <       hlb> # 隔一週就有人摔山
+23:52 <       in2> 囧
+23:53 <     clkao> ....
+--- Day changed 日  4月 15 2012
+00:26 <   hcchien> 該睡了
+00:47 <     gugod> zzz
+02:47 <    dryman> zzz
+07:12 <  miyagawa> 哈欠
+07:13 <  mikimoto> miyagawa: good morning ^^
+07:13 <  miyagawa> mikimoto: good morning!
+07:39 <    dryman> miyagawa: good morning
+08:54 <  miyagawa> I need a mini display port dongle 
+08:55 <  miyagawa> For MacBook Air. Room 2, 9:40
+08:59 <  jeffhung> r2 要開始了
+08:59 <    BlueT_> it's now "A breif Introduction to 'O'"
+08:59 <   othrees> Kuku
+08:59 <    BlueT_> # C++11
+08:59 <    BlueT_> miyagawa: morning
+09:01 <     CrBoy> r2開始了！
+09:01 < legnaleur> C++ 這場人還滿少的
+09:01 <     kidwm> 天龍國Developer
+09:01 <     CrBoy> 很多人都去 rails 了吧XD
+09:01 <   othrees> 國際會議廳要開始了
+09:01 <   othrees> 這邊人也沒很多
+09:01 <   othrees> 大家都晚起吧
+09:02 <  brianhsu> 國際會議廳開始囉
+09:02 < legnaleur> 字太小
+09:02 < freedomtw> wycc: 想要 home automation, 結果全部失控
+09:02 <     Shock> morning
+09:03 <  jeffhung> C++ p.k. node.js
+09:03 <  jeffhung> 我也沒認出那其實是 C++，而不是 node.js
+09:03 <   hcchien> 每次都說要議程要晚點開始
+09:04 <     CrBoy> Shock: morning
+09:04 <     Shock> 因為你家已經落入我的控制之中
+09:04 <     gasol> Smart Home
+09:04 <     Shock> 我就有瑯可以削了
+09:05 <     Shock> smart這個字本來就是乎弄你的
+09:05 <   kikiqqp> A_Ay 嘿嘿 我也靠這過活 
+09:05 <     Shock> 只要加上smart的東西就一定是笨的
+09:05 <   kikiqqp> 也不是說呼弄
+09:06 <   itsZero> 大家早安
+09:06 <   othrees> You are so smart
+09:06 <    dryman> miyagawa: you can use mine my display port to VGA port
+09:06 <    dryman> I'm at room 2
+09:06 <  miyagawa> Cool, got one from hcchien
+09:06 <  miyagawa> Thanks
+09:06 <    dryman> :)
+09:07 <   kikiqqp> 靠這過活好想吐嘈一下 XDDDD
+09:07 <     Shock> NanoKong VM
+09:08     michael  is now known as Guest89209
+09:08 < Guest8920> 固摸鈴 ~
+09:08 <   kikiqqp> 8K好大 :P 人家只有2K可以用
+09:08 <   itsZero> kikiqqp: WSN 那場嗎？ XD
+09:08 <   kikiqqp> NanoKong VM
+09:09 < legnaleur> 最煩的是各 toolchain 支援的狀況不一樣
+09:09 <     Shock> support mega8 above
+09:11 <      obra> 'morning
+09:11 <      chph> 大家早安
+09:11 <    tonyni> 早
+09:12 <    tonyni> 今天很多人都到的比較晚
+09:12 <  mikimoto> obra: good morning
+09:14 < michael52> 固摸鈴 ~
+09:16 < superbil_> Good morning
+09:16 <   othrees> 啊雷固
+09:17 <  mikimoto> user-defined literals
+09:17 <     CrBoy> 很酷
+09:19 <    jaceju> 人好少…
+09:19 <    jaceju> 投影機越來越糊了...
+09:19 <     Shock> 投影機沒睡飽
+09:19 <     CrBoy> 哪廳？
+09:20 <    jaceju> 國際
+09:20 <   othrees> 睡睡沒吞布丁
+09:20 <    jaceju> 坐第二排看還是糊 (拼命擦眼鏡)
+09:21 <   kikiqqp> Oh NO Code看不清楚
+09:22 <    jaceju> 到時 JSDC 要請主辦單位問一下看能不能換...
+09:22 <   othrees> 內建柔焦濾鏡
+09:23 < kaochenlo> 看來不能用黑底做投影片了
+09:23 <  ChAndrew> R0的投影機不太行
+09:23 <   othrees> 慘了，我全黑底
+09:24 <      roga> R0 還滿清楚的阿
+09:24 <     CrBoy> 感覺R2會delay @@
+09:24 <  ChAndrew> 有要報 Lighting talk 的人要留意一下 R0 的投影問題
+09:24 <   othrees> 難怪 ihower 大大昨天說把投影片都改白底
+09:25 < legnaleur> C++11 的內容太多
+09:25 <     CrBoy> legnaleurc: 我覺得超酷的
+09:25 <     CrBoy> 好好玩
+09:26 < legnaleur> CrBoy: 在 vc 上 bug 還很多就是了 XD
+09:27 <     CrBoy> legnaleurc: 啊？什麼是vc？好吃嗎？XDDD
+09:27 < legnaleur> 像現在的 lambda return notation, 在 vc 沒指定會有問題
+09:27 <     CrBoy> 好突然就......XD
+09:27 < legnaleur> capture list 在 vc 也不能 nested captured
+09:28 <     CrBoy> legnaleurc: nested?
+09:28 <  ChAndrew> 啊？R0差不多要講完了？
+09:28 < legnaleur> CrBoy:  lambda 裡再放一個 lambda
+09:28 <   othrees> 時間到了
+09:29 <     lin4h> @r2 now, QA
+09:30 <     CrBoy> 哭哭 r2 delay...
+09:32              BlueT_ 還沒時間做 lightning talk 的投影片 T_T
+09:32 <     lin4h> #r2 end
+09:33 <   othrees> R0 需要 mini display to VGA 
+09:33 < CindyLinz> 八點四十到南港展覽館站, 等到九點半接駁車才到議場, 第一堂已經結束了... QQ
+09:34 < CindyLinz> 如果知道接駁車會等這麼久的話, 當時應該自己搭公車才對 ~_~
+09:34 < CindyLinz> 不過這種事情都不是一開始能知道的....
+09:36 <    YChao_> CindyLinz: 也是... :~
+09:42 <   othrees> R0 開始
+09:42 <   kikiqqp> 秀逗魔導士 
+09:44 <   cls_bsd> CindyLinz: 有趕上早點嗎？
+09:44 <     jnlin> 筷子!
+09:44 <     lin4h> R2 START>
+09:44 <     darkx> miyagawa!
+09:48              mrmoneyc room2
+09:53 <  ChAndrew> 今天IRC好冷清XD
+09:53 <   kikiqqp> 我恨測試~~~~~ 
+09:53 <       in2> 今天一早來就被 hlb 抗議沒穿女僕裝 QQ 可是也是穿可愛的日系洋裝的呀 Q_Q
+09:53 <   Yontash> o.o
+09:53 <     lin4h> 大概要下午才會比較熱鬧吧
+09:54 <   cls_bsd> 女僕裝看過了啦
+09:54 <     ecilA> 泳裝比較有爆點吧
+09:54 <    dryman> cpanfile++
+09:54 <     darkx> XD
+09:54 <   kikiqqp> 老是女孩子，來個肌肉猛男吧！
+09:54 <     kidwm> in2: 這套看起來是也不錯啦
+09:55 <     jnlin> in2: 對啊你怎麼沒穿女僕裝
+09:55 <       in2> kidwm: 謝謝
+09:55 <       in2> jnlin: 叫你家 SG 穿女僕裝吧 :P
+09:56 <       in2> jnlin: 我之前一直遊說你家 CTO 讓總機妹妹穿女僕裝, 他一直不答應 Q_Q
+09:57 <  ChAndrew> R2 Live Demo
+09:57 <     jnlin> in2: 她無法想像穿女僕裝會長什麼樣子 XD
+09:57 <  jeffhung> 這個字就夠大了。XD
+09:57 <     jnlin> kikiqqp: for 腐女專用!? # 09:54 < kikiqqp> 老是女孩子，來個肌肉猛男吧！
+09:58 <     lin4h> .........
+09:58 <   kikiqqp> 腐女可能比較想看台上BL
+09:58 <     lin4h> @@
+09:58 <    dryman> Gosh carton rocks
+09:59 <  ChAndrew> R2 正中間投影有問題，會跳掉
+09:59 <     lin4h> 電視牆
+09:59 <     lin4h> 又跳了
+10:01 <    dryman> carton對於deploy真是太方便了...
+10:03 < FourDolla> carton++
+10:03 <     lin4h> ++
+10:03 <     lin4h> 電視牆一直跳掉
+10:03 <       in2> jnlin: 那就叫她別想像了 XD 直接 go 吧 XD
+10:06 <     kidwm> lwhsu: 學長你也有來啊，來支持 ronnywang 嘛
+10:07 <     lin4h> R2 QA
+10:08 <       hlb> 工商時間！
+10:08 <     darkx> do you like cooking XD
+10:08 <  ChAndrew> "Do you like cooking?"
+10:09 <     lin4h> 吃早餐！
+10:09 <    YChao_> 我又選錯了... XD
+10:10 <       dm4> miyagawa++
+10:10 <  ChAndrew> miyagawa++
+10:10 <    Al_Cho> YChao_, me2..
+10:11 < FourDolla> miyagawa++
+10:18 <   edwardc> blah
+10:24 <   hcchien> 還有不少 OSDC 2012 貼紙
+10:24 <     lin4h> where?
+10:24 <       df1> 報到處那邊
+10:25 <   hcchien> 報到處
+10:30 <     tonyq> hi all
+10:30 <     tonyq> 國際開始，正在講 functional programming .
+10:30 < kurotansh> +1
+10:31 <     mp607> ++
+10:31 <       in2> live demo multithreading programming!!
+10:32 <   edwardc> never live demo 
+10:32 < kaochenlo> live coding!!
+10:32 <   edwardc> in2: 今天穿這樣看起來超年輕的啦
+10:35 <     lin4h> @r2 ruby+windows = suck
+10:36 <      a2n_> @r0 clean = ^L
+10:36 <      a2n_> @r0 clear = ^L
+10:36 <     darkx> XD
+10:37 <     lin4h> XDDD
+10:37 <  shaojung> XD
+10:37 <  brucehsu> ihower的sample code印出來的是"Transferring all monkey"... XD
+10:37 <   edwardc> XD
+10:37 <   edwardc> Laundering monkey
+10:37 < pioneerLi> monkey
+10:37 <   edwardc> 洗猴子
+10:37 < pioneerLi> XDDDD
+10:37 <  jeffhung> XD
+10:37 <     SamWu> XD
+10:37 <  carlcarl> XDDD
+10:38 <   edwardc> 看來講者都要鋪梗在 source code 內
+10:38 <     darkx> lol
+10:38 <     darkx> 還是 monkey
+10:39 <   edwardc> 好猴子，不洗嘛
+10:39 < kaochenlo> monkey XD
+10:39 <     lin4h> R2 おいおい
+10:39 <     tonyq> monkey XDDD
+10:39 <     jnlin> 優先考慮 pull request
+10:40 <   edwardc> 話說有誰這兩天來這裡上網是掛 VPN full route 的？ XD
+10:40 <     jnlin> ._./
+10:40 <   edwardc> ._./
+10:41 <     SamWu> ._./
+10:41 <     lin4h> 掛VPN幹嘛？
+10:41 <      Sars> ssh tunnel
+10:41 <  executor> ._./
+10:41 <   edwardc> osdc 好像大家都很 nice .... coscup 一整個 hitcon 化 XDDD
+10:41 <   edwardc> lin4h: coscup 都出現 ARP spoofing 了
+10:41 <     lin4h> 喔，昨天也有啊
+10:42 <     jnlin> lin4h: 去年連有線都出現 arp snoofing 了
+10:42 <       in2> edwardc: 謝謝 :P
+10:42 <     lin4h> OOXX的人總是有
+10:42 <  king1223> 0.0
+10:42 <     tonyq> XDDDD
+10:43 <     lin4h> 還好昨天我是走HSPA XD
+10:43 <     tonyq> @KPXX 咦 KP 你有來喔（揮手）
+10:43 <    nfsnfs> 靠手機上網了 :Q
+10:43 <      CYJ_> 所以去年有人專門在抓出來鞭...
+10:43 <   edwardc> (問題發言) 我在 wikipedia 找不到 monkey laundring 的條目
+10:43 <       in2> 3G 應該會被這麼多人塞爆吧 XD
+10:43 <   edwardc> 都有假官方 AP 惹 ...
+10:43 <     jnlin> 這邊 wimax 可以通耶
+10:43 <      KPXX> tonyq: 沒呀, 我只是看到樂豆說不知道channel在哪, 我以為換了...
+10:44 <   kikiqqp> 3G很慢 流量爆炸 
+10:44 <       in2> jnlin: 你有在用 wimax !!
+10:44 <    nfsnfs> 我現在用 3G 還 ok ~ :p
+10:44 <     lin4h> jnlin 哪家
+10:44 <     darkx> ssh tunnel 
+10:44 <   edwardc> 全球一動也不動
+10:44 <  king1223> SAMSUNG也有開AP??
+10:44 <     jnlin> in2: lin4h 全球一動
+10:44 <     lin4h> kikiqqp 昨天其實還好
+10:44 <     tonyq> 噗哧
+10:44 <  mrmoneyc> room 0 的座位表是怎麼回事 .. lol
+10:44 <    BlueT_> XDDDDD
+10:45 <  miyagawa> http://speakerdeck.com/u/miyagawa/p/carton-at-osdctw-2012
+10:45 <  king1223> XDDD
+10:45 <   edwardc> 跪求座位表網址
+10:45 <     jnlin> miyagawa++
+10:45 <       in2> jnlin: 哇 @@ 用起來順嗎? @@
+10:45 <     lin4h> miyagawa THX
+10:45 <  mrmoneyc> https://docs.google.com/spreadsheet/ccc?key=0AqLOSy3AYBWidEdEc1RJcDktd1hqd294dTNlRGpSTEE#gid=40
+10:45 <     darkx> thx
+10:45 <   edwardc> tks
+10:45 <  shaojung> tks
+10:45 <  king1223> thx
+10:45 <     jnlin> in2: 你要問 ieon XD
+10:45 <     darkx> 微軟的朋友在現場XDD
+10:46 <     lin4h> 座位表LoL
+10:46 < coldturni> Haskell 博大精深
+10:46 <       in2> ieon: 推薦使用 wimax 嗎? XD
+10:46 <  chitsaou> XD
+10:46 < CindyLinz> in2: 推荐使用 Haskell !
+10:46 <   edwardc> in2: 你在山上的豪宅可能收訊不好
+10:46 <      a2n_> mrmoneyc: 座位表變成 mincraft :P
+10:46 <     jnlin> RAM 不是問題 XDDD
+10:46 <       in2> CindyLinz: 妳推薦錯東西啦!!
+10:46 <  shaojung> 下個 session 我也要去國際會議廳.
+10:46 <     jnlin> 現場小於 4G 的人請舉手
+10:46 <  miyagawa> hlb++ # minor issue!
+10:47 <     lin4h> 現在都嘛4G+
+10:47 <   kikiqqp> R0的講題讓我想到煙酒所時，天兵同學跟老闆說多核跑的比較快，老闆就買了當時要上萬元的某i 多核心CPU系統。
+10:47 <       in2> 去年買的 notebook 就都上 8G 了啊 @@
+10:47 <   kikiqqp> 但天兵同學做的事理論推導，是不寫程式的呀 orz
+10:47 <     lin4h> 現在標配都嘛4G，然可上8+
+10:48 <   kikiqqp> 。——
+10:48 <   kikiqqp> >__</ 我....2G 
+10:48 <     lin4h> Never LIVE DEMO r2 
+10:48 <   edwardc> 3G是哪三個G (問題發言)
+10:48 <     lin4h> :P :P
+10:48 <     darkx> GG
+10:48 <  shaojung> GGG
+10:48 <  miyagawa> s/NEVER //
+10:49 <  ChAndrew> 「還有10分鐘」「只好 Live Demo」
+10:49 <   kikiqqp> G Cup, Gash, Great!
+10:49 <     darkx> >/////<
+10:50 <   edwardc> Gun Girl Gambling
+10:50 <     darkx> 把迴圈轉成 loop    (.__.)?
+10:50 <     lin4h> GeGeGe  XD
+10:50 <       in2> "編譯器內建把迴圈轉loop"
+10:50 < pioneerLi> XD;
+10:51 < CindyLinz> 內建中翻英的服務
+10:51 <  carlcarl> 聽得懂就好XD
+10:51 <  mikimoto> http://speakerdeck.com/u/mikimoto/p/diy-open-source-osdctw-2012
+10:51 <      a2n_> CindyLinz: ++
+10:51 <     darkx> mikimoto: Thx
+10:52 < happybean> 終於進來了~ XD
+10:52 <  shaojung> 快樂豆早安
+10:52 < happybean> 早安~
+10:52 < coldturni> 早
+10:52 <       in2> JDK8 !
+10:53 <   itsZero> 看起來以後寫 Android 會愉快一點 (?)
+10:53 < CindyLinz> 因為 scala?
+10:53 <   itsZero> CindyLinz: JDK8 的 lambda XD
+10:53 <     lin4h> @@@@
+10:53 < CindyLinz> itsZero: 喔喔 :p
+10:54 < CindyLinz> itsZero: 不過 android 不一定支援 JDK8?
+10:54 <   kikiqqp> 支援和完全支援差很多 XD
+10:55 <     tonyq> 空隔
+10:55 <   itsZero> CindyLinz: 這倒是真的 Orzzz
+10:55 <   kikiqqp> 可讀性會不會變成悲劇
+10:55 <     tonyq> @happybean 樂豆早
+10:55 <       in2> CindyLinz: 這就是為什麼妳要換 android 6.0 的手機
+10:55 <   hcchien> r2 提早五分鐘  
+10:55 <     tonyq> 可讀性是看文化的 像我從來就看不慣method 有問號...
+10:55 < CindyLinz> kikiqqp: tutorial 上面都會寫說, 你可以這樣寫, 但.. dont golfing it!
+10:56 <     gugod> android 哪裡來的 6.0
+10:56 < CindyLinz> point-less 的寫法不適合接得太長 ^^|
+10:56 <   kikiqqp> 最後編譯結果都一樣的話，還是寫的好讀一點好 orz
+10:56 <       in2> gugod: 今年中就會出 5.0 , 明年初就可以買到 android 6.0 啦 ^_^Y
+10:57 <     gugod> 咩
+10:57 < happybean> :tonyqL 早啊~
+10:58 <   edwardc> gugod: !
+10:59 <     gugod> edwardc: 驚歎號是棒鎚
+10:59 <       hlb> 呼
+10:59 <      CYJ_> 還好要結束了，快冷死了QQ...
+10:59 <  king1223> >///<
+10:59 <  mikimoto> http://speakerdeck.com/u/mikimoto/p/diy-open-source-osdctw-2012
+11:00 <       hlb> miyagawa: JaLoremHelpers wanted https://github.com/handlino/FireApp/blob/master/src/webrick/httpservlet/view_helpers.rb#L518
+11:00 <     CrBoy> r0 delay一點點
+11:00 <     CrBoy> r0 over
+11:00 <     tonyq> 國際會議廳結束～
+11:01 <  king1223> ++
+11:02 <     lin4h> r2 進來一大票人
+11:03 < FourDolla> Othree 好威啊~ 吸了一堆人進來~
+11:03 <     gugod> oOo
+11:03 <     lin4h> 還好我今天一直都待在r2
+11:03 <      roga> 好多人從r0轉移到r2
+11:04 <  ChAndrew> O3好強 0.0
+11:04 <     lin4h> roga 學長你在哪？
+11:04 <      roga> hi, lin4h 我在 r0  @_@
+11:05 <     lin4h> XDDD
+11:05 <  miyagawa> hlb: seen https://github.com/sevenwire/forgery ?
+11:05 <  miyagawa> it has loren ipsum and lots of fake data generator :)
+11:06   Guest8377  is now known as snakewu
+11:06 < lindsayra> r2 full
+11:06 <  miyagawa> hmm presenting with an ipad
+11:07 <  jasonmel> ps aux
+11:07 <       hlb> miyagawa++ # good to know
+11:07 <     lin4h> r2 full and ready.
+11:07 <     jnlin> gasol: 你在哪?
+11:07 <     jnlin> r2 好多人
+11:07 <  miyagawa> hlb: we use it with rails + factory_girl to generate fake data in tests
+11:08 < kurotansh> 看到一堆人從 r0 跑到 r2
+11:09 <     lin4h> r2 START!!!
+11:09 < FourDolla> o3 大大~ :D
+11:10 < freedomtw> room 1 人好少
+11:10 < freedomtw> 太難看了!!
+11:10 < coldturni> 來的時候忘記登記便當 orz
+11:10 <       hlb> miyagawa: do you have japanese fake data
+11:11 <    Irvin_> R2人一多網路就爆了
+11:11 <  ChAndrew> Gmail!!
+11:11 <     jnlin> Irvin_: 你沒拿到網路線嗎?
+11:11 <   kikiqqp> 不~~~~~~標題改了！！！！
+11:11 < superbil_> @r0: change title !
+11:11 <    YChao_> 哪裡有網路線可以拿？
+11:11 <   edwardc> pixnet
+11:11 <   edwardc> 還有正咩
+11:11 <       hlb> http://speakerdeck.com/u/hlb/p/fireapp-dead-easy-html-prototyping
+11:12 <    Irvin_> Wunderlist!
+11:12 <   edwardc> 正咩也可以拿 (無誤
+11:12 <     kidwm> miyagawa: Do you have japanese factory_girl?
+11:12 <  ChAndrew> hlb: TX
+11:12 <    Irvin_> jnlin: 我沒拿到，不過自己有帶，剛一瞬間都斷了XD
+11:13 <     gasol> jnlin: 河岸第一排...XD
+11:13 <     jnlin> Irvin_: 沒感覺有斷，大概是上 VPN 的關係
+11:13 <     jnlin> Design Patterns
+11:13 <     jnlin> 深入淺出設計模式
+11:13 <    Irvin_> jnlin 對我覺得也是因為沒掛VPN的關係
+11:13 <    Irvin_> XD
+11:13 <  jeffhung> factory_girl!!
+11:13 <  shaojung> 剛剛投影片有 BUG =,= 10 hr -> 10 min 不是 100x
+11:14 <     lin4h> http://goo.gl/GkI54 剛剛開始之前用手機拍的 XDD
+11:14 <        au> hlb++ # 簡報很棒，Compass.app 附送 Fire.app 真感心
+11:16 <   kikiqqp> 我很好奇，座位上的Mic好像都吃了威爾剛，直挺挺的
+11:16      hrs_r2  is now known as hrs
+11:16 <       hlb> ChAndrew, au: :D
+11:16 <     jnlin> gasol: 我們家口秋很想你
+11:17 <  miyagawa> hlb, kidwm: not in forgery, but we created our own fake data dictionary, maybe we can share it as open source :)
+11:17 <     gasol> jnlin: 我剛有看到他啊...他頭都不抬一下..XD
+11:18 <     darkx> r1 日本腔詭異英文習慣中XDD
+11:18 <     jnlin> http://pic.pimg.tw/jnlin/1334459791-3846761650.jpg
+11:18 <     jnlin> Ie must die!
+11:18 <  ChAndrew> 「好像完全不相關的事」XD
+11:19 <     D-eye> R1的日腔英文其實挺好懂得～因為他都用很簡單的詞XD
+11:19 <     darkx> XD
+11:19 <  mrmoneyc> 車子每換一次檔，駕駛就會越來越 high ..lol
+11:20   d00944006  is now known as binw
+11:20 <    YChao_> R0終於開始正題
+11:20 <       hlb> If you use Fire.app, and want to put your HTML prototype on Heroku https://github.com/handlino/fireapp_heroku_config
+11:20 <     gugod> car = new Car()
+11:20 < freedomtw> 比昨天那個講機器人的好懂很多
+11:20 <       hlb> miyagawa: make it so! :)
+11:20 <    YChao_> ... 又選錯講廳 XD
+11:21 <      roga> R0 講的很好阿..
+11:21 <      roga> YChao_: 可能題目你剛好沒興趣 (?)
+11:21 <  ChAndrew> 沒有什麼選對選錯啦，選擇你有興趣的議程聽就好了 :)
+11:22 <     CrBoy> 傳值傳址傳未來XD
+11:22 <       hlb> obra: we will put https://github.com/thomas-mcdonald/bootstrap-sass.git into Compass.app/Fire.app
+11:22 <   edwardc> 這年頭願意自己搞語言的已經可以供起來膜拜惹
+11:22 <    Al_Cho> YChao_, 他換題目啦...www
+11:22 <   edwardc> 不過換題目有點 .. .zz
+11:22 <   edwardc> 來開 minecraft 玩
+11:22 < freedomtw> Kawlitee is not quality
+11:23 <       hlb> obra: since it is "semi-officially recommended" by the maintainer of bootstrap http://wordsbyf.at/2012/03/08/why-less/
+11:23 <  carlcarl> zzzzzz
+11:23 < coldturni> ThorScript 這看起來和 Scala 長得好像
+11:23 <      roga> < edwardc> 這年頭願意自己搞語言的已經可以供起來膜拜惹  -> 推
+11:23 <    YChao_> 現在比較有趣了 :)
+11:24              YChao_ (覺得前面鋪陳太長)
+11:24 <      obra> hlb: yay
+11:24 <      obra> hlb: sadly, that's not the variant i was using
+11:25 <       hrs> edwardc: :D
+11:25 <   edwardc> hrs: !!!!!!
+11:26 <      roga> R0: 「但總之我們做完了」...  太威了
+11:26 <  mikimoto> 打不過它就加入它 XD
+11:26 <  shaojung> 自己做 debugger... Orz.
+11:26 <       hlb> obra: which version do you use? https://github.com/vwall/compass-twitter-bootstrap ?
+11:26 <    Irvin_> 絕地西斯跟終結者都到齊才可以do something
+11:27 <  ChAndrew> XDDDDD
+11:27 <      obra> https://github.com/jlong/sass-twitter-bootstrap
+11:27 <      obra> when we were using 1.4, it was the least awful
+11:27 <       hlb> obra: oh, it is not a compass extension, just sass files.
+11:28 <       hlb> obra: actually it is the one and only 100% compatible sass port.
+11:28              obra nods. 
+11:28   d00944006  is now known as binw
+11:28 <      obra> pretty much gave up on compass, as it felt like it didn't help us much once we had bootstrap
+11:28 <      obra> also, i'm not enough of a css ninja to use compass safely
+11:29 <       in2> r0 這家公司太瘋狂了 orz
+11:29 < superbil_> @r0: how to make compiler
+11:29 <   kikiqqp> 拿熱血當資金燒
+11:30 <   edwardc> .....
+11:30 <       hlb> obra: but compass makes image sprites so easily.
+11:30 <   edwardc> 這家公司的員工肝還好嗎
+11:30 <  brucehsu> wow...
+11:30 <       in2> compile 一個檔要花 8G ram + 2min
+11:30 < stevenni_> 這比為了玩Game升級電腦還瘋狂...
+11:30 <   gh40402> lol
+11:30 <   nfsnfs_> ...
+11:31 <  mrmoneyc> r0 看起來頗精采的 o__o
+11:31 <     ecilA> 0.0
+11:31 <      obra> yeah. I'm not there yet. no custom sprites
+11:31 <   kikiqqp> 我覺得老闆比較勇敢，打掉重練不手軟
+11:31 <       in2> 為了玩 Game 就去寫了一套 compiler(?)
+11:31 <   nfsnfs_> r0 聽起來好扯 XD
+11:31 <      roga> r0 很讚. 太熱血了
+11:31 <     darkx> r1 結束
+11:31 <       in2> 可是我覺得他沒有說做這個 language 到底要幹麻 @@ 誰在用 @@
+11:31 <   gh40402> 還是花了好大的力氣才壓到２min　lol
+11:32 <  ChAndrew> r2大家超專心
+11:32 <   edwardc> 應該講題要改成 "how to being a fXXXking hardcore programmer"
+11:32 <      roga> 給他們的 supercell platform 用的 (?)
+11:32 <      obra> not saying compass is bad. saying I'm inept :)
+11:32 <   kikiqqp> 還沒M$視窗以前大家都會這樣搞，但那是15年錢的事情了
+11:32 <      roga> 但他好像還沒介紹他的 platform
+11:32 <       in2> 問題是我沒有 supercell 可以用啊 QQ
+11:32 <       hlb> obra: btw, you should not write compass, but train your designer to write it.
+11:32 <      roga> in2:  XDDD
+11:32 <      a2n_> in2: 所以要買他們的服務呀～
+11:32 <      obra> only have a part-time designer right now :/
+11:33 < coldturni> 沒有 AST  <0<
+11:33 <   kikiqqp> 發展出來一個新的語言要有目標和定位，但R0感覺替代性很高 
+11:33 < kurotansh> O3 順便宣傳 JSDC XD
+11:33 <  ChAndrew> XD
+11:33 <       in2> 他搞這些應該可以拿來做博士論文了 (咦)
+11:33 <      a2n_> in2: 他的確是搞這個的 phD :P
+11:33 <       in2> a2n_: 好吧 XD
+11:33 <    Irvin_> 下一集在JSDC繼續講……
+11:34 <       hlb> obra: then he should definitely use Sass/Compass.
+11:34 < pioneerLi> SuperCell 的 Documentation...   Coming Soon....
+11:34              in2 把 hlb 抓起來搖一搖~
+11:34 < kurotansh> 想看續集請關注JSDC
+11:34 <  mrmoneyc> JavaScript Patterns 中譯版 http://www.tenlong.com.tw/items/9862764198?item_id=427729
+11:35 <       hlb> https://github.com/shichuan/javascript-patterns
+11:35 <       in2> 而且到底誰在用 infinite band 啊 orz
+11:35 <       hlb> 這位也是神人一枚...
+11:35 <       hlb> in2: 會融化掉...
+11:35 <    YChao_> 我們有在用IB啊... XD
+11:36 <      lynn>  infinite band?
+11:36 <     lin4h> r2 end
+11:36 <   edwardc> 放飯惹？
+11:36 <     lin4h> 放飯了
+11:36 <  shaojung> 跳過的東西看起來很可怕....
+11:37 <   edwardc> 聽完 R0 飢餓度大量增加
+11:37 <       in2> 喔, 原來是 InfiniBand @@
+11:38 <   kikiqqp> 還是不知道用途
+11:38 <    YChao_> 就快一點的網路而已
+11:38 <      roga> 他們公司有網站 http://www.zillians.com/
+11:39 <  king1223> 總算進來了
+11:39 <  buganini> github不能watch/follow organization喔@@
+11:40 <     kidwm> buganini: hello~
+11:40 <  buganini> kidwm: hello~ 其實昨天最後r2我坐在你後面XD 
+11:40  pioneerLik  is now known as pioneerLike
+11:40 <     kidwm> buganini: 怎麼沒來相認Orz
+11:40 <  buganini> XD
+11:41 <  buganini> 吃飯啦~
+11:41 <     kidwm> buganini: 先去吃飯了，下午有機會再相認
+11:52    pixnetsg  is now known as PIXNET_SG
+11:53 <   hcchien> PIXNET_SG!!
+11:54 < PIXNET_SG> hello, 趕快來痞客邦的攤位喔
+12:05 <   kikiqqp> 咧 
+12:06 <   kikiqqp> PIXNET_SG！ 
+12:15 <     lin4h> 今天國際廳的冷氣好像比昨天弱
+12:21 <    BlueT_> PIXNET_SG: wow!
+12:23 <  king1223> @@
+12:24 <   kikiqqp> 休息打瞌睡中
+12:25 <    BlueT_> gasol: TTS (time to smoke)
+12:27 <    BlueT_> 有煙友嗎？ XD
+12:43 <   edwardc> pixnet SG !!!!!!
+12:44 <   macpaul> pixnet SG 剛才來巡吃飯場地
+12:45       Jeff_  is now known as Guest38285
+12:47 <  king1223> 機器人好好玩XD
+12:51 < Guest3828> 外面samsung 的場子是要幹嘛 ?
+12:53 <  tonyni__> presentation 吧
+12:57 < coldturni> 樓上那個是 Samsung Apps Contest
+12:57 < coldturni> 決賽，有興趣去逛逛的可以幫他們投個票
+12:58 < legnaleur> wireless keyboard wwwwww
+12:58 < michael52> 鍵盤是有多小？還會遺失？？
+12:59 <     lin4h> 扯
+12:59 <     lin4h> ..........= =b
+12:59 < coldturni> COSCUP 都有遺失好幾台 NB 了
+12:59 <    poying> XD
+12:59 < michael52> 在男廁所檢到有女孩子名字的水壺....... =..=
+13:00 <     lin4h> 我也不想講了
+13:00 <  king1223> XDDD
+13:00 <  king1223> DNS...?
+13:00 < coldturni> OSDC 不是 COSCUP 也不是 HIT    ++
+13:01 <     lin4h> 都走HS(D)PA(+)好了
+13:01 <   edwardc> PIXNET_SG: 下一場會來舉牌嘛
+13:02 <  brucehsu> 這英文字型是？
+13:02 <        au> Ubuntu
+13:03 <  brianhsu> 投影片竟然有中文！XD
+13:03 <     darkx> google 翻譯?
+13:03 <        au> So over the years, I start to think about that it's like we're traveling a path; as we're traveling this path working toward better programmers, but also becoming better people working together
+13:03 <   wwwwwww> 請問OSDC的帽子只有工作人員有？
+13:03 <   edwardc> wow, live subtitle ?
+13:03 <   hcchien> 翻譯據說是人工調整過
+13:03 <   hcchien> wwwwwww: yeap
+13:03 <        au> You might think of it as a path toward enlightment; growing as human beings. This is really my personal philosophy which I'd like to share with you
+13:03 <        au> So the first thing is, that the center of every open source project is really the people. The code is  important; but the center is the people.
+13:04 <        au> Different kinds of people: People who code, who writes docs, who writes test. Users, too, are important for a project.
+13:04 <   edwardc> au: 強
+13:04 <        au> People who work on the software that project uses -- you'll be using projects from other people, and you might want to send them a patch.
+13:04 <        au> Maybe you're writing a library or a module, and other people will be using your software and communicating with you as well.
+13:05 <     ecilA> 字幕神速！
+13:05 <        au> Why do people work on open source softeare? Because this is a very important questino to understand how open source work.
+13:05 <     darkx> 神字幕
+13:05 <   kikiqqp> 同步
+13:05              clkao 取回鍵盤了... XD
+13:05 <        au> Maybe in people's day job they work in code, and they work in open source to work on exciting and new things
+13:05 <      lynn> au++
+13:05 <   edwardc> 太強 ...... 未來外國講者都要有這個服務嘛 XD
+13:05 < kurotansh> au++
+13:05 <       in2> clkao: 原來是你的鍵盤!
+13:05 <        au> We share as we increase the fun together working on open source projects
+13:05 <     clkao> in2: >< arc keyboard
+13:05 <   cls_bsd> XD
+13:05 <   edwardc> cls_bsd: 爽大有來？
+13:05 <        au> People work on open source to "give" to others, we're reaching out as human beings, this is an important part of being a human.
+13:06 <   cls_bsd> edwardc: 沒有
+13:06 <   cls_bsd> 我精神同在
+13:06 <   edwardc> cls_bsd--
+13:06 <     clkao> 應該昨天上台前放在座位 就忘記了
+13:06 <        au> There are many reward; we draw people in, they receive from it as they work on software -- One of the big ones is respect
+13:06 <   hcchien> cls_bsd==
+13:06 <   cls_bsd> clkao: pingooo 找你是這件事？
+13:06 <        au> The reason for people to create something new is that people recognize who you are and what you acapable of, and that gives you a sense of accompolishment
+13:06 <     clkao> cls_bsd: 跟我拿貼紙
+13:06 <       in2> clkao: 你沒在上面貼姓名貼紙嗎? 推薦你這家不錯 http://aiink.com/
+13:06 <        au> So make sure you show respect to them in any way you can, because it helps them to stay invovled.
+13:06 <   edwardc> XDDDD
+13:06 <     clkao> in2: ......
+13:06              in2 逃~
+13:06 <   edwardc> in2++
+13:06 < FourDolla> in2++
+13:06 <      Sars> XDD
+13:07 <   macpaul> in2++
+13:07 <   hcchien> in2++
+13:07 < shaojung_> in2++
+13:07 <   cls_bsd> XD
+13:07 <      chph> in2++
+13:07 <        au> Another important aspect is appreciation; as people do work; talk with them: Even just a simple thank0you email message "it meant a lot of me" brings about culture of motivation to keep everybody motivate.
+13:07 <     lin4h> in2++
+13:07 <        au> Credit is also important; as you talk to other people, you mention other people around you saying "this person did such a wonderful thing" so we build a community feeling together.
+13:08 <        au> One of the things that keeps people interested in open source is that, as we work together, we become stronger and can do more
+13:08 <        au> part of it is math: 2x people makes at least 2x code, 2x people makes 2x code, but there is much more: When we work together, we can make each other stronger and better -- part of that is encouraging each other; as you see people workigng on a very difficult problem, you can encourage them saying that "you are doing great and I see you will do great in the future" you can empower them just by talking and sharing with the
+13:09 <        au> and then also there's the fact that when you have many people together; they'll have different set of skills. we you ar eworking togethre, maybe you know the five things you need to know and they know the other five things and so you have the complete set of ksills 
+13:09 <        au> so it's not only linear effect; there's am ultiplication effect when we start working together.
+13:10 <        au> Encouraging each other to look beyond into the future is also important -- inspire others to solve problems. Sometimes just saying "I have an idea" is enough for someone else to make it in reality
+13:10              jserv-- is up.
+13:10 <        au> sometimes you look at what someone else is doing -- you have not do all the work but you have on idea they needed so they can reach out and go gurther.
+13:10 <        au> So the key thing working on open source is that we're not just standing alone. When you are working with other people, the main thing you want to improve is your communication skills. 
+13:11 <        au> We communicate about the plans we have, how we want to make the software, your personal plans, like the feature you want to work on
+13:11 <        au> One of the things I see is that in open source, people often have good plans to create software, but they clash and fail to communicate
+13:11 <        au> So if you work on one plan without communication you may end up hurting the other plan
+13:11 <        au> It's like a hive of bees -- a constant buzz keeps us all functioning
+13:12 <        au> You'll find that you often communicate about possible futures -- what's the best way to solve a problem?
+13:12 <        au> In this you can communicate in a way that's contentious and angry, and making it very ahrd to make progress. One of the things we're learning in our process is how to embraces all possibilities
+13:12 <        au> working on the possibility you imagine, but remaining fully open to other possibilities other people may bhave
+13:13 <        au> As you make progress, you'll also be communicating constantly aout whsat you have done -- email, twitter, there are many ways to let people know. 
+13:13 < vanjuggle> i finally found the channel
+13:13 <   hcchien> ha, you should ask me.
+13:13 <        au> Sometimes we may feel like shy or not "bragging" but that's not what it is! It's good for the peoject and for the people as well because they can learn from what you hav done.
+13:14 <        au> Another communication skill is the ability to ask questions -- the advantage of having a community is that it may happen that people have solved your peoblem before
+13:14 <        au> asking a questinon on a forum or irc may save you days of work. In the same way, when others are learning, you can be responsive, you should not put down them
+13:14 <   jserv--> RTFM !
+13:14 <        au> like answering with "RTFM" for simple questions
+13:14 <    YChao_> RTFM!!
+13:14 <     FredC> XDDDD
+13:14 <        au> maybe it'd save the question asker a bit of time, but it taught that person that they "sholdn't ask questions"
+13:15 <   edwardc> 語畢。哄堂大笑。
+13:15 < FourDolla> Read The Fine Manual.
+13:15 <  king1223> XD
+13:15       Vexed  is now known as Guest76019
+13:15 <     darkx> lol
+13:15 <   gh40402> lol
+13:15 <    Al_Cho> lol
+13:15 <      a2n_> FourDollars: Fine. :)
+13:15 <   jefflin> lol
+13:15 <        au> that's not what you want to teach with your people -- you want to teach them to communicate with others. And learn how to make answers that are helpful to people, and help them see that they can walk down the path as well and take the path further.
+13:16 < vanjuggle> I am realizing how many of these lessons I've learned from au
+13:16 <        au> Sometimes you have to criticize people; there are ways that are right -- the best way to get people to change is to answer nicely so they can learn 
+13:17 <        au> You have to give you some grace if they're not doing very well. Some people may be harsh with you, but it's also part of a path -- sometimes it helps to have a thicker skin -- even if other people should have said it nicer and better, maybe there's a bit of truth you can learn from
+13:17 <        au> Even if they speak in a way that is note polite, you can respond politely.
+13:17 <        au> The other part about communication is not about talking, but also listening -- not only telling what we think -- sometimes that means just sitting very quietly and let others talk
+13:18 <   edwardc> shoes == 同情？何解？
+13:18 <        au> It's not just listening -- it's empathy. "If you really want to understand someone you have to walk in their shoes (so you get the blisters they have)"
+13:18 < vanjuggle> If you walk a mile in their shoes, then you can critize them because you're a mile away and you have their shoes
+13:18 <        au> Some people think you have to be a genius to work on open source -- but that is _not_ the truth
+13:18 <  chitsaou> 同鞋
+13:18 <        au> there are Larry and Guide and Linus
+13:18 <       hlb> edwardc: just old sayings
+13:18 <  jeffhung> 所以快來報名 hackathon 吧！
+13:19 <        au> but there are so many things any projects needs -- no matter how smart you are it's important to stay humble. because in humility you will be open to other people and see new way of doing things. By doing that you will welcome other people to your project; Pride is essentially telling people "I don't need you; I can do things my way"
+13:19 <       c9s> 有字幕好讚
+13:19 <    jaceju> 可是台上的她就是天才耶...
+13:19 <   nctusdk> XD
+13:19 <       df1> XD
+13:19        Eeee  is now known as snakewu
+13:19 < kurotansh> ++
+13:19 <     darkx> ++
+13:19 <  king1223> ++
+13:19 <     gasol> ++
+13:19 <        au> And by being humble we also welcome in new people, so there's diversity in gender, in culture, a richness in open source by opening to different kinds of people
+13:19 <    dryman> XD
+13:20 <       c9s> au++
+13:20 <        au> there's also differences between different projects; it's almost illike languages and cultures of a country; Linux, Perl, Ruby, Python community all communicate and collaborate differently
+13:20 <        au> Maybe we can see our project is not the only way -- maybe you can appreciate the ways other community are doing
+13:20 <        au> Now open source is not all fun -- it's fun, but it's also a responsibility when you agree to particiapate in a project, you're taking a weight on your shoulders, and it's a good thing that teaches us to be better humans
+13:21 <        au> but Life can get in the way -- husbands, parents, childrens, jobs -- we may accepe responsibility for a time, but maybe we will realize one day where we can't carry it anymore
+13:21 <        au> there's a cycle, where you start taking more and more of a role in a community, and as life goes on you gradually takes less and less, but it's natural, it's a normal cycle of a project
+13:22 <        au> so keep in mind -- who will continue my work when I no longer have time?
+13:22 <        au> so it's a continuous process -- part of our work iw teaching and sharing the knowledge we've learned, as we learn more and more from others.
+13:22 <        au> it's a continuous process of gaining and sharing knowledge
+13:22 <        au> as you work on open source, be happy, with a smile on your face, and make other people happy!
+13:22 <     FredC> :-)
+13:23 <        au> because the happiness is what gives us power to make great hings
+13:23 <        au> thank you! any questions?
+13:23 <   edwardc> 默
+13:23 <     darkx> lol
+13:23 < pioneerLi> LOL
+13:23 <        au> Do you feel happier now?
+13:23 <  Denir-Li> LOL
+13:23 <        au> thank you very much!
+13:23 <   kikiqqp> LOL
+13:23 <   nctusdk> LOL
+13:23 <      roga> LOL
+13:23 <      a2n_> au: also, thank you very much. :)
+13:23 <    dryman> au++
+13:23 <     darkx> 感謝 au 前輩強大神字幕支援 <(_ _)>
+13:23 <     tonyq> au++
+13:23 <   macpaul> au++
+13:23 <    Conrad> au++
+13:23 <   nctusdk> au++
+13:23 <       df1> au++
+13:23 <  brucehsu> au++
+13:23 <      roga> au++
+13:23 <      chph> au++
+13:23 <  jeffhung> au++
+13:23 <  carlcarl> au++
+13:24 <   cls_bsd> (Y)
+13:24 <   kikiqqp> au++
+13:24 < vanjuggle> au++
+13:24 <     FredC> au++
+13:24 < lunastorm> au++
+13:24 < kurotansh> au++
+13:24 < kaochenlo> au++
+13:24 <    sakusa> au++
+13:24 <  mikimoto> au++
+13:24 <        au> 謝謝 m(_ _)m
+13:24 <  Denir-Li> au++
+13:24 <    nfsnfs> au++
+13:24 <    Irvin_> ++
+13:24 <   fulamce> au++
+13:24 <     ecilA> au++
+13:24 < lkkgenius> au++
+13:24 <  allan914> au++
+13:24 < pioneerLi> au++
+13:24 < shaojung_> au++
+13:25 <   hcchien> 直接提早 15 mins...
+13:25 <  chitsaou> au++
+13:25 <   gh40402> au++
+13:26 <      bcse> au++
+13:29 <       c9s> au++ 太棒了! :DDDDDDD 我昨天深夜看太多 Animal planet 寄生蟲節目 起不來 XD
+13:30 < coldturni> au++
+13:32 <   macpaul> pixnet!
+13:32 <   macpaul> pixnet sg 這一場也會來舉牌嗎？ ＊誤＊
+13:32 <   Yontash> XD
+13:33 <  king1223> au++
+13:37     lyhu95u  is now known as Howard28
+13:43     ccchiu_  is now known as ccchiu
+13:43 <   macpaul> The content of allison's speech: http://paste.plurk.com/show/1008460/ (plurk paste)
+13:44 <   macpaul> by au
+13:45  pioneerLik  is now known as pioneerLike
+13:49 <   kikiqqp> ShowGirl呢(張望)
+13:50 <   jefflin> PSG呢 ?
+13:50 < vanjuggle> au: do i get a translation on this talk? :)
+13:50 <  king1223> 12年!!
+13:50 <   edwardc> 講者說，show girl 上台他會興奮
+13:50 <    Al_Cho> opensource!
+13:51 < stevenni_> http://framework.pixnet.net/
+13:51 <  king1223> XDDDD
+13:51 < FourDolla> XD
+13:51 <  Denir-Li> XD
+13:51 <    Al_Cho> XDDD
+13:51 <   edwardc> XD
+13:51 <   macpaul> pixnet++
+13:51 <     darkx> lol
+13:51 < kurotansh> Xd
+13:51 <   kikiqqp> XD
+13:51 <   jserv--> 打臉++
+13:51 <     FredC> XD
+13:51 <  king1223> XDDD
+13:51 <   macpaul> ronnywang++ # 整理source code
+13:51 <  brianhsu> 因為昨天三星被打臉所以公開了 XD
+13:51              jserv-- 又用準備投影片的名義，騙了一張 SG 合照 XD
+13:51 <  NotExist> 所以慶幸有公開啦 XD
+13:51 <        au> vanjuggler: "you can download these things -- we just open sourced it today -- forutnately because yester Samsung get chided for not open sourcing their S-Pen SDP"; this is about the architecture of Pix Table -- Pixnet started at 2004, with only two programmers, with album and blogs -- with lots of ugly code -- raw SQL queries.
+13:52 <        au> vanjuggler: I'll /msg you as to not spam the channel :p
+13:52 < vanjuggle> ;:)
+13:52 <      a2n_> ^Z rollback XD
+13:52 <   kikiqqp> 駭客攻擊真好用！
+13:52 <  Denir-Li> 最近受到駭客攻擊 XD
+13:52 <   edwardc> 被很貴的機器測網站
+13:52 <  allenown> 駭客是無辜的啊
+13:52 < kurotansh> XD
+13:52 <   gh40402> 駭客表示:躺著也中槍
+13:53 <  king1223> XDDDD
+13:53 < kurotansh> 駭客表示： 我還沒動手啊
+13:54 <    nfsnfs> 好暗 orz
+13:54 <  allenown> http://xkcd.com/327/
+13:54 <       df1> 黑底哭哭
+13:54 <     darkx> 可是我們用的是 php
+13:54 < kurotansh> 程式碼黑底會糊掉
+13:55 < lunastorm> 黑底絕對不能配接近紅色的字
+13:55 <      a2n_> kurotanshi_: slide here, http://j.mp/HVtiXZ
+13:56              a2n_ 會議室需要花錢更新設備
+13:56 <   kikiqqp> 應該是字體太小的問題 
+13:56 < kurotansh> a2n_: thx
+13:56 <   jserv--> 這是北韓女生的集合吧？
+13:56 <     Shock> 取得 肉
+13:56 <  king1223> XDDDDD
+13:57 <  king1223> 好 肉wwww
+13:57 <   kikiqqp> 我以為韓國女生會出現少女時代 
+13:57 <   Toomore> 取得那個人，應該是出錯了
+13:57 <  king1223> wwww
+13:57 <   kikiqqp> 悲劇 那是紅色還是紫色 
+13:58 < coldturni> 紫色
+13:58 <  king1223> 紫色++
+13:58 <   jserv--> 為愛唸 code ++
+13:59 < vanjuggle> i need google translate in my ircs
+13:59 < kaochenlo> 我覺得綠色光點好刺眼.. 
+13:59 <    YChao_> jserv--: ++
+13:59 <   macpaul> 綠色光點是yoda的光劍 *誤*
+13:59 <     FredC> 看的好吃力...
+14:00 <  chitsaou> github 慘案跟這個有關係嗎 +_+
+14:00 <   nctusdk> 眼好花...
+14:00 < freedomtw> 綠色刺眼是必然的
+14:00 <  king1223> github發生事件...?@@
+14:00 < legnaleur> 黑底深字 orz
+14:00 <  jeffhung> 前幾頁那邊，count($articles) 意思是說 author 是 12345 的文章「全部」抓回來嗎？
+14:00      ycling  is now known as miaout17
+14:01 <  allenown> addslashes...
+14:01 <   macpaul> 為什麼聽了這一場讓我有去pixnet上班的熱血  ＃絕對不是為了PSG!
+14:01 <    Irvin_> macpaul++
+14:01 < coldturni> king1223: 這件事吧：http://blog.xdite.net/posts/2012/03/05/github-hacked-rails-security/
+14:01 < shaojung_> 我覺得 Pix Table 好像很好用，考慮來用用看..... 
+14:01 <     gasol> jeffhung: 相等於 select count(*) from articles where user_id = ?
+14:01 < legnaleur> 這樣說的意思應該就是他們的 ORM 會防 injection 吧
+14:02 <  king1223> coldturnip:thx
+14:02 <   macpaul> jserv--: 如果等一下投影片沒有看到 PSG 可以打臉嗎？＊誤＊
+14:02 <  NotExist> github慘案就是整包post拉去用發生的不是嗎 所以算有關吧
+14:02 <  jeffhung> gasol: 意思是說，他們有 overload count() 這個 php built-in function 囉？(可能有辦法。)
+14:02 < freedomtw> 為什麼看了一早上說黑底深色字投影有問題還是沒改?
+14:03 <      Sars> 因為他全部都是圖片
+14:03 <   aar0ntw> 那是剪下來的圖
+14:03 < lunastorm> 　pics
+14:03 <      Sars> 要改可能也來不及吧...
+14:03 <      chph> 投影片在 http://framework.pixnet.net/ 可以取得
+14:03 <   macpaul> 其實好像轉highlight應該就會好了
+14:03 <     gasol> jeffhung: sure, Countable interface
+14:03 <     gasol> jeffhung: http://php.net/manual/en/countable.count.php
+14:03 < lunastorm> 只好杯具
+14:03 <     darkx> vim theme 改一就好拉XD
+14:04 <  jeffhung> gasol: great.  太久沒寫 php 了。XD
+14:04 <  tomjpsun> 投影片 https://docs.google.com/presentation/d/1br1aYn5J9qsMn22vT8NPAL3PHPeDsTpC6Z7KECwUV5Y/present?pli=1&sle=true#slide=id.g9703009_3_26
+14:04 <   macpaul> 不知道有沒有powerpoint濾鏡這種東西
+14:04 <     gasol> jeffhung: :)
+14:04 <  chitsaou> Model 混 View (囧)
+14:04 <   macpaul> 或者是對整個螢幕做濾鏡 直接轉 highlight
+14:04 <   jserv--> macpaul, 這次簡報超無聊的，不要打我
+14:05 <   macpaul> 多放一些SG就不無聊啦
+14:05 <     darkx> jserv--: *打*
+14:05 < legnaleur> php 原本不是也有 ORM 嗎？
+14:05 < CindyLinz> jserv-- 都會在簡報裡面放很多女生的照片.. (思)
+14:05 <     FredC> 他的 source code 本來就是糊的... (昏)
+14:05 < CindyLinz> 「這個就是 BLUE 流」
+14:06 < shelling_> jserv++
+14:06 <   macpaul> Allison的錄影 http://www.youtube.com/watch?v=E5_tL62mUbc
+14:06 < coldturni> BLUE 流 ++
+14:06 <     darkx> BlueT_ 表示：
+14:06 < freedomtw> 熱血工程師就是要自己發明輪子
+14:06 <   kikiqqp> 看了投影片，頭影片就是糊的了
+14:06 < CindyLinz> 「我想要成為你的 CODE」
+14:06 <   edwardc> 早上都自己蓋 compiler 惹 ....
+14:06 < freedomtw> 甚至還要發明造輪子的工具
+14:06 <   kikiqqp> 自己發明語言 自己寫出編譯器 最後自己土砲IC！！！！
+14:06 < shaojung_> 早上的自己做引擎了，輪子算甚麼....
+14:07 < CindyLinz> higher order wheel XD
+14:07 <  king1223> 有昨天c9s大大的投影片嗎?
+14:07 <  NotExist> 早上是自己種木頭?(跟輪子比的話)
+14:07 <   edwardc> ref: Mythbusters S10E03 Square Wheels
+14:07              jserv-- 可能因為感冒還沒好，一直把「程式中」聽成「陳致中」 XD
+14:07 < coldturni> kikiqqp: 從打電動開始：http://0x10c.com/
+14:08 < CindyLinz> 早上做的是要上火星用的輪子, 的確沒有現有的啊 QQ
+14:08 <     darkx> 上火星的輪子XD
+14:08 < CindyLinz> 火星探測車用的
+14:08 < lunastorm> 妮可咧
+14:08 <   edwardc> 呢可在外面攤位
+14:08 <      lynn> ORM 是為了防 injection? 用PreparedStatement不是就可以嗎
+14:08 <   edwardc> 他要下班了 請各位把握 
+14:08 <   jserv--> 這程式碼根本就是悲劇了，我只看到一堆海苔... Orz
+14:08 <      lynn> 海苔XDD
+14:09 <     FredC> XD
+14:09 < CindyLinz> 海苔?
+14:09 < kaochenlo> XD
+14:09 < kurotansh> 海苔 XD
+14:09 <    nfsnfs> 海苔 ++ ...
+14:09 <     ecilA> www
+14:09 < legnaleur> XD
+14:09 <     darkx> 有請大大幫忙撕海苔
+14:09 <   edwardc> yoooooooooooooooooooo
+14:09 <   othrees> 黒色長方形物體
+14:09 <   kikiqqp> 還好 不是馬賽克！
+14:10 < freedomtw>  本來 ORM 跟 prevent sql injection 就不一定要有關
+14:10 <   kikiqqp> 黒色長方形雖然也很糟糕 
+14:10 <  king1223> 萬惡海苔XD
+14:10 < freedomtw> 重點是自己造輪子工程師很爽
+14:10 < shaojung_> 這樣是因為他們資料庫很大
+14:10 < shaojung_> 才需要這樣吧
+14:10 <   kikiqqp> 火星輪子是很重要的
+14:10 <  allenown> 0xbf27
+14:10 <   kikiqqp> 因為還沒有 
+14:10 <  ChAndrew> 有人表示：外國講師很認真的將IRC內容丟掉Google翻譯在看 XDDDDD
+14:11 <   edwardc> 維大力
+14:11 < legnaleur> google translate 會誤導吧？ XD
+14:11 <     darkx> 義大利
+14:11 <   kikiqqp> OH～~ NO
+14:11 <      Sars> 需要有牛人改寫 irssi 加入翻譯年糕
+14:11 < CindyLinz> 我覺得「讓工程師很開心」很重要欸~ 它會反應在產能上
+14:11 <   fillano> 搭cache很實用
+14:11 <   jserv--> 這樣 Pixnet 會不會哪天開發 PixMap 出來？
+14:11 <   edwardc> jserv--: errrrrr XD
+14:12 < vanjuggle> google translate of this irc is pretty funny
+14:12 < freedomtw> cache 跟 ORM 可以是分開的啊
+14:12 <   edwardc> vanjuggler: lol
+14:12 <  king1223> XDDDD
+14:12 <   jserv--> Pixnet 開發的 Compiler 中介語言 (intermediate representation) 就叫做 Pixil
+14:12 <     FredC> vanjuggler, lol
+14:12 <     darkx> XDDD
+14:13 <        au> e.g.:
+14:13 <        au> 06:10 <ChAndrew> someone said: very serious foreign lecturer IRC content to lose Google Translate to see XDDDDD
+14:13 <   jserv--> 這次的海苔比較有層次感... Orz
+14:13 <  tomjpsun> 海苔 翻譯後 會不會跟前面看的韓國人聯想到一起
+14:13 < FourDolla> Pixnet developed Compiler meta-language is called Pixil.
+14:13 <   edwardc> postgresql 表示:
+14:13 < legnaleur> lose XD
+14:13 <     darkx> http://ppt.cc/z_7v  <--- 翻成這樣@@? XD
+14:13 < coldturni> 投影片背景的松鼠被海苔了，裸圖獸耳露毛果然是有違倫常的
+14:13 < legnaleur> google translate fails
+14:14 <   edwardc> reinvent wheels
+14:14 <   kikiqqp> 效能跟程式碼長度是反比關係呦(以機械語言觀點來說 XD)
+14:14 < FourDolla> The slides look like having laver on it.
+14:14 <   edwardc> censored by lavers
+14:15 <    Irvin_> 看來我們需要翻譯米糕機器人
+14:15 < legnaleur> colorful lavers
+14:15 <        au> laver layer
+14:15 <   kikiqqp> 改寫ChatZilla導入Google 翻譯API好了 XD
+14:15 <   edwardc> gj
+14:15 < vanjuggle> EAV?
+14:15 <     darkx> 呼叫 au 大大XD 
+14:15 < kurotansh> XD
+14:15 <   edwardc> coscup 可以用 XD
+14:16 < FourDolla> kikiqqp plans to rewrite ChatZilla in integate the functionality of Google translation.
+14:16 < FourDolla> s/in/to/
+14:16 < legnaleur> (worship)
+14:16 <     darkx> (worship)
+14:16 <      Sars> (worship)
+14:16 < coldturni> (worship)
+14:17 < kurotansh> (worship)
+14:17 <    YChao_> (worship)
+14:17 <    Irvin_> kikiqqp ++
+14:17 <  ChAndrew> (worship)
+14:17 <   TaianSu> (worship)
+14:17 < pioneerLi> (worship)
+14:17 <   macpaul> kikiqqp++
+14:17 < superbil_> (worship)
+14:17 < vanjuggle> kikiqqp++
+14:17 <   fillano> (worship)
+14:17 < freedomtw> (worship)
+14:17 <   macpaul> kikiqqp 請在COSCUP給一個talk
+14:17 <    sntc06> (worship)
+14:17 <     darkx> http://scripts.irssi.org/html/gtrans.pl.html  <--- 有人玩過這個 script 嗎@@
+14:17 <   kikiqqp> NOOOOOOOOO
+14:17 <    nfsnfs> (worship)
+14:17 <     darkx> 好像有人寫過 irssi 的 g translation ?
+14:17 <   kikiqqp> (開始認命找資料好了)
+14:17 <  king1223> (worship)
+14:18 < FourDolla> Where do you buy laver layer ?
+14:18 <   kikiqqp> 掉坑
+14:18 <   macpaul> 那些Model, pixnet的Model #糟糕會有另外的聯想＊逃＊
+14:19 < kurotansh> pixnet 的 Model ++
+14:19 < freedomtw> NIH
+14:19 <        au> #perl6 現在就有自動 google translate lang detect->translate bot 但是大半當笑話使用
+14:19 < freedomtw> not invented here syndrome
+14:19 < vanjuggle> I wish my flight was not cancelled and I could have attended yesterday as well.
+14:19 < lunastorm> sg咧！！
+14:20 <   edwardc> sg 要下班了，快衝
+14:20 <      a2n_> vanjuggler: why cancelled?
+14:20 < coldturni> 再過 40min，PyCon.tw 早鳥票開賣
+14:20 <   jserv--> 自幹 ++
+14:20 < FourDolla> I think we need au translate.
+14:20 < vanjuggle> a2n_: SEA to NRT had engine problem, they fixed it but the crew timed out
+14:20 <  ChAndrew> 杯具了
+14:20 <     gasol> 有ddl generator的工具
+14:21 < shaojung_> again.
+14:21 <   edwardc> NEVER LIVE DEMO
+14:21 <  chitsaou> live demo!!
+14:21 <  Denir-Li> Never Live Demo 啊  XD
+14:21 <   jserv--> live demo +++
+14:21 < kurotansh> Never Live Demo.
+14:21 < coldturni> 做一件很危險的事叫 live demo  ++
+14:21 <     darkx> live demo++
+14:21 <  ChAndrew> 「做依件很危險的事叫作Live Demo」
+14:21 <      a2n_> vanjuggler: oh... pity engine...
+14:22 <   kikiqqp> 會出包嗎(期待)
+14:22 < FourDolla> The speaker is going to do a very dangerous thing... live demo.
+14:22 < legnaleur> 字大一點啊！
+14:22 <   jserv--> 我眼睛不夠好，根本看不到 >_<
+14:22 <  NotExist> 給Github看的README
+14:22 <   kikiqqp> 白底亮字！
+14:22 <     darkx> 剛剛黑底，現在換成白底了
+14:22 < freedomtw> 淺藍色還是悲劇
+14:22 <   jserv--> 剛剛是海談，現在是洋菜
+14:22 < FourDolla> Where is my black laver layer?
+14:22 < legnaleur> 好亮的海苔
+14:23 <     darkx> 墨鏡需要 B-)
+14:23     whisky-  is now known as wHisKy
+14:23 < kurotansh> 洋菜 XDDDDDDDDDDDDDDDDDDDDDDDD
+14:23 < legnaleur> うぉ、まぶしっ！
+14:23 <   jserv--> 又是悲劇了
+14:23 < CindyLinz> echo xxxxx . PHP_EOL;  <- 好累的語法.. ~_~
+14:24 < FourDolla> Oh~ laver layer is replaced by agar.
+14:24 < vanjuggle> So i heard that WSGI is pronounced "whisky", but miyagawa pronounces PSGI as p.s.g.i, not "piz-gee". I think that is a mistake
+14:26 <   kikiqqp> SG呢？
+14:26 <   edwardc> SG下班了
+14:26 <     darkx> QQ
+14:26 < FourDolla> So what is the correct pronunciation of PSGI ?
+14:26 < freedomtw> 沒有人問SG問題啊!
+14:26 <     FredC> jserv--, 接著要上了！
+14:26 <  mikimoto> vanjuggler: ++
+14:26 < kurotansh> 怎麼沒有 SG 上來
+14:26 <   jefflin> :(
+14:26 < shaojung_> jserv!!
+14:26 <  miyagawa> vanjuggler: pesky?
+14:26 <   kikiqqp> 不要貼北韓圖！
+14:26 < kurotansh> jserv++
+14:26 < vanjuggle> FourDollars: if you ask me, pizgee
+14:26 < freedomtw> 請 jserv 記得帶 sg
+14:27 <  ChAndrew> jserv++
+14:27 <     FredC> jserv--, 美女圖！+ SG!
+14:27 < FourDolla> vanjuggler: thx
+14:27 <  ChAndrew> jserv 會有 Live girl 嗎？
+14:27 <  king1223> XD
+14:27 < FourDolla> jserv is going to bring his show girl.
+14:29 <    Al_Cho> Live SG!
+14:29 <   macpaul> livegirl!
+14:29 <   macpaul> 可以打包sg嗎 ＊誤＊
+14:29 <  SmallSea> 打包服務!!!
+14:29 < FourDolla> Show girl taking out service. FREE!
+14:30 < vanjuggle> In past years you just had Ingy as the SG
+14:31 < FourDolla> lmao
+14:31 < vanjuggle> ingy once put his penis on my shoulder. he said he had been waiting to do that for a long time.
+14:31 <       hlb> obra: https://github.com/handlino/FireApp/issues/9
+14:31 < vanjuggle> I did not look, I just felt the weight and kept on hacking
+14:31 <      a2n_> vanjuggler: lol.... penis on shoulder!!!!!!
+14:32 < kaochenlo> jserv帶自己的螢幕來了!! 
+14:32 <    Al_Cho> wow! 台上同時有四個工作人員幫忙場佈
+14:32 < FourDolla> Aweful
+14:32 < vanjuggle> FourDollars: you mean awe-full
+14:32 < vanjuggle> full of awe
+14:32 <      a2n_> XD
+14:32 < FourDolla> awful
+14:32 < vanjuggle> lol
+14:33 < FourDolla> typo
+14:33 < FourDolla> vanjuggler: I can not image what it looks like. 
+14:33 <  NotExist> 是說 大家都沒提到 Samsung也有SG /o/
+14:33 <      ingy> o/
+14:33 < vanjuggle> FourDollars: imagine ingy standing behind me, to the left, naked.
+14:33 < vanjuggle> hi ingy
+14:33 <      ingy> ?
+14:34 < vanjuggle> ingy: i mentioned the COS incident in my office
+14:34 <        au> ingy: we're saying you're sexier than Samsung's booth show girls and OSDC.tw isn't the same without you and we all miss you
+14:34 < FourDolla> vanjuggler: Please stop scaring me.
+14:34 < vanjuggle> ingy: it's true
+14:34 < FourDolla> I guess you guys must drink a lot.
+14:34 <      ingy> :D
+14:34 <      a2n_> ingy: miss u~ :)
+14:35 <      ingy> I will come to .tw soon
+14:35 <   hcchien> ingy: when
+14:35 <      ingy> I needed to rest right now
+14:35 < vanjuggle> when he gets a new passport
+14:35 < vanjuggle> ingy is too busy forking vmware
+14:35 <   hcchien> vanjuggler: lol
+14:36 <      ingy> I did lose my passport last week
+14:36 <      ingy> but supposedly it has been found
+14:37 <   hcchien> ingy: so why are you so busy 
+14:37 <      ingy> anyway, I would like to visit .tw before or after (or both) yapc::tokyo
+14:37 < vanjuggle> hcchien: i think ingy should be given a quick skype to say hi to the conference attendees
+14:37 <        au> obra conjectured that ingy's boycotting OSDC.tw because OpenFoundry switched Kwiki to some other wiki
+14:37 <      ingy> hcchien: activestate+stackato
+14:37 <        au> (j/k of course)
+14:38 <      ingy> The only boycott is that I feel like a boy on a cot
+14:38 <  jeffhung> au: http://trendmicro.github.com/tme/
+14:38 <  miyagawa> Hey ingy
+14:38 <      ingy> I am one tuckered out boy
+14:39 <      ingy> hey miyagawa :)
+14:39 <  miyagawa> We miss you
+14:39 < vanjuggle> miyagawa: can you start pronouncing psgi as pizgee
+14:39 <  jeffhung> au: https://github.com/trendmicro/tme , https://github.com/trendmicro/tme/wiki/Deployment-Guide
+14:39 <       hlb> github page with design!
+14:39 <  miyagawa> vanjuggler: will try:)
+14:39 <        au> jeffhung: thanks!
+14:39 <      ingy> au: I was part of a fork of Cloud Foundry today
+14:39 <  jeffhung> au: VPN is extremely slow here. I'll see if we have more examples in internal wiki later.
+14:39 < vanjuggle> miyagawa: it matchis the WSGI => whisgee
+14:40 <      ingy> http://cloudfreestyle.org/
+14:40 <        au> jeffhung: kk. let's keep in touch w/ email later and I'll send you the REST API docs
+14:40 <  miyagawa> vanjuggler: yeah I know
+14:40 <      ingy> vmware is poorly governing cloudfoundry
+14:41 <  miyagawa> Pro tip: don't use the black background slides
+14:41 <  jeffhung> au: which email you use primary now? mine is jeff.cc.hung -at- gmail
+14:41 <      ingy> miyagawa++
+14:41 <        au> jeffhung: audreyt@audreyt.org or au@socialtext.com both works
+14:42 <        au> ingy: sounds great!
+14:42 <  jeffhung> au: ok. thanks. i'll also loop some interested in our side, too.
+14:42 < lunastorm> au: there is a preinstalled TME vbox VM in the download page
+14:42 <        au> lunastorm: thx, good to know
+14:44 <  jeffhung> 趁大家要專心聽 lightning talk 前，再廣告一下：歡迎參加 OSDC Hackathon - https://github.com/jeffhung/osdc-2012-hackathon
+14:45 <  jeffhung> (耶，離 lightning talk 還有一場。XD)
+14:46 <      a2n_> miyagawa: screen sharing on the webpage is a good solution.
+14:46 < lunastorm> jeffhung應該上去講之前的點子順便廣告xD
+14:46 < vanjuggle> does anyone here know about open data in taiwan?
+14:46 < vanjuggle> I hack open data in Canada
+14:47 <        au> vanjuggler: you want thschee for that ( www.opendata.tw )
+14:47 <  jeffhung> lunastorm: 之前的點子是什麼？
+14:47 <      a2n_> vanjuggler: thschee does that.
+14:47 < vanjuggle> curious if the open data movement is happening in .tw
+14:47 <   thschee> vanjuggler: I am behind opendata.tw
+14:47 < lunastorm> train
+14:47 < vanjuggle> woo
+14:47 < FourDolla> vanjuggler: http://www.opendata.tw/
+14:47 <  jeffhung> lunastorm: 喔，我知道了。XD
+14:47 < FourDolla> woo
+14:47 < lunastorm> 要上了
+14:47 <   thschee> vanjuggler: we're discussing open data in #pptaiwan 
+14:48 <      a2n_> there shoud be some open-data issues in this kinda conference.
+14:48 < ronnywang> 哭哭，我們家 SG 沒等我就下班離開了
+14:48 <   thschee> vanjuggler: it's getting a lot of attention from many stakeholders but hampered by legal and privacy concerns so far
+14:48 < vanjuggle> nod
+14:48 < vanjuggle> that seems to be how it goes
+14:49 <   kikiqqp> 不喜歡這投影機
+14:49 <   kikiqqp> 感覺就算SG照片投影上去也會變成李春雞
+14:50 <   macpaul> ronnywang 下回請在公司練習跟SG一起簡報 XXD
+14:50 < lunastorm> 阿公眼鏡髒，jserv看成娘
+14:50 <   macpaul> 快快樂樂跟SG一起簡報
+14:50 <       in2> clkao 在講飛行傘, 根本就是在玩命啊啊啊啊~
+14:51 < ronnywang> 下次有機會上台我會帶 SG 一起上台的 XD
+14:51 < ronnywang> (這樣講錯了也沒人會注意到吧...)
+14:51 <   kikiqqp> 第一次帶SG上台就上手
+14:52 <   edwardc> 先講結論
+14:52 <     jnlin> 先講結論!!
+14:52 <   kikiqqp> 結論！
+14:52 <  Denir-Li> XD
+14:52 <  ChAndrew> 先講結論
+14:52 < kurotansh> 先講結論!
+14:52 <     rifur> XD
+14:52 <     adaam> U
+14:52 <  ChAndrew> （現場掌聲如雷）
+14:52 < FourDolla> jserv is too sick so he jump to the conclusion directly.
+14:52 <   kikiqqp> 哇 又是土砲了 orz
+14:52 <     mp607> ``XDDDDDDD
+14:52 <    Al_Cho> LOVER!!
+14:52 < lunastorm> 自幹系列XD
+14:52 <   edwardc> 自幹 Compiler
+14:52 < kurotansh> 自幹連發
+14:52 <     darkx> 自幹XD
+14:52 <   edwardc> 自幹 SG (被保安拖走
+14:52 <   nctusdk> …..
+14:53 < pioneerLi> ..............................
+14:53 < kurotansh> 愛台灣++
+14:53 <  NotExist> 愛台灣!!
+14:53 <   kikiqqp> 還好 我家廠商沒有自幹這些玩意，只有幹出IC XD
+14:53 <     rifur> > <
+14:53 <  king1223> XDDDDD
+14:53 <     jnlin> 愛台灣就要自幹!!
+14:53 <       ych> 我宅 我色 我不舒服
+14:54 <     darkx> 土炮精神
+14:54 <  ChAndrew> 我宅 我色 我不舒服
+14:54 <   kikiqqp> 這圖 XD
+14:54 <  king1223> 圖阿XD
+14:54 <   nctusdk> 好讚XD
+14:55 <     ecilA> Yontash: 把臉遮起來，看起來比較帥
+14:55 < FourDolla> Nokia 表示多核智慧手機只是在浪費電
+14:56 <   Yontash> ...
+14:56 < coldturni> 3310 再戰十年
+14:56 <     ecilA> ＝V＝
+14:56 <  king1223> 阿斯(?
+14:56 <   kikiqqp> ARM應該後年就3GHz了....ST都搞啥異步雙和，阿惰仔真是超越極限 
+14:56 <   edwardc> *長嘆*
+14:56 <     gugod> 很智慧地浪費電
+14:57 <   edwardc> 又有攝影大伯閃光燈閃到眼睛很不舒服
+14:57 < coldturni> gugod++
+14:57 <     darkx> 海苔
+14:57 <   nctusdk> jserv:"可能我電腦生病了"
+14:58 <  king1223> 生病會長海苔
+14:58 <     jnlin> 電腦也會被傳染 XD
+14:58 <   kikiqqp> 電池內建->電池廠沒生意 ; 耗電很兇 ->尿袋必備 ->電池廠爽回來 
+14:58 <     gugod> 人機共通傳染病毒
+14:58 <  king1223> wwwwwwwwwwwwwwwwwww
+14:58 <   kikiqqp> wow
+14:58 <  SmallSea> wwwwwwww
+14:58 <     adaam> wow~~
+14:58 < shaojung_> wow~~~~
+14:58 <      deva> 放上了. wwwwww
+14:58 <  ChAndrew> 美女圖
+14:58 <    Al_Cho> Good!
+14:59 <   nctusdk> ohhhhhh
+14:59 <     darkx> 眼鏡娘大好 >///<
+14:59 <    YChao_> 體驗她的好
+14:59 < kurotansh> "體驗她的好" wwwwwww
+14:59 < FourDolla> wow~
+14:59 < coldturni> V
+14:59 <   kikiqqp> Vmm
+14:59 <  brucehsu> V
+14:59 <  chitsaou> "V"
+14:59 <     rifur> wwwwwwwww
+14:59 <   Yontash> oh~~~~~~wwwwwwwwww
+14:59 <  ChAndrew> V
+14:59 < CaesarChi> 他是！？
+14:59 <     jnlin> 閃光燈可以關掉嗎...
+14:59 <   edwardc> 閃光燈今年又要被幹了嗎
+15:00              mhsin 今年不在
+15:01 < lunastorm> mhsin:XD
+15:01 <   hcchien> 閃光燈是什麼梗
+15:01 <   edwardc> 這位大伯的跳燈打的很詭異
+15:01 < FourDolla> 有趴在地上嗎？
+15:01 <   edwardc> 右邊根本沒有東西可以反射，你往右邊 (觀眾) 打跳燈是哪招 ...
+15:01 <  jeffhung> hcchien: 拍照的閃燈剛好直射坐樓上的人的眼睛。
+15:01 <   edwardc> 等等 lighting talk 又要閃燈連發
+15:01 <   hcchien> @_@
+15:01 <  SmallSea> 有閃光燈感覺有在做事 (閃就對了
+15:01 <   othrees> 聽眾反光板
+15:02 < coldturni> lighting talk 就是要 lighting 呀
+15:02 <   hcchien> lol
+15:02 <     darkx> coldturnip++
+15:02 <   edwardc> .......
+15:02 <   kikiqqp> 沒有情侶閃光，還有硬體閃光燈呦(啾咪) >_^*
+15:02 <     lin4h> 總算進來了Orz
+15:03 <     lin4h> irc too many connection (LoL)
+15:03 <     lin4h> 只好走3G進來
+15:03 <     jnlin> lin4h: 你需要掛 irc 的 server 嗎?
+15:03 <    YChao_> 大概70%都當在人機介面
+15:03 <     jnlin> lin4h: 你需要掛 irssi 的 server 嗎?
+15:03 < kaochenlo> 保重啊jserv
+15:03 <     gugod> 這 channel topic 是 2010/01/08 設定的。所以指的是 osdc 2011 的 cfp deadline ?
+15:03 <     lin4h> jnlin 不用謝謝
+15:04 <      deva> 多核用途... 
+15:04 <  king1223> Ubuntu for Android 0.0
+15:04 < kurotansh> jserv 身體狀況不太好　保重啊
+15:04 <  jeffhung> gugod: 好像沒 op。XD
+15:04 <     ecilA> 0.0
+15:04 <   hcchien> gugod: 我想是 2010 的 deadline
+15:04 < FourDolla> gugod: 沒 op
+15:04 <   kikiqqp> 軔體工程師淚目。 硬體系統：我們家IC沒有問題呀。 APP廠商：我們測試是OK的.....那 誰出問題(攤手)
+15:04 <     gugod> :d
+15:04 <   hcchien> 沒 op 真久了
+15:04 <  ChAndrew> Ubuntu for Android
+15:04 <       hlb> bad example about collaboration in open source projects https://github.com/twitter/bootstrap/issues/3057
+15:04 <  king1223> 以前有OP? 0.0
+15:04 <        au> "隨時都在 call for 下次的 paper"
+15:05 <   hcchien> 沒 op，都不能把人 /k 拿 op
+15:05 <   edwardc> 所以每年的 deadline 只好都選在 1/31
+15:05 <   macpaul> 等一下結束announce請大家退 irc 再走吧  XD
+15:05 <       in2> 換開 osdc2013.tw ? XD
+15:06 <     jnlin> 換個 channel 叫做 #osdctw ? XD
+15:06 <   macpaul> 看這樣可以退到剩多少人？  XD
+15:06 <     darkx> 我們在"結論"講到的東西
+15:06 <        au> hlb: hilarious
+15:06 <   hcchien> macpaul: 重點是有一個人不在現場就沒用
+15:06 <     mhsin> freenode 不是可以叫 server 給 IP 嗎？
+15:06 <     gugod> 先講結論的優點
+15:06 <   hcchien> mhsin: 當初年紀小，不懂事。沒註冊
+15:06 <     mhsin> freenode 不是可以叫 server 給 op 嗎？
+15:07 <     mhsin> hcchien: 呃  XD
+15:07 <       hlb> au: I love https://a248.e.akamai.net/camo.github.com/fb8be6bf316a4ed166a2ed5f807ddb2e7f59a240/687474703a2f2f696d673835332e696d616765736861636b2e75732f696d673835332f393839342f63726f636b666f72642e706e67
+15:07 <   kikiqqp> 大陸有的工程師很牛逼的！
+15:07 <    YChao_> 更有趣的在這裡... XD
+15:07 <   hcchien> jnlin 建議的 channel name 還不錯  :d
+15:07 <        au> hlb: heh
+15:08 <   hcchien> jeffhung: 現在 hackathorn 還是沒什麼人報嗎
+15:08 < freedomtw> modem+AP 其實是個很怪的例子
+15:08 <        au> 自從 TC39 被和諧掉 (JavaScript Harmony) 之後我就只管 CoffeeScript 了 (默)
+15:08 <  jeffhung> hcchien: 對。大概 15 人
+15:09 < freedomtw> 以大 M feature phone 而言, 其實 AP 並沒有剩下的 resource 可以跑 modem 的東東
+15:09 <  king1223> wwwww
+15:09 <     lin4h> LoL
+15:09 <     clkao> 鄉民入侵 github
+15:09 <  king1223> 地球耶XD
+15:09 < freedomtw> resource 不會自己跑出來
+15:09 < kurotansh> 這踢好棒 XD
+15:10 <   hcchien> 只好 /t OSDC.tw 2012 Hackathorn https://github.com/jeffhung/osdc-2012-hackathon
+15:11 < coldturni> 情報：Pycon.tw 2012 早鳥票開賣 http://registrano.com/events/pycon-taiwan-2012
+15:11 <  chitsaou> xdddd
+15:11 <     tonyq> 七格
+15:11 <  allenown> DrawSomething  XDD
+15:11 <  Denir-Li> Draw Somethimg
+15:11 < ronnywang> Virtua XD
+15:11 <   kikiqqp> 有創意！
+15:11 <     FredC> hcchien, hackthorn?? (不知道狀)
+15:11 <   edwardc> 去年的 coscup sg
+15:11 < kurotansh> virtual XD
+15:11 <    adaam_> XDD
+15:11 <  king1223> wwwww
+15:11 <  ChAndrew> 那個"V"字
+15:12 <   gh40402> Virtual
+15:12 <     tonyq> 好一個V!
+15:12 <    YChao_> V!
+15:12 <   hcchien> FredC: 看偽 topic
+15:12 < CaesarChi> V
+15:12 < kurotansh> 好 V
+15:12 < lunastorm> V!!!
+15:13 <     jnlin> "V"irtual
+15:14 <     jnlin> FredC:  https://github.com/jeffhung/osdc-2012-hackathon
+15:14 <  king1223> 駭客爽0.0
+15:14              jnlin 在 GitHub 上____正夯 // ____ 請任意填一個動詞 
+15:14 <     FredC> @@
+15:15 <    YChao_> 博大精深
+15:15 <     lin4h> (o)
+15:15 <   kikiqqp> 動詞
+15:15 <     FredC> 所以就是嘴炮講想法，然後當天組隊來做嗎？
+15:16 <        au> 「只要敏感詞都有特權，就能當上虛擬城管」
+15:16 <   hcchien> FredC: 就是揪人做自己的想法，或參加做別人的 projects
+15:17 <     jnlin> 好閃 -_-
+15:17 <  carlcarl> *閃*
+15:18 <     darkx> *瞎*
+15:18 <     jnlin> 感覺是直接往聽眾的眼睛打了
+15:18 <  king1223> 閃爆了
+15:18 <  mikimoto> [示範] 我想到 hackthorn 可以做什麼了，來把自走砲加上環境辨識功能，看看能不能讓他自己行動 XD
+15:18 <    YChao_> co-processor & memory management
+15:19 <   kikiqqp> 組語(熟悉感) 
+15:19 < lunastorm> pycon.tw有三十幾個報名了
+15:19 <   hcchien> [示範] 我想要在 hackthorn 來改 clkao 的 tradespring
+15:20 <     clkao> ...
+15:20 <     jnlin> http://a5.sphotos.ak.fbcdn.net/hphotos-ak-prn1/550156_10150752671974929_856019928_9393149_1883319822_n.jpg
+15:21 <   kikiqqp> 編譯器是C轉組語，這 好像把組語轉成其他高階語言呀：
+15:22 <  king1223> 0.0
+15:22 <  carlcarl> 0.0"
+15:22 <     lin4h> = =b
+15:22 <  ChAndrew> 0.0 
+15:23 <    Al_Cho> =w=
+15:23 <   michael> test
+15:23     michael  is now known as Guest31440
+15:23 <     ecilA> ⊙.⊙
+15:23 <    Kin_Lo> 0.0
+15:24 <     darkx> Q_Q
+15:24 <    YChao_> preempt
+15:24 <    YChao_> PS2 -> PS3?
+15:24 <  king1223> PS2?
+15:24 <   kikiqqp> PS2?
+15:24 <    YChao_> PS3 有HV用掉其中一個core
+15:24 <     FredC> BlueT_, 回頭
+15:24 <   kikiqqp> 不是只有BIOS 
+15:25 <     FredC> BlueT_, 回頭！
+15:25 <     jnlin> samsung XD
+15:25 <    YChao_> 三年... XD
+15:25 <      Sars> 終於不是打臉了
+15:25 <     jnlin> samsung 好慘 XD
+15:25 < stevenni_> 置入性XD
+15:25 <       hlb> (Y)
+15:26 <  king1223> XD
+15:26 <  tonyni__> 為什麼前面的螢幕一直低頭懺悔?
+15:27 <  king1223> wwwww
+15:27 <   kikiqqp> 搞單晶片RTOS會聽的很爽，但不搞得人應該會覺得這場很悶吧 @@
+15:27 <     tonyq> 是也還好 XD  反正梗不少
+15:27 <   jefflin> 那台螢幕可能不舒服
+15:28 <       df1> XDD
+15:28 <  king1223> 他也生病了XD
+15:28 <   kikiqqp> 下垂 
+15:28 <     tonyq> 感覺是伏梗
+15:28 <       hlb> 一如既往聽不懂, 不過向來是看 jserv 表演, 不是看投影片 :D
+15:29 <       lzy> wifi 的 DHCP 完全要不到 IP ... = =
+15:29 <   hcchien> hlb: 看投影片裡的妹
+15:29 <   kikiqqp> 螢幕抬頭了 
+15:29 <  tonyni__> 抬頭了！
+15:29 <   jefflin> 起來了!!
+15:29 <    YChao_> live demo!!!
+15:29 <       lzy> brianhsu: 感謝布魯踢大大 <(_ _)>
+15:29 < kurotansh> 螢幕站起來了！
+15:29 <     jnlin> 解不開
+15:29 <     jnlin> XDDDD
+15:29 <    adaam_> 阿不管啦～～
+15:29 <     lin4h> XDDD
+15:29 <    YChao_> 好不管了...
+15:29 <  tonyni__> 用手指啊！！！
+15:29 <   kikiqqp> 他活了 他活起來了 ！
+15:29 < coldturni> live demo 果然很危險 XD
+15:29 <     tonyq> XDDDD
+15:29 <    jaceju> jserv 話匣子一開就停不下來了，前面的工作人員舉報時器舉得好酸的感覺...
+15:29 <  chitsaou> XD
+15:29 <  king1223> 站了XDDD
+15:29 <  tonyni__> live demo 的魔咒？
+15:29 <    YChao_> 無視時間... :)
+15:30 < FourDolla> hcchien: 試試看 http://freenode.net/group_registration_form.php 能不能把 OP 找回來，不過你自己也要先註冊你的 nickname
+15:30 <  tonyni__> 看錯時間！！！
+15:30 <  mikimoto> hcchien: 等一下大家都要離開這個 channel 嗎？
+15:31 <   kikiqqp> ？
+15:31 <  brucehsu> 群群XDDDD
+15:31 < coldturni> 群群
+15:31 <  tonyni__> 群群
+15:31 < lunastorm> qun qunXD
+15:31 <     darkx> XD
+15:31 <   gh40402> 群群XDD
+15:31 < kurotansh> 群群 XD
+15:31 <  buganini> 該不會看到外接螢幕上那個時間吧…
+15:31 <  king1223> XDDDD
+15:31 <    jaceju> 工作人放棄了舉報時器了
+15:31 <     darkx> 中研院自幹系統況
+15:31 < shaojung_> 群群....
+15:31 < coldturni> 中研院自幹系統實況
+15:31 <   kikiqqp> 自幹系統時況 
+15:31 <     jnlin> AKB427 
+15:31 < kurotansh> 核心 XD
+15:31 <  ChAndrew> XDDDDDD
+15:31 <  ChAndrew> ()
+15:31 <    dryman> 核心XDD
+15:31 < coldturni> 巴菲特也叫大家投資核心 XDDDDD
+15:31 < kurotansh> AKB48 XD
+15:31 <     darkx> kernel
+15:31 <  mrmoneyc> XDDD
+15:31 <  king1223> XDDDD
+15:31 <  ChAndrew> （爆笑）
+15:32 <  SmallSea> XDDD
+15:32 <   Yontash> XDDDD
+15:32 <  king1223> 果然是股神XDDD
+15:32 <   kikiqqp> 恩恩恩
+15:32 <   kikiqqp> 圖
+15:32 <    YChao_> 疑...
+15:32 <    adaam_> 正妹圖被跳掉了
+15:32 < kurotansh> 剛剛閃過什麼了 >////<
+15:32 <     lin4h> (X)
+15:32 <   Yontash> !!!
+15:32 <  tonyni__> XD
+15:32 <     darkx> QQ
+15:32 <  brucehsu> [X]
+15:32 <  king1223> QAQ
+15:32 <     ecilA> �
+15:32 <   kikiqqp> 不！！！！美女圖變成系統架構圖了 
+15:32 <     kidwm> T_T
+15:32 <   pingooo> 有圖無真相，此風不可長
+15:32 <     rifur> XD
+15:32 <  SmallSea> 來了!!!!
+15:33 <   kikiqqp> 回來了
+15:33 <    YChao_> 喔，回來了
+15:33 <  king1223> !!!!!!!!
+15:33 < kurotansh> yoooooooooooooooo
+15:33 <  ChAndrew> 圖！！！
+15:33 <     darkx> >///////<
+15:33 <     lin4h> (rofl)
+15:33 <        au> mmm while the others are fine, now this pic is a bit over the line in terms of sexual objectification
+15:33 < kurotansh> (y)
+15:33 < vanjuggle> yes, this is surprising 
+15:33 < CaesarChi> 有激凸
+15:33 <   kikiqqp> 我在想是不是說錯主機了
+15:33 <   pingooo> 有人聽清楚 jserv 在講什麼嗎？
+15:33 <   kikiqqp> 因為記得做出來比較有名的是DC耶 
+15:34 <    YChao_> F9??
+15:34 < CaesarChi> F9
+15:34      adaam_  is now known as adaam
+15:35 <  chitsaou> *Instagram*
+15:35 <    YChao_> transmeta 兩億美金
+15:35 <     darkx> 很沮喪
+15:35 <    YChao_> 某service十億美金
+15:35 <    YChao_> XDD
+15:36 <   kikiqqp> 當CPU只能賣.2人民幣時 是人都會沮喪呀
+15:36 <     darkx> kikiqqp++
+15:37 <       in2> 在急診室上 irc !
+15:37 <     tonyq> 在急診室還上 irc
+15:37 <   bobchao> XD...
+15:37 < vanjuggle> i hope he skypes ingy
+15:37 <        au> ip over intense care unit
+15:37 <   kikiqqp> 打包食物 
+15:37 <     tonyq> 誰接 show girl 的 XDDDDD
+15:37 <  mrmoneyc> 今年食物真的多的很恐怖....
+15:37 <     jnlin> 今年 s3p 沒來...
+15:37 <  mrmoneyc> 今年也沒布丁呀XD
+15:37 <   jefflin> 打包SHOW GIRL
+15:37 <     darkx> Q______________Q
+15:37 <   bobchao> jnlin: 我"似乎"有在外面攤位看到 s3p?
+15:37 <  michael_> 真酷
+15:38 <   kikiqqp> 好攜帶的都被拿光光了 
+15:38 <   Yontash> XD
+15:38 <      deva> 去年  jserv + s3p  PK 布丁影片有看. XD
+15:40 <      deva> LT 有計時嗎？ 
+15:40 <   kikiqqp> 有吧 
+15:40 <        au> 喔喔 dryman 也愛用 Apple Emoji Unicode 字型++
+15:40 <     darkx> XD
+15:40 <  mrmoneyc> PHP 中槍XD
+15:40 <   kikiqqp> PHP中槍
+15:40 <  brucehsu> 這篇出現了XD
+15:40 <   kikiqqp> 寫JAVA會不會戰不起來還換得認同 
+15:41 <   macpaul> Jserv 的錄影: http://www.youtube.com/watch?v=hMVR5G2I_ew  要 1hr 轉檔
+15:41 <    YChao_> never live demo...
+15:41 <     rifur> (worship)
+15:41 <  tonyni__> 講者是大陸來的？
+15:41 <  albb0920> 中研院的研究員
+15:41 <  king1223> 0.0
+15:42 <  michael_> 是的
+15:43 <     FredC> 我等大八掛！！！！！！！
+15:43 <      ingy> vanjuggler: I am Skypeless in Seattle
+15:43 <      ingy> also time for zzzzzzzzzzzzzzzzzzzzzz
+15:44 <  michael_> 內容尖深但是沒有很高的rate
+15:44 <      ingy> nini.
+15:44 <   kikiqqp> SEO 
+15:44 <   kikiqqp> 廣告商大喜
+15:44 <  albb0920> 內容艱深就是 TL;DR
+15:44 <    YChao_> search engine opt.
+15:44 <      obra> SNO
+15:44 <      obra> (Social News Optimization)
+15:45 <     clkao> au: 他早上問了我昨天問你的問題
+15:45 <       hlb> 好巨大的 Comic Sans... T_T
+15:45 <      obra> I,I "SNO Job"
+15:45 < coldturni> 1. 戰文 2. 潮 3. 快速上手
+15:45 <  chitsaou> 左邊第一個 XD
+15:46 <        au> clkao: (y)
+15:46 <       hlb> XD
+15:46 <  carlcarl> XDD
+15:46 <   kikiqqp> 不是韓國人 
+15:46 <  jeffhung> 原來那個字這麼念。XD
+15:46 <  michael_> 果然啊 ~~~
+15:46 <    Irvin_> 筷子拿出來就贏了
+15:46 < CaesarChi> 嫖
+15:46 < medicalwe> 朴
+15:46 < kurotansh> 不是韓國人++
+15:46 <      a2n_> Piao
+15:46 < medicalwe> 不是韓國人 OwO
+15:46 <    YChao_> 沒拿到筷子
+15:47 < stevenni_> 額外好處XD
+15:47 <  king1223> 沒拿到+1 QQ
+15:47 <  mrmoneyc> 公司為你做靠山的 startup++
+15:47 <   kikiqqp> 這站很有名，對岸有些都拿這來討論創新網站方向 
+15:47 < ronnywang> 本來看到他名字以為他 CJK 都會 XD
+15:48 <   jefflin> 在 flickr發現好多乖乖 http://www.flickr.com/photos/yrchen/5669471436/lightbox/ 
+15:48 < kurotansh> 工程師主導 ++
+15:48 <   kikiqqp> 這是幻想.....人家都是業務和褲戶主導 O_Q
+15:48 <      Sars> 黃色的... 不太吉利 @@
+15:48 <     adaam> 乖乖山  可是是黃色的....|||
+15:48 <   kikiqqp> 客戶
+15:49 <  king1223> 所以是新型態0.0
+15:49 <       in2> 某公司堅持綠乖乖是給機器吃的, 人只能吃黃乖乖~
+15:49 < lunastorm> 長官主導
+15:49 <     darkx> (已開源)  XD
+15:49 <     mp607> 已開源
+15:49 <        au> (MIT license)
+15:49 < shelling_> 長官主導 sucks
+15:49 <  king1223> XD
+15:49 < lunastorm> xD
+15:49 < CindyLinz> in2: 長官好.. m(_._)m
+15:50 <  chitsaou> https://github.com/cookpad
+15:50 < lunastorm> 報告是長官
+15:50 <       in2> CindyLinz: 那來跟我領一包乖乖吧 :D
+15:50 <   kikiqqp> 有靠山真好
+15:50 < CindyLinz> in2: 乖乖 sucks... XD
+15:50 <  king1223> ?!
+15:50 <     adaam> 加入COOKPAD吧！ 
+15:51 <   kikiqqp> 可是......白鬍子掛掉了耶！
+15:51 <     lin4h> 科科
+15:51 <   fulamce> XD
+15:51 <     tonyq> XDDDDD
+15:51 <  mikimoto> XD
+15:51 <     darkx> 你知道的太多了
+15:51 <       in2> 她剛才是說下一位是...摸摸兒 嗎?O_O
+15:51 < legnaleur> ericsk 又要中槍了
+15:51 <   gh40402> COSCUP!!
+15:51 <     adaam> COSCUP !!
+15:51 <   Singing> COSCUP 
+15:52 <  king1223> COSCUP
+15:52 <   kikiqqp> 好快的統計
+15:52 <    Al_Cho> COSCUP
+15:52 <    ericsk> legnaleurc: ?
+15:52 <   kikiqqp> 主機DDOS測試！
+15:52 <     lin4h> 尛
+15:52 <  king1223> 諸事不宜QQ
+15:52 <  tonyni__> 什麼時候開放註冊啊？
+15:52 < legnaleur> ericsk: toomore 的題目
+15:52 < lunastorm> goooood
+15:52 <    ericsk> orz
+15:52 <   kikiqqp> 忌嫁娶
+15:52 <     lin4h> XDDD
+15:53 <       hlb> 忌嫁娶++
+15:53 < ronnywang> coscup 更不能 live demo 了
+15:53 <  chitsaou> 辦研討會也要查黃曆
+15:53 <       hlb> 昨天就得去喜酒...
+15:53 <   kikiqqp> 土砲嗎？
+15:53 <  michael_> 因為黃道吉日就要去喝喜酒
+15:53 <  michael_> 或是要結婚
+15:53 <   edwardc> coscup 最值得期待的是 unconference ....
+15:54 <      a2n_> legal impact!! 把 now.in 拿來探討啊～～
+15:54 <  albb0920> edwardc: +1
+15:54 <     darkx> 還有 lighting talk
+15:54 <  michael_> 就沒人要來參加ㄌ
+15:54 <   gh40402> now.in Q_Q
+15:54 <  king1223> QQ
+15:54 <   kikiqqp> now.in太多可以談了 
+15:54 <     lin4h> XDD
+15:54 <     darkx> 拿貼紙！
+15:55 <   edwardc> 看 SG
+15:55 <  king1223> 貼紙++
+15:55 <   bobchao> SG++
+15:55 <     adaam> 貼紙++
+15:55 <  allan914> 新的生涯規畫 XD
+15:55 <  king1223> 媽，我在這(?
+15:55 <   kikiqqp> 貼紙++
+15:55 <  albb0920> 是說 COSCUP 根本不用4~宣傳人就會自動滿了吧...
+15:55 <   edwardc> 我耳幹，聽成「上美女」
+15:55 < kurotansh> SG++
+15:55 <   bobchao> 「媽我上...」
+15:55 <    Kin_Lo> !?
+15:55 <     lin4h> 網上．晚上(XD)
+15:55 <     darkx> 小飛機！！！
+15:55 <  mrmoneyc> 小飛機XDD
+15:55 <  michael_> 小飛機！！
+15:55 <     adaam> XDD
+15:55 <   edwardc> yoooooooooooooooooooo
+15:55 <  mrmoneyc> 少了 PIZZA！！！
+15:55 <  king1223> XDDDDDDDD
+15:55 <   kikiqqp> 好吃新奇又好玩 
+15:55 <   Singing> 小飛機！
+15:55 <   kikiqqp> DDOS
+15:55 <   gh40402> 小飛機XD
+15:55 <     adaam> 這次他不穿女裝了吧
+15:55 <     darkx> crontab （誤
+15:55 <       hlb> T__T
+15:56 <        au> hlb: (拍拍)
+15:56 <   bobchao> quote hlb: 「如果今年要來用 Registrano… 請通知我們家機器
+15:56 <   bobchao> 」加
+15:56 <  mrmoneyc> lol
+15:56 <   edwardc> 今天有誰要來被打臉呢
+15:56 <   kikiqqp> XD
+15:56 < lunastorm> xd
+15:56 <     lin4h> 去年報名時間我還在東引咧
+15:56 <  michael_> 自動報名機器人現在開始倒數計時
+15:56 <   edwardc> s/天/年
+15:56 <       hlb> 反正今年應該只要掏信用卡就可以解決了......
+15:56 <     darkx> sudo service COSCUP-bot start
+15:57 <   othrees> Crontab 開始跑了
+15:57 <      a2n_> 主持人聲音專業！
+15:57 <       hlb> 再不能解決，就只能把 COSCUP 加進 event 黑名單了 T_T...
+15:57 <      kcwu> XD
+15:57 <  allenown> XDD
+15:57 < shelling_> XD
+15:57 <  mrmoneyc> XDDDDD
+15:57 <   kikiqqp> xd
+15:57 <       dm4> XD
+15:57 <     lin4h> XD
+15:57 < kurotansh> 苦主出現了 XD
+15:57 <     lin4h> XD
+15:57 <       hlb> XDD
+15:57 <      deva> xd
+15:57 <  Denir-Li> XD
+15:57 <     adaam> XD
+15:57 <  brucehsu> XDDDD
+15:57 <       hlb> ericsk: XD
+15:57 <      anfa> XD
+15:57 <     FredC> lol
+15:57 <   gh40402> XDDD
+15:57 <   Singing> XD 
+15:57 < freedomtw> 這題目:-)
+15:57 <    YChao_> 在打臉...
+15:57 < CaesarChi> XD
+15:57 < lindsayra> XDD
+15:57 <    Al_Cho> XD
+15:57 <  albb0920> XDDDDDDDD
+15:57 <  king1223> XDDDDDDDDDDDDDD
+15:57 <      deva> toomore 上場. 
+15:57 <   bobchao> XD....
+15:58 <   kikiqqp> 恩 照片不錯 
+15:58 <    Al_Cho> XDD
+15:58 < kurotansh> 打了另一邊的臉 XD
+15:58 <  ChAndrew> ericsk: XD
+15:58 <    ericsk> ......
+15:58 <  mrmoneyc> ericsk 大又中槍XD
+15:58 <      bcse> XD
+15:58 <    YChao_> 新的收費標準
+15:58              ericsk 參與感最高的一次 OSDC.tw
+15:58 < shelling_> XD
+15:58 <     darkx> XXD
+15:58 <      chph> XD
+15:58 <   bobchao> (剛剛有連續 XD combo...)
+15:58 < kurotansh> XD
+15:58 <     lin4h> おいおい
+15:59 <    YChao_> 妹好正的地方
+15:59 <      a2n_> 建商！ Heroku!
+15:59 <   kikiqqp> 今年真的都是重建又重建呀
+15:59 <  mrmoneyc> 建商www
+15:59 <       hlb> XD
+15:59 <     adaam> 原地重建XD
+15:59 <  king1223> XD
+15:59 <   bobchao> 很明顯投影片是今天做的 XD
+15:59 <       hlb> um, 沒這麼慢吧 O_O
+16:00 <     darkx> XDDDDDDDDDDDDDD
+16:00 <  ChAndrew> 喔喔
+16:00 <       hlb> 其實放在 linode jp, 可能比台灣某些 hosting 還快...
+16:00 <  king1223> XD
+16:00 <    Irvin_> http://browserquest.mozilla.org/
+16:00 <    YChao_> Mozilla BrowserID
+16:00 < legnaleur> HiCloud 悲劇
+16:00 <  ChAndrew> 宣傳 BrowserID了
+16:00 <    Irvin_> 啊網址丟錯了
+16:00 <        au> hlb: 中肯
+16:00 < CaesarChi> linode jp
+16:00 <    YChao_> grs.toomore.net
+16:00 <     Shock> linode++
+16:01 <    Irvin_> https://browserid.org/
+16:01 <  king1223> 我暴機了(?
+16:01 <    Irvin_> XD
+16:01 <   bobchao> 「大家不要太大力 慢慢測一下就好了...」
+16:01 <      a2n_> Irvin_: 嚇一跳，變遊戲
+16:01 <      deva> http://blog.toomore.net/2012/04/osdctw-2012-gae.html  
+16:01 <   bobchao> 「謹慎選擇你所聽到的技術」
+16:01 <        au> 「投資技術不保證夠力」
+16:01 <       hlb> Registrano 現在也在 Linode JP 唷...
+16:01 < CaesarChi> 三思啊
+16:01 <    Irvin_> a2n_: 一樣是 Mozilla 的 BrowserXX XD
+16:02 <       hlb> 缺點: 會有些米國用戶告訴你連不到
+16:02 <   jserv--> http://www.slideshare.net/jserv/embedded-virtualization-for-mobile-devices # 剛剛簡報的完整版本
+16:02 <        au> hlb: 剛好來練 replication
+16:02 <       hlb> ... 投影設定反了? o_O
+16:02 <    YChao_> 雙螢幕設定反了
+16:02 <    Al_Cho> 嗯 設定反了..
+16:02 <  king1223> 一大一小o_O
+16:02 <        au> ... 和俄羅斯方塊一樣看得到下一塊
+16:02 <   othrees> 怕改了來不及吧
+16:03 < kurotansh> 應該是反了
+16:03 < CaesarChi> XD
+16:03 <  miyagawa> Presenter mode :)
+16:03 < lunastorm> 一次講兩長
+16:03 <   bobchao> OO.o 好像常有這問題, 我上次也是 :/
+16:03 <   nctusdk> 這也蠻酷的…XD
+16:03 <       hlb> au: 其實是練習了兩手一攤
+16:03 <  carlcarl> 0.0"
+16:03 <     FredC> 這其實是梗 （噓）
+16:03 <   gh40402> 有計時耶0.0
+16:03 <    YChao_> OOo該檢討
+16:03 <      roga> jserv: 投影片裡面沒有照片 :((
+16:03 <        au> hlb: 專業
+16:03 <  king1223> 不是倒數0.0
+16:03 <   jserv--> roga, 喔，還沒上傳
+16:03 <   kikiqqp> 主從螢幕設定問題 
+16:03 <    YChao_> live demo!!!
+16:04 <     adaam> DEMO !!
+16:04 <  king1223> 好大!!
+16:04 < CaesarChi> live demo
+16:04 <   kikiqqp> 這CODE SHOW好 很清楚 
+16:04 <   jserv--> 終於不是海苔了
+16:04 < kurotansh> theme (y)
+16:04 <  keitheis> 這太難啦
+16:04 <   macpaul> ronnywang Pixnet: 演講錄影 http://www.youtube.com/watch?v=U7w6C0IAmEQ 
+16:04 <    YChao_> 很清楚
+16:04 <      roga> 好大..!
+16:04 < ronnywang> macpaul: 感謝
+16:04 < CaesarChi> 白底才是王道
+16:04 < kurotansh> 目前為止看到最好的 editor theme
+16:04 <  king1223> 話說演講都有錄影嗎?0.0
+16:05 <     ecilA> 洋菜才是王道
+16:05 <     adaam> 投影用黑的眼睛會暴掉吧
+16:05 <    YChao_> 對比好就ok
+16:05 <   kikiqqp> 人家不喜歡黑棒擋住重點畫面 
+16:05 < legnaleur> sa
+16:05 <   jserv--> 黑棒 ++
+16:06 <    YChao_> oops...
+16:06 <     FredC> 糟
+16:06 <   othrees> Miss 
+16:06 < legnaleur> ouch
+16:06 <     FredC> 滴答滴搭
+16:06 <   othrees> 重來中
+16:06 <     clkao> is toomore on irc?
+16:06 <    YChao_> .....
+16:06 <  carlcarl> 0.0"""
+16:06 < kurotansh> ohh
+16:06 <  king1223> ?
+16:06 <   othrees> 大家都期待他來不及
+16:06 <       lzy> XD
+16:06 <    YChao_> .....
+16:06 <   macpaul> king1223: 沒有這回事喔 就算有錄影SD卡也有爆掉的瞬間
+16:07 <     darkx> 這時候就知道 ipython  支援 tab complete 的好處了XD
+16:07 <  keitheis> cool
+16:07 <   othrees> 雙卡機
+16:07 <  king1223> macpaul:了解 @@
+16:07 <   macpaul> 5min: 01了
+16:07 <  keitheis> or bpython
+16:07 <    YChao_> 真的來得及嗎？
+16:07 <      roga> 好緊張... 時間快到了嗎
+16:07 < legnaleur> 全局 XD
+16:07 <       lzy> 時間到了吧＠＠
+16:07 <    YChao_> .....
+16:07 <   macpaul> 背拔掉之前的拍照
+16:07 < coldturni> ipython++
+16:07 <   macpaul> 耶
+16:07 <      roga> 喔喔！！
+16:07 < kurotansh> time's up
+16:07 <     adaam> 剛剛好耶
+16:07 <   kikiqqp> 延遲是定番！
+16:07 <   macpaul> pass了
+16:07 < lindsayra> great!!
+16:07 <     darkx> safe
+16:07 < freedomtw> pass
+16:07 < lunastorm> 下莊
+16:07 <  king1223> SAFE!!
+16:07 <   jserv--> JVM !
+16:07 <     darkx> 等等是 BlueT_ XD
+16:08 <    Al_Cho> awesome!
+16:08 <     adaam> BlueT大大  XD
+16:08 <   jserv--> 現在流行自幹程式語言嗎？ :P
+16:08 <    Irvin_> BlueT ++
+16:08 <  mrmoneyc> 唔 ..
+16:08 <  tonyni__> 他就是英文比中文強那個嗎？
+16:08 <  king1223> BlueT++
+16:08 <  brucehsu> 咦，這是不是去年coscup講的東西嗎？ xd
+16:08 < CaesarChi> 全程國語！
+16:08 <  ChAndrew> 我聽到下一位是布魯踢大大XDDDDDD
+16:08 < coldturni> 去年講 OpenJDK7
+16:08 <   kikiqqp> ㄜ 
+16:08 <     tonyq> java vm !
+16:08 < kurotansh> 港仔?
+16:08 < lunastorm> JVM
+16:08 <       lzy> yup
+16:08 <     gugod> hkjug
+16:08 < coldturni> 是香港人沒錯。
+16:08 <   edwardc> 大佬
+16:08 <  michael_> 我好愛他的口音喔！！
+16:08 <      roga> 不知道為什麼覺得好有喜感...
+16:09 <    YChao_> 卡喀了...
+16:09 <     tonyq> 他昨天有講 JDK7 GC
+16:09 <  michael_> 超有喜感的
+16:09 < kurotansh> XD
+16:09 <      roga> michael_ ++
+16:09 <     mp607> 好妙
+16:09 <  brucehsu> OpenJDK 7: The universal language runtime
+16:09 <     darkx> 想到去年的 COSCUP lighting talk XD
+16:09 < CaesarChi> 是真的原口音嗎？
+16:09 <   nctusdk> 集特compiler
+16:09 <       lzy> 他口音還好 ...
+16:09 <      a2n_> 黎智英魂！
+16:09 <    YChao_> 直接用英文吧，怕他來不及...
+16:09 <     tonyq> 真的啊 不過他昨天講英文超流利
+16:09 < kurotansh> 英文標準！
+16:09 <       lzy> 等等 Ben Lau 也會講
+16:09 <     tonyq> 比他現在這樣一頓一頓快多了
+16:09 <     jnlin> bobchao: 我剛剛遇到 s3p 了 XD
+16:09 <     darkx> ！！
+16:09 <    YChao_> Ben Lau++
+16:09 <   kikiqqp> 擔兵注意 語塞卡彈應如何處理
+16:09 < coldturni> Ben Lau ++
+16:09 <  brucehsu> 改用英文了XD
+16:09 <  tonyni__> 英國口音
+16:10 <     tonyq> 我聽起來還是中文阿（搔頭）
+16:10 < freedomtw> His English is much better than Mandarin
+16:10 <  miyagawa> Also British
+16:10 <  michael_> j一格pa居一理不要看呀
+16:10 <    YChao_> 英文很好
+16:10 < lindsayra> 全英文好像比較來得及
+16:10 <     clkao> he worked in ibm's south hampton campus
+16:10 < CaesarChi> 大家不要這樣子la...
+16:11 <  michael_> arm ~~ 啊殺po
+16:11 <    YChao_> go go go!
+16:11 <     FredC> @@
+16:11 <   gh40402> 其實直接講英文應該可以吧
+16:11 <     tonyq> 我是真的希望他說英文 我英文不好但是我聽的懂他的英文 XD
+16:11 < lunastorm> 很豪的example
+16:11 <     clkao> hlb: 妳們用了很豪的 example!
+16:11 <  ChAndrew> 其實這就跟「台灣國語」同情形，大家就別太嫌棄了 XD
+16:11 <   kikiqqp> 英文應該沒問題
+16:11 <  king1223> 他很努力了><
+16:11 <    YChao_> 真的是怕他來不及
+16:11 <  albb0920> 不是嫌棄，只是他真的應該考慮用全英文說w
+16:11 <  tonyni__> 他有偷渡廣東話 XD
+16:11 <  keitheis> 很豪超棒的啊
+16:11 <  michael_> 這口音太可愛ㄌ
+16:11 <  buganini> 我想聽他說「各個國家都有各個國家的國歌」
+16:11 <      a2n_> albb0920: agree.
+16:12 <     kidwm> buganini: 學弟這真GJ
+16:12 <      a2n_> wow!! 標準英國腔。 :)
+16:12 <     lin4h> +1
+16:12 <  Howard28> buganini: XD
+16:12 <     mp607> 英文了www
+16:12 < coldturni> jython…
+16:12 <  king1223> Lua !!0.0
+16:12 <      a2n_> even lua
+16:12 <       hlb> JDK7 得要自己 compile?
+16:13 <   macpaul> 第一個閃電秀 video http://www.youtube.com/watch?v=hMBzfggxCRo 
+16:13 <   kikiqqp> 各位 這就跟JAVA一樣呀  CPU(腦袋) -> OS(語言理解 英文) -> JVM(轉譯) -> JAVA APP(普通話)
+16:13 < kurotansh> 要狠狠的試 "大S" ?
+16:13 <    YChao_> 贊
+16:13 <  mrmoneyc> BlueT!!!
+16:13 <  king1223> <_ _>
+16:13 <   nctusdk> blueT!
+16:13 <      lynn>  卡通阿寶跟"老皮"<-口音很像
+16:13 <   macpaul> blueT
+16:13 <   gh40402> BlueT!!
+16:13 <     clkao> can haz jcoffee?
+16:13 <  mikimoto> BlueT
+16:13 <  king1223> BlueT!!
+16:13 <     darkx> 黑踢！
+16:13 <   kikiqqp> lynn++
+16:13 <  michael_> 還有一個叫ETblue的 ~~?
+16:13 <      a2n_> hlb: jdk7 可以下載，不用自幹. http://j.mp/HVDAHw
+16:13 <     adaam> 畫面勒XD
+16:13 <    YChao_> XD
+16:13 <   jserv--> 「喔幹」
+16:13 <   edwardc> 「ㄟ，幹」
+16:14 <     darkx> 很開心
+16:14 <   jefflin> 阿! 幹!
+16:14 <  mrmoneyc> 欸幹 ..XD
+16:14 <     tonyq> 阿 幹～
+16:14 <      chph> 欸幹 XD
+16:14 <     gugod> I recall that there's already a java impl named coffee
+16:14 <       hlb> a2n_: 謝
+16:14 <   bobchao> 哇喜不擄踢… ㄟ？幹...
+16:14 <   kikiqqp> 時間慢慢流失 XD
+16:14 <   macpaul> slide live demo fail
+16:14 <     tonyq> 阿 有了！
+16:14 <    YChao_> .....
+16:14 <  king1223> XDDD
+16:14 < kurotansh> 喇低賽
+16:14 <     adaam> xddd
+16:14 <     FredC> XD
+16:14 <   bobchao> 催速
+16:14 <   bobchao> XDDD
+16:14 <    YChao_> this page is loading....
+16:14 <   macpaul> 我今天要demo一個slide
+16:14 <     lin4h> XDDD
+16:14 <   edwardc> XD
+16:14 <  ChAndrew> XDDDDDDDDDD
+16:14 <    sntc06> This slide is loading...
+16:14 < kurotansh> 悲劇
+16:14 <   Yontash> XDDD
+16:14 <     jnlin> The slide is loading XDDD
+16:14 <      anfa> GJ
+16:14 <        au> Google Docs
+16:14 <     FredC> 看來他 demo 不完了
+16:14 <  chitsaou> XDD
+16:14 <    Irvin_> 不要用google doc啊XD
+16:14 <     adaam> Live DEMO !
+16:14 <   edwardc> 一整個杯具
+16:14 <  king1223> wwwwwwwwwwwwwwww
+16:14 <   bobchao> 爆笑
+16:14 <     mp607> 這告訴我們不要用雲端做簡報wwwwww
+16:14 <  miyagawa> Cloud fail
+16:14 <  keitheis> 好黑
+16:14 <   kikiqqp> LOADING~~~~~~~~~~~~~
+16:14 <       hlb> a2n_: 沒有 mac 版 :D
+16:14 <     jnlin> 不用用 google doc XD
+16:14 <  brianhsu> lighting talking 的 slide 絕對不能放在網路上啊。 XD
+16:14 <        au> 很切題
+16:14 <     adaam> 有了！！
+16:14 <   macpaul> 真的塞車了
+16:14 < kurotansh> 塞車啦
+16:14 <     tonyq> ˙阿 有了！
+16:15 <   jefflin> 有梗!!
+16:15 <     tonyq> 他ㄋㄋ的
+16:15 <   bobchao> 事實上我看到的是 -- 她奶奶的
+16:15 <     lin4h> 蝦毀
+16:15 <   gh40402> wwww
+16:15 <     darkx> www
+16:15 < lunastorm> XDd
+16:15 <     Shock> wtf
+16:15 <    Al_Cho> www
+16:15 <  king1223> wwwwww
+16:15 <    Al_Cho> 曲線圖...www
+16:15 <   kikiqqp> 乳房方程式 
+16:15 <    YChao_> 小三
+16:15 <      a2n_> hlb: Oracle JDK7u4 Mac OS X Port Developer Preview Release, http://j.mp/HVDKyy
+16:15 <  king1223> 小三圖
+16:15 < kurotansh> 3rd party = 小三
+16:15 <    Irvin_> 3 party XD
+16:15 <  chitsaou> 3rd party XDD
+16:16 < kurotansh> SG+
+16:16 <   jefflin> SG++
+16:16 <    YChao_> 2000是二十世紀的最後一年
+16:16 <       hlb> Mac OS X Port Developer Preview Release
+16:16 <  king1223> SG++
+16:16 <       hlb> Port + Developer + Preview... 這是超危險 combo :-|
+16:16 <   kikiqqp> SG++
+16:16 <    Al_Cho> YChao_, ++
+16:16 <     tonyq> SG++
+16:16 <   jserv--> 喔，這次沒跟 SG  搭訕，遺憾啊
+16:16 <      chph> pixnet SG++
+16:16 <     darkx> http://i.imgur.com/Lrixe.jpg
+16:17 <     kidwm> jserv--: 特地幫你要到拍照機會耶
+16:17 <      chph> jserv--: 至少有拍到照 XD
+16:17 <  king1223> XDDDDDDDDDD
+16:17 < kurotansh> XD
+16:17 <   jefflin> 他ㄋㄋ的
+16:17 <     Shock> TNND
+16:17 <     kidwm> chph: 他後來沒來啊
+16:17 <   kikiqqp> TODAY？！
+16:18 <      chph> kidwm: 剛才slide的圖是昨天拍的呀 XD
+16:18 <        au> 其實 sha512+sha1 用 GPU 不難解 (小聲)
+16:18 <        au> (可能要 1000 round)
+16:18 < kaochenlo> 怎麼把加密方式講出來了 XD
+16:18 <     jnlin> 有誰有 mini usb 的線可以商借一下嗎 :o
+16:18 <  king1223> 網址詳細0.0
+16:18 <   kikiqqp> 喘息
+16:18 <  allenown> 有salt就沒關係了
+16:18 < kurotansh> 逼逼
+16:18 <    ihower> hlb, a2n_:  OpenJDK for Mac http://code.google.com/p/openjdk-osx-build/
+16:19 <     tonyq> XDDDD
+16:19 < lunastorm> benlau coming
+16:19 < CaesarChi> XDDDDD
+16:19 <      roga> http://gaiasup.com/
+16:19 <    Irvin_> http://gaiasup.com/
+16:19 <    cheech> 都要閃尿了
+16:19 <     kidwm> chph: 我說 jserv-- 啦，下午有排合照時間給他說
+16:19 <    Irvin_> 慢了
+16:19 <  king1223> thx!!
+16:19 <  michael_> 那個loading的畫面太帥了
+16:19 < CaesarChi> 台上台下一片緊張
+16:19 <   macpaul> ben!
+16:19 <     adaam> 剛好是塞車的圖XD
+16:19 <    YChao_> ben++
+16:19 <     tonyq> @chph 有來喔 以前常在ptt看到你～
+16:19 <     FredC> 衝啊！！！！！ 
+16:19 <  brianhsu> Ben++
+16:19 <    YChao_> 又是個反的
+16:19 < lunastorm> pity
+16:19 <     FredC> 報八掛！
+16:19 < kurotansh> 又反了
+16:19 <      a2n_> ihower: thx. :)
+16:20 <   edwardc> XD
+16:20 <   kikiqqp> 來啦
+16:20 <   fulamce> XDDD
+16:20 <    Irvin_> XDDD
+16:20 <  king1223> XDD
+16:20 <      chph> tonyq: 有遇到happybeanXD
+16:20 <     mp607> XDDDD
+16:20 <  brucehsu> XDDDDD!!
+16:20 <      roga> XDDDDDDDDD
+16:20 <      deva> 好快
+16:20 <    Al_Cho> XDDD
+16:20 <     adaam> XDDD
+16:20 <      roga> XDDDDDDDDDDDDDDDDDDDDD
+16:20 < lunastorm> xddddddd
+16:20 <     tonyq> XDDD
+16:20 <      chph> XD
+16:20 <     lin4h> XDD
+16:20 <    YChao_> XDD
+16:20 <   Yontash> XD
+16:20 <   kikiqqp> 錄影！！！
+16:20 <   jserv--> 同情心++
+16:20 <     darkx> XDDDDDDDDDDDD
+16:20 <      deva> 相聲~ 
+16:20 < legnaleur> 下一頁破梗了
+16:20 <     lin4h> 去年也是這樣？
+16:20 <   kikiqqp> XD
+16:20 < CaesarChi> 有粵語！！！
+16:20 <     tonyq> @chph 太晚看到你了 不然應該打個招呼的 XD
+16:20 < legnaleur> lin4h: youtube 上有影片
+16:20 < kurotansh> 好有看港劇的感覺 XD
+16:20 <       hlb> 專業！
+16:21 <    Irvin_> 梗都跑出來了XD
+16:21 <     lin4h> 喔…(去年這時候在馬祖)
+16:21 < kurotansh> 因為我是專業的，沒有時間睡覺
+16:21 <      deva> 100頁，說的完??? XDDD
+16:21 <  king1223> 神說wwwwwww
+16:21 <    YChao_> 神說...
+16:21 < lunastorm> xddddddddd
+16:21 <  brucehsu> 彩色XDDDD
+16:21 <     adaam> 神說XDD
+16:21 < CaesarChi> xdddd
+16:21 <     tonyq> 靠北 我笑不停
+16:21 <     darkx> XDDDDDDDDDDDDD
+16:21 <      chph> XDDD
+16:21 < kurotansh> 我笑翻 XDDDDDD
+16:21 <     tonyq> 神說 要有光 
+16:21 <   Yontash> XDDD
+16:21 <     tonyq> 太光了
+16:21 <     tonyq> 太暗了
+16:22 <     tonyq> 彩色好不好？
+16:22 <    YChao_> 我不信神+1
+16:22 <     adaam> 我不信神！！
+16:22 < lunastorm> agileXD
+16:22 < kurotansh> 笑翻 XD
+16:22 <  king1223> 大型動物wwww
+16:22 < legnaleur> bull shit
+16:22 < CaesarChi> 恐龍
+16:22 <     jnlin> agile XD
+16:22 <      chph> tonyq: 我在中間區後面  gugod 旁邊
+16:23 <  king1223> 被神包圍了wwww
+16:23              gugod 變成地標(?)
+16:23 <    YChao_> 行銷 (LOL)
+16:23 <   kikiqqp> XD
+16:23 < CaesarChi> 食神
+16:23 <     tonyq> 標一下座位表 等下找你喇賽 XDhttps://docs.google.com/spreadsheet/ccc?key=0AqLOSy3AYBWidEdEc1RJcDktd1hqd294dTNlRGpSTEE#gid=40
+16:23 <    YChao_> 只要有心，人人都是神
+16:23 <  tonyni__> 可惜是雙螢幕
+16:23 <     tonyq> XD
+16:23 <   kikiqqp> 歐 看來全世界都一樣 
+16:24 < CaesarChi> 看來不只在台灣有這種事情
+16:24 <      kcwu> 還哪麼多頁, 要 timeout 了
+16:24 <   nctusdk> 10秒
+16:24 <   nctusdk> orz
+16:24 <   kikiqqp> XD
+16:24 < CaesarChi> 時間
+16:24 < CaesarChi> time
+16:24 <   kikiqqp> 閃光燈 
+16:25 < lunastorm> GG
+16:25 <    YChao_> 喔喔喔
+16:25 < legnaleur> 太多 
+16:25 <      a2n_> crazy...
+16:25 <     gugod> 100 slide
+16:25 <     FredC> ++
+16:25 <  tonyni__> 最後一句！
+16:25 < kurotansh> 可惜了 
+16:25 <   nctusdk> 太可惜了
+16:25 <      roga> 好想要他的投影片 XDDDD
+16:25 < CaesarChi> 100...
+16:25 <     darkx> 可惜
+16:25 <   kikiqqp> 可惜 
+16:25 <     lin4h> slide share希望
+16:25 <  carlcarl> 太多頁了吧XD
+16:25 <  miyagawa> Too many slides ww
+16:25 <       hlb> lightning talk as 舒壓管道
+16:25 < legnaleur> 應該像 jserv 直接跳結論
+16:25 <    YChao_> 100++
+16:25 <     jnlin> slide 希望
+16:25 <  king1223> 可惜阿
+16:25 <   macpaul> ben 快share slide :D
+16:25 <  mikimoto> slide 希望
+16:25 <   gh40402> slide!!
+16:25 <   bobchao> 第一個失敗的例子
+16:25 < CaesarChi> 請他私下錄一段完整的
+16:25 <    YChao_> 來tossug再講一次吧
+16:26 <      lynn> roga++
+16:26 < lindsayra> slide~~~
+16:26 < kurotansh> roga++
+16:26 <    YChao_> .....
+16:26 <     jnlin> 非常適合放給老闆看
+16:26 <      lynn> silde link 
+16:26 < legnaleur> blue screen?
+16:26 <    YChao_> 沒有投影片
+16:26 <  carlcarl> 0.0"
+16:26 <   kikiqqp> 老闆才不看，老闆是神 那客戶就是專門殺神的 orz
+16:26 <   edwardc> 國王的投影片
+16:27 <     darkx> BSOD
+16:27 <    YChao_> G社！
+16:27 <   pingooo> 藍畫面是個中文 UI 無誤  XD
+16:27 <     gugod> 無伴奏閃電秀
+16:27 <  michael_> ㄎㄎ
+16:27 <     gugod> china blue(?)
+16:27 <  michael_> 不插電閃電秀
+16:27 <        au> lightning talk unplugged
+16:27 <       hlb> 「如果你現在可以想像的話...」
+16:27 <       dm4>  unlugged XD
+16:27 <   edwardc> 應該要禁用閃光燈
+16:27 <       hlb> （手揮舞）
+16:27 <   kikiqqp> BSOD! (誤)
+16:27 <     jnlin> unplugged XD
+16:27 <    YChao_> hand waving...
+16:27 < kurotansh>  時間還在跑
+16:27 < kurotansh> 有了！
+16:28 <    YChao_> 疑
+16:28 <   edwardc> 講嚴重一點，會場如果有人有光癲癇症，發病了誰要扛 ...
+16:28 <   kikiqqp> 歐 是WINDOWS的 
+16:28 <   jserv--> 要有光！
+16:28 <   jserv--> 還是藍色的光
+16:28 <  king1223> 太亮了
+16:28 <     darkx> 阿斯
+16:28 < coldturni> 神說：要有光
+16:28 <    YChao_> 拖過來
+16:28 <        au> 還要彩色的光
+16:28 < kurotansh> 神說有光，就有光
+16:28 <  albb0920> 我們有 browser
+16:28 <    dryman> gg
+16:28 <   kikiqqp> 藍色不好 換黑色吧 
+16:28 <    YChao_> .....
+16:28 <     darkx> 新細明體！
+16:28 < kurotansh> 大家都不怕死啊 XD
+16:28 <   edwardc> 網管下班惹
+16:28 <    YChao_> 載入中...
+16:28 <   kikiqqp> 業務：客戶說白色的比較好
+16:28 < kurotansh> 一分一秒過去了
+16:29 <     adaam> 時間跑跑跑
+16:29 <    YChao_> .....
+16:29 <   edwardc> 準備鼓掌
+16:29 <  SmallSea> 開不會開了投影片就結束了吧
+16:29 <    YChao_> 哭哭了
+16:29 <   gh40402> 要GG了
+16:29 < freedomtw> 滴答滴答
+16:29 <       hlb> 出現了 Google Docs 文件 list...
+16:29 <    YChao_> opps...
+16:29 < kurotansh> 悲劇
+16:29 <   edwardc> ......
+16:29 <     jnlin> 滴答滴滴搭滴
+16:29 < coldturni> 要求傷停時間
+16:29 <        au> google for eee pc
+16:29 <    Al_Cho> 悲劇了
+16:29 <    YChao_> .....
+16:29 < lindsayra> lighting talk never use google docs
+16:29 <     gugod> 被剛剛嫌棄的公司嫌棄了
+16:29 <     adaam> 今天出現了兩起Google docs 的悲劇
+16:29 <   bobchao> 「lightning talk 絕對不能做的 100 件事」
+16:29 <     ecilA> a
+16:29 <  SmallSea> A片一定要跟女朋友一起看
+16:29 <    YChao_> a
+16:29 <   gh40402> a
+16:29 <  king1223> WWWWWWWW
+16:29 < CaesarChi> a
+16:29 <      Sars> XDD
+16:29 < lunastorm> A
+16:29 <   kikiqqp> 這告訴各位 雲端是趨勢，但雲會被吹走 
+16:29 <    dryman> 本日最囧
+16:29 <  king1223> A
+16:29 <       gdx> A
+16:29 < kurotansh> A片一定要跟女朋友一起看
+16:29 < pioneerLi> A
+16:29 <    dryman> A
+16:29 < CaesarChi> 關鍵字 A
+16:29 <     adaam> XDDD
+16:29 <       hlb> a
+16:29 <   nctusdk> 本日最經典
+16:29 <  chitsaou>  ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
+16:29 <   kikiqqp> A
+16:29 <        au> 完全意外梗
+16:29 <     Shock> Google a
+16:29 <   edwardc> 不可以
+16:29 <   othrees> A
+16:30 <  ChAndrew> 整個超展開了XD
+16:30 < lindsayra> A
+16:30 <     jnlin> a
+16:30 <   jserv--> 這個梗太棒了
+16:30 <      deva> 這篇 LT 重點...
+16:30 <  mrmoneyc> wwwwwww
+16:30 <   edwardc> [不可以___________________] [搜尋]
+16:30 <  jefflin_> >///<
+16:30 <      roga> A
+16:30 <    Al_Cho> wwww
+16:30 <     tonyq> A
+16:30 <  jefflin_> 太糟糕了
+16:30 <       in2> 為什麼我 search a 第一個是 A* search algorithm - Wikipedia, the free encyclopedia
+16:30 < kurotansh> A
+16:30 <   aar0ntw> 可見平常這台電腦主人的搜尋習慣
+16:30 <     jnlin> google://a
+16:30              in2 <-清純 ^^Y
+16:30 <   kikiqqp> 不要亂打字，GOOGLE很貼心的 
+16:30 <  albb0920> Big5是比畫排序吧CC@@?
+16:30 <    YChao_> aar0ntw +1
+16:30 <  king1223> 來打A試試\
+16:30 <    YChao_> albb0920 +1
+16:30 <    Irvin_> 個人化搜索++
+16:30 < wwwwwwwww> http://www.google.com.tw/search?&q=Ａ
+16:30 < CaesarChi> 個人化＋＋
+16:30 <     tonyq> 我也是A* search algorithm - Wikipedia, the free encyclopedia
+16:30 <     tonyq> XD
+16:30 <    Al_Cho> aar0ntw ++
+16:30 <     lin4h> rOr
+16:30 <   jserv--> 話說，哪套內碼用部首來排序？
+16:31 <     gugod> 顯然使用 duckduckgo 就少掉很多樂趣(??)
+16:31 <        au> 我是 The Official Site of The Oakland Athletics
+16:31 <        au> (實在太健康了)
+16:31              clkao = au
+16:31 <     kidwm> jserv--: big5好像是用筆劃？
+16:31 <   kikiqqp> zh-TW跟zh-CN?
+16:31 <  chitsaou> 我看到的也是●●●●
+16:31 <    YChao_> kidwm +1
+16:31 <    Irvin_> 剛講的是unicode排序是用部首？
+16:31 <    dryman> duckduckgo 好棒
+16:31 < CindyLinz> jserv--: unicode
+16:31 < shelling_> ddk 健康 +1
+16:31 <       in2> 我用 http://www.google.com.tw 來搜第一筆也是 youtube 的 A片一定要跟女朋友一起看 O_O
+16:31 < kurotansh> time's up
+16:31 <  chitsaou> 他剛講的是unicode
+16:31 < lunastorm> gg
+16:31 < wwwwwwwww> 鼓掌！！～～～～～～～～～～～～
+16:31 <     gugod> duckduckgo zci : "Meaning of A"
+16:31 < CaesarChi> time
+16:31 <  tonyni__> 其實這個選單最大的問題是：假設你看不懂中文，你怎麼找到你要的語言
+16:31 <     tonyq> "A"
+16:32 <     tonyq> 對啊 XDDD
+16:32 <    YChao_> .....
+16:32 < CindyLinz> jserv--: 以前我故意要製造一個排在最後面的字串, 就用「龠」(筆畫很多的部首) XD
+16:32 < legnaleur> gbp
+16:32 < kurotansh> 這場的亮點完全在 a 啊
+16:32 <        au> 其實應該每個選項都要附原文 
+16:32 <   kikiqqp> >w<
+16:32 <     adaam> 沒用MIC @@
+16:32 <  tonyni__> 看著「英文」大喊「Where the hell is English!」
+16:32 <     gugod> localized language menu = stupid
+16:32 <     darkx> XD
+16:32 <  mrmoneyc> XDDDDDD
+16:32 <        au> 「德文 (Deutch)」這樣
+16:32 <   gh40402> 沒mic有點聽不太清楚
+16:32 <    YChao_> 好快！
+16:32 <  mrmoneyc> 跟 littlebtc 有拼 XDDDDDDDDDD
+16:32 <     clkao> can't hear a thing
+16:32 <     jnlin> 我只聽到工具...工具....工具...
+16:32 <      roga> tonyni__:  如果看不懂中文，會先在 google taiwan 的首頁按下 -> Google.com in English (畫面右下
+16:32 <     FredC> 魏藥++
+16:32 <     darkx> nyan
+16:32 <    YChao_> 請遞麥克風
+16:32 <     kidwm> mrmoneyc: 他們就同事啊
+16:32 <  mrmoneyc> nyancat ..XDD
+16:32 <     adaam> nyancat !
+16:33 <    YChao_> great!
+16:33 <  king1223> !!
+16:33 <   gh40402> nyancat!
+16:33 <    Irvin_> 魏藥出縣了
+16:33 <     darkx> \
+16:33 <     gugod> 他是最後一棒嗎
+16:33 <  mrmoneyc> 昨天下午在 r2 的 nyancat .....ww
+16:33 <     darkx> 沒有 BGM 嗎(誤
+16:33 <    Irvin_> 早上小B說要跟他去打台啊
+16:33 <    YChao_> nyancat
+16:33 <     lin4h> 剛剛本來想直接開talk叫他拿mic  XDDD
+16:33 < CaesarChi> mute
+16:33 < CaesarChi> mute nyancat
+16:33 < legnaleur> 這個真的只能講大概 ...
+16:33 <    YChao_> mute nyancat +1
+16:34 < CaesarChi> 講者很忙
+16:34 <   kikiqqp> 快轉卡住了 
+16:34 <     adaam> 往上翻的簡報好酷  是用哪套作的？
+16:34 <    Irvin_> TwT
+16:34 <     darkx> TwT
+16:34 <    YChao_> ... commit
+16:34 <  carlcarl> TwT
+16:34 <  king1223> TwT
+16:34 < CaesarChi> 我回家放慢來聽！
+16:34 <    Irvin_> nyancat-0.0.2.tar?
+16:34 <     clkao> 黑白相間的投影片
+16:34 <    YChao_> 請愛用mplayer
+16:34 <      deva> 閃太快，投影機聚焦要慢一兩秒上對齊
+16:35 <     adaam> XDDDD
+16:35 < CaesarChi> 喘氣
+16:35 <     FredC> XD
+16:35 <    YChao_> live demo!
+16:35 < kurotansh> 還有兩分鐘
+16:35 <   nctusdk> 居然真的5分鐘講完debian packagig…太厲害了
+16:35 <   gh40402> 超趕
+16:35 <     tonyq> 閃好大 Orz 
+16:35 <    YChao_> 額...
+16:35 <  king1223> nyancat0.0.1
+16:35 < lkkgenius> 又被閃了...
+16:35 <     tonyq> 怎麼突然覺得閃光燈連發...
+16:35 < CaesarChi> nyancat V0.0.1
+16:35 < kurotansh> 糾～竟來不來的及
+16:35 < CaesarChi> 漫漫看下去
+16:35 <    YChao_> 阿...
+16:35 <    YChao_> ...
+16:35 <     adaam> 感覺會來不及邊完
+16:35 <   kikiqqp> 這時候利用LISP就可以不用打字讓電腦幫你打呦(誤) 
+16:36 <  king1223> wwww
+16:36 <    YChao_> 真強
+16:36 <  tonyni__> miku
+16:36 < shaojung_> www
+16:36 < legnaleur> 其實 live demo 不做應該也沒差
+16:36 <   gh40402> 好猛
+16:36 <    YChao_> 哇...
+16:36 < coldturni> 好緊張的 live demo
+16:36 <       hlb> 應該預錄整段，然後假裝打字！
+16:36 <  albb0920> 動作蠻快的w
+16:36 <    Irvin_> commit log 寫錯沒關係啊XD
+16:36 <     FredC> 成功的話要幫他鼓鼓掌
+16:36 <     FredC> XD
+16:36 <    Al_Cho> wow!
+16:36 < CaesarChi> 刺激
+16:36 < kurotansh> +u+u
+16:36 <    YChao_> .....
+16:36 <    YChao_> 編譯完成了！
+16:36 < kurotansh> 喔喔
+16:36 <       hlb> 密碼好短
+16:36 <    YChao_> nyan...
+16:36 <    Al_Cho> 好強！
+16:37 <   nctusdk> 太強大了
+16:37 <   bobchao> 做完了  XD
+16:37 <  king1223> XD
+16:37 < CaesarChi> nyan
+16:37 <     adaam> 成功了！！
+16:37 <   gh40402> 超強
+16:37 <     gugod> 沒聲
+16:37 < lunastorm> strong
+16:37 <     FredC> XD
+16:37 <    dryman> 太強了！
+16:37 < CaesarChi> 強者
+16:37 <      chph> 好強！
+16:37 <    YChao_> !!!
+16:37 <      roga> 速度超快
+16:37 <       dm4> 太帥了吧
+16:37 <  mrmoneyc> 超強XD
+16:37 < kurotansh> 講者快沒氣了
+16:37 <  king1223> 好猛
+16:37 <     tonyq> 哈哈
+16:37 <     tonyq> 讚
+16:37 <  tonyni__> 聲音可能在電腦上
+16:37 <  tonyni__> 不可能接到喇吧吧
+16:37 <   pingooo> 葛格有練過，小朋友不要學。
+16:37 <     FredC> 破除 never live demo 魔咒!
+16:37 <  michael_> 讚啦
+16:37 <  carlcarl> 旁邊的老先生問我他在幹嘛0.0
+16:37 < CaesarChi> yep
+16:37 < CaesarChi> 神速哥
+16:37 < shaojung_> 而且居然在 LT 上 Live Demo....
+16:38 < kurotansh> 神速哥 ++
+16:38 <  king1223> ++
+16:38 <   edwardc> &
+16:38 < coldturni> 準備離線
+16:38 < coldturni> 感謝主辦單位和各位先進～
+16:39 <   pingooo> "if you leave me now"
+16:39 <    YChao_> 感謝！
+16:39 <     adaam> 也許再見QQ
+16:39 < CaesarChi> 感謝各位！
+16:39 <       hlb> hcchien++
+16:39 < shaojung_> 感謝大家
+16:39 <  keitheis> so sweet
+16:39 <    Al_Cho> 感謝！！
+16:39 <     jnlin> hcchien++
+16:39 <     clkao> hcchien++
+16:39 <   macpaul> hcchien++
+16:39 <      deva> 年年很有趣。明年見
+16:39 <     lin4h> bob
+16:40 < kurotansh> hcchien ++
+16:40 < dragonjoh> quit
+16:40 <  mrmoneyc> hcchien++
+16:40 <  mrmoneyc> 記得打包點心XD
+16:40 <     darkx> 小耕跟 B嫂站在一起XD
+16:40 <  king1223> hcchien ++
+16:40 <   gh40402> 小耕!!
+16:41 < CaesarChi> v
+16:41 <       df1> 明年見XD!
+16:41 < kurotansh> quit
+16:41 <     lin4h> = =?
+16:41 < stevenni_> bye~
+16:41 <  miyagawa> osdc++
+16:42 <  mikimoto> osdc++
+16:42 <   kikiqqp> bye~
+16:42 <  miyagawa> 再見
+16:42 <   TaianSu> bye
+16:42 <      a2n_> miyagawa: c u. ;)
+16:42 <     darkx> miyagawa: bye~
+16:42 <     gugod> console.log(++osdc.tw) # => 10
+16:42 <     gugod> please /part channel so hcchien can (maybe) get op
+16:42 <  miyagawa> Haha
+16:43 <    dryman> my talk http://www.slideshare.net/ssuser5c831d/hacker-news
+16:46     Irvin__  is now known as Irvin_
+16:49 <    BlueT_> darkx: ......
+17:50      mp607_  is now known as mp607
+18:08 <  macpaul_> (閃電秀)簡單易懂的 Debian 打包魔法 @ OSDC.TW http://www.youtube.com/watch?v=i2uE_60DOac
+18:14 <  macpaul_> http://www.youtube.com/watch?v=kwFx2_rVQD0 需求變更的反覆模型 @ OSDC.TW 2012 by Ben Lau
+18:18 <  macpaul_> http://www.youtube.com/watch?v=-Zc-mgAhacM blueT GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps
+18:42 <    BlueT_> GPU 解 sha512+sha1 要很久... XD
+18:43 <    BlueT_> sha1(sha512(passwd))
+19:22 <     Jedi_> au++  # 13:30 字幕
+20:41 <   itsZero> \q
+20:41 <   itsZero> oops 
+20:41 <     darkx> XD
+21:01    changlp_  is now known as changlp
+22:07 <    BlueT_> darkx , CindyLinz : 今天有人提到 BLUE 流喔？ XD # 14:55 < CindyLinz> 「這個就是 BLUE 流」
+22:16 <    BlueT_> bobchao++ # 17:19 < bobchao> 「lightning talk 絕對不能做的 100 件事」
+22:25 < CindyLinz> BlueT_: 沒有 ^^|
+22:25 < CindyLinz> BlueT_: 是那時有人在說 pixnet 演講都沒放 SG 的照片
+22:26 < CindyLinz> BlueT_: 然後我是想到 jserv 的投影片都很喜歡放美女照片當插圖 ^^|
+22:33 <    BlueT_> lzy: 啥啥啥？ # 16:19 < lzy> brianhsu: 感謝布魯踢大大 <(_ _)>
+22:34 <    BlueT_> FredC: 啊啊什麼？ # 16:15 < FredC> BlueT_, 回頭！
+22:37 <     FredC> BlueT_, 沒啦，lzy 要跟你借網路線。
+22:49 <     darkx> BlueT_: 不滷流不是就猥褻原子小金鋼嗎XD
+23:03 <    BlueT_> CindyLinz: hahaha i see XDDDD
+23:03 <    BlueT_> FredC: 瞭解 XD
+23:03 <    BlueT_> darkx: 布魯流 is Pic-Driven Presentation (y)
