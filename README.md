@@ -24,6 +24,7 @@ http://hitcon.org
 http://jsdc.tw/
 
 - [2013](https://github.com/chusiang/irc_log/raw/master/jsdc/irc-jsdc-2013.log)
+- [2012](https://github.com/chusiang/irc_log/raw/master/jsdc/irc-jsdc-2012.log)
 
 ### MOPCON (Mobile Open Platform Conference)
 
