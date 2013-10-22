@@ -36,6 +36,7 @@ http://mopcon.org
 http://osdc.tw
 
 - [2013](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2013.log)
+- [2012](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2012.log)
 - [2011](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2011.log)
 
 ### PHPConf Taiwan
