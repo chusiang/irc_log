@@ -1665,9 +1665,9 @@ Day1
 23:30 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has quit [Ping timeout: 272 seconds]
 --- Log closed Sun Oct 27 00:00:03 2013
 
+
 Day2
 ========
-
 
 --- Log opened Sun Oct 27 00:00:03 2013
 00:07 -!- changi-dark [~changi@218-173-28-110.dynamic.hinet.net] has quit [Quit: 暫離]
@@ -2305,5 +2305,727 @@ Day2
 12:26 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
 12:26 -!- othrees [~othrees@42.70.114.140] has quit [Quit: Colloquy for iPad - http://colloquy.mobi]
 12:27 -!- visioncan [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+12:27 -!- lightshadow [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+12:27 -!- linwenha_ [~linwenhao@122.146.231.203] has quit [Remote host closed the connection]
+12:28 -!- aacczury [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+12:28 -!- linwenhao [~linwenhao@122.146.231.203] has joined #mopcon
+12:29 -!- alicekey [~alicekey@42.74.129.246] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+12:29 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+12:30 -!- tsaikd [~tsaikd@122.146.231.203] has quit [Ping timeout: 268 seconds]
+12:32 -!- cybersaint [dc8a6cc9@gateway/web/freenode/ip.220.138.108.201] has joined #mopcon
+12:33 < chusiang> MOPCON 2013 Day2 即時筆記 - https://mopcon.hackpad.com/MOPCON-2013-1027-R2-EnROWYiZUmE
+12:33 -!- linwenhao [~linwenhao@122.146.231.203] has quit [Ping timeout: 272 seconds]
+12:35 -!- andytwmvp [1bf1f6ad@gateway/web/freenode/ip.27.241.246.173] has quit [Ping timeout: 250 seconds]
+12:40 -!- PN_Wu [704e47cf@gateway/web/freenode/ip.112.78.71.207] has quit [Ping timeout: 250 seconds]
+12:47 -!- Jueen [~Jueen@122.146.231.203] has quit [Ping timeout: 248 seconds]
+12:48 -!- jserv-- [~jserv@122.146.231.203] has quit [Ping timeout: 240 seconds]
+12:48 -!- jserv-- [~jserv@122.146.231.203] has joined #mopcon
+12:49 -!- chusiang [~jonny@122.146.231.203] has quit [Ping timeout: 245 seconds]
+12:49 -!- lloydhuang [~user@122.146.195.235] has quit [Ping timeout: 265 seconds]
+12:49 -!- carllee413 [~androirc@122.146.231.203] has quit [Ping timeout: 272 seconds]
+12:49 -!- lloydhuang [~user@122.146.195.235] has joined #mopcon
+12:52 -!- df1 [~df@122.146.231.203] has joined #mopcon
+12:53 -!- aacczury [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+12:54 -!- chusiang [~jonny@122.146.231.203] has joined #mopcon
+12:55 -!- kewang [dc8a6dd6@gateway/web/freenode/ip.220.138.109.214] has joined #mopcon
+12:57 -!- CarterTsai [~CarterTsa@122.146.231.203] has joined #mopcon
+12:57 -!- Nicholas [3cf541b7@gateway/web/freenode/ip.60.245.65.183] has joined #mopcon
+13:01 -!- cybersaint [dc8a6cc9@gateway/web/freenode/ip.220.138.108.201] has quit [Ping timeout: 250 seconds]
+13:02 -!- yu0410aries [3ddd43aa@gateway/web/freenode/ip.61.221.67.170] has quit [Quit: Page closed]
+13:03 -!- yuuu [3ddd43aa@gateway/web/freenode/ip.61.221.67.170] has quit [Quit: Page closed]
+13:04 -!- yu [3ddd43aa@gateway/web/freenode/ip.61.221.67.170] has joined #mopcon
+13:09 -!- MouseMs [~MouseMs@122.146.231.203] has joined #mopcon
+13:11 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has quit [Ping timeout: 252 seconds]
+13:11 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has joined #mopcon
+13:13 -!- df1 [~df@122.146.231.203] has quit [Ping timeout: 260 seconds]
+13:14 -!- tsaikd [~tsaikd@122.146.231.203] has joined #mopcon
+13:17 -!- LittleMO [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+13:18 -!- MouseMs [~MouseMs@122.146.231.203] has quit [Quit: My MacBook has gone to sleep. ZZZzzz…]
+13:21 -!- tsaikd [~tsaikd@122.146.231.203] has quit [Ping timeout: 260 seconds]
+13:22 -!- stanely [~androirc@175.96.236.49] has joined #mopcon
+13:23 -!- stanely [~androirc@175.96.236.49] has quit [Client Quit]
+13:24 -!- sen_mobi [~sen_mobi@122.146.231.203] has joined #mopcon
+13:25 -!- carllee413 [~androirc@122.146.231.203] has joined #mopcon
+13:25 -!- carllee413 [~androirc@122.146.231.203] has quit [Client Quit]
+13:25 -!- rsghost [~rsghost@122.146.231.203] has joined #mopcon
+13:26 -!- tsaikd [~tsaikd@122.146.231.203] has joined #mopcon
+13:26 -!- carllee413 [~androirc@122.146.231.203] has joined #mopcon
+13:26  * rsghost 
+13:27 -!- andytwmvp [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+13:29 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has joined #mopcon
+13:29 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
+13:32 -!- CarterTsai [~CarterTsa@122.146.231.203] has quit [Remote host closed the connection]
+13:32 -!- dylandy [~dylandy@122.146.231.203] has joined #mopcon
+13:32 < jserv--> R1: Mobile APP 開發-創意: 理想與現實之間
+13:32 -!- fntsrlike [~fntsrlike@122.146.231.203] has joined #mopcon
+13:33 < jserv--> R1: 今年開始，整個 mobile Apps 的市場變化
+13:33 -!- shimeche [~anonymous@122.146.231.203] has joined #mopcon
+13:34 < jserv--> R1: 設計師的提案常被工程師背景的老闆所拒絕
+13:34 -!- tsaiid_ [~androirc@122.146.231.203] has joined #mopcon
+13:34 -!- lightshadow [df8f8fa9@gateway/web/freenode/ip.223.143.143.169] has joined #mopcon
+13:35 < jserv--> R1: 一個 mobile 產品的成本約一百五十萬
+13:35 -!- shimeche [~anonymous@122.146.231.203] has quit [Remote host closed the connection]
+13:35 -!- Jueen [~Jueen@122.146.231.203] has joined #mopcon
+13:35 < ccc_larc> R1:「博士生這個 title 現在比較紅」
+13:35 < jserv--> R1: 創業需要的不是勇氣，是錢和青春
+13:36 < jserv--> R1: Kdan Mobile 約有六十人，一半是工程師，三分之一是設計師，其餘作 marketing
+13:37 < jserv--> R1: 流量導向到 cloud service
+13:37 -!- othrees [~othrees@42-70-114-140.dynamic-ip.hinet.net] has joined #mopcon
+13:38 < jserv--> R1: 產品主軸: Documentation Services & Creative Tools
+13:38 -!- tonyq [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+13:38 -!- MouseMs [~MouseMs@122.146.231.203] has joined #mopcon
+13:39 -!- NeilLee [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+13:39 < jserv--> R1: Designer 魂!
+13:39 < tonyq> 先把等下的講題投影片丟過來 大家可以參考 :)
+13:39 < tonyq> http://slid.es/tonyq/web-api-of-android-backend
+13:39 < jserv--> R1: Designer 魂! = Innovation, Unique, Creativity
+13:40 -!- visioncan [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+13:41 < jserv--> R1: 別人不做，不表示你比較厲害，但很可能風險比較高
+13:41 -!- othrees [~othrees@42-70-114-140.dynamic-ip.hinet.net] has quit [Client Quit]
+13:42 < jserv--> Shaka 的投影片: https://speakerdeck.com/shakalaca/head-first-android-apps-dev-tools
+13:44 < darkx> 沒有人作 -> 因為不知道要幹嘛XD
+13:44 < jserv--> R1: 這 (2.5D) 沒人作，因為不知道要做什麼
+13:44 < superbil> 2.5d 做出來，不知道幹麻 ?
+13:45 -!- mtchang [~mtchang@49.158.220.104] has joined #mopcon
+13:45 < chusiang> [文字組錄] MOPCON 2013 slides 集散地 - https://mopcon.hackpad.com/MOPCON-2013-Slides-jy4OpX1lTzV
+13:45 < darkx> mit scratch?
+13:45 -!- shimeche [~anonymous@122.146.231.203] has joined #mopcon
+13:45 < jserv--> R1: video: http://vimeo.com/48729742
+13:46 < jserv--> R1: http://vimeo.com/48729742 # 很適合作孩童的程式設計教育
+13:46 < darkx> https://code.google.com/p/blockly/ ?
+13:46 < jserv--> R1: http://epic.drawastickman.com/ # 繪本導向
+13:47 < darkx> R1: 動畫接力
+13:48 < darkx> R1:  皮影戲?
+13:48 < jserv--> R1: shadow monster
+13:48 < darkx> 他有一些演算法... 講的好像我知道XD
+13:49 < darkx> 利用向外擴張的圓形找出 featrure
+13:49 < darkx> s/featrure/feature
+13:50 < jserv--> R1: 偵測睡眠 Apps
+13:50 < jserv--> R1: 深度睡眠與記憶力有關
+13:51 < jserv--> R1: 需要訊號處理的人才，但公司欠缺
+13:52 < jserv--> R1: 公司的技術、資源，以及市場關注程度
+13:52 < chusiang> 您公司的技術支援到哪一個地步。
+13:52 < chusiang> 從使用者需求開始 … (聽到爛掉了。
+13:53 < jserv--> R1: 使用者需求 -> 分析 -> Prototyping -> 測試/評估 <--> 重新設計 -> 產出
+13:53 -!- othrees [~othrees@42-70-114-140.dynamic-ip.hinet.net] has joined #mopcon
+13:54 < chusiang> 您的創意應該是在他們做不好的地方。
+13:54 -!- carllee413 [~androirc@122.146.231.203] has quit [Ping timeout: 265 seconds]
+13:55 [Users #mopcon]
+13:55 [@ericpi       ] [ DennyHuang ] [ ltroot   ] [ silice         ] 
+13:55 [@mikimoto     ] [ dylandy    ] [ Luxun    ] [ superbil       ] 
+13:55 [ aacczury     ] [ float      ] [ MillyHung] [ thunder        ] 
+13:55 [ abev66_      ] [ fntsrlike  ] [ minipc   ] [ TigerHuang     ] 
+13:55 [ afu          ] [ henry_     ] [ MouseMs  ] [ timchen119     ] 
+13:55 [ AndChat-88724] [ infate     ] [ mp607    ] [ tonyq          ] 
+13:55 [ Andox        ] [ JA_        ] [ mtchang  ] [ tsaiid_        ] 
+13:55 [ andytwmvp    ] [ jackyan    ] [ NeilLee  ] [ tsaikd         ] 
+13:55 [ brucehsu     ] [ JalenLin   ] [ Nicholas ] [ visioncan      ] 
+13:55 [ carrl        ] [ jserv--    ] [ othrees  ] [ walkingcloudice] 
+13:55 [ ccc_larc     ] [ Jueen      ] [ PTC-tw   ] [ walkingice     ] 
+13:55 [ ccn_         ] [ kewang     ] [ qrtt1    ] [ wenchen        ] 
+13:55 [ chusiang     ] [ KuoE0      ] [ rsghost  ] [ ymow           ] 
+13:55 [ chusiang1    ] [ lightshadow] [ S3p_lin_ ] [ yu             ] 
+13:55 [ clkaoud      ] [ lloydhuang ] [ sean_mac_] [ yuaner         ] 
+13:55 [ clonn        ] [ locy       ] [ sen_mobi ] [ zeroplex       ] 
+13:55 [ darkx        ] [ louielu_   ] [ shimeche ] 
+13:55 -!- Irssi: #mopcon: Total of 67 nicks [2 ops, 0 halfops, 0 voices, 65 normal]
+13:55 < darkx> R1: 怎樣的設計可以把產品特色凸顯出來
+13:55 < jserv--> R1: 好用，是本來就該如此的
+13:55 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has joined #mopcon
+13:55 -!- superbil_ [~user@122.146.231.203] has joined #mopcon
+13:55 -!- ni493155 [~u651329@122.146.231.203] has joined #mopcon
+13:56 < abev66_> user requirements -> analysis -> prototyping -> testing / evaluation -> redesign -> produce
+13:56 -!- You're now known as chusiang-
+13:56 [Users #mopcon]
+13:56 [@ericpi       ] [ ccn_      ] [ JA_        ] [ Luxun    ] [ rsghost   ] [ tsaiid_        ] 
+13:56 [@mikimoto     ] [ chusiang  ] [ jackyan    ] [ MillyHung] [ S3p_lin_  ] [ tsaikd         ] 
+13:56 [ aacczury     ] [ chusiang- ] [ JalenLin   ] [ minipc   ] [ sean_mac_ ] [ visioncan      ] 
+13:56 [ abev66_      ] [ clkaoud   ] [ jserv--    ] [ MouseMs  ] [ sen_mobi  ] [ walkingcloudice] 
+13:56 [ afu          ] [ clonn     ] [ Jueen      ] [ mp607    ] [ shimeche  ] [ walkingice     ] 
+13:56 [ alicekey     ] [ darkx     ] [ kewang     ] [ mtchang  ] [ silice    ] [ wenchen        ] 
+13:56 [ AndChat-88724] [ DennyHuang] [ KuoE0      ] [ NeilLee  ] [ superbil  ] [ ymow           ] 
+13:56 [ Andox        ] [ dylandy   ] [ lightshadow] [ ni493155 ] [ superbil_ ] [ yu             ] 
+13:56 [ andytwmvp    ] [ float     ] [ lloydhuang ] [ Nicholas ] [ thunder   ] [ yuaner         ] 
+13:56 [ brucehsu     ] [ fntsrlike ] [ locy       ] [ othrees  ] [ TigerHuang] [ zeroplex       ] 
+13:56 [ carrl        ] [ henry_    ] [ louielu_   ] [ PTC-tw   ] [ timchen119] 
+13:56 [ ccc_larc     ] [ infate    ] [ ltroot     ] [ qrtt1    ] [ tonyq     ] 
+13:56 -!- Irssi: #mopcon: Total of 70 nicks [2 ops, 0 halfops, 0 voices, 68 normal]
+13:57 -!- shimeche [~anonymous@122.146.231.203] has quit [Remote host closed the connection]
+13:57 < darkx> R1: 你的假想敵
+13:58 < chusiang> 講師的 Mac 有新訊息：已有應用程式更新項目可供 …
+13:59 < darkx> 四人小組 3~6 個月的設計方式
+13:59 < jserv--> R1: 人力佈署 -> PM x1, Designer x1, Engineer x1, Marketing Planner x1
+14:00 < jserv--> R1: http://www.kdanmobile.com/en/noteledge/index.html # 筆記軟體
+14:01 < jserv--> R1: NoteLedge 下載約 650K+
+14:04 < jserv--> R1: Taiwan AppStore 上有很大比例的 Apps 就跟筆記有關
+14:04 < darkx> R1: noteApp 是非常競爭的市場
+14:05 < darkx> R1:  使用者個爽度定義了市場趨勢
+14:05 < darkx> s/個/的
+14:05 < jserv--> R1: "Customer" requirements, Market trend, Product Superiority
+14:06 < darkx> R1: follow 傳統產業的 strategy
+14:08 < chusiang> 看來還有不少人不知道 IRC 呢 :P
+14:08 < darkx> R1: Apps 也要  rolling update!
+14:08 < jserv--> R1: 準則：更新頻率, 亮點, 更強大好用
+14:08 -!- fntsrlike [~fntsrlike@122.146.231.203] has quit [Quit: fntsrlike]
+14:10 < chusiang> 有局部放大功能的筆記 Apps。
+14:11 < chusiang> 在美國最受歡迎的族群是「老人家」。
+14:11 < chusiang> 在美國最受歡迎的族群是「老人家」，因為有放大鏡。
+14:12 -!- fntsrlike [~fntsrlike@122.146.231.203] has joined #mopcon
+14:13 < jserv--> R1: Free 時牛逼，IAP 時坑爹
+14:14 < darkx> lol
+14:14 < chusiang> EleEditor - 綠色的，有大象。
+14:15 < chusiang> EleEditor - 綠色的，有大象。抱 Evernote 的大腿? 沒錯！因為我們參加他們的比賽！
+14:16 < jserv--> R1: http://www.playpcesor.com/2013/06/eleeditor-evernote-ipad-app.html
+14:16 < chusiang> EleEditor 有灌票，但是比較正當的那種.
+14:16 -!- zonble [~zonble@ec2-50-18-49-144.us-west-1.compute.amazonaws.com] has joined #mopcon
+14:17 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+14:17 < jserv--> R1: Demo China
+14:18 < jserv--> R1: Demo China -> 1st 塑膠回收轉化燃油; 2nd 基因定序演算; 3rd 手機惡意程式分析
+14:18 < chusiang> R1: America 的趨勢比較廣。
+14:19 < jserv--> R1: http://www.kula-tech.com/ # 來自俄羅斯的線上雜誌
+14:21 < chusiang> R1: --- Q&A ---
+14:21 -!- Jueen [~Jueen@122.146.231.203] has quit [Ping timeout: 272 seconds]
+14:21 < chusiang> R1: 我不管錢，我只負責替人花錢。
+14:21 -!- alicekey [~alicekey@42.74.129.246] has joined #mopcon
+14:22 < chusiang> R1: R1: 去年 … 沒有賠錢。
+14:22 -!- mtchang [~mtchang@49.158.220.104] has quit [Quit: Leaving]
+14:23 -!- andytwmvp [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+14:23 -!- alicekey [~alicekey@42.74.129.246] has quit [Remote host closed the connection]
+14:23 -!- tsaiid [~tsaiid@122.146.231.203] has joined #mopcon
+14:24 -!- alicekey [~alicekey@42.74.129.246] has joined #mopcon
+14:24 -!- Jueen [~Jueen@122.146.231.203] has joined #mopcon
+14:26 -!- othrees [~othrees@42-70-114-140.dynamic-ip.hinet.net] has quit [Quit: Colloquy for iPad - http://colloquy.mobi]
+14:26 -!- fntsrlike [~fntsrlike@122.146.231.203] has quit [Quit: fntsrlike]
+14:28 -!- othrees [~othrees@42.70.114.140] has joined #mopcon
+14:28 -!- NeilLee [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+14:29 -!- superbil_ [~user@122.146.231.203] has quit [Ping timeout: 248 seconds]
+14:30 -!- visioncan [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+14:30 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has quit [Ping timeout: 250 seconds]
+14:31 -!- alicekey [~alicekey@42.74.129.246] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+14:31 -!- stanely [~stanely@122.146.231.203] has joined #mopcon
+14:32 -!- will___ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+14:33 -!- kewang [dc8a6dd6@gateway/web/freenode/ip.220.138.109.214] has quit [Ping timeout: 250 seconds]
+14:33 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has joined #mopcon
+14:34 < jserv--> R1: The web backend of Android Mobile
+14:34 -!- stanely [~stanely@122.146.231.203] has quit [Client Quit]
+14:34 -!- othrees [~othrees@42.70.114.140] has quit [Quit: Colloquy for iPad - http://colloquy.mobi]
+14:35 < jserv--> R1: TonyQ: JavaScript.tw 社群創始人. 現在 QNAP web developer
+14:36 -!- superbil_ [~user@122.146.231.203] has joined #mopcon
+14:36 < jserv--> R1: http://www.ptt.cc/bbs/AndroidDev/M.1370641609.A.1BF.html # 從半年 Android 開發經驗看 Web
+14:36 -!- kewang [dc8a6dd6@gateway/web/freenode/ip.220.138.109.214] has joined #mopcon
+14:37 < jserv--> 「強到不用特別強調自己會什麼」
+14:37 -!- othrees [~othrees@42-70-114-140.dynamic-ip.hinet.net] has joined #mopcon
+14:37 < will___> http://www.ptt.cc/bbs/AndroidDev/M.1370641609.A.1BF.html
+14:38 -!- will___ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Quit: Page closed]
+14:38 -!- afu_ [~afu@60-199-248-183.static.tfn.net.tw] has joined #mopcon
+14:38 < jserv--> R1: 從 5945 呼叫師傅的開發經驗，發現描述問題的困難
+14:39 < darkx> 有六成以上的水電工都拿 Android
+14:39 < jserv--> R1: 儘量用 SSL：安全考量、降低 sniffer 風險
+14:39 -!- visinocan [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+14:40 < jserv--> R1: 第一個問題：身份驗證
+14:40 < darkx> R1: Authentication
+14:41 < jserv--> R1: 第一個問題：身份驗證 -> 因為已有師傅資料庫，所以採用客服提供給師傅認證碼的模式
+14:41 < darkx> 零分！
+14:42 < darkx>   雨八
+14:42 < rsghost> 云木
+14:42 -!- andytwmvp [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+14:42 -!- CarterTsai [~CarterTsa@122.146.231.203] has joined #mopcon
+14:43 < jserv--> R1: 小心網路監聽風險
+14:43 < darkx> 駭客年會超可怕的 >_<
+14:44 < rsghost> 五樓是駭客
+14:44 < afu_> 只有 TonyQ 主動放出投影片，好想看其他的啊～
+14:44 < darkx> 立委都會被監聽了，網路當然也會被 sniff
+14:44 < jserv--> R1: Access Token: 應有 expire-date 設計，定期自我更新
+14:44 -!- weitsai_ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+14:44 < abev66_> R2: 善用多執行序
+14:45 < darkx> R1: Access token 不應帶有太多資料
+14:45 -!- tsaiid [~tsaiid@122.146.231.203] has quit [Quit: tsaiid]
+14:45 < abev66_> R2: 多執行序不是萬能的，開一堆執行序你的程式並不會變快
+14:46 < darkx> R1: API 設計
+14:46 -!- Jueen [~Jueen@122.146.231.203] has quit [Ping timeout: 268 seconds]
+14:46 < darkx> R1: Head first API design!
+14:46 < abev66_> R2: 3. CPU vs GPU -> 同個圖片做運算， GPU 快上 50
+14:47 -!- CarterTsai [~CarterTsa@122.146.231.203] has quit [Ping timeout: 245 seconds]
+14:47 -!- fntsrlike [~fntsrlike@122.146.231.203] has joined #mopcon
+14:48 < abev66_> R2: 4.元件顯示階層
+14:48 < jserv--> R1: RESTFUL style: List, Read, Create, Update, Delete
+14:48 < darkx> R1: the world is not beautiful (enough)
+14:49 < darkx> R1: behavior defined API design
+14:49 < jserv--> R1:  RESTFUL: 跨 model 的操作不方便
+14:49 < abev66_> R2: 4.元件顯示階層 -> 階層愈少處理愈快
+14:49 -!- pohchen [8c71fd99@gateway/web/freenode/ip.140.113.253.153] has joined #mopcon
+14:49 < abev66_> R2: 5. 減少畫面演算次數
+14:50 < othrees>  afu 大會應該會收集
+14:51 < jserv--> afu, 投影片收集中，請參考: https://mopcon.hackpad.com/
+14:51 -!- tsaiid_ [~androirc@122.146.231.203] has quit [Read error: Connection reset by peer]
+14:52 -!- ni493155 [~u651329@122.146.231.203] has quit [Ping timeout: 245 seconds]
+14:52 < abev66_> R2: 效能殺手-> opacity, blend, shadow, mask, ...etc.
+14:52 -!- tsaiid_ [~androirc@122.146.231.203] has joined #mopcon
+14:52 < chusiang> [MOPCON 2013] Slides 集散地https://mopcon.hackpad.com/MOPCON-2013-Slides--jy4OpX1lTzV
+14:52 < abev66_> R2: 6. 重複使用元件 -> 初始化一個元件需要花費很大的力氣
+14:52 < jserv--> R1: RESTFUL: pagination.
+14:53 < afu_> othrees: jserv-- thanks!
+14:54 < jserv--> R1: 儘量合併 reuqest
+14:55 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has joined #mopcon
+14:56 < clkaoud> R1: api 要記得保留改版空間
+14:56 < darkx> R1: api version issues
+14:57 < abev66_> 沒有用的東西不要急著把他 remove 掉
+14:57 < abev66_> R2: Reusable identifier.
+14:57 < abev66_> R2: 圖片讀取效能 -> jpg 消耗較多 CPU 運算，但較小， PNG 消耗較少 CPU 效能
+14:58 < jserv--> R1: API version issue: Header 夾帶版本訊息
+14:58 < darkx> R1: http://stackoverflow.com/questions/389169/best-practices-for-api-versioning
+14:58 < clkaoud> R1: 不是太重要的小差別，網路上通常都會吵很兇 XD # bikeshed
+14:58 < abev66_> R2: 圖片格式、尺寸、色域
+14:59 < abev66_> R2: 8. 網路連線限制
+14:59 < abev66_> R2: 過多連線數量會造成連線阻塞
+15:00 < clkaoud> R1 api 一定會遇到的狀況: auth fail, api server dead, api server outdated, permission denied, argument error, .... and everything application level
+15:00 < jserv--> R1: API 一定會遇到的狀況 -> 身份認證失敗, API server 掛了, API 版本已不支援, 沒有權限的操作, 參數錯誤, 各式應用層執行失敗
+15:01 < clkaoud> R1: 「error 的類型是無限的」
+15:01 -!- fntsrlike [~fntsrlike@122.146.231.203] has quit [Quit: fntsrlike]
+15:01 < abev66_> R2: 9. 儘量使用最少資源佔用
+15:02 < darkx>  很多 api 出 error 時只會吐空 JSON 回來... Orz
+15:03 -!- Jueen [~Jueen@122.146.231.203] has joined #mopcon
+15:03 < abev66_> R2: 拿回適當的資源就好
+15:05 < jserv--> R1: 放風箏
+15:05 < darkx> R1: 回傳資料就像是放風箏一樣
+15:05 < jserv--> R1: 放風箏 (不知道 API 操作是否會成功)
+15:06 < abev66_> R2: 10. 效能測試工具
+15:06 < jserv--> James Yeh 的投影片: http://www.slideshare.net/jamesyeh0627/mopcon2013-find-dognet
+15:06 < abev66_> Core Animation / OpenGL ES Analysis
+15:08 < darkx> R1: push notification
+15:08 -!- carllee413 [~anonymous@122.146.231.203] has joined #mopcon
+15:08 < darkx> 噗~浪 XD
+15:10 -!- carllee413 [~anonymous@122.146.231.203] has quit [Client Quit]
+15:10 < Andox> R2: AR很耗電 有沒有什麼方法降低? 沒有 絕對沒有
+15:10 -!- carllee413 [~anonymous@122.146.231.203] has joined #mopcon
+15:11 -!- andytwmvp [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Quit: Page closed]
+15:12 < darkx> R1: http://slid.es/tonyq/web-api-of-android-backend
+15:13 -!- carllee413 [~anonymous@122.146.231.203] has quit [Remote host closed the connection]
+15:13 < ccc_larc> R3: AllJoyn 在 iOS 上無法動藍牙的設定，在 Andriod 上要 root 才能用...
+15:14 -!- Jueen [~Jueen@122.146.231.203] has quit [Ping timeout: 272 seconds]
+15:14 -!- visinocan [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+15:15 -!- MouseMs [~MouseMs@122.146.231.203] has quit [Quit: My MacBook has gone to sleep. ZZZzzz…]
+15:15 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+15:17 -!- rsghost [~rsghost@122.146.231.203] has quit [Ping timeout: 272 seconds]
+15:21 -!- superbil_ [~user@122.146.231.203] has quit [Ping timeout: 245 seconds]
+15:21 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+15:21 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has quit [Ping timeout: 250 seconds]
+15:21 -!- othrees [~othrees@42-70-114-140.dynamic-ip.hinet.net] has quit [Quit: Colloquy for iPad - http://colloquy.mobi]
+15:21 -!- Nicholas [3cf541b7@gateway/web/freenode/ip.60.245.65.183] has quit [Quit: Page closed]
+15:22 -!- sen_mobi [~sen_mobi@122.146.231.203] has quit [Quit: sen_mobi]
+15:22 < chusiang> [mind note] App 急速視覺 UX 回饋應用 - 以 AR 應用為例 1st - https://lh5.googleusercontent.com/-fUTsD9DZ9Os/Umy-3_xlXhI/AAAAAAAAWNg/PiSfW_JLXjg/s1600/mopcon2013-d2-app-uxfeedback-application-ap-1st.png
+15:22 -!- MouseMs [~MouseMs@122.146.231.203] has joined #mopcon
+15:23 -!- alicekey [~alicekey@42.74.129.246] has joined #mopcon
+15:23 -!- pohchen [8c71fd99@gateway/web/freenode/ip.140.113.253.153] has quit [Quit: Page closed]
+15:23 -!- tsaiid_ [~androirc@122.146.231.203] has quit [Remote host closed the connection]
+15:23 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
+15:23 -!- tsaiid_ [~androirc@122.146.231.203] has joined #mopcon
+15:26 -!- alicekey [~alicekey@42.74.129.246] has quit [Remote host closed the connection]
+15:26 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has joined #mopcon
+15:26 -!- tonyq [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Quit: Page closed]
+15:26 -!- PN_Wu [704e47cf@gateway/web/freenode/ip.112.78.71.207] has joined #mopcon
+15:27 -!- fntsrlike [~fntsrlike@122.146.231.203] has joined #mopcon
+15:28 -!- fntsrlike [~fntsrlike@122.146.231.203] has quit [Client Quit]
+15:28 -!- fntsrlike [~fntsrlike@122.146.231.203] has joined #mopcon
+15:29 < abev66_> R3: 「有沒有那條線很重要嗎？」 開始
+15:30 -!- sen_mobi [~sen_mobi@122.146.231.203] has joined #mopcon
+15:30 -!- andytwmvp [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+15:30 -!- Zurg_ [~zurg@122.146.231.203] has joined #mopcon
+15:30 < Zurg_> R3講師 http://about.me/Stanely_wu
+15:30 -!- othrees [~othrees@42.70.114.140] has joined #mopcon
+15:31 < chusiang> 15:30 ~ 16:10 / 諾基米 / App 製作心得分享
+15:31 < chusiang> R2: 15:30 ~ 16:10 / 諾基米 / App 製作心得分享
+15:32 -!- chyuaner [~AndChat93@122.146.231.203] has joined #mopcon
+15:32 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+15:33 < abev66_> R3: DLNA -> DMC, DMP. DMR, DMS
+15:35 < abev66_> R3: Controller, Player, Renderer, Server
+15:36 < chyuaner> R2: 對阿宅來說只要有電腦、網路就OK...
+15:37 < Andox> chyuaner: 還要有有電的插頭
+15:37 -!- ni643099 [~u597801@122.146.231.203] has joined #mopcon
+15:37 -!- othrees [~othrees@42.70.114.140] has quit [Quit: Colloquy for iPad - http://colloquy.mobi]
+15:38 -!- othrees [~othrees@42.70.114.140] has joined #mopcon
+15:38 -!- aacczury [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+15:39 < jserv--> R1: 挖掘低耗電藍牙的寶藏
+15:39 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+15:40 < jserv--> R1: Bluetooth Low-Energy
+15:40 < abev66_> R3: DLNA 只能傳影音內容
+15:41 < fntsrlike> R2: 工程師都很害羞
+15:41 -!- alicekey [~alicekey@42.74.129.246] has joined #mopcon
+15:41 < fntsrlike> R2: 我去開發者交流會前面都聽不懂。我只要後面的二十分鐘交流時間
+15:41 < jserv--> R1: CR2032 電池可提供 BLE 裝置一年的電
+15:41 < abev66_> R3: WiDi
+15:41 < fntsrlike> R2: 當他生了第二個孩子時，我知道機會來了。（？
+15:41 < chyuaner> R2: 你生了第二個小孩，經濟壓力應該變大吧......
+15:42 < abev66_> R3: Miracast from WiFi Alliance
+15:42 < jserv--> R1: Class 3 radio - 1m to 3 ft
+15:42 < abev66_> R3: Google Chromecast
+15:42 < jserv--> R1: Class 2 radio - 10 m or 33 ft
+15:44 < othrees> Class 1-100 m
+15:44 < dylandy> R2:數位時代有學長當編輯
+15:44 < JalenLin> R2: 要怎麼被數位時代推薦哩?  首先，你要有一個在數位時代當編輯的學長
+15:44 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+15:45 < abev66_> R3: WIDI 市場反應不如 MIRACAST —> 綁硬體、 source 只能是 NB、 不 Open
+15:45 -!- superbil_ [~user@122.146.231.203] has joined #mopcon
+15:45 < jserv--> R1: Bluetooth <--> Bluetooth Smart Ready <--> Bluetooth Smart
+15:45 -!- alicekey [~alicekey@42.74.129.246] has quit [Client Quit]
+15:45 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+15:46 -!- PN_Wu [704e47cf@gateway/web/freenode/ip.112.78.71.207] has quit [Ping timeout: 250 seconds]
+15:46 < abev66_> R3: 市場最大的需求還是 Tablet 和 PHONE
+15:46 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+15:46 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+15:47 < fntsrlike> R2: 每天晚上七點（app store下載數結算時間）可以決定我當天晚餐吃什麼。
+15:47 < abev66_> R3: 只要你是 WFA member 就可以下載 spec.
+15:47 -!- weitsai_ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+15:48 -!- kewang [dc8a6dd6@gateway/web/freenode/ip.220.138.109.214] has quit [Ping timeout: 250 seconds]
+15:48 < JA_> 很好奇為什麼會是泰國耶
+15:48 < jserv--> R1: 應用情境: Health Care, Sports/Fitness,, Security
+15:49 < chusiang> R2: 泰國人比較愛美?
+15:49 < chusiang> JA_: R2: 泰國人比較愛美?
+15:49 < abev66_> R3: Microsoft Windows 8.1 原生支援 Miracast
+15:50 < jserv--> R1: 應用情境: Pay system, Automation, Time services, Proximity (範例: 尋找鑰匙)
+15:51 < JA_> <chusiang> :R2 覺得泰國還蠻妙的XD
+15:51 -!- weitsai_ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+15:51 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has joined #mopcon
+15:51 < abev66_> R3: 技術： 1. Wi-Fi Direct / TDLS 2. WPS/WPA 3. RTSP 4.RTP
+15:52 < abev66_> R3: Optional: 5. UIBC 6. more optional features
+15:53 < jserv--> R1: 推薦方案: connectBlue OBS421, TICC2541 SensorTag Developement Kit, Nordic nRF8001 Development Kit
+15:54 -!- minipc [~androirc@223-139-153-241.dynamic.hinet.net] has quit [Ping timeout: 252 seconds]
+15:54 < abev66_> R3: H264 + AAC/LPCM
+15:55 < jserv--> R1: TI 方案：透過 CC Debug 更新韌體
+15:55 < fntsrlike> R2: 其實我老闆自己也說，我自己也想走。
+15:55 < abev66_> R3: 特力屋竟然有賣 Miracast 傳輸器！
+15:55 < chusiang> R2: 老闆說：其實我自己也想走！
+15:55 < chyuaner> R2: Bye Bye...
+15:56 < abev66_> R3: OPEN 小將平板影音超值組
+15:56 < chusiang> R2: 只要我可以不用離開高雄，我也可以不用離職啊！
+15:56 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+15:57 < jserv--> R1:  Technical Note TN2295 / Testing Core Bluetooth Applications in the iOS Simulator
+15:57 < jserv--> R1: Mac OS X 10.9 支援
+15:57 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+15:58 < jserv--> R1: Client [Wants Data] <--> Server [Provides Data]
+16:01 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+16:02 < jserv--> R1: Scan -> Discovery Peripheral -> Connected / Disconnected
+16:03 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+16:03 < jserv--> R1: Discovery Services
+16:03 < jserv--> R1: Peripheral Manager
+16:04 < abev66_> R3: Back Channel -> 回頭控制 SOURCE
+16:04 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+16:05 < abev66_> R3: 挑戰： interference / lantency
+16:05 < jserv--> R1: Data Transmission (Read, Write)
+16:06 < jserv--> R1: http://www.mobilogics.com.tw/us/GreatBLE.aspx #
+16:06 -!- Zurg_ [~zurg@122.146.231.203] has quit [Remote host closed the connection]
+16:06 < othrees> Live Demo !!
+16:06 -!- Zurg_ [~zurg@122.146.231.203] has joined #mopcon
+16:09 -!- Zurg__ [~zurg@122.146.231.203] has joined #mopcon
+16:09 -!- Zurg_ [~zurg@122.146.231.203] has quit [Read error: Connection reset by peer]
+16:09 -!- lightshadow [df8f8fa9@gateway/web/freenode/ip.223.143.143.169] has quit [Quit: Page closed]
+16:09 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+16:11 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+16:11 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+16:11 -!- AndChat-88724 [~AndChat88@221-120-3-60.dynamic.hinet.net] has quit [Quit: Bye]
+16:12 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+16:12 -!- fntsrlike [~fntsrlike@122.146.231.203] has quit [Quit: fntsrlike]
+16:13 -!- Zurg_ [~zurg@122.146.231.203] has joined #mopcon
+16:14 -!- MouseMs [~MouseMs@122.146.231.203] has quit [Quit: My MacBook has gone to sleep. ZZZzzz…]
+16:15 -!- tsaiid_ [~androirc@122.146.231.203] has quit [Read error: Connection reset by peer]
+16:16 -!- MouseMs [~MouseMs@ec2-54-238-134-4.ap-northeast-1.compute.amazonaws.com] has joined #mopcon
+16:16 -!- chyuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+16:16 -!- Zurg__ [~zurg@122.146.231.203] has quit [Ping timeout: 272 seconds]
+16:16 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
+16:16 < othrees> 場地卡關了
+16:17 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has quit [Ping timeout: 250 seconds]
+16:17 -!- jserv-- [~jserv@122.146.231.203] has quit [Ping timeout: 260 seconds]
+16:17 -!- chusiang [~jonny@122.146.231.203] has quit [Quit: Lost terminal]
+16:18 -!- ymow [8c831e4a@gateway/web/freenode/ip.140.131.30.74] has quit [Ping timeout: 250 seconds]
+16:18 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+16:18 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
+16:19 -!- Peni [~nobody@122.146.231.203] has joined #mopcon
+16:19 -!- Zurg_ [~zurg@122.146.231.203] has quit [Remote host closed the connection]
+16:19 -!- Zurg_ [~zurg@122.146.231.203] has joined #mopcon
+16:20 -!- chyuaner [~AndChat93@122.146.231.203] has joined #mopcon
+16:20 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+16:20 < othrees> 過關了
+16:21 -!- fntsrlike [~fntsrlike@122.146.231.203] has joined #mopcon
+16:22 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has joined #mopcon
+16:22 -!- chusiang [~jonny@122.146.231.203] has joined #mopcon
+16:22 -!- Peni [~nobody@122.146.231.203] has quit [Remote host closed the connection]
+16:24 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+16:24 -!- chusiang [~jonny@122.146.231.203] has quit [Client Quit]
+16:25 -!- chusiang [~jonny@122.146.231.203] has joined #mopcon
+16:25 < chusiang> Microsoft 抽獎 + Lightening Talk
+16:25 < chusiang> 議程
+16:25 < chusiang> 介紹
+16:25 < chusiang> == Microsoft 抽獎 + Lightening Talk ==
+16:27 -!- andytwmvp_ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+16:27 -!- chyuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+16:27 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
+16:30 < chusiang> 今天只放出兩張心智圖啊，看來打字的速度還有進步的空間呢！！
+16:31 < chusiang> walkingice: 前輩您好，請問您有再跟人換 gpg key 嗎?
+16:31 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has quit [Read error: Operation timed out]
+16:32 -!- ni643099 [~u597801@122.146.231.203] has quit [Remote host closed the connection]
+16:32 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has joined #mopcon
+16:32 < chusiang> == Microsoft 抽獎 ==
+16:32 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has joined #mopcon
+16:33 -!- tsaikd [~tsaikd@122.146.231.203] has quit [Remote host closed the connection]
+16:33 < chusiang> windows phone store 累計 20 億次下載。
+16:33 < chusiang> "QONOQR"
+16:34 < chusiang> Apps count: 175,000+
+16:34 -!- PN_Wu [704e47cf@gateway/web/freenode/ip.112.78.71.207] has joined #mopcon
+16:34 -!- weitsai_ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+16:34 < chusiang> 抽獎！
+16:35 -!- yyken [~anonymous@122.146.231.203] has joined #mopcon
+16:35 < chusiang> 觀迎香港來的來賓 ...
+16:36 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has quit [Remote host closed the connection]
+16:36 < chusiang> 先抽手機還是行動電源? 行動電源 ~~~
+16:37 < chusiang> 1st: 黃小姐。
+16:37 < chusiang> 2nd: 賴先生。
+16:37 -!- tsaikd [~tsaikd@122.146.231.203] has joined #mopcon
+16:38 < JalenLin> 要保護當事人是不是要○○表示?...
+16:38 < superbil_> 你拿得到兩顆行動電源
+16:38 < chusiang> OK
+16:38 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has joined #mopcon
+16:38 < fntsrlike> 意味性別也是個資的一種ＸＤＤＤ
+16:39 < chusiang> 3rd: 陳 ○ ○
+16:39 < chusiang> fntsrlike: thank you.
+16:40 -!- visioncan [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+16:40 < chusiang> 感謝賴 ○ ○ 捐出兩顆行動電源給 MOPCON 2013 <{_ _}>
+16:40 < JalenLin> <(_ _)>
+16:40 < andytwmvp_> <(_ _)>
+16:41 < chusiang> MOPCON 2013 問卷 - http://goo.gl/gty9Aj , AWS 問卷 - http://goo.gl/G3wGSj #3
+16:41 < fntsrlike> <(_ _)>
+16:41 < chusiang> 42
+16:41 < chusiang> 30
+16:41 < chusiang> 50
+16:41 < chusiang> 43
+16:41 < chusiang> 11
+16:42 < chusiang> 27
+16:42 < chusiang> 34
+16:42 < fntsrlike> 是指問卷報名編號還是MOPCON編號？
+16:42 < chusiang> (原來工作人員沒有數字...)
+16:42 < chusiang> 23
+16:42 < chusiang> 16
+16:42 < chusiang> 19
+16:42 < chusiang> 02
+16:42 < MouseMs> 我也想問
+16:42 < chusiang> 31
+16:42 < MouseMs> 問券編號？
+16:43 < chusiang> 42
+16:43 < chusiang> 30
+16:43 < JA_> 請問是MOPCON報到時的編號嗎?
+16:43 < dylandy> 現在第一個嗎？= w =
+16:44 < chusiang> 註：這是問卷報名的號碼。
+16:44 < chusiang> 註：這是問卷的號碼。
+16:44 < JA_> 3Q
+16:44 < chusiang> == linghtning talk ==
+16:45 < chusiang> 一串英文字看不懂的東西
+16:45 < chusiang> [1] 一串英文字看不懂的東西
+16:45 < PN_Wu> 單兵注意, 抽中行動電源但是自己並沒有在用智慧型手機, 請問單兵該如何處置?
+16:46 < fntsrlike> ＸＤＤＤＤＤＤＤＤＤＤＤＤＤＤＤＤ
+16:46 -!- yyken [~anonymous@122.146.231.203] has quit [Ping timeout: 245 seconds]
+16:46 < dylandy>  XDDD
+16:46 < dylandy> 捐出吧
+16:46 < chusiang> [1] SITOCN HackGen WiFiAutoLogin
+16:46 < chusiang> [2] Skin API
+16:46 < chusiang> [3] g0v - 自己國家自己救
+16:46 < chusiang> [3] Linux CNC
+16:46 -!- Zurg_ [~zurg@122.146.231.203] has quit [Remote host closed the connection]
+16:46 < chusiang> [4] g0v - 自己國家自己救
+16:47 < othrees> 買台智慧型手機和他做伴
+16:47 -!- Zurg_ [~zurg@122.146.231.203] has joined #mopcon
+16:47 < chusiang> [5] 在行動裝置的即時影像辨識狗狗協尋應用
+16:47 < chusiang> [6] API 文件大亂鬥
+16:49 < chusiang> 2013 SITCON @ 3/15 ? 情人節的隔一天
+16:49 < chusiang> 2013 SITCON @ 2014/03/15 ? 情人節的隔一天
+16:50 -!- Zurg__ [~zurg@122.146.231.203] has joined #mopcon
+16:50 < chusiang> [2] ---
+16:50 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+16:50 < chusiang> 那個 … 我還找不到我的滑鼠 …
+16:51 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has joined #mopcon
+16:51 < alicekey> 2014...
+16:51 -!- Zurg_ [~zurg@122.146.231.203] has quit [Ping timeout: 240 seconds]
+16:52 -!- othrees [~othrees@42.70.114.140] has quit [Quit: Colloquy for iPad - http://colloquy.mobi]
+16:52 < chusiang> 咦？我為什麼上面看不到呢?
+16:52 -!- othrees [~othrees@42.70.114.140] has joined #mopcon
+16:53 -!- visioncan [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+16:53 -!- fntsrlike [~fntsrlike@122.146.231.203] has quit [Quit: fntsrlike]
+16:54 < othrees> 其實現在才發現投影畫面有些模糊，本來以為只是燈光問題
+16:54 -!- yyken [~anonymous@122.146.231.203] has joined #mopcon
+16:54 < Andox> 聽說剩1分 會不會拔插頭
+16:54 < chusiang> othrees: 真的，在下坐最前面都這麼覺得了。
+16:54 < chusiang> 這位講者是 Mac
+16:55 < chusiang> 過關!
+16:55 < othrees> 可是都要結束了才注意到...
+16:55 < chusiang> [3] --- Linux CNC
+16:56 < chusiang> 因為參與社群的關係，得到了一個實習的機會！
+16:57 < chusiang> linux cnc base on ubuntu 10.04
+16:57 < chusiang> 現在用 windows 7 打投影還是有些糊 XDD
+16:58 < chusiang> 明天拆政府！！
+16:58 < Andox> zoom跑掉？
+16:58 < JA_> 好幽默
+16:58 < JA_> XD
+16:58 < chusiang> 一個不小心，手一撥要 Demo 的設備就被物理破壞了！
+16:59 -!- yyken [~anonymous@122.146.231.203] has quit [Ping timeout: 268 seconds]
+16:59 < chusiang> 沒關係，我們有影片。
+16:59 < chusiang> 自己動手，豐衣足食。
+16:59 < PN_Wu> 向SITCON HackGen 2013致敬。 http://i.imgur.com/QpyaAHA.png
+17:00 < chusiang> [4] ---- g0v
+17:00 < andytwmvp_> LT: 自己動手，豐衣足食。
+17:03 < JalenLin> 革命不是請客吃飯，但是不請客吃飯也不行
+17:03 < chusiang> 進擊的程式
+17:04 < chusiang> 文字工作者 ~~~ (舉手
+17:05 < chusiang> [5] ---
+17:06 < JA_> 聽到g0v的PTT有一種好感動的感覺
+17:06 < andytwmvp_> 「沒有人」是萬能的
+17:06 < JA_> PPT
+17:06 < chusiang> TPP? 來亂的 XD
+17:07 < dylandy> g0v ： 寵物幫幫我（？）
+17:07 -!- MouseMs [~MouseMs@ec2-54-238-134-4.ap-northeast-1.compute.amazonaws.com] has quit [Quit: My MacBook has gone to sleep. ZZZzzz…]
+17:07 < othrees> 線好像有鬆
+17:07 < Andox> 投影機偏藍？
+17:07 < chusiang> finddog.net
+17:07 < othrees> 少了顏色
+17:07 < clkaoud> dylandy: 寵物關心你 XD
+17:07 < chusiang> Andox: 聽說是螢幕線掉了
+17:07 -!- MouseMs [~MouseMs@ec2-54-238-134-4.ap-northeast-1.compute.amazonaws.com] has joined #mopcon
+17:08 < DennyHuang> 從前我愛過 TPP 最近愛上 cleaver  XD
+17:08 -!- FrankWu [~textual@122.146.231.203] has joined #mopcon
+17:08 < chusiang> clkaoud: open source 出來就真的是了 XDD
+17:08 < Andox> orz
+17:08 < clkaoud> 開放 api 和 petneed.me 結合一下... ?
+17:09 < chusiang> 結合 UGC 的概念。
+17:09 < chusiang> Live Demo !!!
+17:09 < dylandy> 快來參加 g0v 黑客松，一起做專案吧
+17:09 < Andox> 有狗！！
+17:10 -!- andytwmvp [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+17:10 < chusiang> 感謝某兒子提供的狗 ~~~
+17:10 < DennyHuang> 好從容阿XD 我輸了QQ
+17:10 < chusiang> 有人知道還剩多少時間嗎?
+17:10 < clkaoud> 1:05
+17:10 < clkaoud> live demo fail
+17:11 < clkaoud> rescued!
+17:11 -!- NeilLee [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has joined #mopcon
+17:11 < Andox> failed
+17:12 < chusiang> time out!!
+17:12 < chusiang> [6] ---- API 文件大亂鬥
+17:13 < chusiang> 註：上一位講者的伙伴的專長是聲音辨識。
+17:14 < chusiang> 用工具寫文件：Swagger
+17:15 < chusiang> miredot
+17:15 < JalenLin> API footprint?
+17:16 < chusiang> Django REST framework
+17:16 < clkaoud> api blueprint
+17:16 < JalenLin> 喔喔
+17:16 < JalenLin> 感謝~我還在想說怎麼怪怪的
+17:16 < clkaoud> 類似這樣: http://docs.twly.apiary.io/
+17:16 -!- MouseMs [~MouseMs@ec2-54-238-134-4.ap-northeast-1.compute.amazonaws.com] has quit [Ping timeout: 245 seconds]
+17:18 < chusiang> 挑戰失敗 XDD
+17:18 -!- dylandy [~dylandy@122.146.231.203] has quit [Quit: leaving]
+17:18 -!- sen_mobi [~sen_mobi@122.146.231.203] has left #mopcon []
+17:18 < JA_> 麥克風沒聲音是模仿金X獎收MIC嗎XD
+17:18 < chusiang> 總召 END !!
+17:18 < chusiang> 拔螢幕比較好玩 XDD
+17:19 < chusiang> 拔螢幕 "線" 比較好玩 XDD
+17:19 < DennyHuang> http://hackgen.github.io/TTU-WiFiAutoLogin/ 剛剛講的網頁 歡迎各校強者 fork 改為自己學校版本喔～！
+17:20 < chusiang> 正妹連播 XDD
+17:20 < chusiang> CQD !!!
+17:21 < chusiang> 總覺的時間過的好快啊 XD
+17:22 < DennyHuang> 剛剛那是什麼！！！
+17:22 < JA_> 活動辦得很棒!工作人員辛苦囉!!
+17:22 < JA_> 鐵達尼號甲甲板
+17:22 -!- Zurg__ [~zurg@122.146.231.203] has quit [Remote host closed the connection]
+17:22 -!- JA_ [76a3de31@gateway/web/freenode/ip.118.163.222.49] has quit [Quit: Page closed]
+17:22 < FrankWu> MOPCON 結束了~快上來留點足跡XD
+17:22 < chusiang> 總召：謝謝大家，希望我們明年可以再見面！
+17:23 < alicekey> bye~
+17:23 < chusiang> 先關機了 :P
+17:23 -!- FrankWu [~textual@122.146.231.203] has quit [Quit: Textual IRC Client: www.textualapp.com]
+17:23 < chusiang> 換 手機 上 XD
+17:23 -!- chusiang [~jonny@122.146.231.203] has quit [Quit: Lost terminal]
+17:23 -!- Zurg_ [~zurg@122.146.231.203] has joined #mopcon
+17:25 -!- othrees [~othrees@42.70.114.140] has quit [Quit: Colloquy for iPad - http://colloquy.mobi]
+17:26 -!- PN_Wu [704e47cf@gateway/web/freenode/ip.112.78.71.207] has quit [Ping timeout: 250 seconds]
+17:26 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+17:26 -!- NeilLee [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+17:26 -!- andytwmvp_ [7a92e7cb@gateway/web/freenode/ip.122.146.231.203] has quit [Ping timeout: 250 seconds]
+17:26 -!- yu [3ddd43aa@gateway/web/freenode/ip.61.221.67.170] has quit [Ping timeout: 250 seconds]
+17:27 -!- Zurg_ [~zurg@122.146.231.203] has quit [Ping timeout: 246 seconds]
+17:28 -!- superbil_ [~user@122.146.231.203] has quit [Ping timeout: 268 seconds]
+17:28 -!- chyuaner [~AndChat93@122.146.231.203] has joined #mopcon
+17:28 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+17:29 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has joined #mopcon
+17:30 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
+17:30 -!- tsaikd [~tsaikd@122.146.231.203] has quit [Ping timeout: 272 seconds]
+17:31 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+17:31 -!- chyuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+17:31 -!- yuaner [~AndChat93@122.146.231.203] has joined #mopcon
+17:32 -!- alicekey [~alicekey@42-74-129-246.dynamic-ip.hinet.net] has quit [Remote host closed the connection]
+17:32 -!- ni963697 [~u123437@111-242-223-205.dynamic.hinet.net] has joined #mopcon
+17:32 -!- ni963697 [~u123437@111-242-223-205.dynamic.hinet.net] has left #mopcon []
+17:33 -!- chyuaner [~AndChat93@122.146.231.203] has joined #mopcon
+17:33 -!- yuaner [~AndChat93@122.146.231.203] has quit [Read error: Connection reset by peer]
+17:39 -!- chyuaner [~AndChat93@122.146.231.203] has quit [Ping timeout: 240 seconds]
+17:42 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has quit [Ping timeout: 272 seconds]
+17:42 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has joined #mopcon
+18:04 -!- wenchen [76aa4eba@gateway/web/freenode/ip.118.170.78.186] has left #mopcon []
+19:31 -!- fntsrlike [~fntsrlike@114-137-124-14.dynamic.hinet.net] has joined #mopcon
+19:40 -!- jo__ [01aecd42@gateway/web/freenode/ip.1.174.205.66] has joined #mopcon
+19:41 -!- jo__ [01aecd42@gateway/web/freenode/ip.1.174.205.66] has quit [Client Quit]
+19:42 -!- fntsrlike [~fntsrlike@114-137-124-14.dynamic.hinet.net] has quit [Quit: fntsrlike]
+19:43 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has quit [Ping timeout: 268 seconds]
+19:43 -!- abev66_ [~abev66_@118-232-177-139.dynamic.kbronet.com.tw] has joined #mopcon
+19:46 -!- YCJ [dc86b92e@gateway/web/freenode/ip.220.134.185.46] has joined #mopcon
+19:52 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has joined #mopcon
+19:52 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has quit [Remote host closed the connection]
+19:52 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has joined #mopcon
+20:12 -!- fntsrlike [~fntsrlike@114-137-124-14.dynamic.hinet.net] has joined #mopcon
+20:17 -!- Jueen [01ac7956@gateway/web/freenode/ip.1.172.121.86] has joined #mopcon
+20:18 -!- fntsrlike [~fntsrlike@114-137-124-14.dynamic.hinet.net] has left #mopcon []
+20:21 -!- YCJ [dc86b92e@gateway/web/freenode/ip.220.134.185.46] has quit [Quit: Page closed]
+20:26 -!- fntsrlike [~fntsrlike@114-137-124-14.dynamic.hinet.net] has joined #mopcon
+20:36 -!- fntsrlike [~fntsrlike@114-137-124-14.dynamic.hinet.net] has quit [Quit: fntsrlike]
+20:53 -!- Zurg_ [~zurg@42.79.3.107] has joined #mopcon
+20:59 -!- Zurg__ [~zurg@42-79-3-107.dynamic-ip.hinet.net] has joined #mopcon
+20:59 -!- Zurg_ [~zurg@42.79.3.107] has quit [Read error: Connection reset by peer]
+21:03 -!- Zurg_ [~zurg@42.79.3.107] has joined #mopcon
+21:03 -!- Zurg__ [~zurg@42-79-3-107.dynamic-ip.hinet.net] has quit [Read error: Connection reset by peer]
+21:19 -!- qrtt1 [~qrtt1@36.231.133.130] has quit [Quit: leaving]
+21:22 -!- Zurg__ [~zurg@42.79.3.107] has joined #mopcon
+21:22 -!- Zurg_ [~zurg@42.79.3.107] has quit [Read error: Connection reset by peer]
+21:29 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has quit [Remote host closed the connection]
+21:29 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has joined #mopcon
+21:33 -!- Jueen [01ac7956@gateway/web/freenode/ip.1.172.121.86] has quit [Ping timeout: 250 seconds]
+21:33 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has quit [Ping timeout: 240 seconds]
+21:39 -!- Zurg_ [~zurg@42.79.3.107] has joined #mopcon
+21:39 -!- Zurg__ [~zurg@42.79.3.107] has quit [Read error: Connection reset by peer]
+21:47 -!- Zurg_ [~zurg@42.79.3.107] has quit []
+22:05 -!- carrl [~carl@61-64-164-206-adsl-tai.STATIC.so-net.net.tw] has left #mopcon []
+22:18 -!- fntsrlike [~fntsrlike@114-46-214-76.dynamic.hinet.net] has joined #mopcon
+22:19 -!- nylon7 [8c7bd82d@gateway/web/freenode/ip.140.123.216.45] has joined #mopcon
+22:20 -!- rsghost [~rsghost@114-41-112-189.dynamic.hinet.net] has joined #mopcon
+22:33 -!- jserv-- [~jserv@2001:288:7001:2701:b1:4897:3242:983] has joined #mopcon
+22:40 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has joined #mopcon
+22:44 -!- CarterTsai [~CarterTsa@1-172-230-234.dynamic.hinet.net] has quit [Ping timeout: 240 seconds]
+22:55 -!- ni38787 [~u189659@118-171-213-151.dynamic.hinet.net] has joined #mopcon
+22:57 -!- Luxun [uid13676@gateway/web/irccloud.com/x-qokbedcchgvtkzth] has left #mopcon []
+23:02 -!- linwenhao [~linwenhao@42.75.231.113] has joined #mopcon
+23:05 -!- ni38787 [~u189659@118-171-213-151.dynamic.hinet.net] has quit [Remote host closed the connection]
+23:11 -!- ccc_larc [uid15336@gateway/web/irccloud.com/x-atvjdgipslcniots] has left #mopcon []
+23:21 -!- linwenhao [~linwenhao@42.75.231.113] has quit [Remote host closed the connection]
+23:33 < nylon7> 各位今天的閃電秀因為一些自己的問題有些部份不是很完整，如果對LinuxCNC有興趣的人可以參閱我的這份完整投影片
+23:33 < nylon7> http://www.slideshare.net/nylon7/linux-cnc-overview
+23:33 < nylon7> 然後當初在分享時有錄影 https://www.youtube.com/watch?v=GCI5aMH1lzM
+23:35 < nylon7> 這樣子大型的分享我掌握度不是很高，所以內容可能有些遺漏，可以參閱我的筆記網頁
+23:35 < nylon7> https://sites.google.com/site/nylon7wiki/
+23:35 < nylon7> 最後今年如果都沒空必定會在寒假找出時間於kalug做小型的分享
+23:35 < nylon7> 因為大型的talking成效不是很好（其實是我容易緊張XDDD）
+23:36 < nylon7> 所以小規模的討論式可能比較適合我
+23:36 < nylon7> 以上，感謝大家:D
+23:36 -!- joy__ [72247413@gateway/web/freenode/ip.114.36.116.19] has joined #mopcon
+23:36 -!- joy__ [72247413@gateway/web/freenode/ip.114.36.116.19] has quit [Client Quit]
+23:40 < clkaoud> nylon7++
+23:42 -!- fntsrlike [~fntsrlike@114-46-214-76.dynamic.hinet.net] has quit [Quit: fntsrlike]
+23:42 -!- clkaoud [uid12095@gateway/web/irccloud.com/x-gzljkzkauwfkbtdl] has left #mopcon []
+23:46 -!- nylon7 [8c7bd82d@gateway/web/freenode/ip.140.123.216.45] has quit [Quit: Page closed]
+23:47 -!- test___ [2a43507d@gateway/web/freenode/ip.42.67.80.125] has joined #mopcon
+23:49 -!- test___ [2a43507d@gateway/web/freenode/ip.42.67.80.125] has quit [Client Quit]
+--- Log closed Mon Oct 28 00:00:03 2013
 
-....
