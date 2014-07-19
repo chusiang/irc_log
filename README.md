@@ -8,6 +8,7 @@
 
 http://coscup.org
 
+- [2014](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2014.log)
 - [2013](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2013.log)  #Logbot: [Day1](http://logbot.g0v.tw/channel/coscup/2013-08-03), [Day2](http://logbot.g0v.tw/channel/coscup/2013-08-04)
 - [2012](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2012.log), [HTML](http://ig.deep.tw/coscup.log.html)
 - [2011](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2011.log)
