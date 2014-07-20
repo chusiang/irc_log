@@ -9125,3 +9125,195 @@
 21:29 -!- barneybook_a [~barneyboo@218-161-9-240.HINET-IP.hinet.net] has joined #coscup
 21:30 -!- jim__ [~jim@59-125-119-121.HINET-IP.hinet.net] has joined #coscup
 21:31 -!- Anny [~annyhsu@42-71-164-151.EMOME-IP.hinet.net] has joined #coscup
+21:33 -!- chunyou [~ChunYou@218-161-9-240.HINET-IP.hinet.net] has joined #coscup
+21:34 -!- alextu__ [uid36292@gateway/web/irccloud.com/x-eoxvamthkinwyglq] has quit [Quit: Connection closed for inactivity]
+21:35 -!- rplus_ [uid16010@gateway/web/irccloud.com/x-whybfrksyrkfvddd] has quit [Quit: Connection closed for inactivity]
+21:36 -!- jim__ [~jim@59-125-119-121.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+21:39 -!- chunyou [~ChunYou@218-161-9-240.HINET-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+21:40 -!- BellHsieh [~Bell@220-133-116-237.HINET-IP.hinet.net] has quit [Quit: BellHsieh]
+21:40 -!- yutin [~yutin@60.245.64.184] has quit [Remote host closed the connection]
+21:45 -!- jsliang [uid29695@gateway/web/irccloud.com/x-rcgxfjkspjaiubpd] has quit [Quit: Connection closed for inactivity]
+21:45 -!- timdream [~timdream@118-166-64-248.dynamic.hinet.net] has quit [Quit: timdream]
+21:47 -!- ymow [~Adium@1-171-163-156.dynamic.hinet.net] has joined #coscup
+21:48 -!- timdream [~timdream@118-166-64-248.dynamic.hinet.net] has joined #coscup
+21:50 -!- ensky [~hungyul@netta97.cs.nctu.edu.tw] has quit [Quit: leaving]
+21:51 -!- ymow [~Adium@1-171-163-156.dynamic.hinet.net] has quit [Ping timeout: 240 seconds]
+21:51 -!- mp607 [~mp607@123-193-233-208.dynamic.kbronet.com.tw] has joined #coscup
+21:51 -!- dAiNESE_ [uid12429@gateway/web/irccloud.com/x-moyimigewkvhrcqg] has quit [Quit: Connection closed for inactivity]
+21:52 -!- ymow [~Adium@1-171-163-156.dynamic.hinet.net] has joined #coscup
+21:54 -!- ascendbruce [~Adium@220-129-140-4.dynamic.hinet.net] has joined #coscup
+21:54 -!- Anny [~annyhsu@42-71-164-151.EMOME-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+21:55 -!- yutin [~yutin@59-115-37-73.dynamic.hinet.net] has joined #coscup
+21:56 -!- Akiban_ [7bc2ccd7@gateway/web/freenode/ip.123.194.204.215] has joined #coscup
+21:56 -!- asahsieh_nctu [uid28213@gateway/web/irccloud.com/x-gbagigmwolhgkcur] has joined #coscup
+21:57 -!- ensky [~hungyul@netta97.cs.nctu.edu.tw] has joined #coscup
+21:57 -!- Akiban_ [7bc2ccd7@gateway/web/freenode/ip.123.194.204.215] has quit [Client Quit]
+21:58 -!- leemiyinghao [~chatzilla@118-160-147-224.dynamic.hinet.net] has joined #coscup
+21:58 -!- imsardine [~jeremy@220.134.120.206] has quit [Quit: leaving]
+21:59 -!- ymow [~Adium@1-171-163-156.dynamic.hinet.net] has quit [Quit: Leaving.]
+21:59 -!- Akiban [~anonymous@123-194-204-215.dynamic.kbronet.com.tw] has joined #coscup
+22:02 -!- timdream [~timdream@118-166-64-248.dynamic.hinet.net] has quit [Quit: timdream]
+22:03 -!- Yanyiyi [~yanyiyi@114-44-247-250.dynamic.hinet.net] has joined #coscup
+22:03 -!- Zankio [76a1440d@gateway/web/freenode/ip.118.161.68.13] has joined #coscup
+22:04 -!- senpaga1 [~angel@58.254.168.119] has joined #coscup
+22:04 -!- [R0]u10313335_2 [~u10313335@220.229.69.190] has joined #coscup
+22:06 -!- chihchun_afk is now known as chihchun
+22:07 -!- madnug [~wayne@36-224-208-28.dynamic-ip.hinet.net] has joined #coscup
+22:07 -!- darkbtf [~darkbtf@111-243-115-101.dynamic.hinet.net] has joined #coscup
+22:07 -!- dwi2 [~dwi2@123-194-88-236.dynamic.kbronet.com.tw] has joined #coscup
+22:08 -!- chunyou [~ChunYou@218-161-9-240.HINET-IP.hinet.net] has joined #coscup
+22:08 -!- seventeen [32c48c66@gateway/web/freenode/ip.50.196.140.102] has joined #coscup
+22:08 -!- normany [~normany@118-165-202-78.dynamic.hinet.net] has joined #coscup
+22:09 -!- chuanxd [~chuanxd@36-231-49-6.dynamic-ip.hinet.net] has joined #coscup
+22:09 -!- Denir_ [~Denir@221-120-65-86.EMOME-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+22:10 -!- Akiban [~anonymous@123-194-204-215.dynamic.kbronet.com.tw] has quit [Remote host closed the connection]
+22:12 -!- ws23 [~ws23@61-230-204-119.dynamic.hinet.net] has joined #coscup
+22:13 -!- Denir_ [~Denir@221-120-65-49.EMOME-IP.hinet.net] has joined #coscup
+22:14 -!- RSChiang [~rschiang@61-230-215-8.dynamic.hinet.net] has joined #coscup
+22:14 -!- senpaga1 [~angel@58.254.168.119] has left #coscup []
+22:15 -!- senpaga1 [~angel@58.254.168.119] has joined #coscup
+22:18 -!- Syan [~chatzilla@118-169-190-111.dynamic.hinet.net] has joined #coscup
+22:20 -!- Denir [dad353c2@gateway/web/freenode/ip.218.211.83.194] has quit [Ping timeout: 246 seconds]
+22:20 -!- darkbtf [~darkbtf@111-243-115-101.dynamic.hinet.net] has quit [Remote host closed the connection]
+22:21 -!- wiwi_ [319e5073@gateway/web/freenode/ip.49.158.80.115] has joined #coscup
+22:21 -!- hok [~hok@123.0.50.98] has joined #coscup
+22:22 -!- [R0]u10313335_2 [~u10313335@220.229.69.190] has quit [Remote host closed the connection]
+22:23 -!- senpaga1 [~angel@58.254.168.119] has left #coscup []
+22:24 -!- Eric_Yu_ [uid15515@gateway/web/irccloud.com/x-codrkfkbutzjfjyy] has quit [Quit: Connection closed for inactivity]
+22:24 -!- awf [~Thunderbi@113.105.139.213] has joined #coscup
+22:25 -!- senpaga1 [~angel@58.254.168.119] has joined #coscup
+22:25 -!- JokerCatz [~JokerCatz@61-230-201-231.dynamic.hinet.net] has joined #coscup
+22:25 -!- dwi2 [~dwi2@123-194-88-236.dynamic.kbronet.com.tw] has quit [Quit: dwi2]
+22:25 -!- awf [~Thunderbi@113.105.139.213] has quit [Client Quit]
+22:25 -!- senpaga1 [~angel@58.254.168.119] has quit [Quit: Leaving.]
+22:27 -!- chuiyi [~chuiyi@220-135-178-174.HINET-IP.hinet.net] has joined #coscup
+22:27 -!- chihchun is now known as chihchun_afk
+22:27 -!- mosu_ [~mosu@220-134-2-157.HINET-IP.hinet.net] has joined #coscup
+22:28 -!- nipapa [6ffa466d@gateway/web/freenode/ip.111.250.70.109] has joined #coscup
+22:28 -!- symbion [~symbion@1-163-32-24.dynamic.hinet.net] has joined #coscup
+22:28 -!- ginauo69 [uid38315@gateway/web/irccloud.com/x-lajpwwvsutmmwwyj] has joined #coscup
+22:29 < nipapa> 安安
+22:30 -!- Yanyiyi [~yanyiyi@114-44-247-250.dynamic.hinet.net] has quit [Quit: Yanyiyi]
+22:30 -!- RSChiang [~rschiang@61-230-215-8.dynamic.hinet.net] has quit [Remote host closed the connection]
+22:31 -!- normany [~normany@118-165-202-78.dynamic.hinet.net] has quit []
+22:32 -!- BardicheZ_ [~Kevin@220-129-136-163.dynamic.hinet.net] has joined #coscup
+22:32 -!- wayne75 [~mobile@36-224-208-28.dynamic-ip.hinet.net] has joined #coscup
+22:32 -!- BardicheZ_ [~Kevin@220-129-136-163.dynamic.hinet.net] has quit [Read error: Connection reset by peer]
+22:32 -!- BardicheZ__ [~Kevin@220-129-136-163.dynamic.hinet.net] has joined #coscup
+22:33 -!- jim__ [~jim@36-226-67-87.dynamic-ip.hinet.net] has joined #coscup
+22:33 -!- svd [~Sony@220-137-17-84.dynamic.hinet.net] has joined #coscup
+22:36 -!- yutin [~yutin@59-115-37-73.dynamic.hinet.net] has quit [Remote host closed the connection]
+22:38 -!- Vdragon [~Vdragon@27.52.17.69] has quit [Ping timeout: 256 seconds]
+22:39 -!- nekki [uid16895@gateway/web/irccloud.com/x-jtvqzfimgyuumqnc] has quit [Quit: Connection closed for inactivity]
+22:41 -!- hychen [uid12518@gateway/web/irccloud.com/x-qfcxoyatqcvdhmxz] has joined #coscup
+22:43 -!- kuanyui [~kuanyui@118-166-141-170.dynamic.hinet.net] has joined #coscup
+22:44 -!- gasol_cloud [uid27922@gateway/web/irccloud.com/x-lzwpvozlbsxviunf] has quit [Quit: Connection closed for inactivity]
+22:44 -!- OscarNoTomato [~AndChat71@49.217.3.73] has quit [Quit: Bye]
+22:45 -!- crtmsvc [dc881022@gateway/web/freenode/ip.220.136.16.34] has joined #coscup
+22:47 -!- [BoF] [uid28438@gateway/web/irccloud.com/x-jgbsbvzqyzpzjjvf] has quit [Quit: Connection closed for inactivity]
+22:48 -!- BardicheZ__ [~Kevin@220-129-136-163.dynamic.hinet.net] has quit [Quit: BardicheZ__]
+22:51 -!- tsaiid [~tsaiid@host-219-68-60-163.dynamic.kbtelecom.net] has joined #coscup
+22:51 -!- a0000778_MB [~a0000778_@114-42-130-193.dynamic.hinet.net] has joined #coscup
+22:51 -!- nekki [uid16895@gateway/web/irccloud.com/x-rzdciknyatjpjiuu] has joined #coscup
+22:52 -!- Herro [01a00d26@gateway/web/freenode/ip.1.160.13.38] has joined #coscup
+22:54 -!- a0000778_MB [~a0000778_@114-42-130-193.dynamic.hinet.net] has quit [Client Quit]
+22:54 -!- RSChiang [~rschiang@61-230-215-8.dynamic.hinet.net] has joined #coscup
+22:55 -!- ws23 [~ws23@61-230-204-119.dynamic.hinet.net] has quit [Ping timeout: 250 seconds]
+22:56 -!- [R0]u10313335_2 [~u10313335@220.229.69.190] has joined #coscup
+22:59 -!- metavige[R2] [~rickychia@1.34.65.176] has quit [Remote host closed the connection]
+22:59 -!- metavige[R2] [~rickychia@1.34.65.176] has joined #coscup
+23:01 < macpaul> https://www.youtube.com/watch?v=bNZUmHfCFxg # COSCUP 2014 - State of the unison: g0v 村情咨文 - clkao
+23:01 -!- David0927 [774de515@gateway/web/freenode/ip.119.77.229.21] has quit [Ping timeout: 246 seconds]
+23:04 -!- metavige[R2] [~rickychia@1.34.65.176] has quit [Ping timeout: 240 seconds]
+23:04 -!- hlb is now known as ETHlb
+23:04 -!- yhsiang is now known as ETLY
+23:04 -!- [R0]u10313335_2 [~u10313335@220.229.69.190] has quit [Remote host closed the connection]
+23:05 -!- abev66 [~quassel@115.80.4.63] has joined #coscup
+23:05 -!- [R0]u10313335_2 [~u10313335@220-229-069-190.catvisp.net.tw] has joined #coscup
+23:06 -!- Vdragon [~Vdragon@220-137-17-189.dynamic.hinet.net] has joined #coscup
+23:07 -!- [R0]u103_ [~u10313335@220.229.69.190] has joined #coscup
+23:07 -!- [R0]u10313335_2 [~u10313335@220-229-069-190.catvisp.net.tw] has quit [Read error: Connection reset by peer]
+23:08 -!- ETHlb is now known as hlb
+23:08 -!- Rogerable [~AndChat55@101.3.59.184] has joined #coscup
+23:08 -!- qingfeng [~qingfeng@118-163-86-43.HINET-IP.hinet.net] has joined #coscup
+23:08 -!- sph_ [24e0c97f@gateway/web/freenode/ip.36.224.201.127] has joined #coscup
+23:10 -!- u10313335 [~u10313335@223-136-115-192.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+23:10 -!- metavige[R2] [~rickychia@1.34.65.176] has joined #coscup
+23:10 -!- u10313335 [~u10313335@220.229.69.190] has joined #coscup
+23:10 < planetoid__> @andChat529689: 講者說思源黑體是 pingoo 命名
+23:12 -!- s991533 [~s991533@140.138.145.237] has left #coscup []
+23:13 -!- u10313335 [~u10313335@220.229.69.190] has quit [Read error: Connection reset by peer]
+23:14 -!- u10313335 [~u10313335@220-229-069-190.catvisp.net.tw] has joined #coscup
+23:14 -!- ETLY is now known as yhsiang
+23:14 -!- sppm [~AndChat29@36-226-197-124.dynamic-ip.hinet.net] has joined #coscup
+23:15 -!- AndChat|614900 [~AndChat61@101.8.1.54] has joined #coscup
+23:16 -!- RickZhang [~AndChat61@115.80.231.228] has quit [Ping timeout: 240 seconds]
+23:16 -!- Flymok [~mokuseika@flymok.net] has joined #coscup
+23:16 -!- mosu_ [~mosu@220-134-2-157.HINET-IP.hinet.net] has quit [Quit: mosu_]
+23:18 -!- symbion [~symbion@1-163-32-24.dynamic.hinet.net] has quit [Ping timeout: 240 seconds]
+23:19 -!- dars [~dars@host-219-68-182-208.dynamic.kbtelecom.net] has joined #coscup
+23:21 -!- u10313335 [~u10313335@220-229-069-190.catvisp.net.tw] has quit [Ping timeout: 245 seconds]
+23:21 -!- taiwei [dc883ef4@gateway/web/freenode/ip.220.136.62.244] has joined #coscup
+23:22 -!- sppm [~AndChat29@36-226-197-124.dynamic-ip.hinet.net] has quit [Quit: Bye]
+23:22 -!- Vdragon [~Vdragon@220-137-17-189.dynamic.hinet.net] has quit [Read error: Connection reset by peer]
+23:24 -!- jianiau [24e6815f@gateway/web/freenode/ip.36.230.129.95] has joined #coscup
+23:24 -!- pcchou [~pcchou@61-228-185-12.dynamic.hinet.net] has quit [Quit: Leaving.]
+23:25 -!- Zankio [76a1440d@gateway/web/freenode/ip.118.161.68.13] has quit [Quit: Page closed]
+23:25 -!- metavige[R2] [~rickychia@1.34.65.176] has quit [Remote host closed the connection]
+23:25 -!- metavige[R2] [~rickychia@1.34.65.176] has joined #coscup
+23:25 -!- jianiau [24e6815f@gateway/web/freenode/ip.36.230.129.95] has quit [Client Quit]
+23:26 -!- coldnew [~user@219-84-177-52-adsl-tpe.dynamic.so-net.net.tw] has joined #coscup
+23:27 -!- Vdragon [~Vdragon@220-137-17-189.dynamic.hinet.net] has joined #coscup
+23:27 -!- Jyny_ [uid13953@gateway/web/irccloud.com/x-ctcuxdvjacqdzlne] has joined #coscup
+23:28 -!- j5a6s7o8n [~androirc@111-251-46-88.dynamic.hinet.net] has joined #coscup
+23:29 -!- Iansun [~Ian@119.122.35.12] has quit [Ping timeout: 250 seconds]
+23:29 -!- j5a6s7o8n [~androirc@111-251-46-88.dynamic.hinet.net] has quit [Client Quit]
+23:29 -!- symbion [~symbion@1-163-32-24.dynamic.hinet.net] has joined #coscup
+23:29 -!- fboris [24e7afeb@gateway/web/freenode/ip.36.231.175.235] has joined #coscup
+23:29 -!- YXiang [~elehsiang@220-141-134-221.dynamic.hinet.net] has joined #coscup
+23:29 -!- coldnew` [~user@219-84-177-52-adsl-tpe.dynamic.so-net.net.tw] has joined #coscup
+23:30 -!- metavige[R2] [~rickychia@1.34.65.176] has quit [Ping timeout: 240 seconds]
+23:30 -!- Syan [~chatzilla@118-169-190-111.dynamic.hinet.net] has quit [Ping timeout: 240 seconds]
+23:31 -!- sph_ [24e0c97f@gateway/web/freenode/ip.36.224.201.127] has quit [Ping timeout: 246 seconds]
+23:32 -!- seventeen [32c48c66@gateway/web/freenode/ip.50.196.140.102] has quit [Ping timeout: 246 seconds]
+23:34 -!- jianiau [~UserName@36-230-129-95.dynamic-ip.hinet.net] has joined #coscup
+23:36 -!- jjiijj [24e6815f@gateway/web/freenode/ip.36.230.129.95] has joined #coscup
+23:36 -!- DHXD [~DHXD@114-43-246-97.dynamic.hinet.net] has joined #coscup
+23:36 < ddio> coscup 議程那頁的 jquery 找不到 T____T   http://coscup.org/2014/assets/js/jquery.js
+23:38 < ddio> 這樣議程的說明就出不來了 orz...
+23:40 -!- sakana [~max@42-66-200-231.EMOME-IP.hinet.net] has joined #coscup
+23:40 -!- rapha_ [uid38317@gateway/web/irccloud.com/x-zdewrgovxqozsxcc] has joined #coscup
+23:41 < Lee1092> macpaul++
+23:42 -!- coldnew [~user@219-84-177-52-adsl-tpe.dynamic.so-net.net.tw] has quit [Remote host closed the connection]
+23:42 -!- coldnew` [~user@219-84-177-52-adsl-tpe.dynamic.so-net.net.tw] has quit [Remote host closed the connection]
+23:42 < yhsiang> macpaul++++++
+23:43 -!- abev66 [~quassel@115.80.4.63] has quit [Ping timeout: 240 seconds]
+23:44 -!- symbion [~symbion@1-163-32-24.dynamic.hinet.net] has quit [Ping timeout: 240 seconds]
+23:45 -!- coldnew [~user@219-84-177-52-adsl-tpe.dynamic.so-net.net.tw] has joined #coscup
+23:45 -!- [H3]Mouther [uid25670@gateway/web/irccloud.com/x-svhdzwplniifjvza] has joined #coscup
+23:46 -!- coldnew [~user@219-84-177-52-adsl-tpe.dynamic.so-net.net.tw] has quit [Client Quit]
+23:46 -!- taoniu [~tommyliu@113.104.212.206] has joined #coscup
+23:46 -!- aeil [~Adium@180.168.11.254] has joined #coscup
+23:47 -!- aeil [~Adium@180.168.11.254] has quit [Client Quit]
+23:48 -!- irc_client_test [~jimmy@36-230-129-95.dynamic-ip.hinet.net] has joined #coscup
+23:48 -!- [R0]u103_ [~u10313335@220.229.69.190] has quit [Remote host closed the connection]
+23:49 -!- jianiau [~UserName@36-230-129-95.dynamic-ip.hinet.net] has quit [Quit: Luke's IRC Client v0.94 build 682]
+23:49 -!- irc_client_test [~jimmy@36-230-129-95.dynamic-ip.hinet.net] has quit [Client Quit]
+23:49 -!- [R0]u10313335_2 [~u10313335@220.229.69.190] has joined #coscup
+23:49 -!- coldnew [~user@219-84-177-52-adsl-tpe.dynamic.so-net.net.tw] has joined #coscup
+23:50 -!- mrmoneycloud__ [uid16021@gateway/web/irccloud.com/x-vfbrwsbjbwfoxdbn] has joined #coscup
+23:51  * coldnew test
+23:51 < Irvin> 忽然想到，今年怎麼沒有 Linux Pilot @@
+23:52 -!- mp607 [~mp607@123-193-233-208.dynamic.kbronet.com.tw] has quit [Quit: mp607]
+23:52 -!- kenobilyh [~kenobilyh@220-136-64-3.dynamic.hinet.net] has joined #coscup
+23:53 -!- jjiijj [24e6815f@gateway/web/freenode/ip.36.230.129.95] has quit [Ping timeout: 246 seconds]
+23:53 -!- pyc66 [uid28650@gateway/web/irccloud.com/x-iudhiabptrecwzbi] has quit [Quit: Connection closed for inactivity]
+23:53 -!- [R0]u10313335_2 [~u10313335@220.229.69.190] has quit [Ping timeout: 245 seconds]
+23:54 -!- hok [~hok@123.0.50.98] has quit [Remote host closed the connection]
+23:57 -!- kenobilyh [~kenobilyh@220-136-64-3.dynamic.hinet.net] has quit [Ping timeout: 250 seconds]
+23:57 -!- crtmsvc [dc881022@gateway/web/freenode/ip.220.136.16.34] has quit [Ping timeout: 246 seconds]
+23:58 -!- dars [~dars@host-219-68-182-208.dynamic.kbtelecom.net] has quit []
+23:59 -!- AndChat|627969 [~zzzaaa12@118-167-25-105.dynamic.hinet.net] has joined #coscup
+23:59 -!- AndChat|627969 [~zzzaaa12@118-167-25-105.dynamic.hinet.net] has quit [Client Quit]
+23:59 -!- YXiang [~elehsiang@220-141-134-221.dynamic.hinet.net] has left #coscup []
+--- Log closed Sun Jul 20 00:00:20 2014
