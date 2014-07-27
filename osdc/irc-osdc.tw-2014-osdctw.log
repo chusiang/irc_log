@@ -1,0 +1,1031 @@
+--- Day changed Fri Apr 11 2014
+00:03 < othree___> XD
+06:57  * darkx 大家早安
+07:03  * mrmoneyc 早！沖個澡準備出門
+07:47 < DennyHuang> 大家早安!
+08:02 < miaoski> 這麼早把我們騙過來，真是的！
+08:49 < c9sloud> miaoski: 已經到了?
+09:01 < miaoski> c9sloud: 嗯，和 ch0upi_4ndr0id 一早就到了
+09:01 < miaoski> 吃了早餐，很滿足
+09:05 < davihuan> test
+09:23 < pigwalking_osdc> ._./
+09:27 < miaoski_home> davihuan: pong
+09:28 < davihuan> ttl=255ms
+09:28 < zero-fubuki>  要開始了
+09:31 < devalin> 大家早。 遠端收看中...
+09:32 < davihuan> taiwan two-one
+09:32 < davihuan> @@
+09:33 < devalin> https://hackpad.com/OSDC-2014-6OK5sWJzRyM     hackpad   osdc 2014 有人開了。
+09:33 < fntsrlike_> 有早餐真的超溫馨
+09:34 < devalin> au 開始聽打.   (拜)
+09:34 < Jcrt> au++
+09:34 < lunastorm> 沒吃到T_T
+09:35 < carlcarl> 終於到了orz
+09:37 < Sorry> 講者的英文好好聽
+09:39 < hcchien> 後面怎麼有一種忽然湧入一大群人的感覺
+09:39 < Jcrt> 可能是 bus 抵達 XD
+09:39 < clkao> Here comes everybody
+09:41  * FourDollars 好奇他們是怎麼控制拍照的角度啊？
+09:43 < devalin> 「昨天很多東西才從立法院撤來這裡」   XD
+09:43 < hcchien> 網路好像有點慢   XD
+09:43 < fntsroud> Channel的Title還在 Call for Paper XD
+09:44 < fntsroud> Host 要不要改成共筆的連結？
+09:44 < fntsroud> https://hackpad.com/OSDC-2014-6OK5sWJzRyM
+09:44 < kcwu> 空拍機上可以裝可控制角度的雲台 (是這樣稱呼的嗎)
+09:44 < DennyHuang> hcchien: 走有線頗順暢XD
+09:44 < Sorry> 分析火焰的顏色就知道那間工廠在燒什麼，好酷
+09:45 < carlcarl> 感謝解釋
+09:45 < lkkgenius> fntsroud: 沒權限，那個掛好幾年了
+09:45 < FourDollars> kcwu++
+09:45 < fntsroud> @hcchien: 3G接線順暢好走（？）
+09:45 < miaoski_home> hcchien: 我走 5G Wifi 也很順暢
+09:45 < FourDollars> 5G 很順+1
+09:45 < hcchien> .....
+09:45 < fntsroud> @lkkgenius: soga, 今年是第一次參加w
+09:46  * Conrad 有帶網路線
+09:46 < fntsroud> 5G .....
+09:46 < clkao> 共筆在哪裡... ?
+09:46 < lkkgenius> 有線才是王道呀
+09:46 < clkao> https://hackpad.com/OSDC-2014-6OK5sWJzRyM
+09:46  * hcchien 有帶網路線，沒帶 usb->ethernet   XD
+09:46 < fntsroud> @clkao: yap
+09:46 < miaoski_home> hcchien: 我沒帶網路線，但是有 usb -> ethernet
+09:46  * freedom 有待網路線 挺
+09:47 < lkkgenius> hcchien: 你的電腦應該連的到 5G 吧？
+09:47 < clkao> au 瘋狂 transcribing
+09:47 < clkao> 文播組上身
+09:47 < superbil> http://hackfoldr.org/osdc2014/6OK5sWJzRyM
+09:47 < fntsroud> 超強ＸＤ 無縫接軌最佳實例（？）
+09:47 < superbil> 開了一頁，請自己(把)玩
+09:48 < DennyHuang> 這次 2.4GHz 和 5GHz 有分開 請多加利用XD
+09:48 < darkx> toolfoo XDD
+09:48 < freedom> 線路組的精力都被大腸花耗光了?
+09:48 < hcchien> 5G 果然差很多，我記得我剛剛連 5G 啊，怎麼跳 2.4G
+09:48 < ij1iao> 我帶了網路線但是 work , 不知道是線爛了還是網路孔爛了...
+09:49 < hcchien> ij1iao: 人品問題   lol
+09:49 < ajdfajdfl> 帶線了，可是線爛了
+09:49 < mhsin> 沒看到早餐，太晚來了嗎？  Q_Q
+09:49 < hcchien> mhsin: 是
+09:49 < hcchien> 9:30 前就吃光了   lol
+09:49 < lunastorm> Q_Q
+09:49 < mhsin> orz
+09:49 < clkao> mhsin: XD
+09:49 < hcchien> 來問問明天多訂一點
+09:49 < mrorz> QQ
+09:49 < Andox> 報了名臨時被抓走不能到場 Q_Q
+09:49 < ij1iao> hcchien: :~
+09:50 < poga> Q_Q 連早餐的殘骸都沒看到
+09:50 < carlcarl> Q_Q
+09:50 < Andox> 看hackpad解悶 Q_Q
+09:50 < mhsin> Sorry: 焰色反應  <-- 應該是這個吧
+09:50 < sychen>  /SET autolog ON
+09:51 < brucehsu> Hi all
+09:51 < qcl> @@
+09:51 < hcchien> poga: 會反應給主辦單位
+09:51 < hcchien> lol   # 我不是主辦單位嗎  XD
+09:51 < carlcarl> brucehsu: hihi
+09:51 < poga> XDD
+09:51 < mhsin> 錯過吐槽的時機了  XD
+09:52 < Andox> XDD
+09:52 < mhsin> hcchien: 你應該要回「謝謝指教」
+09:52 < hcchien> mhsin: 對耶
+09:52 < hcchien> mhsin: sorry，搶了你的戲
+09:52 < mhsin> XD
+09:52 < chiehyou> 講者也累了
+09:53 < mhsin> 咦，沒有禁止拍照吧？
+09:53  * dannvix 測試 locale
+09:53 < hcchien> mhsin: 沒
+09:53 < hcchien> 講者可能昨天也看大腸花  (大誤
+09:53 < mhsin> hcchien: thx
+09:53 < hcchien> mhsin: 記得下 tag
+09:54 < penk__> mhsin: #OccupiedSinica
+09:54 < mhsin> hcchien: 沒有要放上 public 啦  :p
+09:55 < hcchien> penk_++
+09:58 < YChao> 5G 真順，連台大居然可以有 8.x MB/s
+09:58  * darkx au 的字幕好強 m(_ _)m
+09:58 < chiehyou> darkx: where~~
+09:58 < darkx> chiehyou: https://hackpad.com/OSDC-2014-6OK5sWJzRyM
+09:58 < XDDDD> irc好安靜= =...
+09:59 < darkx> real-time subtitles ....
+09:59 < chiehwen> 真的有點安靜
+09:59 < Andox> 有livestream可以偷喵嗎 QQ
+09:59 < sntc06> 今年好像沒有宣傳 irc?
+09:59 < darkx> Andox: 上面那個 hackpad 有文字 XD
+09:59 < chiehyou> darkx: 3Q!
+09:59 < darkx> Andox: 上面那個 hackpad 有文字 livestream XD
+09:59 < devalin> irc 安靜, 應該是大家在 hackpad 看字幕中。 XD
+09:59 < Andox> darkx: 正在看wwww
+10:00 < chiehyou> darkx: 我以為有自動中文翻譯 xd
+10:00 < DennyHuang> 沒有 OP 可以換 topic hackpad 連結今天應該會出現很多次XDrz
+10:00 < darkx> Occupy XD
+10:00 < Andox> 英文Live逐字稿?
+10:00 < zeroplex> 文字轉播打字速度好快
+10:01 < clkao> "laser"!
+10:01 < aitjcize> 原來還有文字轉播啊
+10:01 < YChao> 真厲害，時間算很準
+10:01 < carlcarl> 居然...
+10:01 < zero-fubuki> 問問題時間
+10:01 < mhsin> thanks 到鼓掌間的微妙間隔
+10:02 < hcchien> 大家在等 hackpad 字幕出現 thanks?   lol
+10:02 < Sorry> XD
+10:02 < onlinemad__> ...
+10:02 < carlcarl> XDDD
+10:03 < chiehyou> XDD
+10:03 < Andox> XDDD
+10:03 < fntsroud> XDDDD
+10:03 < XDDDD> @@?!
+10:03 < XDDDD> 樓上找我?
+10:04 < carlcarl> XDDDD
+10:04 < XDDDD> 科科
+10:04 < mhsin> /kb XDDDD   # //flee
+10:04 < fntsroud> 囧
+10:04 < aitjcize> XDDDDD
+10:04 < Andox> XDDDD
+10:04 < StarNight> XDDD
+10:04 < Zurg_> XDDDD
+10:04 < zero-fubuki> 冏
+10:04 < XDDDD> 被狂丟水球惹... T_T
+10:04 < pigwalking_osdc> XDDDD
+10:05 < mikimoto> 線上人真多
+10:05 < Andox> 等等hackpad的逐字稿會不會變中文 (思)
+10:07 < cls_bsd> hackpad 在哪裡啊？
+10:07 < cls_bsd> oh, 看到了
+10:07 < blc> 問一下，文字轉播的網址是？(用irssi)
+10:07 < onlinemad__> http://hackfoldr.org/osdc2014/6OK5sWJzRyM
+10:07 < blc> onlinemad__: thanks
+10:08 < devalin> https://www.facebook.com/hashtag/osdctw      facebook 用 tag 收集。
+10:08 < devalin> https://twitter.com/search?q=osdc.tw&src=typd   twitter
+10:08 < chiehyou> 會場 mac 有點多 ... 會不會等等 5G 塞爆 2.4G 涼涼的呢
+10:09 < devalin> http://www.plurk.com/topics/twconf    plurk.     這3個 SNS ，應可以看到會眾的動態吧.
+10:12 < derekhsu> 剛剛英文的逐字搞打得超快的
+10:12 < derekhsu> 真是神人
+10:12 < Andox> 是神人無誤
+10:13 < freedom> R2: 全面分支主席台!
+10:13 < freedom> 這什麼碗糕?
+10:14 < YChao> 講者自備字幕... XD
+10:14 < devalin> [舉手] 共筆是一整天用一份？  還是 r0, r1, r2  各一份？
+10:14 < othree___> R2 好像每張都有中文字幕
+10:14 < derekhsu> 都用一份？
+10:14 < Andox> hackpad看起來是共用一份的樣子._.
+10:14 < hlb> 分支主席台 是... google 翻譯錯誤嗎 O_O
+10:14 < fntsroud> [舉手] 梗全集要跟共筆分開嗎？
+10:15 < derekhsu> 反正分段自己寫自己的就好了
+10:15 < cls_bsd> 嗚嗚，拉肚子中
+10:15 < superbil> 分開梗全集會比較好吧
+10:15 < derekhsu> 打一打再整理啊
+10:15 < taichunmin[R1]> 逐字稿上面 已經出現了明天的議程 (驚
+10:15 < fntsroud> @hlb: 應該是佔領主席台的變體（？）
+10:15 < derekhsu> 第一會議室有人在hackpad？
+10:15 < derekhsu> 有多少人昨天剛從立法院回來？
+10:15 < dca__> SET autolog ON
+10:16 < Andox> 其實昨天會撤出立法院的主要原因是今天要參加OSDC吧?
+10:16 < chiehwen> 立法院 +1 XD
+10:16 < fntsroud> 梗全集hackpad 已開，詳見hackfolder http://hackfoldr.org/osdc2014/0ifzJau1dHR
+10:17 < devalin> 撤出立法院,  轉進中研院!
+10:17 < darkx> Andox++
+10:17 < derekhsu> Thank you
+10:18 < derekhsu> 我記得去年來參加coscup是無縫接軌洪仲丘案
+10:18 < Davy_CC> 今年有影像實況嘛？
+10:18 < zero-fubuki> 沒有看到
+10:18 < derekhsu> 總覺得今年的投影設備好像比較差？
+10:18 < blc> 有聲音轉播就好了…
+10:19 < clkao> 回防雲端
+10:19 < darkx> R1 準備開場
+10:19 < Andox> 去年COSCUP結束 很多人都散步去總統府呀
+10:19 < derekhsu> 開始了
+10:19 < mhsin> 蔡鎮宇先生
+10:20 < chiehwen> R1 開始！！
+10:20 < rsghost> 不是 coscup 當天就有一個 BOF 送仲丘XD
+10:20 < clkao> 全面分支主席台！！！
+10:20 < rsghost> 全面分支主席台XDDD
+10:20 < Andox> 全面分支主席台 是到處都是主席台嗎? XDDD
+10:21 < penk_> rsghost: 去年在凱道寫 slides, 今年在濟南路寫 slides
+10:21 < fntsroud> 全面分支主席台～
+10:21 < penk_> 台灣的工程師根本是 road warrior
+10:21 < freedom> proof-carry code 好久沒看到這種東西了
+10:22 < rsghost> penk_: 街頭驅動工程師
+10:22 < DennyHuang> 臺灣 Hadoop 之父XD
+10:22 < rsghost> R2「沒有數學證明的軟體都是錯的」
+10:23 < zero-fubuki> heartbleed
+10:23 < penk_> R2 自備字幕真是太貼心了
+10:24 < laibit> test
+10:24 < au> 10:00 才拿到簡報 10:20 就要翻完真是太貼心了 XD
+10:24 < c9sloud> 帶了 thunderbolt => eth 結果沒帶網路線 XD
+10:24 < YChao> @penk_: 作者表示，不保證字幕正確性... XD
+10:24 < rsghost> 帶了網路線結果網路孔是壞的
+10:24 < penk_> c9sloud: (握手
+10:25 < c9sloud> XDD
+10:25 < mhsin> c9sloud: 衝出去門口便利商店買？
+10:25 < lkkgenius> 網恐是壞的，可以插隔壁的XD
+10:25 < ETBlue> 果然是 au 翻譯的... XD
+10:25 < devalin> au  翻譯超神速  (再拜
+10:25 < penk_> au++
+10:25 < rsghost> 已插(X
+10:25 < au> XD
+10:25 < Andox> 網孔好像越壞越多顆@@
+10:26 < mhsin> 剛才也以為孔壞了，多等一下就好了
+10:26 < c9sloud> mhsin: 可能就用 wifi 吧 XD
+10:26 < rsghost> 5G 其實滿穩的
+10:26 < c9sloud> yeah
+10:26 < miaoski_osdc> R2++
+10:26 < mhsin> 疑似 DHCP 反應慢？
+10:26 < rsghost> mhsin: 超慢，上廁所回來才有反應
+10:26 < rsghost> 我還以為又壞了
+10:27 < rsghost> 想說連壞 3 顆是我人品有問題嗎..
+10:27 < darkx> rsghost: 你的人品哪時候好過了 /flee
+10:27 < rsghost> darkx: ;-(
+10:28 < ij1iao> 我的 nb 連不上 5G :~ 還好手機可以...
+10:29 < clkao> AS_public 也蠻穩的 XD
+10:29 < rsghost> 手機上 5G 然後接線轉給 NB (Y)
+10:29 < YChao> R2 講者卡關...
+10:30 < ij1iao> rsghost: 這哪招 XD
+10:30 < PeniZ> 早啊!
+10:31 < rsghost> 早
+10:31 < Andox> 早
+10:31 < chiehwen> 早
+10:31 < lunastorm> 這年頭管理不用進機房
+10:31 < divazone> 早
+10:32 < Sorry> 黑手都不黑手了
+10:32 < wenv> morning
+10:33 < mhsin> 遇過 boot ubuntu 之後 IPMI 就掛掉的機器  Zzz
+10:33 < lunastorm> XD
+10:33 < devalin> KVM over IP   以前管中國工廠機房，就這樣做。  只是沒有做到電源管理...
+10:34 < blc> R2 「使用者訂閱你的分支，你就成了上游」 <- 好像直銷。
+10:34 < freedom> R2: 聽不懂, context switch 太快了
+10:35 < penk_> freedom: 他有點卡卡
+10:35 < penk_> 地方的講者需要救援
+10:35 < Sorry> 「密碼不小心打錯視窗就打在 IRC 上」
+10:36 < ronnywang> 46hoaxE
+10:36 < ronnywang> oops...
+10:36 < freedom> 不知道之前講的跟 formal verification 有什麼關係
+10:36 < blc> ronnywang: lol
+10:36 < Jcrt> ronnywang: lol
+10:37 < miaoski_osdc> YChao+1
+10:37 < StarNight> R2剛剛說了什麼!????
+10:37 < ajdfajdfl> @@
+10:37 < blc> R1 注音能打這麼快好厲害。
+10:37 < ajdfajdfl> 聽謀
+10:38 < miaoski_osdc> [R2] 最後一張好像直銷沒錯 XD
+10:38 < darkx> R1 打注音?
+10:38 < Davy_CC> yap
+10:38 < YChao> well "I don't understand what you want to say at all"... XD
+10:39 < penk_> YChao: 卡茸 mode
+10:39 < miaoski_osdc> au: ++
+10:41 < penk_> freedom 打臉中..
+10:41 < clkao> 早上說的自幹雷射光譜食用油檢測: http://muyueh.kktix.cc/events/spectrometer
+10:43 < wenv> so what does r1's company use?
+10:43 < freedom> 沒有打臉, 只是問心中的疑問
+10:43 < zeroplex> R2 http://www.defensivejs.com/
+10:43 < wenv> if not chef or puppet
+10:43 < keitheis> Chef / Puppet... 還有 SaltStack / Ansible 啊
+10:44 < mhsin> 把 wenv 看成 wens，想說為什麼要自導自演  XD
+10:44 < robertabcd> mhsin++
+10:44 < lunastorm> LOL
+10:44 < Andox> mhsin++ # 看成wens+1
+10:45 < wenv> ouch...........
+10:45 < lunastorm> 邊講邊IRC
+10:45 < darkx> XD
+10:45 < Andox> XD
+10:45 < nfsnfs> 想說邊講邊 IRC 也太神 XD
+10:46 < darkx> 實際跑機房是大老闆XD
+10:46 < lunastorm> 老闆跑機房XD
+10:46 < darkx> 可是老闆會接錯線 lol
+10:46 < Sorry> 弄機房的是大老闆，不要讓他老人家太辛苦
+10:46 < mhsin> wenv: you can ask wens now
+10:47 < darkx> http://www.puffinbrowser.com/index.php
+10:47 < StarNight> 逐字稿真的太強了！！！ 看了逐字稿，我才知道speaker說什麼
+10:47 < derekhsu> 逐字稿真的需要高人
+10:48 < c9sloud> 逐字稿?
+10:48 < carlcarl> R1 是用 fabric 之類的吧
+10:48 < Sorry> 「剛開始上架的時候，我們老闆會去固定機器的位置跟插的孔」
+10:48 < YChao> (其實今天的keynote speaker講很慢)
+10:49 < darkx> 是還蠻慢的 XD
+10:49 < clkao> 不然應該需要兩個人打 一人一句交錯
+10:49 < Sorry> 老闆在機房裡當黑手，然後 engineer 在辦公室 hands free，這是怎麼回事
+10:49 < darkx> 機器掛掉會自動 load balance ，不過僅是 sessoins 斷掉而已
+10:49 < devalin> 這陣子用vagrant   玩佈署,，我覺得弄到最後，以後主機裝機只要有一組 id.   就可以用 這個 id +  vagrant 去管理 上萬台了。
+10:49 < darkx> R1: SSD 反正也沒有多貴
+10:50 < StarNight> https://hackpad.com/OSDC-2014-6OK5sWJzRyM
+10:50 < jeffhung> 「SSD 就是，反正也沒有多貴。」
+10:50 < carlcarl> lol
+10:50 < blc> 如果有聲音live的話，大概就有一堆人在打逐字稿了。
+10:50 < lunastorm> XD
+10:50 < Davy_CC> id
+10:50 < muyueh_> 剛剛開幕 Liz Barry  講的晚上的活動，用自製
+10:50 < muyueh_> 頻譜儀作橄欖油的成份分析：http://muyueh.kktix.cc/events/spectrometer
+10:51 < devalin> 逐字稿的話，那要弄影像 live:    ipad + 藍白拖 +  ustream     XD
+10:52 < onlinemad__> 紅白的行嗎 XD
+10:52 < mhsin> hcchien: 可以轉達主辦單位嗎
+10:52 < mhsin> hcchien: 為什麼 badge 是印本名？  XD
+10:53 < starlition> 老闆在機房裡當黑手，然後 engineer 在辦公室 hands free    <--- 超有 fu
+10:58 < freedom>  明明還有超過十分鐘 大家都進場等 penk 了
+11:00 < derekhsu> 有沒有人要支援逐字稿的？
+11:00 < fntsroud> devalin: 好像不是不行，我人在第一排（R2），有帶ipad mini，只要網路給力and講者同意....(?
+11:00 < penk_> 大家來佔位的啦 XD
+11:00 < penk_> fntsroud: 講者同意喔
+11:00 < YChao> penk++
+11:00 < derekhsu> 總覺得今天位置比較多？
+11:01 < freedom> 應該是因為沒有點心?
+11:01  * penk_ 也很餓
+11:01 < YChao> 本來應該還沒有到休息時間吧？
+11:01 < miaoski_osdc> mhsin: 我的 badge 印的是 id ...
+11:01  * YChao 有搶到早餐
+11:02 < YChao> 大家的都是印 id
+11:02 < derekhsu> 這次沒有點心嘛？
+11:03 < YChao> 嗯，我錯了。10:50-11:10是休息
+11:03 < freedom> hcchien: 出來面對, 怎麼沒有點心 :-)
+11:04 < MillerLee> 早上高速高路塞車搶不到點心QQ
+11:06 < fripig> 看大腸花看到四點才睡ORZ
+11:08 < carlcarl> R1 開始了
+11:08 < chiehwen> r1 開始了
+11:08 < carlcarl> XD
+11:08 < DennyHuang> R0 討厭PM這件事情全世界都是的XD
+11:09 < miaoski_osdc> R2 開始了
+11:09 < carlcarl> R1這場不知道會不會有人打臉
+11:09 < zeroplex> R1 原來 MySQL 被 Oracle 收下這麼久了
+11:09 < darkx> penk: 頭髮剃掉後就沒人認得我惹 q_q
+11:09 < YChao> (lol)
+11:09 < miaoski_osdc> 嗚~ 好多大大都在 Canonical
+11:09 < pigwalking_> @carlcrl:靠你了!
+11:10 < YChao> 沒有人...
+11:10 < carlcarl> pigwalking_: 我會害羞>////<
+11:10 < hlb> "先問一下誰是為了 c9s 的 talk 先來占位置 XDD"
+11:10 < chiehwen> 這位日本講者的英文我聽得懂耶！ :-)
+11:11 < YChao> building an unpopular project and feel good about it
+11:11 < fntsroud> R2 Live Testing http://www.ustream.tv/channel/fntsrlike
+11:11 < icemango> carlcarl: 在那篇now~
+11:11  * in2 很餓 QQ
+11:11 < devalin> fntsroud  感恩。  開來看看
+11:11 < Davy_CC> 很清楚
+11:12 < blc> fntsroud: 感謝，測試中。
+11:12 < miaoski_osdc> 芬蘭人偏執的代表作 XDDD
+11:12 < fntsroud> 要照人還是簡報ＸＤ
+11:12 < fntsroud> 我是有點怕太吃大家的頻寬
+11:12 < YChao> (越講越小聲)
+11:12 < miaoski_osdc> 我們今天講的 UX 通通是 UI, 只是因為 UX 聽起來比較帥
+11:12 < fntsroud> 如果有人反映網路被吃得太鈍 我就收檯
+11:12 < darkx> penk 講 UX 其實都是 UI 只是 X 看起來比較帥
+11:13 < devalin> 人+簡報.  講者是簡報靈魂.  XD
+11:13 < fntsroud> okok
+11:13 < mrmoneyc> http://osdctw2014.mrmoneyc.org #議程表to calendar converter
+11:13 < YChao> nokia 中木馬前... XD
+11:13 < c9sloud> ahhahaha
+11:13 < devalin> 畫質很清晰
+11:14 < YChao> @mrmoneyc: nice!
+11:14 < blc> fntsroud: 流暢清晰，cannot be better.
+11:14 < darkx> mrmoneyc: where r u
+11:15 < YChao> "v4vm... v8砍一半"
+11:15 < CindyLinz> "時間也砍一半"
+11:16 < darkx> penk 這公司有詛咒，用過的公司都倒惹
+11:16 < KuoE0> Qt 用過的公司都倒...
+11:16 < Nalant__> ww
+11:16 < YChao> Nokia, HP, BB
+11:16 < clkao> 「商業邏輯大便」 # R0
+11:16 < darkx> 我們有 Nokia 有 HP 有 blackberry
+11:17 < rsghost> 是否接受詛咒 Y/N
+11:17 < fntsroud> 等等會繼續待在R2，請問 講者 @c9sloud 是否願意被直播
+11:17 < miaoski_osdc> mrmoneyc++
+11:18 < c9sloud> ok sure~
+11:18 < fntsroud> @c9sloud Thx ~
+11:19 < carlcarl> [r1] 是前面會有個query的router 像mongos之類的東西嗎= =a
+11:19 < devalin> c9sloud   tks~
+11:19 < KojimaC> 昨天看live看太晚 現在好想睡覺Orz
+11:20 < fntsroud> KojimaC 就說大腸花意圖使人睡過頭ＸＤＤ
+11:20 < icemango> 大腸花之亂XDD
+11:21 < darkx> MIR XD
+11:21 < YChao> Mir... XD
+11:21 < mhsin> carlcarl: 應該比較像 directory 讓 connector 知道該去找誰
+11:21 < YChao> (photo booth 下面有奇怪的照片)
+11:21 < ajdfajdfl> [R2] live demo?
+11:21 < miaoski_osdc> 哦哦哦 live coding 了! [R2]
+11:22 < YChao> import QtQuick 2.0
+11:22 < au> import QtMultimedia 5.0
+11:22 < YChao> import QtMultimedia 5.0
+11:22 < devalin> 來來來來   osdc 第一場 live demo
+11:22 < blc> live coding！！
+11:22 < YChao> Rectangle {
+11:22 < fntsroud> 來來來來來來來來來來
+11:22 < YChao> width:800
+11:22 < YChao> height: 600
+11:22 < YChao> Camera { id: camera}
+11:22 < dannvix> 「我先來寫一個 webcam 的 client」#R2 #LiveCoding #Qt
+11:22 < au> Rectangle { width: 800; height:600;Camera { id: camera };VideoOutput{ source: camera; anchors.fill: parent } }
+11:22 < Andox> hackpad也在live coding
+11:22 < YChao> VideOutput{
+11:22 < YChao> source : camera
+11:22 < carlcarl> mhsin: 嗯嗯 對啊 像是有sharding的話 會跟他溝通 然後根據記錄的sharding key 來找資料會在哪個 data node 上 感覺是這樣
+11:22 < Sorry> [storage]
+11:22 < Sorry> database = fabric
+11:22 < blc> live coding也實況！
+11:23 < YChao> an...
+11:23 < miaoski_osdc> 把手機亮度調暗 // 那個功能還沒做!!
+11:23 < darkx> 調整 backlight 的功能還沒弄 XDDDDDD
+11:23 < fntsroud> [R2] 那..那.個功能還沒有做
+11:23 < blc> 888888
+11:23 < Andox> XDDDDDDD
+11:23 < rsghost> XDDDDDDDD
+11:23 < weitsai> XDD
+11:23 < gasol_tw> R1 講指說的 Fabric 控頭蘿啦 是指 controller 嗎 ...XD
+11:23 < devalin> XDDD
+11:23 < chyuaner> 調亮度下command...
+11:23 < au> R2 進入 adb panic mode
+11:23 < superbil> [R2] 那我只好試試 command line
+11:23 < CindyLinz> 這太強了.......
+11:24 < mhsin> gasol_tw: 是 controller 沒錯
+11:24 < littleq0903__> [R0]「Android 底層有個 AwesomePlayer，我們覺得他很爛，所以我們做了一個 VeryAwesomePlayer」
+11:24 < gasol_tw> mhsin: :)
+11:24 < YChao> anchors.fill...
+11:24 < darkx> penk 用 adb 調 backlight XD
+11:24 < rsghost> 「這故事告訴我們調亮度的功能要先做...」
+11:24 < weitsai> 這故事告訴我們亮度功能一定要先做 XDD"
+11:24 < Nalant__> 這故事告訴我們條亮度的功能要先做
+11:24 < brucehsu> [R2] 這故事告訴我們調亮度的功能要先作
+11:24 < Sorry> [R1] Fabric 偵測到 primary master 掛了，會去 promote 一台 secondary / slave，然後把 state change 推到 fabric-aware connector
+11:24 < Andox> hackpad太威了 連command line也一起XD
+11:25 < miaoski_osdc> 分頁預設是 duckduckgo XD
+11:25 < c9sloud> awesome
+11:25 < YChao> kanjipad?
+11:25 < Vdragon> 大家午安0w0/！
+11:26 < au> YChao: https://github.com/penk/SlateKit/tree/master/IME
+11:26 < miaoski_osdc> au++
+11:27 < Sorry> 什麼，午餐是 12:30？
+11:27  * Sorry 餓昏
+11:27 < YChao> au++
+11:27 < walile> @Sorry: 你剛早餐該吃二份的....
+11:27 < YChao> oh... It's Zinna
+11:27 < Conrad> 原來有早餐就沒有上午的點心了 :D
+11:27 < YChao> Zinnia
+11:27 < miaoski_osdc> fcitx + 嘸蝦米打 hackpad 會亂
+11:28 < YChao> and Tegaki (手書)
+11:28 < au> 同時輸入中文有 bug，請打完整句再貼上
+11:29 < Davy_CC> 鼠鬚管 小狼毫 安定
+11:29 < miaoski_osdc> 市場上最火紅、最熱門的 Ubuntu Phone! (還沒有上市)
+11:29 < darkx> penk: 聽說這是現在市場上最火紅最熱門的產品 XD
+11:29 < YChao> One more thing....
+11:29 < miaoski_osdc> au: QQ
+11:29 < Andox> Sorry: 可以先去旁邊MOS XD
+11:29 < Sorry> QQ
+11:29 < miaoski_osdc> Live Demo - 小海嚴選
+11:29 < darkx> lock screen 內建小海鹽選
+11:29 < weitsai> 內建小海鹽選 XD
+11:29 < icemango> 內建小海嚴選
+11:29 < mrmoneyc> darkx: 社群攤位區
+11:29 < YChao> 小海嚴選！
+11:30 < DHXD> XDDDD
+11:30 < darkx> mrmoneyc: 等等去找你！
+11:30 < Quexint> [R2] 小海嚴選XDDD
+11:30 < fntsroud>  [R2] 我玩平板就是為了殺時間啊，你給我看時間幹嘛呢
+11:30 < YChao> 小海嚴選 lock screen
+11:30 < hokila> [R2]果然準備很多笑話
+11:30 < Jcrt> 小海嚴選 XDDDDD
+11:30 < DHXD> 真特別的 lockscreen
+11:30 < miaoski_osdc> 對小海嚴選 QML 感到興趣的話，source code 在....
+11:31 < YChao> crypto cat
+11:31 < darkx> telegram!
+11:31 < Vdragon> [R2] （不用 Webogram 嗎？
+11:31 < darkx> 簡單一件刷機的功能是必要的！
+11:32 < Vdragon> 我需要多作業系統or
+11:32 < Vdragon> z
+11:33 < DHXD> 平板上的多作業系統感覺好忙
+11:33 < miaoski_osdc> telegram+1
+11:33 < Vdragon> [R2] Ubuntu Touch 支援多重開機(worship)
+11:33 < miaoski_osdc> m公司來的同學...
+11:33 < Vdragon> [R2] M 公司XDDD
+11:34 < KuoE0> Moz ?!
+11:34 < Vdragon> Micros---!?
+11:34 < YChao> Yxrxx
+11:34 < darkx> QML 很難用 XDDDDDD
+11:34 < andytwmvp> Moxxxxxa
+11:34 < YChao> Qwidget
+11:35 < wcpan_> declarative 不好 debug 啊 ...
+11:36 < sntc06> 接下來就是<del>你們</del>c9s的事了
+11:36 < Vdragon> [R2]END
+11:36 < fntsroud> [R2] 接下來就是<del>你們</del>c9s的事了
+11:36 < Vdragon> 午餐時間了？
+11:36 < CindyLinz> 還有一堂
+11:40 < Vdragon> CindyLinz: 謝
+11:43 < hlb> hcchien: 我後悔了... 我應該把咖啡機搬來的 :~
+11:45 < YChao> R2 開始聚集人潮...
+11:45 < zeroplex> R2 快滿了
+11:45 < ETBlue> r2 坐到地板上了 =w=
+11:45 < FourDollars> 前面有搖滾區啊
+11:46 < hlb> r2 滿出來了 ...
+11:46 < YChao> 走道也開始滿了
+11:46 < icemango> 滿溢
+11:46 < hlb> 被佔領了
+11:46 < zero-fubuki> R2很熱門呀
+11:46 < ETBlue> r2 occupied
+11:47 < clkao> c9哥真紅
+11:47 < clarence> c9哥++
+11:47 < FourDollars> c9sloud++
+11:47 < ETBlue> 9>z
+11:48 < ajdfajdfl> [R2] 爆滿
+11:48 < devalin> c9 > z9
+11:49 < ETBlue> c9哥 > c利哥... （寒）
+11:49 < Conrad> r1 很空..
+11:49 < miaoski_osdc> hlb: 明天~~
+11:49 < miaoski_osdc> R0 還好... 70% loading
+11:49 < darkx> c9s!
+11:49 < zero-fubuki> r1 50% 不到吧
+11:50 < fntsroud> [R2] c9s LIVE http://www.ustream.tv/channel/fntsrlike
+11:50 < hlb> r2 中間的投影機明顯有變好很多....
+11:50 < clkao> 但是 r0 投影機好像變湖了
+11:50 < hlb> 右邊的感覺沒對到焦
+11:51 < Jcrt> 「路過」
+11:51 < mhsin> 有位沒椅子  orz
+11:52 < Sorry> 站著 coding 正夯
+11:52 < superbil> hlb 需要咖啡機 ++
+11:53 < aitjcize> 有咖啡嗎？ 需要 +1
+11:54 < mhsin> 有線網路等久一點真的就有反應了
+11:55 < in2> 我覺得 5GHz 的無線還滿穩的耶~
+11:55 < Sorry> 不過無線還挺穩的
+11:55 < fntsroud> 5GHz真的很穩
+11:55 < hlb> 因為週五人比較少? :q
+11:56 < Tnth> 無線穩到我換間都沒斷
+11:56 < CQD_> 5G穩定++
+11:56 < in2> 不知道哪天 5GHz 會被塞爆就跟今天的 2.4G 一樣, 然後我們就該換*2的 10GHz 了? (咦)
+11:56 < KuoE0> 5G 沒斷過 +1
+11:56 < ThanatosYuam> locy Hi
+11:56 < miaoski_osdc> DHCP 比較慢+1 ... 我都用 5G 一換會議室就要等比較久
+11:57 < fntsroud> [R2] 拔罐拔出的痧好多...
+11:57 < Sorry> 「中國古代的酷刑」（拔罐）
+11:58  * fntsroud phpbrew 愛用者
+11:58 < Sorry> 「9AM to 2AM，holiday = working day」
+11:58 < zeroplex> phpbrew 好用
+12:00 < hcchien> mhsin: 因為你報名用本名？
+12:00 < YChao> unique -> search engine optimization
+12:00 < mhsin> 剛才就有個不知道怎麼發音的 project name 啊  XD
+12:00 < hcchien> 去年開始就把點心改成早餐了，不過沒吃到早餐可能是太晚來了
+12:00 < Tnth> 開始餓惹
+12:00 < darkx> cpan++
+12:01 < mhsin> hcchien: 囧  我忘了是怎麼填的了
+12:01 < devalin> 公司放飯。下午再來看.   bye...
+12:01 < hcchien> 因為後來有提供午餐，就發現早上點心跟午餐太接近，東西都剩太多
+12:01 < hcchien> 不過明天早餐會多加 100 份
+12:01 < miaoski_osdc> hcchien++
+12:01 < zero-fubuki> 明天會有接駁車嗎
+12:01 < fntsroud> hcchien 早餐使人有動力早來ＸＤ
+12:02 < hcchien> hlb: 早說了吧
+12:02 < StarNight> GJ
+12:02 < darkx> c9s: synopsis = 先看對方正不正，再決定要不要繼續交往
+12:02 < Sorry> 「先看對方正不正，再決定要不要進一步交往＼
+12:03 < Vdragon> XDDDD
+12:03 < weitsai> XD
+12:03 < YChao> 先看對方正不正 在決定要不要進一步交往
+12:03 < hlb> hcchien: 因為不想載磨豆機......
+12:03 < hlb> hcchien: 還是應該帶個 Melitta 來?
+12:04 < in2> o/~ 豆豆摸來摸去豆豆摸來摸去 摸來摸去香豆奶 o/~
+12:04 < CQD_> R0 有精實
+12:04 < hcchien> zero-fubuki: 會有，但希望今天晚上不要再大腸花了   XD
+12:04 < zero-fubuki> 感謝
+12:04 < mhsin> 設置到使用 非常重要
+12:05 < mhsin> CPAN 就是無敵難裝 :X
+12:05 < hcchien> hlb: Melitta 要煮多久
+12:05 < CindyLinz> mhsin: 所以要 cpanminus 一下 XD
+12:05 < KuoE0> 五種開源授權規範的比較 http://bit.ly/1eqrKII
+12:05 < CindyLinz> (各種意味)
+12:06 < mhsin> 果然提到 CPAN 了吧  XD
+12:06 < au> cpanm -n 是大家的好朋友
+12:06 < darkx> au: agree
+12:06 < hlb> hcchien: 冷水倒進去 8mins
+12:06 < mhsin> CindyLinz: 我知道
+12:06 < darkx> 今年 miyagawa 沒有掛 IRC XD
+12:06 < mhsin> 不過 cpanm 有的時候也不很好用
+12:06 < clarence> hlb: Melita我記得還有不鏽鋼大容量版本
+12:07 < CindyLinz> 我有時候用 carton..
+12:07 < mhsin> 其實是缺少說明
+12:07 < kidwm> 直接看原始碼開發也太累了吧
+12:07 < fntsroud> 真的ＸＤ
+12:07 < brucehsu> 當過少數開發者... orz"
+12:08 < Sorry> 「可製造安全感的假象」（文件）
+12:08 < kidwm> 原來文件是一種類似保險套的作用
+12:08 < CindyLinz> 寫滿「利大於弊」.. (誤)
+12:08 < zeroplex> 只有文件的專案 (誤)
+12:08 < Vdragon> documentation.js
+12:09 < sntc06> CindyLinz: ++
+12:09 < kidwm> CindyLinz: 那是「服」咒吧
+12:09 < CindyLinz> kidwm: QQ
+12:09 < Sorry> 「到 stackoverflow 找你的 consumer」
+12:09 < fntsroud> XD
+12:10 < mhsin> 「點進來看看，應該對你有幫助」（誤）
+12:10 < Vdragon> Stackoverflow :) 自己當客服
+12:10 < penk_> 點擊量!!!
+12:10 < CindyLinz> mhsin: 好像什麼「在家工作」的 spam 的感覺.. XDD
+12:10 < penk_> 快來回 Qt 問題
+12:10 < Sorry> 「因為 stackoverflow 的 pagerank 蠻高的」
+12:10 < penk_> 拋頭露面賺 PV
+12:10 < Sorry> 「聽過安麗嗎？」（誤）
+12:10 < Zhusee> DDDD
+12:11 < weitsai> 「嘿 要不要嘗試看看 xxx 專案或許可以符合你的需求」
+12:11 < kidwm> CindyLinz: ++
+12:11 < mrmoneyc> 「戳」XD
+12:11 < penk_> 戳 !== troll
+12:11 < darkx> penk_: XDDD
+12:11 < mhsin> CindyLinz: 這就是我的哏
+12:11 < CindyLinz> mhsin: XDDD
+12:12 < hlb> clarence: 我... 讓自己有咖啡喝就解決了...
+12:12 < hlb> "work for me"
+12:12 < hlb> "drink welcome"
+12:12 < darkx> 收 PR 增加正面能量XD
+12:13 < in2> 咖啡口味的布丁 @@
+12:13 < Sorry> 「盡量不要發好人卡」
+12:13 < fntsroud> [R2] 儘量不要發好人卡
+12:13 < hlb> "收到一包咖啡豆，是否要混進去你的配方裡"
+12:13 < CindyLinz> 把 pull request 收進來, 然後再 patch 掉.. (誤)
+12:14 < au> CindyLinz: 無誤，我都是這樣 XD
+12:14 < CindyLinz> au: (驚)
+12:14 < YChao> 要有禮貌... (無誤)
+12:14 < au> (這樣 downstream 才能看得到要怎麼繼續寫)
+12:14 < kidwm> CindyLinz: 但這會讓人覺得很沒禮貌XD
+12:14 < fntsroud> [R2] no RTFM
+12:14 < brucehsu> 不要RTFM無誤
+12:15 < CindyLinz> 這是政院版的審查調例啊... 囧
+12:15 < Sorry> 「if you build it, they will come」
+12:15 < YChao> (安靜)
+12:15 < mhsin> 把海女咖啡重建好，鈴鹿就會來
+12:15 < zeroplex> 換 lmgtfy  XD
+12:15 < in2> mhsin: 這什麼哏啊? # 12:15 < mhsin> 把海女咖啡重建好，鈴鹿就會來
+12:16 < darkx> brucehsu: STFW
+12:16 < Tnth> 小海女劇情
+12:16 < mhsin> in2: あまちゃん，裡面就用了 If you build it, they will come 的哏
+12:16 < in2> [r1] 還沒 live demo 就發現有東西炸了
+12:17 < kidwm> 居然有人說「首頁的水滴 一直滴 讓人好煩燥阿」
+12:17 < icemango> [R2] end. 吃便當人潮大量發生
+12:18 < in2> greener: hello
+12:19 < greener> ！！
+12:19 < Conrad> lol # 12:16       in2 | [r1] 還沒 live demo 就發現有東西炸了
+12:22 < Conrad> 便當 delay 15 min...
+12:22 < thinker> Interesting, Yahoo 的活動跑到 FB 上辨.. 完全認輸 XD
+12:37 < hcchien> 有一種所有人都去吃午餐的 fu
+13:02 < FrankWu_-> 想說上課玩irc…然後貌似都努力吃飯去了
+13:02 < clkao> ...
+13:10 < hcchien> hackpad 有一百多人
+13:12 < hlb> 明天有人可以當煮咖啡志工(?)嗎 :p
+13:15 < fntsroud> 煮咖啡志工？
+13:16 < Ruinland_> hlb: ？？
+13:17 < Ruinland> MillerLee: (wave)
+13:17 < taichunmin[R1]> 好神祕的志工?
+13:18 < fntsroud> 下午應該都會一直待在R2，早上有提供兩位講只的直播（非官方，俺只是會眾ＸＤ），想問一下還有人需要看下午場的直播嗎？以及下午場的講者願意被LIVE嗎～ 有的話我在幫忙簡單架直播
+13:20 < brucehsu> R2最後一場ok
+13:21 < fntsroud> @brucehsu ok thx~
+13:22 < hlb> 明天帶咖啡機來 XD
+13:22 < hlb> 覺得我應該賣一杯 200 塊，外加需要 github 登入 XD
+13:23 < hlb> 收入拿來補貼 g0v hackathon :p
+13:23 < brucehsu> 發issue點餐
+13:23 < hlb> hcchien: 你帶磨豆機來啦... 小飛鷹用摩托車剛好啊 XD
+13:23 < fntsroud> sounds good XD
+13:25 < Davy_CC> wwww github login
+13:36 < darkx> 連小飛鷹都出現了，真專業  XD
+13:36 < miaoski_osdc> hlb: 我可以當咖啡志工啊，可是工作時間是什麼時候? :P
+13:36 < starlition[R1]> 當然是 anytime 嚕 XDDDD
+13:37 < FrankWu_|> 我朋友問：「PR+被 commit， 咖啡 free 嗎？」XDD
+13:37 < miaoski_osdc> starlition[R1]: 我要聽 session 啊啊啊啊啊啊
+13:38 < zero-fubuki> R1人好多呀
+13:39 < Jcrt> R2 投影片 https://speakerdeck.com/othree/web-component
+13:39 < fntsroud> [R2] 開始了
+13:39 < hlb> miaoski_osdc: 想要幫人煮咖啡的時候?
+13:39 < darkx> [6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~[6~/win 28
+13:39 < darkx> oops
+13:39 < mrmoneyc> oops
+13:39 < miaoski_osdc> hlb++
+13:39 < darkx> mrmoneyc: 你跟我 oops 啥啦 XD
+13:40 < hcchien> hlb: 可是我明天不騎車啊   # 晚上要喝酒  (Y)
+13:40 < hcchien> 不過好像還是可以帶
+13:40 < hlb> hcchien: 有磨豆機的話我才能帶咖啡機來給你試玩啊～
+13:41 < hlb> hcchien: 不然就只有 Melitta 可以喝
+13:41 < hcchien> hlb: 好吧，那就帶磨豆機了，不過有豆子嗎
+13:42 < kidwm> hcchien: 改 topic 給文字轉播連結？
+13:42 < Andox> kidwm: no op XD
+13:43 < hlb> hcchien: 我只剩半包... 顯然需要豆子的 pull request
+13:43 < hcchien> kidwm: 這裡大約九年前就沒 op 了
+13:43 < hcchien> 我大概只有半磅   XD
+13:44 < darkx> http://nshipster.com/nil/
+13:44 < darkx> R0 梗
+13:44 < in2> r0 好冷啊... orz
+13:44 < mrmoneyc> darkx: 眼殘看成 RO 梗 ..
+13:44 < hlb> hcchien: 買個四磅夠喝嗎 (?)
+13:44 < hcchien> r2 擠爆
+13:45 < darkx> mrmoneyc: wwwwww
+13:45 < Andox> www
+13:45 < hcchien> 我竟然擠不進 r2
+13:45 < YChao> (糟糕...)
+13:45 < hcchien> hlb: 不如湊個整數，5 lbs 好了
+13:46 < StarNight> browser不會把text/template裡的東西render到畫面上
+13:46 < miaoski_osdc> hcchien: 看成 5 hlb
+13:46 < darkx> R0: Making Easy Things Easy & Hard Things Possible (誤
+13:46 < superbil> 糟，我好像應該去 r0
+13:46 < darkx> superbil: 你該來的, obj-c 場
+13:46 < ij1iao> r0 冷氣有點強
+13:47 < Ruinland> 跪求文字直播的hackpad連結<(_ _)>
+13:47 < Andox> http://hackfoldr.org/osdc2014/6OK5sWJzRyM
+13:47  * darkx https://github.com/NYTimes/objective-c-style-guide
+13:48  * Andox 今天上班都在看hackpad跟irc
+13:49 < Ruinland> Andox: 感謝m(_ _)m
+13:50 < hcchien> 看來明天還是換個 channel 好了
+13:50 < Andox> Ruinland: you are welcome
+13:52 < hcchien> 歡迎跳槽 #osdctw
+13:52 < hlb> hcchien: /join #osdctw
+13:52 < hlb> oops
+13:53 < DHXD> goto fall?
+13:53 < darkx> fulling down~
+13:53 < aitjcize> 發音不標準XD
+13:54 < darkx> http://www.youtube.com/watch?v=ISNdA8I3yXw  /flee
+13:54 < ij1iao> 這場的講者還沉浸在昨天大腸花的氛圍中...
+13:54 < aitjcize> R0?
+13:54 < kentwelcome> R0 如果服貿黑箱有時分機歪的話，這個bug沒有八分也有七分
+13:54 < ij1iao> yes r0
+13:55 < aitjcize> share intense ...
+13:55 < aitjcize> Instance vs intense ..
+13:55 < DHXD> ins tense
+13:55 < darkx> 發音好痛苦啊QQ
+13:55 < miaoski_osdc> hcchien: 釣到我了
+13:56 < hcchien> 聽說點心很讚
+13:56 < in2> 喔喔喔~!開心!
+13:56 < penk_> hcchien: *_* 關鍵字!
+13:56 < in2> hcchien++
+13:56 < miaoski_osdc> 點心!!!
+13:56 < aitjcize>  re me 裡面
+13:56 < hcchien> 不對，我應該轉去新 channel
+13:56 < MillerLee> 點心+++++
+13:57 < darkx> auto referencd counting
+13:57 < darkx> *reference
+13:57 < superbil> Auto reference counter
+13:57 < Andox> 餓了QQ
+13:58 < superbil> 點心才是重點+++
+13:58 < darkx> less is more (?
+13:58 < jpsun> [ PIXNETSDK … ] 會比 [ PixnetSDK … ] 清楚嗎 ?
+13:58 < Jcrt> 請問點心是幾點～？
+14:00 < ij1iao> 哪來的新 channel ?
+14:00 < darkx> 擦扣專案
+14:00 < aitjcize> 叉扣
+14:00 < nfsnfs> ij1iao: #osdctw
+14:01 < aitjcize> 啊 爆炸了ww
+14:01 < lunastorm> #osdctw
+14:01 < ij1iao> 因為沒人有 op 所以換 channel ?!
+14:01 < fntsroud> yes
+14:01 < ij1iao> 真沒想到這 channel 這麼久了竟然沒註冊 XD
+14:02 < swaywang> join #osdctw
+14:03 < evan3rd_> join #osdctw
+14:05 < mrmoneyc> pikapika ...
+14:05 < derjohng> 附近有咖啡嗎?
+14:05 < Sorry> Z>B 梗出現
+14:06 < Sorry> 「Web Component Z」（往右捲）「> B」
+14:06 < lunastorm> join #osdctw
+14:10 < fntsroud> 萊爾富有賣咖啡吧
+14:10 < blc> 有。
+14:10 < starlition[R1]> mos  就有咖啡吧
+14:11 < Andox> mos咖啡不好喝:s
+14:11 < Zhusee> MOS 比較近
+14:11 < DHXD> 有家咖啡廳更近
+14:11 < DHXD> 一樣是出去右轉
+14:11 < blc> 那家有點小貴…
+14:12 < cyen> mos 真的不好喝，剛剛點完才想起來，有一種奇怪的甜味
+14:13 < blc> 那間咖啡廳是外包給福華的，所以價位高一些…
+14:16 < taichunmin[R1]> 怎麼會分兩邊了 囧
+14:16 < fntsroud> Channel OP permission
+14:16 < fntsroud> #osdctw is main one
+14:19 < YChao> 進入R2搖滾區...
+14:20 < mrmoneyc> R2 開始！
+14:21 < aocole> is there a live english translation going?
+14:23 < mrmoneyc> 先別管PgREST了，你聽過 g0v 嗎？XD
+14:23 < Sorry> 「先別管 PgREST 了，你聽過 G0V 嗎？」
+14:23 < FourDollars> [R2] 置入性行銷
+14:24 < mrmoneyc> 14個張慶忠時間XD
+14:24 < YChao> 14個張慶終時間
+14:24 < Sorry> 「國會大代誌花了14 個張慶忠時間」
+14:24 < FourDollars> [R2] 花了 14 個張慶忠的時間
+14:24 < devalin> 這時段,  r0, r1, r2 題目 都想看啊~~
+14:25 < fntsroud> 協助宣傳：官方已經註冊了 #osdctw channel，歡迎大家轉過去
+14:25 < YChao> api.ly.g0v.tw
+14:25 < c9sloud> 真的 XD  r0, r1, r2 都蠻想聽的
+14:25 < fntsroud> True
+14:27 < Sorry> 「not only sql」
+14:28 < YChao> 完全沒有用過sql的，那你為什麼在這？
+14:28 < penk_> R2 「完全沒有用過 SQL 的? 那你為什麼在這裡..」
+14:48 < Sorry> 「突然就變得很忙，因為政府都讓我們很忙」
+14:50 < Guest51961> XD
+15:13 < cls_bsd> 要來出發了/win 38
+15:14 < YChao> Z>B
+15:25 < Sorry> 竟然做了休息專用的投影片
+15:26 < e> 超帥氣的
+15:29 < YChao> 乾的石頭源自於濕的石頭
+15:30 < YChao> WhetStone, DhryStone
+15:30 < darkx> 頭昏腦脹把 CoreMark 聽成 控肉湯 Orz
+15:30 < Sorry> 「我也是看 log 才知道」
+15:31 < mhsin> 「我也是看 log 才知道  (troll)」
+15:34 < superbil> darkx: 你一定是剛剛吃的太少，腦袋缺氧
+15:35 < ajdfajdfl_> [R2] 看到密碼＠＠
+15:35 < lzy> 好像該學 Rails 了 #看到 Rails Girl 有感
+15:36 < Sorry> 早上才在說把密碼打到 IRC，下午就有講者把密碼直接送到投影幕
+15:36 < mhsin> [R2] performance Z>B
+15:36 < ajdfajdfl_> XD
+15:37 < mhsin> 「其實沒有認真測過（但是 Performance Z>B 就對了）」
+15:37 < darkx> XD
+15:38 < Sorry> 「說 framework 總覺得很沉重的樣子」
+15:51 < kerkerj> MTK HR XDD
+15:55 < carlcarl> kerkerj: MTK HR 怎麼了?
+15:56 < carlcarl> 喔喔 看到了lol
+15:59 < Sorry> 「如果不可以 run 的話，請大家當做沒看到就好」
+15:59 < Sorry> 「我回不去了」
+16:33 < luba> hi 打招呼
+16:36 < Ruinland> luba: Hello world~
+16:37 < Zurg_> Z>B
+16:39 < Sorry> [R1] live coding fibonacci 跟 gcd in HasPerl
+16:43 < cls_bsd> [R0] 怎麼好像 Teddy 的例外處理
+16:43 < cls_bsd> XD
+16:44 < cls_bsd> au 好厲害 code 直接打到 hackpad
+16:44 < fntsroud> 協助宣傳：官方已經註冊了 #osdctw channel，歡迎大家轉過去
+16:45 < clkao> cls_bsd: -> #osdctw
+16:45 < cls_bsd> okok
+16:47 < darkx> Perl: $ -> scalar, @ -> array, % -> hash
+16:47 < icemango> & -> ref
+16:47 < darkx> icemango: 未必吧 XD
+16:47 < icemango> !
+16:47 < darkx> Inline Python 這招 XD
+16:50 < darkx> CindyLinz: 看你想接什麼都可以 XD
+16:51 < darkx> 應該是說玩過純的東西後就覺得 Perl 不純了 XD
+16:58 < aitjcize> OSDC_Fred_BOT: ping
+16:58 < Davy_CC> OSDC_Fred_BOT: pong
+16:59 < FredC> 還沒寫完，不要亂ping
+17:00 < au> CindyLinz++ # https://github.com/CindyLinz/Haskell-Perl
+17:00 < Davy_CC> FredC: pong 可以嗎
+17:02 < FredC> 。。
+17:02 < FredC> .....
+17:02 < aitjcize> FredC: pong
+17:02 < aitjcize> FredC: 出來面對(誤)
+22:33 < c9sloud> ingy: git-hub is awesome, json parser written in pure bash, totally unbelievable!
+22:33 < c9sloud> I was looking for a faster github client, seems it's my last try!
+23:06 < CindyLinz> 下午R1 HasPerl 的投影片和素材 (demo 裡有額外加上段落註解, 另外有完整版投影片, talk 時用的是短版 XD) https://github.com/CindyLinz/Talk-OSDC2014-HasPerl-TheMarriageOfHaskellAndPerl
+
+
+--- Day changed Sat Apr 12 2014
+00:10 < darkx> CindyLinz++
+04:59 < FREDC> TEST
+05:01 < FREDC> @@
+05:01 < chiehwen> @@"
+05:06 < FREDC> 趕簡報中@@
+05:07 < FREDC> orz
+05:56 < FREDC> moin
+05:56 < FREDC> moin
+08:06 < Andox> f@@~
+08:40 < david-x200> hello 這邊是工人休息室
+09:03 < david-x220> Lightning Talk 將於 4/12（六）早上十點於報到處斜前方牆面張貼的登記表報名，請寫上您的大名和想分享的五分鐘閃電秀題目，登記額滿為止。 大會保留同意您的講題與上台順序的權利，謝謝。
+09:08 < david-x220> Lightning Talk 將於 4/12（六）早上十點於報到處斜前方牆面張貼的登記表報名，請寫上您的大名和想分享的五分鐘閃電秀題目，登記額滿為止。 大會保留同意您的講題與上台順序的權利，謝謝。
+09:34 < Sorry> 「小公司所有的東西都要做，所謂的垂直整合」
+09:36 < david-i9100> 今天用 #osdctw 唷
+09:56 < davidhuang> 今天是 #osdctw
+10:09  * jserv-- 在 R0 覺得冷氣好猛 ><
+10:20 < aitjcize> jserv++
+10:21 < davidhuang> R0 人太少
+10:22 < davidhuang> 今天在 #osdctw
+10:23 < darkx> \媽我在這/
+10:23 < miaoski_> bot ?
+10:23 < aitjcize> image http://i.imgur.com/xLFFoLq.jpg
+10:23 < fntsroud> test
+10:23 < miaoski_> TESt?
+10:23 < aitjcize> 你連錯channel了啦
+10:23 < kin> test
+10:24 < jerryhuang> yoyo
+10:24 < miaoski_> aitjcize: osdc.tw 啦?
+10:24 < zero-fubuki> 連錯了
+10:24 < rubyhung> sunflower
+10:24 < Jaster> Testtttttttt
+10:24 < aitjcize> Fred 連錯了
+10:24 < dore12> han gee
+10:24 < Andox> wwww
+10:24 < Sorry> 為了蕃薯哥的 live demo 只好又 join 進來
+10:24 < AlexYang> hello world
+10:24 < chiehwen_> @@
+10:24 < qcl> yo!
+10:24 < aitjcize> OSDC_Fred_BOT: ping
+10:24 < PCLiao> 媽 我在這裡~~
+10:25 < miaoski_> OSDC_Fred_BOT: 喝了 hlb 的咖啡我升天了~~~~! >///<
+10:25 < aitjcize> 現在來R1還來得及噢XD
+10:25 < aitjcize> japie:
+10:25 < walile_> [R1] 為了講者連回這邊..
+10:25 < DennyHuang> 請 緊握扶手 站穩踏街 前往 #osdctw
+10:25 < a> +1
+10:25 < seasonny> Hello world !
+10:26 < Sorry> 現在通知講者換到 #osdctw 還來得及嗎？
+10:26 < DennyHuang> 官方註冊 channel 為 #osdctw 請移動XD
+10:26 < andytwmvp> 請保持醫療通道暢通，請從左邊前往 #osdctw
+10:26 < Sorry> 因為講者用這個 channel 來做 live demo
+10:26 < DennyHuang> 糗了XD
+10:27 < Jaster> 只好同時開兩個XDD
+10:27 < DennyHuang> 會後要merge  IRC log 了(yay)
+10:28 < uranusjr> QML 超爛 penk 表示遺憾
+10:28 < jerryhuang> o.o
+10:28 < aitjcize> 咦咦咦
+10:28 < NNNN> o.o
+10:28 < mrorz> test
+10:28 < pohchen> @@
+10:28 < Nalant__> ??
+10:28 < aitjcize> 連到 osdctw 才對啦
+10:28 < Jaster> 竟然沒有，欺騙我感情XD
+10:28 < zero-fubuki> 有東西但沒顯示
+10:28 < tony_> hi
+10:28 < jojozyzy> ><
+10:28 < TaiZai> Live Debug!
+10:28 < jerryhuang> live debug
+10:28 < walile_> 講者大大.....要回到osdctw啊...
+10:28 < Jaster> Live Debu
+10:28 < NNNN> live debug
+10:28 < kin> live debug
+10:28 < zero-fubuki> 有人要跟他說嗎
+10:28 < Andox> Live Debug
+10:29 < walile_> 畫面上都顯示出來了..Orz
+10:29 < zero-fubuki> osdctw
+10:29 < pohchen> YO MAN
+10:29 < Nalant__> debug test123
+10:29 < NNNN> 要回到 osdctw
+10:29 < aitjcize> [R1] live debug
+10:29 < chiehwen_> hello~~~~~~
+10:29 < jerryhuang> hello
+10:29 < jerryhuang> XDDDD
+10:29 < qcl> XDDDDDDDD
+10:29 < Sorry> 媽，我在這 o.o/~
+10:30 < eefy> XD
+10:30 < fntsroud> >/////<
+10:30 < aitjcize> 換哪間了？
+10:30 < Andox> mom, I'm here~
+10:30 < eefy> Live debug ~~ 一定要這麼嗨嗎？
+10:31 < eefy> qq
+10:31 < uranusjr> 重點是 QML 的 Timer 超難用
+10:32 < Andox> 其實那不是bug 是feature
+10:32 < mabinogi80503_> www
+10:32 < Sorry> 冇 live demo 了，回去官方 channel #osdctw
+10:41 < davidhuang> 今天是 #osdctw
+10:43 < Vantist> test
+10:46 < davidhuang> 今天是 #osdctw
+10:49 < kochi> hi
+10:53 < circ-user-w8aNY> ewqe
+11:01 < othree___> R1 滿了
+11:12 < david-i9100> 今天在 #osdctw
+11:21  * kcwu lag 為什麼要換 channel? @@
+11:23 < chwong_cloud> because no op here
+11:27 < david-i9100> 因為沒有 op
+11:27 < david-i9100> 有人弄掉 op 了
+11:27 < ecilA> OP？
+11:27 < cyen> operator
+11:27 < david-i9100> 你既然問了我只好回答你
+11:27 < icemango> 正義的化身 operator
+11:28 < david-i9100> HCC 發蠢 XD
+11:29 < david-i9100> OOOOOOOPPPPPPPP
+11:29 < david-i9100> OOOOHHHHHHHHP
+11:31 < ecilA> 我好像了解是怎麼回事了
+11:38 < RJHsiao> 原來BYOC的全稱是Build Your Own Child XDDDD
+11:38 < RJHsiao> Live Demo是抱個小孩出場XD
+11:48 < david-i9100> 今天在 #osdctw
+11:51 < kin> \o/
+11:52 < chiehwen> r0 好嗨
+11:55 < david-i9100> 今天在 #osdctw
+13:36 < stjason> hello
+13:45 < othree___> 女媧創造了一隻青蛙
+13:45 < c9sloud> ingy: we are in #osdctw channel
+13:48 < DennyHuang> othree___: 請到 #osdcrw 喔
+13:48 < DennyHuang> osdctw
+13:48 < DennyHuang> 錯字Orz
+13:48 < othree___> XD
+13:55 < othree___> 難怪覺得今天好安靜
+14:05 < DennyHuang> 這裡鬧空成了 XD
+14:35 < miaoski> 請改用 #osdctw ^^;
+14:37 < ingy> heya c9sloud :)
+14:38 < c9sloud> ingy: Hi!
+14:39 < c9sloud> ingy: https://github.com/phalcon/zephir # this is what i just mentioned
+14:39 < c9sloud> a tiny language that compiles to PHP C extension
+14:39 < ingy> *click*
+14:40 < c9sloud> they did a great job on the improvement. it actually started from a  framework written in PHP C extension.
+14:41 < ingy> still loading :(
+14:41 < c9sloud> they refactored out all the C extension functions / macros to a library, and reuse this library for the code generation
+14:41 < c9sloud> wifi is pretty slow right now XD
+14:41 < ingy> c9sloud: I forgot to mention #git-commands on freenode
+14:42 < ingy> at least my ssh is fine
+14:42 < c9sloud> let me join the channel
+14:42 < ingy> please do
+15:45 < c9sloud> ingy: http://www.slideshare.net/c9s/osdctw-gutscript-for-php-haters  # my gutscript slides
+15:45 < c9sloud> I just uploaded
+15:46 < ingy> c9sloud: fantastic
+15:47 < c9sloud> test test
+15:47 < ingy> If I stay here another week to finish Pegex(4all) and CafeScript it would be really cool to be able to hack with you
+15:49 < c9sloud> too bad I will be very busy next week.. orz.....  but I am really looking forward to your Pegex and CafeScript, I will stay turned on GithHub!
+15:50 < ingy> c9sloud: fair enough :)
+15:50 < c9sloud> ingy: have you published Pegex/CafeScript to GitHub?
+15:54 < ingy> c9sloud: compiling a list :)
+15:55 < ingy> c9sloud: these are the pegex,testml,cafe thingers https://gist.github.com/e225e11be12074a3f6a1
+15:56 < ingy> most of those things are more incomplete than complete
+15:56 < c9sloud> wow, so many, huge work!
+15:56 < ingy> but testml/pegex are full in pm/rb
+--- Day changed Sun Apr 13 2014
+08:17 < aocole> ingy's talk about BASH yesterday: http://youtu.be/op5M1dYJpWg
+09:13 < miaoski_qs> aocole++
+09:14 < aocole> miaoski_qs: XD
+10:51 < drbean> Where is the IRC channel for the conference?
+11:20 < aocole> drbean: it's this one or #osdctw. Lots of people in both
+20:07 < drbean> 12nas
+--- Day changed Mon Apr 14 2014
+01:07 < c9sloud> hi guys, #osdc.tw channel has been moved to #osdctw, please join #osdctw
+01:09 < Conrad> c9sloud: resistance is futile XDD
+01:10 < Conrad> 應該跟往年一樣大家還是會繼續留下去吧...
+01:10 < c9sloud> XDDDD
+01:22 < kcwu> 搞不好 #osdctw op 又掉了於是就回來了 (誤)
+10:07 < cls_bsd> XD
