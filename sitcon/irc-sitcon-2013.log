@@ -1,0 +1,3437 @@
+00:49 -!- DennyHuang changed the topic of #sitcon to: SITCON 學生計算機年會 http://sitcon.org | UTF-8 |
+01:08 <@DennyHuang> 果然FB丟一下就瞬間多了一些人XD
+01:08 < yangis> 0.0
+01:09 < ws23> 很棒啊xd
+01:09 < Jason___> 這就是社群的力量@@
+01:09 < sitcon-service> XD
+01:09 < ws23> 大家都晚睡這樣不行啊啊啊～早點睡覺明天別遲到了xD
+01:09 < Jason___> 要睡了 XD 真的很怕爬不起來><
+01:09 < FJU> www
+01:10 < sitcon-service> 組長大人遵命QQ
+01:11 < FJU> 請教一下 unity 安裝設定 沒有Sync VisualStudio Project可以選ㄝ
+01:14 < Neson> 晚安 XD
+01:23 < orin> 阿阿，好緊張睡不著
+01:27 < ws23> 大大不要緊張<(_ _)>
+01:32 < tpes> 大家都還沒睡喔XD
+01:41 < RSChiang> Denny黑黑
+02:16 < Guest43985> no body home?
+02:35 < Irvin_> www.facebook.com/OrinxFans
+02:36 < Irvin_> 明天壓軸的 @orin
+02:36 < Irvin_> 快快按贊
+05:00 < grass7boy> XD
+06:56 < ChAndrew> 各位早安
+07:12 < Neson> 早安~
+07:32 < orin> yawns
+07:42 < jeremy5189> hello^^
+08:02 < ChAndrew> 現在時間上午八點十分
+08:33 < sitcon-service> 會眾們早安，我是駐守服務台的工作人員，若有任何問題也可以從IRC發問，謝謝！
+08:42  * darkx 大家早安 <(_ _)>
+08:42 < BenBen> HI  all
+08:42 < darkx> BenBen: hi!
+08:43 < NagiYamazaki> 早安 <(_  _)>
+08:43 < orange_> @@
+08:43 < iblis17> orange_: 我到了
+08:43 < iblis17> orange_: 早阿
+08:43 < darkx> (塊陶阿
+08:43 < HansChen> 早安 m(_ _)m
+08:44 < Duye> Hi
+08:44 < Davy_> 有darkx 塊陶阿
+08:44 < darkx> Davy_: 黑黑！
+08:44  * freetsubasa 早安
+08:45 < idreamers> Hello World~
+08:46 < Neson> Hello SITCON~
+08:47 < orin> Hello SITCON
+08:49 < BenBen> 剛剛IRC上都沒人講話，是剛來太害羞嗎
+08:49 < Duye> (羞)
+08:49 < shawu> 現在也是阿
+08:50 < BenBen> >////<
+08:50 < ShaWu> (blush)
+08:51 < BenBen> ya (廣仲模式
+08:51 < takeshi_tw> Hi (0w0)/
+08:51 < NagiYamazaki> ♪
+08:52 < joyqul> Hi//
+08:52 < Duye> 連Plurk卡卡的 =_=
+08:52 < Duye> Hi!
+08:52 < freetsubasa> Hi ~
+08:52 < NagiYamazaki> hi~
+08:53 < HexTseng> Hi~ OwO
+08:54 < carl_tw> hello
+08:54 < KojimaC> \(^o^)/
+08:54 < darkx> KojimaC: 島大 (worship)
+08:54 < KojimaC> darkx: 好黑大大 (worship)
+08:54 < killtw> KojumaC 小小大大
+08:54 < killtw> KojumaC 小島大大（靠打錯字
+08:54 < killtw> …還是打錯（死
+08:55 < KojimaC> XDDDD
+08:55 < RuinlandIxa> 是說DHCP好像抓不到?
+08:55 < SyneArt> =ˇ=
+08:55 < darkx> conf 年XD
+08:55 < RuinlandIxa> 3G使用中QAQ
+08:55 < RuinlandIxa> conf年++
+08:56 < KojimaC> darkx: true
+08:56 < Neson> 跳坑 XD
+08:56 < jimmy_pan> XDDDDD
+08:56 < lu_> WW
+08:56 < BenBen> 笑聲..
+08:56 < iblis17> XDDD
+08:56 < joyqul> 他笑聲好有趣WWW
+08:56 < jam__> Xd
+08:56 < NagiYamazaki> 跳坑ww
+08:57 < freetsubasa> XD
+08:57 < BOBO_> www
+08:57 < iblis17> "跳坑之前請三思"
+08:57 < wdv> 笑聲O_O
+08:58 < Guest97207> 一定沒乖乖
+08:58 < darkx> orange_ 表示:
+08:58 < NagiYamazaki> \Orange/\Orange/\Orange/\Orange/\Orange/
+08:59 < joyqul> 乖乖可能過期了（？
+08:59 < abev66_> XD
+09:00 < jeremy5189> test
+09:00 < BenBen> 還好上次在Webconf有跟alvin拍到照
+09:00 < darkx> 我突然發現我的早餐還沒吃... T__T
+09:01 < Neson> 變電箱可能忘了放乖乖
+09:01 < Davy_> http://j.mp/sitcon2013-lunch
+09:01 < darkx> Davy_: thx
+09:02 < darkx> sitcon 和 hitcon 差一個字 lol
+09:02 < BenBen> 請勿有攻擊行為XDD
+09:02 < Inndy> XD
+09:02 < UncleHandsome> darkx: 請手下留情齁lol
+09:02 < abev66_> 只要是通電的東西都可以被黑 w
+09:02 < ShaWu_TW> 我早餐也沒吃=.=
+09:02 < rail02000> 今天有沒有人要做梗集合啊？XDDD
+09:03 < jimmy_pan> 吃了早餐還是很餓....
+09:03 < orin> 正妹座位表呢
+09:03 < darkx> rail02000: 來做阿!
+09:03 < abev66_> rail02000: GO!
+09:03 < taida957789> www
+09:03 < iblis17> pellaeon: ㄉㄉ
+09:04 < Duye> 0..0
+09:04 < pellaeon> iblis17: kerker
+09:04 < BenBen> SIT XDD
+09:04 < Inndy> 可惡今天下午有事看不到mosky大姐姐
+09:04 < RuinLand> UTF-8 here?
+09:04 < orin> SITCON當然要坐著講 lol
+09:04 < taida957789> Inndy 御姊控
+09:05 < darkx> \mosky/
+09:05 < Inndy> 明年來個STANDCON吧
+09:05 < pellaeon> RuinlandIxa: yes
+09:05 < akira02> 進個irc還要proxy(趴
+09:05 < darkx> akira02: 跳板出去外面再連 freenode?
+09:05 < orin> freenode 6697 有ssl port 不一定要跳出去吧?
+09:05 < jeremy5189> 用VPN連線Webchat後就可以關了^_^
+09:06 < abev66_> 用機器掛 lol
+09:06 < orin> 用機器掛 ++
+09:06 < jimmy_pan> 機器掛+1~
+09:06 < tsaict> machine hangin' ++
+09:06 < darkx> ++
+09:07 < BenBen> ++ ++
+09:07 < carlcarl> test~
+09:07 < taida957789> kk在嗎~
+09:07 < Davy_> 用機器+1 www
+09:07 < taida957789> 會不會等等這暫掛掉了 -3-
+09:08 < tsaict> errr...... ucimf doesn't work (sigh)
+09:08 < Inndy> kk上來會黑掉<(_ _)>
+09:09 < rail02000> https://docs.google.com/document/d/1cG74jbAnq0ueu_tIeCkGNDzmZHiXPkFvtpOifuWP8gQ/edit?usp=sharing
+09:09 < rail02000> 快速的開好了，大家來補梗吧XD
+09:09 < abev66_> Pentile
+09:09 < BenBen> XD
+09:10 < RSChiang> 各位早安！OwO
+09:10 < akira02> 梗www
+09:10 < abev66_> 任任哥早
+09:10 < darkx> 人只是個 pixel!
+09:11 < jam__> 光頭……
+09:11 < jeremy5189> Finder 一開都是區網檔案共享＝＝
+09:11 < ShaWu_TW> 光頭帥阿ww
+09:11 < jimmy_pan> XDD
+09:11 < Guest97207> 跪求正咩座位表(!?
+09:11 < KojimaC> 有在填座位表嗎XD?
+09:12 < orin> 跪求座位表++
+09:12 < NagiYamazaki> 掱一下座位表 <(_  _)>
+09:12 < akira02> 網路變得好塞呢www
+09:13 < abev66_> 有線ing
+09:13 < akira02> 有線也塞
+09:13 < RSChiang> 等等行政組會開設座位表噢XD
+09:13 < abev66_> 的確…
+09:13 < abev66_> RSChiang: 快開！！！
+09:13 < RSChiang> QQ
+09:13 < kkiick> @@~
+09:13 < Duye> QQ
+09:14 < BenBen> 有眼睛程式都寫不好 XDD
+09:14 < darkx> QQ
+09:14 < akira02> 求簡易連irc
+09:14 < abev66_> QQ
+09:14 < takeshi_tw> 有 TTU 的在嗎？
+09:14 < darkx> akira02: irssi
+09:15 < jimmy_pan> 有TSH~XD
+09:15 < takeshi_tw> wwwwww
+09:15 < Davy_> 輸入法www
+09:15 < legnaleurc> akira02: 有 Firefox 可用 Chatzilla
+09:15 < RSChiang> IRC 超過伺服器上限了，請各位用不同的 wifi 試試看
+09:15 < darkx> 推吃自己的狗食！
+09:15 < jimmy_pan> tsh->TTU裡面的高中  XDD
+09:15 < darkx> tcsh (?
+09:16 < BenBen> 繁体中文是弱势语言
+09:16 < Petrova> chinese traditional 是弱勢語言
+09:16 < darkx> 有線也悲劇++ ... 連 speedtest.net 都連不上 *哭*
+09:16 < Neson> 要說正體中文
+09:16 < Davy_> 繁体中文是简体中文的方言
+09:16 < jimmy_pan> MIC沒聲音..
+09:16 < legnaleurc> 3G 難得能用，不過我好像還是看到有人開熱點
+09:17 < dylandy> 狀況好多
+09:17 < RSChiang> 太多人了XD
+09:17 < Davy_> 该吃到饱了
+09:17 < Duye> 消音？
+09:17 < ShaWu_TW> 有人開嗎
+09:17 < orange_> Q Q
+09:17 < orange_> 中槍
+09:18 < davidou> 網路似乎不快
+09:18 < Davy_> 超慢
+09:18 < takeshi_tw> 顧會議室 ing....., 話說開幕有報什麼梗嗎？
+09:18 < takeshi_tw> orange 可以幫忙通一下網路嗎 XDDDDDD
+09:18 < jimmy_pan> http://www.speedtest.net/result/2577017754.png
+09:18 < BenBen> XD
+09:18 < Davy_> takei__tw: https://docs.google.com/document/d/1cG74jbAnq0ueu_tIeCkGNDzmZHiXPkFvtpOifuWP8gQ/edit
+09:18 < RSChiang> MouseM$ XD
+09:18 < jimmy_pan> upload 66M @@
+09:19 < orange_> @@ 用自己的3G
+09:19 < orange_> 就可以上網囉^_^
+09:19 < takeshi_tw> XD
+09:19 < Davy_> orange_: QQ
+09:19 < carlcarl> orz
+09:19 < takeshi_tw> Davy_:thanks
+09:19 < orange_> ^_^
+09:19 < legnaleurc> orange_: reallyyyy useful lol
+09:20 < threelines> 辦不起3G阿阿阿阿阿阿阿阿阿阿阿阿Orz
+09:20 < orange_> 那我share給你你敢用嗎
+09:20 < takeshi_tw> 我剛剛竟然對者網頁版的 IRC 按下了 ^L....
+09:20 < orange_> ＸＤ
+09:20 < Davy_> www
+09:20 < jimmy_pan> www
+09:20 < Davy_> orange_: 敢（？
+09:20 < takeshi_tw> share會發生什麼是嗎 XDDD？
+09:20 < threelines> ....................
+09:21 < jimmy_pan> 封包側錄XDDDDDDD
+09:21 < dylandy> orange GJ
+09:21 < BenBen> 「請勿開啟WIFI AP干擾，請勿做出任何攻擊行為」
+09:21 < ShaWu_TW> www
+09:22 < takeshi_tw> 讓我想到之前 Denny 有用過的梗，『如果把伺服器上的乖乖拿走，就算是攻擊伺服器的行為喔』 XDDD
+09:22 < jimmy_pan> www
+09:22 < orin> 乖乖 (汗
+09:22 < threelines> XDDD
+09:23 < joyqul> XDDD
+09:23 < freetsubasa> XD
+09:23 < BOBO_> 拍拍XD
+09:23 < BOBO_> 拍拍XD
+09:25 < Vongola> 想說用SSH出去在連，結果6667被擋了= ="
+09:25 < darkx> 連 mosh 出去都不穩 ...QQ
+09:26 < RSChiang> QQ
+09:26 < legnaleurc> 怎麼好像前面的位置沒插座 ...
+09:27 < kkiick> haha 我隔壁的電話講到resping
+09:27 < sitcon-service> hello~
+09:28 < RuinlandIxa> DHCP依舊爆炸中，wifi也癱了QQ
+09:29 < NagiYamazaki_2> 只能用3G了嗎 Q_Q
+09:29 < jimmy_pan> 網路GG了= =
+09:29 < jimmy_pan> 3G模式啓動.......
+09:30 < RSChiang> 一排幾個座位可以幫我算一下嗎orz
+09:30 < legnaleurc> AoE 啦！
+09:30 < jimmy_pan> 左邊5個
+09:30 < NagiYamazaki_2> 3+6+3
+09:30 < orange_> ssh reverse tunnel 囉XD
+09:30 < NagiYamazaki_2> 不對 我看錯了QQ
+09:30 < jimmy_pan> 中間7個
+09:30 < jimmy_pan> 右邊看不到= =
+09:31 < NagiYamazaki_2> 右5
+09:32 < jimmy_pan> 收網路線ing~
+09:33 < andy> 終於上來了@@
+09:33 < StoneSound> TAT剛不小心斷線了....
+09:34 < jimmy_pan> wwwww
+09:34 < carlcarl> 有看過這張圖XD
+09:34 < RSChiang> 0.0
+09:34 < NagiYamazaki_2> XDD
+09:34 < Tabris> 裝飾用的吧www
+09:35 < jimmy_pan> 炒股票用lol
+09:35 < RuinlandIxa> 看到一堆timed out XDDDD
+09:35 < jimmy_pan> XD
+09:35 < benben1> irc外哀嚎
+09:35 < jimmy_pan> (改用3G中~
+09:36 < carlcarl> QQ
+09:36 < NagiYamazaki_2> 3G安定
+09:36 < null3> 3G +1
+09:36 < RSChiang> QQ
+09:36 < ClarenceLin> 3g +1
+09:36 < RuinlandIxa> 3G++ , 系上有工作站的可以掛著就是
+09:36 < Barry> 悲劇
+09:37 < StoneSound> 學長好XDD
+09:37 < taichunmin> 終於可以連上 IRC 了
+09:37 < hashman_> @@
+09:37 < carlcarl> 好慢QQ
+09:37 < RSChiang> 座位表好囉 http://goo.gl/CLpQz
+09:38 < jimmy_pan> 掛機器+tmux+irssi -> 不怕斷線XDD
+09:38 < KojimaC> ++
+09:38 < KojimaC> 但是連不上網路也連不上機器XDrz
+09:38 < carlcarl> 嗯？從本機連irc好像就OK了 我連外面+tmux 好慢
+09:38 < jimmy_pan> 座位表我第一ya~
+09:39 < skystar> 用了3G才進來，LAN一直說too many user
+09:39 < Guest70210> +0
+09:39 < Guest70210> +1
+09:39 < StoneSound> 座位表塞車= =
+09:39 < davidou> 慢慢慢
+09:39 < carlcarl> 話說我是用itaiwan 現在還OK
+09:40 < Vongola> iTaiwan有點LAG
+09:40 < StoneSound> iTaiwan還是很慢= =....
+09:41 < BenBen> 大家現在都在忙處理網路
+09:41 < carlcarl> 網頁是有點慢 不過我irc是還好
+09:41 < carlcarl> xp
+09:42 < legnaleurc> 一半都是 login/logout 訊息
+09:42 < jimmy_pan> XD
+09:42 < RuinlandIxa> 等價交換XDD
+09:43 < legnaleurc> 包大人 ...
+09:43 < RSChiang> staff網路爆了我也在用iTaiwan orz
+09:43 < StoneSound> 話說....講義在哪= =
+09:43 < jimmy_pan> 袋子..
+09:43 < carlcarl> 是說之前迷路迷好久才到會場orz
+09:44 < BenBen> 現在在線上的都是用3G ?
+09:44 < andy> 座位表數字有反嗎?
+09:44 < jimmy_pan> 3G+1
+09:44 < legnaleurc> 3G
+09:44 < Jeffrey_tw> 3G+1
+09:44 < jam__> 3G
+09:44 < carlcarl> 我用itaiwan wifi
+09:44 < jimmy_pan> 座位表數字反了..
+09:44 < NagiYamazaki_2> 3G+1
+09:46 < fntsrlike> 座位表網址?
+09:46 < timc>  http://goo.gl/CLpQz
+09:47 < fntsrlike> THX
+09:47 < hashman__> test
+09:48 < carlcarl> test
+09:48 < skystar> 自己填表?
+09:49 < legnaleurc> 好像不錯耶
+09:49 < jimmy_pan> YES~
+09:49 < StoneSound> 當然（難怪Google他Buffer了那麼久....）
+09:50 < BenBen_> 有線網路好了嗎 ?
+09:50 < jimmy_pan> 好像還沒...
+09:51 < kuniumi> 3G通常運轉中....
+09:51 < fntsrlike> 3G ING
+09:51 < darkx> 網路整個爛了... Orz
+09:51 < darkx> 3G ++
+09:52 < legnaleurc> 所以是在場的幾乎是外部 server 掛進來的嗎？
+09:52 < Guest97207> 中華3G正常運轉中~~
+09:52 < hashman__> test
+09:52 < taichunmin> 忘了帶 Micro USB 線，有誰有多帶的嗎XD
+09:52 < BenBen_> 3G 台鴿
+09:52 < darkx> legnaleurc: Y
+09:52 < jimmy_pan> 我只有多帶充電用的
+09:52 < legnaleurc> darkx: got it
+09:52 < jimmy_pan> 外部server+1
+09:52 < kuniumi> 有座位表嗎(敲碗
+09:53 < taichunmin> 我帶的也是只能充電用 整個悲劇QAQ
+09:53 < legnaleurc> DennyHuang: 可以把座位表放在 title 嗎？
+09:53 < carlcarl> orz
+09:53 < NagiYamazaki_2> http://goo.gl/CLpQz
+09:53 < legnaleurc> http://goo.gl/CLpQz
+09:53 < taichunmin> http://goo.gl/CLpQz
+09:53 < RSChiang> ＜notice＞目前大會網路斷線，請各位切勿使用SITCON網路P2P!
+09:54 < akira02> 台灣大哥大3G
+09:54 < legnaleurc> 網路斷掉的基本也看不到這訊息 lol
+09:54 < BenBen_> +1 考克漏字填充很鳥
+09:54 < jimmy_pan> 台灣大哥大3G+1
+09:54 < skystar> 有人知道pure data 環境設定點進去是怎麼一回事嗎...
+09:55 < carlcarl> P2P...
+09:55 < andy> 片子連二拉二@@
+09:55 < NagiYamazaki_2> 台哥大3G+1
+09:55 < dylandy> I,m a horny person XD
+09:55 < StoneSound> 英文!!（盲點突破）
+09:55 < jimmy_pan> 問一下irc要怎麼tag別人
+09:55 < BenBen_> 座位表有兩個 7 ?
+09:55 < darkx> jimmy_pan: 樣
+09:56 < legnaleurc> jimmy_pan: 打 id 按 tab?
+09:56 < jimmy_pan> legnaleurc: 3Q~
+09:56 < jimmy_pan> darkx: 3Q~~
+09:56 < akira02> 總覺得學網問題很多啊...
+09:57 < Tabris> 我太太的先生是誰呀= =
+09:58 < ShaWu_TW> 我太太的先生=.=
+09:58 < jimmy_pan> wwww
+09:58 < legnaleurc> 好奇 +1
+09:58 < Petrova> orange_:
+09:58 < BenBen> 我太太的先生?
+09:58 < StoneSound> ?!
+09:58 < kuniumi> XD
+09:59 < rossy> DennyHuang: wwwww
+10:00  * darkx 想要賣雞排  QQ
+10:00 < fntsrlike> 我餓了...
+10:00  * legnaleurc 剛好肚子餓
+10:00 < NagiYamazaki> 餓了+
+10:00 < fntsrlike> 100步內有商店嗎
+10:01 < darkx> fntsrlike: 沒吃早餐啊  Q_Q
+10:01 < rossy> ww手冊裡面有地圖
+10:01 < ShaWu_TW> 我還沒吃早餐阿=.=
+10:01 < BenBen> 我需要美食地圖！！！
+10:01 < StoneSound> 賣雞排有更強大的對手（誤!!）
+10:01 < jimmy_pan> 好餓+1
+10:01 < legnaleurc> 原本以為學校附近都有，結果沒找到
+10:01 < fntsrlike> 利馬翻手冊
+10:01 < ShaWu_TW> 還沒吃早餐阿
+10:01 < WWSJ> 求午餐連結QQ
+10:01 < rossy> 超簡略的手冊ˊ_>ˋ
+10:01 < sii_> 校園內有711和學餐
+10:02 < legnaleurc> 沒拿到手冊 lol
+10:02 < akira02> 可以團購外送嗎(?
+10:02 < rossy> 全家+學生餐廳ww
+10:02 < jimmy_pan> 昨天腳扭到....現在腳好痛-.-
+10:02 < fntsrlike> 711!!!!
+10:02 < Yuan> hello world!
+10:02 < legnaleurc> 十分鐘而已 ...
+10:02 < NagiYamazaki> WWSJ: 午餐 http://goo.gl/HQiFo
+10:02 < andy> 小七和全家那個比較近?
+10:02 < davidou> 小七在地下室 要去地下室買 隔壁棟而已
+10:02 < KojimaC> 講一講都餓了XDrz
+10:02 < rossy> 只看到地圖有全家而已...
+10:03 < RuinlandIxa> 有小7????
+10:03 < ShaWu_TW> 最近有第三餐廳?
+10:03 < Barry> http://goo.gl/ILJq9    -   地圖快搜－iPeen愛評網
+10:03 < Petrova> 有小7
+10:03 < andy> 另外一條路線
+10:03 < Petrova> 走出這棟建築物後往右走
+10:03 < RuinlandIxa> 我剛被警衛阿伯騙去全家
+10:03 < rossy> 在右上角= =||
+10:03 < fntsrlike> 六點就吃早餐了，現在剛好餓XD
+10:03 < RuinlandIxa> 超遠Orz
+10:03 < ShaWu_TW> 小七最近把ww
+10:03 < jimmy_pan> 一直跳lol
+10:03 < fntsrlike> 會內網路開始正常呃嗎
+10:03 < fntsrlike> 感覺人便嗚了
+10:03 < fntsrlike> 變多
+10:03 < legnaleurc> 是大家都餓了 lol
+10:04 < jimmy_pan> legnaleurc: XDD
+10:04  * darkx 還是沒辦法用會內網路QQ
+10:04 < RuinlandIxa> 嘛......吃完三名治還是會餓QAQQQ
+10:04 < fntsrlike> XD
+10:04 < timc> 30度XDD
+10:04 < timc> -30度XDD
+10:04 < RuinlandIxa> 會場外在擺點心了
+10:04 < andy> 等一下要搶便利商店了@@??
+10:05 < fntsrlike> 搶小七
+10:05 < fntsrlike> 點心!!!
+10:05 < rossy> OqO~
+10:05 < rossy> 點心!!!!!!!!!!!!!!!!!!!!!!!wwww
+10:05 < jimmy_pan> 早知道早上先買好..
+10:05 < RuinlandIxa> ji3
+10:06 < carlcarl> 點心？
+10:06 < BenBen> 等等揪團 7-11?
+10:06 < legnaleurc> comment: 閒置測試
+10:06 < jimmy_pan> BenBen: +1 XD
+10:07 < RSChiang> SITCON-IB網路還穩定嗎？
+10:07 < rossy> 7-11外送!?
+10:07 < freetsubasa> rossy: 不穩QQ
+10:07 < skystar> 中華3G也開始卡了...
+10:07 < rossy> QAQQQ
+10:07 < rail02000> 終於從itaiwan連上了orz
+10:07 < davidou> 隔壁棟大門有小七的旗幟 走進去後他在後門出去的地下室那邊（等同要穿過那棟大樓）
+10:11 < BenBen> 真的餓了><
+10:11 < legnaleurc> 小七團
+10:11 < fntsrlike> 餓到頭昏了O_Q
+10:11 < sitcon-service> 101外的點心快要就緒囉 0///0
+10:11 < skystar> 有人知道pure data的環境設定是怎麼一回事嗎...?
+10:12 < RSChiang> ping sitcon-service!
+10:12 < darkx> (mmm)
+10:12 < jimmy_pan> skystar: ?
+10:12 < StoneSound> Google教學筆記找環境中....
+10:12 < legnaleurc> 不是 honki 會上 Pure Data 嗎？
+10:12 < RuinlandIxa> 看了看議程，我應該會在101廳待一整天@@
+10:12 < fntsrlike> 早茶TIME!!!!!
+10:12 < rail02000> 喔喔，有點心啊 (woot)
+10:12 < ShaWu_TW> 早茶
+10:12 < jimmy_pan> 早茶time~~
+10:13 < NagiYamazaki> 早茶Get
+10:13 < rossy> ww
+10:13 < skystar> 之前信件說的...  http://goo.gl/sgIp   <-?
+10:13 < skystar> 我點進去是俄文...
+10:13 < sitcon-service> skystar:不好意思網址有少一碼QQ
+10:13 < skystar> @@
+10:14 < sitcon-service> http://goo.gl/sgIp5
+10:14 < skystar> ok  thx
+10:14 < RSChiang> 快去搶點心噢OwO/
+10:15 < rossy> ˊ_>ˋ吃過早餐的表示：
+10:15 < BenBen> 7-11 團在哪裡集合?
+10:23 < NagiYamazaki> 早茶人好多 Q_Q
+10:29 < Davy_> 我覺得iTaiwan馬上就要被灌爆了(ry
+10:29 < Benben> 茶點盤子都空了qq
+10:29 < Davy_> 大家超快的啊wwww 點心永遠不夠www
+10:30 < kikiqqp_No2> 安靜
+10:30 < kikiqqp_No2> iTAIWAN已經被爆破了
+10:31 < Davy_> wwwwww
+10:31 < neson> www
+10:32 < carlcarl> test~~~
+10:32 < jimmy_pan> test
+10:32 < carlcarl> itaiwan ing
+10:32 < hashman_-> disconnect irc.freenode.net
+10:32 < jimmy_pan> 跑去搶早茶結果腳好痛更痛...
+10:34 < carlcarl> 本來以為沒東西吃 還不錯~
+10:34 < Benben> 只搶到奶油
+10:35 < carlcarl> 有水果的那個不錯吃~
+10:35 < davidtank> 蛋塔GJww
+10:35 < StoneSound> 蛋糕www
+10:36 < davidtank> 水果(??)
+10:36 < zootim11pc> 大家好，我是小俊這樣。
+10:36 < carlcarl> 好強大的感覺
+10:36 < davidtank> 您好~
+10:36 < Benben> D-CUP
+10:36  * jserv-- is up.
+10:37 < rail02000> 點心感覺不錯XD
+10:37 < fntsrlike> 點心好吃
+10:37 < jimmy_pan> 這裡有高中生嗎@@?
+10:37 < jserv--> http://0xlab.org/~jserv/tmp/sitcon2013.pdf # SITCON 2013 Keynote 簡報檔案
+10:37 < freetsubasa> 有吧
+10:37 < carlcarl> 我高中連helloworld都還不會= ="
+10:38 < Benben> 國中 ._.
+10:38 < davidtank> 這裡有女生嗎QAQQ
+10:38 < jserv--> 可以介紹四個姊姊給我同事認識嗎？ XD
+10:38 < jimmy_pan> Benben: 真的假的國中@@
+10:39 < Benben> 假的 XD
+10:39 < carlcarl> =.=
+10:39 < jimmy_pan> Benben: -.-
+10:39  * darkx 心智年齡還是國中 (扭
+10:39 < Benben> >.<
+10:39 < jimmy_pan> XDD
+10:40 < Benben> 心智年齡 +1
+10:40 < darkx> Benben: 比我大一歲的意思嘛XDD
+10:40 < Benben> 「希望可以合作^^」
+10:40 < jimmy_pan> 人身黑暗就像投影片一樣lol
+10:41 < davidtank> 黑幕
+10:41 < StoneSound> 萬惡的瀏覽器....
+10:41 < jserv--> C 語言才是王道！
+10:41 < skystar> pure data好像人不多@@
+10:41 < darkx> jserv--: ++
+10:42 < StoneSound> C語言阿XDD
+10:42 < Benben> 高三 +1
+10:42 < jserv--> 會寫 code 就像正妹
+10:42 < davidtank> 好多正妹~
+10:43 < RSChiang> IRC 好安靜ORZ
+10:43 < legnaleurc> 網路悲劇 lol
+10:43 < jserv--> 一天 16 個小時 coding!!!
+10:44 < zootim11pc> 很多大大在這邊的意思
+10:44 < neson> 網路 GG ...手機ing
+10:44 < akira02> 終於連上網了(抹臉
+10:44 < Inndy> 橘子大大跟是方發爐事件被爆出來，所以弄壞會場網路（刪除線
+10:44 < StoneSound> Coding王道XDD
+10:45 < rail02000> 用itaiwan勉強撐著
+10:45 < akira02> 台哥大現在訊號很差...USB接電腦驅動又有問題ww
+10:45 < Benben> akira02: 驅動問題 +1 XDD
+10:46 < jimmy_pan> akira02: 我的台哥大蠻順的@@
+10:46 < kuniumi> USB接電腦有問題+1 (with android 2.3.6)
+10:46 < Benben> 吃過D咖
+10:46 < legnaleurc> 煙酒生不是人 QQ
+10:47 < freetsubasa> 不是大學生哭哭Q＿Q
+10:47 < akira02> 高中：QAQ
+10:47 < jimmy_pan> 高中生哭哭QAQ
+10:47 < legnaleurc> 生態跟 O2 板一樣嗎？XD
+10:47 < Benben> 台鴿大 + Android 4.1.1  驅動問題
+10:47 < StoneSound> 高中生不用急~~，其實我是大學生（遭毆
+10:48 < kuniumi_> (高中生路過
+10:48 < Benben> 高中生 +1
+10:48 < RSChiang> 網路還在排解中orz
+10:48 < akira02> 高中+1
+10:48 < Benben> 戴面具，上面是彩色 有羽毛的那種
+10:48 < freetsubasa> 高中生++
+10:48 < RSChiang> 好多高中生XD
+10:48 < jserv--> 「好吧，我撥了一週來寫」
+10:49 < darkx> 面具舞會.. Psycho Pass 嘛XD   不想被公安局抓啊QQ
+10:49 < jserv--> 「做出使用者比自己更加熱愛的產品，是一件幸福的事情」
+10:49 < akira02> 要請傑克森來保安
+10:49 < rail02000> 工作人員辛苦了
+10:49 < Benben> 「不要錢 不要臉」 - alvin woon
+10:49 < kikiqqp_No2> 過期好久的大學生(遠目)
+10:49 < fntsrlike_> 快過期的大學施
+10:49 < jserv--> 「你從來不知道哪一件事情會成功，只能每件事都用 120 分來作」
+10:49 < fntsrlike_> 生
+10:50 < legnaleurc> 自已幹出來是一回事，有沒有人用又是一回事 QQ
+10:50 < Benben> 樓上很悲劇？　
+10:50 < akira02> （拍拍
+10:50 < legnaleurc> 悲劇啊 XD
+10:50 < clkao> jserv--!
+10:51 < clkao> jserv--: Thatcher quote 有原文嗎？找了找好像只看到 imdb quote.. 會不會只有電影中有 :p
+10:51 < StoneSound> 去ZeroJudge自High中....
+10:51 < kkiick> 幼稚園路過@@
+10:51 < fntsrlike_> 路見不平，打code相助！
+10:52 < iblis17> fntsrlike_: (Y)
+10:52 < fntsrlike_> 推 Web Design 去幫助別人
+10:52 < carlcarl> 推~
+10:53 < neson> web design 大推
+10:53 < StoneSound> 推倒Web Design~~（咦!!）
+10:54 < Benben> 線路網路正常了嗎?
+10:54 < iblis17> orange_: 我到了[A[A[A[A[A[A11:00 < fntsrlike_> 路見不平，打code相助！
+10:54 < akira02> service www
+10:54 < ClarenceLin> 網路網路 -0-
+10:54 < akira02> 辛苦了www
+10:54 < fntsrlike_> 其實麥克風被拍、打、吹都滿傷的...
+10:54 < kikiqqp> 至少自己幹出來過....比不做好
+10:54 < legnaleurc> live demoooooooo!!!!!!!!
+10:54 < sitcon-service> hello ˙˙//
+10:55 < RuinlandIxa> Transformer 表示悲劇......xda提供的driver葛屁中
+10:55 < Benben> bug也可以變規格?
+10:55 < NagiYamazaki> 「只要夠會講，Bug也可以變規格」wwwww
+10:55 < RuinlandIxa> programmer十大藉口
+10:55 < carlcarl> XDDD
+10:55 < kikiqqp> 歐歐歐 講者好像在PTT ASM版問過問題 XD
+10:55 < legnaleurc> 不會要來推 never live demo 了吧？ XD
+10:55 < ShaWu_TW> Never live demo   ??
+10:55 < RuinlandIxa> 這不是bug，這是feature
+10:56 < darkx> it runs on my machine!
+10:56 < ShaWu_TW> 有默契XD
+10:57 < darkx> 單車行車記錄器(誤
+10:57 < jserv--> 這個講者讓我很舒服，一開始就給 code!!!
+10:57 < fntsrlike_> >> docs.google.com/document/d/1cG74jbAnq0ueu_tIeCkGNDzmZHiXPkFvtpOifuWP8gQ/edit?usp=sharing … #SITCON 梗全集，請大家幫忙補完
+10:57 < akira02> 單車裝置續航力詳細希望
+10:57 < StoneSound> 我可以要他的Code嗎ww
+10:57 < carlcarl> 好像沒Q&A時間?
+10:57 < jserv--> 台師大游泳校隊四年
+10:58 < RuinlandIxa> 這講者之前在Ptt Tech_Job發過問題......
+10:58 < kikiqqp> 恩....有水下攝影機嗎？
+10:58 < legnaleurc> Q&A 好像都沒什麼問題 ...
+10:58 < akira02> Xperia防水系列
+10:58 < Benben> 樓上XDD
+10:58 < jserv--> 可以自動拍正妹的 BP，我們想投資
+10:58 < kikiqqp> :D
+10:59 < akira02> 求計算正妹的方程式www
+10:59 < fntsrlike_> 梗全集縮網址：http://goo.gl/PkqRs
+10:59 < kikiqqp> 超貴
+11:00 < jserv--> 滿足技術狂+++
+11:00 < darkx> jserv--: 印象中你說過你上學期的課有人土砲自動雲台?
+11:00 < jserv--> darkx, http://wiki.csie.ncku.edu.tw/embedded/team2012 #
+11:00 < kikiqqp> 之前好像有人推過所謂臉部正妹的方程式，不過我認為不準，因為只有臉.....身材也是很重要的參數的！
+11:00 < darkx> :D
+11:01 < Neson_> \網路/
+11:01 < akira02> 身材wwww
+11:01 < AnonyGuyFawks> www.ptt.cc/man/Tech_Job/DB04/D742/D829/M.1357921356.A.548.html
+11:01 < legnaleurc> VirtualStudio
+11:02 < Benben> 正妹是免費的\
+11:02 < sitcon-service> 呼叫大眼葛格，你的badge在服務台，快來找我們唷^_<
+11:02 < darkx> XDDDDDDD
+11:02 < kikiqqp> 現在好幸福，以前電腦視覺不是自己寫就是要買貴貴的Lib
+11:02 < carlcarl> XDD
+11:02 < kuniumi_> \網路能用了/
+11:03 < RSChiang> SITCON-IB101能用囉OwO/
+11:03 < jserv--> 自幹才是王道
+11:03 < Davy_> wow
+11:03 < akira02> RCX呢w
+11:03 < jserv--> 我連 C++ 都不會，還是活得好好的 :)
+11:03 < Davy_> jserv--: 自己幹正妹(?
+11:03 < sitcon-service> test
+11:03 < Benben> 剛剛大家是蛤一聲嗎
+11:03 < kikiqqp> 可是....我連JAVA都不會
+11:03 < carlcarl> 突然結束@@a
+11:03 < Davy_> 是哈XD
+11:04 < sitcon-service> \網路正常了/\網路正常了/\網路正常了/
+11:04 < zootim11pc> 「謝謝大家」 XD
+11:04 < NagiYamazaki> 這個桌面...wwwww
+11:05 < darkx> XDDDDD
+11:05 < zootim11pc> 故意的嗎 xD
+11:05 < akira02> 野生的島民www
+11:05 < kuniumi_> --我論螢幕攝版的可能性--
+11:05 < jserv--> 調整尺度
+11:05 < StoneSound> i5舉手~~
+11:05 < Benben> [LVE]
+11:05 < Benben> LIVE
+11:05 < zootim11pc> 人臉
+11:06 < zootim11pc> 據說，網路好了，誰進去看看
+11:06 < yuan817> 網路終於能用了......
+11:06 < kikiqqp> 咧
+11:06 < Petrova> 有線網路可以用了?!
+11:06 < jeremy5189> open source face detection algorithm 有哪些呀？
+11:07 < Vongola_> j網路OK
+11:07 < Chunyou> （灑花）
+11:07 < Davy_> 恭喜XD
+11:07 < darkx> 有線還是 (fuuuuuuuuuu)  :\
+11:07 < jserv--> 有人可以幫忙問，辨識正妹人臉有什麼該注意的？
+11:07 < Benben> test
+11:08 < sii_> 有線網路可以用摟!!
+11:08 < yuan817> 我是元兒～，期待能認識大家XD (雖然太晚說了
+11:08 < zootim11pc> 看到水果
+11:08 < davidou> 注意是不是複製人
+11:08 < Petrova> 鍾國亮@@
+11:08 < kikiqqp> 要能辨識和自動處理卸妝後長相
+11:08 < zootim11pc> 網路來了好像冷氣來了的感覺一樣。
+11:08 < joyqul> 有網路了OTZ
+11:08 < orange_> XDDDDDD
+11:08 < orange_> 我超愛鐘老師的
+11:09 < darkx> wired 還是連不上QQ
+11:09 < Benben> 網路來了就跟PTT開機了一樣
+11:09 < jserv--> 數學＋＋＋＋
+11:09 < NagiYamazaki> Benben: 同意
+11:09 < zootim11pc> 人臉真的夠嗎？
+11:09 < kikiqqp> WII和XBOX不是人臉呦
+11:09 < hashman--> orange: 因為鐘老師給你過對吧/flee
+11:09 < jserv--> 從手中建構起來，是非常浪漫的事
+11:10 < orange_> (Y)
+11:10 < hashman--> orange: 我都不知道我那顆怎麼過的...
+11:10 < Guest22399> 網路終於復活了(反應慢半拍?)
+11:10 < StoneSound> 電機系的必修@_@
+11:11 < Petrova> hashman--: 別再表他了，他今天超可憐的~
+11:11 < terry_> 大家安安
+11:11 < jserv--> clkao, 我只記得電影有 :)
+11:11 < jserv--> 體態與技巧
+11:12 < carlcarl> 好恐怖的提問XD
+11:12 < kikiqqp> 骨架分析比較適合用Micrcsoft的某個玩意
+11:12 < kikiqqp> 很實際的問題
+11:13 < terry_> 哦~
+11:13 < Benben> <del> zeiss lens </del>
+11:13 < kikiqqp> 阿 拼錯
+11:13 < StoneSound> 感覺漸漸踏入恐怖的商業面了....
+11:14 < jserv--> PID control 都出現了！
+11:14 < Benben> 可以講中文嗎?
+11:14 < RSChiang> <行政組公告> 大會網路已暢通，請將所有AP關閉噢
+11:14 < Neson_> 睡覺去
+11:14 < carlcarl> 聽不懂XD
+11:14 < zootim11pc> 肚子餓了
+11:15 < RuinLAND> 可以用步進馬達?
+11:15 < dylandy> 積分@@
+11:15 < zootim11pc> @@
+11:15 < killtw> 他們講的是中文嗎？
+11:15 < freetsubasa> @@
+11:15 < null0> 微積分 (暈
+11:15 < NagiYamazaki> ....跪求翻譯蒟蒻
+11:15 < deus_> 好犀利@@
+11:15 < RuinLAND> nice strike
+11:15 < Benben> 徵西班牙文翻譯一名
+11:15 < jserv--> 火星文翻譯中
+11:16 < legnaleurc> 有 PID 會比較省電？
+11:16 < kikiqqp> 不會
+11:16 < jserv--> http://en.wikipedia.org/wiki/PID_controller
+11:16 < StoneSound> 感覺聽得懂一半（後半段....）
+11:16 < kikiqqp> 但比較像人在看東西
+11:17 < Neson_> 移動會比較 Smooth?
+11:17 < akira02> 對
+11:17 < rail02000> End-User聽不懂QQ
+11:18 < kikiqqp> 至於慢，我覺得是可以討論，因為我做過1024*768黑白 5FPS，在設計上的門檻除了演算法外，而是該死的傳輸
+11:19 < legnaleurc> 能壓縮嗎？
+11:19 < kikiqqp> 但他的影像已經快了，應該是演算法要好好重新推導簡化看看，不過光推導這也不到正妹呀 orz
+11:19 < jimmy_pan> wwww
+11:19 < dylandy> wwwwwww
+11:19 < NagiYamazaki> XDDDD
+11:20 < darkx> 推吃自己的狗食!
+11:21 < legnaleurc> 我在吃自已的狗屎
+11:21 < kikiqqp> PID = Kp * Error(誤差) + Kd * Error_Diff(誤差變化量) + Ki * Error_Sum(累積誤差)
+11:21 < legnaleurc> who am I? I am spider man!
+11:21 < Petrova> ie 10?
+11:21 < darkx> legnaleurc: ++
+11:21 < jimmy_pan> wwwwwwwwwwwwww
+11:21 < dylandy> XDDDD
+11:21 < NagiYamazaki> "您尚未連線到網路"
+11:21 < legnaleurc> 悲！！劇！！
+11:21 < kikiqqp> 悲劇了
+11:21 < freetsubasa> XDDD
+11:21 < Benben> 超尷尬XDD
+11:21 < s3131212> j網路大悲劇
+11:22 < StoneSound> 剛又被ISP甩出去了www
+11:22 < kikiqqp> 這時候告訴我們......記得先架在自己的電腦上
+11:22 < s3131212> 恩
+11:22 < Chunyou> XDD
+11:22 < s3131212> 還有要記得保存快取
+11:23 < legnaleurc> python -m SimpleHTTPServer
+11:23 < kikiqqp> 番薯藤音樂搜尋？
+11:23 < Petrova> youtube + JDownloader
+11:23 < kikiqqp> 其實.....我想睡了 orz
+11:24 < StoneSound> http://ytinstant.com/
+11:24 < legnaleurc> 可能節奏比較慢
+11:24 < legnaleurc> 一直被 channel 裡的 Guest* ping ...
+11:24 < kikiqqp> 百度一下(被打)
+11:25 < jimmy_pan> youtube + clip.dj ~
+11:26 < legnaleurc> 又發生自殺潮了
+11:26 < carlcarl> @@a
+11:26 < NagiYamazaki> XDDD
+11:26 < Benben> 寫過類似的@@
+11:26 < legnaleurc> tempo 可以再快個 0,5 倍左右
+11:26 < StoneSound> 我想寫GUI程式wwwww
+11:27 < rail02000> 其實我都是在nicovideo上找歌，所以可以loop（遮面）
+11:27 < freetsubasa> legnaleurc: 真。高橋流的話這樣似乎節奏有點慢?
+11:27 < legnaleurc> tag 作業用 BGM
+11:27 < Benben> 999清除 cookies 就可以了
+11:27 < carlcarl> 講話有點慢~~
+11:27 < StoneSound> nicovideo+1
+11:27 < orange_> 現在好像不太行
+11:27 < orange_> 999
+11:27 < andy> 還有弹幕
+11:27 < ShaWu_TW> 作業用 BGM WW
+11:27 < carlcarl> nico++
+11:27 < legnaleurc> freetsubasa: 主要是會停頓
+11:27 < freetsubasa> agree :\
+11:28 < kikiqqp_No2> 慢活
+11:28 < StoneSound> 10小時的pika pika~~
+11:28 < orange_> XDDDDD
+11:28 < timc> 聽英文歌的話 grooveshark 也不錯
+11:28 < orange_> 10小時的pikapika很洗腦
+11:28 < rail02000> XDD
+11:28 < orange_> 之前熬夜會放來聽
+11:28 < orange_> 還有圓周率
+11:28 < orange_> ＸＤＤＤ
+11:28 < darkx> 10hr nyan cat!
+11:29 < freetsubasa> grooveshark ++
+11:29 < ShaWu_TW> lol 10hue nyan cat
+11:29 < rail02000> 我會loop藍藍路來洗腦（喂
+11:29 < legnaleurc> 等下如果我的 browser history 出現怪怪的網站請勿驚訝 XD
+11:30 < deus_> 流量過大@@
+11:30 < davidou> 竟然還斷線 囧
+11:30 < Benben> 舉牌xd
+11:30 < RSChiang> 藍藍路OwO/ 請多使用有線網路噢
+11:30 < jimmy_pan> 三大賣點重點是不用錢XDD
+11:30 < Chunyou> 其實Grooveshark中文歌也不少了OAO
+11:30 < legnaleurc> 第一個被按鈴的嗎？
+11:30 < kikiqqp_No2> N年當機前還很貼心的自動關機是怎樣
+11:30 < AnonyGuyFawks> youtuberepeat......
+11:31 < davidou> 前兩牌桌上沒有網路孔  看來下午要坐到後面一點
+11:31 < legnaleurc> 也沒電源呦 XD
+11:31 < darkx> hinet www
+11:31 < StoneSound> 和風信使XDDDD
+11:32 < davidou> 我地上是有發現網路孔啦 可是連到別的地方去 我要是拔起來我想應該會有人的有線網路會被我斷...
+11:32 < carlcarl> 我覺得那電源插座有點難插orz
+11:32 < andy> 和風信使XDDD
+11:33 < eric____> HelloWorld
+11:33 < zootim11pc> 小小聲
+11:33 < Riko_> 沒聽到歌
+11:33 < kikiqqp_No2> 電源難用+1
+11:33 < ClarenceLin> 電源 插不到 ~"~
+11:33 < fntsrlike_> 開始想中午要吃什麼...
+11:34 < Davy_> 肚子餓 +1
+11:34 < Neson_> 電源難用，還好有自備延長線
+11:34 < jimmy_pan> 自備延長線+1
+11:34 < davidou> try{ connect network=null;]catch(Exception e){ break;}
+11:34 < zootim11pc> 推薦附近吃的？
+11:34 < Davy_> 有沒有人推薦還是要組團去吃午餐的?
+11:35 < kikiqqp_No2> 我....延長線插不進去 哭
+11:35 < Davy_> 順便認識一下各位大大>"<
+11:35 < s3131212> 悲劇....
+11:35 < RuinLAND> CACACACACA
+11:35 < kuniumi_> 原來已經中午了...(看議程
+11:35 < RSChiang> 午餐資訊 http://j.mp/sitcon2013-lunch
+11:35 < carlcarl> 電源插不進去++
+11:35 < carlcarl> XDDD
+11:35 < darkx> localhost 王道++
+11:35 < RuinLAND> \CA/\CA/\CA/\CA/\CA/\CA/\CA/
+11:35 < jimmy_pan> 中午想去mos..
+11:35 < kuniumi_> localhost wwwwwww
+11:35 < Benben> 果然localbost 是王道 XDD
+11:36 < legnaleurc> slide: https://legnaleurc.github.com/slide_sitcon_2013/
+11:36 < Neson_> mos 大好
+11:36 < orange_> ＠＠
+11:36 < NagiYamazaki> "果然localhost才是王道" XDDD
+11:36 < kikiqqp_No2> GOOD
+11:36 < orange_> 哭哭沒上電視
+11:36 < RuinLAND> There is no place like localhost
+11:36 < KojimaC> 所以我跑去買了三面差讓他浮出桌面，不然MBA的Adapter完全插不進去Orz
+11:36 < G___> XDDDD
+11:36 < RSChiang> <行政組> 網路狀態還是希望各位盡量使用有線網路，目前異常狀態應該是排除囉
+11:36 < Neson_> 有時候肚子餓了會寫出 -mos-border-radius 這種東西
+11:36 < RSChiang> 樓上XDDD
+11:36 < joyqul> 我看到乖乖出現了WWW
+11:36 < Davy_> 有沒有哪裡可以順生網路線的QQ?
+11:36 < Davy_> 不是漢堡啦wwww
+11:37 < dylandy> 他拿著 mac 用 kde
+11:37 < orange_> 中餐推薦去mos
+11:37 < orange_> XD
+11:37 < jimmy_pan> 要揪團嗎XDD
+11:37 < Neson_> mos 可能會塞爆
+11:37 < Davy_> wwww
+11:37 < Davy_> 直接電話訂餐了(?
+11:37 < taichunmin> 對阿對阿 有沒有午餐團購團
+11:37 < darkx> linux 居大不易
+11:38 < carlcarl> 其實我也很想在Mac上裝KDE lol
+11:38 < NagiYamazaki> XDDD
+11:38 < akira02> 午餐www
+11:38 < dylandy> a horrible languageXDDD
+11:38 < RuinLAND> XDDDDDDDDD
+11:38 < rail02000> 正在使用Kubuntu
+11:38 < jimmy_pan> mos電話:(02)2736-2673
+11:38 < jimmy_pan> XDD
+11:38 < RuinLAND> LXDE淡定
+11:39 < darkx> awesome wm 淡定 ˊ_>ˋ
+11:39 < StoneSound> LXDE+1
+11:39 < carlcarl> Chakra+KDE~~
+11:39 < Davy_> windows 不表示
+11:39 < zootim11pc> 就這樣... 工作人員在我眼前放上乖乖在AP上...
+11:39 < darkx> lol
+11:39 < NagiYamazaki> XDDDDDDD
+11:39 < Davy_> 綠色的才有效唷 >_0b
+11:39 < carlcarl> XD
+11:39 < floatj> 真的耶 有乖乖XDDD
+11:40 < jimmy_pan> 哪裡
+11:40 < Davy_> 於是找到午餐了(不對
+11:40 < taichunmin> 電腦差點悲劇
+11:40 < threelines> 乖乖XDDDD
+11:40 < joyqul> H14有一包乖乖XD
+11:40 < floatj> H-06 座位那邊
+11:40 < andy> 好可怕XDDD
+11:40 < zootim11pc> 「很抱歉, 本程式只能在 Windows 系統上執行, 您目前無法使用本程式」
+11:40 < KNowlet> 終於練進來了XD
+11:40 < StoneSound> Are you sure you want to shutdown the computer!!
+11:41 < wdv> 乖乖~
+11:41 < deus_> 洋蔥@@
+11:41 < G___> 看到了。XDDDD
+11:41 < akira02> 乖乖www
+11:41 < darkx> d*.....
+11:41 < RSChiang> <廣播>座位表 http://goo.gl/CLpQz | 請勿攻擊大會網路或使用P2P噢=w=
+11:41 < ShaWu_TW> http://goo.gl/rA4eP
+11:42 < kikiqqp_No2> MP3有專利
+11:42 < hashman--> ¡
+11:42 < kikiqqp_No2> 不用P2P就有可能打掛了耶
+11:43 < darkx> 直接 re 硬幹www
+11:43 < Benben> 看不懂座位婊 QQ
+11:44 < Lilithpray> 有網路好運~
+11:44 < akira02> 有乖乖就OK
+11:44 < Petrova> Benben: 位置上有標示座標
+11:44 < Davy_> 桌子前面有編號
+11:45 < jimmy_pan> 我的PTC好像被別人用了....
+11:45 < Benben> Petrova: 座位表的位置是要直接看桌子前面貼的標籤，還是看講台相對位置
+11:45 < akira02> 相對位置
+11:45 < Davy_> 標籤
+11:45 < Petrova> 相對位置
+11:46 < AnonyGuyFawks> 唉....
+11:46 < Benben> 冏冏
+11:46 < AnonyGuyFawks> 講code就開始沒人要聽了，旁邊的人開始聊天模式
+11:47 < kikiqqp> 這現成的輪子好討厭的
+11:47 < kikiqqp> 最前面兩排沒有編號耶！！！！
+11:47 < andy__> 所以才是學生阿(?)
+11:47 < asdgh> 求位置圖++
+11:47 < skystar> 前兩排沒插座...沒LAN
+11:47 < darkx> 喔喔喔！有 wired 網路惹！
+11:47 < Benben> 目前狀態：準備起跑衝MOS
+11:47 < jimmy_pan> asdgh: http://goo.gl/CLpQz
+11:47 < jserv--> libav ++
+11:47 < kikiqqp> 可是會議廳不能吃排骨便當耶
+11:48 < StoneSound> 萬惡的windows，阻礙了許多開發者的路....
+11:48 < idfer> test
+11:48 < kikiqqp> 現實是
+11:48 < kikiqqp> 其實Windows上還好開發的
+11:48 < jserv--> 我學生自從有了 GNU/Linux，從此 coding 如有神助
+11:48 < freetsubasa> darkx: 恭喜 (?)
+11:48 < Fire118> Ttt
+11:48 < dylandy> 觀落陰XD
+11:48 < kikiqqp> 但如果你用的玩意不是原生於Windows.......
+11:48 < AnonyGuyFawks> OS is just a tool@@
+11:48 < Lilithpray> windows QQ
+11:49 < idreamers> 網路要乖乖的，不考慮放好自在嗎?((疑?
+11:49 < idreamers> https://www.facebook.com/photo.php?fbid=622710077744156
+11:49 < RSChiang> <廣播>座位表 http://goo.gl/CLpQz | 請勿攻擊大會網路或使用P2P噢=w= | 私設AP等下出場的時候會被請去喝茶(?)
+11:50 < kikiqqp> 雖然不想這樣說，但超討厭這種事情，我討厭相依性
+11:50 < RuinLAND> 印象中ffmpeg/libav好像是因為主開發者被踢出去的關係，才分裂的
+11:50 < Davy_> wireless network still died
+11:50 < RuinLAND> wireless is still a mess
+11:51 < jimmy_pan> Benben: 先偷跑好了XDD
+11:51 < RSChiang> Use wired connection please...
+11:52 < Lilithpray> 好自在wwwww
+11:52 < StoneSound> 有沒有開channel 13的八卦...
+11:52 < kikiqqp> 竟然有AP叫"請退出門檔區" XD
+11:52 < Lilithpray> 在感應票卡
+11:52 < jserv--> 自己動手作工具是很好玩的
+11:52 < kikiqqp> 蟲族之心和SIMCITY要玩.....沒時間
+11:53 < ShaWu_TW> 沒時間玩蟲心啊><
+11:53 < Neson_> mos GOGO
+11:53 < Davy_> jserv--: ++
+11:53 < Benben> mos團哪裡集合啊XD
+11:53 < Neson_> mos 門口
+11:53 < Benben> Neson_: XDD
+11:54 < idreamers> 呼叫聽風~~~你在嗎?
+11:55 < kikiqqp> 網路變快了 XD
+12:05 < neson_m> mos 客滿狀態
+12:11 < neson_m> -mos-status: full;
+12:36 < tpes> HI
+12:36 < jimmy_pan> 吃完mos了～
+12:37 < tpes> 正在吃MOS XD
+12:38 < jimmy_pan> 聽說有mos團＠＠？
+12:42 < Neson_> 回會場ed
+12:48 < Ian____> 安安
+12:48 < Ian____> 終於擠進了==
+12:49 < kuniumi> (201門口排隊中...
+13:02 < akria02> Hello
+13:02 < Neson_> 午安
+13:02 < kikiqqp> 吃飽睡中
+13:02 < Clarence_Lin> 午安
+13:02 < NagiYamazaki> 午安
+13:03 < Clarence_Lin> 吃飽排對
+13:03 < akria02> 排隊+1
+13:05 < G___> 大家午安。=)
+13:06 < BenBen> 早點吃完 要留時間午休XD
+13:06 < freetsubasa> 午安
+13:06 < tpes> eXD
+13:07 < kikiqqp> IRC真的變成是老人用的了.........
+13:09 < freetsubasa> kikiqqp: 還是有年輕人在用的 例如我 (?)
+13:09 < darkx> freetsubasa: <3
+13:10 < kikiqqp> 年輕人該用SKYPE或RC
+13:11 < freetsubasa> 越來越懶得打字意味www
+13:12 < Neson_> lol
+13:12 < ShaWu_TW> 我也年輕(?
+13:12 < kikiqqp> 用嘴寫程式才是最厲害的(鞭打下屬)
+13:12 < Ian____> 安安安
+13:14 < kuniumi> (高二路過
+13:14 < kikiqqp> 好懷念(?)的開機畫面
+13:15 < pig_> 午安
+13:15 < freetsubasa> 午安安～
+13:15 < StoneSound> 午安安安
+13:16 < BenBen> 你一定不是年輕人，年輕人要簡稱 SK
+13:16 < StoneSound> 我簡稱起來不好聽（SS!!）
+13:17 < Ian____> 今天收穫很多
+13:17 < freetsubasa> BenBen: 好像真的是這樣...
+13:17 < kikiqqp> SKII
+13:17 < Ian____> 方才經過神手指點
+13:17 < Ian____> 讓我嚇到
+13:18 < Ian____> 因為自己超嫩
+13:18 < Ian____> ==
+13:18 < Davy_> [2F]
+13:19 < ShaWu_TW> OVER(敬禮)
+13:20 < orin> [2F] ++
+13:20 < Ian____> 1F
+13:20 < ShaWu_TW> orinx WW
+13:21 < Neson_> 1F += 1
+13:21 < orin> ShaWu_TW: (?
+13:23 < takeshi_tw> 201好多人 wwww
+13:23 < Ian____> p 8 '
+13:23 < Ian____> 嗯啊
+13:24 < kuniumi> 201+1
+13:24 < kikiqqp> 這簡報挺乾淨而且講者很流暢
+13:24 < Ian____> KIKI大
+13:24 < Ian____> 妳在樓下?
+13:25 < BenBen> 講師有一種外國口音?
+13:25 < darkx> 1F ++
+13:25 < Ian____> 恩
+13:25 < jimmy_pan> XD
+13:25 < Ian____> 可能因為出國留學過ㄅ
+13:25 < dylandy> 有廣東話的口音（？
+13:25 < Ian____> 阿災
+13:25 < RSChiang> <廣播>座位表 http://goo.gl/CLpQz | 請勿攻擊大會網路或使用P2P噢=w=
+13:25 < Ian____> 這不是重點啦
+13:25 < freetsubasa> XD
+13:25 < RSChiang> 據說ib201爆了XD
+13:25 < skystar> 請問誰有Titanium_Studio.exe可以提供一下呢，感恩<(_ _)>
+13:26 < RSChiang> 不過201的網路應該穩定些...
+13:26 < Ian____> 有人在攻擊?
+13:26 < jimmy_pan> 想去201....
+13:26 < HexTseng> 想去201++
+13:26 < kikiqqp> 窩在一樓
+13:26 < Ian____> 喔~
+13:26 < jimmy_pan> 腳扭到爬樓梯會痛所以放棄-.-
+13:27 < Ian____> ㄏ
+13:27 < Ian____> 保重
+13:27 < legnaleurc> 二樓字好小 ...
+13:27 < jeremy5189> mac 的電源插頭太大，
+13:27 < jeremy5189> 沒辦法用桌上的插頭啊＝＝
+13:27 < Ian____> 哈!@@
+13:27 < jimmy_pan> 延長線真的很重要...
+13:27 < Ian____> 請問各位 大部分都來自哪裡?
+13:27 < legnaleurc> 地球吧
+13:28 < Ian____> 我來自世新
+13:28 < Fire118> 二樓缺四
+13:28 < Ian____> 妳勒LEG大
+13:28 < JamesLin_> 再同意不過
+13:28 < pig_> http://1.167.173.145/Titanium_Studio.exe
+13:28 < legnaleurc> exe ... 悲劇 XD
+13:28 < skystar> 這速度似乎比官網還慢orz....
+13:28 < jeremy5189> 會場有提供延長線嗎？
+13:28 < legnaleurc> Ian____: 中央
+13:28 < jimmy_pan> 不知道......
+13:29 < pig_> 無線><"
+13:29 < Ian____> 喔~
+13:29 < skystar> 我在中間第三排，有人在附近可以直接傳的嗎?
+13:29 < JamesLin_> 插頭會卡到ww
+13:29 < legnaleurc> 沒延長線吧
+13:29 < Ian____> 應我最嫩吧
+13:29 < pig_> 有線IRC上不了
+13:29 < jimmy_pan> 我有帶...
+13:29 < darkx> charlie (X
+13:29 < Ian____> 剛剛去請益根本就是自我打擊
+13:29 < legnaleurc> 有打擊才會進步
+13:30 < Ian____> 也是...ORZ
+13:30 < skystar> 2F我現在用有線還蠻ok的  可是titanium官網下載慢...
+13:30 < legnaleurc> 一樓網路還可以，二樓悲劇
+13:30 < darkx> 一樓人少阿 lol
+13:30 < pig_> TEST
+13:30 < kikiqqp> 一樓有種AD&D的感覺中 XD
+13:30 < Petrova> 講者的doc是?
+13:31 < BenBen> 一個杯具
+13:31 < pig_> http://1.167.173.145/Titanium_Studio.exe   有線中   測試流量看看
+13:31 < legnaleurc> kikiqqp: 龍與地下城？
+13:31 < skystar> 1.167那個還是要2hr...
+13:32 < pig_> 好像一樣悲劇><"
+13:32 < Petrova> 有eclipse的話，可以裝plug-in
+13:32 < G___> 真的有點像D&D。XD
+13:32 < Petrova> http://rensanning.iteye.com/blog/1413629
+13:32 < pig_> sorry
+13:32  * jserv-- 跟正妹講者的距離好近呀～
+13:33 < skystar> 可以用USB隨身碟嗎?
+13:33 < Ian____> 樓上正妹?
+13:33 < kikiqqp> 樓下，Jserv在固定位置 XD
+13:33 -!- DennyHuang changed the topic of #sitcon to: SITCON 學生計算機年會 http://sitcon.org | UTF-8 | 座位表 http://goo.gl/CLpQz
+13:34 < kikiqqp> 動新聞 個人版
+13:34 < legnaleurc> 似乎是要註冊才能下載 titanium
+13:34 < Ian____> ㄏ''
+13:34 < Ian____> 他的模組超帥氣
+13:34 < BenBen> 動新聞XDDDD
+13:34 < BenBen> 要找一個 Yif
+13:35 < darkx> 覺得他講快樂的故事和悲劇的口吻都好平穩喔XD
+13:35 < Vongola>  titanium 他說要註冊，然後說去信箱收信...根本沒收到
+13:35 < kikiqqp> THE END！
+13:35 < jserv--> THE END
+13:35 < jimmy_pan> darkx: XDD
+13:35 < Ian____> 暗黑 大 不要批評人家啦
+13:35 < skystar> 他信反應比較慢...
+13:35 < freetsubasa> the end ~
+13:35 < NagiYamazaki> darkx: 原來是個悲劇XDDD
+13:35 < G___> 自動生成劇本的冒險遊戲？
+13:35 < darkx> Ian____: 我沒有批評阿 @@ 只是覺得口吻很平淡有點神奇 XD
+13:35 < jserv--> 悲劇
+13:36 < Ian____> 喔恩恩
+13:36 < carlcarl> 用sitcon的網路進不來orz
+13:36 < darkx> carlcarl: wired or wireless ?
+13:36 < wdv> 真的悲劇了
+13:36 < carlcarl> wireless
+13:36  * darkx 一樓 wired 還算 ok
+13:36 < legnaleurc> 跟不太上二樓的節奏 ...
+13:36 < Ian____> 謝謝
+13:37 < kikiqqp> 總覺得這樣的創作工具可能會被搞成niconico上面的搞笑動畫呀 XD
+13:37 < Ian____> 剛剛有人胎手放槍
+13:37 < Ian____> 拍手放槍
+13:37 < BenBen> 排列組合
+13:37 < legnaleurc> MMD mad
+13:38 < jserv--> merge 兩個 branch!
+13:38 < RSChiang> 科科
+13:38 < jserv--> 可以 rebase 嗎？
+13:38 < darkx> rebase XDDDDD
+13:38 < jserv--> 還有 fast forward 嗎？
+13:38 < carlcarl> XDD
+13:38 < NagiYamazaki> XDDDDD
+13:39 < jserv--> DAG 都出現了
+13:39 < Ian____> DAG?
+13:39 < darkx> 感覺一副會被惡搞的樣子XD
+13:39 < KojimaC> Directed acyclic graph
+13:39 < jserv--> Ian____, http://en.wikipedia.org/wiki/Directed_acyclic_graph
+13:40 < Guest17541> http://140.118.155.195/~kito/Titanium_Studio.exe
+13:41 < Davy_> Guest17541: so 快 感恩
+13:41 < Ian____> JSE 大 謝謝
+13:41 < BenBen> 為什麼一直聽成黑人
+13:41 < jserv--> 微憤青
+13:41 < Ian____> 哇
+13:42 < carlcarl> wow
+13:42 < kikiqqp> 微寫Code
+13:42 < darkx> 微。議程
+13:42 < BenBen> 似乎聽到歡樂笑聲
+13:42 < freetsubasa> 微 網路..
+13:42 < rail02000_> irc-微聊天
+13:42 < NagiYamazaki> 憤青的力量XDDD
+13:42 < Ian____> RX
+13:42 < jserv--> 政大++++
+13:42 < Ian____> 好好喔
+13:42 < darkx> 微聊天XD
+13:43 < Ian____> 又一個國立QQ
+13:43 < jserv--> 我看 Rx 說話不憤怒啊
+13:43 < darkx> 微。忿怒鳥
+13:43 < jserv--> 難道是憤怒鳥
+13:43 < kikiqqp> 憤發向上青年的減稱
+13:43 < Ian____> ==
+13:43 < rail02000_> 政大+1 （不過我是男的
+13:43 < KojimaC> 憤怒鳥XDDD
+13:43 < freetsubasa> weeeeeeeeee
+13:43 < darkx> weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+13:43 < G___> XDDDD
+13:43 < NagiYamazaki> XDDDDD
+13:43 < jserv--> 憤怒是非常重要的東西，它通常是熱情的前身
+13:43 < NagiYamazaki> 偷表網路XDD
+13:43 < BenBen> 一個 嘖 網路怎麼這麼慢
+13:44 < Ian____> 他開始憤怒了
+13:44 < iblis17> 怒 聊天.
+13:44 < jserv--> 我感受到憤怒了
+13:44 < Davy_> [2F] 超快
+13:44 -!- mode/#sitcon [+o RSChiang] by DennyHuang
+13:44 <@RSChiang> 憤怒XD
+13:44 < kikiqqp> DEBUG到最後是一個字元錯之類
+13:44 < abev66_> 2F 網路很和平
+13:44 < darkx> 怒按讚!
+13:44 < jserv--> 好賤，按讚
+13:44 < freetsubasa> 有憤怒的感覺了 XD
+13:44 < KojimaC> 全形空白
+13:44 < NagiYamazaki> 對阿好賤喔  (點讚
+13:44 < Ian____> KIKI 大 中肯
+13:44 < legnaleurc> 好可憐，按讚
+13:44 < carlcarl> XDD
+13:44 < jserv--> 我早上應該請 Rx 幫我罵政府的
+13:44 < ShaWu_TW> 憤怒了
+13:44 < timc> 裱了好多東西XDD
+13:44 < darkx> jserv--: ++
+13:44 < jserv--> 可是我還想罵一堆國立大學...
+13:45 < andy> 所有的熱情都來自一股好奇和憤怒 XDDDD
+13:45 < Ian____> JS
+13:45 < Ian____> 大
+13:45 < Ian____> 可是在場很多都國力的耶XD
+13:45 < SyneArt> 那 .
+13:45 < kikiqqp> 還好我沒唸大學(安心)
+13:45 < Ian____> 我私立QQ
+13:45 < jserv--> Ian____, 我想罵大學制度
+13:45 < BenBen> 國立 私立 尬不過 _
+13:45 < freetsubasa> 高中生表示  ：
+13:45 < Ian____> 我也想罵 我們學校的學生
+13:45 < Ian____> 都不認真
+13:45  * jserv-- <- 高中生表示
+13:46 < BenBen> 呃  呵呵
+13:46 < jserv--> 呵呵 <-- 正妹必備發語詞
+13:46 < kikiqqp> 尬不過有錢的老爹
+13:46 < Ian____> ==
+13:46 < darkx> 恩恩阿阿 (ry
+13:46 < Ian____> 嗯啊
+13:46 < Davy_> 13:48 < jserv--> Ian____, http://en.wikipedia.org/wiki/Directed_acyclic_graph
+13:46 < carlcarl> 研究生好可憐++
+13:46 < freetsubasa> 嗯嗯 呵呵
+13:46 < BenBen> 恩恩 呵呵 哈 先洗澡囉
+13:46 < darkx> 先掰掰囉
+13:46 < SyneArt> 那 .
+13:46 < Ian____> 我看過DAG了 謝謝
+13:46 < Ian____> 暗黑大 掰ㄅ
+13:46 < jserv-->  為自己發聲
+13:47 < jserv--> 沉默螺旋理論
+13:47 < darkx> 底下字有點小 @_@
+13:47 < Ian____> 我也有聽過!!
+13:47 < Ian____> [恩恩
+13:47 < kikiqqp> 讓你的鑽頭鑽破天際吧
+13:47 < Ian____> 感覺樓上正在大戰中
+13:47 < Ian____> 樓下氣氛相對輕鬆
+13:47 < wdv> 字有點小++
+13:47 < Ian____> 來做前面~~
+13:48 < BenBen> 「現實中不講話，回到網路上發聲」 ===>>>>  PTT鄉民
+13:48 < SyneArt> 那 。
+13:48 < joyqul> XDD
+13:48 < kikiqqp> \>_</ 我寫code 我反核
+13:48 < Neson_> 鍵盤反核
+13:48 < iblis17> 對台灣社會 我的感覺就是：次文化都GG
+13:48 < jserv--> 呵呵～
+13:48 < KojimaC>  呵呵
+13:48 < BenBen> 呵呵
+13:48 < carlcarl> 呵呵
+13:48 < dylandy> 呵呵
+13:48 < HexTseng> 呵呵
+13:48 < SyneArt> Bacon !
+13:48 < taichunmin> 呵呵
+13:48 < darkx> 呵呵
+13:48 < G___> 呵呵
+13:48 < joyqul> 呵呵
+13:48 < Neson_> 呵呵
+13:48 < BenBen> 鍵盤柯南，萬人響應，__ __ __ __
+13:48 < akria02> 斷
+13:48 < Jeremy850407> 呵呵
+13:48 < freetsubasa> 呵呵
+13:48 < timc> 呵呵
+13:48 < jserv--> 呵呵呵呵 <- 呵四
+13:49 < darkx> lol
+13:49 < kikiqqp> 萬人響應 一人到場
+13:49 < akria02> 起爭議了
+13:49 < SyneArt> 呼叫 Bacon @@
+13:49 < rail02000> 口可口可
+13:49 < darkx> 不要起爭議啦！
+13:49 < akria02> 你在大聲什麼啦
+13:49 < jserv--> 新聞的就思維
+13:49 < jserv--> 舊思維
+13:49 < legnaleurc> 鍵盤程式設計師，究竟是設計鍵盤還是設計程式？
+13:49 < Ian____> 剛收到消息
+13:50 < darkx> 米果(?
+13:50 < Ian____> 二樓整個嚴肅掉了
+13:50 < legnaleurc> （但是平常的確是用鍵盤）
+13:50 < darkx> g0v@!!!!!!!!!
+13:50 < kikiqqp> 新聞 到底是你想要的 還是至作者想要的呢？
+13:50 < jserv--> 公民媒體: Peopo, g0v
+13:50 < jserv--> 公民宅男 XD
+13:50 < Neson_> 公民宅男
+13:50 < kikiqqp> 講者開始加速
+13:50 < KojimaC> g0v XD
+13:50 < freetsubasa> XD
+13:50 < jserv--> 這是誰發明的？
+13:50 < joyqul> 公民宅男XDDDDD
+13:50 < darkx> 一切都在加速進行中
+13:50 < Ian____> 越來越快了
+13:50 < jimmy_pan> 超頻了....
+13:50 < kikiqqp> 動員勘亂
+13:50 < Ian____> ==
+13:51 < jserv--> 姑娘，賞個「呵呵」吧？
+13:51 < Davy_> 呵呵
+13:51 < jimmy_pan> 呵呵
+13:51 < kuniumi> [2F]說真的這樣全部依賴Ti寫code好嗎...
+13:51 < kikiqqp> "阿阿 來不及了" 比較有可能
+13:51 < freetsubasa> 呵呵
+13:51 < Davy_> [2F] 等到他爆炸了就知道了 呵呵
+13:51 < Ian____> @@
+13:51 < darkx> joyqul: 到底?
+13:51 < pig_> 我到底要幹嘛
+13:51 < jserv--> Tatting
+13:51 < ttt> 呵呵
+13:51 < Ian____> Ti ?
+13:51 < jserv--> 可以呵呵了嗎？
+13:52 < kikiqqp> 翻譯: 不管啦 沒時間我也要播
+13:52 < joyqul> darkx: 什麼啦XDDDDD
+13:52 < kuniumi> [2F]Titanium Mobile
+13:52 < jserv--> RabicLab
+13:52 < carlcarl> 一人呵呵 萬人響應
+13:52 < akria02> [2F]吃我的Titanium啦
+13:52 < legnaleurc> [2F] 爭議點是全部依賴它的 service 嗎？
+13:52 < pig_> 歌好聽
+13:52 < Davy_> [2F] 因為android是後來才出現了所以不聽話一點
+13:52 < legnaleurc> BGM OP
+13:52 < darkx> 兔兔好可愛 >_<
+13:52 < Davy_> [2F] 他用node.js 編譯js
+13:52 < freetsubasa> 這動畫好可愛
+13:53 < Davy_> [2f] 就是用python就是用google的語言
+13:53 < Ian____> Titanium Mobile 酷吧
+13:53 < akria02> [2F]android 1.6 ?!?!
+13:53 < jserv--> 原來是毛線球
+13:53 < kuniumi> [2F]「android如果沒畫面就算了」
+13:53 < Davy_> [2F] 他在android上面會有問題，有時候重開就可以過了
+13:53 < legnaleurc> [2F] 所以 Titanium 運作時要不要連網？
+13:53 < kikiqqp> ㄜ
+13:53 < jserv--> 要開始打毛線了嗎？
+13:53 < darkx> 話說看到網址列，聯想到  File:/// XD
+13:53 < Davy_> [2F] "這樣穩定嗎www"
+13:53 < akria02> [2F]應該要
+13:53 < legnaleurc> [2F] python?? Google??
+13:53 < jserv--> 我才剛開始要搖頭了啊
+13:53 < timc> 誰可以翻譯一下講者剛剛在說甚麼@@
+13:53 < darkx> lol
+13:53 < kuniumi> [2F] Ti要
+13:54 < kikiqqp> 請問 這是兔子嗎？
+13:54 < Davy_> [2F] 講者講完了QQ
+13:54 < abev66_> 說好的文件在哪裡 XD
+13:54 < pig_> move~move~move~
+13:54 < kuniumi> [2F]所以段網就GG
+13:54 < Davy_> [2F] 莫名其妙(?
+13:54 < kkiick> 好可愛的兔子XD
+13:54 < Neson_> 徵才開始
+13:54 < orin> [2F]對不起，他跑出來了
+13:54 < Davy_> [2F] 喔(mic報因)
+13:54 < orin> (被mic嚇哭
+13:54 < Ian____> 有FBㄟ
+13:54 < carlcarl> ivonlight
+13:54 < jimmy_pan> ㄉㄉㄉㄉㄉ～
+13:54 < BenBen> ㄉㄉㄉㄉㄉ
+13:54 < legnaleurc> [2F] 我以為是像 C# 或 Qt5 那樣架一層通用 framework
+13:54 < ttt> ㄉㄉㄉ
+13:54 < BenBen> 翻譯：歡迎鍵盤科南加入我們
+13:55 < jserv--> 有 FB，誠意十足
+13:55 < Ian____> 講桌有乖乖!!
+13:55 < kito_> [2F] http://140.118.155.195/~kito/Titanium_Studio.exe 有需要的快點載 等下就徹掉了
+13:55 < jimmy_pan> ＠＠
+13:55 < kikiqqp> 平常要要女孩子的FB和EMAIL多困難呀？好好把握機會問問題呀
+13:55 < jserv--> 喔喔，下午講者都是女生！
+13:55 < jimmy_pan> 哪裡0.0?
+13:55 < Ian____> 對阿
+13:55 < rail02000> 剛剛上了一堂傳播理論XD
+13:55 < Ian____> 爽ㄟ
+13:55 < darkx> 政大 +=1
+13:55 < jserv--> 又是政大
+13:55 < Ian____> 我比較期待M大
+13:55 < Ian____> 哈哈
+13:55 < joyqul> 又是蘋果.....0.0
+13:55 < jserv--> 政大++
+13:55 < Ian____> 又政大ORZ
+13:55 < jserv--> 阿拉伯
+13:55 < jimmy_pan> 一堆蘋果XD
+13:55 < Ian____> 想當初就好好念書
+13:55 < legnaleurc> 政大臭了嗎？QQ
+13:55 < carlcarl> 政大好啊~
+13:56 < BenBen> 阿拉伯語言學系→  1234567890
+13:56 < freetsubasa> 阿拉伯
+13:56 < Ian____> 就不會落倒世新了==
+13:56 < carlcarl> lol
+13:56 < jserv--> 依晨大學
+13:56 < kkiick> 矮額
+13:56 < freetsubasa> BenBen: XDDD
+13:56 < kikiqqp> GOOD
+13:56 < darkx> QB!
+13:56 < jimmy_pan> 未滿18....
+13:56 < legnaleurc> (Y)
+13:56 < jserv--> Courbet (1866)
+13:56 < jserv--> The Origin of the World
+13:56 < Ian____> 還好啦
+13:56 < NagiYamazaki> |Y|
+13:56 < BenBen> 媽媽說我還沒滿18歲 不能看
+13:56 < rail02000> 我看好似馬鈴薯
+13:56 < Ian____> 拜託~
+13:56 < jserv--> 對不起，我錯了
+13:56 < darkx> 綠豆糕(X
+13:57 < BenBen> rail02000: XDD
+13:57 < jimmy_pan> rail02000: XDDDDDDD
+13:57 < KojimaC> XDDDDDD
+13:57 < freetsubasa> XDDD
+13:57 < ttt> XDDDDDD
+13:57 < jserv--> 穿越陰道：大美女的生命歷程
+13:57 < KojimaC> 雅量
+13:57 < kkiick> >////////////<
+13:57 < jserv--> 數位記憶與圖像創作的關係
+13:57 < Ian____> ㄟㄟㄟ
+13:57 < jimmy_pan> 2F的都下來了..
+13:57 < jserv--> 怎麼來這麼多人？
+13:57 < carlcarl> 我怎麼想到live demo(糟糕
+13:57 < NagiYamazaki> ....怎麼突然都來一樓了  囧
+13:57 < Ian____> 樓上的來囉
+13:57 < dylandy> 人都被題目吸引過來了嗎？XD
+13:57 < joyqul> 好多人回來了0.0
+13:57 < legnaleurc> 結束了？
+13:57 < Ian____> 他們下課了
+13:57 < freetsubasa> 好多
+13:57 < darkx> 一樓鄉民入侵中
+13:57 < ShaWu_TW> 2F的都下來了XD
+13:57 < Ian____> ==
+13:57 < BenBen> 2F是聽到馬鈴薯才下來的嗎
+13:57 < jserv--> 2F 來穿越了
+13:57 < jimmy_pan> 樓上結束了＠＠？
+13:57 < legnaleurc> 少了一節？
+13:57 < NagiYamazaki> 馬鈴薯XDDD
+13:57 < Ian____> J大
+13:57 < Ian____> 穿你個頭啦XD
+13:58 < jimmy_pan> 穿越XDDD
+13:58 < tpes> 穿越GOGO
+13:58 < jserv--> 程式碼的...
+13:58 < legnaleurc> Ian____: 用 tab 直接 mention ID
+13:58 < BenBen> 擅長程式碼記錄的人
+13:58 < Ian____> OK
+13:58 < jimmy_pan> 程式 馬的 (?
+13:58 < jserv--> 從媽媽的陰道出來
+13:58 < legnaleurc> Ian____: 不然很容易搞混
+13:58 < jimmy_pan> 爬出來＠＠
+13:58 < jserv--> 經過很漫長的旅程
+13:58 < jserv--> 經過很漫長的生命歷程
+13:58 < jimmy_pan> 不是被拉出來嗎0.0?
+13:58 < Ian____> OK的啦 大家很清楚
+13:58 < kikiqqp> 這場我有聽藝術研討會的感覺了
+13:58 < jserv--> 其實也沒有很漫長
+13:58 < legnaleurc> 下午的議程好有文化
+13:59 < AndChat|330644> 我第一名
+13:59 < carlcarl> XD
+13:59 < jserv--> 再來就是進入失水的過程
+13:59 < Ian____> 藝術類
+13:59 < joyqul> 真的頗有文化...
+13:59 < ttt> XDDDD
+13:59 < pig_> 婚姻風暴...
+13:59 < jserv--> 原來科技類的研討會也可以這麼藝術
+13:59 < legnaleurc> 從糞青變文青
+13:59 < NagiYamazaki> 哦哦哦是小蘿莉    (咦
+13:59 < freetsubasa> XDD
+13:59 < kikiqqp> 我喜歡 :D
+13:59 < joyqul> 有小蘿莉>///<
+13:59 < BenBen> 程式設計者
+13:59 < SyneArt> (y)
+13:59 < Ian____> Nagi 大
+14:00 < jserv--> 本日議程: 宅男教師 -> geek -> 憤青 -> 文青
+14:00 < Ian____> 你的ID後面是賣麵包 那個ㄇ?
+14:00 < kikiqqp> 所以才有介面工程師呀.... orz
+14:00 < BenBen> 學生宅男改造年會
+14:00 < jserv--> 人類一出生就問天問地
+14:00 < pig_> (y)
+14:00 < NagiYamazaki> Ian____: 什麼賣麵包?!  囧
+14:00 < jserv--> 這一切的問題都來自生命有限
+14:00 < Ian____> Yamazaki
+14:00 < pig_> 性
+14:00 < legnaleurc> 食色性也
+14:00 < SyneArt> sexy
+14:00 < jserv--> 這個議程聽起來好舒服
+14:00 < jimmy_pan> ...
+14:01 < AndChat|330644> 用程式造愛
+14:01 < darkx> 基因演算法！
+14:01 < Ian____> 我喜歡的女生不喜歡資管
+14:01 < Ian____> QQ
+14:01 < AndChat|330644> 用程式做愛
+14:01 < kikiqqp> 但可能要某個年紀才會有體會
+14:01 < NagiYamazaki> Ian____: Yamazaki = 山崎
+14:01 < legnaleurc> make love : no such target
+14:01  * jserv-- 原來被抓來當 keynote，就是要讓大家轉型為文青
+14:01 < BenBen> YAMAHA
+14:01 < jserv--> 找了一個最宅的人來開場 XD
+14:01 < dylandy> . / make_love
+14:01 < darkx> no war
+14:01 < Ian____> 恩嗯!!
+14:02 < legnaleurc> make: *** No rule to make target `love'.  Stop.
+14:02 < jserv--> 麥克魯漢
+14:02 < G___> Ian____:（拍拍）
+14:02 < jserv--> Media: the extensions of man
+14:02 < NagiYamazaki> legnaleurc: XDDDDDDDDDDDD
+14:02 < jserv--> 液態現代性理論
+14:02 < darkx> 液態 現代 性 理論
+14:02 < rail02000> 還要make太累了，我喜歡apt-get install
+14:02 < kikiqqp> 這告訴我等等結束要去看鏘鏘老師的個展嗎
+14:02 < joyqul> 看成液態線性代數...
+14:02 < darkx> pacman rocks!
+14:02 < legnaleurc> 人原本不是是液態 ... (艸)
+14:03 < orin> ll
+14:03 < iblis17> [/usr/ports/love]# make
+14:03 < jserv--> 這次的穿越議程，難度好像太高了
+14:03 < orin> lol
+14:03 < darkx> iblis17++
+14:03 < kikiqqp> 不是都LCL嗎？
+14:03 < jserv--> Karl Marx!
+14:03 < BenBen> 一個小時 .. 快門3600s
+14:03 < jimmy_pan> XD
+14:03 < jserv--> 一切堅固的事物都煙消雲散
+14:03 < Ian____> 時間不夠了><
+14:03 < jserv--> 換頁的聲音很有動感
+14:04 < AndChat|330644> 手指越來越軟
+14:04 < darkx> 搶點心預備(?
+14:04 < Ian____> 我請問一下大家
+14:04 < franky> 有人知道剛剛林大中的文件link嘛？謝謝
+14:04 < carlcarl> 前面開場好像太長~@@"
+14:04 < jserv--> 家族自己記憶 (所有的照片) + 對生命的詮釋  (圖像創作)
+14:04 < Ian____> 有人在寫OpenCV的嗎?
+14:04 < jserv--> 感受應該更容易存取
+14:05  * jserv-- <- 只有我不懂在穿越什麼嗎？
+14:05 < pig_> 剛剛點心沒吃到的可以準備了((誤
+14:05 < kikiqqp> 翻譯米糕: 紀錄片！
+14:05 < jserv--> 嘗試進行新的生命紀錄
+14:05 < rail02000> 穿越了穿越了（？）
+14:05 < jserv--> 從陰唇走出
+14:05 < jserv--> 走過就有聲音
+14:05 < BenBen> 今天講的內容好性
+14:05 < kikiqqp> 裝置藝術耶
+14:05 < NagiYamazaki> 穿越之後是個youtube連結  (?
+14:05 < legnaleurc> 再進去
+14:06 < akira02> 前衛思考
+14:06 < jserv--> 進入之後就可以播放 YouTube 了？
+14:06 < Ian____> 不知該怎麼問
+14:06 < legnaleurc> 微。穿越
+14:06 < joyqul> XDDD
+14:06 < pig_> CODE~
+14:07 < jserv--> 早知道我早上就該講少一點，下午太藝術了 :Q
+14:07 < darkx> @@
+14:07 < StoneSound> 二樓的神祕亂路XDD
+14:07 < jimmy_pan> 所以現在是@@?
+14:16 < kikiqqp> 人多網路開始緩慢中
+14:16 < Davy_> kikiqqp:  +11
+14:17 < StoneSound> 一堆人timed out...
+14:17 < darkx> @@
+14:18 < Ian____> 安
+14:18 < BenBen> 硫酸?
+14:18 < rail02000> 氯化氫？
+14:19 < darkx> rail02000: HCl
+14:19 < freetsubasa> hcl
+14:19 < dylandy> 氯化氫
+14:19 < takeshi_tw> 鹽酸＠＠
+14:20 < BenBen> 對不起
+14:20 < legnaleurc> 還是低頭玩手機啊 XD
+14:20 < darkx> lol
+14:20 < JamesLin_> WW
+14:20 < jimmy_pan> wwwwww
+14:20 < kikiqqp> 好點子
+14:21 < kuniumi> wwwwww
+14:21 < Ian____> 好厲害!!
+14:21 < Davy_> 酷欸
+14:21 < Ian____> 我又被嚇到了!!
+14:21 < Davy_> 酷欸
+14:21 < freetsubasa> 至少你會跟你隔壁的人說話啊
+14:21 < StoneSound> 好特別XDD
+14:22 < kikiqqp> 古早以前是刷卡機器會說英文
+14:22 < Ian____> 這太可怕了啦
+14:22 < darkx> 感覺好像小時候不懂事拿磁鐵去吸電視XDDDD
+14:22 < legnaleurc> 跟隔壁人說話：「唉這邊 wifi 密碼是什麼？」
+14:22 < StoneSound> 3D王道....
+14:23 < BenBen> legnaleurc: 跟隔壁說： ㄟ  WIFI開一下
+14:23 < kikiqqp> 剛剛那影片有點驚訝
+14:23 < G___> 這些應用都好酷！
+14:23 < freetsubasa> 好酷XD
+14:23 < Ian____> 不行啊 我資源上落差ORZ
+14:23 < legnaleurc> Ian____: 其實沒差耶 ...
+14:23 < darkx> jserv-- 大學老師表示：
+14:23 < kikiqqp> 台灣的課程迂腐到不行
+14:23 < Neson_> RoR
+14:24 < Ian____> 真的沒差喔
+14:24 < kikiqqp> 主要是教的人其實很多根本不會進步
+14:24 < Ian____> 感覺學校根本就在浪費時間跟金錢
+14:24 < kikiqqp> 就一招教到退休
+14:24 < Ian____> 除了交朋友以外
+14:24 < legnaleurc> 資源都在網路上啊 ....
+14:24 < legnaleurc> 想學，會 Google 就行
+14:24 < Ian____> 可是
+14:24 < G___> 我也都是自修
+14:25 < kikiqqp> 依賴網路
+14:25 < Ian____> 像我想要學shapeflie libarary 怎麼加在VS2010就有夠難 辜
+14:25 < BenBen> 為什麼在室內可以GPS定位成功
+14:25 < kikiqqp> 有時依賴圖書館還比依賴網路好
+14:25 < Ian____> 有些比較critical 的東西，還是得靠經驗累積 或請教他人會比較好
+14:26 < legnaleurc> 找四書集註我會找圖書館，找 node.js 我會找網路
+14:26 < kikiqqp> 其實GPS在室內也會有信號，只是不夠資料定位，所以通常會整合WIFI和電話基地台定為，高度靠內建的氣壓計
+14:26 < legnaleurc> 我還在圖書館看過 word 97 的書
+14:26 < andy> 有渴望就有辦法，生命自會找到出路。
+14:26 < andy> 想學就會找到資源，關了門會重還是會打開
+14:26 < Ian____> 我渴望啊!!!!!!!!!!
+14:27 < andy> s/會眾/會重
+14:27 < BenBen> kikiqqp: 單純GPS呢？
+14:27 < akira02> Ubuntu
+14:27 < dylandy> 第一個 linux 上台了XD
+14:27 < kuniumi> 第一位看到用ubuntu上台的www
+14:27 < legnaleurc> 簡稱 OL 嗎？
+14:27 < akira02> 水噢
+14:27 < carlcarl> wow
+14:27 < kikiqqp> 雖然 GOOGLE官方手機的設計圖中有氣壓計，但很少廠商會做上去
+14:27 < darkx> dylandy: jserv 是 linux 吧XD
+14:27 < Ian____> 帥氣
+14:27  * jserv-- 用 Linux 作簡報
+14:28 < jserv--> 裡面還跑兩個 Linux kernel
+14:28 < kikiqqp> 單純只用GPS在室內是很難的，因為很多原因，但不是不能，只是限制太多
+14:28 < Ian____> 恩
+14:28  * legnaleurc 用 vim 寫今天的 slide
+14:28 < AndChat|330644> 他幹麻灌 mac
+14:28 < darkx> 決鬥吧，抽牌！
+14:28 < legnaleurc> mac?
+14:28 < carlcarl> ?
+14:29 < Davy_> ?
+14:29 < akira02> ？
+14:29 < jimmy_pan> ?
+14:29 < joyqul> ?
+14:29 < legnaleurc> 恐怖片
+14:29 < AndChat|330644> Mac 作業系統
+14:29 < Ian____> 灌什麼 都沒關西吧  熟悉怎用舊OK
+14:29 < Davy_> 哪裡有灌mac?
+14:29 < dylandy> 哪裡 mac?
+14:29 < kikiqqp> 今天下午場都是藝術領域耶
+14:29 < carlcarl> who?
+14:29 < jimmy_pan> 哪裡?
+14:29 < legnaleurc> 我以為是 Gnome @@
+14:29 < BenBen> 用Ubuntu 來作簡報： http://ppt.cc/Nx1U
+14:30  * darkx 用 Arch linux 做簡報！
+14:30 < Ian____> 上面那個畫面真美
+14:30 < StoneSound> lxde最高~~（被打）
+14:30 < jserv--> LXDE ++
+14:31 < Vongola> Xfce
+14:31 < darkx> awesome @_@
+14:31 < rail02000> KDE~~
+14:31 < carlcarl> KDE++
+14:31 < legnaleurc> KDE++ (？)
+14:31 < joyqul> KDE++
+14:31 < Ian____> 看不太懂
+14:31 < freetsubasa> 好多
+14:32 < bency> 那些線是？
+14:32 < Neson_> 藝術的本質就是無法理解 (?)
+14:32 < joyqul> 好藝術0.0...
+14:32 < carlcarl> 水平太高orz
+14:32 < legnaleurc> 乾脆跟三秒緯一樣整節都錄影好了 XD
+14:32 < darkx> 哈利波特裏面的樓梯XD
+14:32 < Ian____> 影子就很帥氣
+14:32 < TigerHuang> 0.0
+14:32 < BenBen> 密集物恐懼症..
+14:33 < Ian____> 我有點怕
+14:33 < Davy_> 用演算法化影子OAO"
+14:33 < legnaleurc> 腿毛
+14:33 < Ian____> 太快了
+14:33 < bency> 看不出來是影片後製還是技術呈現
+14:33 < BOBO_> (抖抖
+14:33 < kuniumi> 三秒緯躺著也中槍XD
+14:33 < jimmy_pan> legnaleurc: wwwwww
+14:33 < Vongola> 類螞蟻(?
+14:33 < abev66_> legnaleurc: XDDD
+14:33 < darkx> 三秒緯XDDD
+14:33 < wdv> 不太懂._.
+14:33 < Ian____> 有點不能接受
+14:33 < kikiqqp> 不懂+1
+14:33 < Davy_> 用亮度決定聲音?
+14:33 < StoneSound> @_@
+14:33 < HexTseng> !?
+14:33 < davidou> 位啥連三秒緯都出來xdd
+14:34 < jserv--> 有點像是傳統鬼片的聲音
+14:34 < kikiqqp> UV儀？
+14:34 < abev66_> XDDDDD
+14:34 < Vongola> 光影?
+14:34 < NagiYamazaki_> 要爆炸了嗎這聲音...
+14:34 < jserv--> 中國民間故事一類的
+14:34 < carlcarl> 跟著笑就對了(誤
+14:34 < abev66_> ThinkPad! （重點誤
+14:34 < joyqul> XDDDDD
+14:34 < akira02> 太抽象了QAQ
+14:34 < jserv--> 霹靂星球爆炸了
+14:34 < rail02000> 在一個夜黑風高的夜晚......
+14:34 < kuniumi> 太抽象+1
+14:34 < rail02000> （誤
+14:34 < Ian____> 好尖銳
+14:34 < BenBen> 有點像洗牙的時候會發出的聲音
+14:34 < Ian____> 嗯啊
+14:34 < G___> XDDDD
+14:34 < legnaleurc> 可以選柔和一點的聲音嗎 XD
+14:34 < abev66_> 好有今天 puredata 的感覺 XD
+14:34 < JamesLin__> 頗率
+14:35 < Vongola> 最後面根本牙醫治療器材(遭毆
+14:35 < JamesLin__> 帥
+14:35 < Ian____> 收投影機了!!
+14:35 < jam__> 好恐怖的聲音
+14:35 < legnaleurc> 真的是座談會
+14:35 < abev66_> 要幹嘛！！！
+14:35 < joyqul> 收起來了@@
+14:35 < Ian____> 我是宜蘭人!!
+14:35 < jimmy_pan> Vongola: XDD
+14:35 < Ian____> 同鄉
+14:35 < bency> 宜蘭人推一個
+14:35 < jserv--> 專心作研究++
+14:35 < kikiqqp> 習慣中的座談會台上一定有帶領帶的
+14:36 < kikiqqp> 但這次一位都沒有
+14:36 < Ian____> 輕鬆談
+14:36 < pig__> 隨和
+14:36 < kikiqqp> 放眼全場有穿西裝的就只有.......
+14:36 < abev66_> 輕鬆座談會~
+14:36 < BenBen> 缺一雙藍白拖?
+14:36 < jserv--> 穿越之後，就來跳躍了
+14:36 < Neson_> 領帶沒有實際用途
+14:36 < abev66_> 總召(?
+14:36 < rail02000> 微研討會
+14:36 < Davy_> jserv ㄉㄉ
+14:36 < pig__> 微。座談會
+14:36 < kuniumi> (台下有帶領帶的路過
+14:36 < joyqul> XDDD
+14:36 < NagiYamazaki_> 大學畢業跳博士...?
+14:37 < Ian____> 0.0
+14:37 < Jeremy850407> XD
+14:37 < kikiqqp> 可以呦
+14:37 < JamesLin__> @@
+14:37 < akira02> 歐美
+14:37 < JamesLin__> OP
+14:37 < kikiqqp> 台灣也可以，只是比較麻煩
+14:37 < legnaleurc> 有可能
+14:37 < Ian____> 艾卡拉
+14:37 < kikiqqp> 各位大學生...大三其實寄可以去考MASTER呦
+14:37 < BenBen> 話說 iSing99 是不是收掉了啊
+14:38 < pig__> MASTER?
+14:38 < legnaleurc> 先上研究所再直接轉博班
+14:38 < Ian____> 可以直接就業?
+14:38 < legnaleurc> 碩士
+14:38 < jimmy_pan> BenBen: 沒有吧..
+14:38 < timc> master = 碩士
+14:38 < jserv--> 各位大學生...大三其實可以去工作了
+14:38 < BenBen> 沒嗎? XD
+14:38 < abev66_> 大三飄過....
+14:38 < Ian____> 我專題做完就準備要找工作了
+14:38 < akira02> 高中其實就可以去工作了
+14:38 < BenBen> (以前還唱過說XD )
+14:38 < kikiqqp> 既然是煙酒生當然肝愈新鮮m,4cl3
+14:38 < jimmy_pan> 不開燈嗎- -?
+14:38  * jserv-- <-- 大三狀態持續 11 年
+14:38 < akira02> 舞台不開燈嗎www
+14:38 < kikiqqp> 愈好
+14:38 < darkx> \
+14:39 < fntsrlike> https://www.facebook.com/actionspace
+14:39 < pig__> 開燈(拍手*2
+14:39 < Neson_> 舞台好暗
+14:39 < fntsrlike> 推 [14:46] <jserv--> 各位大學生...大三其實可以去工作了
+14:39 < akira02> 開燈串連
+14:39 < jimmy_pan> pig__: wwwwwwwwwwww
+14:39 < Ian____> 我也想找
+14:39 < Ian____> 可是我得先做完專題能畢業
+14:39 < kikiqqp> 微。暗論壇
+14:39 < jserv--> 台上大大很黑 (?)
+14:39 < Ian____> 才能畢業
+14:39 < akira02> 嘿嘿嘿
+14:39 < jimmy_pan> jserv--: XDDDD
+14:39 < StoneSound> 樓上已經賺得第一桶金了嗎wwww
+14:39 < pig__> 哈哈哈
+14:39 < Ian____> 沒
+14:39 < NagiYamazaki_> jserv--: XDDDDDDD
+14:40 < darkx> 等等，這裡是 sitcon 不是 hitcon 阿 >"<
+14:40 < Ian____> 每個月最多也才賺六千左右
+14:40 < abev66_> 尷尬 XD
+14:40 < NagiYamazaki_> 麥克風被黑了...
+14:40 < kikiqqp> 微MIC
+14:40 < jimmy_pan> wwwwwwwwwww
+14:40 < Jeremy850407> 呵呵
+14:40 < pig__> NagiYamazaki_: XD
+14:40 < kuniumi> 好黑wwww
+14:40 < akira02> 真。黑論壇
+14:41 < jserv--> 很乖！
+14:41 < akira02> 哪裡乖www
+14:41 < legnaleurc> 沒有網路會讓大學暴動啊
+14:41 < abev66_> 乖乖繳蘋果稅 XD(?
+14:41 < akira02> 生命維持裝置
+14:41 < pig__> legnaleurc: 真的
+14:41 < threelines> 「今天現場沒有人能離開...」
+14:41 < darkx> (抖抖
+14:41 < jimmy_pan> wwww
+14:41 < Ian____> ==
+14:41 < kuniumi> 不是過100%嗎
+14:41 < jserv--> 這梗鋪好深
+14:41 < akira02> （掩面
+14:41 < NagiYamazaki_> 生活果然不能沒有網路阿wwwww
+14:42 < threelines> 「...網路」
+14:42 < Ian____> 還襖我沒猜43億
+14:42 < darkx> 網路.... QQ
+14:42 < SyneArt> <(_ _)>
+14:42 < legnaleurc> --
+14:42 < darkx> 印度人表示(?
+14:42 < taichunmin> <(_ _)>
+14:42 < abev66_> NOKIA
+14:42 < BenBen> 3310 也算是行動裝置嗎
+14:42 < legnaleurc> feature phone
+14:42 < abev66_> BenBen: Yes
+14:42 < wdv> 3310 XD
+14:42 < jimmy_pan> Nokia 3310 wwwww
+14:43 < Ian____> 我還是覺得PC好
+14:43 < akira02> 那不是武器嗎
+14:43 < freetsubasa> BenBen: 是ˋ神器
+14:43 < kuniumi> 桌上平台好+1
+14:43 < G___> 打算買Nokia 105
+14:43 < Jeffrey_tw> 3310是武器的一種
+14:43 < Davy_> 我只要CP就夠了
+14:43 < NagiYamazaki_> 唔...是不是忘記某個牌子的.....
+14:43 < AndChat|330644> http://ppt.cc/w4jd
+14:43 < darkx> 未來日記
+14:43 < AndChat|330644> 點心來囉
+14:43 < StoneSound> 設計師用PC，一般人用SmartPone嗎....
+14:43 < kuniumi> 未來日記wwwwww
+14:43 < jimmy_pan> http://1.bp.blogspot.com/-pSIO48SjyEk/UMi7ErBUhUI/AAAAAAAAFPY/YCjs0se536E/s1600/nokia_3310_5uw7c_625x466.jpg
+14:43 < andy> NOKIA智障型手機再戰十年
+14:43 < Ian____> 很多人在場練功!?
+14:43 < KNowlet> 八成 是Android跟IPhone剩下兩成是懶的舉手
+14:43 < jserv--> vim user 表示...
+14:44 < darkx> 只好怒開 emacs 了！
+14:44 < abev66_> vim ++
+14:44 < BenBen> PTT發完文章都習慣 :wq
+14:44 < pig__> wireshark(誤
+14:44 < Davy_> vim +++
+14:44 < iblis17> vim
+14:44 < NagiYamazaki_> jimmy_pan:  XDDDD
+14:44 < KojimaC> :wq
+14:44 < kuniumi> sublime coding...
+14:44 < akira02> 怒開VB6.0
+14:44 < abev66_> :x
+14:44 < Neson_> Sublime Text
+14:44 < JamesLin__> 3310 bj4
+14:44 < jimmy_pan> akira02: wwww
+14:44 < StoneSound> !!
+14:44 < legnaleurc> 真的 www
+14:44 < Ian____> 主持人講道重點了
+14:44 < pig__> DEV C++
+14:45 < Ian____> 有人在DEV C++ !?
+14:45 < JamesLin__> code::blocks
+14:45 < akira02> （握
+14:45 < kuniumi> dev C++ 已死
+14:45 < StoneSound> Code::Blocks++
+14:45 < jimmy_pan> 高中程式都只教vb.....
+14:45 < darkx> dev cpp 再戰十年！
+14:45 < legnaleurc> Dev-C++ 有新板
+14:45 < Ian____> 我大學才開始加入VS
+14:45 < akira02> 建中教Dev C++
+14:45 < StoneSound> 高中電腦社教CS!!
+14:45 < BenBen> jimmy_pan: 學弟妹教 C++ ..
+14:45 < Ian____> 帥喔
+14:45 < dylandy> vim 路過
+14:46 < legnaleurc> 好好的一個人，何苦學 C++ ...
+14:46 < raincole> 不要歧視VB QQ
+14:46 < darkx> legnaleurc: XD
+14:46 < Ian____> VB 好
+14:46 < jserv--> 我每次在紙上寫組合語言，我媽都以為我在畫符 XD
+14:46 < legnaleurc> 你媽知道會很傷心的 ...
+14:46 < JamesLin__> C++太OP了
+14:46 < Ian____> 左二獎的好
+14:46 < Ian____> 那C 哩
+14:46 < Davy_> jserv--: 太強大
+14:46 < pig__> gedit (飄過
+14:46 < abev66_> 麥克風 echo 有點大
+14:46 < Ian____> gedit !!!! 上週才學
+14:46 < abev66_> kate
+14:47 < jserv--> 代工！
+14:47 < jimmy_pan> 出去比賽看大家都用vb..我也只好用vb-.-
+14:47 < JamesLin__> 說到重點
+14:47 < Vongola> VB看不懂QHQ
+14:47 < legnaleurc> 推 kate
+14:47 < Ian____> 真的!!!
+14:47 < darkx> VS 上週寫組與作業要開助教專案才開始用...QQ
+14:47 < Ian____> 寫程式的最大
+14:47 < abev66_> Perl
+14:47 < jimmy_pan> 話說台上真的不打算開燈嗎？
+14:47 < darkx> Perl 推！！！！！！！！！！！！！
+14:47 < Ian____> 我都聽到快哭了
+14:47 < rail02000> kate ++ 不過我是作筆記，不是打code......
+14:47 < JamesLin__> 真的!!!!
+14:47 < jimmy_pan> 台上大大是要黑到何時@@?
+14:48 < StoneSound> 一開始非常美好= =
+14:48 < Ian____> 我喜歡女生跟我同組 但完全不會寫程式
+14:48 < abev66_> 黑道底了
+14:48 < Ian____> 都靠我QQ
+14:48 < pig__> 結束吧((誤
+14:48 < StoneSound> 然後就....
+14:48 < jserv--> 然後就要穿越 (?)
+14:48 < kuniumi> 這讓我想到設計師跟設計師合作...
+14:48 < BenBen> Ian____: 我不管跟誰一組 作業都是我在作 ._.
+14:48 < jimmy_pan> Ian____: 我喜歡的女生都一直找我XDDDD
+14:48 < Ian____> 斑斑 (Y)
+14:48 < legnaleurc> 沒差，反正 80% 的工作是由 20% 的人完成的
+14:48 < BenBen> 媽的我下次一定要一個人一組!
+14:48 < StoneSound> 設計師跟設計師合作...一定要仲介商....
+14:48 < JamesLin__> 資工 從零到有!
+14:48 < darkx> PM(?
+14:49 < legnaleurc> 資工分組作業的 80/20 rule
+14:49 < Ian____> 我坐第一排
+14:49 < StoneSound> PM我當過（頗累...
+14:49 < Ian____> 別害我笑出來
+14:49 < akira02> 分組作業教你的事：別相信任何人
+14:49 < BenBen> 80%的工作是用 20%的人完成， 小組人數： 5
+14:49 < jserv--> 犯錯的環境+++++++++++++++++++++++
+14:49 < jimmy_pan> akira02: 中肯...
+14:49 < pig__> akira02: 哈哈哈
+14:49 < JamesLin__> www
+14:49 < legnaleurc> 犯錯++
+14:49 < darkx> akira02: agree
+14:49 < G___> <-大學專題一個人做完（倒）
+14:49 < KNowlet> 5個人做真正在做的剩3個
+14:49 < freetsubasa> QQ
+14:49 < iblis17> akira02: 我也都被雷
+14:49 < darkx> psd wwwwwwww
+14:50 < Ian____> 真的!!
+14:50 < Ian____> 這太中肯!!
+14:50 < KNowlet> 3個人做就只有兩個
+14:50 < kikiqqp_No2> 這跟工作時老闆常常說，這改很快的
+14:50 < Ian____> 我們組五人 只有我在做OpenCV
+14:50 < StoneSound> 我會乖乖切給Coding的人
+14:50 < KNowlet> 那你想兩個人做就好就會發現只剩你在做XD
+14:50 < Ian____> 希望那個女生可以多體貼我億點
+14:50 < jimmy_pan> 我之前比賽7個人只有我在做..... (癱
+14:50 < kuniumi> 資工人都太好心了，懶得教，都幫你做到好
+14:50 < Ian____> 各位真的都神手
+14:50 < raincole> 三個資工生沒水喝
+14:50 < pig__> 隊友都在領便當
+14:51 < jserv--> 鼓勵去其他科系穿越
+14:51 < KNowlet> 現在班上我根本是被當作隨傳隨到QQ
+14:51 < akira02> 說到水...我口渴了
+14:51 < Duye> 買便當
+14:51 < NagiYamazaki_> raincole: XDDD
+14:51 < legnaleurc> 講到你懂，暑假都放完了
+14:51 < G___> 大家都差不多 XDDDD
+14:51 < KNowlet> 老師在上課，同學電腦有問題利馬無視老師召喚我>,<
+14:51 < Ian____> 恩
+14:51 < kuniumi> 工作團隊是一回事、學校又是另外一回事了
+14:51 < jimmy_pan> KNowlet: 我比你慘....
+14:51 < Ian____> 真的
+14:52 < Ian____> 世新 資管的學生95%很爛
+14:52 < jimmy_pan> KNowlet: 同學找老師,老師叫他們找我=.=
+14:52 < akira02> 那算不錯了，同學遇到問題不是都立馬放棄嗎
+14:52 < KNowlet> 同學遇到問題時表示：「交給專業的處裡」
+14:52 < legnaleurc> 可是我遇到很多只是分數夠填資工而已 ...
+14:52 < jserv--> 遇到立馬放棄的同學，我只好跪求同學了 XD
+14:52 < Ian____> 真的要跨出去
+14:52 < Ian____> 可惡
+14:52 < andy> 跨出去比較容易認識女生
+14:52 < darkx> 穿越阿阿阿
+14:52 < jserv--> 在一起！在一起！
+14:52 < StoneSound> 電機的頗ㄏ...
+14:53 < andy> 跨越!!
+14:53 < rail02000> 我不是資訊相關科系啊......XDD
+14:53 < kuniumi> 人生勝利組....
+14:53 < kikiqqp_No2> 要求教育部廢除一堆胯下不對 是跨系修課的限制吧
+14:53 < kikiqqp_No2> 比起ME,女生很多了
+14:53 < JamesLin__> 用code談戀愛(?
+14:53 < legnaleurc> lol
+14:53 < pig__> 偷懶
+14:53 < iblis17> lol
+14:53 < darkx> lol
+14:53 < bency> sudo make love install
+14:53 < jimmy_pan> JamesLin__: 不是跟code談戀愛 (?
+14:54 < kuniumi> love();
+14:54 < legnaleurc> 所以我們老闆開課從不出小組作業 XD
+14:54 < threelines> password:
+14:54 < NagiYamazaki_> send: i love you     receive: 403
+14:54 < BenBen> sudo apt-get install make love
+14:54 < JamesLin__> ㄏㄏ
+14:54 < pig__> 人在做天在看
+14:54 < carlcarl> 不如和正妹一組 心情還比較好一點~
+14:54 < StoneSound> bency 你要給密碼wwww
+14:54 < freetsubasa> XDDDDD
+14:54 < bency> ***********
+14:54 < darkx> loveme() ? let_it_be() : let_me_free();
+14:54 < bency> XD
+14:54 < Ian____> 問了
+14:54 < Lilithpray> 尷尬!!!
+14:54 < Davy_> make: error: command 'girlfriend' not found
+14:54 < kuniumi> 404
+14:54 < joyqul> XDDDDDDDDDDD
+14:54 < darkx> man women
+14:54 < NagiYamazaki_> Davy_: Gooood XDDDDDDD
+14:54 < Vongola> Not Found XDDD
+14:54 < Lilithpray> 吃虧就是占便宜~
+14:54 < akira02> #include "love.h"
+14:54 < JamesLin__> sudo apt-get install (?
+14:54 < legnaleurc> 熊庹！
+14:55 < StoneSound> classpath=??
+14:55 < jserv-->  apt-get install girlfriend
+14:55 <@RSChiang> free girlfriend;
+14:55 < jserv--> E: Unable to locate package girlfriend
+14:55 < JamesLin__> XDDD
+14:55 < pig__> 跳出來自幹((大誤
+14:55 < legnaleurc> 我記得有個 girl 的 project
+14:55 < jimmy_pan> makelove.com 301 dinosaur.com
+14:55 < freetsubasa> 這XDDDD
+14:55 < BenBen> 'girlfeiend' not found, did you mena 'boyfriend'
+14:55 < Ian____> 真的得自幹了
+14:55 < jserv--> apt-cache search gir1
+14:55 < Vongola> [y/n]
+14:55 < kuniumi> 男的也好，不會(ry
+14:55 < darkx> やらないか
+14:56 < Vongola> 咦?!!!
+14:56 < jserv--> 廢話，當然自幹啦
+14:56 < akira02> 阿部?!?!
+14:56 < jserv--> 快自幹
+14:56 < raincole> 所以把sources.list換成日本就可以交到日本妹嗎
+14:56 < StoneSound> 不~~~
+14:56 < JamesLin__> 肛肛好
+14:56 < Vongola> 真相了(最好
+14:56 < jimmy_pan> sudo apt-cache search girlfriend
+14:56 < G___> 好CODE，不寫嗎？
+14:56 < kikiqqp_No2> Microsoft那個寫CODE有女友的廣告都是浮雲
+14:56 < kikiqqp_No2> 恩 阿Q勝利思考法
+14:56 < carlcarl> ccr girlfriend
+14:56 < Ian____> 左二是宜蘭神
+14:56 < Ian____> 哈
+14:57 < Ian____> 剛剛那個問題是否有解答各位的憤慨!?
+14:57 < rail02000> girlfriend其實是boyfriend的虛擬套件（？
+14:57 < jserv--> 這年頭藝術家寫的 code 都比資工系學生多
+14:57 < legnaleurc> ㄈㄈ尺 girlfriend
+14:57 < Ian____> 恩
+14:57 < andy> 相依套件
+14:57 < JamesLin__> girlfriend.deb
+14:57 < Davy_> scp girls@www.girls.jp:bestgirl ./girlfriend
+14:57 < KNowlet> 我們學校連電腦概論都不交了這算啥XD
+14:57 < Neson_> 自修才是王道
+14:57 < HexTseng> $_GET['girlfriend']
+14:57 < abev66_> 我們學校有教 Python
+14:58 < Ian____> 我那組的女生是我的精神套件
+14:58  * jserv-- <- 是還沒畢業的學生
+14:58 < andy> 其實.....我是畢業十幾年的學校XDDD
+14:58 < legnaleurc> true story
+14:58 < pig__> 老師都部會
+14:58 < darkx> lol
+14:58 < Duye> XD
+14:58 < Lilithpray> 老師不會XDDD
+14:58 < Ian____> 老師真的不是每個都很棒
+14:58 < KNowlet> 校友安安
+14:58 < akira02> 老師：
+14:58 < kuniumi> 老師表示「我不用學也有錢拿」
+14:58 < KojimaC> 「學校不教, 其實是老師都不會」 XD
+14:58 < Vongola> emerge girlfriend
+14:58 < rail02000> 老師不教其實是老師不會XD
+14:58 < StoneSound> QAQ結果還是老師的問題...
+14:58 < andy> 學校不敎 其實是老師部會
+14:58 < fntsrlike> wwww
+14:58 < BOBO_> QAQ
+14:58 < darkx> 我們系，系主任不知 git 為何物
+14:58 < freetsubasa> lol
+14:58 < Ian____> 夜間部
+14:58 < KNowlet> 我們沒有讀資訊的電腦老師><我們的電腦老師一個是讀生物的一個是讀軍校的...
+14:58 < Lilithpray> 夜間部的老師比較厲害？？
+14:58 < carlcarl> 不知道git的還滿多的orz
+14:58 < kuniumi> 晚上不是都要加班在家code嗎
+14:58 < davidou> 資料庫老師：不要問我資料庫效能我不會
+14:58 < Ian____> 暗黑大 你們主任QQ
+14:59 < Ian____> 我們系上有些老師也真的是有點 不知該怎說她才好
+14:59 < darkx> Ian____: 我也覺得 QQ
+14:59 < Ian____> 片終點!?
+14:59 < darkx> \神奇學弟發言了/
+14:59 < Davy_> git clone girlfriend
+14:59 < Ian____> ==
+14:59 < abev66_> XD
+14:59 < Ian____> 別笑!!
+14:59 < jserv--> http://wiki.csie.ncku.edu.tw/embedded/schedule  # 直接強迫學生用 Git 繳交作業，整個學期下來，好像都沒遇到問題
+14:59 < jimmy_pan> 後面打噴嚏XDDD
+14:59 < akira02> 後面wwwwwwwwwww
+14:59 < legnaleurc> 有的教授覺得工具那是自已學學就好的東西，沒太上心
+14:59 < StoneSound> 神秘的噴嚏聲...
+14:59 < JamesLin__> god bless you
+14:59 < kuniumi> [建議]下次應該要讓台上講者看到IRC
+14:59 < KNowlet> blace U
+14:59 < Lilithpray> 後面偷打噴嚏是教授？
+14:59 < carlcarl> XDD
+14:59 < Duye> wwwww
+14:59 < KojimaC> wwww
+14:59 < NagiYamazaki_> 四連發!!
+14:59 < darkx> Lilithpray++
+14:59 < freetsubasa> 後面wwww
+14:59 < Ian____> 真的
+14:59 < Benben> 當你問出一個教授無法解答的問題，恭喜 可以畢業了
+14:59 < kuniumi> wwwwww
+14:59 < Vongola> XDDD
+14:59 < skystar> xDDDD
+14:59 < Ian____> 要給他們見一下
+14:59 < G___> wwwww
+14:59 < threelines> 保重...
+14:59 < Ian____> 建議
+14:59 < HexTseng> god bless you...
+15:00 < Ian____> 又來了
+15:00 < JamesLin__> god bless you
+15:00 < jimmy_pan> wwwwwwwwwwww
+15:00 < kikiqqp_No2> 連醫生寫code都比本科系號
+15:00 < Vongola> 第五次囉
+15:00 < kikiqqp_No2> 老賊不死，只是茁壯
+15:00 < kikiqqp_No2> 抱歉
+15:00 < kikiqqp_No2> 我笑了
+15:00 < NagiYamazaki_> 5 combo!!
+15:00 < akira02> 保重保重wwww
+15:00 < darkx> Benben: 我常問出教授回答不出的問題... 結果被貼黑名單 QQ
+15:00 < bency> 都坐最後一排了還聽的見阿
+15:00 < Ian____> 學校有些老師真的很不好
+15:00 < Ian____> 因為都只講理論
+15:00 < Ian____> 滿口泡泡
+15:00 < Ian____> 結果上完課 城市還是不會寫
+15:00 < kikiqqp_No2> 黑到畢業過
+15:00 < jserv--> 連醫師寫 code 都能寫出 SourceForge 排名全球前十名的專案 (pcman)
+15:00 < darkx> kikiqqp_No2: (握)
+15:00 < Ian____> 才會造成我喜歡的那個女生那樣子
+15:00 < jserv--> 學校老師認真檢討的比例不高
+15:00 < Ian____> ==
+15:01 < Davy_> 真 coder 假 doctor (#
+15:01 < Ian____> 確實
+15:01 < abev66_> Ian____: 都在排星星(?
+15:01 < Vongola> (噴
+15:01 < Ian____> 排星星?
+15:01 < darkx> 推從做中學！
+15:01 < legnaleurc> 不過我們老師玩硬的，結果是很慘 ... XD
+15:01 < Davy_>      *
+15:01 < Neson_> 做中學！！
+15:01 < Davy_>     ***
+15:01 < Davy_>    *****
+15:01 < Ian____> 喔!
+15:01 < Davy_>   *******
+15:01 < legnaleurc> 會過的學生剩下 8 個
+15:01 < Lilithpray> 做中學!!!
+15:01 < Davy_>  *********
+15:01 < Davy_> ***********
+15:01 < Ian____> 有的是只講原文課本
+15:01 < Lilithpray> 不會做了就會了
+15:02 < Vongola> 巴斯卡阿喂
+15:02 < Benben> for i
+15:02 < Ian____> ==
+15:02 < Ian____> 休息時間
+15:02 < JamesLin__> 巧
+15:02 < Ian____> ~~
+15:02 < jimmy_pan> 茶點～～
+15:02 < Benben> 衝啊!!!!!!
+15:02 < jserv--> 作，就對了
+15:02 < carlcarl> !!
+15:02 < JamesLin__> 搶WW
+15:02 < andy> 衝囉!!!
+15:02 < Davy_> eating time
+15:02 < HexTseng> Go!!
+15:02 < Duye> !
+15:02 < threelines> 茶點!!!!!!!!!!!!!!!!!!!!!!
+15:02 < kuniumi> 場內IRC交流時間(x
+15:02 < G___> 早上的茶點還滿好吃的
+15:13 < hashman--> test
+15:14 < kuniumi> \Plurk user交流時間/
+15:14 < jimmy_pan> kuniumi: hi~~
+15:14 < G___> Plurk user +1
+15:14 < kuniumi> (wave)
+15:15 < carlcarl> (worship)
+15:15 < date> 哭哭喔
+15:15 < Vongola> 哭毛
+15:15 < date> 呵呵
+15:15 < Vongola> 呵毛
+15:15 < date> date like Vongola
+15:16 < Vongola> fxxk
+15:16 < Vongola> 別鬧了
+15:16 < date> <3
+15:16 < carlcarl> 感覺場內好像變冷了
+15:16 < rail02000> 人比較少的關係吧？
+15:16 < Ian____> 恩
+15:16 < date> 對不起QAQQQQQQQ
+15:17 < kikiqqp_No2> 沒人裸奔不算
+15:17 < Ian____> 0.0
+15:17 < Ian____> 還很多人在外面ㄟ
+15:17 < Vongola> Date said,"He like raincole." :)
+15:17 < carlcarl> @@"
+15:17 < Benben> 沒吃完啦! 別吵!
+15:17 < jimmy_pan> www
+15:17 < date> =3=
+15:17 < darkx> raincole 是我們的神 <(_ _)>
+15:17 < Vongola> (worship)
+15:17 < rail02000> raincole ! (worship)
+15:18 < Ian____> 講者應該是神手
+15:18 < kuniumi> (worship)
+15:18 < date> 有神快拜
+15:18 < date> <(_ _)>
+15:18 < Ian____> 我哭了
+15:18 < Ian____> 高中生ㄟ
+15:18 < Ian____> 鄉下孩子該死
+15:18 < ShaWu_TW> <(_._)>
+15:18 < freetsubasa> raincole (worship)
+15:18 < NagiYamazaki> <(_ _)>
+15:18 < Ian____> ←
+15:18 < jimmy_pan> 跟我差不多欸
+15:18 < date> NaNi坐在我旁邊誒>//////////<
+15:18  * darkx 鄉下孩子 *哭*
+15:18 < jimmy_pan> 我在幹嘛@@
+15:18 < darkx> fib?
+15:19 < rail02000> darkx (worship)
+15:19 < freetsubasa> 基測...好久遠的名詞
+15:19 < Ian____> 有神快拜!!
+15:19 < kuniumi> 想想我現在高中在幹嘛(敲頭
+15:19 < Ian____> 我是宜蘭仔
+15:19 < pig__> 現在的小孩都好強(面壁中
+15:19 < Ian____> 國中就發明工具!!
+15:19 < NagiYamazaki> 國中寫的.....我國中在幹嘛阿....(抱頭
+15:19 < HexTseng_> (worship)
+15:19 < kuniumi> (rsplurk user路過
+15:19 < Ruinland_at_WKS>  \¤¯¤¯/
+15:19 < Ruinland_at_WKS>  \¤¯¤¯/
+15:19 < Ruinland_at_WKS>  \¤¯¤¯/
+15:19 < Ruinland_at_WKS>  \¤¯¤¯/
+15:19 < Ian____> 跟朋友飆腳踏車
+15:19 < darkx> 普通 plurk user 路過QQ
+15:19 < ShaWu_TW> 面壁...
+15:19 < Lilithpray> 國中的時候我在幹嘛QQ
+15:20 < rail02000> 「只會」......
+15:20 < Davy_> 國中QQ
+15:20 < jimmy_pan> 我國中只會用vb拉物件出來-.-
+15:20 < Ian____> 台上真是夭壽
+15:20 < NagiYamazaki> 國中寫MultiThread......QAQ
+15:20 < Ian____> 我國中還沒有網路
+15:20 < Ian____> 我國中在玩土
+15:20 < pig__> 我好慚愧((掩面
+15:20 < Lilithpray> 國中還在hello C
+15:20 < Lilithpray> QQ
+15:20 < jserv--> 每個人都要作一個專題題目
+15:20 < Ian____> 慚愧加一
+15:20 < Lilithpray> 專題QQQ
+15:20 < Davy_> 國中還在小蜜蜂QQ
+15:20 < pig__> 現在高中這麼嚴格?
+15:20 < bency> 是什麼國中阿~~
+15:20 < Ruinland_at_WKS> °ê¤¤hello C +1 QAQQQQ
+15:20 < G___> 好厲害 orz
+15:20 < freetsubasa> 慚愧..
+15:20 < Ian____> 我高中只負責考試
+15:20  * jserv-- 國中還在寫 virus，根本沒雲端
+15:20 < andy> 國中用VB也很強了吧QQ
+15:20 < jimmy_pan> 慚愧+1..
+15:20 < Ian____> QQ
+15:20 < Lilithpray> 姚明臉XD
+15:20 < darkx> [YaoMing]
+15:20 < kikiqqp_No2> 我國中沒寫過程式
+15:21 < jserv--> 請問有 FxxK511 嗎？
+15:21 < Ian____> ORZ
+15:21 < Ian____> 我快聽不下去了
+15:21 < andy> 把你臉馬成妖魔臉
+15:21 < NagiYamazaki> 國中寫AI....
+15:21 < carlcarl> 我國中在玩機戰QQ
+15:21 < Davy_> 人工智慧QQ
+15:21 < freetsubasa> 國中只會打星海= =
+15:21 < Ian____> =
+15:21 < darkx> freetsubasa: 你現在在打 LOL = =
+15:21 < Davy_> 不是這麼容易所以決定從AI開始做QQ
+15:21 < Ian____> 不行了! 我已經輸在起跑點了QQ
+15:21 < darkx> plurk API 1.0 到 2.0 跳很大... 想單年 QAQ
+15:21 < Ian____> ORZZ
+15:22 < forne> 123
+15:22 < Lilithpray> 輸了QQQQQQ
+15:22 < G___> 我國中在玩WOW（掩面）
+15:22 < Benben> 育慈xddd
+15:22 < date> PlurkAPI誒!!!!!
+15:22 < kuniumi> \藍藍路/
+15:22 < Ian____> 回家大該會自暴自棄吧
+15:23 < darkx> ws 表示：
+15:23 < Neson_> 自暴自棄 +1
+15:23 < ShaWu_TW> ㄩㄘㄉㄉ  XD
+15:23 < legnaleurc> Symbian 悲劇 ...
+15:23 < darkx> 自幹 plurk clint, cool!
+15:23 < pig__> 整個是好強
+15:23 < jserv--> 自幹！！！
+15:23 < kikiqqp_No2> 沒有就自己寫
+15:23 < Lilithpray> symbian 我也有用過XDDD
+15:23 < kuniumi> 賽班哭哭
+15:24 < darkx> 我想到 penk ....XD
+15:24 < legnaleurc> 自幹++
+15:24 < kikiqqp_No2> 這自幹的好
+15:24 < Davy_> 自幹爽
+15:24 < Ruin_at_Doom> utf8測試
+15:24 < jserv--> 只要細心，土砲 UX 也可以端出去 PK
+15:24 < NagiYamazaki> .....土炮觸控?
+15:24 < jserv--> 這次 SITCON 好多自幹議程，真好
+15:24 < G___> <-還是Symbian使用者。
+15:24 < darkx> geek 魂！
+15:24 < JamesLin_> 技術宅XDDDD
+15:25 < kuniumi> 好強......
+15:25 < jserv--> 他怎麼說服評審的呢？
+15:25 < JamesLin_> OP
+15:25 < Davy_> OP
+15:25 < jserv--> 現在評審很可能不太會用網路服務
+15:25 < freetsubasa> OP
+15:25 < Duye> 22K
+15:25 < Davy_> 恩@@
+15:25 < NagiYamazaki> "評審你有在用plunk嗎?"     "好你過了"
+15:25 < Ian____> 我不想聽了
+15:25 < akira02> 科展公道價
+15:25 < Ian____> 我要來看文件
+15:25 < Lilithpray> 導盲背心@@
+15:25 < Ian____> QQ
+15:25 < Ruin_at_Doom> @Nagi:普朗克？
+15:25 < Ruin_at_Doom> XD
+15:26 < kuniumi> 哇嗚!OwO/
+15:26 < legnaleurc> ++
+15:26 < jserv--> 自幹魂！
+15:26 < akira02> 噗浪簡單？！
+15:26  * jserv-- 每次講者說「你知道」時，我都不知道 >_<
+15:26 < Ian____> 好像有聽過這個功能
+15:27 < Davy_> 糟糕這神太強我有點不敢講後面的short talk了QQ
+15:27 < Ian____> ==
+15:27 < Benben> 講師講話好可愛 ˊ_>ˋ
+15:27 < NagiYamazaki> 這太威猛了QQ
+15:27 < Davy_> 萌點全滿
+15:27 < Ian____> 他根本就不是高中生
+15:27 < legnaleurc> UI 當了要怎麼操作 XD
+15:27 < Ian____> VB神手
+15:27 < Davy_> 靠 VB 也太屌
+15:28 < freetsubasa> 好可愛
+15:28 < Ian____> 本來就屌
+15:28 < Davy_> 我有種看到了 ruby 的錯覺
+15:28 < legnaleurc> 這也不用大括號？
+15:28 < kikiqqp_No2> vb好久沒看了
+15:28 < Ian____> 恩
+15:28 < Ian____> 不用
+15:28 < Ruinland_at_doom> VB.net可以再戰十年~
+15:28 < legnaleurc> 舉牌沒看到 XD
+15:28 < Ian____> 我學的VB根本就是糞
+15:28 < williamsnail> Test
+15:28 < Ian____> ==
+15:28 < kikiqqp_No2> vb不需要呦
+15:28 < jserv--> 比拇指很可愛 XD
+15:28 < Benben> 高職計概要教這個才有用，每次考試只考迴圈就自以為得到全世界..
+15:28 < bency> 他被黑衣人罐過藥再重長一次了吧
+15:28 < dylandy> 重寫超強
+15:28 < Lilithpray> 真的是高中生媽？@@
+15:28 < Vongola> Error : Failed to load file:// file :(
+15:28 < Benben> 誰被萌到了？ +
+15:28 < akira02> 時間太多？！
+15:28 < Ian____> RX被嚇到了吧
+15:28 < jserv--> 不要再用 VB 這種殘廢的東西啦
+15:28 < Ian____> 不敢倒數
+15:28 < legnaleurc> 沒錯 ....
+15:28 < williamsnail> Windows Phone 終於可以用IRC了
+15:29 < Ian____> 恭喜
+15:29 < legnaleurc> Plurk API 回傳的 data 真的很怪
+15:29 < freetsubasa> Irvin_: 表示
+15:29 < Davy_> alvin表示:
+15:29 < Ruinland_at_doom> 改跳其他WYSIWYG？
+15:29 < jserv--> 還是要自己用！
+15:29 < kuniumi> alvin:幸好我沒來
+15:29 < jserv--> 平均每三個議程，就有兩個議程提到自幹
+15:29 < Ian____> 竟然會台噢!?
+15:29 < Ruinland_at_doom> wakeup(Irvin_)
+15:29 < Ian____> 真的
+15:29 < jserv--> 爽度大增
+15:29 < Davy_> 原來alvin就是被這個議程下到才不來的(不
+15:30 < kikiqqp_No2> alvin會不會正在打噴嚏
+15:30 < freetsubasa> 被萌到啦 <3
+15:30 < Ian____> 我今天第一次來
+15:30 < akira02> wwww
+15:30 < Ian____> 拜託手下留情
+15:30 < andy> 學生的DIY風氣盛行(?)
+15:30 < dylandy> 那個時代網路不穩定，怎麼覺得講者很老了XD
+15:30 < legnaleurc> QML
+15:30 < Ian____> 不要一直嚇我
+15:30 < Davy_> 誰不是第一次來  拜託 這第一屆欸XD
+15:30 < jserv--> Qt++
+15:30 < Irvin_> 囧
+15:30 < Davy_> Qt++
+15:30 < darkx> 無線網路又 GG 惹?
+15:31 < legnaleurc> 雖然我覺得 QML 的語法整個詭異
+15:31 < Davy_> 我正常
+15:31 < kikiqqp_No2> 學校應該鼓勵土炮
+15:31 < Irvin_> 昨天晚上裝完 Origin 敗完 SimCify 更新完 Win 8，我的 Win 8 就再起不能了（顧左右而言他）
+15:31 < freetsubasa> XD
+15:31 < pig__> 無線用"愛待丸"
+15:31 < Duye> 有線目前速度可以
+15:31 < kikiqqp_No2> 哈哈哈哈哈
+15:31 < Ruinland_at_doom> Jserv大對wxWidget,Qt,GTK+有沒有什麼挑選上的看法或意見呢？(誠懇請教)
+15:31 < Benben> 講師好萌
+15:31 < dylandy> 愛呆丸穩定
+15:31 < Irvin_> 事實證明 MBP 果然是最佳 Win 8 筆電，Win 8 不能開機還有 OS X 可以拿來燒片子救……
+15:31 < andy> 開門教你如何DIY土炮自幹的課?
+15:31 < jserv--> Ruinland_at_doom, 做出來最重要
+15:31 < legnaleurc> Irvin_: lol
+15:32 < Davy_> Irvin_: lol
+15:32 < jserv--> Ruinland_at_doom, 很多時候，沒得挑選 >_<
+15:32 < jserv--> 付錢是大爺
+15:32 < Davy_> 久違的js
+15:32 < legnaleurc> jserv--: client is always right
+15:32 < Ruinland_at_doom> Roger that. <(_ _)>
+15:32 < darkx> dylandy: 連不上QQ
+15:32 < Ian____> 請問
+15:32 < Irvin_> 請大家發嘍 http://www.plurk.com/plurkapi  有問題可以寫 support 信或 DM 給他，還是有人在看的
+15:32 < Ian____> 他那個"VAR"是什麼意思
+15:32 < jserv--> 講者的手勢好可愛
+15:32 < kikiqqp_No2> 那也別只教貴到閃尿的套裝軟體呀
+15:33 < pig__> var  定義?
+15:33 < Davy_> var 定義變數阿
+15:33 < dylandy> Ian____> 宣告變數
+15:33 < Benben> variable
+15:33 < carlcarl> @@
+15:33 < Ian____> 了解~謝謝
+15:33 < jserv--> 「可能還會寫一個」
+15:33 < Davy_> 讚!
+15:33 < pig__> 剩下4分鐘
+15:33 < jserv--> 這 API 好棒
+15:33 < Benben> 高中教VB的只看的懂 Dim
+15:33 < kuniumi> 連debug都自己寫...
+15:33 < legnaleurc> 字好小
+15:33 < Davy_> 彩色的!
+15:33 < Ian____> 他可以來我們學校當老師了吧
+15:34 < Duye> 神了
+15:34 < jimmy_pan> 好神.......
+15:34 < jserv--> 感覺這難度已經超越我的 microkernel 了
+15:34 < Irvin_> 那些覺得 API 很爛的，請來投履歷，然後自己改 XD http://jobs.inside.com.tw/jobs/1447-software-developer-python-plurk-%E5%99%97%E6%B5%AA
+15:34 < Ruinland_at_doom> \rsRenRen/
+15:34 < NagiYamazaki> 真強者
+15:34 < NagiYamazaki> 講師的背後正在散發著光芒。
+15:34 < freetsubasa> <(_  _)>
+15:34 < Ian____> 恩
+15:34 < Vongola> 佛光OAO?
+15:34 < jserv--> <(_  _)>
+15:34 < Davy_> <(_ _)>
+15:34 < darkx> 壁 | AQ
+15:34 < Benben> NagiYamazaki:  99等?
+15:34 < Lilithpray> 圖好精美
+15:34 < Ruinland_at_doom> <(_ _)>
+15:34 < KojimaC> 類神經網路....
+15:34 < legnaleurc> Irvin_: 我以為已經找完了
+15:34 < carlcarl> wow
+15:34 < dylandy> <(_ _)>
+15:35 < Davy_> 新酷音!
+15:35 < jserv--> 新酷音表示...
+15:35 < NagiYamazaki> Benben: 看起來已經爆表了Q_Q
+15:35 < G___> m(_ _)m
+15:35 < jserv--> 反映 plurk 社群的生態
+15:35 < Davy_> 我也不知道為什麼 他救了就會反應噗浪上的生態
+15:35 < Ruinland_at_doom> XDDDDDDDD
+15:35 < dylandy> 觀察到的東西可以拿來賣了
+15:35 < Ian____> ??
+15:35  * freetsubasa 噗浪重度使用者++
+15:35 < Irvin_> legnaleurc: 目前還沒有人 on board，我是不知道找好了沒啦
+15:35 < Ian____> 恩
+15:35 < kikiqqp_No2> 大癡漢
+15:35 < Davy_> execption也太強
+15:36 < jserv--> 還有 Dashboard !!!
+15:36 < Benben> 會自己學習喔@@ 我以為要建立資源
+15:36 < legnaleurc> Irvin_: 了解
+15:36 < KojimaC> OMG
+15:36 < JamesLin_> XDDDD
+15:36 < Davy_> 能請公假的www
+15:36 < Benben> 講師是捷運迷？
+15:36 < KNowlet> 我們學校沒這種東西啦Q
+15:36 < darkx> 公假++
+15:37 < legnaleurc> ++
+15:37 < jserv--> 好感人
+15:37 < darkx> QAQ
+15:37 < Ruinland_at_doom> 「不要虧待自己的生命」......我感到無比汗顏......
+15:37 < kikiqqp_No2> 這場很好
+15:37 < Davy_> 七八種技術QQ
+15:37 < pig__> 擇其所愛  持之以恆
+15:37 < Davy_> darkx: 現在不能請了QQ
+15:37 < jserv--> 應該請他來講 keynote
+15:37 < kuniumi> (worship)(worship)(worship)(worship)(worship)(worship)(worship)(worship)(worship)(worship)(ry
+15:37 < carlcarl> 很棒++
+15:37 < jeremy5189> https://github.com/rschiang/rsPlurkLib
+15:37 < Ian____> 我哭了
+15:37 < Benben> 掌聲好熱列
+15:37 < pig__> 不要虧待自己的肝
+15:37 < Ian____> 我不敢問!!!!!!!
+15:37 < Duye> (worship)
+15:37 < Davy_> 嚇到不敢問QQ
+15:37 < ShaWu_TW> <(_ _)>
+15:37 < jserv--> 中一中表示...
+15:37 < kuniumi> 嚇到問不出來了
+15:38 < Lilithpray> <(_ _)>
+15:38 < rail02000> 我慚愧了QQ
+15:38 < Ian____> 換M大了!!!!!!!!!!!!!!
+15:38 < pig__> 正妹上台
+15:38 < darkx> \mosky/
+15:38 < Davy_> jserv--: 沒關係妳學弟等等還有一場(喂
+15:38 < Ian____> 大加快抬頭!
+15:38 < davidou> mosdky!
+15:38 < Davy_> \mosky/
+15:38 < jimmy_pan> 頭!
+15:38 < jimmy_pan> 15:4頭!
+15:38 < darkx> 學弟 ._./
+15:38 < Ian____> MOSDKY!!!!!!!!!!!
+15:38 < jimmy_pan> \mosky/\mosky/\mosky/
+15:38 < Ian____> 有妹 快 看!!
+15:38 < Davy_> 看腿(欸
+15:38 < jserv--> darkx, 還是不要講學校好了 >_<
+15:38 < Ian____> 有人知道他的網域!?
+15:38 < kuniumi> Gnome 3 !!
+15:38 < darkx> QQ
+15:38 < akira02> 又一個Linux的！
+15:38 < Benben> ubuntu?
+15:38 < KNowlet> 突然好安靜!!!
+15:38 < Ian____> 屋~~~~~~~~
+15:38 < jimmy_pan> ubuntu
+15:39 < jserv--> 我酥麻了
+15:39 < Ian____> 給你全世界
+15:39 < rail02000> 赫然發現這個時段都是大神講座......
+15:39 < Davy_> 喔不~
+15:39 < NagiYamazaki> 沒問題啊!!!!!
+15:39 < Benben> 語調好平 好像機器人
+15:39 < carlcarl> ubuntu的~
+15:39 < jserv--> 等你唷～
+15:39 < kikiqqp_No2> 她今天會講自幹SQL嗎
+15:39 < Ian____> 都給你了
+15:39 < freetsubasa> 聲音好棒  >//<
+15:39 < Ian____> 快念!!
+15:39 < darkx> 好萌～～～～～
+15:39 < Davy_> 差點尖叫>/////<
+15:39 < Ian____> 我又QQ了
+15:39 < darkx> 快融化了 (yay)
+15:39 < Duye> !!!
+15:39 < Ian____> 難得有妹會洗換IT
+15:39 < carlcarl> 好像是之前pycon講過的project@@
+15:39 < akira02> (fuu)
+15:39 < Ian____> 喜歡
+15:39 < Ian____> 安安!!
+15:39 < darkx> carlcarl: 是的
+15:40 < Davy_> 假文青XD
+15:40 < G___> 醫護兵（吐血）！！
+15:40 < jserv--> patch !
+15:40 < Ian____> 我左右鄰居都抬起頭了!!
+15:40 < Ian____> @@
+15:40 < Davy_> 想認識(欸
+15:40 < Ian____> 給他時間到底啦
+15:40 < Ian____> XD
+15:40 < Davy_> 給你一小時我們都願意
+15:40 < NagiYamazaki> 大學生?!
+15:40 < Ian____> 大學生!?
+15:40 < akira02> 台下wwwwwwwwww
+15:40 < Benben> 願意延長下課的舉手
+15:41 < Ian____> PINKOI
+15:41 < pig__> 等等的Q&A  舉手要電話
+15:41 < Ian____> PIG
+15:41 < Ian____> 你真假!?
+15:41 < jserv--> 自介沒附上 FB，遺憾
+15:41 < NagiYamazaki> pig__: 交給你了!!
+15:41 < pig__> 小弟  俗仔XD
+15:41 < jimmy_pan> http://pinkoi.com/
+15:41 < Davy_> --鄉民最會人肉了--
+15:41 < Ruinland_at_doom> http://www.facebook.com/mosky.liu?fref=ts
+15:41 < Ian____> 嗯啊
+15:41 < Ian____> 你舉手 會後 我請你喝飲料
+15:41 < carlcarl> pinkoi的商品滿不錯的 不過也比較貴> <
+15:41 < jimmy_pan> http://www.plurk.com/mosky
+15:41 < pig__> Ian____: 哈哈哈
+15:41 < Davy_> 接下來的就別上台了(X
+15:41 < ShaWu_TW> 居然有人法上附上FB XD
+15:42 < Ian____> 沒
+15:42 < Ian____> 熱情
+15:42 < Vongola> XDrz
+15:42 < legnaleurc> 略懂
+15:42 < darkx> \python/
+15:42 < carlcarl> XDD
+15:42 < KojimaC> darkx: wwwwww
+15:42 < akira02> 欸www
+15:42 < joyqul> XDDDDDDDD
+15:42 < threelines> 好熱情XDDDDD
+15:42 < NagiYamazaki> XDDDDDDDDD
+15:42 < Ian____> 很白痴吧
+15:42 < Ruinland_at_doom> \Python/
+15:42 < UncleHandsome> darkx: 黑鬼
+15:42 < dylandy> 黑鬼XD
+15:42 < Ian____> 我剛看了
+15:42 < kuniumi> 略懂+1
+15:42 < jserv--> C 語言才是王道！
+15:42 < Ian____> 大家都在笑
+15:42 < Ian____> ==
+15:42 < rail02000> darkx XDDD
+15:42 < Davy_> darkx: 吃和www
+15:42 < Petrova> mosky.tw
+15:42 < Benben> 沒寫過的可以舉手嗎
+15:42  * jserv-- 用 C 語言也能快速改變 @_@
+15:42 < Ruinland_at_doom> \Python/\Python/\Python/
+15:42 < kikiqqp_No2> iTaiwan 擊沈
+15:42 < Davy_> http://www.pinkoi.com/
+15:42 < freetsubasa> darkx: <3
+15:43 < Ian____> 有人拍照留影?
+15:43 < carlcarl> 我的itaiwan還活著~~
+15:43 < Davy_> 哭哭 ruby 呢(欸
+15:43 < darkx> http://www.meetup.com/pythonhug/  推一下
+15:43 < Petrova> python is basic...
+15:43 < jimmy_pan> http://j.mp/mosky-py
+15:43 < kuniumi> 台灣有老師會python嗎wwww
+15:43 < Ian____> !!!!!!!!!!
+15:43 < kikiqqp_No2> 其實晶片設計也不一定會用C和C++
+15:43 < Ian____> 好熱情!!
+15:43 < Ian____> 我們學校沒有人會
+15:44 < ShaWu_TW> 感覺舉手變多了(??
+15:44 < carlcarl> 應該大會之後會分享照片出來吧
+15:44 < Jeremy850407> 誒
+15:44 < G___> wwwww
+15:44 < Davy_> 不管怎樣，舉手，就對了
+15:44 < jserv--> 量子力學
+15:44 < jserv--> 舉，就對了
+15:44 < jimmy_pan> Davy_: www
+15:44 < kikiqqp_No2> 啊
+15:44 < Ian____> 可以船上IRC？
+15:44 < darkx> To 舉手  or not to 舉手
+15:44 < Ian____> 今天有你上台對就有幫助了
+15:44 < Ian____> ＸＤ
+15:44 < Davy_> Q&A 來求合照好了(X
+15:44 < kikiqqp_No2> 不舉很恐怖要看醫生
+15:44 < Ian____> 剛剛正在興奮時　我喜歡的女生就ＦＢ我＝＝
+15:44 < Davy_> --to 舉 or not to 舉--
+15:45 < jserv--> 高中生 ++
+15:45 < jimmy_pan> Ian____: wwwwwwwwwww
+15:45 < Davy_> 高中生++ (?
+15:45 < darkx> Ian____: 你要跟他說，我的心已經獻給  Python 了(誤
+15:45 < kikiqqp_No2> 氣音
+15:45 < Ian____> ＸＤＤ
+15:45 < jserv--> CLI-ize ME
+15:45 < Davy_> 這聲音 >"<
+15:45 < Ian____> 好刺激
+15:46 < Davy_> colse~ me
+15:46 < jserv--> 氣音++
+15:46 < pig__> 沒關係
+15:46 < Davy_> close~ me
+15:46 < Benben> 沒人在意?
+15:46 < Ian____> ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋
+15:46 < jserv--> 可以教我們怎麼穿越嗎？
+15:46 < Ian____> 有很多人開終端機!?
+15:46 < NagiYamazaki> XDDDDDd
+15:46 < darkx> 說不定人家只是 ptt
+15:46 < JamesLin_> 說好的GUI呢XD
+15:46 < jserv--> Live Coding!!!
+15:46 < Benben> darkx: XD
+15:46 < Ian____> RX
+15:46 < Davy_> 誰在錄音(X
+15:46 < jimmy_pan> irssi~
+15:46 < Ian____> 你舉個X
+15:47 < jserv--> Rx 遇到 Tx
+15:47 < darkx> irssi ++
+15:47 < jserv--> 來人啊，把 RS232 設定好
+15:47 < Vongola> chatzilla (?
+15:47 < carlcarl> irssi ++
+15:47 < D-eye> ++irssi
+15:47 < Davy_> ##irssi##
+15:47 < kikiqqp_No2> 這是UART嗎
+15:47 < Benben> sudo apt-get cliize me
+15:47 < NagiYamazaki> 跪求錄音跟照片 (?)
+15:47 < darkx> one liner (Y)
+15:47 < jimmy_pan> 話說mac+tmux+irssi要怎麼網上看之前的紀錄＠＠？
+15:47 < Ian____> 跪求照片!!!!!!!!!!!
+15:47 < jeremy5189> find .
+15:48 < Ian____> 我每晚睡覺都挺這個就好
+15:48 < Ian____> ==+
+15:48 < darkx> page up
+15:48 < Davy_> PgUp
+15:48 < UncleHandsome> alt + p
+15:48 < UncleHandsome> p
+15:48 < Ian____> 上面比剛剛那個強大多了!!!!!!!!!!
+15:48 < darkx> UncleHandsome: tmux 大大
+15:48 < darkx>  
+15:48 < Davy_> UncleHandsome: <(_ _)>
+15:48 < kuniumi> 0.0/
+15:48 < jserv--> 男人都要舉一下
+15:48 < Ian____> 嗯啊
+15:48 < Ian____> 總有一天
+15:48 < Davy_> jserv--: . _ . /
+15:48 < darkx> argparse++
+15:48 < jimmy_pan> UncleHandsome: 不行欸....
+15:49 < BOBO_> Unclehandsome:<(_ _)>
+15:49 < Ian____> CLI
+15:49 < kuniumi> 又是lib...
+15:49 < Ruinland_at_doom> jimmi 你有re-attach嘛？
+15:49 < UncleHandsome> jimmy_pan: 這我就不知道了 拍謝XD
+15:49 < jimmy_pan> UncleHandsome: XD
+15:49 < Davy_> 手機畫質不好(???
+15:49 < Ian____> 有人待會兒要問問題ㄇ
+15:49 < jimmy_pan> http://j.mp/mosky-py  <-之前上她課的簡報
+15:50 < Ian____> 別爭先恐後喔
+15:50 < kikiqqp_No2> 為什麼說不難會讓我想到三個步驟折紙鶴呢
+15:50 < darkx> 登拉
+15:50 < NagiYamazaki> Davy_: 跪求照片 <(_ _)>
+15:50 < Ian____> 跪求+1
+15:50 < Ian____> 坐第一排實在太幸福
+15:50 < davidou> 早上起不來拿它聲音當鬧鐘好像不錯
+15:50 < Ian____> 我今天畢生難忘
+15:50 < Ian____> 恩恩!
+15:50 < legnaleurc> 其實也是可以用 bash 寫
+15:51 < carlcarl> 也太激動XDDDD
+15:51 < pig__> 右半邊也挺爽的((大誤
+15:51 < darkx> getopt 表示：
+15:51 < jserv--> 想睡了
+15:51 < Ian____> RX 別舉!!!!!!
+15:51  * abev66_ zZZZZ(?
+15:51 < legnaleurc> 時間快到了 ...
+15:51 < Ian____> 哇靠
+15:51 < NagiYamazaki> pig__: Agreeeeeee
+15:51 < Ian____> 這站姿
+15:52 < darkx> 不難嘛～
+15:52 < Ian____> 剛看到下巴閉不起來
+15:52 < Benben> O型腿?
+15:52 < JamesLin_> WW
+15:52 < pig__> 慾望無限
+15:52 < Duye> Ruby? XD
+15:52 < kuniumi> --簡稱db管理懶人包--
+15:52 < Davy_> 不能公開的
+15:52 < abev66_> 不能公開是……(?
+15:52 < NagiYamazaki> wwwwwwwww
+15:52 < jimmy_pan> https://github.com/moskytw/
+15:52 < davidou> 老闆我要在加一小時
+15:53 < pig__> 不能公開是指...私底下談
+15:53 < Ian____> 還有時間
+15:53 < Ian____> 別怕!
+15:53 < Davy_> 等等衝去前面合照
+15:53 < Ian____> 真的
+15:53 < Ian____> 我也要
+15:53 < pig__> Davy_: (y)
+15:53 < NagiYamazaki> 繼續教，應該可以蓋出大金字塔啊!!!!!!!!!!!
+15:53 < Davy_> 蓋著蓋著就會發現，跑出新的小金字塔了(?
+15:53 < abev66_> 就是抄進來用 XD
+15:53 < jimmy_pan> 麥金塔XDD
+15:54 < darkx> 你不能直接 import 日文
+15:54 < Ian____> 五十分鐘
+15:54 < darkx> 你不能直接 import 論文
+15:54 < abev66_> XD
+15:54 < Davy_> 給你一輩子(X
+15:54 < Ian____> 要找他!?
+15:54 < legnaleurc> import this
+15:54 < davidou> 瞬間什麼都不懂了
+15:54 < Ian____> 爽
+15:54 < Ian____> 還有
+15:54 < abev66_> Ian____: GO
+15:54 < jimmy_pan> import mosky (?
+15:54 < Davy_> 要怎樣把妳安裝進我的心(#
+15:54 < Ian____> 我DAVY
+15:54 < abev66_> XDrz
+15:54 < pig__> davidou: 真的，哈哈哈
+15:54 < andy> 大家都不懂(旁邊瞬間異口同聲)
+15:54 < Benben> Davy_: 401
+15:54 < davidou> sudo install mosky.now
+15:55 < Davy_> davidou: 那以後的怎辦XD
+15:55 < NagiYamazaki> sudo apt-get install mosky
+15:55 < davidou> ./mosky 阿
+15:55 < Ian____> 我不會派森
+15:55 < Ian____> QQ
+15:55 < davidou> chown davidou mosky
+15:55 < pig__> Q&A 徵求強者問問題  XD
+15:55 < jimmy_pan> chmod 777 mosky
+15:55 < Davy_> davidou: permission denied
+15:55 < Benben> Permission denied
+15:56 < Ian____> 777 權限全開!
+15:56 < darkx> chmod +x mosky
+15:56 < jimmy_pan> sudo chmod 777 mosky
+15:56 < Ian____> NO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+15:56 < nc7uBomber> wwwwwwwwwwwwwwwwww
+15:56 < jserv--> pip install mosky
+15:56 < Davy_> 等等衝前方問python
+15:56 < carlcarl> XDDDDDDDDDDDDDDDDDDDDDDDDDDD
+15:56 < bency> you are now in sudoer
+15:56 < abev66_> chown (ry
+15:56 < Ian____> 有人要問問題!?
+15:56 < jimmy_pan> chown everyone:everyone mosky
+15:56 < Ian____> 我不知道該問啥
+15:56 < Ian____> 因為我不會派森
+15:56 < davidou> sudo 全下啦  777 啦 不管啦～～拉拉～～
+15:56 < jimmy_pan> Ian____: 問：python是啥
+15:57 < carlcarl> XD
+15:57 < Davy_> 你們都忘記要 chmod +x mosky 了
+15:57 < jserv--> Rx 從善如流
+15:57 < andy> 我ˋ可以有QA嗎?
+15:57 < jimmy_pan> Ian____: 快問～～
+15:57 < Benben> 快沒機會了
+15:57 < dylandy> 這可以阿怎麼聽聽起來有嫉妒感XD
+15:57 < davidou> 台下男生全部都不舉！
+15:57 < NagiYamazaki> 強者們啊!!!!
+15:57 < Davy_> 入門(?
+15:57 < jserv--> 你們這些不舉的人～
+15:57 < jimmy_pan> davidou: ............
+15:57 < Davy_> jserv--: 妳讓正妹難過了
+15:57 < jimmy_pan> jserv--: 你也不舉...(?
+15:57 < nc7uBomber> 跟sqlite比不知mosql比不知benchmark如何倒是 @@
+15:57 < UncleHandsome> darkx: 黑鬼
+15:57 < Davy_> 嘿嘿大大
+15:57 < Ian____> 他怎做那麼後面
+15:57 < davidou> 黑黑要上台了
+15:57 < Benben> 別笑
+15:58 < ShaWu_TW> 嘿嘿
+15:58 < dylandy> 巨，乳酸
+15:58 < Davy_> 反差play (#
+15:58 < nc7uBomber> 嘿嘿黑
+15:58 < andy> 後面...
+15:58 < freetsubasa> 黑鬼www
+15:58 < NagiYamazaki> 4 combo....
+15:58 < carlcarl> XDD
+15:58 < davidou> 交大嘿嘿鬼
+15:58 < jimmy_pan> 打噴嚏有來了
+15:58 < Lilithpray_> 教授保重
+15:58 < nc7uBomber> 聚乳酸大大~
+15:58 < kuniumi> 後面的保重...
+15:58 < jimmy_pan> ....
+15:58 < HexTseng_> 5 combo
+15:58 < Davy_> 巨乳，酸
+15:58 < Neson_> 5combo
+15:58 < Duye> 後面...
+15:58 < Jeremy850407> 保重
+15:58 < UncleHandsome> 我還以為darkx呢 原來是大黑鬼阿
+15:58 < jimmy_pan> 我剛聽成巨乳山(?
+15:58 < jserv--> 巨乳酸
+15:58 < Ian____> 被發現
+15:58 < joyqul> XDDDDDDDDDD
+15:58 < fntsrlike> 好黑
+15:58 < ShaWu_TW> 巨乳，酸
+15:58 < freetsubasa> 黑掉mic了
+15:58 < Davy_> freetsubasa: www
+15:58 < Ian____> ==
+15:59 < jserv--> 我瞎了
+15:59 < fntsrlike> = =
+15:59 < Davy_> = =
+15:59 < abev66_> >///<
+15:59 < JamesLin_> 羞恥PLAY
+15:59 < dylandy> = =
+15:59 < KojimaC> 好閃
+15:59 < kikiqqp_No2> 蝦米
+15:59 < D-eye> 看不到
+15:59 < akira02> www
+15:59 < BOBO_> www
+15:59 < UncleHandsome> 參加個sitxcon還要被閃
+15:59 < jimmy_pan> 顧家wwwwwwww
+15:59 < freetsubasa> wwww
+15:59 < fntsrlike> 和講師認識的人都無言了
+15:59 < NagiYamazaki> wwwww
+15:59 < abev66_> 好貴的行動電源 XD
+15:59 < NagiYamazaki> wwwwwwwwwwwwwww
+15:59 < kikiqqp_No2> 加速模式
+15:59 < abev66_> wwwwwwwwwwwww
+15:59 < BOBO_> 速度開始飆惹@@
+15:59 < JamesLin_> XDDDDDD
+15:59 < G___> wwwwwwwwww
+16:00 < Petrova> 有耿!
+16:00 < freetsubasa> 太快了啦XDDDD
+16:00 < JamesLin_> 中懇
+16:00 < Duye> 超快！
+16:00 < abev66_> 開加速了
+16:00 < abev66_> Turbo
+16:00 < KojimaC> lighting talk!
+16:00 < jimmy_pan> 超頻....等等燒起來XDDD
+16:00 < dylandy> 閃電秀
+16:00 < threelines> 交大大大！！！！！
+16:00 < Ian____> ==
+16:00 < Duye> 越來越快了
+16:00 < wdv> turbo mode
+16:00 < nc7uBomber> awesome WM  火力展示
+16:00 < Ian____> 交大神
+16:00 < kikiqqp_No2> 來用vi吧
+16:00 < fntsrlike> 機關加農砲
+16:00 < jserv--> 巨乳酸手上的棒棒是啥？
+16:00 < Ian____> 打爆剛剛氣氛
+16:00 < nc7uBomber> \聚乳酸/\聚乳酸/\聚乳酸/\聚乳酸/\聚乳酸/\聚乳酸/\聚乳酸/\聚乳酸/\聚乳酸/\聚乳酸/
+16:00 < andy> 講師甩蔥wwwwwww
+16:00 < BOBO_> 青蔥
+16:00 < Davy_> jserv--: 棒棒>"<
+16:00 < kikiqqp_No2> 不用滑鼠呦
+16:00 < wdv> 蔥(？
+16:00 < abev66_> KDE USER!!!!!!!!!!!
+16:00 < KojimaC> 蔥
+16:00 < nc7uBomber> 甩蔥啦wwwwwww
+16:01 < JamesLin_> XDDD
+16:01  * abev66_ ←KDE USER
+16:01 < jserv--> 還有 LXDE user 啊
+16:01 < freetsubasa> miku的聰
+16:01 < rail02000> 巨乳蔥！
+16:01 < abev66_> sntc06: 雪神 HIHI
+16:01 < Petrova> @@
+16:01 < Ian____> 剛剛我喜歡的女生FB一直盯我!
+16:01 < nc7uBomber> 巨蔥酸
+16:01 < Ian____> 剛剛我喜歡的女生FB一直盯我!|||
+16:01 < NagiYamazaki> XDDDDDDD
+16:01 < zootim11pc> 0.0
+16:01 < nc7uBomber> 火力展示
+16:01 < jimmy_pan> Ian____: 還不快衝！！
+16:01 < legnaleurc> 不需要用左手握滑鼠了
+16:01 < Ian____> 我真的很想去找M大!
+16:01 < freetsubasa> XDDD
+16:02 < jimmy_pan> Ian____: 忍住小心內傷..
+16:02 < abev66_> Ian____: gogo!
+16:02 < Ian____> 真的!!!
+16:02 < kuniumi> \以後就是一手一鍵盤的時代了/
+16:02 < kikiqqp_No2> tab?
+16:02 < Ian____> 那萬一我會後厚臉皮你們不能人肉我
+16:02 < davidou> 我大腦需要ssd ..
+16:02 < fntsrlike> 我被閃到了˙
+16:03 < abev66_> 這是 tmux 圖形版嗎 @ @
+16:03 < jserv--> miku
+16:03 < Ian____> 切換視窗+視窗管理 神手!
+16:03 < Benben> 講師手上那支是...?
+16:03 < kikiqqp_No2> 應該把鍵盤按鍵投影出來呀
+16:03 < Davy_> 聰啦
+16:03 < abev66_> 棒棒
+16:03 < jserv--> 棒棒
+16:03 < andy> 蔥@@
+16:03 < davidou> 蔥阿
+16:03 < Neson_> 蔥
+16:03 < Davy_> 聰棒棒
+16:03 < abev66_> 棒棒蔥(?
+16:03 < fntsrlike> 蔥
+16:03 < nc7uBomber> 應該要開個xev出來監事才是
+16:03 < Ian____> 我想到了個戰術
+16:03 < Ian____> 就是
+16:03 < JamesLin_> 甩蔥啦WW
+16:03 < dylandy> 啥
+16:03 < pig__> 一閃即逝
+16:04 < Ian____> 會後 大家多一點人排隊去找M大
+16:04 < sntc06> awesome
+16:04 < jserv--> 原來視窗切換也可以甩尾
+16:04 < rail02000> 太快了看不清楚啦
+16:04 < Ian____> 這樣大家都不會有意見了
+16:04 < jimmy_pan> Ian____: 你衝第一!!
+16:04 < Benben> 重點是 L ？
+16:04 < Ian____> 你要跟我後面?
+16:04 < dylandy> 我還以為是開 terminal 是會有 L 出現XD
+16:04 < freetsubasa> 是在快什麼啦XD
+16:05 < Davy_> 求高畫質相機
+16:05 < Ian____> 剛剛甩視窗很帥ㄟ
+16:05 < jimmy_pan> Ian____: 我上次坐她附近吃飯XDD
+16:05 < kikiqqp_No2> 這
+16:05 < KojimaC> XDDDDDD
+16:05 < Ian____> 那!!
+16:05 < Ian____> 待會要先集合!?
+16:05 < jserv--> 甩尾 + 甩滑鼠
+16:05 < abev66_> XDDDDD
+16:05 < Ian____> 哈哈!!!
+16:05 < jimmy_pan> wwwwwwwwwwwwwww
+16:05 < joyqul> XDDDDDDDDDD
+16:05 < fntsrlike> why not search 趴
+16:05 < nc7uBomber> xdddddddddddddd
+16:05 < kikiqqp_No2> 沒網路
+16:05 < andy> 抱歉沒有網路
+16:05 < Duye> XDDD
+16:05 < dylandy> mosky not in local
+16:06 < KojimaC> fntsrlike: ++
+16:06 < nc7uBomber> google://pa
+16:06 < Ian____> DY大
+16:06 < jserv--> 爽！
+16:06 < Ian____> 你表示!???
+16:06 < nc7uBomber> 那可以long_jump()一下XDD
+16:06 < abev66_> VIM!!!!
+16:06 < Neson_> Vimium！
+16:06 < Benben> vim
+16:06 < Duye> VIM!!
+16:06 < carlcarl> vim!
+16:06 < dylandy> vim !
+16:06 < ShaWu_TW> vim
+16:06 < jserv--> vim
+16:06 < Ian____> 我沒用過QQ
+16:06 < zootim11pc> vim
+16:06 < jimmy_pan> Ian____: sudo apt-cache search mosky
+16:07 < KojimaC> vim
+16:07 < kuniumi> vim +1
+16:07 < davidou> vim 我只會:wq
+16:07 < nc7uBomber> vim
+16:07 < pig__> q!
+16:07 < JamesLin_> OP
+16:07 < abev66_> davidou: 我還會 dd
+16:07 < Vongola> :q!
+16:07 < Davy_> =G
+16:07 < Davy_> gg=G
+16:07 < Benben> 有人在PTT存檔也會先按ESC再:wq嗎
+16:07 < abev66_> dG (?
+16:08 < Vongola> 樓上你為何要對重心微分(?
+16:08 < davidou> abev66_:  dd後發現檔案不能存檔 唯讀狀態xd
+16:08 < Ian____> g;4ua04k27
+16:08 < KojimaC> :set mouse=a (?
+16:08 < nc7uBomber> Benben:++
+16:08 < sntc06> nano
+16:08 < grass7boy> gVim (逃)
+16:08 < threelines> 「...砍到我的頭」
+16:08 < Ian____> 上面的視窗介面實在太帥了
+16:08 < Neson_> Vimium！
+16:08 < jeremy5189> 我在noteapd常按ESC
+16:08 < jserv--> Vimium
+16:08 < nc7uBomber> 是說交大的bs2(校bbs)有vim模式的樣子
+16:08 < Ian____> 看到傻眼
+16:08 < Davy_> Benben: bs2 是妳的好朋友
+16:08 < Ian____> 我已經整個被拋出了
+16:08 < jimmy_pan> 顛倒的b  wwwwwwwwwww
+16:08 < freetsubasa> dwb
+16:09 < kikiqqp_No2> k島老笑話
+16:09 < Ian____> d b
+16:09 < davidou> 在windows dos上打ifc  (tab)然後沒反應
+16:09 < threelines> pwq
+16:09 < kuniumi> d <
+16:09 < Benben> 顛倒b XDD
+16:09 < fntsrlike> dwb
+16:09 < nc7uBomber> 資深島民XD
+16:09 < legnaleurc> Qt 內鍵 Webkit
+16:09 < jimmy_pan> pmq
+16:09 < Ian____> 恩
+16:09 < andy> 你怎麼打出那個顛倒的b的
+16:09 < kuniumi> opera 老user哭哭
+16:09 < wdv> 在bs2 都用vim XD
+16:09 < Davy_> 資深到不行XDDDD
+16:09 < nc7uBomber> 真!!!!Presto !!!!!!!!!!!!
+16:09 < carlcarl> opera++
+16:09 < Davy_> bs2 vim 不好用阿@@
+16:09 < Davy_> 不能plugin(#
+16:09 < nc7uBomber> 還我Presto命來 ！！！！
+16:10 < Ian____> 我也好想用他這個快速切換的城市
+16:10 < dylandy> 還蠻簡便的...
+16:10 < Benben> 「要怎麼把直條圖變橫的？」 「那是橫條圖」
+16:10 < abev66_> 而是上下顛倒的！！
+16:10 < Neson_> 顛倒的w
+16:10 < kuniumi> 還我Presto+1
+16:10 < UncleHandsome> ptt的vvim比較好吧？
+16:10 < wdv> 設定檔弄一下還是能用的XD
+16:11 < JamesLin_> red
+16:11 < Davy_> 三倍速XD
+16:11 < abev66_> Turbo
+16:11 < nc7uBomber> Red mode up XDDDD
+16:11 < HexTseng_> 他超頻了
+16:11 < andy> 3X wwwwww
+16:11 < JamesLin_> 紅色有角WWW
+16:11 < abev66_> 會過熱
+16:11 < Ian____> W3M
+16:11 < kuniumi> (fuu)
+16:11 < abev66_> (yay)
+16:11 < Ian____> 是瀏覽器ㄇ
+16:11 < freetsubasa> 三倍速www
+16:11 < davidou> http://www.plurk.com/xatierlike
+16:11 < JamesLin_> 梗慢W
+16:11 < abev66_> Ian____: yes
+16:11 < Ian____> ABE 大 感謝
+16:11 < carlcarl> XDD
+16:12 < davidou> 喔他好像是私密的0rz
+16:12 < jserv--> 潮爽
+16:12 < Davy_> 對超爽的XD
+16:12 < Ian____> 朝爽的
+16:12 < Ian____> apvlv
+16:12 < bency> 要不要請工作人員打開風扇幫他散熱阿
+16:12 < kikiqqp_No2> 記得以前中文是悲劇
+16:13 < abev66_> 水冷水冷
+16:13 < jimmy_pan> 消防車灑水~~
+16:13 < Jeremy850407> 液態氮
+16:13 < HexTseng_> LN2
+16:13 < Ian____> 話說
+16:13 < jserv--> 請小趴去幫講者降溫
+16:13 < davidou> http://www.slideshare.net/moskytw/clime
+16:13 < Ian____> 我想請教一下
+16:13 < Davy_> jserv--: ++
+16:13 < pig__> 背後開始冒煙了
+16:13 < carlcarl> wow
+16:13 < Ian____> 就是 剛剛他切換視窗的工具有現成的?
+16:13 < JamesLin_> 哈哈
+16:13 < Davy_> davidou: 那個會升溫啦www
+16:13 < Ian____> 或是可以讓我體驗的
+16:13 < Davy_> Ian____: awesome
+16:13 < legnaleurc> Ian____: 就是他讓的 awesom
+16:14 < legnaleurc> s/awesom/awesome/
+16:14 < freetsubasa> jserv--: 可以不要嘛
+16:14 < davidou> 給他看mosky他講話速度頻率會不會快到我們聽不到阿XD
+16:14 < Davy_> freetsubasa: 苦主ww
+16:14 < NagiYamazaki> RTFM wwwww
+16:14 < Ian____> 謝
+16:14 < D-eye> 問問題需要三倍速嗎？
+16:14 < carlcarl> awesome window manager
+16:14 < pig__> 甩蔥
+16:14 < andy> 甩蔥XDDDDDDD
+16:14 < akira02> 這講師一定是水冷式的
+16:14 < abev66_> XDDDDDDDDDDDDDDD
+16:14 < NagiYamazaki> wwwwwwwwwwwwwwwwwwwww
+16:14 < ShaWu_TW> 甩蔥阿XD
+16:14 < legnaleurc> orz
+16:14 < nc7uBomber> XDDD
+16:14 < Duye> wwwwwwwww
+16:14 < Davy_> miku www
+16:14 < joyqul> XDDDDDDDDDDD
+16:14 < rail02000> XDDDDDDD
+16:14 < abev66_> 講師賣萌
+16:14 < HexTseng_> >///<
+16:15 < andy> XDDDDDDDDDDDD
+16:15 < BOBO_> 甩蔥XDDDDDD
+16:15 < JamesLin_> XDDDDDDD
+16:15 < threelines> XDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+16:15 < andy> 超可愛的
+16:15 < G___> wwwwwwwwww
+16:15 < Neson_> XDDD
+16:15 < legnaleurc> jserv 無言
+16:15 < andy> XDDDDDDDDD
+16:15 < NagiYamazaki> jserv--: Gooooooooooooooood XDDD
+16:15 < pig__> 問他用什麼散熱系統
+16:15 < Ian____> 我回去也要來下仔awesome
+16:15 < Ian____> 真是awesome!!
+16:15 < abev66_> 水冷式講師
+16:15 < kuniumi> VOCALOID 是用 C++ 寫的喔(甩
+16:15 < wdv> http://awesome.naquadah.org/
+16:15 < kikiqqp_No2> 被次文化打敗了
+16:15 < Ian____> 嗯啊
+16:15 < andy> jserv抱頭XDDD
+16:15 < akira02> irc log wwwwwwww
+16:16 < NagiYamazaki> wwwwwwwwwwwwwwwwwwww
+16:16 < UncleHandsome> darkx: 太黑了wwwww
+16:16 < fntsrlike> 聚乳酸剛講完的我IRC就斷線惹
+16:16 < kikiqqp_No2> css
+16:16 < freetsubasa> fntsrlike: 也太慘wwww
+16:16 < dylandy> 回到正常速度了XD
+16:16 < wdv> XD
+16:16 < akira02> 我覺得這場SITCON有個問題，時間太短搞的每個講師不是Time out就是過熱
+16:16 < Ian____> 看到awesome了
+16:16 < pig__> 太熱了
+16:17 < pig__> 回復正常速度
+16:17 < freetsubasa> 突然覺得世界回復正常速度了
+16:17 < Ian____> 呼
+16:17 < Davy_> 終於回到normal speed
+16:17 < Ian____> 可以稍微休息一下
+16:17 < jserv--> 現在大學生都在比嫩的
+16:17 < fntsrlike> 他的聲音在斗
+16:17 < Davy_> before after 也不要浪費XD
+16:17 < Davy_> 他是被剛剛嚇到吧(#
+16:17 < jserv--> 微讀那！
+16:17 < NagiYamazaki> 三倍速wwww
+16:18 < abev66_> 現在是 0.5 倍速(?
+16:18 < Ian____> awesome 好像不支援WIN32
+16:18 < UncleHandsome> 因為他再巨乳酸後面(ry
+16:18 < Davy_> Ian____: Y
+16:18 < Ian____> 還好這學期也有學linux 剛好可以派上用場
+16:18 < Ian____> 到時考RHCSA 就可以用這招
+16:18 < joyqul> darkx: 你看看你你嚇到別人了（？
+16:19 < jserv--> 小莎++
+16:19 < abev66_> orinx wwwwwww
+16:19 < rail02000> orinx ww
+16:19 < Ian____> 哇賽
+16:19 < Ian____> 帥氣投影片ㄟ
+16:19 < Ian____> 第一次看這種投影片
+16:19 < jserv--> 一下子就舉了
+16:19 < Neson_> 不知道在IE上會變成怎樣 (?)
+16:19 < Ian____> 又開眼界了
+16:20 < Irvin_> 好快就到 @orin	x 了喔
+16:20 < Ian____> 抱歉
+16:20 < Ian____> 我想再問一下問題
+16:20  * darkx 羞恥 play 了 20 min，感謝大家 <(_ _)>
+16:20 < Ian____> awesome安裝好可以用鍵盤移動滑鼠!?
+16:20 < JamesLin_> OP
+16:20 < kuniumi> 想看他的css code
+16:20 < akira02> 資訊量差好多啊(趴
+16:20 < NagiYamazaki> <(_   _)>
+16:20 < fntsrlike> 黑黑客氣了
+16:21 < pig__> 總召~
+16:21 < jserv--> 這標題好熟悉
+16:21 < Davy_> Ian____: write a plugin
+16:21 < abev66_> 總召!!!!!
+16:21 < Davy_> 網路開始慢了
+16:21 < rail02000> darkx (worship)
+16:21 < Ian____> DAV大 你是說那個是他自己寫的喔?
+16:21 < legnaleurc> 唯一穿西裝
+16:21 < darkx> Ian____: github.com/xatier/rc-files/blob/master/rc.lua
+16:22 < darkx> 我的 rc.lua 設定底下有 >_<
+16:22 < JamesLin_> 加速?!
+16:22 < fntsrlike> 這幾倍速?
+16:22 < Duye> 加速
+16:22 < HexTseng_> 加速
+16:22 < pig__> 2X?
+16:22 < wdv> Ian____: https://github.com/xatier/rc-files/blob/master/rc.lua
+16:22 < jserv--> 用 C 用得很開心 XD
+16:22 < jimmy_pan> 感覺世界又加速了..
+16:22 < darkx> btw, 剛剛小弟有講很快嘛... 好緊張 >//<
+16:22 < abev66_> speed up
+16:22 < darkx> awk!!
+16:22 < nc7uBomber> I dislike java......
+16:22 < NagiYamazaki> darkx:  超快...
+16:22 < ShaWu_TW> 這算是多少倍XD
+16:22 < legnaleurc> w3m 沒差吧 lol
+16:23 < Duye> 要抵達3x了？
+16:23 < jserv--> http://code.google.com/p/eserv/ # 用 C 語言自幹 Web Framework，潮爽的
+16:23 < nc7uBomber> 這超越3倍速了XDDD
+16:23 < rail02000> 講者加速中，請緊握扶手、站穩踏階
+16:23 < darkx> lol
+16:23 < Davy_> jserv--: <(_ _)>
+16:23 < JamesLin_> darkx: 甩蔥XDDD
+16:23 < darkx> 黑黑！
+16:23 < darkx> wwwwwwwwwwwwwwww
+16:23 < Ian____> awesome那個看來又是另一門學問了
+16:23 < Ian____> XD
+16:23 < JamesLin_> XD
+16:23 < kuniumi> --選課網頁不都IE only嗎--
+16:23 < darkx> Ian____: 歡迎跳坑XD
+16:24 < jeremy5189> 簡報好酷
+16:24 < Ian____> 跳!!
+16:24 < Vongola> IE onlu
+16:24 < darkx> :D
+16:24 < Vongola> only
+16:24 < JamesLin_> XDDDD
+16:24 < rail02000> 幸好我們學校不用搶課
+16:24 < ShaWu_TW> 我們學校(大同)可以不用IE選
+16:24 < kuniumi> 好黑wwwwww
+16:24 < darkx> 黑鼠XDDDDDD
+16:24 < nc7uBomber> 嘿嘿黑
+16:24 < davidou> 我們學校學生系統以前也可以這樣抓xd
+16:24 < freetsubasa> 好黑
+16:24 < Ian____> !!
+16:24 < davidou> 以前作業都上網抓下來上傳的
+16:24 < darkx> 我只會 wget -r -np  >_<
+16:24 < Ian____> 我也要回家抓上上看
+16:25 < abev66_> XDDDDDDDD
+16:25 < brli7848> 有實況嗎？？
+16:25 < nc7uBomber> wget出動惹
+16:25 < Ian____> wireshark
+16:25 < davidou> 樓上好黑
+16:26 < Ian____> 嗯啊
+16:26 < darkx> lol
+16:26 < nc7uBomber> md5 rainbow table ~~~~
+16:26 < Ian____> 求剛剛那的MD5網站
+16:26 < davidou> http://www.cmd5.com/
+16:26 < davidou> google 第一筆就可以解了
+16:26 < darkx> xmd5 (?
+16:27 < darkx> 推 dc949!
+16:27 < Ian____> 太帥了啦!!
+16:27 < Vongola> Davy!!(歡呼)
+16:27 < davidou> 台灣還是有法律的-by allown
+16:27 < Ian____> 今天下午學太多了
+16:27 < fntsrlike> 喜德欸
+16:27 < kuniumi> 有黑有推
+16:27 < freetsubasa> davy大ˋ大
+16:27 < Ian____> 感覺不想去學校了!!
+16:27 < darkx> DennyHuang++
+16:27 < Vongola> Davy!!(二次歡呼)
+16:27 < kuniumi> 換苦力怕了www
+16:27 < Ian____> 又有神
+16:27 < jserv--> 校名被公佈了
+16:27 < ShaWu_TW> 釉藥NORMAL SPEED嗎XD
+16:27 < Ian____> 快拜
+16:27 < NagiYamazaki> \Davy/\Davy/\Davy/\Davy/
+16:28 < fntsrlike> 原來darkx 是和喜德....
+16:28 < Vongola> \Davy/
+16:28 < darkx> :\
+16:28 < darkx> freetsubasa: 出來面對!
+16:28 < andy> 今天都是中華台南梗
+16:28 < abev66_> (好奇)這簡報是用什麼做的
+16:28 < freetsubasa> creeper耶 顯然他就是
+16:28 < rail02000> Davy大大！
+16:28 < darkx> abev66_: 等等就知道了 lol
+16:28 < Ian____> 他是Davy !!!????????????????
+16:28 < fntsrlike> creeper耶 顯然他就是
+16:28 < sntc06> davidou: 推台灣還是有法律的
+16:28 < nc7uBomber> 上一個應該是sozu
+16:28 < nc7uBomber> *sozi
+16:28 < kuniumi> 那基隆算哪裡...海外嗎
+16:29 < abev66_> 離島(?
+16:29 < Ian____> 剛剛他回答我好多問題
+16:29 < andy> 我記得之前WEBCONF也有類似的
+16:29 < Ian____> 真的要感謝他!
+16:29 < KojimaC> \基隆/
+16:29 < UncleHandsome> 基隆往南繞一圈就到了吧
+16:29 < darkx> 我不會 php Q__________Q
+16:29 < fntsrlike> 我只會PHP O_Q
+16:29 < kuniumi> 有來自基隆的嗎?!!
+16:29 < jserv--> Helper!
+16:29 < akira02> K君要搭訕別人了嗎
+16:29 < Neson_> MVC ＠＠
+16:30 < JamesLin_> WWW
+16:30 < KojimaC> kuniumi: 基隆人?
+16:30 < legnaleurc> abev66_: https://github.com/hakimel/reveal.js
+16:30 < threelines> 感覺再過2分鐘就會爆炸XDD
+16:30 < abev66_> legnaleurc: <(_ _)>
+16:30 < legnaleurc> 比 impress.js 完整一點
+16:30 < davidou> 投影片製作 http://prezi.com/
+16:31 < kuniumi> KojimaC: (握
+16:31 < Ian____> pvlv ?
+16:31 < darkx> Ian____: apvlv
+16:31 < KojimaC> XD
+16:31 < pig__> http://www.rvl.io/
+16:31 < Ian____> apvlv
+16:31 < Ian____> aplc
+16:32 < dylandy> 五秒
+16:32 < Ian____> 他們的報告好厲害
+16:32 < Ian____> 講話都很穩
+16:32 < skystar> time out
+16:33 < Neson_> boom
+16:33 < NagiYamazaki> time out了..
+16:33 < abev66_> Time out!
+16:33 < wdv> Time out !!!
+16:33 < Ian____> 謝謝
+16:33 < Ian____> 希望我以後專題報告也能這樣
+16:33 < fntsrlike>  
+16:33 < nc7uBomber> Theogony?
+16:33 < Vongola> OWO
+16:33 < StoneSound> TAT
+16:33 < fntsrlike> .
+16:33 < Ian____> 三分鐘!?
+16:33 < nc7uBomber> \Orin/
+16:33 < StoneSound> 兵不厭詐，這是戰爭XDD
+16:34 < abev66_> \Orinx/
+16:34 < wdv> 準備time out (?
+16:34 < darkx> www
+16:34 < abev66_> Win8!
+16:34 < Neson_> win8
+16:34 < Vongola> 頭香都變戰爭了TAT
+16:34 < Ian____> Davy 大 今天很感謝你教學 ORZ
+16:35 < threelines> 有人在拍我...
+16:35 < Ian____> 是誰!
+16:35 < Ian____> 三線 大 你被拍喔!?
+16:36 < Davy_> Ian____: OAO"?
+16:36 < Davy_> 我用reveal.js 做slide
+16:36 -!- DennyHuang changed the topic of #sitcon to: SITCON 學生計算機年會 http://sitcon.org | UTF-8 | 會後問卷 http://j.mp/sitcon2013-feedback
+16:36 < Ian____> 救我今天在IRC一直問問題 大家都不厭其煩幫解答
+16:36 < Ian____> 大感激
+16:36 < Davy_> theogony 是framework的名子 github上面的app也是這份slide
+16:37 < Ian____> 下次我一定也會參加~~
+16:38 < Ian____> 謝謝
+16:38 < dylandy> 手已經拍一半了XD
+16:38 < Davy_> dylandy: www
+16:38 < pig__> 謝謝各位
+16:38 < Ian____> 我要關機囉
+16:38 < Ian____> 謝謝大家
+16:38 < Ian____> 謝謝
+16:38 < darkx> \Denny/
+16:38 < abev66_> Ian____: 掰
+16:38 < Vongola> OAO!!!!!終於
+16:38 < Ian____> 都掰
+16:39 < Benben> 88
+16:39 < Ian____> 有人要會後大合照?
+16:39 < Duye> 88
+16:39 < JamesLin_> OP
+16:39 < Jeremy850407> 88
+16:39 < Ian____> 掰囉
+16:39 < abev66_> YEAH
+16:39 < KojimaC> bye~
+16:39 < abev66_> \SITCON/
+16:39 < akira02> 呼www
+16:39 < zootim11pc> 工作人員大家都辛苦惹
+16:39 < darkx> 工作人員辛苦了！ <(_ _)>
+16:39 < kuniumi> 主辦乙!
+16:39 < freetsubasa> 辛苦了
+16:39 < JamesLin_> 辛苦了!
+16:40 < joyqul> 辛苦了！
+16:40 < ClarenceLin> 辛苦了
+16:40 < rail02000> 辛苦了～～
+16:40 < Barrt> 謝謝大家 XD
+16:40 < dylandy> 大家辛苦了~
+16:40 < StoneSound> 辛苦了XDD
+16:40 < BOBO_> 辛苦了<(_ _)>
+16:40 < Davy_> 等等會被quit洗頻wwww
+16:40 < floatj> 辛苦了<(_ _)>
+16:40 < G___> 大家Bye-bye  謝謝，大家辛苦了！
+16:40 < Neson_> 辛苦了！
+16:40 < wdv> 辛苦了
+16:40 < Benben> logout
+16:40 < jam__> 大家辛苦了
+16:41 < NagiYamazaki> <(_  _)>
+16:41 < TigerHuang> 媽～我在這裡
+16:41 < Benben> 有我 \~/
+16:41 < orin> 媽我在這 |~/
+16:41 < Benben> 也有我 \~/
+16:41 < darkx> 媽我在這~
+16:41 < Davy_> 媽我在這
+16:42 < angelboy> 辛苦了~ 媽我再這
+16:42 < freetsubasa> 媽 我在這～
+16:42 < joyqul> Mom, I'm here!
+16:42 < rail02000> 媽我在這裡！
+16:42 < BOBO_> \~/
+16:42 < andy> 媽 我在這裡._./
+16:42 < akira02> 媽我在(ry
+16:42 < medicalwei> \OwO/
+16:43 < threelines> 線路組辛苦了XD
+16:44 < fntsrlike> 線路組辛苦
+16:45 < darkx> TigerHuang: 辛苦了！
+16:46 < darkx> 黑鼠！！！！！
+16:47 < kuniumi> 感謝乖乖
+16:49 < darkx> 好黑wwwwwwwwwww
+16:49 < kuniumi> 好黑xdd
+16:49 < fntsrlike> 好黑wwwwwww
+16:50 < darkx> CA!
+16:51  * sntc06 探頭
+17:27 < mosdeo> test string
+17:37 < darkx> test integer: 5566
+18:12 < mosdeo> zzz......
+18:51 < kikiqqp_No2> 覓食
+20:50 < Ian_____> 安阿
+20:50 < Ian_____> 這頻道還在!?
+21:54 < Neson_> 安 0.0
+22:02 < bency> 終於到家了
+22:15 < joyqul> 一天台北新竹來回真的有點累啊@@...
+22:17 < Benben> 原來還有人在這?
+22:21 < joyqul> 反正就掛著啊...0.0
+22:22 < Benben> 結束了好空虛><
+22:23 < joyqul> 好累XDDDD  背電腦走好多路QQ  超累的QQ（？
+22:23 < Benben> 是後背的嗎？
+22:24 < Davy_> 休息的地方到囉~
+22:27 < Benben> Davy 明天才回家?
+22:27 < Benben> 就是今天要住台北的意思 XD
+22:29 < Davy_> 住桃園(?
+22:32 < Benben> 桃園很大耶XD
+22:32 < Benben> 中壢 \~/
+22:38 < Neson_> 三分鐘回到宿舍
+22:42 < wdv> 還不少人還掛著XD
+22:44 < joyqul> Benben: 對啊....肩膀有點酸@@
+22:44 < Davy_> Benben: 火車站附近
+22:46 < Benben> joyqul: 你千萬別回頭啊><
+22:47 < Benben> Davy_: 哈今天散場後也回中壢說XD
+22:47 < wdv> 早知道就在中壢下車了(？
+22:47 < Davy_> Benben: 喔喔我是在桃園火車站附近@@
+22:47 < Davy_> joyqul: 肩膀也好酸QQ
+22:48 < Chunyou> 原來這麼多人從桃園來啊OAO
+22:48 < wdv> ← 桃園人(可是從新竹來0.0
+22:49 < Benben> Davy_: 喔喔，是便宜的旅店嗎? (推薦一下搞不好下次離家出走可以住 XD
+22:49 < Benben> 中壢 +1
+22:49 < Benben> 台科到中壢超方便的啊，下車走兩步就是台科；從台科出來走兩步就可以上車一路睡回中壢 XD
+22:49 < Benben> 今天在車上不小心睡到流口水 ><
+22:50 < Chunyou> ←順便回@桃園市老家XD
+22:53 < darkx> 新竹 -> 台北 -> 台中
+22:53 < joyqul> 是說今天深刻體認到台北到新竹的火車真的頗慢@@  2小時才到新竹...客運一小時就到了@@
+22:53 < joyqul> darkx: 居然回台中了0.0
+22:54 < darkx> 很累啊... 先回家惹
+22:54 < Benben> 咳咳，台湾しんかんせん
+22:55 < joyqul> 台灣新幹線...？是指高鐵嘛@@？
+22:55 < Benben> 如果台北到中壢的距離是a，那台北到新竹的距離就是2a，台北=中壢 57 元；中壢=新竹 57 元
+22:55 < Benben> joyqul: 鐵道迷XD?
+22:56 < joyqul> Benben: 我不是啊0.0.... 只是不知道你說的是什麼@@
+22:56 < Benben> 但是台北到中壢，對號車停的站比中壢到新竹停的站還多。  台北到中壢停板橋 桃園 中壢；中壢=新竹 中間沒停，下一站就是新竹
+22:57 < Benben> joyqul: 台灣新幹線是高鐵沒錯，不過正式的官方日本語是叫 台湾高速鉄道 XD
+22:57 < joyqul> 哦噢噢噢我們好像就是搭這個0.0
+22:58 < joyqul> Benben: 就音譯直翻了@@...
+23:00 < Benben> 官方是這樣翻啦，但日本是叫新幹線，所以也有鐵道迷把台灣高鐵稱作台湾新幹線
+23:00 < joyqul> 哦噢噢噢這樣啊0.0...長知識了@@
+23:00 < Benben> 然後台鐵就叫在來線什麼的XDD
+23:01 < Benben> 在來線或是國鐵(國營鐵路，日本JR已經劃分為民營的了
+23:02 < Benben> 只有我嗎? 為什麼CONF結束都會很空虛
+23:03 < joyqul> 就去睡一覺醒來就好了（？
+23:03 < joyqul> 不過其實我是第一次參加這種活動就是 >__<
+23:04 < Benben> joyqul: joyqul是大學？
+23:04 < joyqul> Benben: 小大一(?
+23:05 < akira02> 真的有點空虛ww看到那個海報就更空虛了（？
+23:05 < joyqul> 是說我還蠻好奇海報是發給我們做紀念嗎XDDD？
+23:05 < akira02> 不然勒www
+23:05 < joyqul> Benben: 對了可以叫我阿飄>__<
+23:05 < Benben> <del> 貼不完 </del>
+23:05 < Benben> joyqul: 阿飄 ._./
+23:05 < joyqul> XDDD
+23:06 < joyqul> 有打算貼在寢室門口（？）如果是有願意的話XD
+23:06 < joyqul> 不然也沒地方放（炸
+23:07 < Benben> 還沒打開海報耶，是今天貼在報告櫃台後面那個的縮小版嗎？
+23:07 < akira02> 不是
+23:07 < joyqul> 應該（？）不是0.0...
+23:07 < Benben> 報到**
+23:08 < Benben> 如果是的話我就只剪右邊剪下來貼了
+23:08 < akira02> ＋1
+23:08 < joyqul> XDDDD
+23:08 < akira02> 滿可愛的啊，不知道為什麼海報不是
+23:09 < joyqul> 那個海報真的做的很精美啊>__<
+23:09 < akira02> 超想要QQ
+23:09 < joyqul> 不過其實報到的時候我們（和同學一起來的）迷路了...因為那時候會場還沒開0.0
+23:09 < Ruinland_at_WKS> ®ü³ø¶Kªù¤f++
+23:10 < akira02> 座位表後面的那個陳平偉是怎麼回事?!
+23:10 < joyqul> 結果好不容易找到海報上面沒有寫地點（只有寫是台科大）.....（忘記地點的傢伙
+23:10 < joyqul> 座位表超歡樂XDD
+23:11 < akira02> 號碼好像沒對到
+23:12 < joyqul> 是指走道嗎@@？
+23:12 < akira02> --不過整個座位表只有我跟朋友貼噗浪（走開--
+23:12 < akira02> 之前的座位號碼沒對到
+23:14 < joyqul> 噗浪啊...我在噗浪超安靜的但是都有看噗0.0（？
+23:14 < Benben> 座位表看不懂><  +1
+23:15 < akira02> 雖然說手冊上鼓勵搭訕可是wwww
+23:15 < joyqul> 搭訕什麼的、好害羞>////<(?
+23:16 < akira02> 感覺大家都超強的啊ww
+23:16 < joyqul> 填座位表是按照桌上的編號....不過好像有些事按照走道@@？
+23:17 < wdv> 座位表不是填高興的嗎(？
+23:17 < joyqul> akira02: 好多大大不敢直視了>__<(?
+23:17 < akira02> 真的
+23:18 < Benben> 絕對位置是D14，但相對位置就變惹><
+23:20 < Benben> https://docs.google.com/spreadsheet/ccc?key=0AoEnhkl2QZ0XdDBMREVTTzhOeEU2dWZ5TWk2eFROSlE#gid=0 有人還記得這個?
+23:21 < joyqul> 有這個0.0....都沒發現@@（？
+23:24 < Benben> 頗久以前的了><
+23:25 < joyqul> 哦噢噢0.0
+23:27 < Benben> 今天來了好多大大，回想我高中三年到底在幹麻
+23:28 < joyqul> 我高中也....QQ
+23:29 < wdv> 我高中3年來什麼都不知道QQ
+23:30 < darkx> 我高中  (yay)
+23:31 < joyqul> darkx: ㄉㄉ說話惹(WORSHIP)
+23:31 < wdv> darkx: <(_ _)>
+23:35 < Benben> 有資處科的學生嗎?
+23:36 < joyqul> 資工系>__<
+23:36 < Benben> 好好喔都不用學會計
+23:39 < joyqul> 是不用學會計沒錯0.0..
+23:40 < joyqul> 先去睡了今天好累@@  大家晚安//
+23:41 < wdv> 我不確定我讀的是不是資工系= =
+23:42 < Benben> Display all infinity possibilities? (y or n)
+23:48 < Benben> 睡覺了 \~/
+23:48 < Benben> 這裡明天還有人嗎 ._.
