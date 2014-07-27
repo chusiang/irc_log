@@ -44,13 +44,20 @@ http://osdc.tw
 - [2011](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2011.log)
 
 ### PHPConf Taiwan
- 
+
 http://phpconf.tw
 
 - [2013](https://raw.github.com/chusiang/irc_log/master/phpconf/irc-phpconf-tw-2013.log)
 - [2012](https://raw.github.com/chusiang/irc_log/master/phpconf/irc-phpconf-tw-2012.log)
 
-# Reference 
+### SITCON 學生計算機年會 (Students' Information Technology Conference)
+
+http://sitcon.org
+
+- [2014](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2014.log)
+- [2013](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2013.log)
+
+# Reference
 
 * [Taiwan Conference List](http://goo.gl/90yt5)
- 
+
