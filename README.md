@@ -1,10 +1,10 @@
 # IRC Logs of Taiwan Conference
 
-此為[凍仁](http://note.drx.tw/p/about-chu-siang-lai.html)及社群伙伴於 GitHub 存放台灣 (Taiwan) 各個會議 (Conference) IRC 紀錄檔 (log) 的小小園地，以下為已收錄的部份，若您手邊有其它的檔案 (或連結) 請分享給凍仁 [1]。
+此為[凍仁](http://note.drx.tw/p/about-chu-siang-lai.html)及社群伙伴於 GitHub 存放台灣 (Taiwan) 各個會議 (Conference) IRC 紀錄檔 (log) 的小小園地，以下為已收錄的部份，若您手邊有其它的檔案 (或連結) 請分享給凍仁。
 
 您可以使用 GitHub 的 [Issues](https://github.com/chusiang/irc_log/issues) 回報系統或寫信到 chusiang.lai (at) gmail.com。
 
-最後要歡迎您成為共同維護 irc_log 的勇者 <[_ _]>。
+最後，我們歡迎您成為共同維護 irc_log 的勇者 <[_ _]>。
 
 ----
 
