@@ -59,5 +59,5 @@ http://sitcon.org
 
 # Reference
 
-* [Taiwan Conference List](http://goo.gl/90yt5)
+- [Taiwan Conference List](http://goo.gl/90yt5)
 
