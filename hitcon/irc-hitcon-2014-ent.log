@@ -1,0 +1,643 @@
+--- Day changed Tue Aug 19 2014
+08:56 < newbuy_> morning!
+09:01 < lunpin> good morning
+09:04 < newbuy_> ready to go!
+09:12 < allenown__> hello world
+09:13 < Ayumi_> <(_ _ )>
+09:13 < newbuy_> feel be attcked
+09:13 < lunpin> m(_  _)m
+09:13 < allenown__> 會場網路ok嗎
+09:14 < newbuy_> 使用中 IRC TELNET都OK
+09:14 < allenown__> 讚
+09:15 < newbuy_> 需要測個速度嗎(誤)
+09:52 < scops> 早安
+09:53 < newbuy_> Hi
+09:56 < newbuy_> break!
+10:13 < newbuy_> board game get!
+10:19 < dany> 問一下hitcon-ent的wifi密碼是？
+10:19 < newbuy_> 跟ssid一樣
+10:25 < dany> newbuy :S
+10:30 < sky_> anybody onlie?
+10:31 < newbuy_> no
+10:31 < newbuy_> (run)
+10:31 < sky_> Hi, everybody nico to meet you
+10:31 < sky_> 上一場
+10:32 < sky_> 可以打中文耶!
+10:32 < sky_> 上一場演講 I love it
+10:34 < newbuy_> 後面的meta data做連絡資訊很有趣
+10:34 < newbuy_> 可惜沒辦法拿到簡報仔細看一下
+10:35 < sky_> 話說
+10:35 < sky_> 今年好像沒要辦那個botcon?
+10:37 < sky_> 去年辦的我覺得很棒的說
+10:37 < sky_> http://anti-botnet.edu.tw/content/confs/BoT2013.html
+10:39 < Holi> 今年會開放投影片下載嗎
+10:39 < sky_> 應該會吧
+10:39 < sky_> 好想找我隔壁的人簽名!
+10:41 < sky_> 不知道有沒有人對昨天參加的教育訓練有感想的
+10:41 < newbuy_> 正妹？
+10:41 < sky_> 不是
+10:41 < Holi> 真相(伸手
+10:41 < newbuy_> 沒報名在後悔中XDD
+10:41 < sky_> 是個......
+10:42 < sky_> 十六年前很有名的人?
+10:43 < newbuy_> 先從交換名片開始阿
+10:43 < sky_> 我沒做名片XD
+10:43 < sky_> I
+10:43 < sky_> I'm nobody.
+10:44 < newbuy_> 只好直搗黃龍  簽在衣服上
+10:44 < sky_> 不行啦...我穿的是前年的T-shirt
+10:45 < sky_> DDoS的潮流果然是DNS reflect querry
+10:47 < newbuy_> 參加很多屆應該就不是nobody了吧:)
+10:49 < sky_> 去年的我沒參加啦......秒殺耶
+10:50 < sky_> 不過今年看起來座位也是坐滿了
+10:50 < sky_> 不知道21號的怎麼樣
+10:50 < newbuy_> 我旁邊和前面都是空位
+10:51 < newbuy_> 21號沒法去T>T
+10:51 < sky_> 我可是一口氣請了五天假啊
+10:52 < newbuy_> Cooool!
+10:53 < sky_> 不過要說CP值還是去年的BoT2013啦
+10:53 < newbuy_> 昨天的課怎麼樣  增加了一甲子功力了嗎
+10:54 < sky_> 你也有參加?參加哪個?
+10:54 < sky_> 我是參加SQL Injection
+10:55 < newbuy_> 沒參加QQ  報了可能要吃泡麵渡日(茶)
+10:56 < sky_> I got the Sign!!!!!!!!!!oh YEAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+10:57 < sky_> I got the Sign!!!!!!!!!!oh YEAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+10:57 < newbuy_> show the sign pic
+10:57 < sky_> wait a minute
+10:58 < newbuy_> 台上擺沙發  是要談話節目了嘛XDDD
+11:02 < newbuy_> 台上怖置越來越酷了!!!!!!!
+11:06 < sky_> 上傳了http://imgur.com/1biYWR6
+11:07 < sky_> 上面的連結就是簽名
+11:07 < newbuy_> Pretttttttttty Cooooooooooool
+11:07 < newbuy_> 真的很有名
+11:08 < dany> cih
+11:08 < dany> 上次見到也10多年前了
+11:08 < dany> XD
+11:08 < newbuy_> 帶一張在桌上可以保平安嗎？
+11:11 < sky_> 不知道
+11:11 < sky_> 快開始了
+11:13 < sky_> IRC上人不知道會不會比較多
+11:16 < newbuy_> 感覺大家都在break time玩瘋了  都沒回來
+11:17 < lunpin> 好想在現場 Q_Q
+11:21 < sky_> PK耶
+11:22 < newbuy_> 吳宗成  在學校只聽其名  結果現才看到本人
+11:22 < newbuy_> 果然118讀太混了
+11:23 < newbuy_> 野生的Allen!
+11:30 < billy3321> @@
+11:30 < billy3321> 官腔連發
+11:30 < newbuy_> 冏  感覺沒放假
+11:32 < dany> XD
+11:37 < billy3321> 之前有人說過，「很多時候跟政府說『這個A沒做好』，政府官員都會回應『我們已經在做B了啊，放心啦！政府很努力的』.....」
+11:39 < newbuy_> 所以現在這個B是指轉行政法人嗎XDD
+11:41 < dany> 那個單位轉行政法人了？
+11:42 < sky_> 現在在講911發生時的應變
+11:42 < newbuy_> 行政院國家資通安全會報技術服務中心→要轉行政法人   = 擴編？
+11:43 < billy3321> newbuy_: 這個可以自己帶入啊
+11:43 < billy3321> 像是跟政府說「教育改革出問題了啦」政府官員就在回應「我們正在規劃12年國教，放心啦！政府很努力，你們安心。」
+11:43 < dany> 是哦，
+11:43 < sky_> keep questioning
+11:43 < billy3321> s/在/會/
+11:44 < sky_> 講到高雄的氣爆.....
+11:48 < sky_> OX大大要預言為來十二個月
+11:49 < sky_> 智慧家電
+11:49 < newbuy_> 舊技術不再被用？
+11:50 < sky_> 穿戴式設備應該也是重點
+11:50 < sky_> allen
+11:51 < sky_> 環境不健全，企業缺人才
+11:51 < newbuy_> 刺激發展  多辦活動  維持資安意識
+11:52 < sky_> TT?
+11:52 < sky_> orDD www
+11:52 < newbuy_> TT
+11:52 < newbuy_> 今年活動主辦人
+11:53 < sky_> 今年hitcon關鍵字:adapt
+11:53 < sky_> 輪到PK
+11:53 < sky_> 最適配置資安資源
+11:53 < newbuy_> PK來自那裡？
+11:53 < sky_> 無法正確評估資安風險
+11:54 < sky_> 他原本是警察喔
+11:55 < sky_> 喂，竟然置入性行銷www
+11:55 < newbuy_> 沒聽出來那裡置入
+11:55 < sky_> 桌遊啊
+11:56 < newbuy_> 喔 XD
+11:57 < sky_> 老實講即時口譯的品質不太好
+11:57 < sky_> 多益有點程度的話，直接聽英文應該沒問題
+11:57 < newbuy_> 太多專業字彙翻來不及？
+11:58 < newbuy_> 我一直在兩邊切  口譯不好就跳回原音
+11:58 < dany> me 2
+12:02 < newbuy_> board game競賽重點是高挑正妹駭客？
+12:12 < newbuy_> 要準備搶位子了!!
+12:18 < newbuy_> 不知道R2是在左邊還右邊
+12:48 < sky_> R2在右邊
+12:48 < sky_> 位子好空
+12:54 < newbuy_> 我吃完便過去就快沒位子了
+12:54 < newbuy_> 好不容易找到一個邊邊後排的位子
+12:55 < newbuy_> 我有看到HTCON2012的衣服XD
+13:03 < sky_> 那就是我沒錯吧
+13:03 < sky_> 今早出門隨便拿這件就穿了
+13:04 < sky_> 話說我找到個連結
+13:05 < sky_> 既然你要看uburos這場的話
+13:05 < sky_> https://public.gdatasoftware.com/Web/Content/INT/Blog/2014/02_2014/documents/GData_Uroburos_RedPaper_EN_v1.pdf
+13:05 < sky_> 有心得再互相交流啊
+13:08 < newbuy_> 不過我是在R1那邊看到衣服的
+13:08 < sky_> 不知道有沒有辦法備分chatlog
+13:08 < newbuy_> 可能是你搬位子之前？
+13:08 < sky_> yes
+13:08 < newbuy_> 我用IRC Cloud 自動會備份
+13:09 < sky_> IRC上聊天的人比較多?
+13:09 < newbuy_> www.irccloud.com  還可以收離線訊息
+13:09 < newbuy_> 這不就是IRC？
+13:09 < sky_> 速嗎
+13:10 < sky_> 問世間情為何物，不過是一物剋一物。
+13:10 < newbuy_> 速吧  我是看手冊加頻道進來的
+13:12 < sky_> 所以你是正在使用IRC嗎?
+13:12 < sky_> 我是看有webchat所以就直接加了
+13:12 < sky_> 免得還要去下載安裝windows版本的IRC軟體
+13:13 < sky_> but......現場到處都聽得到日文啊
+13:13 < sky_> 話說。現場沒有插頭這件事應該要早說
+13:13 < sky_> 我好帶條延長線
+13:14 < sky_> 仔細看看現場大家使用的筆電
+13:15 < sky_> 我想我是最有辨識度的了
+13:15 < Canaan> 有延長線，可以從牆邊拉出
+13:15 < sky_> but我在中央orz
+13:15 < sky_> 中研院的話就不用擔心這
+13:16 < sky_> 希望電力能撐到會議玩
+13:16 < sky_> 中午的便當超好吃的
+13:23 <@allenown> 今天IRC人多嗎
+13:27 < newbuy_> 大概五個人出聲XD
+13:27 < Holi_> 超少
+13:28 < newbuy_> R2竟然偷跑QQ
+13:29 <@allenown> 我R1有刻意準時開始
+13:29 <@allenown> 如果有什麼投影冷氣之類的狀況可以貼一下
+13:37 < sky_> HTC!!!!
+13:39 < newbuy_> ‧
+13:39 < newbuy_> ？
+13:42 < Canaan> 以前有 WarGame 打的時候比較多人
+13:43 < newbuy_> 邊打wargame怎麼認真聽@@  我邊打字邊聽就有點困難了
+13:58 < newbuy_> 全英文演講對我來說還是太難T>T
+13:58 < newbuy_> 看來選場可能要看一下講中文或英文了
+14:02 < newbuy_> streaming 是有議程時才有畫面？
+14:08 < newbuy_> R2 還是連不上XD
+14:08 < newbuy_> 那個streaming是循還播放的？
+14:09 < sky_> 我覺得英文不是難點
+14:09 < sky_> 重點是知不知道他要講的架構
+14:09 < sky_> 話說如果是正妹脫光光在講的話，不管怎麼樣都一定聽得懂的!!!
+14:10 < sky_> 好
+14:10 < sky_> 換場!
+14:14 < newbuy_> 哈哈哈  R2 講中文  輕鬆多了
+14:15 < gswest> cn 講者
+14:16 < newbuy_> 我看到exp-sky還以為是外國人
+14:18 < newbuy_> CN也算外國人啦 XD
+14:57 < sky_> back
+14:57 < sky_> hi~~~
+14:58 < sky_> 有人可以分享一下bitcoin security那場講的嗎?
+15:01 < newbuy_> i got you sky XD
+15:47 < newbuy_> egov 2.0
+15:48 < gasol> 超安靜...PLG 會不會多一點人?
+15:48 < dannyAAM> 想說為啥有人 今天是ＥＮＴ啊www
+15:50 < newbuy_> ent 不能用IRC嗎？
+15:53 < dannyAAM> 其實因為跟ＥＮＴ無緣 所以根本忘了有這場存在ＸＤ
+16:11 < newbuy_> 噗哈哈  後天只能在公司用IRC聞香了
+16:11 < billy3321> GG_in_in_der
+16:11 < billy3321> lol
+16:12 <@allenown> billy3321: 好眼力
+16:13 < newbuy_> 這種都要看特別快
+16:13 < billy3321> 暫存，讓我想到打菲律賓那一次
+16:13 < billy3321> php~裡面出現資料庫帳戶密碼＠＠
+16:13 < billy3321> 超歡樂
+16:15 < newbuy_> phpinfo 都放根目錄喔@@
+16:15 < billy3321> 應該要順便查 test.php
+16:17 < newbuy_> 超棒的source code外帶
+16:19 < newbuy_> 右下的三個人笑起來毛毛的
+16:19 < allenown__> XDDDDD
+16:20 < newbuy_> 台北市的查不到了QQ
+16:22 < allenown__> 168
+16:32 < newbuy_> 所以賣家電update server 有商機？
+17:01 < sky_> GGININDER只有使用中文的人才懂得梗
+17:01 < sky_> 現在是酒會時間
+17:11 < sky_> 現場有人拿愛花出來啊!!!!!
+17:11 < sky_> 竟然有loveplus+
+17:14 < Ayumi_> 請問家用電腦被DDOS和解 幫某知名實況主詢問
+17:15 < Andox> 把網路線剪掉 可解DDOS
+17:28 < Kiris> Ayumi_, 可以照三餐打電話去問候牠 http://whois.twnic.net.tw/whois.cgi?query=lpgame&sld=com.tw
+17:32 < Ayumi_> LOL
+17:51 < sky_> 換一個.....網路
+17:51 < sky_> 快沒電了
+18:09 < sky_> 走啦
+18:21 < dannyAAM> 有人提到L+?
+18:24 < newbuy_> L+ ?
+18:35 < newbuy_> 明天見啦
+21:19 < orange_> test
+21:19 < orange_> cc
+21:19 < orange_> 原來有IRC
+21:25 < atdog> XDD
+21:26 < cychao_> atdog: 你還不回人家
+21:26 < orange_> XDDD
+21:26 < atdog> 回誰？
+21:26 < cychao_> atdog: 人家想拿你題目當教材呢！
+21:26 < orange_> hitcon-ctf嗎
+21:26 < atdog> 喔喔  我忘了這件事了
+21:26 < cychao> yes
+21:26 < orange_> 我好像也有貝問
+21:26 < orange_> 被問
+21:26 < atdog> orange_: 你們會 open 嘛？
+21:26 < orange_> 只是忘記是誰問了
+21:26 < cychao> orange_ atdog 經典二人組！
+21:26 < orange_> atdog: 不會。
+21:26 < atdog> XDDD
+21:26 < cychao> shik有些題目已經open拉
+21:26 < orange_> 我機器櫃幾天就會關了
+21:27 < orange_> open啥
+21:27 < atdog> 那只好手動 open 了
+21:27 < orange_> src or sollution ?
+21:27 < atdog> src
+21:27 < cychao> maze
+21:27 < orange_> 其實我的題目都可以自己打進去 open 阿
+21:27 < orange_> XD
+21:27 < orange_> 都給你拿 shell 了
+21:27 < atdog> XDD
+--- Day changed Wed Aug 20 2014
+00:05 < sky_> hello world
+06:02 < iddqd> morning
+07:20 < orange_> iddqd: /kick
+08:29 < newbuy_> 早安
+08:30 < newbuy_> ZzZzzzzZ
+08:32 < newbuy_> 會場少好多人  是都被抓去上班了嗎？
+08:43 < Lunpin> 請不到假嗚嗚
+08:53 < newbuy_> @lunpin  你不是昨天就沒假了
+09:00 < sky_> hello, world
+09:05 < Lunpin> 對啊 好難過
+09:05 < sky_> 我沒看到Reference!
+09:09 < newbuy_> @lunpin  表示你對公司很重要所以請不到假阿
+09:12 < beemo> alert('早')
+09:13 < newbuy_> CreateProcess(ViturlProtect('您早'));
+09:13 < Lunpin> @newbuy_ 不是欸...  我在服役 OAQ
+09:13 < Lunpin> good morning
+09:15 < newbuy_> @Lunping 服役就只能想辦法打混啦(茶)
+09:17 < Lunpin> 只能看看irc鍵盤實況了呵呵
+09:19 < newbuy_> 果然神人的思想跟平凡人不太一樣
+09:20 < newbuy_> 正規表示法簡單好寫  我都只在看天式T>T
+09:21 < newbuy_> 中華電信劉科長和范工程師
+09:26 < atdog> 今年會有綿羊牆嘛？
+09:27 < newbuy_> CTF ScoreBoard ?  今年的打完了喔
+09:27 < newbuy_> 還是我誤會了
+09:28 < sky_> 綿羊牆啊......這個傳統就留到plg好了
+09:28 < Lunpin> 有神快拜 m(_  _)m
+09:29 < Lunpin> 綿羊牆是貼會場使用者的密碼的吧
+09:30 < atdog> 想看ent的綿羊牆XD
+09:30 < sky_> 大概
+09:31 < Lunpin> 想幹麻 XD
+09:31 < newbuy_> 還好我都用SSL了QQ
+09:31 < sky_> 有個hitcon freewifi
+09:31 < sky_> 我好像都沒用www
+09:32 < newbuy_> 雖然昨天有用telnet裸奔一下
+09:32 < newbuy_> 後來趕快換成SSH
+09:33 < sky_> 我都是用telnet裸奔的!
+09:33 < sky_> 好吧，改用pietty
+09:33 < sky_> 這場好像置入性行銷
+09:34 < Lunpin> 先恭賀兩位大大榜上有名 (?) XD
+09:34 < sky_> who?
+09:35 < newbuy_> 可惜明後兩天沒參加  沒辦法看到榜單(？)
+09:35 < sky_> 榜單
+09:35 < sky_> 是啥?
+09:35 < Lunpin> 綿羊牆啦  XD
+09:35 < sky_> ent有嗎?
+09:36 < Lunpin> 我不知道有沒有  我說說而已  QQ  我好想去呀
+09:36 < newbuy_> 大概是For ENT 所以都是給主管看的簡報？
+09:37 < sky_> 也不太像,比較像給客戶的
+09:37 < newbuy_> ENT不是今年的新玩法？
+09:37 < cychao> newbuy_: scoreboard  http://hitconctf2014.github.io/scoreboard
+09:39 < newbuy_> @cychao 我有玩  我是誤會綿羊牆是scoreboard  :)
+09:39 < sky_> 啊,惡意網址沒拍照下來!!!
+09:40 < sky_> data mining的技術啊......
+09:41 < newbuy_> 駭進那台筆電抓簡報阿(誤)
+09:42 < sky_> 我想直接找個正妹去借電腦,偷偷差個bad usb
+09:42 < sky_> 這樣成功率應該高達八成
+09:42 < newbuy_> 沒弄懂耶  怎麼繞過時間炸彈
+09:43 < sky_> 加殼
+09:43 < sky_> confusing
+09:43 < sky_> 偵測模擬器
+09:44 < newbuy_> bad usb(伸)
+09:45 < sky_> bad 行動電源比較可怕
+09:46 < newbuy_> 一台梅樹派加電池偽裝？
+09:47 < sky_> 這樣好像功能有點強,可以裝kali了耶
+09:50 < newbuy_> Kali可以玩什麼？
+09:51 < sky_> 很多......
+09:51 < sky_> 很多......
+09:51 < sky_> kali=資安大補帖
+09:53 < newbuy_> 改天裝一套來玩好了  拿EEE Surf來玩
+09:54 < sky_> 官方有提供特定機器的靜象
+09:54 < sky_> 官方有提供特定機器的鏡像檔
+09:58 < newbuy_> 金盾獎!
+09:59 < sky_> 大專學生資安競賽
+10:01 < newbuy_> 剛找了一下 好像是我在台科大鬼混時的開始舉辦的比賽
+10:01 < newbuy_> 沒參加到QQ
+10:05 < sky_> 我大學時都在鬼混，連拿四年爐主
+10:05 < newbuy_> Cooooooooooooooooool!
+10:06 < Lunpin> m(_  _)M
+10:06 < sky_> 對嗎,小額付款本來就要預設關閉
+10:06 < sky_> 對嘛,小額付款本來就要預設關閉
+10:07 < sky_> 對嘛,付款要多因子認證
+10:07 < newbuy_> 預設關閉 = 用的人大大減少
+10:07 < sky_> 先去吃點心
+10:27 < Oliver___> wow
+10:29 < newbuy_> R2 Ready Go In 1 min
+10:38 < newbuy_> 9年級都當駭客？
+10:39 < newbuy_> 學習成本低？ 是指用tool很容易？
+10:41 < sky_> 不高
+10:41 < sky_> 有特定針對目標的自動化工具很多
+10:42 < sky_> 你只要找到目標，然後下載工具，然後執行
+10:47 < newbuy_> 砲兵團(茶)
+10:52 < newbuy_> 人工輸入驗證碼雲XD
+10:52 < newbuy_> 愛盲協會的好朋友？
+10:55 < sky_> wwww
+10:56 < sky_> 驗證碼策略
+10:56 < newbuy_> 怎麼判斷是人輸入還是電腦？
+10:57 < sky_> 輸入的間隔跟正確率
+10:57 < sky_> 人輸入的間隔跟機器輸入是有差的
+10:58 < sky_> 這可以拿來當作生物辨識機制
+11:00 < newbuy_> 結果拼圖要花的時間比玩的時還長(誤)
+11:00 < sky_> google keystroke biometrics
+11:00 < sky_> 這場其實比較接近社會學的研究?
+11:01 < newbuy_> 跳出來一張圖片 選擇 美女 或 帥哥
+11:02 < newbuy_> 還可以順便幫人工智慧增加判斷的數據
+11:04 < sky_> 問題在"回答驗證碼問題的其實是真人"
+11:05 < newbuy_> 男女的分別應該對電腦來說是困難的吧？
+11:06 < sky_> 問題在這個產業鏈真的是真人回答驗證碼orz
+11:07 < newbuy_> 也對
+11:14 < orange_> f]/hicn orange
+11:14 < orange_> ...
+11:15 < sky_> ohhh
+11:15 < sky_> 老師你好
+11:15 < sky_> allright!
+11:16 < cychao> o老師
+11:16 < cychao> XDDD
+11:17 < orange_> 怎麼會是老師
+11:17 < sky_> 不然要叫老爸嗎?一日為師，終身為父'
+11:18 < orange_> sky_: 記得你說過的喲
+11:18  * orange_ flee
+11:18 < sky_> 他逃跑了
+11:19 < sky_> 下一場是......
+11:19 < sky_> mobile payment security
+11:19 < orange_> 吃飯的前一場
+11:19 < sky_> ya
+11:20 < sky_> 不能先發便當嗎?
+11:20 < sky_> 便當好好吃喔......明天也能訂這家的便當嗎?
+11:21 < sky_> 話說還真少人去坐第一排
+11:21 < sky_> ok
+11:21 < sky_> 開始作筆記了
+11:23 < sky_> 要是以後有個網站可以針對演講整理大家的共筆就好了
+11:25 < sky_> 糟糕<
+11:25 < Oliver__> ?
+11:25 < sky_> 他的英文我聽不太懂
+11:25 < sky_> 雖然講得更慢orz
+11:26 < sky_> NFC!
+11:26 < sky_> 我用的手機有!
+11:26 < Oliver__> 連口譯 感覺 好像也聽不太懂的樣子
+11:27 < newbuy_> R1 QQ也要講英文為主了
+11:27 < sky_> 多益應該要加入亞洲腔
+11:27 < sky_> 我昨天就對即時口譯不抱任何希望了
+11:27 < Oliver__> 亞洲腔  可能還要分
+11:28 < sky_> 台灣腔
+11:28 < sky_> 日本腔
+11:28 < Oliver__> 韓國腔
+11:28 < sky_> 山東腔
+11:28 < sky_> 四川腔
+11:28 < sky_> 香港腔
+11:28 < newbuy_> 臺灣北部腔  南部腔
+11:28 < sky_> etc
+11:28 < Oliver__> 也太多XD
+11:29 < Oliver__> 那這個多益 應該是要給 歐美人 烤的吧XD
+11:29 < sky_> 多益是全球認證
+11:30 < sky_> 所以要求烤過的人聽得懂全球所有腔調也是很合理低
+11:30 < sky_> but
+11:30 < newbuy_> 會不會原住民反而英文沒腔調
+11:30 < Oliver__> 不過 應該很少有英文語系的人會去考吧
+11:30 < sky_> 阿知
+11:30 < sky_> 其實我覺得去考bultis就好
+11:31 < newbuy_> 我昨天有認識一個尼加拉瓜的在考中文託福
+11:31 < Oliver__> 不好意思，題外話，  大會 會提供講者的投影片嗎？～
+11:31 < sky_> 這個就當成明年的flag怎麼樣?
+11:32 < sky_> 這樣好了，把寫有未公開zeroday的細節當成flag
+11:32 < Oliver__> XD
+11:34 < sky_> hi meconin
+11:34 < meconin> sky_: hi
+11:35 < sky_> 其實我覺得下次可以開個line
+11:36 < sky_> 群組
+11:36 < dafhgrt> 請問有網路的翻譯嗎 R1
+11:37 < newbuy_> HITCON Linez粉絲帳號？
+11:37 < Oliver__> 10.10.10.10  ?
+11:37 < dafhgrt> :8000 ?
+11:38 < Oliver__> 好像是吧？
+11:38 < newbuy_> 連不上
+11:38 < Oliver__> 那看來是昨天 臨時架的
+11:39 < dafhgrt> 謝謝
+11:39 < Oliver__> sky_ : LINE群組的話，可能會有人沒有line吧？
+11:39 < newbuy_> 針對性的攻擊 可以區分是普通駭客 或 組織過的
+11:40 < sky_> 大體上來說，世人要去適應環境，
+11:40 < Oliver__> 也是啦～
+11:40 < sky_> 除非有人針對line發表zeroday
+11:41 < Oliver__> 嗯嗯
+11:41 < newbuy_> 主要的問題是 外國人或許就沒在用？
+11:41 < sky_> Trustme, 會有人用的
+11:42 < Oliver__> 恩亨
+11:42 < sky_> 不過這幾年似乎比較少邀請東南亞的駭客來?
+11:42 < Oliver__> 是喔？ 我是第一次參加，所以不清楚
+11:42 < sky_> 我是......第二次www
+11:42 < sky_> lol
+11:42 < Oliver__> www
+11:43 < newbuy_> 我也是第一次(羞)
+11:43 < Oliver__> sky_  大會上次有提供講者的投影片媽？～
+11:43 < sky_> 有啊
+11:43 < Oliver__> newbuy_ （握手
+11:43 < sky_> 上網去下載吧
+11:43 < Oliver__> sky_ 謝天謝地！ 不然完全來不及作筆記
+11:44 < sky_> 我記得前幾年的wargame都還有資料的樣子
+11:44 < Oliver__> 嗯嗯！
+11:44 < sky_> 不過都是會後才放上網就是
+11:44 < Oliver__> sky_  了解！感謝！只要有提供就好！
+11:44 < sky_> 記得明天的就會發紙本資料跟隨身碟
+11:44 < Oliver__> goooooooooooood!
+11:45 < sky_> 今天的就不清楚
+11:45 < Oliver__> 0 . 0
+11:46 < Oliver__> 信用卡 卡號的規則，不是公開的嗎？還是我記錯？
+11:46 < sky_> 是公開的
+11:47 < Oliver__> 嗯嗯
+11:47 < sky_> park應該是照稿念
+11:47 < Oliver__> 很努力在看講桌
+11:47 < sky_> 記憶體內有卡號明文!
+11:47 < scops> 相加mod 10 =0
+11:48 < sky_> 那是身分證吧?
+11:48 < Oliver__> 他剛剛好像是說信用卡 卡號？
+11:49 < scops> WIKI 有
+11:49 < Oliver__> scops : 你是說規則嗎？～
+11:49 < scops> 可能還有加權吧
+11:50 < scops> 恩
+11:50 < Oliver__> 應該會有權重
+11:50 < sky_> 我好像也是在kkix刷卡買票的
+11:50 < sky_> 不知道我的卡號有沒有外洩?
+11:51 < Oliver__> 就看他們的防護做的怎樣囉
+11:52 < sky_> binary proctiection
+11:52 < Oliver__> 聽起來 好像不算是 加密 ，而是對照的方式
+11:54 < sky_> hmac指這個吧,hash message authentication code
+11:54 < sky_> 講到countermeasure
+11:54 < newbuy_> DNS 有人不會打的網址是也許是有問題的
+11:55 < sky_> 我記得那個dns querry好像也是被拿來當作CC傳遞資訊的方式
+11:58 < sky_> 其實來講，行動支付就要求多因子認證不就能改變許多問題?
+11:59 < newbuy_> 就是要在使用者體驗和安全性做做取捨
+11:59 < Oliver__> 像是 網路銀行的 簡訊驗證
+11:59 < Oliver__> 不過 可能就會有成本考量吧
+12:00 < sky_> OK,搶位置!
+12:00 < Oliver__> 沖！
+12:00 < newbuy_> 什麼位子@@
+12:07 < newbuy_> 這邊主要也是增加監控來源 做多方比較
+12:07 < newbuy_> Proxy or DNS or Honeypot
+12:15 < sky_> 話說現場有個hitconfreewifi很可疑啊
+12:41 < sky_> 打瞌睡去......
+12:50 < sky_> 下一場最好提前開始
+12:50 < sky_> 有可能沒辦法在時間內講完
+13:01 < sss2500> 同意，都是很精彩的體目
+13:07 < sky_> 不過，最重要要有梗
+13:07 < sky_> 像昨天的G_G_IN_IN_DER www
+13:08 < sky_> 有殺氣!
+13:08 < sky_> R1變得好冷......
+13:12 < sss2500> R2 也超級冷...
+13:14 < sky_> 頭髮可以再長
+13:14 < sky_> 友情可以長存
+13:15 < newbuy_> 又偷跑QQ
+13:15 < sky_> 置入性行銷...Trend Micro
+13:16 < newbuy_> 不太算吧  就讚助商廣告
+13:17 < sky_> 說得也是
+13:17 < newbuy_> 置入性比較像是不知不覺的
+13:17 < newbuy_> 比如說現在的橘子 看完就會認為橘子是壞人XD
+13:19 < sky_> 明年日本會有草原之狼或門倉運輸嗎XD
+13:41 < sky_> here coms tech details
+13:41 < newbuy_> 橘子(尖叫)
+13:41 < Lunpin> (尖叫)
+13:41 < sky_> Screaming!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+13:41 < newbuy_> 橘子的MAC不乖！
+13:45 < newbuy_> DNS, game box, captured
+14:02 < test_> 要贊助要得好明顯
+14:03 < newbuy_> 就真的沒錢阿 :)
+14:07 < test_> Locus被叫上去罰站
+14:07 <@allenown> test123
+14:07 < newbuy_> 贊助商代表XD
+14:08 < newbuy_> test123 應該不會有攻擊力吧(倒)
+14:09 < sky_> 好啦
+14:09 < sky_> 明年我贊助獎金30K好了
+14:10 < newbuy_> (霸氣)!!
+14:10 < test_> 新的攻擊指令 test3
+14:10 < sky_> test123
+14:11 < newbuy_> CPU飆高了(誤)
+14:14 < newbuy_> 企業看不到問題就不投入
+14:15 < newbuy_> 但是又想要靠問題獲得利潤
+14:15 < sky_> yaya
+14:15 < sky_> 資安的獲利來自於企業潛在的損失
+14:18 < newbuy_> Locus早上講過了 所以罰站沒差(誤)
+14:20 < newbuy_> 藉由漏洞的公開 題升客戶對資安的關注 以取得更好的薪水
+14:24 < newbuy_> 因為雲流行 所以漏洞修複比以前容易 所以更應該開放漏洞  (？)
+14:26 < newbuy_> 漏洞的開放可以使得同一漏洞輪流發動的情況減少
+14:29 < newbuy_> wooyun top 10 XDDD
+14:31 < newbuy_> wooyun id = 履歷 嘖窄嘖
+14:34 < newbuy_> wooyun 建立 讓漏洞獎金提高了
+14:38 < newbuy_> 中國也有人會認為不被控制比生存重要  (鼓掌)
+14:47 < newbuy_> 經典句子  我以為臺灣是那樣那樣  結果到臺灣以後才發現是這樣這樣
+14:47 < sky_> wwwwww
+14:47 < sky_> 所以台灣是台灣是怎樣怎樣?
+14:49 < newbuy_> 沒說耶  大概就跟我們覺得中國還是牛車滿街跑那樣的意思吧XD
+14:50 < newbuy_> 下一場要選r1 r2 沒頭緒
+14:51 < sky_> 我選R2
+14:51 < sky_> 因為要充電
+15:08 < newbuy_> R2 好空 XD
+15:15 < newbuy_> R2的口譯好棒！
+15:15 < sky_> 真的
+15:15 < sky_> 我這幾天都選擇聽原文
+15:40 < newbuy_> 平均11長度還會被偷
+15:40 < newbuy_> 所以密碼應該要來個15字長了嗎@@
+15:47 < Canaan> 目前 R2 這場可以參考 : http://www.welivesecurity.com/wp-content/uploads/2014/03/operation_windigo.pdf
+15:47 < newbuy_> 結果沒聽到怎麼感染的QQ
+15:48 < shaolin> @Canaan thx~
+15:48 < newbuy_> @canaaan (bow)
+15:48 < Canaan> @shaolin welcome
+15:48 < newbuy_> 問的好！
+15:50 <@allenown> shaolin: 發現講師！
+16:01 < newbuy_> 什麼是講師！
+16:04 < newbuy_> 3洞成就盤古越獄
+16:06 < newbuy_> 近三百萬台成功越獄
+16:10 < newbuy_> 有未釋出的版本越獄 Coooooool
+16:16 <@allenown> 部分投影片已經公開在網站上，可以到議程表下載～
+16:17 < sky_> 用ttp分類啊......
+16:17 < sky_> thanks! 大allen
+16:17 <@allenown> 我是小 Allen
+16:17 <@allenown> 我是有頭髮的那個
+16:17 < newbuy_> 哈哈哈
+16:17 < sky_> 對不起orz
+16:17 < Evod> allenown: SheepWall上線了
+16:18 < Evod> Runnin..
+16:18 < newbuy_> 昨天有換到小Allen的名片(大心)
+16:18 <@allenown> Evod: 感恩
+16:18 < newbuy_> sheepwall(抖)
+16:18 < sky_> 話說有個建議
+16:18 < sky_> 下次可以預先提問嗎?
+16:18 < Evod> o_O
+16:19 <@allenown> 什麼是預先提問
+16:19 < sky_> 就agenda出來後預先給聽眾提出問題在會中回答
+16:20 <@allenown> 比較擔心講者講比較久 提問時肩部多
+16:20 <@allenown> 提問時間不多XD
+16:20 < sky_> 幾乎都沒有時間問
+16:20 < newbuy_> 開放兩個  多題的話先投票(被毆)
+16:22 < sky_> 要不然來不及回答的就在線上回答
+16:22 < newbuy_> 我提一個弱弱的提議是 先標注講者預定是中文或英文講嗎QQ
+16:23 < sky_> 其實我覺得沒差
+16:24 < sky_> 不過今年竟然沒有日文講題!
+16:25 < sky_> 另一個感想是......便當好好粗，以後粗不到怎摸辦
+16:25 < newbuy_> 喜來登又不會跑
+16:26 < sky_> 可是明年又不一定會在這邊
+16:26 < sky_> 不過這邊很方便是真的
+16:29 < sky_> wow
+16:30 < sky_> 竟然在ptt發現有人要賣plg的票
+16:30 < newbuy_> 你可以辦BOT 2014 然後在這裡(大誤)
+16:30 < newbuy_> plg票不難買阿  難的是假T>T
+16:31 < sky_> 他賣1K喔
+16:32 < newbuy_> 想去想去
+16:34 < sky_> 址: http://www.ptt.cc/bbs/forsale/M.1408515052.A.CD6.html
+16:34 < newbuy_> QQ  買了還是不能去阿
+16:41 < sky_> 我勒
+16:41 < sky_> 這是甚麼軟體
+16:41 < sky_> 這是社交網路分析
+16:43 < sky_> http://espionageware.blogspot.tw/2014/08/hunting-pitty-tiger-with-malprofile-tool.html
+16:53 < sky_> 400+1000?
+16:54 < sky_> 這麼多
+16:54 < sky_> 小跑步帶殺聲跑過來啊!
+16:55 < sky_> R2!
+16:55 < sky_> 小allen
+16:56 < sky_> PK!
+16:57 < newbuy_> 沒聽到小Allen
+17:00 < sky_> 寧寧!
+17:01 < newbuy_> Tim Wu ?
+17:02 < sky_> 墾丁!!!!!!
+17:02 < sky_> 還好我住台中!!!
+17:02 < newbuy_> 比基尼 沙攤
+17:03 < newbuy_> 住台中也一樣要住宿吧@@
+17:03 < sky_> 塞車是要怎麼辦啊
+17:04 < newbuy_> 提早一天去阿
+17:04 < sky_> 那要怎麼回來來來來來
+17:04 < newbuy_> 直接請一個星期的假(誤)
+17:05 < sky_> 看到天上的請假星嗎?我已經請了
+17:05 < newbuy_> 太強大了
+17:05 < newbuy_> 結束
+17:06 < newbuy_> sky要交換個名片嗎？
+17:09 < sky_> 我沒有名片
+17:10 < sky_> 有緣的話，我們會在見面的
+17:15 < sky_> time to go
+17:15 < sky_> see you
+20:07 < sky_> anybody online?
+21:40 < AlpacaZoo> [HTTP] 140.109.127.9:20890 -> 211.79.36.170:80 soft**** / jung**** # mall.emome.net/buy/
+21:40 < AlpacaZoo> [HTTP] 140.109.127.9:46346 -> 104.28.26.119:80 2943**** /   # http://onefunnyjoke.****
+21:40 < AlpacaZoo> [HTTP] 140.109.127.13:37450 -> 74.120.121.83:80 7710**** /   # http://www.plurk.com****
+21:40 < AlpacaZoo> [HTTP] 140.109.127.13:10246 -> 74.120.121.80:80 7710**** /   # http://www.plurk.com****
+21:40 < AlpacaZoo> [HTTP] 140.109.127.13:16311 -> 54.243.128.120:80 1  /   # client.hola.org/clie****
+21:40 < AlpacaZoo> [HTTP] 140.109.127.13:4789 -> 210.242.72.197:80 3dre**** / 3dre**** # www.3drens.tw/Rising****
+21:41 < atdog> wow~
+21:41 < dove> 先關一下..
+21:54 < sky_> ???
+22:56 < iddqd> lol
