@@ -1,204 +1,2123 @@
---- Day changed Fri Oct 24 2014
-01:17 -!- mode/#mopcon [+o ericpi] by ChanServ
-02:07 -!- mode/#mopcon [+o ericpi] by ChanServ
-02:53 -!- mode/#mopcon [+o ericpi] by ChanServ
-03:43 -!- mode/#mopcon [+o ericpi] by ChanServ
-10:07 -!- mode/#mopcon [+o ericpi] by ChanServ
-11:13 -!- mode/#mopcon [+o ericpi] by ChanServ
-12:09 <@ericpi> 明天就要開場囉!!!!
-14:17 < CWHsiao> exit
-16:13 -!- mode/#mopcon [+o ericpi] by ChanServ
-17:04 -!- mode/#mopcon [+o ericpi] by ChanServ
-23:18 -!- mode/#mopcon [+o ericpi] by ChanServ
-23:34 < cqd_> test
-23:36 < cqd_> test
-23:40 < little_girl_love> 測試 kiwi irc
-23:42 < little_girl_love> 中文測試
-23:49 < CQD>  /LOG OPEN -targets #chat ~/irclogs/mopcon/%Y-%m-%d.log ALL -JOINS -QUITS -PARTS
-23:49 < little_girl_love> 中文測試
+Day1
+========
+
+--- Log opened Sat Oct 25 00:00:25 2014
 --- Day changed Sat Oct 25 2014
-00:04 < cqd_> ls
-00:07 < little_girl_love> 中文...
-00:09 -!- mode/#mopcon [+o ericpi] by ChanServ
-00:40 -!- mode/#mopcon [+CQ] by ericpi
-00:40 -!- mode/#mopcon [+o CQD] by ericpi
-00:41 -!- CQD changed the topic of #mopcon to: MOPCON 2014 盛大開幕中
-00:42 -!- ericpi changed the topic of #mopcon to: "MOPCON 2014 - 濁水溪以南最強大行動應用科技開發者年會"
-00:42 -!- ericpi changed the topic of #mopcon to: MOPCON 2014 - 濁水溪以南最強大行動應用科技開發者年會
-00:42 < afutseng> 好熱鬧啊
-00:42 < derekhsu> 已經有人了？
-00:43 < derekhsu> 今天加班加到10點半orz。
-00:43 <@ericpi> 阿福~~ (招手
-00:43 < afutseng> ericpi:局長早安
-00:43 < weitsai> XDD
-00:43 <@ericpi> xDDDD
-00:43 < afutseng> 好多眼熟的 ID
-00:44 < derekhsu> Developers' Night是什麼東西？
-00:45 < weitsai> HIHI！！
-00:45 < weitsai> 先偷跑進來 XDD
-00:46 <@ericpi> 今年 Wifi 有密碼喔
-00:46 < derekhsu> 議程表上沒有報到時間？
-00:46 < derekhsu> 密碼是什麼？
-00:46 <@ericpi> mopcon2014-4f / mopcon2014-3f 兩個 SSID, 密碼與 SSID 同
-00:46 < weitsai> 就是 SSID
-00:46 <@ericpi> (聽說是 Cisco AP 設定限制)
-00:47 <@ericpi> 報到時間 8:00~8:45, 只有在 8:45 完成報到才能參與第一場手機抽獎囉~
-00:49 < derekhsu> 今年微軟很努力啊
-00:50 < derekhsu> 那這樣不能早上爬完山再去了
-00:53 < testest> ^^
-00:56 <@ericpi> 不過明天早上是抽 ZonFone 接 ASUS Cloud 議程
-00:56 <@ericpi> 不過這次手機抽得很歡樂應該是跑不到了... xDDDD
-00:56 <@ericpi> @derekhsu 就是個跟眾大神吃吃
-00:56 <@ericpi> 喝喝的場合.. xD
-01:03 < derekhsu> 嘿嘿，那要去看看囉
-01:10 < weitsai> http://jarsing.blogspot.tw/2014/10/mopcon2014-coupons.html
-01:13 < Guest97996> hello?
-02:24 <@CQD> Test
-02:45 < JohnSie> @@
-02:56 < sjlu> 大家安安
-03:08 -!- mode/#mopcon [+o ericpi] by ChanServ
-04:29 <@mikimoto> 早安，看起來很多人都蠻早起的嗎，工作人員嗎 XD
-05:09 -!- mode/#mopcon [+o ericpi] by ChanServ
-06:48 -!- mode/#mopcon [+o ericpi] by ChanServ
-08:22 < Andox> 早~
-08:25 < derekhsu> 好早
-08:42 -!- mode/#mopcon [+o ericpi] by ChanServ
-08:56 < opjlmi> 有聯播嗎 .....
-09:00 < derekhsu> 今天有午餐嗎？要自己訂？
-09:01 < Mouther> 早安
-09:13 < zeroplex> 早安
-09:14 < Mouther> 學長早 Orz....
-09:25 < taipeiwu> 大家早餐
-09:25 < taipeiwu> 早安
-09:27 < linroex> 早～
-09:33 < jserv--> 提醒大家 MOPCON 有共筆: https://mopcon.hackpad.com/MOPCON-2014-Day1-Sessions-g4tcQPfhdDT
-09:33 < jserv--> 歡迎更新
-09:34 < Mouther> 更新越頻繁 越有機會拿到 ASUS 手機 !
-09:36 < linroex> 有人知道哪裡可以充電嘛QQ
-09:37 < YuCheng> 服務台好像可以充
-09:37 -!- mode/#mopcon [+o ericpi] by ChanServ
-09:39 < linroex> 嗯嗯謝囉
-09:42 <@ericpi> 請注意，我們只提供300份便當給先到的會眾，如您沒領到餐券，請務必於10:00前在報到處右側訂購午餐。
-09:43 <@ericpi> 另四樓服務台備有鹽埕小吃資訊，歡迎索取。
-09:44 < derekhsu> 哇
-09:44 < derekhsu> 我沒有領到餐卷
-09:57 < janelin> 想問一下hackpad網址在哪 找不到QQ
-09:58 < keith222> 手冊裡有喔
-09:58 < test_> test by chusiang
-09:58 < keith222> https://mopcon.hackpad.com/MOPCON-2014-Day1-Sessions-g4tcQPfhdDT
-09:59 < janelin> 感謝!
-10:00 < O______________O> Qwert
-10:01 < test_> for test
-10:02 < robinliks> 做App要賺錢，只有遊戲有機會 :(
-10:02 < YuCheng> Wifi gg了
-10:10 < CCKai> test
-10:15 -!- mode/#mopcon [+o ericpi] by ChanServ
-10:16 < WanJen> Hello
-10:21 < darkx> hi all
-10:30 -!- mode/#mopcon [+o ericpi] by ChanServ
-10:34 < cckai_> 遊戲抄襲也會成功
-10:35 < cckai_> 只要活得久，未必要有創新的遊戲app
-10:36 < keith222> 例如 某神x之塔嗎（誤）xd
-10:37 < keith222> btw 二廳這邊的mic 會有雜訊現象 可能要麻煩工作人員之後來查看一下
-10:41 < taipeiwu> 4廳這也可以充手機唷
-10:51 < zeroplex> Jeol on Software - 每個軟體開發者都絕對一定要會的Unicode及字元集必備知識  
-10:51 < zeroplex> http://local.joelonsoftware.com/wiki/The_Joel_on_Software_Translation_Project:%E8%90%AC%E5%9C%8B%E7%A2%BC
-10:53 < MouseMs> workshop 場地現在是 gitcafe 的強哥的議程
-11:05 -!- mode/#mopcon [+o ericpi] by ChanServ
-11:06 < zeroplex> [R1]講師講到 Java 嘆了一口氣 XD
-11:06 < linroex> 請問有人知道Lighting Talk何時可以報名嘛XD
-11:07 < syu> 二廳麥克風很爛誒
-11:10 < Poy> 一廳後方應該會覺得在聽兩場演講 XDD
-11:10 < cckai_> 麥克風有人處理中
-11:11 < JimmyWu> 現在好多了
-11:11 < JohnSie> 一次聽兩場有賺到的感覺阿~~ :p
-11:11 < JohnSie> 呼呼
-11:12 < Poy> 嗯嗯 ^_^
-11:12 < cckai_> 哈~有協調音量了，有改善了吧！
-11:12 < Poy> 有喔！
-11:13 < Poy> 辛苦場控人員了 =)
-11:35 < andytwmvp> R2大爆炸
-11:37 < cckai_> 三廳主題：https://livehouse.in/
-11:40 < JimmyWu> 有錢的D繼承了有錢的老爸  有錢的老爸繼承了KMT
-11:40 < JimmyWu> 筆記
-11:41 < Poy> XD
-11:42 < andytwmvp> 會場ap好亂＠＠
-11:43 < cckai_> 有大會手冊可以參考，或是找服務台幫忙
-11:44 < cckai_> 會場ap可到mopcon紡絲頁內有說明
-11:47 < andytwmvp> 喔喔，我是指私人ap太多都蓋掉了＠＠
-11:49 < Poy> 頗多 ~~
-12:05 < andytwmvp> [R2] 不是每個學校都會放jserv給你用
-12:05 < Johnny> hello
-12:10 < zeroplex___> R1  傳輸資料量小就用 GET，所以傳送帳號密碼就用GET 吧 (誤)
-12:10 < cckai_> 馬上要抽獎了，有手機
-12:17 < cckai_> 三廳抽獎中
-12:17 < cckai_> 華碩手機一支
-12:39 -!- mode/#mopcon [+o ericpi] by ChanServ
-12:46 < sobonbon> 不好意思 請問一下ICCK的wifi可以使用嗎？
-12:49 < Mouther> wifi 悲劇.....
-12:50 < kiang> hello world
-12:51 < Mouther> 是 kiang 大!!! (( Orz...
-12:51 < kiang> -.-||
-12:52 < kiang> 女兒睡覺偷偷溜上來，現場網路不順？好像沒有歡樂感覺 XD
-12:54 < Mouther> 台灣的conference wifi 應該都沒好過 QQ
-12:54 < kiang> 恩，受限場地吧，目前大概只有中研院場地最佛心了 XD
-13:00 -!- mode/#mopcon [+o ericpi] by ChanServ
-13:03 < CCKai> 預告：三廳下午第一場又有抽手機活動
-13:23 -!- mode/#mopcon [+o ericpi] by ChanServ
-13:23 < kewang> 大家好，這是今天早上我在一廳的slide http://www.slideshare.net/kewang/how-to-build-a-scalable-sns-via-polling-push
-13:38 < kiang> kewang++
-13:45 < Mouther> kewang: ++
-13:49 < roliroli> Test
-13:51 < kiang> test done
-13:52 < Mouther> break!
-14:24 -!- mode/#mopcon [+o ericpi] by ChanServ
-15:07 < Mouther> 提醒大家現場有點心!
-15:09 < Amo_> 下午茶時間!!!!!!!
-15:09 < Mouther> 3F也有歐
-15:30 < Mouther> IRC 好冷清 Q_____________________________Q
-15:30 < seadog007> 對啊 不太科學w
-15:31 < uranusjr> 有沒有穩定電源還是有差吧, 很多人都不想拿電腦出來
-15:31 < seadog007> 18%
-15:32 < seadog007> 真的是電源的問題
-15:34 -!- mode/#mopcon [+o ericpi] by ChanServ
-15:35 < cckai> 各樓層都有提供充電區，可以利用
-15:39 < cckai> 三廳挺有趣的
-15:40 < Mouther> 只能待在二廳 覺得殘念 QQ
-15:42 < cckai> 創業過程燒光錢，幾乎放棄，到現在七八十人
-15:43 < cckai> 創業過程自己組裝所有辦公桌椅
-15:43 < cckai> 從學生時代就參加創業類的比賽
-15:44 < cckai> 參加比賽是種好的曝光方式
-15:44 < cckai> 有曝光就有人按讚
-15:44 < cckai> 有曝光就有行銷
-15:46 < cckai> 辦公室掛三個時區鐘，雖然只看gmt+8，但強迫自己可以走出海外
-15:47 < cckai> 在內地的站，一定得有內地DNS
-15:48 < cckai> 為了內地，網站要符合內地效果
-15:48 < cckai> 符合內地審美效果，閃閃閃
-15:49 < cckai> 因為網路速度慢，所以早期內地人會click多個站點，等他load完再看
-15:49 < cckai> 養成內地人會常會同時多開頁面
-15:53 < cckai> 內地的QR code 普及率很高，媽媽、婆婆都知
-15:55 < cckai> 內地頻寬不高，但不阻礙開發與使用者使用
-15:56 < cckai> 被抄襲是常態
-15:56 < cckai> 被抄襲抗議無效
-15:58 < cckai> 先思考有沒有被抄襲的價值
-16:06 < cckai> 多參加些活動，認識些有正能量的人
-16:12 < CCKai> 酸民是不分國界
-16:24 < CCKai> 三廳開講遊戲開發
-16:24 < CCKai> 日本人的遊戲開發經驗
-16:26 < CCKai> 三廳播放很多有趣動畫
-16:28 < Mouther> 上午聽日本人講英文已崩潰 ..
-16:31 < Mouther> 二廳已滿
-16:31 < Tako> 安安
-16:31 < Tako> 這裡有人？＠＠
-16:33 < Mouther> ._./
-16:33 < TONYYANG> :D
-16:33 < Mouther> 主持人在耍費 Zzzz
-16:33 < madarame> 今年有哏全集嗎？
-16:34 < Mouther> irc 好冷清ㄚㄚㄚㄚ
-16:34 < Mouther> BTW 有人在二廳會覺得聲音太小的嗎 ?
-16:36 -!- mode/#mopcon [+o ericpi] by ChanServ
-16:36 < CCKai> 二廳音量確認中
-16:37 <@mikimoto> Deadline!!!
-16:59 < alikefool> ping
-17:01 -!- mode/#mopcon [+o ericpi] by ChanServ
-20:09 < chusiang> 終於上來 IRC 了。
+00:00 -!- cqd_ [~cqd@Hiigara.net] has joined #mopcon
+00:02 < cqd_> ls
+00:05 < little_girl_love> 中文...
+00:06 -!- cqd_ [~cqd@Hiigara.net] has quit [Quit: leaving]
+00:06 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 272 seconds]
+00:07 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+00:07 -!- mode/#mopcon [+o ericpi] by ChanServ
+00:27 -!- ko88201 [6fff91f8@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.145.248] has joined #mopcon
+00:27 -!- ko88201 [6fff91f8@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.145.248] has quit [Client Quit]
+00:38 -!- mode/#mopcon [+CQ] by ericpi
+00:38 -!- mode/#mopcon [+o CQD] by ericpi
+00:38 -!- iopjk [7227df9a@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.223.154] has joined #mopcon
+00:39 -!- CQD changed the topic of #mopcon to: MOPCON 2014 盛大開幕中
+00:39 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has joined #mopcon
+00:39 -!- iopjk [7227df9a@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.223.154] has quit [Client Quit]
+00:40 -!- ericpi changed the topic of #mopcon to: "MOPCON 2014 - 濁水溪以南最強大行動應用科技開發者年會"
+00:40 -!- ericpi changed the topic of #mopcon to: MOPCON 2014 - 濁水溪以南最強大行動應用科技開發者年會
+00:40 -!- afutseng [24e0e22a@gateway/web/cgi-irc/kiwiirc.com/ip.36.224.226.42] has joined #mopcon
+00:40 < afutseng> 好熱鬧啊
+00:41 < derekhsu> 已經有人了？
+00:41 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has joined #mopcon
+00:41 < derekhsu> 今天加班加到10點半orz。
+00:41 <@ericpi> 阿福~~ (招手
+00:41 -!- little_girl_love [721b3b1c@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.59.28] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+00:41 < afutseng> ericpi:局長早安
+00:41 < weitsai> XDD
+00:41 <@ericpi> xDDDD
+00:41 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has quit [Client Quit]
+00:41 < afutseng> 好多眼熟的 ID
+00:42 < derekhsu> Developers' Night是什麼東西？
+00:42 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has joined #mopcon
+00:43 < weitsai> HIHI！！
+00:43 -!- www [01abbd67@gateway/web/cgi-irc/kiwiirc.com/ip.1.171.189.103] has joined #mopcon
+00:43 < weitsai> 先偷跑進來 XDD
+00:43 -!- www is now known as Guest63609
+00:44 <@ericpi> 今年 Wifi 有密碼喔
+00:44 < derekhsu> 議程表上沒有報到時間？
+00:44 < derekhsu> 密碼是什麼？
+00:44 <@ericpi> mopcon2014-4f / mopcon2014-3f 兩個 SSID, 密碼與 SSID 同
+00:44 < weitsai> 就是 SSID
+00:44 <@ericpi> (聽說是 Cisco AP 設定限制)
+00:45 <@ericpi> 報到時間 8:00~8:45, 只有在 8:45 完成報到才能參與第一場手機抽獎囉~
+00:46 -!- JIElite [76ab910c@gateway/web/cgi-irc/kiwiirc.com/ip.118.171.145.12] has joined #mopcon
+00:47 < derekhsu> 今年微軟很努力啊
+00:48 < derekhsu> 那這樣不能早上爬完山再去了
+00:51 -!- testest [7221c996@gateway/web/cgi-irc/kiwiirc.com/ip.114.33.201.150] has joined #mopcon
+00:51 < testest> ^^
+00:51 -!- testest [7221c996@gateway/web/cgi-irc/kiwiirc.com/ip.114.33.201.150] has quit [Client Quit]
+00:52 -!- ifTNT [~iftnt@host-111-184-97-73.dynamic.kbtelecom.net] has joined #mopcon
+00:54 <@ericpi> 不過明天早上是抽 ZonFone 接 ASUS Cloud 議程
+00:54 <@ericpi> 不過這次手機抽得很歡樂應該是跑不到了... xDDDD
+00:54 <@ericpi> @derekhsu 就是個跟眾大神吃吃
+00:55 <@ericpi> 喝喝的場合.. xD
+00:55 -!- JIElite [76ab910c@gateway/web/cgi-irc/kiwiirc.com/ip.118.171.145.12] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+00:55 -!- davidyen1124 [650b5fda@gateway/web/cgi-irc/kiwiirc.com/ip.101.11.95.218] has joined #mopcon
+00:55 -!- davidyen1124 [650b5fda@gateway/web/cgi-irc/kiwiirc.com/ip.101.11.95.218] has quit [Client Quit]
+01:01 < derekhsu> 嘿嘿，那要去看看囉
+01:04 -!- xgnid [8c75b51a@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.181.26] has joined #mopcon
+01:04 -!- xgnid [8c75b51a@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.181.26] has quit [Client Quit]
+01:08 < weitsai> http://jarsing.blogspot.tw/2014/10/mopcon2014-coupons.html
+01:10 -!- Qqq [7bcd9509@gateway/web/cgi-irc/kiwiirc.com/ip.123.205.149.9] has joined #mopcon
+01:11 -!- Qqq is now known as Guest97996
+01:11 < Guest97996> hello?
+01:11 -!- Guest97996 [7bcd9509@gateway/web/cgi-irc/kiwiirc.com/ip.123.205.149.9] has quit [Client Quit]
+01:11 -!- ifTNT_ [~ifTNT@host-111-184-97-73.dynamic.kbtelecom.net] has joined #mopcon
+01:12 -!- ifTNT [~iftnt@host-111-184-97-73.dynamic.kbtelecom.net] has left #mopcon []
+01:14 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+01:17 -!- ifTNT_ [~ifTNT@host-111-184-97-73.dynamic.kbtelecom.net] has quit [Quit: Leaving]
+01:18 -!- Guest63609 [01abbd67@gateway/web/cgi-irc/kiwiirc.com/ip.1.171.189.103] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+01:33 -!- iijhjkhkjh [6fffe83b@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.232.59] has joined #mopcon
+01:33 -!- iijhjkhkjh [6fffe83b@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.232.59] has quit [Client Quit]
+01:58 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+01:59 -!- afutseng [24e0e22a@gateway/web/cgi-irc/kiwiirc.com/ip.36.224.226.42] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+02:15 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 244 seconds]
+02:18 -!- kpo [01ac6f1b@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.111.27] has joined #mopcon
+02:22 <@CQD> Test
+02:31 -!- kpo [01ac6f1b@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.111.27] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+02:37 -!- afutseng [24e0e22a@gateway/web/cgi-irc/kiwiirc.com/ip.36.224.226.42] has joined #mopcon
+02:43 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+02:43 < JohnSie> @@
+02:54 -!- sjlu [3cf87b9b@gateway/web/cgi-irc/kiwiirc.com/ip.60.248.123.155] has joined #mopcon
+02:54 < sjlu> 大家安安
+03:07 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+03:07 -!- mode/#mopcon [+o ericpi] by ChanServ
+03:09 -!- sjlu [3cf87b9b@gateway/web/cgi-irc/kiwiirc.com/ip.60.248.123.155] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+03:18 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has joined #mopcon
+03:19 -!- Luxun [uid13676@gateway/web/irccloud.com/x-urveoryqbsyigvpj] has joined #mopcon
+03:20 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has quit [Client Quit]
+03:22 -!- kpo [01ac6f1b@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.111.27] has joined #mopcon
+03:47 -!- kpo [01ac6f1b@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.111.27] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+04:15 -!- HsTS [722f0b60@gateway/web/cgi-irc/kiwiirc.com/ip.114.47.11.96] has joined #mopcon
+04:15 -!- HsTS [722f0b60@gateway/web/cgi-irc/kiwiirc.com/ip.114.47.11.96] has quit [Client Quit]
+04:21 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+04:21 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+04:22 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 265 seconds]
+04:23 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Client Quit]
+04:23 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+04:24 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Client Quit]
+04:26 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+04:27 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Client Quit]
+04:27 <@mikimoto> 早安，看起來很多人都蠻早起的嗎，工作人員嗎 XD
+04:30 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+04:31 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Client Quit]
+04:35 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+04:36 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Client Quit]
+04:38 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+04:39 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Client Quit]
+04:43 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has joined #mopcon
+04:54 -!- afutseng [24e0e22a@gateway/web/cgi-irc/kiwiirc.com/ip.36.224.226.42] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+05:07 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+05:07 -!- mode/#mopcon [+o ericpi] by ChanServ
+05:07 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has joined #mopcon
+05:08 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has quit [Client Quit]
+05:33 -!- Luxun [uid13676@gateway/web/irccloud.com/x-urveoryqbsyigvpj] has quit [Quit: Connection closed for inactivity]
+05:48 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has joined #mopcon
+05:52 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has quit [Client Quit]
+06:10 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 272 seconds]
+06:16 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has joined #mopcon
+06:18 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has quit [Client Quit]
+06:45 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has joined #mopcon
+06:46 -!- ericpi [~eric@60-248-122-206.HINET-IP.hinet.net] has joined #mopcon
+06:46 -!- mode/#mopcon [+o ericpi] by ChanServ
+06:47 -!- weitsai [01acbafb@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.186.251] has quit [Client Quit]
+06:47 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+06:48 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Client Quit]
+06:51 -!- ericpi [~eric@60-248-122-206.HINET-IP.hinet.net] has quit [Ping timeout: 245 seconds]
+06:56 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has joined #mopcon
+06:57 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has quit [Client Quit]
+06:59 -!- taipeiwu [~AndChat69@101.11.11.26] has joined #mopcon
+07:17 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has joined #mopcon
+07:24 -!- wbs_ [8c7467ce@gateway/web/freenode/ip.140.116.103.206] has joined #mopcon
+07:25 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+07:30 -!- ifTNT_m [~ifTNT_3@host-111-184-97-73.dynamic.kbtelecom.net] has joined #mopcon
+07:36 -!- ifTNT_m [~ifTNT_3@host-111-184-97-73.dynamic.kbtelecom.net] has quit [Read error: Connection reset by peer]
+07:46 -!- AndChat91056 [~AndChat91@223-139-37-235.EMOME-IP.hinet.net] has joined #mopcon
+08:20 < Andox> 早~
+08:23 -!- derekhsu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:23 < derekhsu> 好早
+08:40 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+08:41 -!- mode/#mopcon [+o ericpi] by ChanServ
+08:44 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+08:50 -!- mao [~mao@li401-245.members.linode.com] has joined #mopcon
+08:53 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+08:53 -!- opjlmi [~opjlmi@122.146.229.157] has joined #mopcon
+08:54 < opjlmi> 有聯播嗎 .....
+08:54 -!- opjlmi [~opjlmi@122.146.229.157] has quit [Client Quit]
+08:55 -!- opjlmi [~opjlmi@122.146.229.157] has joined #mopcon
+08:57 -!- ItsEddy [~ItsEddy_@223-138-7-82.EMOME-IP.hinet.net] has joined #mopcon
+08:57 -!- jackraken [~jackraken@223-142-33-215.EMOME-IP.hinet.net] has joined #mopcon
+08:58 < derekhsu> 今天有午餐嗎？要自己訂？
+08:59 -!- Mouther [~mouthbrot@merry.ee.ncku.edu.tw] has joined #mopcon
+08:59 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Ping timeout: 240 seconds]
+08:59 < Mouther> 早安
+09:00 -!- opjlmi [~opjlmi@122.146.229.157] has quit [Ping timeout: 272 seconds]
+09:00 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+09:01 -!- madarame [uid28051@gateway/web/irccloud.com/x-wztgrlopbtxanrzg] has joined #mopcon
+09:02 -!- lightshadow [df8e2fc7@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.47.199] has joined #mopcon
+09:03 -!- lightshadow [df8e2fc7@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.47.199] has left #mopcon []
+09:04 -!- lightshadow [df8e2fc7@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.47.199] has joined #mopcon
+09:05 -!- Mouther [~mouthbrot@merry.ee.ncku.edu.tw] has quit [Quit: leaving]
+09:05 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+09:06 -!- swem_ [uid27646@gateway/web/irccloud.com/x-rtspjmowvkflyztz] has quit [Quit: Connection closed for inactivity]
+09:07 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has joined #mopcon
+09:09 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:10 -!- ItsEddy [~ItsEddy_@223-138-7-82.EMOME-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+09:11 -!- Luxun [uid13676@gateway/web/irccloud.com/x-hvmernqwgapqdsce] has joined #mopcon
+09:11 < zeroplex> 早安
+09:12 -!- ItsEddy [~ItsEddy_@223-138-253-9.EMOME-IP.hinet.net] has joined #mopcon
+09:12 < Mouther> 學長早 Orz....
+09:13 -!- DennyHuang [~denny@140.129.25.123] has joined #mopcon
+09:13 -!- winter_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+09:18 -!- YuCheng [uid28221@gateway/web/irccloud.com/x-kwktyedijaagmthh] has joined #mopcon
+09:18 -!- linroex [~linroex@122.146.229.149] has joined #mopcon
+09:18 -!- zeroplex___ [uid15369@gateway/web/irccloud.com/x-legdbmsvulsfydmk] has joined #mopcon
+09:19 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+09:20 -!- wbs_ [8c7467ce@gateway/web/freenode/ip.140.116.103.206] has quit [Quit: Page closed]
+09:20 -!- wbs_ [8c7467ce@gateway/web/freenode/ip.140.116.103.206] has joined #mopcon
+09:20 -!- ItsEddy [~ItsEddy_@223-138-253-9.EMOME-IP.hinet.net] has quit [Ping timeout: 245 seconds]
+09:20 -!- liao [72270118@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.1.24] has joined #mopcon
+09:22 -!- Dotto [7513f57e@gateway/web/cgi-irc/kiwiirc.com/ip.117.19.245.126] has joined #mopcon
+09:22 -!- liao [72270118@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.1.24] has quit [Client Quit]
+09:22 -!- Neson [~Neson@dex.tw] has joined #mopcon
+09:23 -!- andytwmvp [~andytwmvp@122.146.229.149] has joined #mopcon
+09:23 < taipeiwu> 大家早餐
+09:23 < taipeiwu> 早安
+09:23 -!- SamHung [df8e8afe@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.138.254] has joined #mopcon
+09:24 -!- winter_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Ping timeout: 246 seconds]
+09:24 -!- Meisheep [df8bd357@gateway/web/cgi-irc/kiwiirc.com/ip.223.139.211.87] has joined #mopcon
+09:24 -!- SamHung [df8e8afe@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.138.254] has quit [Client Quit]
+09:24 -!- ItsEddy [~ItsEddy_@122.146.229.157] has joined #mopcon
+09:25 < linroex> 早～
+09:25 -!- Meisheep [df8bd357@gateway/web/cgi-irc/kiwiirc.com/ip.223.139.211.87] has quit [Client Quit]
+09:25 -!- Dotto [7513f57e@gateway/web/cgi-irc/kiwiirc.com/ip.117.19.245.126] has quit [Client Quit]
+09:25 -!- Meisheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:26 -!- kewang [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:26 -!- ItsEddy [~ItsEddy_@122.146.229.157] has quit [Read error: Connection reset by peer]
+09:26 -!- ItsEddy [~ItsEddy_@122.146.229.157] has joined #mopcon
+09:26 -!- hrhtrh [722a1ddd@gateway/web/cgi-irc/kiwiirc.com/ip.114.42.29.221] has joined #mopcon
+09:27 -!- hrhtrh [722a1ddd@gateway/web/cgi-irc/kiwiirc.com/ip.114.42.29.221] has quit [Client Quit]
+09:28 -!- kewang [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+09:30 -!- jackraken [~jackraken@223-142-33-215.EMOME-IP.hinet.net] has quit [Quit: Bye]
+09:30 -!- jackraken [~jackraken@223-142-33-215.EMOME-IP.hinet.net] has joined #mopcon
+09:30 -!- sjlu [df8ec768@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.199.104] has joined #mopcon
+09:31 < jserv--> 提醒大家 MOPCON 有共筆: https://mopcon.hackpad.com/MOPCON-2014-Day1-Sessions-g4tcQPfhdDT
+09:31 < jserv--> 歡迎更新
+09:32 < Mouther> 更新越頻繁 越有機會拿到 ASUS 手機 !
+09:33 -!- Yanagi [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+09:34 < linroex> 有人知道哪裡可以充電嘛QQ
+09:35 -!- sjlu [df8ec768@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.199.104] has quit [Client Quit]
+09:35 < YuCheng> 服務台好像可以充
+09:36 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+09:36 -!- mode/#mopcon [+o ericpi] by ChanServ
+09:36 -!- tsaiid [~tsaiid@122.146.229.149] has joined #mopcon
+09:37 < linroex> 嗯嗯謝囉
+09:37 -!- Yanagi [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Ping timeout: 246 seconds]
+09:38 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+09:40 -!- Meisheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:41 <@ericpi> 請注意，我們只提供300份便當給先到的會眾，如您沒領到餐券，請務必於10:00前在報到處右側訂購午餐。
+09:41 <@ericpi> 另四樓服務台備有鹽埕小吃資訊，歡迎索取。
+09:41 -!- Kura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has joined #mopcon
+09:41 -!- Kura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has quit [Client Quit]
+09:42 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:42 < derekhsu> 哇
+09:42 < derekhsu> 我沒有領到餐卷
+09:42 -!- Kura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has joined #mopcon
+09:42 -!- linroex [~linroex@122.146.229.149] has quit [Remote host closed the connection]
+09:43 -!- tsaiid [~tsaiid@122.146.229.149] has quit [Quit: tsaiid]
+09:43 -!- Kura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has quit [Client Quit]
+09:43 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:43 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has joined #mopcon
+09:44 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has left #mopcon []
+09:44 -!- sjlu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:44 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+09:45 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has joined #mopcon
+09:46 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+09:46 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has left #mopcon []
+09:46 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+09:46 -!- andytwmvp [~andytwmvp@122.146.229.149] has quit [Ping timeout: 260 seconds]
+09:47 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:48 -!- hello [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:48 -!- linroex [~linroex@122.146.229.157] has joined #mopcon
+09:48 -!- hello [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+09:51 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:51 -!- polohuang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:51 -!- amo [uid38455@gateway/web/irccloud.com/x-tzycynbzzpecwsau] has joined #mopcon
+09:52 -!- jielite [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:53 -!- Murphy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:54 -!- shakalaca [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:55 -!- janelin [~chatzilla@122.146.229.149] has joined #mopcon
+09:55 -!- anivek [~anivek@122.146.229.157] has joined #mopcon
+09:55 < janelin> 想問一下hackpad網址在哪 找不到QQ
+09:56 -!- test_ [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+09:56 < keith222> 手冊裡有喔
+09:56 < test_> test by chusiang
+09:56 < keith222> https://mopcon.hackpad.com/MOPCON-2014-Day1-Sessions-g4tcQPfhdDT
+09:56 -!- qwebirc97794 [42f9526b@gateway/web/freenode/ip.66.249.82.107] has joined #mopcon
+09:57 < janelin> 感謝!
+09:57 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+09:57 -!- O______________O [uid16284@gateway/web/irccloud.com/x-phtmqbtpamcuudmp] has joined #mopcon
+09:57 -!- jackraken [~jackraken@223-142-33-215.EMOME-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+09:58 -!- robinliks [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:58 < O______________O> Qwert
+09:58 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:58 -!- nick2 [7bc2ed7e@gateway/web/cgi-irc/kiwiirc.com/ip.123.194.237.126] has joined #mopcon
+09:58 -!- linroex [~linroex@122.146.229.157] has quit []
+09:59 -!- mark________ [df8a8817@gateway/web/freenode/ip.223.138.136.23] has joined #mopcon
+09:59 -!- cckai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+09:59 < test_> for test
+10:00 < robinliks> 做App要賺錢，只有遊戲有機會 :(
+10:01 < YuCheng> Wifi gg了
+10:01 -!- fejiow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:01 -!- WanJen [uid44305@gateway/web/irccloud.com/x-ejoaqtsrbjrcvrag] has joined #mopcon
+10:02 -!- fejiow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:02 -!- test_ [7a92e595@gateway/web/freenode/ip.122.146.229.149] has left #mopcon []
+10:02 -!- robinliks [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+10:03 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:04 -!- anivek [~anivek@122.146.229.157] has quit [Ping timeout: 244 seconds]
+10:04 -!- xtony77 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:05 -!- sjlu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:05 -!- jhih [~jhih@122.146.229.157] has joined #mopcon
+10:06 -!- xtony77 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:06 -!- jhih is now known as xtony77
+10:06 -!- cckai_ [6f52f161@gateway/web/freenode/ip.111.82.241.97] has joined #mopcon
+10:07 -!- fe234sf [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:07 -!- cckai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+10:07 -!- aaaaaaaa [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:08 -!- CCKai [6f52f161@gateway/web/cgi-irc/kiwiirc.com/ip.111.82.241.97] has joined #mopcon
+10:09 < CCKai> test
+10:10 -!- aaaaaaaa [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+10:10 -!- aaaaaaaa [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:11 -!- Holidaybear [~AndChat36@223-142-175-157.EMOME-IP.hinet.net] has joined #mopcon
+10:13 -!- fe234sf [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has left #mopcon []
+10:13 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+10:13 -!- mode/#mopcon [+o ericpi] by ChanServ
+10:14 < WanJen> Hello
+10:15 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:17 -!- littlesix [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:17 -!- aaaaaaaa [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:17 -!- nick2 [7bc2ed7e@gateway/web/cgi-irc/kiwiirc.com/ip.123.194.237.126] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:17 -!- CWHsiao [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:18 -!- shin [7223de07@gateway/web/freenode/ip.114.35.222.7] has joined #mopcon
+10:19 -!- xtony77 [~jhih@122.146.229.157] has quit [Remote host closed the connection]
+10:19 -!- darkx [~x4r@unaffiliated/darkx] has joined #mopcon
+10:19 -!- shin [7223de07@gateway/web/freenode/ip.114.35.222.7] has quit [Client Quit]
+10:19 < darkx> hi all
+10:19 -!- xtony77 [~jhih@122.146.229.157] has joined #mopcon
+10:20 -!- robinliks [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:21 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+10:21 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+10:22 -!- pangshie [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+10:23 -!- CWHsiao [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:23 -!- jielite [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:24 -!- qwebirc2363 [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+10:24 -!- qwebirc97794 [42f9526b@gateway/web/freenode/ip.66.249.82.107] has quit [Ping timeout: 246 seconds]
+10:24 -!- jielite [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:24 -!- littlesix [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:24 -!- ifTNT_ [~ifTNT@122.146.229.157] has joined #mopcon
+10:24 -!- robinliks [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+10:24 -!- carrl [~carl@61-64-164-206-adsl-tai.STATIC.so-net.net.tw] has joined #mopcon
+10:24 -!- blishs [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:25 -!- ifTNT_ is now known as ifTNT
+10:26 -!- RexHuang [7227034c@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.3.76] has joined #mopcon
+10:27 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+10:27 -!- CWHsiao [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:27 -!- robinliks [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:27 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+10:27 -!- RexHuang [7227034c@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.3.76] has left #mopcon []
+10:27 -!- HearSilent [~androirc@122.146.229.157] has joined #mopcon
+10:28 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+10:28 -!- mode/#mopcon [+o ericpi] by ChanServ
+10:28 -!- qwebirc2363 [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Ping timeout: 246 seconds]
+10:28 -!- robinliks [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+10:29 -!- HearSilent [~androirc@122.146.229.157] has quit [Remote host closed the connection]
+10:29 -!- FrankLin [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:29 -!- HearSilent [~androirc@122.146.229.157] has joined #mopcon
+10:30 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+10:30 -!- FrankLin [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:30 -!- apple [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+10:30 -!- xtony77 [~jhih@122.146.229.157] has quit [Remote host closed the connection]
+10:30 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 260 seconds]
+10:30 -!- anivek [~anivek@223-138-3-80.EMOME-IP.hinet.net] has joined #mopcon
+10:31 -!- apple is now known as Guest75638
+10:31 -!- Kithkanan [3b7f1f47@gateway/web/freenode/ip.59.127.31.71] has joined #mopcon
+10:31 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has joined #mopcon
+10:31 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+10:32 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:32 -!- lightshadow [df8e2fc7@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.47.199] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:32 -!- lightshadow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:32 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:32 < cckai_> 遊戲抄襲也會成功
+10:32 -!- carllee [~androirc@122.146.229.149] has joined #mopcon
+10:33 < cckai_> 只要活得久，未必要有創新的遊戲app
+10:33 -!- CCKai [6f52f161@gateway/web/cgi-irc/kiwiirc.com/ip.111.82.241.97] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:33 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has quit [Client Quit]
+10:33 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has joined #mopcon
+10:34 -!- syu [~syu@223-141-130-100.EMOME-IP.hinet.net] has joined #mopcon
+10:34 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+10:34 -!- ifTNT [~ifTNT@122.146.229.157] has quit [Ping timeout: 265 seconds]
+10:34 -!- anivek [~anivek@223-138-3-80.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+10:34 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has quit [Client Quit]
+10:34 < keith222> 例如 某神x之塔嗎（誤）xd
+10:35 -!- janelin [~chatzilla@122.146.229.149] has quit [Remote host closed the connection]
+10:35 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+10:35 -!- lightshadow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:35 -!- jielite [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:35 -!- blishs [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:35 < keith222> btw 二廳這邊的mic 會有雜訊現象 可能要麻煩工作人員之後來查看一下
+10:35 -!- CWHsiao [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:36 -!- lightshadow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:36 -!- shakalaca [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:36 -!- Guest75638 [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+10:37 -!- pangshie [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Ping timeout: 246 seconds]
+10:37 -!- syu [~syu@223-141-130-100.EMOME-IP.hinet.net] has quit [Client Quit]
+10:37 -!- HearSilent [~androirc@122.146.229.157] has quit [Remote host closed the connection]
+10:37 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:38 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+10:38 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has joined #mopcon
+10:38 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+10:38 -!- Murphy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:38 -!- arukkura [3cfb3523@gateway/web/cgi-irc/kiwiirc.com/ip.60.251.53.35] has quit [Client Quit]
+10:39 < taipeiwu> 4廳這也可以充手機唷
+10:39 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:39 -!- Holidaybear [~AndChat36@223-142-175-157.EMOME-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+10:39 -!- Leonard [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:40 -!- polohuang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:40 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+10:40 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+10:41 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:41 -!- Amo_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+10:41 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:42 -!- andytwmvp [~andytwmvp@122.146.229.149] has joined #mopcon
+10:43 -!- Leonard [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:44 -!- sjlu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:44 -!- carllee [~androirc@122.146.229.149] has quit [Read error: Connection reset by peer]
+10:44 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:44 -!- ifTNT [~ifTNT@122.146.229.157] has joined #mopcon
+10:45 -!- winter_ [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+10:45 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+10:46 -!- sobonbon [~sobonbon@122.146.229.157] has quit []
+10:47 -!- CWHsiao [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:47 -!- CWHsiao [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+10:47 -!- lightshadow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:48 -!- taiex [01acf422@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.244.34] has joined #mopcon
+10:49 -!- derekhsu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:49 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has joined #mopcon
+10:49 < zeroplex> Jeol on Software - 每個軟體開發者都絕對一定要會的Unicode及字元集必備知識
+10:49 < zeroplex> http://local.joelonsoftware.com/wiki/The_Joel_on_Software_Translation_Project:%E8%90%AC%E5%9C%8B%E7%A2%BC
+10:50 -!- Poy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:50 -!- taiex [01acf422@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.244.34] has quit [Client Quit]
+10:50 -!- Kimxinfio [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:51 -!- MouseMs [sid30039@gateway/web/irccloud.com/x-mtznmepihpbtlyye] has joined #mopcon
+10:51 -!- Kimxinfio [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:51 < MouseMs> workshop 場地現在是 gitcafe 的強哥的議程
+10:52 -!- six [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:53 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:53 -!- Kimxinfo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:53 -!- blishs [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:53 -!- six [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:53 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:54 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:56 -!- blishs [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:56 -!- ItsEddy [~ItsEddy_@122.146.229.157] has quit [Ping timeout: 255 seconds]
+10:56 -!- winter_ghost [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:56 -!- kevinkao [~kevinkao@223-138-158-102.EMOME-IP.hinet.net] has joined #mopcon
+10:56 -!- winter_ghost [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has left #mopcon []
+10:56 -!- ItsEddy [~ItsEddy_@122.146.229.157] has joined #mopcon
+10:58 -!- Kimxinfo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:58 -!- mtchang [7afe2687@gateway/web/freenode/ip.122.254.38.135] has joined #mopcon
+10:59 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:59 -!- lemoon17 [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+10:59 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:00 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:01 -!- jjeee [df8eb34f@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.179.79] has joined #mopcon
+11:01 -!- jjeee [df8eb34f@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.179.79] has quit [Client Quit]
+11:02 -!- xtony77 [~jhih@122.146.229.157] has joined #mopcon
+11:02 -!- JimmyWu [650ce93b@gateway/web/cgi-irc/kiwiirc.com/ip.101.12.233.59] has joined #mopcon
+11:02 -!- water [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:02 -!- ifTNT [~ifTNT@122.146.229.157] has quit [Ping timeout: 265 seconds]
+11:02 -!- water is now known as Guest61538
+11:03 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+11:03 -!- mode/#mopcon [+o ericpi] by ChanServ
+11:03 -!- linroex [~linroex@122.146.229.157] has joined #mopcon
+11:03 -!- winter_ [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+11:04 < zeroplex> [R1]講師講到 Java 嘆了一口氣 XD
+11:04 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:04 -!- syu [~syu@122.146.229.157] has joined #mopcon
+11:04 < linroex> 請問有人知道Lighting Talk何時可以報名嘛XD
+11:04 -!- anivek [~anivek@122.146.229.157] has joined #mopcon
+11:05 < syu> 二廳麥克風很爛誒
+11:05 -!- xgnid [df8eb8d9@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.184.217] has joined #mopcon
+11:05 -!- carllee [~AndChat47@122.146.229.149] has joined #mopcon
+11:05 -!- DaBeat [df8ebace@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.186.206] has joined #mopcon
+11:05 -!- jimbochi47 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:05 -!- xgnid [df8eb8d9@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.184.217] has quit [Client Quit]
+11:06 -!- jimbochi47 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:06 -!- xgnid [df8eb8d9@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.184.217] has joined #mopcon
+11:06 -!- Jack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:07 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:07 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:07 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:07 -!- DaBeat [df8ebace@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.186.206] has quit [Client Quit]
+11:07 -!- Jack is now known as Guest84614
+11:07 -!- xgnid [df8eb8d9@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.184.217] has quit [Client Quit]
+11:07 -!- Guest84614 is now known as poboxjack
+11:08 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:08 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:08 < Poy> 一廳後方應該會覺得在聽兩場演講 XDD
+11:09 < cckai_> 麥克風有人處理中
+11:09 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:09 -!- Kithkanan [3b7f1f47@gateway/web/freenode/ip.59.127.31.71] has quit [Quit: Page closed]
+11:09 < JimmyWu> 現在好多了
+11:09 < JohnSie> 一次聽兩場有賺到的感覺阿~~ :p
+11:09 < JohnSie> 呼呼
+11:10 -!- ifTNT [~ifTNT@122.146.229.157] has joined #mopcon
+11:10 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:10 < Poy> 嗯嗯 ^_^
+11:10 -!- mark________ [df8a8817@gateway/web/freenode/ip.223.138.136.23] has quit [Ping timeout: 246 seconds]
+11:10 < cckai_> 哈~有協調音量了，有改善了吧！
+11:10 < Poy> 有喔！
+11:11 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:11 -!- NickTseng [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:11 < Poy> 辛苦場控人員了 =)
+11:11 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:12 -!- kojilin [~kojilin@122-116-29-5.HINET-IP.hinet.net] has joined #mopcon
+11:13 -!- AndChat|479316 [~AndChat47@122.146.229.157] has joined #mopcon
+11:14 -!- ifTNT [~ifTNT@122.146.229.157] has quit [Read error: Connection reset by peer]
+11:15 -!- carllee [~AndChat47@122.146.229.149] has quit [Ping timeout: 244 seconds]
+11:15 -!- Lingo [~Lingo@223-143-77-226.EMOME-IP.hinet.net] has joined #mopcon
+11:16 -!- Lingo is now known as WilliamTai
+11:16 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:17 -!- Guest61538 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:17 -!- sjlu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:18 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:18 -!- AmoChen [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:18 -!- Amo_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Quit: Page closed]
+11:19 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 265 seconds]
+11:19 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+11:20 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 244 seconds]
+11:20 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:20 -!- poboxjack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:21 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:21 -!- JimmyWu [650ce93b@gateway/web/cgi-irc/kiwiirc.com/ip.101.12.233.59] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:21 -!- NickTseng [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:21 -!- AmoChen [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:22 -!- Kimxinfo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:22 -!- Kimxinfo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:22 -!- Poy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:22 -!- kevinkao [~kevinkao@223-138-158-102.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+11:22 -!- lychee [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:22 -!- WilliamTai [~Lingo@223-143-77-226.EMOME-IP.hinet.net] has quit [Quit: Lingo: www.lingoirc.com]
+11:24 -!- anivek [~anivek@122.146.229.157] has quit [Ping timeout: 256 seconds]
+11:24 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:25 -!- andytwmvp [~andytwmvp@122.146.229.149] has quit [Remote host closed the connection]
+11:25 -!- xtony77 [~jhih@122.146.229.157] has quit [Remote host closed the connection]
+11:25 -!- tsaiid [~tsaiid@122.146.229.157] has joined #mopcon
+11:25 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:26 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+11:26 -!- lemoon17 [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+11:27 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:27 -!- shakalaca [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:28 -!- kevinkao [~kevinkao@223-138-158-109.EMOME-IP.hinet.net] has joined #mopcon
+11:29 -!- Poy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:30 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:30 -!- syu [~syu@122.146.229.157] has quit [Quit: syu]
+11:30 -!- polohuang [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:31 -!- NickTseng [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:31 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:31 -!- linroex [~linroex@122.146.229.157] has quit [Remote host closed the connection]
+11:32 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+11:32 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:32 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+11:33 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+11:33 < andytwmvp> R2大爆炸
+11:33 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:34 -!- janelin [~chatzilla@122.146.229.149] has joined #mopcon
+11:34 -!- serway [df8a1992@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.25.146] has joined #mopcon
+11:34 -!- mikumiku [dd78076b@gateway/web/cgi-irc/kiwiirc.com/ip.221.120.7.107] has joined #mopcon
+11:35 < cckai_> 三廳主題：https://livehouse.in/
+11:35 -!- cph [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:36 -!- kevinkao [~kevinkao@223-138-158-109.EMOME-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+11:36 -!- ifTNT [~ifTNT@122.146.229.157] has joined #mopcon
+11:36 -!- cph [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:37 -!- mikumiku [dd78076b@gateway/web/cgi-irc/kiwiirc.com/ip.221.120.7.107] has quit [Client Quit]
+11:38 -!- JimmyWu [650ce93b@gateway/web/cgi-irc/kiwiirc.com/ip.101.12.233.59] has joined #mopcon
+11:38 -!- anivek [~anivek@122.146.229.157] has joined #mopcon
+11:38 < JimmyWu> 有錢的D繼承了有錢的老爸  有錢的老爸繼承了KMT
+11:38 < JimmyWu> 筆記
+11:39 -!- poboxjack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:39 < Poy> XD
+11:40 < andytwmvp> 會場ap好亂＠＠
+11:40 -!- shakalaca [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:41 < cckai_> 有大會手冊可以參考，或是找服務台幫忙
+11:41 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+11:42 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Client Quit]
+11:42 < cckai_> 會場ap可到mopcon紡絲頁內有說明
+11:44 -!- serway [df8a1992@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.25.146] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:44 -!- serway [df8a1992@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.25.146] has joined #mopcon
+11:44 -!- miku [~AndChat88@221-120-7-107.EMOME-IP.hinet.net] has joined #mopcon
+11:45 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:45 < andytwmvp> 喔喔，我是指私人ap太多都蓋掉了＠＠
+11:46 -!- JohnSie [7223dab6@gateway/web/cgi-irc/kiwiirc.com/ip.114.35.218.182] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:47 -!- serway [df8a1992@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.25.146] has quit [Client Quit]
+11:47 -!- poboxjack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:47 -!- NickTseng [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:47 < Poy> 頗多 ~~
+11:47 -!- polohuang [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:48 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:49 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:49 -!- poboxjack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:50 -!- fridy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:52 -!- mtchang [7afe2687@gateway/web/freenode/ip.122.254.38.135] has quit [Quit: Page closed]
+11:55 -!- anivek [~anivek@122.146.229.157] has quit [Ping timeout: 265 seconds]
+11:57 -!- anivek [~anivek@122.146.229.157] has joined #mopcon
+11:57 -!- JimmyWu [650ce93b@gateway/web/cgi-irc/kiwiirc.com/ip.101.12.233.59] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:58 -!- Poy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:00 -!- serway [df8a1992@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.25.146] has joined #mopcon
+12:00 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+12:01 -!- serway [df8a1992@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.25.146] has quit [Client Quit]
+12:03 < andytwmvp> [R2] 不是每個學校都會放jserv給你用
+12:03 -!- Johnny [b4d91657@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.22.87] has joined #mopcon
+12:03 < Johnny> hello
+12:03 -!- Johnny is now known as Guest65162
+12:04 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 244 seconds]
+12:05 -!- Guest65162 [b4d91657@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.22.87] has quit [Client Quit]
+12:05 -!- AndChat|479316 [~AndChat47@122.146.229.157] has quit [Ping timeout: 265 seconds]
+12:07 -!- UnciaX [af60d8a4@gateway/web/cgi-irc/kiwiirc.com/ip.175.96.216.164] has joined #mopcon
+12:08 < zeroplex___> R1  傳輸資料量小就用 GET，所以傳送帳號密碼就用GET 吧 (誤)
+12:08 < cckai_> 馬上要抽獎了，有手機
+12:09 -!- lychee [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:09 -!- anivek [~anivek@122.146.229.157] has quit [Ping timeout: 260 seconds]
+12:09 -!- ifTNT [~ifTNT@122.146.229.157] has quit [Remote host closed the connection]
+12:10 -!- UnciaX [af60d8a4@gateway/web/cgi-irc/kiwiirc.com/ip.175.96.216.164] has quit [Client Quit]
+12:11 -!- apolkingg8 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+12:12 -!- apolkingg8 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+12:13 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Ping timeout: 244 seconds]
+12:14 -!- tsaiid [~tsaiid@122.146.229.157] has quit [Quit: tsaiid]
+12:14 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:15 -!- janelin [~chatzilla@122.146.229.149] has quit [Quit: ChatZilla 0.9.91 [Firefox 33.0/20141011015303]]
+12:15 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:15 -!- poboxjack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:15 < cckai_> 三廳抽獎中
+12:15 < cckai_> 華碩手機一支
+12:16 -!- fridy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:16 -!- apolkingg8 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+12:17 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+12:18 -!- ItsEddy [~ItsEddy_@122.146.229.157] has quit [Read error: Connection reset by peer]
+12:18 -!- apolkingg8 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+12:19 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Client Quit]
+12:23 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:25 -!- WanJen [uid44305@gateway/web/irccloud.com/x-ejoaqtsrbjrcvrag] has quit [Quit: Connection closed for inactivity]
+12:26 -!- kojilin [~kojilin@122-116-29-5.HINET-IP.hinet.net] has quit [Remote host closed the connection]
+12:26 -!- cckai_ [6f52f161@gateway/web/freenode/ip.111.82.241.97] has quit [Ping timeout: 246 seconds]
+12:28 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+12:28 -!- Denir [~Denir@221-120-4-163.EMOME-IP.hinet.net] has joined #mopcon
+12:29 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Client Quit]
+12:30 -!- brook [3cf541b2@gateway/web/cgi-irc/kiwiirc.com/ip.60.245.65.178] has joined #mopcon
+12:33 -!- brook [3cf541b2@gateway/web/cgi-irc/kiwiirc.com/ip.60.245.65.178] has left #mopcon []
+12:35 -!- uranusx86 [6a011773@gateway/web/cgi-irc/kiwiirc.com/ip.106.1.23.115] has joined #mopcon
+12:37 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has joined #mopcon
+12:37 -!- mode/#mopcon [+o ericpi] by ChanServ
+12:43 -!- fridy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:43 -!- AmoChen [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:43 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+12:44 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+12:44 < sobonbon> 不好意思 請問一下ICCK的wifi可以使用嗎？
+12:44 -!- AmoChen [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+12:45 -!- Amo_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+12:46 -!- fridy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+12:47 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+12:47 < Mouther> wifi 悲劇.....
+12:48 -!- fridy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:48 -!- kiang [uid25350@gateway/web/irccloud.com/x-gekkeikkxeeiikud] has joined #mopcon
+12:48 < kiang> hello world
+12:49 < Mouther> 是 kiang 大!!! (( Orz...
+12:50 < kiang> -.-||
+12:50 -!- UnciaX [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:50 < kiang> 女兒睡覺偷偷溜上來，現場網路不順？好像沒有歡樂感覺 XD
+12:52 < Mouther> 台灣的conference wifi 應該都沒好過 QQ
+12:52 -!- Timo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:52 < kiang> 恩，受限場地吧，目前大概只有中研院場地最佛心了 XD
+12:53 -!- Timo is now known as Guest88757
+12:53 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+12:54 -!- UnciaX [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+12:54 -!- UnciaX [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+12:55 -!- lafin [uid44779@gateway/web/irccloud.com/x-izrruxowgyblhsep] has joined #mopcon
+12:56 -!- Guest88757 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+12:56 -!- uranusx86 [6a011773@gateway/web/cgi-irc/kiwiirc.com/ip.106.1.23.115] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:57 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has quit [Ping timeout: 265 seconds]
+12:58 -!- UnciaX [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+12:58 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has joined #mopcon
+12:58 -!- mode/#mopcon [+o ericpi] by ChanServ
+12:59 -!- ItsEddy [~ItsEddy_@223-138-106-84.EMOME-IP.hinet.net] has joined #mopcon
+13:00 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+13:01 < CCKai> 預告：三廳下午第一場又有抽手機活動
+13:01 -!- tsaiid [~tsaiid@122.146.229.157] has joined #mopcon
+13:05 -!- MONEA [8c8128aa@gateway/web/cgi-irc/kiwiirc.com/ip.140.129.40.170] has joined #mopcon
+13:06 -!- ItsEddy [~ItsEddy_@223-138-106-84.EMOME-IP.hinet.net] has quit [Ping timeout: 245 seconds]
+13:06 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has joined #mopcon
+13:07 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:07 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Read error: Connection reset by peer]
+13:07 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+13:07 -!- qwebirc381802740 [df8e7cfd@gateway/web/freenode/ip.223.142.124.253] has joined #mopcon
+13:07 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+13:08 -!- qwebirc381802740 [df8e7cfd@gateway/web/freenode/ip.223.142.124.253] has quit [Client Quit]
+13:08 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:08 -!- MONEA [8c8128aa@gateway/web/cgi-irc/kiwiirc.com/ip.140.129.40.170] has quit [Client Quit]
+13:09 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has joined #mopcon
+13:10 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has quit [Client Quit]
+13:10 -!- ian [31d80541@gateway/web/cgi-irc/kiwiirc.com/ip.49.216.5.65] has joined #mopcon
+13:11 -!- ian is now known as Guest42368
+13:11 -!- chiang [df8f637c@gateway/web/cgi-irc/kiwiirc.com/ip.223.143.99.124] has joined #mopcon
+13:12 -!- chiang [df8f637c@gateway/web/cgi-irc/kiwiirc.com/ip.223.143.99.124] has left #mopcon []
+13:12 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+13:12 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:12 -!- vincent [df8f8b96@gateway/web/cgi-irc/kiwiirc.com/ip.223.143.139.150] has joined #mopcon
+13:12 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has joined #mopcon
+13:12 -!- vincent [df8f8b96@gateway/web/cgi-irc/kiwiirc.com/ip.223.143.139.150] has quit [Client Quit]
+13:13 -!- George1917 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:14 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+13:15 -!- f323eed [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:17 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has quit [Ping timeout: 255 seconds]
+13:18 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+13:18 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Remote host closed the connection]
+13:18 -!- WilliamTai [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+13:19 -!- xtony77 [~jhih@122.146.229.149] has joined #mopcon
+13:19 -!- kvex [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:20 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+13:21 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has joined #mopcon
+13:21 -!- mode/#mopcon [+o ericpi] by ChanServ
+13:22 < kewang> 大家好，這是今天早上我在一廳的slide http://www.slideshare.net/kewang/how-to-build-a-scalable-sns-via-polling-push
+13:22 -!- FrankLin [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:22 -!- FrankLin [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:22 -!- xtony77 [~jhih@122.146.229.149] has quit [Remote host closed the connection]
+13:22 -!- Guest42368 [31d80541@gateway/web/cgi-irc/kiwiirc.com/ip.49.216.5.65] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:23 -!- kvex [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:24 -!- sobonbon [~sobonbon@122.146.229.157] has quit []
+13:27 -!- tsaikd1 [~tsaikd@114-39-211-236.dynamic.hinet.net] has joined #mopcon
+13:29 -!- Guest69011 [uid16067@gateway/web/irccloud.com/x-yviavbavdasanhrg] has joined #mopcon
+13:30 -!- HearSilent [df8e0faf@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.15.175] has joined #mopcon
+13:31 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+13:32 -!- pangshie [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+13:33 -!- jared [31db9f4f@gateway/web/cgi-irc/kiwiirc.com/ip.49.219.159.79] has joined #mopcon
+13:33 -!- jared [31db9f4f@gateway/web/cgi-irc/kiwiirc.com/ip.49.219.159.79] has quit [Client Quit]
+13:34 -!- jielite [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:34 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:35 -!- jielite [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:36 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has joined #mopcon
+13:36 < kiang> kewang++
+13:36 -!- pangshiei [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+13:37 -!- pangshiei [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+13:38 -!- syu [~syu@223-141-130-100.EMOME-IP.hinet.net] has joined #mopcon
+13:41 -!- Kagami [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+13:42 -!- Kagami is now known as Guest45875
+13:42 -!- Guest45875 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+13:42 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:43 -!- syu [~syu@223-141-130-100.EMOME-IP.hinet.net] has quit [Quit: syu]
+13:44 < Mouther> kewang: ++
+13:44 -!- HearSilent [df8e0faf@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.15.175] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:46 -!- roliroli [~androirc@223-142-161-133.EMOME-IP.hinet.net] has joined #mopcon
+13:47 < roliroli> Test
+13:47 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has joined #mopcon
+13:48 -!- roliroli [~androirc@223-142-161-133.EMOME-IP.hinet.net] has quit [Client Quit]
+13:49 < kiang> test done
+13:50 < Mouther> break!
+13:50 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 258 seconds]
+13:54 -!- WilliamTai [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:54 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+13:55 -!- oioMini [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:56 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:57 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:59 -!- oioMini [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has left #mopcon []
+13:59 -!- pangshie [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+13:59 -!- tsaiid [~tsaiid@122.146.229.157] has quit [Quit: tsaiid]
+13:59 -!- Mini [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:59 -!- fridy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:00 -!- kojilin [~kojilin@122-116-29-5.HINET-IP.hinet.net] has joined #mopcon
+14:00 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:01 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:01 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has joined #mopcon
+14:01 -!- f323eed [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:02 -!- Mini [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:05 -!- xtony77 [~jhih@122.146.229.149] has joined #mopcon
+14:06 -!- O______________O [uid16284@gateway/web/irccloud.com/x-phtmqbtpamcuudmp] has quit [Quit: Connection closed for inactivity]
+14:06 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:06 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:07 -!- WilliamTai [24e769d3@gateway/web/cgi-irc/kiwiirc.com/ip.36.231.105.211] has joined #mopcon
+14:07 -!- tsaiid [~tsaiid@122.146.229.157] has joined #mopcon
+14:08 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+14:09 -!- kojilin [~kojilin@122-116-29-5.HINET-IP.hinet.net] has quit [Ping timeout: 258 seconds]
+14:10 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+14:10 -!- anivek [~anivek@122.146.229.157] has joined #mopcon
+14:12 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has quit [Ping timeout: 244 seconds]
+14:13 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+14:14 -!- Mini [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:15 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has joined #mopcon
+14:15 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 244 seconds]
+14:17 -!- UnciaX [73504b27@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.75.39] has quit [Client Quit]
+14:17 -!- jksonc [sid13988@gateway/web/irccloud.com/x-gupkouqaqdgzswbp] has joined #mopcon
+14:18 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:18 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:20 -!- derekhsu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:21 -!- whitglint [uid15486@gateway/web/irccloud.com/x-ippkdzljxrlfwzwt] has joined #mopcon
+14:22 -!- kvex [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:22 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+14:22 -!- mode/#mopcon [+o ericpi] by ChanServ
+14:23 -!- kvex [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+14:23 -!- qwebirc36061 [7a790d27@gateway/web/freenode/ip.122.121.13.39] has joined #mopcon
+14:23 -!- qwebirc36061 [7a790d27@gateway/web/freenode/ip.122.121.13.39] has quit [Client Quit]
+14:24 -!- WilliamTai [24e769d3@gateway/web/cgi-irc/kiwiirc.com/ip.36.231.105.211] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:25 -!- derekhsu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:26 -!- ha [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:27 -!- taipeiwu [~AndChat69@101.11.11.26] has quit [Ping timeout: 250 seconds]
+14:27 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:27 -!- ha [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:28 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:28 -!- Sam001 [7de30da8@gateway/web/cgi-irc/kiwiirc.com/ip.125.227.13.168] has joined #mopcon
+14:28 -!- amo [uid38455@gateway/web/irccloud.com/x-tzycynbzzpecwsau] has quit [Quit: Connection closed for inactivity]
+14:28 -!- elehsiang [3d469336@gateway/web/cgi-irc/kiwiirc.com/ip.61.70.147.54] has joined #mopcon
+14:29 -!- ha [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:29 -!- ha [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:29 -!- WilliamTai [0122b9f7@gateway/web/cgi-irc/kiwiirc.com/ip.1.34.185.247] has joined #mopcon
+14:30 -!- elehsiang|2 [~kvirc@host-61-70-147-54.static.kbtelecom.net] has joined #mopcon
+14:30 -!- elehsiang [3d469336@gateway/web/cgi-irc/kiwiirc.com/ip.61.70.147.54] has quit [Client Quit]
+14:30 -!- Sam001 [7de30da8@gateway/web/cgi-irc/kiwiirc.com/ip.125.227.13.168] has quit [Client Quit]
+14:32 -!- poboxjack [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:36 -!- JohnSie [1bf6a5fa@gateway/web/cgi-irc/kiwiirc.com/ip.27.246.165.250] has joined #mopcon
+14:36 -!- xtony77 [~jhih@122.146.229.149] has quit [Remote host closed the connection]
+14:36 -!- kvex [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:36 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:36 -!- anivek [~anivek@122.146.229.157] has quit [Ping timeout: 244 seconds]
+14:37 -!- WilliamTai [0122b9f7@gateway/web/cgi-irc/kiwiirc.com/ip.1.34.185.247] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:38 -!- ItsEddy [~ItsEddy_@122.146.229.157] has joined #mopcon
+14:38 -!- kvex [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+14:39 -!- elehsiang [~kvirc@host-61-70-147-54.static.kbtelecom.net] has joined #mopcon
+14:39 -!- elehsiang [~kvirc@host-61-70-147-54.static.kbtelecom.net] has left #mopcon []
+14:39 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:40 -!- xtony77 [~jhih@122.146.229.149] has joined #mopcon
+14:40 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+14:40 -!- JohnSie [1bf6a5fa@gateway/web/cgi-irc/kiwiirc.com/ip.27.246.165.250] has quit [Client Quit]
+14:40 -!- Denir_ [~Denir@221-120-4-163.EMOME-IP.hinet.net] has joined #mopcon
+14:40 -!- elehsiang [~kvirc@host-61-70-147-54.static.kbtelecom.net] has joined #mopcon
+14:40 -!- elehsiang [~kvirc@host-61-70-147-54.static.kbtelecom.net] has left #mopcon []
+14:41 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:41 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:42 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+14:42 -!- Mini [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:43 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:44 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:49 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:49 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:53 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:53 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Ping timeout: 265 seconds]
+14:54 -!- poboxjack [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:55 -!- Denir_ [~Denir@221-120-4-163.EMOME-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+14:57 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:59 -!- xtony77 [~jhih@122.146.229.149] has quit [Remote host closed the connection]
+15:00 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+15:02 -!- tsaiid [~tsaiid@122.146.229.157] has quit [Quit: tsaiid]
+15:02 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Remote host closed the connection]
+15:03 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:05 < Mouther> 提醒大家現場有點心!
+15:05 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+15:07 < Amo_> 下午茶時間!!!!!!!
+15:07 -!- tsaiid [~tsaiid@122.146.229.149] has joined #mopcon
+15:07 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:07 -!- ItsEddy [~ItsEddy_@122.146.229.157] has quit [Ping timeout: 245 seconds]
+15:07 < Mouther> 3F也有歐
+15:09 -!- sobonbon [~sobonbon@122.146.229.157] has quit [Client Quit]
+15:10 -!- xtony77 [~jhih@122.146.229.149] has joined #mopcon
+15:11 -!- ItsEddy [~ItsEddy_@122.146.229.157] has joined #mopcon
+15:11 -!- sobonbon [~sobonbon@122.146.229.157] has joined #mopcon
+15:11 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+15:13 -!- cckai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+15:13 -!- JohnSie [1bf6a5fa@gateway/web/cgi-irc/kiwiirc.com/ip.27.246.165.250] has joined #mopcon
+15:13 -!- Amo_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Ping timeout: 246 seconds]
+15:17 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has joined #mopcon
+15:18 -!- sobonbon [~sobonbon@122.146.229.157] has quit []
+15:18 -!- poboxjack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:19 -!- xtony77 [~jhih@122.146.229.149] has quit [Remote host closed the connection]
+15:19 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:19 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:19 -!- seadog007 [~seadog007@122.146.229.157] has quit [Read error: Connection reset by peer]
+15:19 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+15:20 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:22 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+15:22 -!- ifTNT [~ifTNT@122.146.229.157] has joined #mopcon
+15:24 -!- chiang [df8f637c@gateway/web/cgi-irc/kiwiirc.com/ip.223.143.99.124] has joined #mopcon
+15:25 -!- afutseng [24e0e22a@gateway/web/cgi-irc/kiwiirc.com/ip.36.224.226.42] has joined #mopcon
+15:26 -!- chiang [df8f637c@gateway/web/cgi-irc/kiwiirc.com/ip.223.143.99.124] has quit [Client Quit]
+15:27 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+15:28 -!- amo [uid38455@gateway/web/irccloud.com/x-jaivmlzakunceizp] has joined #mopcon
+15:28 -!- uranusjr [~uranusjr@122.146.229.149] has joined #mopcon
+15:28 < Mouther> IRC 好冷清 Q_____________________________Q
+15:28 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:28 < seadog007> 對啊 不太科學w
+15:29 -!- ifTNT [~ifTNT@122.146.229.157] has quit [Remote host closed the connection]
+15:29 < uranusjr> 有沒有穩定電源還是有差吧, 很多人都不想拿電腦出來
+15:29 < seadog007> 18%
+15:30 < seadog007> 真的是電源的問題
+15:32 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+15:32 -!- mode/#mopcon [+o ericpi] by ChanServ
+15:32 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:32 -!- chusiang [df8b477b@gateway/web/cgi-irc/kiwiirc.com/ip.223.139.71.123] has joined #mopcon
+15:33 -!- chusiang is now known as Guest14363
+15:33 < cckai> 各樓層都有提供充電區，可以利用
+15:34 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+15:35 -!- ItsEddy [~ItsEddy_@122.146.229.157] has quit [Quit: Bye]
+15:37 < cckai> 三廳挺有趣的
+15:38 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+15:39 < Mouther> 只能待在二廳 覺得殘念 QQ
+15:39 -!- Polymer [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:39 -!- Guest14363 [df8b477b@gateway/web/cgi-irc/kiwiirc.com/ip.223.139.71.123] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:40 -!- uranusjr [~uranusjr@122.146.229.149] has quit [Quit: uranusjr]
+15:40 < cckai> 創業過程燒光錢，幾乎放棄，到現在七八十人
+15:41 < cckai> 創業過程自己組裝所有辦公桌椅
+15:41 < cckai> 從學生時代就參加創業類的比賽
+15:42 -!- Nick2 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:42 < cckai> 參加比賽是種好的曝光方式
+15:42 < cckai> 有曝光就有人按讚
+15:42 < cckai> 有曝光就有行銷
+15:44 < cckai> 辦公室掛三個時區鐘，雖然只看gmt+8，但強迫自己可以走出海外
+15:45 < cckai> 在內地的站，一定得有內地DNS
+15:45 -!- lafin [uid44779@gateway/web/irccloud.com/x-izrruxowgyblhsep] has quit [Quit: Connection closed for inactivity]
+15:46 < cckai> 為了內地，網站要符合內地效果
+15:46 < cckai> 符合內地審美效果，閃閃閃
+15:47 < cckai> 因為網路速度慢，所以早期內地人會click多個站點，等他load完再看
+15:47 < cckai> 養成內地人會常會同時多開頁面
+15:49 -!- aj726 [~aj726@122.146.229.157] has joined #mopcon
+15:51 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:51 -!- aj726 [~aj726@122.146.229.157] has quit [Remote host closed the connection]
+15:51 < cckai> 內地的QR code 普及率很高，媽媽、婆婆都知
+15:51 -!- aj726 [~aj726@122.146.229.157] has joined #mopcon
+15:51 -!- Polymer [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:52 -!- Polymer [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:53 < cckai> 內地頻寬不高，但不阻礙開發與使用者使用
+15:53 -!- WanJen [uid44305@gateway/web/irccloud.com/x-anumkupnydqhnghl] has joined #mopcon
+15:54 -!- O______________O [uid16284@gateway/web/irccloud.com/x-csjlkjauvbxmzhhm] has joined #mopcon
+15:54 -!- rrr [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+15:54 < cckai> 被抄襲是常態
+15:54 -!- rrr [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+15:54 < cckai> 被抄襲抗議無效
+15:55 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:55 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:55 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:56 < cckai> 先思考有沒有被抄襲的價值
+15:56 -!- pcchou_ [uid39814@gateway/web/irccloud.com/x-oemtyuuzcbsklflq] has joined #mopcon
+16:00 -!- JimmyWang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:01 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Remote host closed the connection]
+16:01 -!- JimmyWang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+16:01 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:02 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:02 -!- Polymer [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:03 -!- poboxjack [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:04 -!- Nick2 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:04 < cckai> 多參加些活動，認識些有正能量的人
+16:05 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:06 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:08 -!- cckai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Quit: Page closed]
+16:10 -!- Poy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:10 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+16:10 -!- xtony77 [~jhih@122.146.229.149] has joined #mopcon
+16:10 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+16:10 < CCKai> 酸民是不分國界
+16:11 -!- tsaiid [~tsaiid@122.146.229.149] has quit [Quit: tsaiid]
+16:12 -!- xtony77 [~jhih@122.146.229.149] has quit [Remote host closed the connection]
+16:12 -!- xtony77 [~jhih@122.146.229.149] has joined #mopcon
+16:12 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:12 -!- xtony77 [~jhih@122.146.229.149] has quit [Remote host closed the connection]
+16:13 -!- JohnSie [1bf6a5fa@gateway/web/cgi-irc/kiwiirc.com/ip.27.246.165.250] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:15 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+16:17 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:18 -!- derekhsu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:19 -!- seadog007 [~seadog007@122.146.229.157] has quit [Quit: Be back later ...]
+16:20 -!- Poy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:20 -!- xtony77 [~jhih@122.146.229.149] has joined #mopcon
+16:21 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:22 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+16:22 < CCKai> 三廳開講遊戲開發
+16:22 -!- Amo_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+16:22 < CCKai> 日本人的遊戲開發經驗
+16:22 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:23 -!- pangshie [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+16:24 -!- Nick2 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:24 < CCKai> 三廳播放很多有趣動畫
+16:26 < Mouther> 上午聽日本人講英文已崩潰 ..
+16:29 < Mouther> 二廳已滿
+16:29 -!- Tako [8c739c8d@gateway/web/cgi-irc/kiwiirc.com/ip.140.115.156.141] has joined #mopcon
+16:29 < Tako> 安安
+16:30 < Tako> 這裡有人？＠＠
+16:31 -!- Tako [8c739c8d@gateway/web/cgi-irc/kiwiirc.com/ip.140.115.156.141] has quit [Client Quit]
+16:31 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:31 < Mouther> ._./
+16:31 < TONYYANG> :D
+16:31 < Mouther> 主持人在耍費 Zzzz
+16:31 < madarame> 今年有哏全集嗎？
+16:32 -!- Nick2 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:32 < Mouther> irc 好冷清ㄚㄚㄚㄚ
+16:32 < Mouther> BTW 有人在二廳會覺得聲音太小的嗎 ?
+16:34 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+16:34 -!- mode/#mopcon [+o ericpi] by ChanServ
+16:34 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has quit [Quit: leaving]
+16:35 < CCKai> 二廳音量確認中
+16:35 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has joined #mopcon
+16:35 -!- kevin [df8a9e6d@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.158.109] has joined #mopcon
+16:35 <@mikimoto> Deadline!!!
+16:36 -!- kevin is now known as Guest84816
+16:36 -!- Guest84816 [df8a9e6d@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.158.109] has quit [Client Quit]
+16:36 -!- kkkkkkkk [df8a9e66@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.158.102] has joined #mopcon
+16:36 -!- kkkkkkkk [df8a9e66@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.158.102] has quit [Client Quit]
+16:37 -!- kkkkkkkkk [df8a9e6d@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.158.109] has joined #mopcon
+16:38 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:39 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+16:40 -!- rt [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+16:40 -!- rt is now known as Guest42642
+16:42 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:42 -!- aj726 [~aj726@122.146.229.157] has quit []
+16:43 -!- abcabcabc [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:44 -!- derekhsu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:44 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+16:44 -!- abcabcabc [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+16:44 -!- kkkkkkkkk [df8a9e6d@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.158.109] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:44 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+16:44 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:44 -!- shyu [6ff29b02@gateway/web/cgi-irc/kiwiirc.com/ip.111.242.155.2] has joined #mopcon
+16:46 -!- shyu [6ff29b02@gateway/web/cgi-irc/kiwiirc.com/ip.111.242.155.2] has left #mopcon []
+16:48 -!- Polymer [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:49 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:49 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+16:50 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:50 -!- kiang [uid25350@gateway/web/irccloud.com/x-gekkeikkxeeiikud] has quit [Quit: Connection closed for inactivity]
+16:51 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has joined #mopcon
+16:52 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has quit [Quit: Lost terminal]
+16:53 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:53 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:54 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+16:54 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+16:54 -!- Polymer [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:55 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has joined #mopcon
+16:57 < alikefool> ping
+16:58 -!- Amo_ [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Quit: Page closed]
+16:58 -!- TONYYANG [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+16:58 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:58 -!- derekhsu [6e1baef0@gateway/web/cgi-irc/kiwiirc.com/ip.110.27.174.240] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:59 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Ping timeout: 245 seconds]
+16:59 -!- xtony77 [~jhih@122.146.229.149] has quit []
+16:59 -!- WilliamTai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:59 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+16:59 -!- mode/#mopcon [+o ericpi] by ChanServ
+17:02 -!- Guest69011 [uid16067@gateway/web/irccloud.com/x-yviavbavdasanhrg] has quit [Quit: Connection closed for inactivity]
+17:03 -!- pangshie [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+17:04 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+17:06 -!- Denir_ [~Denir@122.146.229.149] has joined #mopcon
+17:07 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:07 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+17:10 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+17:11 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+17:11 -!- Denir_ [~Denir@122.146.229.149] has quit [Ping timeout: 256 seconds]
+17:13 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:14 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+17:14 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+17:17 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+17:17 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+17:21 -!- CCKai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+17:22 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+17:22 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+17:27 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 240 seconds]
+17:28 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:28 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+17:28 -!- STjason [3b738b20@gateway/web/cgi-irc/kiwiirc.com/ip.59.115.139.32] has joined #mopcon
+17:29 -!- STjason [3b738b20@gateway/web/cgi-irc/kiwiirc.com/ip.59.115.139.32] has quit [Client Quit]
+17:46 -!- miku [~AndChat88@221-120-7-107.EMOME-IP.hinet.net] has quit [Quit: Bye]
+17:48 -!- amo [uid38455@gateway/web/irccloud.com/x-jaivmlzakunceizp] has quit [Quit: Connection closed for inactivity]
+17:52 -!- jimmy0328 [3b7f75b9@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.117.185] has joined #mopcon
+17:53 -!- Luxun [uid13676@gateway/web/irccloud.com/x-hvmernqwgapqdsce] has quit [Quit: Connection closed for inactivity]
+17:56 -!- O______________O [uid16284@gateway/web/irccloud.com/x-csjlkjauvbxmzhhm] has quit [Quit: Connection closed for inactivity]
+17:57 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has joined #mopcon
+17:58 -!- derekhsu [afb46794@gateway/web/cgi-irc/kiwiirc.com/ip.175.180.103.148] has quit [Client Quit]
+18:00 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:05 -!- Sam001 [d315e201@gateway/web/cgi-irc/kiwiirc.com/ip.211.21.226.1] has joined #mopcon
+18:05 -!- WanJen [uid44305@gateway/web/irccloud.com/x-anumkupnydqhnghl] has quit [Quit: Connection closed for inactivity]
+18:06 -!- jimmy0328 [3b7f75b9@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.117.185] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:08 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has joined #mopcon
+18:10 -!- wbs_ [8c7467ce@gateway/web/freenode/ip.140.116.103.206] has quit [Quit: Page closed]
+18:11 -!- amei [01acee63@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.238.99] has joined #mopcon
+18:11 -!- Bubu [01ae4daf@gateway/web/cgi-irc/kiwiirc.com/ip.1.174.77.175] has joined #mopcon
+18:11 -!- amei [01acee63@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.238.99] has quit [Client Quit]
+18:12 -!- Sam001 [d315e201@gateway/web/cgi-irc/kiwiirc.com/ip.211.21.226.1] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:12 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has joined #mopcon
+18:14 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has quit [Client Quit]
+18:19 -!- Bubu [01ae4daf@gateway/web/cgi-irc/kiwiirc.com/ip.1.174.77.175] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:23 -!- Ken [dc86cb9f@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.203.159] has joined #mopcon
+18:24 -!- Ken is now known as Guest2586
+18:24 -!- Guest2586 [dc86cb9f@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.203.159] has quit [Client Quit]
+18:31 -!- billy3321 [sid12904@gateway/web/irccloud.com/x-ysjpfqcyzwrnuesp] has joined #mopcon
+18:35 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:53 -!- seadog007 [~seadog007@101.11.70.5] has joined #mopcon
+18:55 -!- ifTNT [~ifTNT@61-227-123-124.dynamic.hinet.net] has joined #mopcon
+19:03 -!- YuCheng [uid28221@gateway/web/irccloud.com/x-kwktyedijaagmthh] has quit [Quit: Connection closed for inactivity]
+19:06 -!- Cd [01a9c84f@gateway/web/freenode/ip.1.169.200.79] has joined #mopcon
+19:06 -!- Cd is now known as Guest98355
+19:07 -!- Guest98355 [01a9c84f@gateway/web/freenode/ip.1.169.200.79] has quit [Client Quit]
+19:13 -!- TONYYANG [3cf9caaa@gateway/web/cgi-irc/kiwiirc.com/ip.60.249.202.170] has joined #mopcon
+19:13 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has joined #mopcon
+19:13 -!- TONYYANG [3cf9caaa@gateway/web/cgi-irc/kiwiirc.com/ip.60.249.202.170] has quit [Client Quit]
+19:14 -!- zeroplex___ [uid15369@gateway/web/irccloud.com/x-legdbmsvulsfydmk] has quit [Quit: Connection closed for inactivity]
+19:15 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has quit [Client Quit]
+19:21 -!- qwebirc93661 [76a07275@gateway/web/freenode/ip.118.160.114.117] has joined #mopcon
+19:29 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has joined #mopcon
+19:30 -!- qwebirc93661 [76a07275@gateway/web/freenode/ip.118.160.114.117] has quit [Ping timeout: 246 seconds]
+19:48 -!- duncan [6fff3096@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.48.150] has joined #mopcon
+19:48 -!- duncan [6fff3096@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.48.150] has quit [Client Quit]
+19:57 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+20:07 -!- chusiang [~jonny@122.146.229.149] has joined #mopcon
+20:07 < chusiang> 終於上來 IRC 了。
+20:09 -!- ifTNT [~ifTNT@61-227-123-124.dynamic.hinet.net] has quit [Ping timeout: 244 seconds]
+20:36 -!- poboxjack [01aff0bb@gateway/web/cgi-irc/kiwiirc.com/ip.1.175.240.187] has joined #mopcon
+20:36 -!- poboxjack [01aff0bb@gateway/web/cgi-irc/kiwiirc.com/ip.1.175.240.187] has quit [Client Quit]
+20:40 -!- ifTNT [~ifTNT@61-227-123-124.dynamic.hinet.net] has joined #mopcon
+20:42 -!- seadog007_ [~seadog007@101.11.64.184] has joined #mopcon
+20:43 -!- wenchenx [~wenchen.x@ec2-54-64-41-231.ap-northeast-1.compute.amazonaws.com] has joined #mopcon
+20:44 -!- seadog007 [~seadog007@101.11.70.5] has quit [Ping timeout: 255 seconds]
+20:46 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has joined #mopcon
+20:48 -!- chusiang [~jonny@122.146.229.149] has quit [Ping timeout: 250 seconds]
+20:49 -!- TangSong [7228cee6@gateway/web/cgi-irc/kiwiirc.com/ip.114.40.206.230] has joined #mopcon
+20:49 -!- TangSong [7228cee6@gateway/web/cgi-irc/kiwiirc.com/ip.114.40.206.230] has quit [Client Quit]
+20:51 -!- seadog007__ [~seadog007@1-173-19-52.dynamic.hinet.net] has joined #mopcon
+20:54 -!- seadog007_ [~seadog007@101.11.64.184] has quit [Ping timeout: 240 seconds]
+20:56 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+20:56 -!- jimbochi [d315ddaa@gateway/web/cgi-irc/kiwiirc.com/ip.211.21.221.170] has joined #mopcon
+20:57 -!- jimbochi [d315ddaa@gateway/web/cgi-irc/kiwiirc.com/ip.211.21.221.170] has quit [Client Quit]
+20:58 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+21:12 -!- carrl [~carl@61-64-164-206-adsl-tai.STATIC.so-net.net.tw] has quit [Read error: Connection reset by peer]
+21:12 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+21:14 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+21:16 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+21:16 -!- carrl [~carl@61-64-164-206-adsl-tai.STATIC.so-net.net.tw] has joined #mopcon
+21:20 -!- kojilin [~kojilin@122-116-29-5.HINET-IP.hinet.net] has joined #mopcon
+21:20 -!- seadog007__ [~seadog007@1-173-19-52.dynamic.hinet.net] has quit [Quit: Be back later ...]
+21:21 -!- Polymer [72278b6c@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.139.108] has joined #mopcon
+21:23 -!- ifTNT [~ifTNT@61-227-123-124.dynamic.hinet.net] has quit [Remote host closed the connection]
+21:23 -!- kojilin [~kojilin@122-116-29-5.HINET-IP.hinet.net] has quit [Client Quit]
+21:26 -!- seadog007___ [~seadog007@101.11.64.184] has joined #mopcon
+21:34 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has joined #mopcon
+21:35 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has quit [Client Quit]
+21:43 -!- madarame [uid28051@gateway/web/irccloud.com/x-wztgrlopbtxanrzg] has quit [Quit: Connection closed for inactivity]
+21:49 -!- kewang [76a3e874@gateway/web/cgi-irc/kiwiirc.com/ip.118.163.232.116] has joined #mopcon
+21:52 -!- Keroro [24ee33a7@gateway/web/cgi-irc/kiwiirc.com/ip.36.238.51.167] has joined #mopcon
+21:52 -!- Keroro [24ee33a7@gateway/web/cgi-irc/kiwiirc.com/ip.36.238.51.167] has quit [Client Quit]
+21:54 -!- kewang [76a3e874@gateway/web/cgi-irc/kiwiirc.com/ip.118.163.232.116] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+21:54 -!- kewang [76a3e874@gateway/web/cgi-irc/kiwiirc.com/ip.118.163.232.116] has joined #mopcon
+22:03 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has joined #mopcon
+22:06 -!- xgnid [8c75b51a@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.181.26] has joined #mopcon
+22:07 -!- xgnid [8c75b51a@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.181.26] has left #mopcon []
+22:08 -!- anivek [~anivek@203.163.195.74] has joined #mopcon
+22:10 -!- anivek [~anivek@203.163.195.74] has left #mopcon []
+22:12 -!- alikefool [722cb9a7@gateway/web/cgi-irc/kiwiirc.com/ip.114.44.185.167] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+22:13 -!- f74981743 [76abcf7b@gateway/web/cgi-irc/kiwiirc.com/ip.118.171.207.123] has joined #mopcon
+22:13 -!- kiang [uid25350@gateway/web/irccloud.com/x-emexqtqnoovmcdos] has joined #mopcon
+22:14 -!- f74981743 [76abcf7b@gateway/web/cgi-irc/kiwiirc.com/ip.118.171.207.123] has quit [Client Quit]
+22:15 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+22:16 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+22:32 -!- kewang [76a3e874@gateway/web/cgi-irc/kiwiirc.com/ip.118.163.232.116] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+22:37 -!- seadog007___ [~seadog007@101.11.64.184] has quit [Ping timeout: 265 seconds]
+22:48 -!- Hokila [7068708e@gateway/web/cgi-irc/kiwiirc.com/ip.112.104.112.142] has joined #mopcon
+22:50 -!- AkaiLiou [8c75dd21@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.221.33] has joined #mopcon
+22:51 -!- Hokila [7068708e@gateway/web/cgi-irc/kiwiirc.com/ip.112.104.112.142] has quit [Client Quit]
+22:52 -!- pcchou_ [uid39814@gateway/web/irccloud.com/x-oemtyuuzcbsklflq] has quit [Quit: Connection closed for inactivity]
+22:59 -!- EastWind [7221c996@gateway/web/cgi-irc/kiwiirc.com/ip.114.33.201.150] has joined #mopcon
+22:59 < EastWind> 請問明天也是前300名報到才有午餐嗎
+23:12 -!- AkaiLiou [8c75dd21@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.221.33] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:16 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+23:16 -!- tedleter [daa44e6c@gateway/web/cgi-irc/kiwiirc.com/ip.218.164.78.108] has joined #mopcon
+23:16 < tedleter> Hi,all
+23:17 < tedleter> 請問有人知道 ，今天的錄影在哪看得到嗎？
+23:17 -!- Luxun [uid13676@gateway/web/irccloud.com/x-cfghxvcwixvgcacp] has joined #mopcon
+23:17 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+23:18 -!- kpo [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:21 < EastWind> 請問明天也是前300名報到才有午餐嗎
+23:22 -!- tedleter [daa44e6c@gateway/web/cgi-irc/kiwiirc.com/ip.218.164.78.108] has left #mopcon []
+23:26 -!- carrl [~carl@61-64-164-206-adsl-tai.STATIC.so-net.net.tw] has left #mopcon []
+23:33 -!- Polymer [72278b6c@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.139.108] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:52 -!- dainese [7bcc5705@gateway/web/cgi-irc/kiwiirc.com/ip.123.204.87.5] has joined #mopcon
+23:54 -!- EastWind [7221c996@gateway/web/cgi-irc/kiwiirc.com/ip.114.33.201.150] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:54 -!- dainese [7bcc5705@gateway/web/cgi-irc/kiwiirc.com/ip.123.204.87.5] has quit [Client Quit]
+23:56 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+--- Log closed Sun Oct 26 00:00:27 2014
+
+
+Day2
+========
+
+--- Log opened Sun Oct 26 00:00:27 2014
+00:07 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+00:07 -!- mode/#mopcon [+o ericpi] by ChanServ
+00:17 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+00:18 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Client Quit]
+00:21 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has joined #mopcon
+00:21 -!- AkaiLiou [8c75dd21@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.221.33] has joined #mopcon
+00:23 -!- AkaiLiou [8c75dd21@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.221.33] has quit [Client Quit]
+00:26 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+00:37 -!- elehsiang|2 [~kvirc@host-61-70-147-54.static.kbtelecom.net] has quit [Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/]
+00:41 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+00:42 -!- seadog007 [~seadog007@220-143-76-137.dynamic.hinet.net] has joined #mopcon
+00:46 -!- Guest42642 [8c74f503@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.245.3] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+00:50 -!- AndChat91056 [~AndChat91@223-139-37-235.EMOME-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+00:56 -!- pcbill [73a5d7c8@gateway/web/cgi-irc/kiwiirc.com/ip.115.165.215.200] has joined #mopcon
+01:06 -!- pcbill [73a5d7c8@gateway/web/cgi-irc/kiwiirc.com/ip.115.165.215.200] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+01:16 -!- trhrthrt [6fb8d39b@gateway/web/cgi-irc/kiwiirc.com/ip.111.184.211.155] has joined #mopcon
+01:33 -!- Luxun [uid13676@gateway/web/irccloud.com/x-cfghxvcwixvgcacp] has quit [Quit: Connection closed for inactivity]
+01:43 -!- FrankWu [~textual@101.11.68.141] has joined #mopcon
+01:52 -!- FrankWu [~textual@101.11.68.141] has quit [Quit: Textual IRC Client: www.textualapp.com]
+01:52 -!- FrankWu [~textual@101.11.68.141] has joined #mopcon
+01:54 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+01:55 -!- FrankWu [~textual@101.11.68.141] has quit [Client Quit]
+01:56 -!- FrankWu [~frankwu@101.11.68.141] has joined #mopcon
+01:57 -!- trhrthrt [6fb8d39b@gateway/web/cgi-irc/kiwiirc.com/ip.111.184.211.155] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+01:57 -!- FrankWu [~frankwu@101.11.68.141] has quit [Client Quit]
+02:34 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 272 seconds]
+02:57 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+02:57 -!- mode/#mopcon [+o ericpi] by ChanServ
+03:02 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 245 seconds]
+03:50 -!- kiang [uid25350@gateway/web/irccloud.com/x-emexqtqnoovmcdos] has quit [Quit: Connection closed for inactivity]
+04:47 -!- afutseng [24e0e22a@gateway/web/cgi-irc/kiwiirc.com/ip.36.224.226.42] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+04:51 -!- pcchou [~pcchou@118-166-145-81.dynamic.hinet.net] has quit [Read error: Connection reset by peer]
+04:52 -!- pcchou [~pcchou@118-166-156-193.dynamic.hinet.net] has joined #mopcon
+04:54 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has joined #mopcon
+04:55 -!- kpo [01ac64a5@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.100.165] has quit [Client Quit]
+05:33 -!- weitsai [01aceebe@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.238.190] has joined #mopcon
+06:02 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+06:02 -!- mode/#mopcon [+o ericpi] by ChanServ
+06:31 -!- weitsai [01aceebe@gateway/web/cgi-irc/kiwiirc.com/ip.1.172.238.190] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+07:00 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 255 seconds]
+07:10 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+07:10 -!- mode/#mopcon [+o ericpi] by ChanServ
+07:14 -!- YuCheng [uid28221@gateway/web/irccloud.com/x-zpcqwrgjqjdwrtln] has joined #mopcon
+07:15 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has quit [Ping timeout: 244 seconds]
+07:15 -!- denkeni [31d67bad@gateway/web/freenode/ip.49.214.123.173] has joined #mopcon
+07:19 -!- denkeni_ [31d67bad@gateway/web/freenode/ip.49.214.123.173] has joined #mopcon
+07:19 -!- weitsai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+07:20 -!- denkeni [31d67bad@gateway/web/freenode/ip.49.214.123.173] has quit [Ping timeout: 246 seconds]
+07:20 -!- denkeni_ [31d67bad@gateway/web/freenode/ip.49.214.123.173] has quit [Client Quit]
+07:24 -!- min [dd780318@gateway/web/cgi-irc/kiwiirc.com/ip.221.120.3.24] has joined #mopcon
+07:24 -!- weitsai [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+07:24 -!- min [dd780318@gateway/web/cgi-irc/kiwiirc.com/ip.221.120.3.24] has quit [Client Quit]
+07:24 -!- yucheng_ [~yucheng@1-174-59-133.dynamic.hinet.net] has joined #mopcon
+07:25 -!- yucheng_ [~yucheng@1-174-59-133.dynamic.hinet.net] has quit [Client Quit]
+07:26 -!- yucheng_ [~yucheng@1-174-59-133.dynamic.hinet.net] has joined #mopcon
+07:27 -!- yucheng_ [~yucheng@1-174-59-133.dynamic.hinet.net] has quit [Client Quit]
+07:27 -!- yucheng_ [~yucheng@1-174-59-133.dynamic.hinet.net] has joined #mopcon
+07:29 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+07:29 -!- jserv-- [~jserv@122.146.229.149] has quit [Client Quit]
+07:31 -!- yucheng_ [~yucheng@1-174-59-133.dynamic.hinet.net] has quit [Client Quit]
+07:35 -!- Yucheng1 [~yucheng@1-174-59-133.dynamic.hinet.net] has joined #mopcon
+07:37 -!- seadog007 [~seadog007@220-143-76-137.dynamic.hinet.net] has quit [Quit: Be back later ...]
+07:37 -!- Yucheng1 [~yucheng@1-174-59-133.dynamic.hinet.net] has left #mopcon []
+07:38 -!- Yucheng1 [~yucheng@1-174-59-133.dynamic.hinet.net] has joined #mopcon
+07:40 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+07:40 -!- mode/#mopcon [+o ericpi] by ChanServ
+07:44 -!- Luxun [uid13676@gateway/web/irccloud.com/x-bshvmvydbgckoqzd] has joined #mopcon
+07:45 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 258 seconds]
+07:47 -!- Yucheng1 [~yucheng@1-174-59-133.dynamic.hinet.net] has quit [Quit: Leaving.]
+07:55 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+07:55 -!- mode/#mopcon [+o ericpi] by ChanServ
+07:57 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has joined #mopcon
+07:58 -!- ifTNT_m [~ifTNT_3@114-35-206-62.HINET-IP.hinet.net] has joined #mopcon
+07:58 < Mouther> 早安~
+07:59 < ifTNT_m> 早安
+08:00 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+08:04 -!- ifTNT_m [~ifTNT_3@114-35-206-62.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+08:05 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:08 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:19 -!- imsardine [dc8678ce@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.120.206] has joined #mopcon
+08:20 -!- Ken [dc86cb9f@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.203.159] has joined #mopcon
+08:20 -!- Ken is now known as Guest60891
+08:21 -!- Guest60891 [dc86cb9f@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.203.159] has quit [Client Quit]
+08:23 -!- imsardine [dc8678ce@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.120.206] has quit [Client Quit]
+08:24 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+08:26 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+08:26 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+08:26 -!- mode/#mopcon [+o ericpi] by ChanServ
+08:28 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:30 -!- tsaiid [~tsaiid@host-219-68-1-238.static.kbtelecom.net] has joined #mopcon
+08:34 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:34 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 245 seconds]
+08:34 -!- Yo [1bf58d7a@gateway/web/cgi-irc/kiwiirc.com/ip.27.245.141.122] has joined #mopcon
+08:34 -!- Yo is now known as Guest95148
+08:35 -!- cckai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+08:35 -!- Guest95148 [1bf58d7a@gateway/web/cgi-irc/kiwiirc.com/ip.27.245.141.122] has quit [Client Quit]
+08:36 -!- jimmywu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:37 -!- tsaiid [~tsaiid@host-219-68-1-238.static.kbtelecom.net] has quit [Quit: tsaiid]
+08:37 -!- seadog007 [~seadog007@122-117-140-8.HINET-IP.hinet.net] has joined #mopcon
+08:38 < cckai> 預告：lighting talk 預計於12:30開始登記
+08:39 < jimmywu> 恭喜昨天的幸運兒。
+08:39 < jimmywu> 並在此預告
+08:39 < jimmywu> 今日抽獎在一二三廳聯合舉行
+08:39 < jimmywu> 會於第一場議程一開始抽出手機一支
+08:39 < jimmywu> 如果你尚未到場，將會繼續往下抽
+08:39 < jimmywu> 請大家熱切注意唷
+08:40 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+08:40 -!- seadog007 [~seadog007@122-117-140-8.HINET-IP.hinet.net] has quit [Client Quit]
+08:40 -!- seadog007 [~seadog007@122-117-140-8.HINET-IP.hinet.net] has joined #mopcon
+08:43 -!- Roland [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+08:43 -!- Roland [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+08:43 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+08:44 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+08:44 -!- mode/#mopcon [+o ericpi] by ChanServ
+08:44 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+08:44 -!- seadog007_ [~seadog007@122-117-140-8.HINET-IP.hinet.net] has joined #mopcon
+08:45 -!- seadog007 [~seadog007@122-117-140-8.HINET-IP.hinet.net] has quit [Ping timeout: 272 seconds]
+08:45 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:46 < cckai> 今天手機也會抽出兩支，一隻上午第一場，第二支是下午第一場，如果沒在場，那抱歉了，會以已赴現場為對象
+08:46 < Bubu> 那件藍色的是可以買嗎?
+08:46 < Bubu> 藍色的衣服
+08:46 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+08:47 < seadog007_> 有人在高雄捷運站嗎QQ
+08:47 < seadog007_> 身上只有悠遊卡QQ
+08:48 < keith222> 身上有零錢的話 可以投單程票
+08:49 < seadog007_> 有人在高雄捷運站嗎QQ
+08:49 < seadog007_> 身上只有悠遊卡QQ
+08:49 < seadog007_> 殘念QQ
+08:49 < seadog007_> 坐公車好了
+08:50 < keith222> 1.可以到自動售票處買單程票or 一卡通
+08:50 < seadog007_> 我只有悠遊卡QQ
+08:50 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has quit [Quit: leaving]
+08:51 < keith222> 你可以買票 高雄車站（假設）->鹽埕埔只要20塊
+08:51 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has joined #mopcon
+08:51 < seadog007_> 就是只有悠遊卡QQ
+08:51 < keith222> 公車可能會等稍久
+08:52 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Remote host closed the connection]
+08:54 -!- zeroplex___ [uid15369@gateway/web/irccloud.com/x-fsgrmtnrjmyjkopq] has joined #mopcon
+08:55 < jimmywu> 藍色的衣服可以買唷~~!!
+08:55 < jimmywu> 請洽三樓的販賣部
+08:56 -!- ifTNT_m [~ifTNT_3@122.146.229.157] has joined #mopcon
+08:58 -!- seadog007_ [~seadog007@122-117-140-8.HINET-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+08:58 -!- apple [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+08:59 -!- apple is now known as Guest97698
+09:00 -!- HTTH [6ffed92d@gateway/web/cgi-irc/kiwiirc.com/ip.111.254.217.45] has joined #mopcon
+09:00 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 245 seconds]
+09:01 -!- ifTNT [~ifTNT@122.146.229.157] has joined #mopcon
+09:01 -!- Guest97698 [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Client Quit]
+09:02 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:03 -!- HTTH [6ffed92d@gateway/web/cgi-irc/kiwiirc.com/ip.111.254.217.45] has quit [Client Quit]
+09:03 -!- sobonbon [~sobonbon@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+09:04 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+09:05 -!- Yucheng1 [~yucheng@122.146.229.149] has joined #mopcon
+09:06 -!- Mouther [~za7788az@59-127-231-73.HINET-IP.hinet.net] has quit [Quit: leaving]
+09:06 -!- winter__ [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:08 -!- Mouther [~mouthbrot@merry.ee.ncku.edu.tw] has joined #mopcon
+09:08 -!- sobonbon_ [~sobonbon@122.146.229.157] has joined #mopcon
+09:08 -!- Yucheng1 [~yucheng@122.146.229.149] has left #mopcon []
+09:10 -!- cloud [~androirc@223-142-33-176.EMOME-IP.hinet.net] has joined #mopcon
+09:10 -!- cloud is now known as Guest88131
+09:11 -!- sobonbon_ [~sobonbon@122.146.229.157] has quit [Client Quit]
+09:11 -!- Guest88131 [~androirc@223-142-33-176.EMOME-IP.hinet.net] has quit [Client Quit]
+09:12 -!- sobonbon [~sobonbon@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+09:14 -!- d1t2 [db557ee9@gateway/web/cgi-irc/kiwiirc.com/ip.219.85.126.233] has joined #mopcon
+09:14 -!- winter__ [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:14 < Mouther> 抽獎囉~~
+09:17 -!- Denir [~Denir@221-120-4-163.EMOME-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+09:18 -!- Denir [~Denir@221-120-4-163.EMOME-IP.hinet.net] has joined #mopcon
+09:18 -!- ac [72196df2@gateway/web/cgi-irc/kiwiirc.com/ip.114.25.109.242] has joined #mopcon
+09:18 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+09:19 -!- ac is now known as Guest35554
+09:19 -!- jimmywu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:19 -!- miku [~AndChat88@114-39-91-112.dynamic.hinet.net] has joined #mopcon
+09:19 -!- jimmywu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:20 -!- min [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:20 -!- st [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:20 -!- min [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+09:21 -!- st [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+09:21 -!- min [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:21 -!- Airy [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:21 -!- blackmesa_ice [~AndChat62@223-138-224-163.EMOME-IP.hinet.net] has joined #mopcon
+09:21 -!- hellomoto [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:21 -!- dgzip [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:22 -!- min [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+09:22 -!- blackmesa_ice [~AndChat62@223-138-224-163.EMOME-IP.hinet.net] has quit [Client Quit]
+09:22 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has joined #mopcon
+09:22 < jimmywu> 再度宣傳一下:請各位能支持MOPCON周邊商品
+09:22 -!- mysheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:22 < jimmywu> 藍色T恤  是可買的唷
+09:22 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:23 -!- mysheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+09:23 < jimmywu> 四樓可以訂餐
+09:24 -!- mysheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:24 < Mouther> 歡迎選購 @ 3F
+09:24 -!- cckai [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Ping timeout: 246 seconds]
+09:25 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has joined #mopcon
+09:25 -!- mode/#mopcon [+o ericpi] by ChanServ
+09:25 -!- AndChat|88724 [~AndChat88@221-120-2-86.EMOME-IP.hinet.net] has joined #mopcon
+09:25 -!- notered234 [b4d91736@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.23.54] has joined #mopcon
+09:25 < hellomoto> 冒昧請問現在影片是
+09:26 -!- jimmywu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:26 -!- notered234 [b4d91736@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.23.54] has left #mopcon []
+09:26 < Bubu> 藍色T恤多少$壓
+09:27 -!- mysheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+09:27 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:27 < pcbill> hi
+09:27 < apple20222> 250
+09:27 < pcbill> 我是一廳主持
+09:27 -!- dgzip [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:27 -!- jimmywu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:27 -!- LitleMO [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:28 < pcbill> 如有一廳問題都可以提問
+09:28 -!- notered234 [b4d91736@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.23.54] has joined #mopcon
+09:28 -!- coffeecan [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:28 -!- miku [~AndChat88@114-39-91-112.dynamic.hinet.net] has quit [Ping timeout: 255 seconds]
+09:28 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has joined #mopcon
+09:29 -!- ericpi [~eric@118-163-159-181.HINET-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+09:29 < cckai> 大會手冊上今日下午議程時間印刷有誤，13:00~13:15是三廳聯合抽手機時間
+09:30 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:30 < cckai> 13:15~13:55 是下午第一場議程
+09:30 -!- hellomoto [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:31 -!- guest1234 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:31 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:32 -!- guest1234 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+09:32 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:33 -!- tsaiid [~tsaiid@122.146.229.149] has joined #mopcon
+09:34 -!- Polymer [72278b6c@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.139.108] has joined #mopcon
+09:34 -!- bbbb [7222bf6d@gateway/web/cgi-irc/kiwiirc.com/ip.114.34.191.109] has joined #mopcon
+09:34 -!- swotch [7a92e595@gateway/web/freenode/ip.122.146.229.149] has joined #mopcon
+09:35 < bbbb> ?
+09:35 < bbbb> 沒人T.T
+09:35 -!- bbbb [7222bf6d@gateway/web/cgi-irc/kiwiirc.com/ip.114.34.191.109] has left #mopcon []
+09:36 < pcbill> ㄜ
+09:36 -!- jimmywu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:37 < cckai> 預告：下午抽手機有加碼
+09:37 < cckai> 敬請期待
+09:37 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:37 < Mouther> YO 我是二廳主持 大家來聊天拉~~
+09:38 -!- ifTNT [~ifTNT@122.146.229.157] has quit [Ping timeout: 255 seconds]
+09:39 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:40 < chusiang> [公告] MOPCON 2014 網站上 Day2 的議程已更新，10:20 ~ 11:00 的議程分別是  宋牧奇 | Bistro貓咪餵食器的群眾募資之路與技術挑戰  sleepnova (周立瑋)
+09:40 < chusiang> [公告] MOPCON 2014 網站上 Day2 的議程已更新，10:20 ~ 11:00 的議程分別是  宋牧奇 | Bistro貓咪餵食器的群眾募資之路與技術挑戰  sleepnova (周立瑋) | 少年工坊的奇幻旅程 頑皮的產品開發之路 - 呼叫小黃＆雲端電台
+09:40 -!- cartertsai [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+09:41 < cckai> 請大家多逛mopcon粉絲facebook頁，商品販售部即將推出限時特價
+09:41 < pcbill> 第2天 hackpad : https://mopcon.hackpad.com/MOPCON-2014-Day2-Sessions-3DcHcEaGoXh
+09:43 < cckai> Lighting talk 12:30開放報名
+09:44 -!- cartertsai [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+09:44 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:44 < pcbill> [公告] 11：10 ～ 12：00 一廳 session ：Anistar (宋志峰) 架構做的巧，APP沒煩惱 – 談如何建立彈性又好維護的軟體架構
+09:45 -!- Guest35554 [72196df2@gateway/web/cgi-irc/kiwiirc.com/ip.114.25.109.242] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:45 < cckai> 4F wifi 還OK嗎？
+09:45 -!- DennyHuang [~denny@140.129.25.123] has quit [Ping timeout: 260 seconds]
+09:46 < kkpan11> 頗順
+09:46 < Mouther> 非常悲劇
+09:46 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:46 < cckai> ???
+09:47 < cckai> 4F wifi work ?
+09:47 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+09:47 < pcbill> 我這邊 OK
+09:47 < pcbill> mopcon2014-4f
+09:47 < cckai> 3F wifi work ?
+09:48 < YuCheng> 3f OK
+09:48 -!- coffeecan [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:48 < swotch> OK
+09:48 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+09:50 <@mikimoto> 線路組測試過，網路目前應該正常，有問題請回報，並標注所在地
+09:50 < cckai> OK，Good，thanks
+09:50 -!- coffeecan [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+09:51 < cckai> 3F`'
+09:51 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:51 < cckai> 3F 、4F 皆有提供飲水機
+09:53 -!- DennyHuang [~denny@140.129.25.123] has joined #mopcon
+09:54 -!- d1t2 [db557ee9@gateway/web/cgi-irc/kiwiirc.com/ip.219.85.126.233] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:54 -!- terry [722b6943@gateway/web/cgi-irc/kiwiirc.com/ip.114.43.105.67] has joined #mopcon
+09:54 -!- terry is now known as Guest39476
+09:55 -!- Guest39476 [722b6943@gateway/web/cgi-irc/kiwiirc.com/ip.114.43.105.67] has quit [Client Quit]
+09:55 < cckai> 3F 飲水機在亞馬遜攤位旁
+09:56 < cckai> 4F 飲水機在 電梯出口前
+09:56 -!- coffeecan [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:58 -!- ifTNT [~ifTNT@223-143-104-21.EMOME-IP.hinet.net] has joined #mopcon
+09:58 -!- eosinchen [3b7f4fdd@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.79.221] has joined #mopcon
+09:59 -!- eosinchen [3b7f4fdd@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.79.221] has quit [Client Quit]
+10:01 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+10:02 -!- swotch [7a92e595@gateway/web/freenode/ip.122.146.229.149] has quit [Quit: Page closed]
+10:09 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:12 < pcbill> [公告] MOPCON 2014 網站上 Day2 的議程已更新，10:20 ~ 11:00 的議程分別是  宋牧奇 | Bistro貓咪餵食器的群眾募資之路與技術挑戰  sleepnova (周立瑋) | 少年工坊的奇幻旅程 頑皮的產品開發之路 - 呼叫小黃＆雲端電台
+10:13 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+10:14 -!- notered234 [b4d91736@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.23.54] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:17 -!- pcchou_ [uid39814@gateway/web/irccloud.com/x-uxrkdbpmyjxfzjtr] has joined #mopcon
+10:17 < cckai> 大會報告，第二場議程延後五分鐘
+10:18 -!- hellomoto [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:18 -!- LitleMO [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:19 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has quit [Ping timeout: 258 seconds]
+10:19 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Remote host closed the connection]
+10:19 < hellomoto> 請問剛講者說的microsoft azure，能使用嗎
+10:19 -!- Bubu [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:20 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:21 -!- tsaiid [~tsaiid@122.146.229.149] has quit [Quit: tsaiid]
+10:21 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:21 -!- hellomoto [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:21 < cckai> 大會報告，上午場的議程因延後五分鐘開始後，結束時間也都延後五分鐘
+10:21 -!- Airy [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:21 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:22 < cckai> 下午場正常時間開始
+10:23 < cckai> 預告，下午拚手氣抽手機活動，手機加碼到3隻
+10:24 -!- tsaiid [~tsaiid@122.146.229.149] has joined #mopcon
+10:24 < cckai> 請會眾們13:00到場，以免向隅
+10:24 < keith222> 喔喔喔喔喔（雖然我大概不會中xd）
+10:24 < cckai> 那可難說 (遠目)
+10:25 < cckai> 粉絲頁等下會刊登拚手氣抽手機3隻的訊息
+10:25 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has joined #mopcon
+10:27 -!- elehsiang [~kvirc@host-61-70-147-54.static.kbtelecom.net] has joined #mopcon
+10:28 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:30 -!- notered234 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:30 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+10:32 -!- TaiEx [6e1a33c8@gateway/web/cgi-irc/kiwiirc.com/ip.110.26.51.200] has joined #mopcon
+10:32 -!- unciax [735045f2@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.69.242] has joined #mopcon
+10:32 -!- TaiEx [6e1a33c8@gateway/web/cgi-irc/kiwiirc.com/ip.110.26.51.200] has quit [Client Quit]
+10:32 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+10:33 < cckai> 大型M娘立牌已經在三樓販售攤位開始競標
+10:33 -!- unciax [735045f2@gateway/web/cgi-irc/kiwiirc.com/ip.115.80.69.242] has quit [Client Quit]
+10:34 < cckai> 大型M娘立牌價格起標價真的很.....值得抱回家
+10:34 -!- denkeni [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has joined #mopcon
+10:34 -!- UnciaX [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:36 < keith222> 話說不曉得能不能提供一個建議 微軟的小光歌曲有點大聲 坐二廳靠牆會聽到
+10:37 < cckai> 要訂中餐可至四樓電梯前唷
+10:37 -!- taipeiwu [~AndChat69@101.11.14.164] has joined #mopcon
+10:38 -!- denkeni [7a92e59d@gateway/web/freenode/ip.122.146.229.157] has quit [Ping timeout: 246 seconds]
+10:38 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+10:39 -!- TaiEx [270a850f@gateway/web/cgi-irc/kiwiirc.com/ip.39.10.133.15] has joined #mopcon
+10:39 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+10:40 -!- TaiEx [270a850f@gateway/web/cgi-irc/kiwiirc.com/ip.39.10.133.15] has quit [Client Quit]
+10:40 -!- TaiEx [270a850f@gateway/web/cgi-irc/kiwiirc.com/ip.39.10.133.15] has joined #mopcon
+10:41 -!- TaiEx [270a850f@gateway/web/cgi-irc/kiwiirc.com/ip.39.10.133.15] has quit [Client Quit]
+10:42 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Client Quit]
+10:42 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+10:44 -!- d1t2 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:46 -!- Denir_ [~Denir@111-254-37-227.dynamic.hinet.net] has joined #mopcon
+10:46 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:47 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Client Quit]
+10:47 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has quit [Ping timeout: 246 seconds]
+10:47 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:48 -!- Polymer [72278b6c@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.139.108] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:48 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has joined #mopcon
+10:50 < cckai> 大型M娘立牌已經在三樓販售攤位開始競標，起標價500起，想將她抱回家了，請至販售部競標，販售部會將你的競標價格貼於她身上，競標時間訂於下午四點止
+10:51 -!- shawn [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+10:52 -!- shawn is now known as Guest47450
+10:53 -!- UnciaX [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:53 -!- Guest47450 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+10:54 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:54 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:55 -!- denkeni [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:56 -!- denkeni [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:56 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:56 -!- UnciaX [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+10:56 -!- ifTNT [~ifTNT@223-143-104-21.EMOME-IP.hinet.net] has quit [Remote host closed the connection]
+10:57 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+10:57 -!- AndroUser [~androirc@223-143-159-110.EMOME-IP.hinet.net] has joined #mopcon
+10:59 -!- jhih [~jhih@122.146.229.149] has joined #mopcon
+10:59 -!- jhih is now known as xtony77
+10:59 -!- xtony77 [~jhih@122.146.229.149] has quit [Client Quit]
+11:00 -!- bubu [uid41224@gateway/web/irccloud.com/x-gqypaveufbkxnsyg] has joined #mopcon
+11:03 -!- denkeni [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:04 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+11:04 -!- swem_ [uid27646@gateway/web/irccloud.com/x-chltwwmnreochswc] has joined #mopcon
+11:04 -!- AndroUser [~androirc@223-143-159-110.EMOME-IP.hinet.net] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+11:04 -!- denkeni [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:05 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Client Quit]
+11:05 -!- AndroUser [~androirc@223-143-159-110.EMOME-IP.hinet.net] has joined #mopcon
+11:06 -!- notered234 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:06 -!- AndroUser [~androirc@223-143-159-110.EMOME-IP.hinet.net] has quit [Client Quit]
+11:07 < cckai> 一廳之前等待人群爆滿
+11:09 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+11:10 < AndChat|88724> 一廳好可怕
+11:10 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:11 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:11 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:12 < uranusjr> 難得有硬派的東西
+11:13 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:13 -!- UnciaX [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:13 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:14 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+11:16 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:17 -!- taipeiwu [~AndChat69@101.11.14.164] has quit [Ping timeout: 245 seconds]
+11:18 -!- seadog007 [~seadog007@122.146.229.157] has quit [Ping timeout: 240 seconds]
+11:18 -!- LitleMO [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:19 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:19 < cckai> 一廳聲音已經請音控放大中
+11:20 -!- kpo [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:20 < Mouther> 二廳有稀有女性RD
+11:21 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+11:22 < seadog007> 網路炸了
+11:22 < seadog007> ...
+11:23 -!- duye [~duye@223-143-159-110.EMOME-IP.hinet.net] has joined #mopcon
+11:23 -!- kpo is now known as foks
+11:23 -!- foks is now known as Guest53973
+11:24 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:25 < Mouther> [二廳] 拿 wii 把手當投影筆你敢信!!!
+11:26 < cckai> 13:00抽手機3隻，請大家準時抵達各廳內
+11:26 < cckai> 13:00抽手機3隻，請大家準時抵達各廳內
+11:26 < cckai> 13:00抽手機3隻，請大家準時抵達各廳內
+11:27 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+11:28 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:29 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+11:30 -!- fivil [df8a7c45@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.124.69] has joined #mopcon
+11:31 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:31 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:32 < AndChat|88724> 很重要要講三次
+11:33 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:35 -!- coffeecan [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:36 < cckai> 一廳地板上有聽者席地而坐了
+11:38 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+11:38 -!- coffeecan [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:40 < seadog007> 對啊 可是網路炸了QQ
+11:40 < Mouther> 網路一直都很炸....
+11:42 < cckai> 網路，已通知線路組，請稍後
+11:42 <@mikimoto> 網路炸掉地點請回報，線路組馬上處理
+11:44 < chusiang> 請大家盡可能避免使用手機的 WIFI 分享，這樣只會讓大會的 WIFI 更加的不穩，謝謝。
+11:45 -!- fivil [df8a7c45@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.124.69] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:45 -!- voir [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:47 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:48 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:48 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+11:49 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:52 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+11:52 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+11:52 -!- Denir_ [~Denir@111-254-37-227.dynamic.hinet.net] has quit [Ping timeout: 244 seconds]
+11:52 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has joined #mopcon
+11:52 -!- mode/#mopcon [+o ericpi] by ChanServ
+11:53 <@ericpi> who
+11:53 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has quit [Client Quit]
+11:54 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has joined #mopcon
+11:54 -!- mode/#mopcon [+o ericpi] by ChanServ
+11:54 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+11:56 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Ping timeout: 265 seconds]
+11:57 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:59 -!- seadog007_ [~seadog007@101.11.68.141] has joined #mopcon
+11:59 -!- seadog007_ [~seadog007@101.11.68.141] has quit [Remote host closed the connection]
+11:59 -!- seadog007_ [~seadog007@101.11.68.141] has joined #mopcon
+11:59 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has quit [Quit: leaving]
+12:00 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has joined #mopcon
+12:00 -!- mode/#mopcon [+o ericpi] by ChanServ
+12:01 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:02 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:03 -!- AndChat|364656 [~duye@223-143-68-44.EMOME-IP.hinet.net] has joined #mopcon
+12:03 -!- seadog007 [~seadog007@122.146.229.157] has quit [Ping timeout: 255 seconds]
+12:04 -!- duye [~duye@223-143-159-110.EMOME-IP.hinet.net] has quit [Ping timeout: 245 seconds]
+12:05 -!- kewang [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:05 -!- tsaiid [~tsaiid@122.146.229.149] has quit [Quit: tsaiid]
+12:06 -!- LitleMO [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:08 -!- d1t2 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:09 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:10 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+12:14 -!- zeroplex___ [uid15369@gateway/web/irccloud.com/x-fsgrmtnrjmyjkopq] has quit [Quit: Connection closed for inactivity]
+12:14 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Client Quit]
+12:14 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has quit [Ping timeout: 246 seconds]
+12:14 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+12:14 -!- kiang [uid25350@gateway/web/irccloud.com/x-ygdmsokqgwjxbxzw] has joined #mopcon
+12:21 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+12:21 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 260 seconds]
+12:22 -!- seadog007_ [~seadog007@101.11.68.141] has quit [Ping timeout: 244 seconds]
+12:27 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:27 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:29 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:29 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:30 -!- panda99 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:30 -!- AndChat|364656 [~duye@223-143-68-44.EMOME-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+12:30 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+12:30 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+12:34 -!- ifTNT_m [~ifTNT_3@122.146.229.157] has quit [Remote host closed the connection]
+12:35 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:36 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+12:37 -!- panda99 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:38 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:39 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+12:42 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:42 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:45 -!- duye [~duye@223-143-180-165.EMOME-IP.hinet.net] has joined #mopcon
+12:45 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+12:48 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+12:48 -!- AkaiLiou [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:51 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+12:51 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has joined #mopcon
+12:53 < cckai> 下午場抽手機即將展開
+12:53 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+12:54 < Mouther> 大家快去報名 lightening talk ><
+12:55 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+12:56 < cckai> 廠商攤商想要曝光的，lighting talk是絕佳機會
+12:56 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+12:57 -!- tsaiid [~tsaiid@122.146.229.157] has joined #mopcon
+12:57 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+13:01 -!- miku [~AndChat88@114-39-91-112.dynamic.hinet.net] has joined #mopcon
+13:02 < bubu> 指有拉霸畫面
+13:02 < bubu> 只
+13:03 < cckai> 手機抽獎中
+13:03 -!- AndChat|88724 [~AndChat88@221-120-2-86.EMOME-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+13:03 -!- DOFI [31dba762@gateway/web/cgi-irc/kiwiirc.com/ip.49.219.167.98] has joined #mopcon
+13:03 < cckai> 送出鴨子一隻
+13:04 < cckai> 題目，nokia手機型號是？
+13:05 -!- DOFI [31dba762@gateway/web/cgi-irc/kiwiirc.com/ip.49.219.167.98] has quit [Client Quit]
+13:06 -!- swem_ [uid27646@gateway/web/irccloud.com/x-chltwwmnreochswc] has quit [Quit: Connection closed for inactivity]
+13:08 < cckai> 刺激了
+13:08 < cckai> 拉霸抽獎
+13:09 < cckai> 第一位抽出
+13:09 -!- Denir_ [~Denir@122.146.229.149] has joined #mopcon
+13:10 -!- RickCh [df8ececf@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.206.207] has joined #mopcon
+13:10 < cckai> 抽出第二位
+13:11 < cckai> 抽出第三位
+13:11 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:12 -!- RickCh [df8ececf@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.206.207] has quit [Client Quit]
+13:12 < Guest53973> 下午4F網路很順，感謝辛苦的工作人員！！
+13:13 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:13 -!- Weijay [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:14 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:14 < cckai> 三廳議程google glass開發
+13:14 -!- Weijay [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:15 < Mouther> 一廳有爆炸嗎 ? XD
+13:15 -!- panda99 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:16 < YuCheng> 一廳正常
+13:16 -!- haha [8c783646@gateway/web/cgi-irc/kiwiirc.com/ip.140.120.54.70] has joined #mopcon
+13:17 -!- haha is now known as Guest94160
+13:18 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:19 -!- tsaiid [~tsaiid@122.146.229.157] has quit [Quit: tsaiid]
+13:20 -!- Guest94160 [8c783646@gateway/web/cgi-irc/kiwiirc.com/ip.140.120.54.70] has quit [Client Quit]
+13:20 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:21 -!- eJames [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:23 -!- eJames [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:24 < uranusjr> 我看起來倒像一塊塊綠豆糕 (?)
+13:25 < uranusjr> 對了八卦是其實 Swift 目前並沒有比 Objective-C 快, 很多地方根本慢超多
+13:29 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+13:29 -!- harryshen [270aa22a@gateway/web/cgi-irc/kiwiirc.com/ip.39.10.162.42] has joined #mopcon
+13:30 < cckai> google glass live demo中
+13:30 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+13:31 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:33 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Client Quit]
+13:35 < Mouther> LT 還剩一個名額!!
+13:36 -!- aj726 [~aj726@101.14.68.98] has joined #mopcon
+13:37 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+13:40 -!- afutseng [24e0d3cd@gateway/web/cgi-irc/kiwiirc.com/ip.36.224.211.205] has joined #mopcon
+13:42 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+13:43 -!- panda99 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:44 -!- harryshen [270aa22a@gateway/web/cgi-irc/kiwiirc.com/ip.39.10.162.42] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:44 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+13:46 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has quit [Ping timeout: 246 seconds]
+13:49 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has joined #mopcon
+13:50 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:51 -!- eosinchen [3b7f4fdd@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.79.221] has joined #mopcon
+13:54 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+13:55 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+13:56 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+13:57 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+13:59 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:00 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:00 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:00 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:01 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+14:01 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has quit [Ping timeout: 246 seconds]
+14:01 -!- jimmy0328 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:02 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:02 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+14:04 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:04 -!- Denir_ [~Denir@122.146.229.149] has quit [Ping timeout: 245 seconds]
+14:06 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:06 -!- tsaiid [~tsaiid@122.146.229.157] has joined #mopcon
+14:07 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:07 -!- uranusjr [~uranusjr@122.146.229.157] has joined #mopcon
+14:08 -!- hellomoto [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:08 < hellomoto> 請問有人知道講者的ppt在哪嗎
+14:09 -!- duye [~duye@223-143-180-165.EMOME-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+14:10 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:10 -!- duye [~duye@223-141-124-115.EMOME-IP.hinet.net] has joined #mopcon
+14:11 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:12 -!- keitheis [~keitheis@li722-205.members.linode.com] has joined #mopcon
+14:13 -!- Eason [2a446aaf@gateway/web/cgi-irc/kiwiirc.com/ip.42.68.106.175] has joined #mopcon
+14:13 -!- Eason [2a446aaf@gateway/web/cgi-irc/kiwiirc.com/ip.42.68.106.175] has quit [Client Quit]
+14:13 -!- madarame [uid28051@gateway/web/irccloud.com/x-cppzmqpaqjnffehk] has joined #mopcon
+14:13 -!- aaaaaaa [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:14 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:15 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:17 -!- EasonL [2a446aaf@gateway/web/cgi-irc/kiwiirc.com/ip.42.68.106.175] has joined #mopcon
+14:17 -!- hellomoto [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:17 -!- aj726 [~aj726@101.14.68.98] has quit []
+14:18 -!- EasonL [2a446aaf@gateway/web/cgi-irc/kiwiirc.com/ip.42.68.106.175] has quit [Client Quit]
+14:19 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:19 -!- ifTNT_m [~ifTNT_3@122.146.229.157] has joined #mopcon
+14:20 -!- AndChat|88724 [~AndChat88@221-120-4-246.EMOME-IP.hinet.net] has joined #mopcon
+14:20 -!- Tico [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:21 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:22 -!- miku [~AndChat88@114-39-91-112.dynamic.hinet.net] has quit [Ping timeout: 244 seconds]
+14:22 -!- aaaaaaa [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:22 -!- xgnid [df8e547a@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.84.122] has joined #mopcon
+14:23 -!- xgnid [df8e547a@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.84.122] has quit [Client Quit]
+14:23 -!- notered234 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:23 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:23 -!- zgnid [df8e547a@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.84.122] has joined #mopcon
+14:25 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:25 -!- zgnid [df8e547a@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.84.122] has quit [Client Quit]
+14:25 -!- notered234 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:25 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has quit [Ping timeout: 265 seconds]
+14:26 -!- Tico [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:29 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has joined #mopcon
+14:30 -!- kiang [uid25350@gateway/web/irccloud.com/x-ygdmsokqgwjxbxzw] has quit [Quit: Connection closed for inactivity]
+14:32 -!- lightshadow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:33 -!- lightshadow [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:34 -!- qqq [650b0417@gateway/web/cgi-irc/kiwiirc.com/ip.101.11.4.23] has joined #mopcon
+14:34 -!- keith222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:34 -!- qqq is now known as Guest34923
+14:35 -!- Guest34923 [650b0417@gateway/web/cgi-irc/kiwiirc.com/ip.101.11.4.23] has quit [Client Quit]
+14:38 -!- duye [~duye@223-141-124-115.EMOME-IP.hinet.net] has quit [Remote host closed the connection]
+14:39 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:43 < pcbill> [公告] 15：00依就有茶點可用
+14:43 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:44 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:44 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:44 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+14:47 -!- eosinchen [3b7f4fdd@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.79.221] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:48 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:49 < pcbill> 怎麼還沒看到女僕？
+14:53 -!- Denir_ [~Denir@122.146.229.149] has joined #mopcon
+14:54 -!- seadog007 [~seadog007@122.146.229.157] has quit [Quit: Be back later ...]
+14:54 -!- hungys [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+14:55 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:55 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:56 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+14:57 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+14:59 -!- hungys [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+15:00 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:01 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:01 -!- AndChat|88724 [~AndChat88@221-120-4-246.EMOME-IP.hinet.net] has quit [Quit: Bye]
+15:02 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:03 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:05 -!- tsaiid [~tsaiid@122.146.229.157] has quit [Quit: tsaiid]
+15:06 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:07 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+15:08 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+15:12 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:15 -!- andytwmvp [~andytwmvp@122.146.229.157] has joined #mopcon
+15:15 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has quit [Ping timeout: 246 seconds]
+15:17 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+15:17 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 256 seconds]
+15:19 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:20 -!- jserv-- [~jserv@122.146.229.149] has joined #mopcon
+15:21 -!- andytwmvp [~andytwmvp@122.146.229.157] has quit [Remote host closed the connection]
+15:22 -!- angelboy [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+15:23 < Mouther> 如果有人遺失錢包 請至4F招領
+15:24 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:24 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+15:24 -!- fivil [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+15:27 -!- Amo [8c74be5b@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.190.91] has joined #mopcon
+15:29 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has joined #mopcon
+15:29 -!- mode/#mopcon [+o ericpi] by ChanServ
+15:34 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:34 -!- WJ1990 [df8e6871@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.104.113] has joined #mopcon
+15:34 -!- Peni [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:36 -!- littleq [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:36 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+15:36 -!- littleq [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+15:37 -!- WJ1990 [df8e6871@gateway/web/cgi-irc/kiwiirc.com/ip.223.142.104.113] has quit [Client Quit]
+15:37 -!- littleq0903Cloud [sid16757@gateway/web/irccloud.com/x-rhaufcuucpvtlgxd] has joined #mopcon
+15:39 -!- seadog007 [~seadog007@122.146.229.157] has quit [Quit: Be back later ...]
+15:41 < pcbill> 好冷清
+15:41 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has joined #mopcon
+15:41 < Mouther> O_____________Q
+15:42 -!- kkpan11 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:42 < Mouther> 主持表示無聊 XDDD
+15:42 -!- ericpi [~eric@ip-203-69-67-252.kkcube.com] has quit [Ping timeout: 265 seconds]
+15:42 < pcbill> 通常 irc 就是爆八掛的好地點阿
+15:42 < Mouther> 是阿
+15:42 < Mouther> 二聽講者蠻不錯的
+15:43 < pcbill> 建樵主辦單位  建樵講者  都是在irc
+15:43 < pcbill> 哈哈
+15:43 < cckai> Lighting talking 預計下午五點於三廳舉行
+15:44 < Mouther> 還好沒有人建樵主持人 ((汗
+15:44 < keith222> 有掛掛的味道嗎xd
+15:44 < pcbill> 不知道看板娘會情歸何處
+15:45 < keith222> 價高者拿
+15:46 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:47 -!- swem_ [uid27646@gateway/web/irccloud.com/x-dwskzakkuwpjblki] has joined #mopcon
+15:48 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+15:50 < keith222> 話說想知道irc可以讀到歷史訊息嗎（初次使用irc不熟）不然reload 先前的訊息就消失了~"~
+15:51 -!- uranusjr [~uranusjr@122.146.229.157] has quit [Quit: uranusjr]
+15:51 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:51 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:52 -!- PorscheTank [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:52 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has left #mopcon []
+15:53 < PorscheTank> 請問有演講者影片嗎？
+15:53 -!- Amo [8c74be5b@gateway/web/cgi-irc/kiwiirc.com/ip.140.116.190.91] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:54 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+15:54 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:55 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:56 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+15:57 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+15:58 < seadog007> MouseMs:
+15:58 < seadog007> Mouther:
+15:58 < seadog007> 看來是我的QQ
+15:59 -!- jfiojweoifjweoif [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+15:59 -!- jfiojweoifjweoif [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+16:00 -!- seadog007 [~seadog007@122.146.229.157] has quit [Client Quit]
+16:02 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:02 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:02 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:04 -!- apple20222 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+16:04 -!- cckai [6f52f161@gateway/web/freenode/ip.111.82.241.97] has quit [Ping timeout: 246 seconds]
+16:07 -!- seadog007 [~seadog007@122.146.229.157] has joined #mopcon
+16:08 -!- ericsk [~ericsk@191.234.16.183] has joined #mopcon
+16:09 -!- ericsk [~ericsk@191.234.16.183] has left #mopcon []
+16:09 -!- seadog007 [~seadog007@122.146.229.157] has quit [Client Quit]
+16:10 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:10 -!- PorscheTank [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:12 -!- YF [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:12 -!- harryshen [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:12 -!- YF is now known as Guest73001
+16:12 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:13 -!- YuCheng [uid28221@gateway/web/irccloud.com/x-zpcqwrgjqjdwrtln] has quit [Quit: Connection closed for inactivity]
+16:13 -!- Andypig [b4d93aff@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.58.255] has joined #mopcon
+16:14 -!- seadog007_ [~seadog007@122.146.229.157] has joined #mopcon
+16:14 -!- Andypig [b4d93aff@gateway/web/cgi-irc/kiwiirc.com/ip.180.217.58.255] has quit [Client Quit]
+16:15 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+16:15 -!- Denir_ [~Denir@122.146.229.149] has quit [Read error: Connection reset by peer]
+16:15 -!- Denir_ [~Denir@122.146.229.149] has joined #mopcon
+16:16 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:18 -!- seadog007_ [~seadog007@122.146.229.157] has quit [Ping timeout: 244 seconds]
+16:18 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:20 -!- harryshen [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:21 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:21 -!- abev66 [~AndChat22@122.146.229.157] has joined #mopcon
+16:21 < pcbill> 是你的要很高興呀
+16:21 < pcbill> 怎麼會 QQ
+16:22 < pcbill> 低價購得美人歸
+16:25 -!- Guest73001 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:28 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:32 -!- FrankWu [~frankwu@122.146.229.149] has joined #mopcon
+16:33 -!- FrankWu [~frankwu@122.146.229.149] has left #mopcon []
+16:33 -!- FrankWu [~frankwu@122.146.229.149] has joined #mopcon
+16:34 -!- FrankWu [~frankwu@122.146.229.149] has quit [Client Quit]
+16:36 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:37 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:37 -!- kktt [df8c541f@gateway/web/cgi-irc/kiwiirc.com/ip.223.140.84.31] has joined #mopcon
+16:38 -!- kktt [df8c541f@gateway/web/cgi-irc/kiwiirc.com/ip.223.140.84.31] has quit [Client Quit]
+16:39 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:40 -!- angelboy [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:41 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+16:41 -!- notered234 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:42 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:43 < notered234> 今年的MOPCON一樣精采，感謝講者大大跟辛苦的工作人員<(_ _)>
+16:44 -!- dgzip [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:44 -!- dgzip [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has left #mopcon []
+16:45 -!- Guest73001 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:47 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has joined #mopcon
+16:47 < chusiang> [R2] Docker !!
+16:48 -!- keith222 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:48 < chusiang> 繼續趕場了 … :P
+16:49 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:50 < chusiang> Docker 預設不允許改 kernel 的相關參數?
+16:51 -!- Sherry [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:51 -!- Sherry [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has left #mopcon []
+16:51 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:51 < chusiang> 為了不影響原先的 Docker 環境，故建了一個 Docker in Docker。
+16:52 -!- meisheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:52 < littleq0903Cloud> 因爲 kernel 是在外面開的
+16:52 < littleq0903Cloud> 原則上 docker container 裏面動不到外面那顆 kernel
+16:53 -!- Peni [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:53 < littleq0903Cloud> 因爲 container 的概念是共用 kernel
+16:53 -!- meisheep [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+16:54 < littleq0903Cloud> https://docs.docker.com/articles/security/ 這篇有講到
+16:55 < littleq0903Cloud> R2 講者：「犯了個錯誤，不小心跑在 Host 上」
+16:55 < littleq0903Cloud> XDDDD
+16:55 -!- raphahsu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+16:55 -!- FrankWu [~frankwu@122.146.229.149] has joined #mopcon
+16:55 < littleq0903Cloud> docker in docker 的保護效果沒起作用
+16:55 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:56 -!- zeroplex___ [uid15369@gateway/web/irccloud.com/x-rkoxusrwodigycpn] has joined #mopcon
+16:56 < littleq0903Cloud> PaaS XDDD
+16:56 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has joined #mopcon
+16:56 < littleq0903Cloud> 它們就是做 dotcloud 起家的阿 XDD
+16:57 -!- Guest53973 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Client Quit]
+16:59 < zeroplex> mail
+17:00 -!- notered234 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:00 < chusiang> MOPCON 2014 的 lighting talk 即將開始，大家準備好了嗎？ XDD
+17:00 < chusiang> #mopcon
+17:06 -!- Guest73001 [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:07 -!- pcbill [7a92e59d@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.157] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:07 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:09 -!- abev66 [~AndChat22@122.146.229.157] has quit [Ping timeout: 265 seconds]
+17:13 < zeroplex> 借到沒電的筆電 XD
+17:14 < chusiang> cool
+17:14 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has quit [Quit: leaving]
+17:14 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has joined #mopcon
+17:14 < zeroplex> 不愧是牛肉君
+17:16 < chusiang> 2m
+17:17 < chusiang> 1.5m
+17:17 < chusiang> 1rt pass
+17:17 < chusiang> 1st pass
+17:18 < chusiang> --- 2nd ----
+17:18 < chusiang> 4m
+17:20 < chusiang> 2m
+17:21 < chusiang> 倒數 1:30
+17:21 < chusiang> 2nd pass
+17:22 < chusiang> --- 4th ----
+17:23 -!- raphahsu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:24 < chusiang> 倒數 3:00
+17:25 < chusiang> 倒數 2:30
+17:25 < chusiang> 倒數 1:30
+17:26 < chusiang> 4th pass
+17:29 < chusiang> 倒數 2:00
+17:37 < zeroplex> 柯 P 不只可以當醫師也可以當工程師 XD
+17:40 -!- FrankWu [~frankwu@122.146.229.149] has quit [Quit: My Mac has gone to sleep. ZZZzzz…]
+17:43 -!- FrankWu [~frankwu@122.146.229.149] has joined #mopcon
+17:43 -!- winter___ [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+17:43 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+17:44 -!- ifTNT_m [~ifTNT_3@122.146.229.157] has quit [Remote host closed the connection]
+17:46 -!- ifTNT_m [~ifTNT_3@122.146.229.157] has joined #mopcon
+17:47 < chusiang> PyCon !!
+17:47 < zeroplex> mail
+17:47 -!- Johnny [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+17:47 < chusiang> 想去!!
+17:47 < zeroplex> Jserv 很快
+17:47 -!- Johnny is now known as Guest14182
+17:48 < Guest14182> XD
+17:48 -!- Mouther_ [uid25670@gateway/web/irccloud.com/x-ukykrozmsifkkuba] has joined #mopcon
+17:49 < Mouther_> 天大地大台科大
+17:49 < chusiang> 2
+17:49 < chusiang> m
+17:50 < chusiang> coder.tw !!!
+17:50 < Mouther_> 怎麼連 LT 都如此冷清 Q
+17:50 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:50 -!- WanJen [uid44305@gateway/web/irccloud.com/x-nuumwktrgurydxla] has joined #mopcon
+17:51 < chusiang> Mouther_: 因為沒有 cc XDD
+17:52 -!- winter___ [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:52 < Mouther_> 現在才發現是 楚翔 XDDD
+17:52 -!- linroex [~linroex@122.146.229.149] has joined #mopcon
+17:53 < chusiang> Mouther_ 您是？
+17:53 < Mouther_> 我智豪
+17:53 < chusiang> AWS 沒 slides ? XD
+17:53 < chusiang> XDD
+17:54 -!- gg [df8ab5c2@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.181.194] has joined #mopcon
+17:54 < Mouther_> （哈欠
+17:55 < chusiang> 成了 lighting talk 最受注目的人，因為手拿計數器 XDDD  <-----
+17:55 < zeroplex> Mouther_: AWS 開 EC2很快啊，開著一千台
+17:55 < Mouther_> 有沒有不能拔投影幕的八卦 XDD
+17:56 -!- swem_ [uid27646@gateway/web/irccloud.com/x-dwskzakkuwpjblki] has quit [Quit: Connection closed for inactivity]
+17:57 < chusiang> 為了 lighting talk 特別換了 T410 上陣！
+17:57 < chusiang> toga!!
+17:58 < Mouther_> 哼 我就是想要用 html 寫 app
+17:58 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+17:58 < chusiang> 今年 MOPCON 把欠 PyCon 的債都還了！  #jserv--
+17:59 < superbil> Toga!
+18:00 -!- gg [df8ab5c2@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.181.194] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:01 < chusiang> 如果可以的話就留下來吧！
+18:02 < chusiang> 成大某主任的小故事 XS
+18:03 < chusiang> 成大提供創業的機會！
+18:03 < zeroplex> Jserv 鐵青關係 XDDD
+18:03 < zeroplex> s/鐵青/撇清/
+18:03 -!- Luxun [uid13676@gateway/web/irccloud.com/x-bshvmvydbgckoqzd] has quit [Quit: Connection closed for inactivity]
+18:04 < chusiang> 如果可以的話就留下來吧！  <---- 超感人！
+18:05 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+18:05 -!- Guest14182 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:06 -!- kkpan11 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+18:07 < Mouther_> %s/留下來/跟我走/g
+18:07 -!- gg [df8ab5c2@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.181.194] has joined #mopcon
+18:07 -!- gg [df8ab5c2@gateway/web/cgi-irc/kiwiirc.com/ip.223.138.181.194] has quit [Client Quit]
+18:07 < zeroplex> https://github.com/kuastw
+18:07 < chusiang> Lighting Talk END
+18:08 < chusiang> %s/留下來/跟我走/g +++
+18:08 < chusiang> %s/留下來/跟我走/g  --->  如果可以的話就跟我走吧！
+18:09 < chusiang> MOPCON 2014 END ing
+18:11 -!- jimmy0328 [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:12 -!- Denir_ [~Denir@122.146.229.149] has quit [Ping timeout: 240 seconds]
+18:15 < zeroplex> 工作人員辛苦了
+18:15 -!- linroex [~linroex@122.146.229.149] has quit []
+18:15 -!- FrankWu [~frankwu@122.146.229.149] has quit [Quit: My Mac has gone to sleep. ZZZzzz…]
+18:16 -!- raphahsu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has joined #mopcon
+18:16 -!- angelboy [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:17 -!- raphahsu [7a92e595@gateway/web/cgi-irc/kiwiirc.com/ip.122.146.229.149] has quit [Client Quit]
+18:19 -!- chusiang [~jonny@223-142-245-241.EMOME-IP.hinet.net] has quit [Ping timeout: 272 seconds]
+18:20 -!- jserv-- [~jserv@122.146.229.149] has quit [Ping timeout: 244 seconds]
+18:24 -!- ifTNT_m [~ifTNT_3@122.146.229.157] has quit [Ping timeout: 240 seconds]
+18:41 -!- ygtw [df8bdbac@gateway/web/cgi-irc/kiwiirc.com/ip.223.139.219.172] has joined #mopcon
+18:50 -!- ygtw [df8bdbac@gateway/web/cgi-irc/kiwiirc.com/ip.223.139.219.172] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+19:00 -!- tsaiid [~tsaiid@host-219-68-1-238.static.kbtelecom.net] has joined #mopcon
+19:00 -!- tsaiid [~tsaiid@host-219-68-1-238.static.kbtelecom.net] has quit [Client Quit]
+19:03 -!- bubu [uid41224@gateway/web/irccloud.com/x-gqypaveufbkxnsyg] has quit [Quit: Connection closed for inactivity]
+19:04 -!- zeroplex___ [uid15369@gateway/web/irccloud.com/x-rkoxusrwodigycpn] has quit [Quit: Connection closed for inactivity]
+19:05 -!- Denir [~Denir@221-120-4-163.EMOME-IP.hinet.net] has quit [Ping timeout: 245 seconds]
+19:06 -!- Denir [~Denir@221-120-68-246.EMOME-IP.hinet.net] has joined #mopcon
+19:12 -!- pcchou_ [uid39814@gateway/web/irccloud.com/x-uxrkdbpmyjxfzjtr] has quit [Quit: Connection closed for inactivity]
+19:21 -!- Denir [~Denir@221-120-68-246.EMOME-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+19:21 -!- Denir [~Denir@221-120-69-93.EMOME-IP.hinet.net] has joined #mopcon
+19:33 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has joined #mopcon
+19:34 -!- Guest53973 [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has joined #mopcon
+19:40 -!- A123 [6fff484f@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.72.79] has joined #mopcon
+19:40 -!- A123 [6fff484f@gateway/web/cgi-irc/kiwiirc.com/ip.111.255.72.79] has quit [Client Quit]
+19:46 -!- Denir [~Denir@221-120-69-93.EMOME-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+19:48 -!- Denir [~Denir@221-120-69-93.EMOME-IP.hinet.net] has joined #mopcon
+20:05 -!- WanJen [uid44305@gateway/web/irccloud.com/x-nuumwktrgurydxla] has quit [Quit: Connection closed for inactivity]
+20:09 -!- pcchou_ [uid39814@gateway/web/irccloud.com/x-jypbbuqmkhpdklqu] has joined #mopcon
+20:10 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+20:15 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has joined #mopcon
+20:27 -!- Mouther_ [uid25670@gateway/web/irccloud.com/x-ukykrozmsifkkuba] has quit [Quit: Connection closed for inactivity]
+20:33 -!- madarame [uid28051@gateway/web/irccloud.com/x-cppzmqpaqjnffehk] has quit [Quit: Connection closed for inactivity]
+20:34 -!- d0gm4n [uid38259@gateway/web/irccloud.com/x-kszfxywtcxdkljzv] has joined #mopcon
+20:35 -!- swem_ [uid27646@gateway/web/irccloud.com/x-isqopseeygapppzc] has joined #mopcon
+20:39 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+20:41 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has joined #mopcon
+20:42 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has quit [Client Quit]
+20:43 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has joined #mopcon
+20:44 -!- seadog007 [~seadog007@220-143-76-137.dynamic.hinet.net] has joined #mopcon
+20:45 -!- Guest53973 [8c7f7249@gateway/web/cgi-irc/kiwiirc.com/ip.140.127.114.73] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+20:49 -!- Denir [~Denir@221-120-69-93.EMOME-IP.hinet.net] has quit [Ping timeout: 258 seconds]
+20:52 -!- pcchou1 [~pcchou@118-166-156-193.dynamic.hinet.net] has joined #mopcon
+20:53 -!- d0gm4n_ [uid38259@gateway/web/irccloud.com/x-pghiuoybngsoxmvm] has joined #mopcon
+20:54 -!- jksonc_ [sid13988@gateway/web/irccloud.com/x-rynnklptkdxbapvm] has joined #mopcon
+20:54 -!- d0gm4n [uid38259@gateway/web/irccloud.com/x-kszfxywtcxdkljzv] has quit [Ping timeout: 260 seconds]
+20:54 -!- jksonc [sid13988@gateway/web/irccloud.com/x-gupkouqaqdgzswbp] has quit [Ping timeout: 260 seconds]
+20:54 -!- pcchou [~pcchou@118-166-156-193.dynamic.hinet.net] has quit [Ping timeout: 260 seconds]
+20:54 -!- d0gm4n_ is now known as d0gm4n
+20:54 -!- pcchou1 is now known as pcchou
+20:57 -!- jksonc_ is now known as jksonc
+20:58 -!- aweimeow [3b7f5be1@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.91.225] has joined #mopcon
+21:00 -!- aweimeow [3b7f5be1@gateway/web/cgi-irc/kiwiirc.com/ip.59.127.91.225] has quit [Client Quit]
+21:28 -!- Guest73001 [8c822341@gateway/web/cgi-irc/kiwiirc.com/session] has joined #mopcon
+21:29 -!- seadog007_ [~seadog007@220-143-76-137.dynamic.hinet.net] has joined #mopcon
+21:30 -!- elehsiang [~kvirc@host-61-70-147-54.static.kbtelecom.net] has quit [Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/]
+21:38 -!- Netsplit *.net <-> *.split quits: seadog007, afutseng
+21:52 -!- FrankWu [~frankwu@101.11.64.216] has joined #mopcon
+21:55 -!- Guest73001 [8c822341@gateway/web/cgi-irc/kiwiirc.com/session] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+21:58 -!- 20WAABY1X [722f054d@gateway/web/cgi-irc/kiwiirc.com/ip.114.47.5.77] has joined #mopcon
+22:00 -!- lafin [uid44779@gateway/web/irccloud.com/session] has joined #mopcon
+22:02 -!- FrankWu [~frankwu@101.11.64.216] has quit [Quit: Textual IRC Client: www.textualapp.com]
+22:04 -!- YuCheng [uid28221@gateway/web/irccloud.com/session] has joined #mopcon
+22:08 -!- lafin [uid44779@gateway/web/irccloud.com/session] has quit [Changing host]
+22:08 -!- lafin [uid44779@gateway/web/irccloud.com/x-swqpnyhpwfwvnver] has joined #mopcon
+22:08 -!- YuCheng [uid28221@gateway/web/irccloud.com/session] has quit [Changing host]
+22:08 -!- YuCheng [uid28221@gateway/web/irccloud.com/x-imnumqsrxmqhhrev] has joined #mopcon
+22:08 -!- WOW [72274faf@gateway/web/cgi-irc/kiwiirc.com/session] has joined #mopcon
+22:08 -!- WOW [72274faf@gateway/web/cgi-irc/kiwiirc.com/session] has quit [Changing host]
+22:08 -!- WOW [72274faf@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.79.175] has joined #mopcon
+22:08 -!- WOW is now known as Guest76196
+22:08 -!- Guest76196 [72274faf@gateway/web/cgi-irc/kiwiirc.com/ip.114.39.79.175] has quit [Client Quit]
+22:10 -!- sadasd [dc86cb9f@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.203.159] has joined #mopcon
+22:11 -!- sadasd [dc86cb9f@gateway/web/cgi-irc/kiwiirc.com/ip.220.134.203.159] has quit [Client Quit]
+22:19 -!- 20WAABY1X [722f054d@gateway/web/cgi-irc/kiwiirc.com/ip.114.47.5.77] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+22:33 -!- frpxtw [01ae1d01@gateway/web/cgi-irc/kiwiirc.com/ip.1.174.29.1] has joined #mopcon
+22:34 -!- tsaiid [~tsaiid@host-219-68-1-238.static.kbtelecom.net] has joined #mopcon
+22:34 -!- littleq0903Cloud [sid16757@gateway/web/irccloud.com/x-rhaufcuucpvtlgxd] has quit [Ping timeout: 244 seconds]
+22:35 -!- othree_____ [sid16133@gateway/web/irccloud.com/x-yxsifivbyvkevgkk] has quit [Ping timeout: 265 seconds]
+22:36 -!- frpxtw [01ae1d01@gateway/web/cgi-irc/kiwiirc.com/ip.1.174.29.1] has quit [Client Quit]
+22:37 -!- tsaiid [~tsaiid@host-219-68-1-238.static.kbtelecom.net] has quit [Client Quit]
+22:40 -!- d0gm4n [uid38259@gateway/web/irccloud.com/x-pghiuoybngsoxmvm] has quit [Quit: Connection closed for inactivity]
+22:47 -!- WanJen [uid44305@gateway/web/irccloud.com/x-nfxhduurhorakjne] has joined #mopcon
+23:04 -!- jimmy0328 [721bb158@gateway/web/cgi-irc/kiwiirc.com/ip.114.27.177.88] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:12 -!- ericpi [~eric@host-219-69-80-49.static.kbtelecom.net] has joined #mopcon
+23:12 -!- mode/#mopcon [+o ericpi] by ChanServ
+23:12 -!- seadog007_ is now known as seadog007
+23:14 -!- pcbill [73a5d7c8@gateway/web/cgi-irc/kiwiirc.com/ip.115.165.215.200] has joined #mopcon
+23:17 -!- AkaiLiou [8c75dd21@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.221.33] has joined #mopcon
+23:17 -!- AkaiLiou [8c75dd21@gateway/web/cgi-irc/kiwiirc.com/ip.140.117.221.33] has quit [Client Quit]
+23:25 -!- apple [7de7adae@gateway/web/cgi-irc/kiwiirc.com/ip.125.231.173.174] has joined #mopcon
+23:25 -!- apple is now known as Guest22143
+23:25 -!- Guest22143 [7de7adae@gateway/web/cgi-irc/kiwiirc.com/ip.125.231.173.174] has quit [Client Quit]
+23:40 -!- pcbill [73a5d7c8@gateway/web/cgi-irc/kiwiirc.com/ip.115.165.215.200] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:43 -!- Peni [7068708e@gateway/web/cgi-irc/kiwiirc.com/ip.112.104.112.142] has joined #mopcon
+23:45 -!- Peni [7068708e@gateway/web/cgi-irc/kiwiirc.com/ip.112.104.112.142] has quit [Client Quit]
+23:52 -!- othree_____ [sid16133@gateway/web/irccloud.com/x-mpsidddhuydooggl] has joined #mopcon
+23:55 -!- littleq0903Cloud [sid16757@gateway/web/irccloud.com/x-yjlaxkqmvvvsjtzr] has joined #mopcon
+--- Log closed Mon Oct 27 00:00:29 2014
