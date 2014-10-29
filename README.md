@@ -21,7 +21,7 @@ http://coscup.org
 
 http://hitcon.org
 
-- [2014 Enterprise](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2014-ent.log), [2014 Playground](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2014-plg.log), 
+- [2014 Enterprise](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2014-ent.log), [2014 Playground](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2014-plg.log)
 - [2013](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2013.log)
 - [2012](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2012.log)
 
