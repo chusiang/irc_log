@@ -16,7 +16,7 @@ http://coscup.org
 - [2013](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2013.log)  #Logbot: [Day1](http://logbot.g0v.tw/channel/coscup/2013-08-03), [Day2](http://logbot.g0v.tw/channel/coscup/2013-08-04)
 - [2012](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2012.log), [HTML](http://ig.deep.tw/coscup.log.html)
 - [2011](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2011.log)
-- [2010](http://blog.coscup.org/2010/08/blog-post_12.html) #Engadget: [R0](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room1/), [R1](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room2/), [R2](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room3/), [R3](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room4/)
+- [2010](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2010.log) #Engadget: [R0](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room1/), [R1](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room2/), [R2](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room3/), [R3](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room4/)
 
 ### HITCON (台灣駭客年會)
 
