@@ -17,6 +17,8 @@ http://coscup.org
 - [2012](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2012.log), [HTML](http://ig.deep.tw/coscup.log.html)
 - [2011](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2011.log)
 - [2010](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2010.log) #Engadget: [R0](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room1/), [R1](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room2/), [R2](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room3/), [R3](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room4/)
+- 2009
+- 2008
 
 ### HITCON (台灣駭客年會)
 
@@ -49,6 +51,7 @@ http://osdc.tw
 - [2013](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2013.log)
 - [2012](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2012.log)
 - [2011](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2011.log)
+- 2010
 
 ### PHPConf Taiwan
 
