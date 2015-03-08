@@ -1,0 +1,4817 @@
+--- Day changed Sat Mar 07 2015
+00:18 < mmis1000> no[$ne]=zzzz 這樣
+00:21 < mmis1000> express預設的querystring parser會展開物件
+00:21 < mmis1000> Takeshi_tw:
+00:21 < mmis1000> 上面那個會被展開成 no = {$ne : zzzz}
+00:33 < seadog007> mmis1000: 直接丟PR啦
+00:39 < mmis1000> 要出門去了說...正準備整理東西
+01:29 < testttt> hihi
+01:30 < testttt> hi
+01:34 < jeremy5189> hello
+01:38 < carylorrk>     /set irc.server.freenode.autojoin
+01:38 < carylorrk> 哎...不小心按到XD
+01:52 < seadog007_> mmis1000: 夜車喔~
+01:52 < mmis1000> 恩阿
+01:52 < ZeroMu> 早安
+01:52 < ZeroMu> 要衝明天6.30第一班捷運得ww
+01:52 < mmis1000> 現在2點耶!?
+01:53 < ZeroMu> 不睡了（＃
+01:53 < mmis1000> 我打坐做3點的車出發
+01:53 < seadog007> 喔
+01:53 < seadog007> 快排完了~
+01:53 < mmis1000> 然後現在還在這邊混(#
+01:54 < seadog007> Seat系統好像掛了Orz
+01:54 < mmis1000> 是維護中根本沒開歐
+01:54 < seadog007> 嗚嗚嗚
+01:54 < seadog007> 看來LT不能投了(y)
+01:54 < seadog007> 一直噴504啊....
+01:58 < ZeroMu> <p>
+01:58 < ZeroMu>                                 興趣<br />
+01:58 < ZeroMu>                                 封包分析 / HTML5 撰寫 / 網站前台設計 / 硬體亂搞 / 開源社群<br />
+01:58 < ZeroMu> 啊
+01:59 < ZeroMu> 不小心點到..貼上
+01:59 < testttt> 0.0
+01:59 < ZeroMu> 我在寫我的html5 xD
+02:05 < dannyAAM> 只好來求救一下惹 誰有PSV 1k型的 帶個傳輸線借我啊 不然撐不回家啦(?
+02:12 < testttt> 0.0
+02:12 < testttt> 該來睡覺啦
+02:13 < testttt> 原本要來玩irc bot
+02:13 < testttt> 結果nodejs的api一直抓不下來
+02:45 < iblis17> irc bot 的問題解完了 睡覺
+02:45 < iblis17> seadog007: 我也沒有 seat 的權限
+03:08 < fntsrCloud> ._.
+03:24 < confbot> <fntsrlike>: Test
+07:13 < pcchou> 各位大家早安啊!
+07:36 < small_R> 安安
+07:36 < small_R> 準備買早餐出門囉
+08:14 < paraselene>  大家早啊
+08:24 < limao> 早安
+08:29 < small_R_> hi
+08:41 < Fire37485883> Hi
+08:51 < pcchou> 求幫忙協尋海豹
+08:56 < Hinet60613> Morning, guys!
+08:58 < ZeroMu> 已搶R0(?
+08:59 < fishlover> HI HI 我是新人XD
+08:59 < toppy368> 不曉得頭像怎麼設定
+08:59 < pcchou> http://seat.sitcon.org/
+08:59 < OtomeSound> 大家早安（Server被重開了QQ）
+08:59 < pcchou> toppy368: /msg SITCON_BOT setGravatar [email]
+08:59 < pcchou> 請去註冊 gravatar
+08:59 < gogomaget> gravatar
+09:00 < CASIO> HELLO
+09:00 < fishlover> 早安安~
+09:00 < toppy368> IRC改電子郵件名稱 ?
+09:00 < CASIO> 要怎麼知道座位編號是多少啊@@
+09:01 < BobbyHo> 用算的吧
+09:01 < fishlover> 座位前面好像有一張紅貼紙
+09:01 < fishlover> 那個寫的是座位號碼??
+09:02 < CASIO> 直接點座位就會跳出編號了(剛剛試了一下)
+09:03 < toppy368> 頭像還是黑的XD
+09:03 < hrj> 大家安安
+09:03 < toppy368> 安安
+09:03 < spyf_> Hrj欸
+09:03 < Nura> 大家安安^^
+09:04 < dannyAAM> OWO
+09:04 < chihhsin> hello
+09:04 < yunchen> hi :p
+09:04 < dannyAAM> QQ 後面沒座位表啦
+09:04 < OtomeSound> 中文輸入測試(咦?)
+09:05 < chih> 大家安安
+09:05 < Sean_Phone> 安
+09:05 < FinderAZ> 座位表被搶走了(T_T)
+09:05 < Joehuang> Hi
+09:05 < seadog007> 沒什麼用座位表QQ
+09:05 < seadog007> FinderAZ: 蓋掉就好
+09:05 < Fire37485883> 安安 幾歲 住哪 給弄嗎？
+09:05 < spyf> 表示不會換頭像
+09:05 < hrj> 座位表等等會大亂鬥了 XD
+09:05 < OtomeSound> 有些座位為何黑黑的@@
+09:05 < seadog007> 有些是測試資料
+09:06 < dannyAAM> 頭像就複製貼上啊
+09:06 < pohchen_> 安安
+09:06 < pcchou> seadog007: 剛剛砍過了
+09:06 < pastleo> 座位表在哪ㄎㄎ
+09:06 < dannyAAM> 要有Gravatar
+09:06 < seadog007> OtomeSound: 沒有設置頭像
+09:06 < paper> hello world
+09:06 < AndroUser> 我要大便
+09:06 < seadog007> pcchou: 沒有
+09:06 < seadog007> 我手動清掉了前半部
+09:06 < OtomeSound> 大亂鬥是指黃色的飛來飛去嗎(?)
+09:06 < seadog007> www
+09:07 < CASIO> 第一會議室裡扣除工作人員大約只有20人XD
+09:07 < AndroUser> 邊邊
+09:10 < small_R_> wifi掛了？
+09:12 < pcchou> wifi掛啊QQ
+09:12 < pcchou> 現在才回來
+09:12 < LegBone> wifi剛剛掛了嗎QAQ?
+09:12 < pcchou> s/回來//
+09:12 < mmis1000_bot> pcchou 的意思是： 現在才
+09:13 < Kudo> 掛了
+09:13 < pcchou> 對哄 我改連3G了
+09:13 < AndroUser> 現在已經開始了嗎？
+09:13 < pcchou> 開始了
+09:13 < mmis1000_cloud> Destination unreachable
+09:14 < dannyAAM> 怒連AS_Guest
+09:14 < small_R_> 請不要私開ap 感謝
+09:14 < pcchou> small_R_: USB往卡
+09:15 < nightfeather>  ' A')
+09:15 < Benyi_> 無線網路是不是炸掉了啊
+09:15 < mabinogi80503> Test
+09:15 < christinesfkao> ^^
+09:15 < small_R_> yes
+09:15 < chih> 請問一下要怎麼改名字
+09:15 < small_R_> ./nick
+09:16 < chih> ./nick
+09:16 < alex_lu>  /nick
+09:16 < small_R_> 去.
+09:16 < mabinogi80503>   我中文測試
+09:16 < nightfeather> ¨S®y¦ìQQ
+09:16 < human_whale> 嗚嗚 沒有中文暱稱
+09:16 < Dreamer_> 哈摟
+09:16 < small_R_> hi
+09:16 < IGA> Hi
+09:16 < gogopower> HI
+09:16 < Dreamer_> hi~
+09:16 < hector_> 只能用英文吧！
+09:17 < Guest4268> HI
+09:17 < buck5060> Yo
+09:17 < pcchou> welcome back
+09:17 < nightfeather> 測試
+09:17 < Guest4268> ./nick TDs
+09:17 < paraselene> gogopower: 剛剛是你在門口插點對不對XD
+09:17 < mabinogi80503> 音響好大聲啊www
+09:17 < Jyny_> YO
+09:17 < BobbyHo> 剛剛網路斷惹@@
+09:17 < david111014> 終於有wifi了
+09:17 < Iven> HELLO
+09:17 < OtomeSound> 還以為會音效loop(?)
+09:17 < nightfeather> Windows 內建輸入法在輸入框會跳亂碼......
+09:17 < hector_> IRX新手可參考https://github.com/g0v/dev/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-IRC
+09:18 < Kevinchang> 改好了感謝樓上的大大
+09:18 < paraselene> 上面的地圖好像是ingress的地圖（大誤
+09:18 < LegBone> O_O
+09:18 < gogopower> 是我XD
+09:18 < small_R_> 有沒有ingress綠軍
+09:18 < IGA> 綠軍++
+09:18 < paraselene> +
+09:18 < gogopower> 綠軍++
+09:18 < LegBone> 有沒有藍軍!!
+09:19 < small_R_> XDD
+09:19 < dannyAAM> WIFI還是連不上 DHCP拿不到 只好繼續用AS_Guest
+09:19 < jefferysac> 綠軍
+09:19 < dannyAAM> 藍軍//
+09:19 < jefferysac> xd
+09:19 < Lorex> 284ur8 yl3//
+09:19 < Lorex> 大家早//
+09:19 < jefferysac> 開打！！XDDD
+09:19 < pcchou> Lorex: 安安
+09:19 < Lorex> W
+09:19 < mudream> @@
+09:19 < Lorex> 會場網路是不是掛惹
+09:19 < pcchou> y
+09:20 < small_R_> 是的
+09:20 < Lorex> 那大家是怎麼上線的 (((抖
+09:20 < Kevinchang> 只好用自己的4G了
+09:20 < AmoChen> 藍軍～
+09:20 < paraselene> 有在維修吧？
+09:20 < jefferysac> 這種時候自備就是優勢
+09:20 < IGA> 4G連線中w
+09:20 < Lorex> 3G
+09:20 < alex_lu> 4G++
+09:20 < Huang> 用自己手機網路
+09:20 < Guest4268> 3G
+09:20 < coin3x> Lorex, Hi~
+09:20 < Lorex> 嗨XD
+09:20 < Lorex> 你在哪XD
+09:21 < paraselene> 3G +藍芽pan
+09:21 < Lorex> 好多人斷線W
+09:21 < Lorex> 我是3G + USB
+09:21 < Hinet60613> 中研院有AS_Guest，可以用TANet帳號登入~
+09:21 < dannyAAM> AS_Guest
+09:21 < coin3x> Lorex, 我沒去 OAO
+09:21 < Lorex> 原來如此
+09:21 < Lorex> 鋪
+09:21 < dannyAAM> 用手機的 用wifi啊 請USB啊www
+09:21 < dannyAAM> 別用wifi
+09:21 < Lorex> USB好用
+09:21 < Lorex> COC有規定不能開AP
+09:21 < Zih> 網路維修中(´･_･`)
+09:22 < r0_small_R> 不要開ap啊啊啊
+09:22 < Lorex> 開場15分鐘就被黑了嗎 ˊ__>ˋ
+09:22 < dannyAAM> 其實剛剛進來忘了要關AP XDD 公車上修東西在用www
+09:22 < tom83615> 3g 4g 最好用 每年都這樣
+09:22 < paraselene> 用藍芽就不算ap了～～～（大誤
+09:22 < dannyAAM> 藍芽還行啦 不過很慢啊
+09:22 < Lorex> W
+09:22 < seadog007_c> 網路....
+09:22  * human_whale  變胖了
+09:22 < alex_lu> 藍牙不也是2.4Ghz?
+09:22 < Lorex> 用USB阿
+09:23 < Lorex> 講到DDOS了
+09:23 < human_whale> 一車人員又要抵達會場了
+09:23 < seadog007_c> 沒有吃到飽的路過
+09:23 < Lorex> WWWW 聽說學術型今天會到
+09:23 < SCWhite> yo~
+09:23 < Benyi> 網路是不是好糟啊
+09:23 < r0_small_R> hi
+09:23 < Lorex> 嗯啊
+09:23 < seadog007_c> http://seat.sitcon.org
+09:23 < dannyAAM> 藍芽是2.4G沒錯啊 但對wifi干擾小不少
+09:24 < dannyAAM> 至少比USB3.0少 XD
+09:24 < Hinet60613> 學術型駭客今天會到? w
+09:24 < LionBug> 直接連中研院的～～“
+09:24 < Lorex> 聽說會到
+09:24 < pcchou> 學術型!?
+09:24 < paraselene> 其實是因為nokia沒有熱點aaa
+09:24 < jefferysac> 學術行？
+09:25 < rail02000> R2的連播出現了
+09:25 < Guest30422> _
+09:25 < gundam> 學術型？
+09:25 < jefferysac> 不對，現在改成心靈行了
+09:25 < pcchou> XDD
+09:25 < pcchou> Mind Hacker
+09:25 < Lorex> 學術心靈型
+09:25 < aweimeow> QQ R1的聯播還是沒有
+09:25 < paraselene> (笑
+09:25 < pcchou> (笑
+09:25  * darkx 大家早安 w
+09:25 < Lorex> ㄎㄎ，就叫你們來R0
+09:25 < SCWhite> 學術心靈型是什麼啦XDD
+09:25 < Hinet60613> www
+09:25 < jefferysac> 拆完TDOH接著是SITCON?!
+09:25 < Lorex> 早安W
+09:25 < Lorex> 居然嗎W
+09:26 < GCWS> Morning guys!!!
+09:26 < paraselene> Tdoh大食團～～
+09:26 < rail02000> 應該請學術型報閃電秀(大誤
+09:26 < jefferysac> hr*表示：只好大食團。
+09:26 < Hinet60613> 不知道學術型看到閃電秀上有人酸他會怎樣w
+09:26 < seadog007_c> 吃吃吃
+09:26 < Moonslight> 嗨嗨 !
+09:26 < jefferysac> 會被架走吧？
+09:26 < Benyi> 為什麼網路炸掉了啊啊啊
+09:26 < seadog007_c> Hinet60613: CoC 酸不得
+09:27 < seadog007_c> Benyi: ++
+09:27 < pcchou> http://seat.sitcon.org/  全空QQ
+09:27 < IGA> 學術型w
+09:27 < jefferysac> 樓上上海報？
+09:27 < dannyAAM> 無線都沒網路啊ㄚㄚㄚㄚㄚㄚㄚ
+09:27 < toby123456789> test
+09:27 < dannyAAM> 雖然有限應該有啦www
+09:28 < rail02000> R2又卡了
+09:28 < jefferysac> test success
+09:28 < FinderAZ> 只能連自己的AP了 >W<
+09:28 < rail02000> R2又回來了www
+09:28 < pcchou> 請勿私架WiFi AP
+09:28 < paraselene> 不能開ap阿
+09:28 < toby123456789> return 0;
+09:28 < Iven> 話說是不是有座位表板的互動式聊天室?
+09:28 < gogopower> USB 好東西._.
+09:29 < FinderAZ> USB
+09:29 < Dreamer_> 好像有
+09:29 < paraselene> Oeange出現了
+09:29 < pcchou> Iven: 就是這裡
+09:29 < toby123456789> https://seat.sitcon.org/r0
+09:29 < Hinet60613> 座位表 seat.sitcon.org
+09:29 < Orange__> 抖抖
+09:29 < dannyAAM> 手機請別開WIFI分享啊!
+09:29 < Iven> 如何進去?
+09:29 < nightfeather> 沒在虛擬機上用過中文 被預設 locale 表了
+09:29 < Moonslight> 先跪再說
+09:29 < pcchou> http://seat.sitcon.org/   請填寫~
+09:29 < r0_small_R> 已填
+09:29 < Huang_Kou> 實體網路線也沒用
+09:29 < pcchou> Iven: 在這裡說話 座位表就會有喔
+09:29 < BobbyHo> Wifi斷斷續續...
+09:29 < nightfeather> 預設 pt_BR.UTF-8 是怎樣的概念.....
+09:30 < Orange__> @@!
+09:30 < BobbyHo> 感覺是中研院GG
+09:30 < Hinet60613> Orange出現啦 (抖抖
+09:30 < r0_small_R> 怒用中研院wifi
+09:30 < meisheep> try AS_GUEST?
+09:30 < mudream> \/OwO/
+09:30 < dannyAAM> 中研GG嗎 但AS_Guest很正常啊www
+09:30 < BobbyHo> AS_Guest剛剛測也是GG
+09:30 < DanSnow> 網路發生了什麼事啊
+09:31 < toby123456789> seadog007:seadog007
+09:31 < BobbyHo> 整個大斷線，我還以為這邊的資訊宅會崩潰www
+09:31 < ZeroMu> 5g可以順利連線
+09:31 < CASIO> 網路回來惹
+09:31 < BobbyHo> 我都連5G啊
+09:31 < paraselene> 5g ok
+09:31 < seadog007_c> ZeroMu: 這裡5G不太可以....
+09:31 < aweimeow> AS_Guest不是還活著嗎 (?)
+09:31 < chihhsin> 剛剛都拿不到 IP @_@
+09:31 < darkx> IRC 還是用國外機器連 freenode 吧 lol
+09:31 < Hinet60613> AS_Guest ++
+09:31 < fishlover> 終於連上了XD
+09:31 < seadog007_c> AS_Guest比較穩
+09:31 < BobbyHo> 現在全面恢復了...
+09:31 < meisheep> 我反而連不上5g 但AS_GUEST可
+09:31 < darkx> chihhsin: 你也有來?
+09:31 < UnciaX> R1好像有兩個聲道?
+09:31 < seadog007_c> 5G連不上++
+09:31 < ZeroMu> 然後staff應該也正常（？
+09:31 < paraselene> As guest 是可以用校際漫遊嗎
+09:31 < seadog007_c> 拿不到IP
+09:32 < HearSilent> 網路終於活了 QQ
+09:32 < seadog007_c> AS_Guest可以用iTaiwan啊
+09:32 < HearSilent> As guest 可以申請訪客登入
+09:32 < chihhsin> darkx: 我剛剛在捷運南港站看到你下車 XD
+09:32 < CASIO> R1的聲道怪怪的，好像是現場音+直播音都進來了
+09:32 < nightfeather> AS_Guest 穩的要命 rrrrrr
+09:32 < fishlover> 遠傳的3G竟然沒訊號！！！
+09:32 < darkx> chihhsin: 工工工ｴｴｴｴｴｴｪｪｪｪｪｪ(ﾟДﾟ)ｪｪｪｪｪｪｴｴｴｴｴｴ工工工
+09:32 < Astar> 終於rrrr
+09:32 < Hinet60613> 忘記帶網路線真是悲劇
+09:32 < LionBug> 有人MIC沒關掉
+09:32 < chihhsin> XD
+09:32 < WilliamSnail> hi
+09:32 < tony_> hi
+09:32  * darkx 大驚
+09:32 < aweimeow> R1的聲音 QQ
+09:32 < shih> hi
+09:32 < toby123456789> gg
+09:32 < ZeroMu> 在r0很正常的（？
+09:32 < BobbyHo> 種花還有3個XD
+09:32 < HearSilent> 這裡AP蓋大廈
+09:32 < nightfeather> 沒網路孔可以用真是悲劇......
+09:33 < BobbyHo> 大家來擠R0喔(誤
+09:33 < fishlover> 回去要把遠傳3G退了XDDD
+09:33 < dannyAAM> AS_Guest可以Eduroam漫遊啊
+09:33 < nightfeather> 連插座都沒得用QQ
+09:33 < r0_small_R> 0.0
+09:33 < dd-han> 遠傳3g想退很久了
+09:33 < shouko> 插座嗚嗚
+09:33 < christinesfkao> 是野生的翔子！
+09:33 < Iven> QQ
+09:34 < nightfeather> 後面摺疊椅區的怨念發散中.....................
+09:34 < Iven> Sean64:
+09:34 < jefferysac>  是野生的翔子！
+09:34 < Huang_Kou> ...
+09:34 < rail02000> 中華連得上LTE XDDD
+09:34 < jefferysac> 坐前排的表示.....
+09:34 < LegBone> 出現野生的老鼠!!
+09:34 < MouseMs> QQ
+09:34 < pcchou> MouseMs:
+09:34 < MouseMs> 覺得無辜
+09:34 < seadog007_c> XD
+09:34 < LionBug> 看到野生腿骨
+09:34 < LegBone> QAQ
+09:34 < dannyAAM> 是說R0後方這收不到台灣大4G 頂多H+
+09:34 < christinesfkao> 可以考慮來坐前面地板啦ㄏ
+09:35 < r0_Ren> 今年只帶ipad來XDD
+09:35 < nightfeather> 連座位圖都沒得填QQ
+09:35 < shouko> 是過街老鼠! ((誤
+09:35 < christinesfkao> ＸＤ
+09:35 < ZeroMu> 野生老鼠ww
+09:35 < ZeroMu> 真的ag_guest很穩
+09:35 < iblis17> nightfeather: 不是用 setGravatar ?
+09:35 < qquest> Hi
+09:35 < SCWhite> 5g 又掛了
+09:36 < MouseMs> 中研院 NAT 死掉惹 QQ
+09:36 < MouseMs> 大家用熱點記得用線喔～
+09:36 < seadog007_c> iblis17: 沒座位啦XDDD
+09:36 < MouseMs> http://seat.sitcon.org
+09:36 < seadog007_c> 根本沒地方填XDDDD
+09:36 < iblis17> seadog007_c: 囧？
+09:36 < nightfeather> 隨便佔個空位好了030
+09:36 < Huang_Kou> 網路線的又掛了
+09:36 < Huang_Kou> qq
+09:36 < jefferysac> 話說orange好像也出現了噎
+09:36 < iblis17> seadog007_c: 喔喔 r0 沒座位
+09:36 < jefferysac> 不會是
+09:36 < fsafdasa> 衣服還有嗎
+09:36 < seadog007_c> fsafdasa: 一定有啦~
+09:36 < iblis17> seadog007_c: r2 還有座位阿
+09:37 < Huang_Kou> 衣服開賣了?
+09:37 < aweimeow> 衣服還沒開賣吧 (?
+09:37 < coin3x> 直播已掛
+09:37 < ZeroMu> staff/5g/一般都掛了（？
+09:37 < jefferysac> 衣服啊！！
+09:37 < Huang_Kou> 不是說這場演講完才賣
+09:37 < pcchou> 衣服！！
+09:37 < dannyAAM> AS_Guest很正常啊 是說插座到底是中研還是主辦負責啊
+09:37 < pcchou> TAT
+09:37 < aweimeow> 據說10點開賣
+09:37 < nightfeather> setGravatar 只是幫暱稱綁頭像啊....
+09:37 < pcchou> MouseMs: 有人說直撥掛了
+09:37 < totomoney> 藍軍/
+09:37 < r0_Ren> sitcon有賣衣服@@
+09:37 < Huang_Kou> 沒有 沒賣(?
+09:37 < pcchou> 呼
+09:37 < MouseMs> 很正常，請問網址是？
+09:37 < r0_Ren> 去年沒賣啊
+09:38 < pcchou> coin3x: 到底是不是斷了嗎
+09:38 < MouseMs> 倒數第二排是直播機阿 大家別踢到了（誤）
+09:38 < pcchou> coin3x coin3x coin3x
+09:38 < qquest> R2有位置嗎
+09:38 < coin3x> pcchou, 好像又好惹
+09:38 < iblis17> qquest: 有
+09:38 < pcchou> mmis1000: 安安
+09:38 < pcchou> coin3x: okau
+09:38 < Iven> Mark: hello
+09:38 < pcchou> s/u/y/
+09:38 < mmis1000_bot> pcchou 的意思是： coin3x: okay
+09:38 < ZeroMu> 我是用自己的vps掛著irc
+09:38 < yanyiyi> hi
+09:38 < Iven> Mark: 丟
+09:38 < BobbyHo> 整個超囧，斷斷續續Orz
+09:38 < qquest> R2有直播嗎
+09:38 < XiaoJunHong_m> OwO
+09:38 < BobbyHo> 沒網路會崩潰啊@@
+09:38 < iblis17> qquest: 斷斷續續
+09:39 < mmis1000> ping好大，還會丟包
+09:39 < ZeroMu> ag_guest很穩
+09:39 < ZeroMu> 建議大家有edu.tw
+09:39 < BobbyHo> 現在是限網嗎XD
+09:39 < ZeroMu> 都接ag_guest
+09:39 < mmis1000> 我就是用ag
+09:39 < ZeroMu> ag很穩噎
+09:39 < iblis17> seadog007_c: 其實後來 seat 改成可以用 console 看 irc 只差不能說話
+09:39 < seadog007_c> XD
+09:39 < mmis1000> sitcon完全連不上
+09:39 < pcchou> <(_ _)>
+09:39 < MouseMs> 無線網路維修中喔！
+09:39 < dannyAAM> VPS掛IRC ++
+09:39 < MouseMs> 請大家不要攻擊QQ
+09:39 < s3131212_> 現場網路超不穩的...
+09:39 < pcchou> wifi 基本上一定不能用啊 (笑
+09:39 < BobbyHo> Guest區網只有10M，不滿...
+09:39 < mudream> oao
+09:40 < Mark___> wwwww
+09:40 < s3131212_> 果然黑黑
+09:40 < circ-user-0boZ7> www
+09:40 < dannyAAM> 只好繼續用AS_Guest www
+09:40 < seadog007_c> Guest可以暫時用一下~
+09:40 < BobbyHo> 有限會同時GG喔，很詭異
+09:40 < s3131212_> 請 R2 的人不要發功
+09:40 < seadog007_c> XD
+09:40 < PingNote> R2: AS_Guest穩定使用中
+09:40 < iblis17> 囧
+09:40 < MouseMs> 有線以及SITCON*無線網路是過同一台設備，處理中喔！
+09:40 < s3131212_> 有線也不太穩定啊 QAQ
+09:40 < Astaryo> 不穩rrrr
+09:40 < seadog007_c> s3131212_: 就說同一檯齁
+09:40 < spaceRanger> 敬拜宇宙大覽覺者吧!!  http://i.imgur.com/ubAot3k.jpg
+09:40 < seadog007_c> QQ Orange走了
+09:41 < MouseMs> QQ
+09:41 < aweimeow> QQ
+09:41 < Huang_Kou> QQ
+09:41 < seadog007_c> Orange_:
+09:41 < seadog007_c> 搞不好是要連上主機用這支XD
+09:41 < chihhsin> QQ
+09:41 < jefferysac> 或是我們看不到orange而已(
+09:41 < jefferysac> ?
+09:41 < kin> QQ
+09:41 < Mark___> QQ
+09:41 < OtomeSound> spaceRanger: 我當初看完就跪了...
+09:41 < Astaryo> 進進出出(?)
+09:42 < akaiNeko> SITCON wifi到底發生啥小事？！
+09:42 < iblis17> r2 直播一直挑真阿
+09:42 < iblis17> 跳針
+09:42 < iblis17> orz
+09:42 < iblis17> 一直破滅
+09:42 < iblis17> 破滅
+09:42 < iblis17> orz
+09:42 < jefferysac> 他！在中研院！
+09:42 < seadog007_c> iblis17: 是說 SITCON_BOT 剛剛是不是不太穩
+09:42 < seadog007_c> jefferysac: 蛤?
+09:42 < iblis17> seadog007_c: 我手上沒有seat.sitcon.org 的權限
+09:43 < spaceRanger> 信大覺者得WIFI
+09:43 < spyf> 網路有點悲劇
+09:43 < seadog007_c> Takeshi_tw:
+09:43 < pcchou> Takeshi_tw:
+09:43 < shunyi> SITCON 第一關：連上網路
+09:43 < aweimeow> R1的直播 XDDDDDD
+09:43 < seadog007_c> shunyi: XD
+09:43 < OtomeSound> BOT應該多添點沒過期的乖乖
+09:43 < [R0]Hinet60613> @spaceRanger: www
+09:43 < jefferysac> 因為是中研院的
+09:43 < nightfeather>  ' A')
+09:43 < UnciaX> XDD
+09:43 < iblis17> Takeshi_tw: 說好的權限呢？ （我是來救火的
+09:43 < dannyAAM> 看來是NAT整個死了是吧wwww
+09:43 < PingNote> @DennyHuang: spaceRanger貼了怪怪的東西, 請評估需不需要ban掉.
+09:43 < Lorex> 0.0
+09:44 < Riki> 3G意外很順
+09:44 < spaceRanger> 對不起...
+09:44 < dannyAAM> 而且DHCP也一起掛了030
+09:44 < aweimeow> 有沒有R1直播掛了的八卦
+09:44 < Lorex> 坐 R0 表示開心W
+09:44 < seadog007_c> 對了
+09:45 < seadog007_c> http://seat.sitcon.org 可以丟球喔w
+09:45 < HearSilent> 網路狂掛 QQ
+09:45 < SCWhite> R0 網路好了嗎?
+09:45 < pcchou> seadog007_c: (丟
+09:45 < pcchou> seadog007: (
+09:45 < pcchou> seadog007: (丟
+09:45 < seadog007_c> pcchou: 這隻沒上XD
+09:45 < dd-han> AS_guest可以用校園帳號漫遊喔
+09:45 < [R2]PingNote> WiFi SSID: Eduroam之漫遊資訊 https://roamingcenter.tanet.edu.tw/?page_id=1935
+09:45 < Lorex> 3G 網路表示穩定W
+09:45 < seadog007> iTaiwna也可以
+09:46 < gundam> 3G穩定+1
+09:46 < BobbyHo> AS好像真的比較穩XD
+09:46 < [R0]Hinet60613> Everyone is talking about IoT...
+09:46 < BobbyHo> 小心等一下變目標...
+09:46 < chihhsin> 要低調啊 XXXXD
+09:46 < [R0]Ren> cd
+09:46 < mmis1000_cloud> 干擾突然變嚴重了…
+09:47 < HearSilent> R1 只有聲音 沒有畫面
+09:47 < Microsheep> 有人知道有線網路怎麼使用嗎?
+09:47 < Kevinchang> 手機的4G穩定運作中
+09:47 < HearSilent> 直播掛了
+09:47 < [R0]seadog007_c> Microsheep: 接上就好
+09:47 < mmis1000_cloud> Ap數越來越多
+09:47 < darkx> Microsheep: that should be DHCP
+09:47 < ioan> 早安~
+09:47 < [R0]seadog007_c> 只是現在不知道有沒有掛掉
+09:47 < BobbyHo> 我嚴重懷疑對外網路有問題...
+09:47 < [R0]seadog007_c> BobbyHo: 不是
+09:47 < [R0]seadog007_c> 是內部有問題
+09:47 < [R0]seadog007_c> DHCP拿不到
+09:47 < BobbyHo> 區網出不去...
+09:48 < SCWhite> 第0關- 連上網路
+09:48 < [R0]Ren> Microsheep: 插進去
+09:48 < buck5060_> r2直播掛了...
+09:48 < [R0]Hinet60613> R0有一個AP叫Orange's iPhone 6
+09:48 < s3131212> 懇請大家把 AP 關掉
+09:48 < pcchou> 關AP好嗎QQ
+09:48 < s3131212> 還有 Orange's iPhone 6 不要連
+09:48 < BobbyHo> 連5G比較沒干擾啦~
+09:48 < s3131212> 會被攔截封包的
+09:48 < s3131212> 連 5G +1
+09:48 < [R0]seadog007_c> 用AS_Guest啦~
+09:48 < UnciaX> as_guest可以用啊
+09:48 < jeremy5189> 公告：請大家使用手機網路時，不要開啟 Wi-Fi，請改用藍芽 or USB，謝謝
+09:48 < HearSilent> 只好自己開直播看了
+09:49 < BobbyHo> 2.4G被撐滿滿
+09:49 < mmis1000> 因為太多人開ap，干擾很兇阿
+09:49 < OtomeSound> wifi channel 11 根本wwwwww
+09:49 < tyteen4a03> 我的USB adapter不支援mac，悲劇
+09:49 < tyteen4a03> 只好跟人擠5G wifi
+09:49 < BobbyHo> 拜託網路通了就把AP關掉，不然會害別人掉封包啦
+09:49 < Orange_> 對不起T^T
+09:50 < UnciaX> R1直播是不是播到存檔?
+09:50 < ZeroMu> ag_guest 很穩啊qq
+09:50 < Iven> jeremy5189 怎用藍芽?
+09:50 < HearSilent> R1聲音跟畫面是不同的東西 QQ
+09:50 < jeremy5189> Iven: 手機網路的藍芽分享
+09:51 < [R0]Ren> ingress-誰丟好多key在路上啊啊啊
+09:51 < paraselene> 還有日本的portal key
+09:51 < UnciaX> http://i.imgur.com/6kFtuth.jpg
+09:51 < [R0]Ren> 太遠撿不到
+09:51 < dannyAAM> 網路爛是因為gateway死啦 應該NAT跟DHCP都一起爛了www
+09:52 < UnciaX> 藍牙分享在基地台分享下面
+09:52 < tom83615> 好想撿key喔～～ 排的好嘲諷
+09:52 < CASIO> R1的現場音跟直播音變立體聲道了...
+09:54 < datex> [R2] 大家早安owo)/
+09:54 < HandsomeLiu> Good Morning
+09:54 < qqorz> 早安！
+09:54 < [R0]Ren> 安安
+09:55 < [R0]Hinet60613> 早安~
+09:55 < [R0]Ren> ingress激烈攻防啊啊啊
+09:55 < lily1999> hihi
+09:55 < CharlesLien> 早～
+09:55 < pohchen_> Hi
+09:55 < gogopower> ingress  不要上盾啊~~  ._.
+09:56 < CharlesLien> 哈哈
+09:56 < a25163967> 我第一次來，有什麼要住意的嗎
+09:56 < confbot> <fntsrlike>: 好熱鬧XDD
+09:56 < [R0]Ren> 連上兩個盾啊啊啊
+09:57 < [R0]Ren> a25163967: 注意後面 XDD
+09:57 < [R0]Hinet60613> @fntsrlike: 安安 OwO/
+09:57 < Bobby_Ho> a25163967:小心怪叔叔(誤
+09:57 < xranus> INGRESS ! LVL7來報到了~
+09:58 < [R0]Ren> gogopower: 我炸到沒能量插塔..
+09:58 < coin3x> 直播只有R0而已嗎? OAO
+09:58 < Bobby_Ho> 目前全場聯播Keynote
+09:58 < Bobby_Ho> 所以應該只有R0直播
+09:58 < [R0]Hinet60613> @coin3x: 因為現在是Keynote，只有R0有議程
+09:59 < [R2]buck5060> quit
+09:59 < qqorz> r1剛才有轉播啊～
+09:59 < Zih> 有沒有會眾遺失一串鑰匙的？上面掛有兩個紅色牌子、一個黑色隨身碟，遺失的會眾請到一樓服務台領取哦 (´･_･`)
+10:00 < lily1999> 怎麼改投向阿阿
+10:00 < lily1999> 頭像怎改
+10:00 < fishball> 座位表的網站上有說明
+10:00 < Bobby_Ho> 請看座位表使用說明
+10:00 < lily1999> thanks
+10:00 < OtomeSound> 糟糕，Server跟這裡不同時區，忘記怎改了....(irssi)
+10:00 < nightfeather>  ' -')
+10:01 < chihhsin> lily1999: /msg SITCON_BOT setGravatar <your email>
+10:01 < nightfeather> 總比 locale 不同好 ' -')...
+10:01 < pomeloyu> test~~~
+10:02 < Vdragon> 大家早安0w0/
+10:02 < qqabc> qqorz:hi
+10:02 < iblis17> test
+10:02 < azdkj532> 買到衣服了 爽爽der
+10:02 < qqabc> [qqorz]:[hi]
+10:02  * Vdragon 忘了報名QAQ
+10:03 < qooo> 梅竹交大必勝
+10:03 < [R0]Ren> azdkj532: 有賣！？
+10:03 < Gundam_> 衣服～～
+10:03 < mmis1000> 發現子幾筆電wifi共享也沒關
+10:04 < OtomeSound> OK時間正常了ww
+10:04 < azdkj532> [R0]Ren: 有啊 限量
+10:04 < Ching> hi
+10:04 < datex> ls
+10:04 < CASIO> 衣服L跟M賣完了唷
+10:05 < Gundam_> 衣服是一個獲得稀有道具的概念
+10:05 < datex> 我怎麼在irssi一直打ls 啦XDDD
+10:05 < len__> SITCON_BOT: hello
+10:05 < OtomeSound> datex: 要ls什麼（驚悚）
+10:06 < len__> SITCON_BOT: help
+10:06 < nightfeather> ls wwwwwwwww
+10:06 < Vdragon> 請問有 hackfoldr 或 hackpad 之類的共同協作資源嗎？
+10:06 < azdkj532> 有沒有現在只能上irc的八卦
+10:06 < CASIO> R1的聲音差實在有點可怕
+10:06 < BobbyHo> 衣服是課金稀有物品的概念www
+10:06 < [R0]Hinet60613> AS_Guest連facebook時好時壞
+10:06 < trololo> ༼ つ ◕_◕ ༽つ
+10:06 < mmis1000> irc協議簡單吃資源少咩
+10:07 < ZLeaf> Lightning Talk 還剩下最後一個名額，要搶要快><
+10:07 < nightfeather> irc 還上的去 算不錯惹
+10:07 < benj_zz> 一般網站也能上
+10:07 < azdkj532> icmp都出不去誒
+10:07 < CASIO> 問一下 R0現在很滿嗎?
+10:07 < Ioan> test
+10:07 < inndy> azdkj532: 那你現在在用什麼？
+10:07 < dannyAAM> ls XDDDD
+10:07 < mmis1000> 可以吧？至少AS可以
+10:07 < inndy> azdkj532: TCP可以通就好啦（？
+10:07 < [R0]Hinet60613> SITCON有賣紙膠帶?!
+10:07 < azdkj532> R0 後面還有座位
+10:07 < BobbyHo> R0還有零碎的位子
+10:07 < lily1999> hi
+10:07 < ylhuang> R0 還有座位
+10:08 < Gundam_> 12排中間有四個
+10:08 < dannyAAM> ls 可能可以列出所人偶之類的(X
+10:08 < BobbyHo> R0其實還很多啦 不過都是零碎的...
+10:08 < R0_gogopower_> 12排中間不能做的樣子
+10:09 < lily1999> 輸入email還是沒改成功
+10:09 < JiNkz> aa'
+10:09 < azdkj532> ˊ_>ˋ
+10:09 < BobbyHo> 問一下，R1R2有電源插頭嗎？
+10:10 < [R0]Ren> QQ 衣服剩其他size
+10:10 < CASIO> R1有 用得很順
+10:10 < OtomeSound> 先看BOT有沒有在線上吧(?)
+10:10 < fateyan> 衣服QAQ
+10:10 < mmis1000_cloud> Wifi又惡化了
+10:10 < BobbyHo> 開始惹@@
+10:10 < Gundam_> 開始了～～～
+10:10 < [R0]Ren> 好搶手
+10:11 < OtomeSound> 日文比較不會撞是真的XDDDD
+10:11 < fishlover> 終於連上線了XD
+10:11 < CASIO> 挖屋 廣大鄉民站出來
+10:12 < Vdragon> PTT 站長www水球發明者
+10:12 < Benyi> 原來是水球發明者喔
+10:12 < [R2]taichunmin> (舉手
+10:12 < Vdragon> （舉手）
+10:13 < susu> (舉手)
+10:13 < tom83615> 黑黑 (指
+10:13 < [R0]Hinet60613> 駭客 -(first thought)-> Orange (?)
+10:13 < BobbyHo> 很宅+1XD
+10:13 < Vdragon> （指樓上
+10:13 < pomeloyu> 丟水球~~
+10:13 < Ioan> <(_ _)>
+10:13 < rail02000> 我剛剛一時想到最近很紅的那兩種駭客XD
+10:13 < Vdragon> geohot
+10:13 < [R0]Ren> 第一個念頭是橘子的+1
+10:13 < nightfeather> ( ' ')
+10:13 < a25163967> 很宅 但不是駭客
+10:13 < gogorush> gogopower, r u here?
+10:14 < IGA> 宅宅w
+10:14 < lemo_> 學術型XD
+10:14 < Vdragon> 一人駭客www
+10:14 < tiwb> 橘子XDD
+10:14 < human_whale> 其他的場地聯播還可以嘛？
+10:14 < rail02000> R2現在OK
+10:14 < qqorz> r2 ok
+10:14 < [R0]Ren> wifi又掛了
+10:14 < [R0]Hinet60613> Neo www
+10:14 < Vdragon> Youtube 1080p 直播一切正常
+10:14 < XiaoJunHong> [R2] 聲音偶爾斷斷
+10:15 < Benyi> hack hack hackers
+10:15 < XiaoJunHong> 嗨 駭客
+10:15 < BobbyHo> 冷面笑匠啊XD
+10:15 < nightfeather> (hack){1,} hackers
+10:15 < gogorush> [gogopower]:[1]
+10:15 < toby123456789> i am hi ker
+10:16 < shouko_> :D
+10:16 < [R0]Hinet60613> 被美商藝電併購... 現在還在嗎? QQ
+10:16 < gogomagnet> 黑與白
+10:16 < IGA> EA最近又毀了一家(O
+10:16 < gogorush> EA zzz
+10:16 < Chih_Ping_Chang> Origin還在啊
+10:16 < Huang_Kou> sim XD
+10:16 < nightfeather> EA ......
+10:16 < BobbyHo> 創世紀的Project已經結束了吧
+10:16 < shouko> hi
+10:16 < mmis1000> 網路死了？上面那一大排離線到底？
+10:16 < Iven> 藍芽分享失敗@@
+10:16 < shouko> hi
+10:16 < BobbyHo> Origin現在是銷售平台
+10:16 < shouko> test
+10:16 < Huang_Kou> EA毀掉模擬市民qq
+10:16 < pcchou> QQ
+10:17 < nightfeather> 縮然我沒玩　SimCity ' -')
+10:17 < Vdragon> SITCON 官方有提供共筆嗎？沒有的話我可以開一個嗎？
+10:17 < BobbyHo> 模擬市民工作室被收掉惹QQ
+10:17 < mmis1000> EA destroys everything
+10:17 < [R0]Ren> IGA: maxis rip
+10:17 < BobbyHo> dlc everything
+10:17 < Chih_Ping_Chang> EA games Destroy everything
+10:17 < [R0]Hinet60613> EA destroys everything
+10:17 < IGA> 嗯啊 Maxis
+10:17 < [R0]Ren> 很可惜
+10:18 < [R0]Ren> 我從1991的simant開始玩
+10:18 < pcchou> andy810625: ㄎ_ㄖ在哪
+10:18 < Lorex> 網路又ㄎ_ㄖ了
+10:18 < [R0]seadog007_c> 已ㄎ＿ㄖ
+10:18  * Lays_
+10:18 < Lorex> 進場15分鐘，中研院的 NAT 就炸了XDDD
+10:19 < dannyAAM> ㄎ_ㄖ惹
+10:19 < [R0]seadog007_c> 太黑了啦wwwwww
+10:19 < BobbyHo> 請愛用AS_Guest~
+10:19 < dannyAAM> 真der
+10:19 < Lorex> 超多黑
+10:19 < Zih> 共筆文件官方會開哦 請稍等一下 我們貼連結 ( ´ ▽ ` )ﾉ
+10:19 < [R0]Hinet60613> 拆開存檔研究也是遊戲的一環w
+10:19 < shouko> AS_Guest的登入頁沒有https ((抖
+10:19 < Ioan> 反正SITCON 跟HITCON 只差一個字 （手攤
+10:19 < [R0]seadog007_c> 我隔壁就黑黑啊 (y)
+10:19 < fishlover> ㄧ個bitㄧ個bit改XD
+10:19  * Vdragon 剛剛開了一個@@現在關掉
+10:19 < Ioan> <del> 工人也差不多 </del>
+10:20 < datex> 好餓TAT
+10:20 < nightfeather> 用 bit 為單位也太有毅力.....
+10:20 < Lorex> W超有毅力
+10:20 < mmis1000> 他應該是說byte？
+10:20 < nightfeather> 肚子空空的+1
+10:20 < fishlover> 讓我想到當年我手動修改 植物大戰殭屍存檔
+10:20 < nightfeather>  ' A')
+10:20 < Iven> byte吧
+10:20 < Moonslight_> datex :  我也在等放飯 XD
+10:21 < fishlover> 我記得是叫pp.dat
+10:21 < BobbyHo> 一群吃貨www
+10:21 < MouseMs> http://sitcon.hackpad.com 自己開喔！
+10:21 < Mark___> 餓惹
+10:21 < Lorex> 媽的不要亂改我座位表啦XDDD
+10:21 < pcchou> 黑掉了XDD
+10:21 < Lorex> 為啥我頭像有黑黑的光環XDDDD
+10:21 < EAT> k
+10:21 < [R0]Hinet60613> 台前開始有黑黑的氣場了
+10:21 < EAT> hello
+10:21 < IGA> 大家開黑了（抖
+10:21 < Lorex> 不要黑我啦QQ
+10:21 < pcchou> Lorex: 你看 是大黑黑耶
+10:21 < Lorex> 誰來把座位表改回來QQ
+10:22 < Moonslight_> 咦?  燈光是不是變暗了?
+10:22 < XiaoJunHong> 矮額，好黑 XDDDD
+10:22 < s3131212> Lorex 好黑（抖
+10:22 < nightfeather> 要被黑了塊陶啊啊啊啊啊 (?
+10:22 < [R0]Hinet60613> IRC Rock!
+10:22 < yanyiyi> 燈光變暗是給大家浪漫的聽講氣息（？
+10:22 < Benyi_> 座位表要怎麼加入頭圖啊
+10:22 < darkx> IRC rocks!
+10:22 < XiaoJunHong> Lorex 好黑（抖
+10:22 < Lorex> QQQQQQQQQ
+10:22 < Huang_Kou> [ASTAR]:[BOKU]
+10:22 < Iven> 使用說明有
+10:22 < yanyiyi> @Benyi 請看左邊說明
+10:22 < Lorex> 不要玩我啦XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+10:22 < dannyAAM> AS_Guest登入有HTTPS啦
+10:22 < IGA> 我的頭像怎麼改都是那個仁www
+10:23 < s3131212> 果然還是要 AS_Guest 才穩定
+10:23 < mmis1000> benj_zz:  要設 grabatar
+10:23 < nightfeather>  ' A')
+10:23 < s3131212> SITCON 狂斷
+10:23 < dannyAAM> 只是頁面只有HTTP而已www
+10:23 < XiaoJunHong> 使用前先搖一搖 #唬爛的
+10:23 < Iven> "/msg SITCON_BOT setGravatar <Email>"
+10:23 < aweimeow> Lorex黑到把旁邊海豹蓋住了 ˊ_>ˋ
+10:23 < pcchou> mmis1000: 你在哪(丟球
+10:23 < [R0]Ren> as guest 超穩
+10:23 < mmis1000> 然後用irc輸入gravatar的enaul
+10:23 < yanyiyi>  “ /msg SITCON_BOT setGravatar <Email>”
+10:23 < pcchou> 找到惹
+10:23 < [R0]Hinet60613> 錯覺嗎? 感覺 @Lorex 在座位表上的頭像周圍有一圈黑黑的w
+10:23 < mmis1000> s/enaul/email
+10:23 < mmis1000_bot> mmis1000 的意思是： 然後用irc輸入gravatar的email
+10:23 < Iven> jeremy5189: 求藍芽分享教學
+10:23 < Lorex> 為啥啦
+10:23 < Lorex> 怎麼玩啦
+10:23 < Ioan> 超黑的~
+10:23 < s991533> falcon12400: fq
+10:23 < Lorex> 怎麼改的
+10:23 < Lorex> 還有丟球要怎麼玩 QQ
+10:24 < fishlover> 大推As_guest
+10:24 < falcon12400> @s991553 WTF
+10:24 < Ioan> R1 這邊還有點座位
+10:24 < pcchou> Lorex: 這樣玩OuO
+10:24 < Ioan> https://seat.sitcon.org/r1#
+10:24 < mmis1000> as guest 讚
+10:24 < nightfeather> 那個黑影功能還能玩啊XDDDDD
+10:24 < Zih> 官方共筆開了唷 歡迎大家一起共同編輯 https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW#:h=Kaede---we-hack-worlds
+10:24 < Huang_Kou> [IGA]:[頭像]
+10:24 < falcon12400> s991533: WTH??
+10:24 < pcchou> 64GB => MB
+10:24 < Benyi_> 頭圖有變嗎
+10:24 < [R0]Hinet60613> 64GB.....不對，MB
+10:24 < Huang_Kou> GB qq
+10:24 < falcon12400> ls
+10:24 < Ioan> L 大神好可怕
+10:24 < Iven> 要先去gravatar創個帳號吧
+10:24 < Ioan> QAQ
+10:24 < Lorex> 求解怎麼改的
+10:24 < IGA> 我的gravatar明明有頭像www卻沒出來
+10:24 < fishlover> GB級
+10:25 < BobbyHo> 我還想說64G，應該造傾家蕩產惹@@
+10:25 < mudream> 問問哪裏有賣水之類QAQ
+10:25 < Zih> 再一次XD  https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+10:25 < Iven> GB ORZ
+10:25 < pcchou> CharlesLien: 安安~
+10:25 < BobbyHo> 有飲水機
+10:25 < mudream> 超渴><
+10:25 < fishlover> 可以開RAM disk
+10:25 < Benyi_> 原來是 id 跟 座位表 的 id 兜不起來
+10:25 < pcchou> CharlesLien: http://seat.sitcon.org/  請填表
+10:25 < dd-han> 陽光沙灘XDDDDDD
+10:25 < [R0]Hinet60613> 陽光沙灘 sun of beach
+10:25 < Mark___> beach
+10:25 < pcchou> 小心 CoC 喔 (被打
+10:25 < aaa__> 沙灘~
+10:25 < Ioan> XDDD
+10:25 < Iven> 丟球tag別人就可以
+10:25 < Benyi_> XD
+10:25 < Iven> 人名+":"
+10:26 < a25163967> sun of beach
+10:26 < CharlesLien> pcchou:填完了
+10:26 < nightfeather> david11014: 玩丟球 (?
+10:26 < mabinogi80503> Test
+10:26 < tiwb> zebraban:YT
+10:26 < Lorex> Iven:丟~
+10:26 < pcchou> CharlesLien (丟
+10:26 < Lorex> pcchou: 丟
+10:26 < Lorex> pcchou: 丟
+10:26 < Lorex> pcchou: 丟
+10:26 < Lorex> pcchou: 丟
+10:26 < Gundam> [PLderOuO]:[丟球]
+10:26 < Mark___> Iven:丟~
+10:26 < Lorex> WWWWW DDoS就是這麼來的
+10:26 < BobbyHo> 對PTT有極大貢獻啊www
+10:27 < IGA> 壞了很多硬碟w
+10:27 < Lorex> pcchou: 丟
+10:27 < nightfeather> wwwwwww
+10:27 < Lorex> pcchou: 丟
+10:27 < Lorex> pcchou: 丟
+10:27 < seadog007_> ek45j/3
+10:27 < mudream> @@
+10:27 < seadog007_> DDoS XD
+10:27 < Ioan> 喵
+10:27 < XiaoJunHong> R2 卡住惹
+10:27 < Lorex> PCC被DoS了XD
+10:27 < pcchou> 不要洗球啦
+10:27 < david111014> 丟
+10:27 < Riku17yo> Now Loading
+10:27 < Lorex> 大家一起丟pcc
+10:27 < Lorex> pcchou: 丟
+10:27 < pcchou> pcchou: (丟
+10:27 < mabinogi80503> 卡卡Der
+10:27 < Lorex> pcchou: 丟
+10:27 < pcchou> 可以自己丟自己耶
+10:27 < Vdragon> Youtube 停滯QAQ
+10:27 < Mark___> Iven:丟
+10:27 < pcchou> Lorex: 不要再丟了啦QQ
+10:27 < [R0]Hinet60613> pcchou: 丟
+10:27 < kanade_0_> @pcchou: 丟
+10:27 < nightfeather> pcchou: 湊熱鬧偷丟
+10:27 < XiaoJunHong> pcchou: 丟
+10:27 < seadog007> pcchou: 對啊 沒有判斷XD
+10:27 < [R1]MinamiKotori> （．８．）
+10:27 < Lorex> 大家一起丟pcc
+10:27 < seadog007> pcchou: 你看看你
+10:27 < Lorex> pcchou: 丟
+10:27 < seadog007> 大家都在丟你ㄊww
+10:27 < dylandy> r2 直播 GG
+10:28 < Lorex> 快點R  來發動一場DDoS XDDDDD
+10:28 < Benyi_> 怎麼丟水球啊
+10:28 < BobbyHo> pcchou:丟一個
+10:28 < seadog007> dylandy: (拍拍
+10:28 < mmis1000_bot> pcchou
+10:28 < Lorex> tag對方名稱
+10:28 < mmis1000_bot> pcchou
+10:28 < mmis1000_bot> pcchou
+10:28 < mmis1000_bot> pcchou
+10:28 < Lorex> pcchou: 丟
+10:28 < nightfeather> pcchou: 湊熱鬧偷丟
+10:28 < fishlover> fishlover: 我試試
+10:28 < MouseMs> pcchou
+10:28 < Lorex> pcchou: 丟
+10:28 < Lorex> pcchou: 丟
+10:28 < Lorex> pcchou: 丟
+10:28 < MouseMs> pcchou
+10:28 < Lorex> pcchou: 丟
+10:28 < seadog007> 不要鬧噢
+10:28 < pcchou> 靠XDDD
+10:28 < a25163967> pcchou: 丟看看
+10:28 < Lorex> XD
+10:28 < aweimeow> pcchou: 丟
+10:28 < XiaoJunHong> XDDDDD
+10:28 < seadog007> 會被ban掉之類的我不管
+10:28 < Lorex> XD
+10:28 < [R0]Hinet60613> 臣又
+10:28 < BobbyHo> XDDDD
+10:28 < Benyi_> 臣又
+10:28 < tiwb> zebraban:丟
+10:28 < hector_> tag hector_
+10:28 < Lorex> 真假XD
+10:28 < Mark___> pcchou:丟
+10:28 < Benyi_> 糸
+10:28 < iblis17> seadog007: 不會
+10:28 < tiwb> zebraban:丟
+10:28 < [R0]Ren> pcchou: 丟
+10:28 < XiaoJunHong> 一直被戳的pc
+10:28 < hector_> = =
+10:28 < Ioan> pcchou: 丟
+10:28 < pcchou> ID後面:, 後面還要再有一個控格喔
+10:28 < kanade_0_> 八卦超新聞ㄎㄎ
+10:28 < [R0]Hinet60613> 聯__重工? :P
+10:28 < seadog007> iblis17: 我是說被channel黑掉啦~
+10:28 < iblis17> 大家可以順便開 console 看看
+10:29 < Lorex> XDD
+10:29 < pcchou> 政黑科科
+10:29 < dannyAAM> pcchou: 跟
+10:29 < seadog007> iblis17: 之前有Array啊QQ
+10:29 < tiwb> zebraban:丟
+10:29 < Ioan> 隔壁的房間好像不能扔
+10:29 < [R0]Ren> pcchou: 丟
+10:29 < Gundam> Gundam: 丟自己試試？
+10:29 < nightfeather> 丟水球丟到被 ban 似乎也是個難得的經驗 (#
+10:29 < tiwb> zebraban:丟
+10:29 < iblis17> seadog007: 啥 array
+10:29 < pcchou> 我被DDoS QQ
+10:29 < seadog007> \還我Gra*跟black-list/
+10:29 < seadog007> (#
+10:29 < Mark___> pcchou: 丟
+10:29 < XiaoJunHong> pcchou: 戳戳戳戳戳..
+10:29 < seadog007> pcchou: 你看看你
+10:29 < Lorex> pcchou: 丟
+10:29 < Vongola_bot> pcchou: 咦？DDos?
+10:29 < Lorex> 各種被 DDoS 阿XD
+10:29 < pcchou> 咦  XiaoJunHong 跟 Mark___ 丟不出去耶
+10:29 < Lorex> pcchou: 丟
+10:29 < seadog007> XiaoJunHong: 跨廳好像不能戳
+10:30 < yukai_> kaedesprintf
+10:30 < pcchou> Vongola_bot: 座位表水球DDoS QQ
+10:30 < Lorex> 水球 DDoS XDDDD
+10:30 < XiaoJunHong> pcchou: 小俊在R2  XD
+10:30 < mudream> OwO
+10:30  * mmis1000_bot pcchou 戳
+10:30 < seadog007> Vongola_bot: 等等 bot是怎麼會是wwww
+10:30 < vink> 聯播品質.....
+10:30 < dylandy> 好髒啊><
+10:30 < a25163967> pcchoou: 沒座位還會丟出來嗎
+10:30 < pcchou> a25163967: 那就是不會了QQ
+10:30 < seadog007> vink: (拍拍
+10:30 < [R0]Hinet60613> 好黑啊wwww
+10:31 < seadog007> (抖抖
+10:31 < BobbyHo> 超級黑www
+10:31 < Vongola_bot> seados007: 啊就掛著，偶爾冒出來拿水球砸人（Ｘ
+10:31 < pcchou> s/Q+/@@/
+10:31 < mmis1000_bot> pcchou 的意思是： Vongola_bot: 座位表水球DDoS @@
+10:31 < seadog007> Vongola_bot: 安安錯字XD
+10:31 < pcchou> \RMS/
+10:31 < [R0]Hinet60613> 理查史托爾曼 OwO
+10:31 < Iven> 不講qq
+10:31 < Charles_Yang> 進去過不敢改=_=
+10:31 < Lorex> RMS
+10:31 < Lorex> 傳教士欸W
+10:31 < Vongola_bot> seados007: 哪裡有錯字www?我沒看到（掩面
+10:31 < pcchou> GNU 之神
+10:31 < Gundam> 為什麼有一個位置有黑黑光環？
+10:31 < pcchou> \vim/
+10:31 < pcchou> \vim/
+10:32 < warren_abcd> Exit
+10:32 < pcchou> \vim/
+10:32 < mudream> OwO https://usercontent.irccloud-cdn.com/file/hb7BXExf/ya.png
+10:32 < seadog007> QQ
+10:32 < s3131212> emacs XDDDD
+10:32 < seadog007> 座位表被清掉了嗎....
+10:32 < Lorex> QQ
+10:32 < Vongola_bot> \vim/
+10:32 < nightfeather> 結果隨便在座位表裡佔個空位 到現在也沒人拿回去 030
+10:32 < Lorex> 不要玩我QQ
+10:32 < mudream> vim +
+10:32 < pcchou> 戰 vim vs emacs 會違反CoC嗎
+10:32 < Lorex> Emacs 好用++
+10:32 < [R0]Hinet60613> 螢幕被黑掉啦RRR
+10:32 < AmoChen> s991533: 早安~
+10:32 < Iven> 太黑了
+10:32 < IGA> 黑黑
+10:32 < s3131212> 黑客力場XD
+10:32 < aaa__> 被黑了
+10:32 < mudream> QAQ
+10:32 < a25163967> 可以找一個有人坐但沒上座位表的掛丟球嗎
+10:32 < Lorex> 嘿黑
+10:32 < pcchou> 作業表清掉了QQ
+10:32 < MouseMs> 按錯鈕把導播嚇死了
+10:32 < MouseMs> XDDDD
+10:32 < Lorex> 世說螢幕被清掉了
+10:32 < pcchou> s/作業/座位/
+10:32 < mmis1000_bot> pcchou 的意思是： 座位表清掉了QQ
+10:32 < seadog007> ＸDDD
+10:32 < s3131212> R2 的人安分點別一直黑啊
+10:32 < Vongola_bot> pcchou: 作業表wwwww
+10:33 < CharlesLien> pcchou: 我在R1喔～
+10:33 < Iven> 好恐怖 作業成表了
+10:33 < seadog007> pcchou: 作業寫多喔www
+10:33 < Vongola_bot> 所以剛剛是有人黑了作業還是（Ｘ
+10:33 < BobbyHo> 剛剛R0座位表被幹掉...
+10:33 < seadog007> 對啊ㄡ...
+10:33 < [R0]Ren> 餓了
+10:33 < iblis17> 囧 為啥剛剛被清掉
+10:33 < seadog007> script黑的嗎....
+10:33 < Lorex> ZZZ
+10:34 < [R0]Hinet60613> 在暗示G社嗎w
+10:34 < Lorex> 餓了
+10:34 < seadog007> 一瞬間被清掉
+10:34 < Lorex> 所以你吃了表格嗎W
+10:34 < seadog007> iblis17: 嗚嗚嗚 沒有token
+10:34 < iblis17> 囧
+10:34 < seadog007> 這樣script清掉超簡單啊......... (是說放了token好像也沒用XDDD
+10:34 < MouseMs> hrj 好閃
+10:34 < seadog007> MouseMs: OAO
+10:34 < Vdragon> 地方的共筆需要寫手QAQ
+10:35 < BobbyHo> 等等衝R2
+10:35 < Vdragon> https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+10:35 < fishlover> 表示十分好奇pcchou大大為什麼ㄧ直被丟球XD
+10:35 < seadog007> fishlover: 欠丟(X
+10:35 < BobbyHo> Vdragon:支援一下
+10:35 < seadog007> pcchou: 說說大家為什麼要丟你XD
+10:35 < mmis1000> sitno[$ne]=0&nickname[$ne]=0&room=r0 <- post這種東西會work呢
+10:35 < pcchou> 我不知道啊QQ
+10:35 < Lorex> 因為這是 DDoS
+10:35 < Vdragon> @BobbyHo 感謝QAQ
+10:35 < pcchou> Lorex 都你害的@@
+10:35 < seadog007> mmis1000: OAO
+10:35 < seadog007> 太扯了
+10:35 < dannyAAM> pcchou: 繼續DDoS~
+10:36 < Lorex> pcchou: 繼續DDoS~
+10:36 < Lorex> pcchou: 繼續DDoS~
+10:36 < Lorex> pcchou: 繼續DDoS~
+10:36 < fishlover> 不哭不哭XD
+10:36 < seadog007> 另類 SQL injection
+10:36 < XiaoJunHong> ＸＤＤＤＤＤ
+10:36 < seadog007> mmis1000: 黑黑
+10:36 < Benyi> @wiwi_2
+10:36 < mmis1000> 又不是我發明的
+10:36 < Moonslight> 等等R2會不會爆阿 XD
+10:36 < pcchou> 明明就是山羊
+10:36 < Ruinland> Ruinland: ping
+10:36 < Lorex> 想看R2
+10:36 < a25163967> 中國製會爆炸
+10:36 < darkx> gnu 唸作 怒啊~
+10:36 < Lorex> 牛w
+10:36 < seadog007> 原來 dannyAAM 也有黑黑立場啊XD
+10:36 < [R0]Hinet60613> 想聽R2++
+10:36 < Ruinland> GlueCrow: ping
+10:36 < fishlover> 聽說pdo連線可以有效防SQL injection?
+10:36 < Benyi> wiwi_2:
+10:37 < darkx> Gnu's not unix
+10:37 < azdkj532_> 葛怒
+10:37 < nightfeather> 哥怒 (?
+10:37 < seadog007> fishlover: pdo是啥XD
+10:37 < Vongola_bot> 哥怒wwwwww
+10:37 < mmis1000> 可是瑞凡，那隻bot是用mongo
+10:37 < jefferysac> 殭屍
+10:37 < dannyAAM> 可以加全場黑黑嗎(X
+10:37 < s3131212> fishlover PDO 的 Prepared Statement 可以防止 SQL Injection
+10:37 < taichunmin> 玩座位表ＸＤ
+10:37 < seadog007> mmis1000: 是那個系統w
+10:37 < dd-han> php data object
+10:37 < gogorush> 123
+10:37 < s3131212> 求加黑黑方法
+10:37 < taichunmin> 測試
+10:37 < Vongola_bot> 座位表：別再玩我了（羞奔
+10:37 < Lorex> WTF為啥座位表又空了
+10:37 < Ruinland> GlueCrow: mckusick
+10:37 < seadog007> s3131212: 自 己 去 翻 Source Code
+10:38 < Guest92_> fdf
+10:38 < akira02> 座位表ww
+10:38 < falcon12400> John
+10:38 < falcon12400> 88888888
+10:38 < fishlover> 我看到s3131212大大了～ 安安
+10:38 < Vongola_bot> IGA: 戳戳
+10:38 < ws23> [議程組] Lightning talk 還有一個名額喔！有興趣者請至樓白板區喔！
+10:38 < fateyan> ...
+10:38 < seadog007> .......
+10:38 < pcchou> ws23: 浴池耶
+10:38 < jefferysac> 我想報！！
+10:38 < s3131212> fishlover 安安
+10:38 < IGA> 我的座位一直被www
+10:38 < a25163967> 座位表又不見了
+10:39 < seadog007> ws23: 魚池耶
+10:39 < Lorex> ZZZ
+10:39 < Guest92_> /
+10:39 < Guest92_> jljkjjl;jsdfsdf
+10:39 < a25163967> 偷渡
+10:39 < Guest92_> /
+10:39 < pcchou> fishlover: 你是…？
+10:39 < darkx> RMS 可以不拿手機，因為他外出的時候其他人都有手機....
+10:39 < david111014> 座位頭像全黑了 0.0
+10:40 < TatsujinChin> 好像不是牛也不是山羊 http://en.wikipedia.org/wiki/Gnu
+10:40 < seadog007> 我的modify送不出去
+10:40 < [r0]human_whale> sitcon 有的加入當志工嘛
+10:40 < pcchou> 座位QQ
+10:40 < [R0]Hinet60613> Ben Jai!
+10:40 < pcchou> modify 送不出去QQ
+10:40 < fishlover> <( _ _ )>安安
+10:40 < Lorex> 座位為啥都黑了
+10:40 < pcchou> fishlover: 安安OwO
+10:40 < petercommand> hi
+10:40 < lagane100> 座位表在哪裡OwO
+10:40 < seadog007> 誰在那邊一直清 = =
+10:40 < datex> Ben Jai怎麼了？
+10:40 < Vongola_bot>  ALiangLiang: 戳
+10:40 < seadog007> https://seat.sitcon.org/
+10:40 < fishlover> 我ipad打字好慢QQ
+10:40 < datex> 啊啊，這邊lag惹
+10:40 < iblis17> tmp 到底是誰 orz
+10:40 < lagane100> 感謝 :D
+10:40 < iblis17> tmd 到底是誰 orz
+10:40 < pomeloyu> 昨天坐捷運有看到他XD
+10:40 < seadog007> 一定要這樣針對我嗎= =
+10:41 < pcchou> modify 送不出去TAT
+10:41 < darkx> p2p IM
+10:41 < s3131212> 到底是誰一直清空座位表..
+10:41 < pcchou> 改成 pcchou_ 就可以了
+10:41 < seadog007> 被針對了= =
+10:41 < pcchou> 可惡 被針對了
+10:41 < Lorex> 誰在黑海豹的位子
+10:41 < Lorex> 東西寫不進去
+10:41 < shunyi> facebook, line, wechat www
+10:41 < [r0]human_whale> 😯😯😯
+10:41 < seadog007> 只有那格寫不進去= =
+10:41 < Lorex> 剛剛是黑我的位子= =
+10:41 < mmis1000> 被玩掛了？
+10:41 < dylandy> r2 直播又居居了
+10:41 < s3131212> .我也寫不進去欸...
+10:41 < datex> [R2] 一直lag xD
+10:41 < seadog007> 自首喔
+10:41 < fateyan> R2又炸了
+10:41 < mabinogi80503> 三份甚麼啊！
+10:41 < Guest63381> 請問要怎麼連上wifi?
+10:41 < seadog007> Takeshi_tw: ......
+10:41 < Lorex> 不會是學術型吧= =
+10:41 < pcchou_> 可惡耶 不能用座位表TAT
+10:41 < datex> dylandy <(_ _)>
+10:41 < [r0]human_whale> 😩😩😩😩😩😩
+10:42 < XiaoJunHong> 清空了？
+10:42 < seadog007> 快出現吧......
+10:42 < mmis1000> 難道是剛剛那個？ sitno[$ne]=0&nickname[$ne]=0&room=r0
+10:42 < Vdragon> 直播 GG +1
+10:42 < BobbyHo> 不要黑座位表啦
+10:42 < dylandy> @datex：你是在拜三小XD
+10:42 < seadog007> mmis1000: 對啦= =
+10:42 < [r0]human_whale> 😖😷😍😝😒😛😗😔😜😖😫🙋😹
+10:42 < UnciaX> 又卡在三份w
+10:42 < BobbyHo> @@
+10:42 < [R0]Hinet60613> RMS跟Linus的個人恩怨w
+10:42 < Lorex> 換我的無法寫入
+10:42 < seadog007> 都是你 不要再把黑黑的東西貼出來啦....
+10:42 < mmis1000> 不可能，因為code裡是用findOne
+10:42 < datex> @dylandy: 人帥真好TAT
+10:42 < mmis1000> 再怎樣也只會有一個受害者
+10:42 < [r0]human_whale> irc不能不用emoji嘛
+10:42 < cloud2> ~
+10:42 < dannyAAM> 座位表怎了www
+10:42 < seadog007> mmis1000: 多process腳本
+10:43 < BobbyHo> 煩死了，頭像一直被黑
+10:43 < datex> 座位表在哪啊？
+10:43 < seadog007> 一直delete特定位置
+10:43 < XiaoJunHong> https://seat.sitcon.org/
+10:43 < Lorex> 投向各種被黑阿
+10:43 < datex> 感謝
+10:43 < a25163967> 用眼神看穿他
+10:43 < seadog007> 是要逼我用鎖定技能喔
+10:43 < seadog007> = =
+10:43 < IGA> 我的也是一直被清= =
+10:43 < Lorex> zzzzzzzzz直接打掉整個站喔
+10:43 < shunyi> 吃過蜂蛹的路過
+10:43 < pcchou_> modify 又送不出去了
+10:43 < BobbyHo> 共筆仍然求SUP喔！
+10:43 < jefferysac> 快跑啊！樓上都黑了！！
+10:43 < BobbyHo> https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+10:43 < [R0]Ren> 只吃過蜂巢
+10:44 < whitepcc> YA
+10:44 < darkx> shunyi: 蜂蛹王 是你
+10:44 < Gundam> 蜂蛹吃起來怎麼樣？
+10:44 < BobbyHo> 頭像一直被幹掉
+10:44 < a25163967> 坐樓梯就沒被清的問題
+10:44 < Mark___> 40G
+10:44 < darkx> 等等 RMS 應該會說要轉 ogg  187
+10:44 < dylandy> 剛剛 lag 掉了，他到底在講誰
+10:44 < s3131212> 等等為什麼我在黑名單...
+10:44 < datex> 要吃蜂擁應該要去日本長野啦XD
+10:44 < Guest63381> 請問wifi要連哪個O_O
+10:44 < darkx> 吧 XD
+10:44 < whitepcc> s3131212: 黑名單+1
+10:44 < dylandy> 是 RMS 嗎？
+10:44 < Lorex> WTF
+10:44 < seadog007> 等等
+10:44 < [R0]Ren> Guest63381: 阿桑guest
+10:44 < Lorex> 為啥我投向一直被幹掉啦操
+10:44 < shunyi> Gundam: 根據成熟程度不同 口感不一樣喲
+10:44 < [r0]human_whale> [r2]buck5060   嘖嘖
+10:44 < ws23-> [議程組] Lightning talk 還有一個名額喔！有興趣者請至樓白板區喔！(我好孤單啊快來人啊Q(誤
+10:44 < [R0]Ren> Guest63381: as guest
+10:44 < [R0]Hinet60613> 清大怎麼了ww
+10:44 < Lorex> 頭像一直被幹掉 = =
+10:45 < s3131212> 我為什麼在黑名單啊（拍打
+10:45 < shunyi> 清大生在看梅竹0.0
+10:45 < seadog007> 為什麼特定位置封包送不出去?
+10:45 < Lorex> Merde
+10:45 < fishlover> 清大隔壁的路過XD
+10:45 < Ruinland> 不是轉mp3吧lol
+10:45 < david111014> 清大怎麼了 XDDDD
+10:45 < Guest63381> 那個帳密要打啥
+10:45 < datex> flac啦lol
+10:45 < Ruinland> ogg Vorbis才對
+10:45 < [r0]human_whale> 好煩  前面都有人占著位子睡覺
+10:45 < [R0]Ren> Guest63381: 註冊一個
+10:45 < whitepcc> ogg+1
+10:45 < darkx> rms 之前來台灣演講的時候 一直要求 如果你要錄音 請用 ogg XD
+10:45 < dylandy> 清大怎麼了
+10:45 < BobbyHo> 該死的座位表...
+10:45 < iblis17> seadog007: 不是被清掉 是奇怪的 escape 字串讓 jQuery 爆炸了
+10:45 < iblis17> seadog007: db 裡有東西
+10:46 < taichunmin> iblis17: 正在上演座位表攻防戰ＸＤ
+10:46 < iblis17> 囧
+10:46 < pcchou> 座位表TAT
+10:46 < s3131212> 我被黑掉惹 QAQ
+10:46 < pcchou> yay 終於進去了
+10:46 < seadog007> iblis17: 噢喔噢
+10:46 < pcchou> s3131212: 科科 大黑黑啊
+10:46 < seadog007> 你說剛剛那個嗎
+10:46 < seadog007> 我有看到
+10:46 < wiwi_2> 跟去年一樣黑掉的座位表
+10:46 < seadog007> Object那個
+10:46 < petercommand> pcchou: 等等去找你XD
+10:46 < mmis1000> 那個好眼熟...好像是我放的
+10:46 < iblis17> 對
+10:46 < iblis17> mmis1000: 哭邀
+10:46 < a25163967> 坐樓梯沒座位
+10:46 < dylandy> America : we hacked china
+10:46 < seadog007> mmis1000: 走開啦
+10:46 < iblis17>  lol
+10:46 < IGA> wwww黑黑
+10:46 < pcchou> petercommand: hi~
+10:46 < sitcon_2015> 安安
+10:46 < datex> 原來去清華就可以到美國嗎？！ 好，去考了（？
+10:46 < [R0]Hinet60613> 非典型駭客w
+10:46 < akira02> 黑座位表不厲害 保護座位表才是真駭客
+10:46 < shunyi> 非典型駭客XD
+10:46 < UnciaX> R1座位表也被洗掉了
+10:47 < seadog007> 來人啊 快去把 mmis1000 趕出去
+10:47 < cloud> OAO
+10:47 < dylandy> 郵政拼音
+10:47 < Moonslight> 柯P出現啦 XDD
+10:47 < Microsheep> 柯問
+10:47 < nightfeather> wwwww
+10:47 < shunyi> 人體駭客 駭葉克膜
+10:47 < Lorex> KP!!!!!!!!!!!!!!!!!!!!
+10:47 < seadog007> 強大柯P
+10:47 < Lorex> 話說座位表 = =
+10:47 < yanyiyi> 人體駭客
+10:47 < a25163967> 打十二個= =
+10:47 < seadog007> 應該可以用了
+10:47 < seadog007> 全空了
+10:47 < nightfeather> 座位表爆炸中RRRR
+10:47 < pcchou> 又全空了
+10:48 < [R0]Hinet60613> 精確來說是蔡璧如留的單據，不是柯P w
+10:48 < Andy___> 柯PXDDD
+10:48 < seadog007> 是說
+10:48 < seadog007> 各種504誒
+10:48 < Benyi_> 法院認證
+10:48 < pcchou> 又送不出去了
+10:48 < mmis1000> 這次又是誰下手？
+10:48 < seadog007> Time-Out Q___Q
+10:48 < seadog007> mmis1000: 應該是被DoS之類的
+10:48 < yaoteng> 柯問XD
+10:48 < dylandy> r2 聲音暴走
+10:48 < mmis1000> Firefox 無法與伺服器 wss://seat.sitcon.org/socket.io/1/websocket/bt48akkfADb9YEd4SPJF 建立連線
+10:49 < s991533> R2聲音太大了Orz...
+10:49 < s991533> 靠近喇叭受不了...
+10:49 < fishlover> 我ㄧ直想到伏冒熱飲
+10:49 < BobbyHo> 感覺有點脫離主題...
+10:49 < ALiangLiang_> 還好吧
+10:49 < iblis17> 504 ?
+10:49 < pcchou> BobbyHo: 還好吧
+10:49 < seadog007> iblis17: Time-out
+10:49 < seadog007> mmis1000: 因為連不上~
+10:49 < nightfeather> 看到了奇怪的 ID RRRRRRR
+10:49 < seadog007> 走http也不行
+10:49 < pcchou> 透抽！
+10:49 < iblis17> seadog007: 囧？我 r2 連的上
+10:49 < [R0]Hinet60613> 柯文哲的婉君 >///<
+10:50 < AngusTsou> R0立體音效100分
+10:50 < seadog007> iblis17: ..........
+10:50 < pcchou> 是allen own 耶
+10:50 < pcchou> m(_ _)m
+10:50 < SoFlat> 為何有線網路不理我T_T
+10:50 < BobbyHo> 準備跑R2惹@@
+10:50 < seadog007> AngusTsou: 陣列喇叭誒XD
+10:50 < seadog007> 不好才奇怪
+10:50 < [R2]PingNote> 肚子餓了 ˊ口ˋ
+10:51 < dd-han> 有線網路只能拿到169的IP
+10:51 < [R0]Hinet60613> 人工安檢OAO
+10:51 < ALiangLiang_> r2滿的差不多了ww
+10:51 < dannyAAM> 網路到底修好了沒www
+10:51 < seadog007> [R2]PingNote: 想聽
+10:51 < Dark__> 169+1
+10:51 < [R2]PingNote> seadog007 海豹快來 OwO//
+10:51 < TerryChen> 大家安安
+10:51 < lagane100> 人工OP
+10:51 < dannyAAM> http都會被強制上s吧www
+10:51 < seadog007> [R2]PingNote: //
+10:51 < AngusTsou> R0二樓還有位子  視野超好
+10:51 < mmis1000> 沒人要去刪一下r0資料庫的object嗎？
+10:51 < seadog007> dannyAAM: 啊 隨便啦XDDD
+10:52 < Lorex> zzzzzzzzzzz
+10:52 < seadog007> mmis1000: 嗚嗚嗚 都是你ler
+10:52 < iblis17> mmis1000: 等我一下
+10:52 < pcchou> Tom Scoot: Why electronic voting is a bad idea
+10:52 < pcchou> https://www.youtube.com/watch?v=w3_0x6oaDmI
+10:52 < seadog007> iblis17: 現在是空的完全寫不進去
+10:52 < Lorex> e/MSG SITCON_BOT setGravatar joe50613@gmail.com
+10:52 < pcchou> 完全寫不進去
+10:52 < seadog007> 之前應該找 mmis1000 測的 你看看他多黑(y)
+10:52 < Lorex> 寫進去就被清空
+10:52 < Andy___> 威脅密碼www
+10:53 < ALiangLiang_> funny~
+10:53 < Vongola_bot> OAO!!
+10:53 < Lorex> 看一下共比
+10:53 < Lorex> 共筆
+10:53 < [R0]Hinet60613> 柯P團隊沒有人，因為大家都是沒有人
+10:53 < Iven> 黑場太強啊
+10:53 < mudream> owo
+10:53 < azdkj532_> 嗡嗡嗡 拆拆拆
+10:54 < seadog007> 某人出現了
+10:54 < Iven> 這樣我只要逼那個人輸入2次密碼投票就好了@@
+10:54 < iblis17> Fixed
+10:54 < IGA> 誰來救救r0
+10:54 < iblis17> Orz
+10:54 < fishlover> 下個時段大家想去聽哪場？？
+10:54 < [R0]Ren> 沒人知道有兩個密碼啊
+10:54 < Iven> 遠端
+10:54 < ALiangLiang_> R4
+10:54 < Iven> rsa
+10:54 < david111014> r0突然變得有點冷
+10:54 < [R0]Ren> 想聽r2
+10:55 < Vongola_bot> IGA: Go
+10:55 < aweimeow> 應該是說，劫持的人不確定受害者輸入的是第一組 or 第二組
+10:55 < petercommand> 真的很冷
+10:55 < petercommand> r0 很冷
+10:55 < [R0]Hinet60613> 想聽R2: "為學校系統做測試"
+10:55 < [R2]PingNote> Youtube上的SITCON直播有雜音 QwQrz
+10:55 < fishlover> r4 噗
+10:55 < dd-han> 想開分身聽R0 + R3 QAQ
+10:55 < BobbyHo> 我要衝R2...
+10:55 < ALiangLiang_> 收購r2四個位置ww
+10:55 < TatsujinChin> Ryu3y3s: 微微甜？
+10:55 < BobbyHo> R2位子還有嗎？
+10:55 < Iven> 每個人辦帳號應該都會被要求輸入2個密碼吧?
+10:55 < datex> 這邊有中央的朋友嗎？owo
+10:55 < iblis17> BobbyHo: 沒了吧？
+10:55 < [R0]Ren> 不要大家都跑r2啊啊啊啊啊
+10:55 < taichunmin> 沒位置了
+10:55 < fishlover> 我也想r2
+10:55 < Vongola_bot> ALiangLiang: r2?
+10:55 < BobbyHo> R2滿惹@@
+10:56 < mmis1000> r2++
+10:56 < a25163967> 聽r2
+10:56 < petercommand> datex: 安安
+10:56 < Q_Q> R1
+10:56 < BobbyHo> 看Live好了，R0有點冷...
+10:56 < AngusTsou> r20
+10:56 < david111014> 伊達出現了
+10:56 < [r2]buck5060> 前排還有空位
+10:56 < ecilA> 準中央算不算
+10:56 < [R0]Ren> 請支持r0 r1
+10:56 < datex> 准中央可以算噢owo)/
+10:56 < dylandy> [全球華人的民主首都]
+10:56 < pcchou> seadog007: 海豹海豹 你等等要去哪裡
+10:56 < [R1]MinamiKotori> R1~~~
+10:56 < BobbyHo> 好想去R2...
+10:56 < TatsujinChin> david111014: 你多打一個1？
+10:56 < dannyAAM> 前中央呢QQ
+10:56 < Q_Q> r3
+10:56 < seadog007> pcchou: R2吧
+10:56 < datex> 之後應該會辦SITCON x NOS @NCU   需要有人來幫我XDD
+10:56 < pcchou> seadog007: 聽說快滿了
+10:56 < ALiangLiang_> Vongola_bot:R2我在r2 但已滿  其他人還在R0
+10:57 < seadog007> 小平啊QQ
+10:57 < Kudo> Хорошо
+10:57 < pcchou> 滿了TATQAQPAP
+10:57 < seadog007> ...........
+10:57 < a25163967> 坐旁邊
+10:57 < [R1]MinamiKotori> 哈拉秀
+10:57 < seadog007> 乖乖看R2直撥
+10:57 < [R0]Ren> r2地板還有嗎
+10:57 < seadog007> 有這種東西嗎QQ
+10:57 < dd-han> いいかせ
+10:57 < dannyAAM> XDDD
+10:57 < dannyAAM> 這鏡頭www
+10:57 < ALiangLiang_>  地板還有
+10:57 < azdkj532_> 睡臉直播XDDD
+10:57 < BobbyHo> 地板可坐嗎XD
+10:57 < wiwi_2> ZZZ
+10:57 < pcchou> 只好在R0休息(?
+10:57 < Lorex> 想去R2
+10:57 < BobbyHo> 我要怒看直播...
+10:58 < PLderOuO> OuO
+10:58 < ALiangLiang_> 我旁邊的地板還很空ww
+10:58 < Lorex> 求卡位
+10:58 < a25163967> 先有網路,你怎麼擦屁股
+10:58 < AndChat688961> 可以請r0跟r2的交換嗎XD
+10:58 < pcchou> Takeshi_tw: 座位表
+10:58 < Gundam> PLderOuO: OuO
+10:58 < CharlesLien> xDD
+10:58 < iblis17> Takeshi_tw: 累透了
+10:58 < UnciaX> XDD
+10:58 < AngusTsou> 那裏可以開位置圖啊？
+10:58 < XiaoJunHong> 我剛剛看到睡著是怎樣 XDD
+10:58 < dylandy> 直播攝影機太討厭了XD
+10:58 < [R0]Ren> a25163967: 印度人表示
+10:58 < AndChat688961> r0應該會空……
+10:58 < XiaoJunHong> https://seat.sitcon.org/
+10:58  * Lays
+10:58 < CharlesLien> 有那麼累喔xDD
+10:58 < ALiangLiang_> https://seat.sitcon.org/r2#
+10:58 < pcchou> ~~請各位填座位表~~
+10:58 < iblis17> DennyHuang: seat 可不可以寫在 irc title 阿？
+10:59 < AndChat688961> 直播攝影師可能是緯來來打工的？
+10:59 < GlueCrow> POI
+10:59 < IGA> 直播不要直播人家睡覺啦
+10:59 < IGA> wwww
+10:59 < TatsujinChin> POI
+10:59 < a25163967> r0 會空?
+10:59 < dd-han> 馬路產業
+10:59 < Lorex> ~~填完座位表請在 IRC Tag PCC 做一輪 DDoS~~
+10:59 < yaoteng> wwww 緯來XD
+10:59 < azdkj532_> 睡覺直播ㄎㄎ
+10:59 < BobbyHo> 話說R2該不會沒有Live
+10:59 < dd-han> いい風
+10:59 < pcchou> iblis17: umm 但是座位表
+10:59 < a25163967> 果斷做到下午
+10:59 < wiwi_2> 睡臉池是寫真轉播~~
+10:59 < Lorex> 馬陸產業
+10:59 < yaoteng> .
+10:59 < Lorex> 好多腳W
+10:59 < JYNY> R0空？效果器很好玩好媽？
+11:00 < iblis17> pcchou: ?
+11:00 < dylandy> 網路是鹿（？）
+11:00 < a25163967> 站位子坐到海報上台
+11:00 < [R0]Ren> 不會彈吉他的路過
+11:00 < azdkj532_> 好難選喔 機器學習跟RSA
+11:00 < JYNY> 網路不是網媽？
+11:00 < BobbyHo> 怒看Live等飯盒
+11:00 < darkx> dylandy: 網路不是路 白馬不是馬 (O
+11:00 < BobbyHo> 彈木吉他的路過...
+11:00 < IGA> 一起黑everything
+11:00 < AndChat688961> 相較之下啦XD    不是說r0不好
+11:01 < mmis1000> R2現在很滿嗎？
+11:01 < Iven> gogo r3
+11:01 < BobbyHo> r0超級大散場
+11:01 < Andy___> R0睡覺全曝光啦XDD  Live全都錄阿
+11:01 < fishlover> go r2
+11:01 < BobbyHo> R0走光啦
+11:02 < SeChanChan> ぽいっ
+11:02 < cloud> O_o
+11:02 < BobbyHo> r0大逃難...
+11:02 < [r0]human_whale> 中央舉手
+11:02 < Huang_Kou> R0議題超棒啊~~~
+11:03 < JYNY> R0超棒阿!!!!
+11:03 < Huang_Kou> 會彈琴的資訊人舉手rrr
+11:03 < JYNY> 有在玩音樂Orz
+11:03 < Huang_Kou> 有玩音樂的才會想留吧
+11:03 < jal_> ?
+11:03 < XiaoJunHong> R2 小平～～～
+11:04 < BobbyHo> R0完全沒興趣，我待R0看R2 XD
+11:04 < [R2]Ren> 更名時間
+11:04 < [R2]Hinet60613> R2大爆滿ww
+11:04 < mabinogi80503> 遠距超飽滿
+11:05 < [R2]Ren> www居然搶到位置
+11:05 < CASIO> R1要爆炸惹
+11:05 < BobbyHo> 求R2直播網址
+11:05 < et3> quit潮
+11:05 < XiaoJunHong> 好多人
+11:06 < BobbyHo> R0有Live Demo XDD
+11:06 < Huang_Kou> R0 悾悾
+11:06 < Huang_Kou> 空空
+11:06 < JYNY> R0 ROCK
+11:06 < JYNY> !!
+11:06 < BobbyHo> R0 當演唱會吧XD
+11:06 < Huang_Kou> R0 ROCK 空空
+11:06 < mmis1000_cloud> R2 overflow
+11:06 < Huang_Kou> 等等會不會直接現場SOLO
+11:06 < BobbyHo> 哪裡有R2 直播啊
+11:06 < AngusTsou> 之後都會有影片嗎？
+11:07 < fishlover> r2剛好找到位置XD
+11:07 < seadog007> R0 QQ
+11:07 < Moonslight> R3好黑   無燈光阿
+11:07 < UnciaX> R1滿滿滿w
+11:07 < CASIO> R1太可怕了
+11:08 < nightfeather> \有插座了/
+11:08 < dylandy> 野生桌機哥目擊
+11:08 < [R2]Ren> r2也滿
+11:08 < dylandy> @r2
+11:08 < mmis1000_cloud>  R0現在很空？
+11:08 < [R2]Ren> dylandy: 在哪@@
+11:08 < JYNY> 圖勒
+11:08 < chihhsin> 圖！
+11:08 < AngusTsou> 圖！！！
+11:08 < Huang_Kou> R0空
+11:08 < XiaoJunHong> R2爆滿...
+11:08 < nightfeather> R0 現在空了一半以上有吧
+11:08 < Huang_Kou> 超級
+11:08 < CASIO> 有沒有R3現況?
+11:09 < SCWhite> 沒圖沒真相!!
+11:09 < BobbyHo> r0 空城...
+11:09 < Huang_Kou> 大家普遍對音樂沒興趣qq
+11:09 < JYNY> QQ
+11:09 < BobbyHo> 果然要早點去卡位QQ
+11:09 < XiaoJunHong> R2前面搖滾區 ww
+11:09 < mmis1000_cloud> 場地分配錯了啊
+11:09 < AngusTsou> 為了下午的py卡位ＱＱ
+11:09 < confbot> <fntsrlike>: 我有用 Slack 開一個 Team ，建立 #sitcon 頻道，並且跟 IRC 訊息同步，有人有興趣加加嗎 w?
+11:09 < Huang_Kou> 一個人好孤單qq..
+11:09 < [R2]Ren> r2開放搖滾區
+11:09 < Moonslight> R3整個爆滿
+11:09 < BobbyHo> 為何只有R0有Live QQ
+11:10 < mudream> r1
+11:10 < Davy_CC> [R2] 超滿，講者怕人太多 CO2 濃度太高有人混到
+11:10 < Davy_CC> 昏倒
+11:10 < AMing> R2 爆滿 XD
+11:10 < nightfeather> 是個開線上實況看熱鬧的好時候 (?
+11:10 < BobbyHo> R0 求共筆支援
+11:10 < mmis1000_cloud> BobbyHo: Joyce
+11:10 < mmis1000_cloud> 誤按
+11:10 < UnciaX> R1走道也坐滿了
+11:10 < Huang_Kou> r0可共筆++
+11:10 < seadog007> [R2]PingNote QQ 不能去看了
+11:10 < yanyiyi> 導播組：一人一萬元～廳廳有直播（？）
+11:10 < SCWhite> 野生EMT-1在R1  有需要叫一下XD
+11:10 < seadog007> ....
+11:11 < darkx> 小平人帥真好
+11:11 < [R2]Ren> r2有直播嗎
+11:11 < BobbyHo> 畫質爛一點其實沒差，有內容就好...
+11:11 < iblis17> seadog007: 放鬆中 lol
+11:11 < fntsrCloud> \小平/ \小平/ \小平/ \小平/ \小平/
+11:11 < Davy_CC> \小平/
+11:11 < BobbyHo> 看來只有R0有Live了
+11:11 < CASIO> R1開始了
+11:11 < datex> @dylandy上個slack吧
+11:11 < XiaoJunHong> R2 開始了～
+11:12 < datex> 然後幫貼個疑似桌機哥的照片（咦？
+11:12 < Huang_Kou> r0真的帶電吉他欸
+11:12 < chyuaner> 是小平耶～
+11:12 < Huang_Kou> 太神啦
+11:12 < divazone> 直播只有R0嗎?
+11:13 < lemo_> 只能看直播R0~~
+11:13 < s3131212> R2 OVERFLOW 了
+11:13 < OtomeSound> R2說明了不少人的心聲了www
+11:13 < qqorz> /who
+11:13 < darkx> 咪嚕 >///<
+11:13 < Davy_CC> [R2] 要是沒有人使用JAVA就沒有人使用了，所以我就來用JAVA
+11:13 < lagane100> 咪嚕
+11:14 < fishlover> s3131212大大也在r2 ?
+11:14 < divazone> XDDD
+11:14 < [R2]Ren> \貓奴/
+11:14 < lemo_> ~~
+11:14 < keke> 簡報好像？？
+11:14 < keke> R@
+11:14 < keke> R2
+11:14 < s3131212> fishlover 後面站著
+11:15 < Moonslight> R3各種數學
+11:15 < BobbyHo> r2 live：後面站著
+11:15 < BobbyHo> r2 live：https://livehouse.in/channel/188812
+11:15 < fishlover> 40分鐘腳會痠XD
+11:15 < [R0]dd-han> 有R3 Live嗎？
+11:15 < yanyiyi> [R0] 這畫面害我們誤會以為是uefi 的畫面以為他電腦死了。
+11:16 < Iven> 求R3 live
+11:16 < JYNY> 哪裡可以在投影片
+11:16 < BobbyHo> 列表：https://livehouse.in/search/sitcon/1?q=sitcon
+11:16 < chyuaner> [R2] http://imgur.com/3M2k4Fu
+11:16 < BobbyHo> 目前只有R1、R2
+11:16 < [R2]Hinet60613> [R2] 好多貓貓!
+11:16 < BobbyHo> 更正:r0'
+11:16 < BobbyHo> R2
+11:17 < lagane100> R2好小Q_Q
+11:17 < toppy368> Ya ! 頭像出來了
+11:17 < ALiangLiang_>  每個學校都會有很蠢的問題ww
+11:17 < [R2]Ren> xdd
+11:17 < fishlover> XDD 右鍵檢查元素神技出來了
+11:17 < Iven> QQ 只有R0 R22
+11:17 < [R2]Hinet60613> Base64+DES www
+11:17 < len__> Peter
+11:18 < pcchou> #SITCON #SITCON2015 直播網址
+11:18 < pcchou> R0國際會議廳: https://livehouse.in/channel/188810
+11:18 < pcchou> R1第1會議室: https://livehouse.in/channel/188811
+11:18 < Sean_Phone> 聽說我那個國中讓學生抓到全校資料
+11:18 < pcchou> R2第2會議室: https://livehouse.in/channel/188812
+11:18 < ALiangLiang_> 像是驗證碼放在cookie之類的ww
+11:18 < TatsujinChin> 是誰開的AirPlay Server？ http://i.imgur.com/zBAkOVy.png
+11:18 < seadog007> Base64只是編碼
+11:18 < alex_lu> r0?
+11:18 < CASIO> R3有直播嗎(R1動彈不得)
+11:18 < [R0]dd-han> 搶下來啊(?
+11:19 < XiaoJunHong> ww
+11:19 < lagane100> 黃色小鴨XDDD
+11:19 < [R2]Ren> 黃色小鴨...
+11:19 < ALiangLiang_> 我們校務系統的問題頗好玩
+11:19 < [R2]Hinet60613> 橡皮鴨測試法w
+11:19 < XiaoJunHong> 小貓 XDDDDD
+11:19 < dylandy> 黃色小貓XD
+11:19 < darkx> https://www.wikiwand.com/en/Rubber_duck_debugging
+11:19 < a25163967> Sean_Phone: 我們學校被整個玩掉  換了一個新的
+11:19 < ALiangLiang_> 可以用別人的token使用教務系統ww包含行政人員的ww
+11:19 < XiaoJunHong> 海報 ww
+11:19 < yanyiyi> yzu 也可以這樣玩
+11:20 < dylandy> Denny 被賣了XD
+11:20 < Andy___> 首先 你要有女朋友
+11:20 < Ren> Hello everyone. :)
+11:20 < cw_> 本魯無法用pair programming啊
+11:20 < Tomato> [xxxkoala]:[XD]
+11:20 < seadog007> 阿啊阿啊啊
+11:20 < [R2]Ren> Andy___: 基友
+11:20 < seadog007> 小平!!!!!!(拍打
+11:20 < s3131212> seadog007 和 DennyHuang 被賣了
+11:20 < darkx> Pair ♂ programming
+11:20 < Davy_CC> [R2] 錯！怎麼可能第一次就上手嘛
+11:20 < pcchou> pair programming  --->  DennyHuang x seadog007
+11:20 < [R2]Hinet60613> 是allenown!
+11:20 < dylandy> 小平：我是偏誤（咦
+11:20 < knowlet> 丹丹x海豹 programming
+11:20 < darkx> ♂♂♂
+11:20 < allenown> [R2]Hinet60613: O_o
+11:20 < dannyAAM> 真der pair無法啊
+11:20 < fishlover> 右手打字左pair
+11:20 < Guest88051> I'm gray hat hacker. :)
+11:20 < [R2]Ren> 有人跟我同名欸
+11:21 < fishlover> 左手才是輔助
+11:21 < keke> Mind Hacker x96xk7i
+11:21 < keke> 來了喔
+11:21 < XiaoJunHong> 小萍：感情真好
+11:21 < seadog007> knowlet: (拍打
+11:21 < Andy___> XDD
+11:22 < iblis17> Takeshi_tw: seat 沒有任何 testing lol
+11:22 < Kevin_WY> 飄過
+11:23 < darkx> development 跟 production 用同一台沒問題嗎w
+11:23 < DanielChen_> ^_^
+11:23 < [R2]garytan> 安安<(_ _)>
+11:23 < iblis17> darkx: 應該說 沒有 automatica testing
+11:23 < allenown> [R2]garytan: hi
+11:23 < toppy368> 後悔英打很慢，剛剛設定頭像，光打字就兩三分鐘
+11:23 < darkx> lol
+11:23 < iblis17> darkx: 測試機 seat.iblis.cnmc.tw 你要完嘛？
+11:23 < taichunmin> 我剛剛還拼錯頭像好幾次ＸＤ
+11:23 < darkx> iblis17: 鼻要哩
+11:24 < iblis17> lol
+11:24 < darkx> lol
+11:24 < fishlover> ipad打很慢的路過XD
+11:24 < lagane100> @allenown 大大 <(_ _)>
+11:24 < [R2]Ren> ipad+1
+11:24 < toppy368> Ctrl + C 、 Ctrl + V 用慣了
+11:24 < allenown> lagane100: <(_ _)>
+11:24 < IGA> www
+11:24 < fishlover> iPad mini retina
+11:25 < pcchou> .
+11:25 < fishlover> 而且是抽獎抽到的XD
+11:25 < [R2]Ren> fishlover: www
+11:25 < [R2]garytan> lagane100: test
+11:25 < lagane100> @garytan test
+11:25 < Sean_Phone> 網路不穩…
+11:25 < OTAKU_G> 第一次 SITCON 只帶 iPad，之後就決定以後一定要帶筆電（打字太慢）。XD
+11:25 < [R2]garytan> 學會怎麼tag人了ww
+11:26 < lagane100> garytan: test
+11:26 < fishlover> 為什麼有的id前面會有r2
+11:26 < fishlover> ？？
+11:26 < [R2]Ren> bot？
+11:26 < [R2]garytan> 自己打的XD
+11:26 < starlition> 自己打的
+11:26 < lagane100> 沒事
+11:26 < [R2]Ren> 對XD
+11:26 < starlition> 可以識別在哪一間
+11:26 < fishlover> XDD
+11:26 < OtomeSound> OTAKU_G: 你只缺鍵盤而已吧(?)
+11:26 < andytwmvp> R2好多貓
+11:26 < lagane100> 我在學怎麼tag人 lol
+11:26 < [R2]garytan> R2在貓貓賣萌
+11:26 < toppy368> USB外接鍵盤+ OTG線 (Android 專用)
+11:26 < [R2]Ren> lagane100: 以為bot XDD
+11:27 < cw_> r2的演講者確定不是貓嗎?
+11:27 < OTAKU_G> 那時候還不知道有那種周邊 QQ
+11:27 < starlition> 也可以參考那個投影鍵盤阿
+11:27 < ALiangLiang_>  otg+hub
+11:27 < [R2]garytan> 貓才是主體吧XD
+11:27 < DanielChen_> 有R2直播媽QAQ
+11:27 < fishlover> ipad好像可以藍牙鍵盤
+11:27 < cw_> https://livehouse.in/channel/188812  R2直播
+11:27 < Andy___> R1直播：https://livehouse.in/channel/188811  R2直播：https://livehouse.in/channel/188812
+11:27 < [R2]Hinet60613> R2有萌貓貓
+11:27 < toppy368> 貓咪躺在鍵盤上應該會悲劇
+11:27 < ALiangLiang_> otg+hub + teamviewer =雲端電腦
+11:27 < KUNIGUMI> R2講者應該要帶miru的
+11:27 < andytwmvp> 為什麼vs是黑的
+11:28 < OtomeSound> 有線一直無法連線QAQ
+11:29 < DanielChen_> sitcon 2015 5g怎麼不見了
+11:29 < CCH> 聽工作人員說網路有問題
+11:29 < fishlover> 我已經放棄有線了XD
+11:29 < inndy> OtomeSound: 現在中研院的設備爛掉了
+11:29 < toppy368> 我目前用3G
+11:29 < [R2]garytan> 座位表會html encode Q__Q
+11:29 < XiaoJunHong> 4G穩穩der
+11:29 < inndy> OtomeSound: 請耐心等待 QQ
+11:29 < lagane100> 皇毅不要
+11:29 < LionBug> 我連中研院得穩穩的誒
+11:29 < JYNY> live demo
+11:29 < toppy368> 但流量只有500M m.m
+11:29 < KUNIGUMI> 種花LTE +1
+11:29 < inndy> toppy368: 省著點用吧 XDD
+11:29 < iblis17> [R2]garytan: 不然你在期待啥 lol
+11:30 < Dark__> R0只有3G 台哥
+11:30 < DanielChen_> 我現在連TOTOLINK 那是哪來的
+11:30 < chyuaner> 恩，有線也炸了
+11:30 < fishlover> 我有1G加值卡
+11:30 < CASIO> 有線好像不用去連 插上去就可以用
+11:30 < wiwi_2> 我用中研院網路 as_guest
+11:30 < [R2]garytan> iblis17: 因為irc id有符號XD
+11:30 < Dark__> 無線正常 有線出現169
+11:30 < BobbyHo> R0 開始 Live Demo惹@@
+11:30 < fishlover> 7-mobile 的
+11:30 < DanielChen_> R0要現場solo了
+11:30 < Huang_Kou> 吉他表演囉!!
+11:30 < JYNY> 演唱會拉
+11:30 < Huang_Kou> 爽耶
+11:30 < LionBug> 發現野生dark
+11:30 < XiaoJunHong> 可惡，想聽
+11:30 < AngusTsou> R0演唱會了喔～～～
+11:31 < iblis17> [R2]garytan: 這我無法 '[]' 都要 escape 不然 db 會悲劇
+11:31 < wiwi_2> 不是有live?
+11:31 < [R2]Hinet60613> [R2]小結(X) 小貓(O)
+11:31 < toppy368> 盡量省者點好了，羨慕有線網路
+11:31 < KUNIGUMI> R2貓能量補充中
+11:31 < Guest88051> Net
+11:31 < toppy368> 貓能量補中+1
+11:31 < [R2]garytan> iblis17: 喔喔喔喔XD 辛苦了XD <(_ _)>
+11:31 < [R2]Ren> \貓貓大好/
+11:31 < Gent> 有線網路怎麼了?
+11:31 < iblis17> [R2]garytan: thx
+11:32 < warrenlink> csikit learn
+11:32 < toppy368> 無法辨識網路
+11:32 < toppy368> 只好wifi，但也訊號過差
+11:32 < [R1]CASIO> AS_guest 不能登sitcon官網連結的網頁IRC
+11:32 < fishlover> 我連的是as_guest
+11:32 < darkx> R2 https://github.com/doggy8088/Learn-Git-in-30-days
+11:32 < [R1]CASIO> 我是用GOV的登
+11:33 < DanielChen_> 用pick當觸控筆wwwwww
+11:33 < Dark__> 有線已經掛一小時多了 http://i.imgur.com/omNCJQ4.png
+11:33 < fishlover> 我用app登的
+11:33 < Dark__> As_guest正常
+11:33 < warrenlink> numpy
+11:33 < DanielChen_> 有人連現場的網路順的嗎
+11:34 < dannyAAM> SITCON/有線是爛的
+11:34 < [R2]Hinet60613> AS_Guest + AndroIRC 穩穩的
+11:34 < weiwei63> 連 as_guest 比較順
+11:34 < Sean_Phone> 現場連不進去
+11:34 < dannyAAM> 就神奇的Backup/AS_Guest能用
+11:34 < toppy368> 3Q
+11:34 < Guest88051> 12TX-36RX :)
+11:34 < cw_> 非現場看直播很順
+11:34 < mabinogi80503> 橘子說話了，驚嚇ing
+11:34 < toppy368> 立馬用notepad++操筆記
+11:34 < [R1]CASIO> R1只連的到AS_guest
+11:34 < fishlover> as_guest+turboIRC
+11:34 < ZeroMu> 行政組公告：因為中研院電算中心的網路目前有問題，所以有線以及sitcon/sitcon5g 皆無法順利連線，請先以AS_Guest連線。
+11:34 < Andy___> 直播很順~~
+11:35 < [R1]CASIO> R1連其他都是雷
+11:35 < chihhsin> omg
+11:35 < ZeroMu> 目前相關人員正在盡力修復網路環境中。
+11:35 < Guest88051> 網路髒髒的 :)
+11:35 < Dark__> As_guest妥妥的 http://i.imgur.com/jkjm0Nv.png
+11:35 < BarryLin> Orz
+11:36 < Guest88051> Hacker  -)_(-
+11:36 < [R2]Hinet60613> [R2] 講者: 好吧，都沒有人要拿手機出來掃QRCode (失望
+11:36 < SoFlat> 好餓喔~~~~~~
+11:36 < [R2]Ren> [R2]Hinet60613: 太遠掃不到啊啊啊
+11:37 < XiaoJunHong> 又一個QRcode～
+11:37 < escrowdis> 請問怎麼連有線網路O_O?
+11:37 < [R1]CASIO> 下午R0.R1.R2是都有直播嗎?
+11:37 < fishlover> 這學期有修人工智慧XD
+11:37 < AMing> 感謝大會的網路的工作人員
+11:37 < BobbyHo> R0 要Solo 歌曲喔
+11:37 < Yukai> solo....!
+11:37 < Huang_Kou> solooooooo
+11:37 < jimlin> SOLO!!
+11:37 < fishlover> 感謝大會的網路的工作人員
+11:37 < a25163967> 有人在r0嗎
+11:37 < david111014> r0 要開演唱會啦
+11:37 < BobbyHo> 我在R0
+11:38 < BobbyHo> 要solo啦
+11:38 < a25163967> 等演唱會
+11:38 < Lays>  /n
+11:38 < Ayumi_> \\\\
+11:38 < Guest88051> 127.0.0.1
+11:39 < Gin> [R2] slides: http://slides.com/pingnote/sitcon2015-website-testing
+11:39 < iblis17> LionBug: 再做啥阿 orz
+11:39 < BobbyHo> 很短der Solo
+11:39 < BobbyHo> 根本沒唱XD
+11:39 < cw_> r2結束好澡
+11:39 < a25163967> 演唱會沒開啦
+11:39 < cw_> 早www
+11:39 < syu> r2:素食會在男廁發放
+11:39 < Guest88051> http://slides.com/pingnote/sitcon2015-chase-boys#/
+11:39 < [R1]CASIO> R1進Q&A了
+11:39 < BobbyHo> R0也要結束了
+11:40 < [R1]CASIO> 中午是在哪裡吃飯啊???
+11:40 < AngusTsou> 不唱一首嗎ＱＡＱ
+11:41 < starlition> SITCON2015 R0 // SITCON2015 R0 5G 用這個ssid網路會順暢
+11:41 < seadog007> RS XDDDD
+11:41 < JYNY> 沒有問題阿唱歌阿
+11:41 < a25163967> 求唱歌
+11:42 < BobbyHo> 求Live Demo XD
+11:42 < BobbyHo> R0 Q&A ing
+11:42 < garytan> quit
+11:42 < a25163967> 問他可不可以唱歌
+11:42 < BobbyHo> 收東西等吃飯...
+11:43 < a25163967> 等ㄔ
+11:43 < escrowdis> 請問有人連有線網路嗎XD? 還是都連無線的
+11:43 < AngusTsou> 可以點歌嗎？
+11:43 < SoFlat> 一大波quit潮逼近中XDDDDDD
+11:43 < XiaoJunHong_m> 排隊便當
+11:44 < [R2]Ren> 便當排隊..
+11:44 < OtomeSound> pkg install sitconLunch
+11:44 < chunyou> [失物招領] 方才 R3 拾獲 ASUS ZenFone 5 一隻，遺失的會眾請到服務台領取！
+11:44 < [R1]CASIO> 領完之後是要席地而坐嗎ww
+11:45 < SoFlat> 忘了帶餐具QAQQQQQ這邊會提供嗎
+11:45 < et3> quitquitquitO___O
+11:45 < AngusTsou> 別嚇我........餐具
+11:45 < a25163967> r0結束了
+11:45 < ZeroMu> [失物招領] 有誰遺失一串鑰匙，請遺失的會眾到服務台領取。
+11:46 < XiaoJunHong_m> 好長的隊伍
+11:46 < JOY> 餐具…………
+11:46 < MouseMs> R0 12:10 有樂團表演喔！
+11:46 < Davy_CC> 樂團表演是怎樣wwwwwwwww
+11:46 < AngusTsou> 真的有樂團表演
+11:46 < a25163967> 領便當
+11:46 < [R1]CASIO> 那就開live看啦XDDDD
+11:46 < XiaoJunHong_m> 便當隊伍快速移動
+11:47 < starlition> ZenFone 5丟了的會眾 應該可能也看不到IRC了吧 XD
+11:47 < fishlover> 隊伍好長
+11:47 < [R1]CASIO> 便當是兩路發放還是只有一條動線?
+11:48 < XiaoJunHong_m> 會移動是因為整隊..
+11:51 < totomoney> 領便當像排隊入場一樣
+11:51 < AngusTsou> 現在可以改吃素嗎？
+11:51 < AngusTsou> 素食好像不用排
+11:52 < fishlover> XD
+11:52 < starlition> <AngusTsou> 這樣會不會讓真的必須吃素的沒飯吃呢 QQ
+11:53 < AngusTsou> 應該填素食的   失策
+11:53 < XiaoJunHong_m> we
+11:53 < XiaoJunHong_m> ww
+11:54 < KUNIGUMI> 便當出現，還是TRA的XD
+11:54 < [Eat]Hinet60613> 台鐵便當w
+11:55 < AngusTsou> 樂團出現R0
+11:56 < [R2]PingNote> 啊啊, 看完IRC? Log了, 謝謝大家支持 QwQ
+11:56 < [Eat]Hinet60613> R0 在live demo?
+11:57 < Guest32532> :)
+11:57 < [R2]PingNote> 我昨天中午就來中研院了, 沒辦法帶咪嚕來噢 QQ
+11:57 < [R2]PingNote> 嗚痾, 肚子好餓 ˊ口ˋ
+11:57 < fishlover> 開始發便當了XD
+11:59 < totomoney> 台鐵便當欸ww
+12:00 < escrowdis> WOW 台鐵便當~
+12:00 < [R0]dd-han> ow
+12:01 < SeChanChan> ぽいっ
+12:01 < [R2]PingNote> 便當發放處爆滿惹，提早放大家出來是對的XD
+12:02 < escrowdis> 晚點過去好了=w=
+12:03 < Ayumi_> ¦w
+12:10 < [r0]human_whale> 沒便當老
+12:10 < [r0]human_whale> >_<
+12:17 < BobbyHo> 吃飽回R0
+12:17 < BobbyHo> 等樂團和下午議程
+12:19 < CASIO> 有人14點過後打算去交誼廳嗎?
+12:20 < [R0]Hinet60613> 誰在放東京熱啦ww
+12:20 < BobbyHo> 下午R0有座談會喔!
+12:21 < ZeroMu> [失物招領] 目前服務台這邊，有撿到一個錢包（內有身份文件（蕭先生）），一隻Zenfone5 ，一串鑰匙，以及一條傳輸線請有遺失的會眾，至服務台招領。
+12:21 < [R2]Ren> tokyohot
+12:21 < toby_skarting> Tokyo Hot
+12:21 < BobbyHo> 已經開始演奏囉
+12:21 < toby_skarting> BLOW
+12:22 < BobbyHo> 強烈建議離舞台遠一點
+12:22 < [R0]Hinet60613> 8排超有感.....
+12:22 < [R2]Ren> 超大聲
+12:22 < Gundam> 全身都在震動RRRRRR
+12:22 < BobbyHo> 我坐第三排，耳朵塊爆了
+12:22 < Gundam> 4排
+12:22 < BobbyHo> 我後悔惹@@
+12:23 < sntc06> Test
+12:23 < petercommand> sntc06: hi
+12:23 < ZeroMu> 放東京熱已經違反Coc OAO,可以詳細問他在r0的哪裡嗎？
+12:24 < sntc06> Great, 沒斷線
+12:24 < [R1]CASIO> 聲音太可怕啦
+12:24 < [R0]DanielChen> yoshi
+12:24 < [R0]Hinet60613> 在...講台上 (?)
+12:24 < [R0]DanielChen> Who care
+12:24 < BobbyHo> 太大升聲！
+12:24 < BobbyHo> 這裡是會議聽不是小巨蛋=_=
+12:24 < [r0]human_whale> pa不憂
+12:24 < divazone> =A+
+12:24 < BobbyHo> 耳朵塊爆了
+12:25 < [r0]human_whale> pa到底會不會控
+12:25 < BobbyHo> 沒人拍手XD
+12:25 < [R2]Ren> 胃裏的食物也跟著音樂跳動了
+12:25 < Gundam> XDDD
+12:25 < BobbyHo> 小聲一點 ㄅㄊ
+12:26 < Testtest> PA：太小聲囉
+12:26 < divazone> 是的!! PA!!
+12:26 < BobbyHo> 已經聽不到主唱得聲音惹＠＠
+12:27 < Gundam> 要遠離音響。＿。
+12:27 < [r0]human_whale> 嘖嘖
+12:27 < [R2]Ren> 佩服台前的攝影組
+12:27 < [R0]DanielChen> 把耳朵摀起來還是很大聲
+12:27 < BobbyHo> e04...
+12:28 < PowerLi> 我來的是中研院嗎QAQ
+12:29 < BobbyHo> SITCON真的不適合安插這種演出...
+12:29 < CharlesLien> 我的電腦在震動！！
+12:29 < toby_skarting> XD...
+12:29 < hank848688> www
+12:29 < Gundam> wwwww
+12:29 < [R0]DanielChen> 有人聽得懂他在唱殺小媽
+12:30 < tckf> 坐第二排耳朵好痛
+12:30 < CCH> SO SADˊˋ
+12:30 < BobbyHo> 我完全無法...
+12:30 < toby_skarting> 場地不適合
+12:30 < AngusTsou> 我連哪種語言都聽不出來
+12:30 < [R2]Ren> 決定移駕r1
+12:30 < BobbyHo> 會議聽來搞這種東西是瘋了啊
+12:30 < a25163967> 求字幕(誤
+12:30 < divazone> 直播還算聽得清楚
+12:31 < fishlover> 吃飽了～感謝工作人員們
+12:31 < BobbyHo> 也沒曲名...
+12:31 < [R0]Hinet60613> 這樂團是大會另外安排的嗎? 還是他們是剛剛R0的講者?
+12:31 < Gundam> 前面那個攝影大哥辛苦了
+12:31 < BobbyHo> 連查lyrics都不行...
+12:31 < fishlover> <( _ _ )>
+12:31 < BobbyHo> 樂團是另外的
+12:31 < [R2]icephat43> 好恐怖…
+12:32 < AngusTsou> 被消音了？
+12:32 < [R0]DanielChen> 不是R0講者
+12:32 < Testtest> Mic爆了
+12:32 < inndy> 今年 SITCON 陣容超豪華！
+12:32 < BobbyHo> www
+12:32 < tckf> 其實可以tune低現場音量@@
+12:32 < [R0]DanielChen> 還有阿
+12:32 < [R2]Ren> http://imgur.com/AuxVGJU
+12:32 < Testtest> Woooooooooooo
+12:32 < a25163967> 我的耳朵
+12:32 < [R2]Ren> 請注意音量
+12:32 < [R2]Ren> xdd
+12:33 < [R0]Hinet60613> 有人有耳塞可以賣我嗎 QAQ
+12:33 < JYNY> 鍵盤表示歡呼(歡呼
+12:33 < CharlesLien> 我應該要戴全罩式的
+12:33 < AngusTsou> 已戴上耳機
+12:33 < [R1]CASIO> 塊陶啊
+12:33 < BobbyHo> 想卡前面的位置，結果搞成這樣Orz
+12:33 < a25163967> 忘了戴耳機
+12:33 < gogomagnet> 滑鼠都在震動了
+12:33 < BobbyHo> 整場在震動啊...
+12:33 < BobbyHo> 現在是一個不給休息的節奏...
+12:34 < a25163967> 後面也沒好到哪裡去
+12:34 < [R0]DanielChen> 耳機萬歲
+12:34 < BobbyHo> 崩潰惹@@
+12:34 < [R1]CASIO> 在R1戴耳機看直播...
+12:34 < AngusTsou> 原來這就是絕不冷場
+12:34 < Gundam> RRRRRRRR
+12:34 < [R0]Hinet60613> 耳朵好痛...
+12:35 < BobbyHo> 我嚴重懷疑主唱知道自己在唱什麼...
+12:35 < JYNY> R0在趕人?
+12:35 < a25163967> 剛剛發現我他媽的坐在音響正前方
+12:35 < Vdragon-Phone> 那個樂團啊
+12:35 < [R0]Hinet60613> trtd? vrtd? brtd?
+12:35 < AngusTsou> ＢＲＴ？聽不清處
+12:36 < RChen> 只有我覺得很吵嗎…
+12:36 < [R2]Ren> http://imgur.com/AuxVGJU
+12:36 < BobbyHo> BRTD...
+12:36 < JYNY> BRT
+12:36 < a25163967> 不行了 避難去
+12:36 < JYNY> XDDDD
+12:36 < RainJay> 有耳塞式耳機的建議快點戴上 頗好
+12:36 < [r0]human_whale> 我要給差評了！！！！！！！
+12:36 < gogomagnet> 一個一個的走了
+12:36 < BobbyHo> 我只聽到從今以後
+12:36 < [R0]DanielChen> 我戴耳機把音量開滿還是蓋不掉他們的聲音
+12:37 < [r0]human_whale> 後面的pa到底有沒有耳朵
+12:37 < CharlesLien> 結束了嗎？！
+12:37 < pcchou> BRTD
+12:37 < [R0]Hinet60613> BRTD
+12:37 < AngusTsou> 發現遮耳朵聽得比較清楚www
+12:37 < BarryLin> OAO
+12:37 < BobbyHo> 我絕對不會去Orz
+12:37 < BobbyHo> OAO
+12:37 < SeChanChan> ぽいっ
+12:37 < [R0]Hinet60613> 難道是樂團型駭客?!
+12:37 < [r0]human_whale> 哇哇哇
+12:37 < BobbyHo> 還有2手Orz
+12:37 < [R0]DanielChen> drdd? trtt?
+12:38 < [r0]human_whale> 還有兩手………
+12:38 < JYNY> 樂團型駭客!!
+12:38 < [R0]DanielChen> 還有兩首Q口Q
+12:38 < RChen> 還有兩首嗚嗚嗚
+12:38 < BobbyHo> 唬爛吧...
+12:38 < hank848688> 還有2首w
+12:38 < CharlesLien> 還有啊…
+12:38 < [R0]Hinet60613> BRTD ( http://www.indievox.com/brtd2009 )
+12:38 < AngusTsou> 開玩笑的吧www
+12:38 < cy-yang> [失物協尋] 有會眾遺失 TOSHIBA 矽膠鍵盤模一個，若有拾獲請拿到服務台，謝謝！
+12:38 < pcchou> 表示被駭了
+12:38 < Testtest> 時間的狗？
+12:39 < aa25163967> 門口吹風中
+12:39 < hank848688> 樂團型駭客<(_ _)>
+12:39 < Gundam> wwwwwww
+12:39 < Choukai> 好大聲Q_Q
+12:40 < AngusTsou>  <[R2]Ren> http://imgur.com/AuxVGJU
+12:40 < tckf> 耳朵被駭，無法正常運作
+12:40 < Vdragon> 「別讓駭客不開心」這個應該寫在 CoC 裡（大誤
+12:40 < BobbyHo> 還好今天全場只有SITCON...
+12:40 < JYNY> 無線電在這裡面聽的到媽？
+12:41 < paraselene> 話說，有沒有人還餓的...我想出去買吃的
+12:41 < Vdragon> 歡迎將梗貼到 https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW#:h=梗收集區 感謝 mOm
+12:42 < petercommand> 耳朵型駭客 ^^
+12:42 < sntc06> BRTD
+12:42 < ZeroMu> [失物招領] 目前服務台有撿到一名李小姐的學生證，一隻Zenfone，一串包含sandisk隨身碟的鑰匙，內有證件的錢包（蕭先生），以及一條白色的usb傳輸線，請遺失得會眾來服務台招領。謝謝
+12:42 < FF_> 大家可以準備回來囉
+12:42 < taichunmin> 從 R2 聽到的音響超慘
+12:42 < pcchou> 音樂型駭客TAT
+12:42 < taichunmin> 超尖銳
+12:43 < schwannden> hi
+12:43 < chihhsin> schwannden: hi
+12:43 < paraselene> 那個，sandisk隨身碟是不是無蓋的
+12:43 < ZeroMu> [失物招領] 目前服務台有撿到一名李小姐的學生證，一隻Zenfone，一串包含sandisk隨身碟的鑰匙，內有證件的錢包（蕭先生），一個黑色的手機套，以及一條白色的usb傳輸線，請遺失得會眾來服務台招領。謝謝
+12:43 < ZeroMu> 是的
+12:43 < paraselene> 我現在過去TAT
+12:43 < schwannden> las vegas
+12:43 < ZeroMu> ok
+12:43 < [R1]Hinet60613> 躲來R1避難...
+12:43 < BobbyHo> Vdragon ： 以貼
+12:43 < schwannden> what does the fox say
+12:44 < Vdragon> @BobbyHo (ROFL)
+12:44 < taichunmin> 演講有開 echo 超悲劇
+12:44 < [R2]PingNote> R2歡迎大家//
+12:45 < schwannden> --help
+12:45 < ry_> 安
+12:45 < balon> 結束了~
+12:45 < BobbyHo> 謝謝你終於唱玩了
+12:45 < gogomagnet> 沒了
+12:46 < Unknown_> "la -al"
+12:46 < BobbyHo> 謝謝！！
+12:46 < FF_> 開放難民回來囉!
+12:46 < Vdragon> --還好 Youtube 可以調音量(X)--
+12:46 < fishlover> r2歡迎
+12:46 < CharlesLien> Finally…
+12:46 < RChen> 拜託快走QQ
+12:46 < BobbyHo> 座談會要開始惹@@
+12:46 < fine246> Sitconcert 結束
+12:46 < ry_> 頗ㄏ
+12:47 < FF_> 終於 一天又平安的過去 感謝PA的努力
+12:47 < [R1]Hinet60613> SITConCert
+12:47 < BobbyHo> 我決定要聽抒情來紓解心情...
+12:48 < ry_> SitCom'on
+12:48 < CharlesLien> pcchou: 嗨～
+12:48 < [R1]Ren> XD
+12:48 < BobbyHo> IRC上有主控嗎...
+12:49 < [R1]Ren> R1目前座位已滿
+12:50 < AndChat688961> 兩點二十的這場只有十分鐘？
+12:50 < gogomagnet> R!的座談會是?
+12:50 < gogomagnet> R1
+12:51 < [R1]Hinet60613> R!座談會全場連撥 - 學生參與校務系統/開發校園 Open Data, Open API
+12:51 < pcchou> 拾獲一個上面寫Takeshi的Badge
+12:52 < [R1]CASIO> R1應該是要先卡位晚一點的議程(像我就是)
+12:53 < fishlover> 好像在線上 叫Takeshi_tw
+12:53 < pcchou> fishlover: 廢話XDD
+12:53 < [R1]Ren> 卡位+1
+12:53 < fishlover> XDD
+12:53 < mudream> @@
+12:53 < [R0]dd-han> 怎麼大家都是來卡位的啦QAQ
+12:53 < gogomagnet> 太早卡了吧
+12:53 < [R1]Hinet60613> R1的大家是要卡哪一場啊?
+12:53 < [R1]Ren> 先來睡覺（？
+12:53 < [R0]BobbyHo> 卡選課的吧
+12:54 < fishlover> s3131212大大安安～
+12:54 < tyteen4a03> 會場沒有販賣機，現在好想睡><
+12:55 < garytan> tyteen4a03: 一樓不是有?
+12:55 < kerkerj> 一樓
+12:55 < [R0]BobbyHo> 下一個重點是點心時間(誤
+12:55 < pcchou> tyteen4a03: 去萊爾富
+12:55 < tyteen4a03> pcchou, 哪裡
+12:55 < fishlover> 還好我來之前帶了兩瓶fin
+12:55 < tyteen4a03> garytan, 沒看見
+12:55 < tyteen4a03> 我再找(?
+12:55 < nobody__> hi
+12:56 < wiwi_2> 5G的SSID也發出2.4G了嗎??
+12:56 < Vdragon> hihi
+12:56 < garytan> tyteeen4a03: 下去面對門口左轉 是1樓喔XD 大門前
+12:56 < RChen> hi
+12:56 < TatsujinChin> 剛剛Wifi好了一下又壞了QAQ
+12:57 < [R1]Ren> 嗯啊
+12:57 < [R1]Ren> R1滿到坐地板囉
+12:57 < Vdragon> https://ask.sitcon.org/
+12:57 < [R0]BobbyHo> 請用AS_Guest謝謝
+12:58 < fishlover> 請愛用AS_guest
+12:58 < fishlover> XD
+12:58 < sntc06> Kerkerj: 大大耶
+12:58 < [R1]Hinet60613> https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+12:58 < [R0]BobbyHo> 另外，共筆也需要各位支援
+12:58 < lagane100> garytan: hi
+12:58 < kerkerj> sntc06: 被帥氣雪人發現惹
+12:58 < TatsujinChin> 不給問QAQ http://i.imgur.com/wZ3g4JO.png
+12:59 < hero1364> ask.sitcon.org 掛樂?
+12:59 < chma_> ask 不給問QAQ
+12:59 < kevchentw> CSRF verification failed. Request aborted.
+13:00 < spyf> 表示ask不給問
+13:00 < fishlover> 給問上不去
+13:00 < mudream> 0.0
+13:00 < iblis17> ask 那台機器 HDD 有點慢 orz
+13:00 < spyf> 連登入都不行要問啥Orz
+13:00 < Lorex> .
+13:01 < totomoney> 表示目前登入中
+13:01 < Lorex_> .
+13:01 < fishlover> 註冊中
+13:01 < [R1]Hinet60613> 昨天晚上試Facebook登入好像會出問題，要註冊E-mail才可以
+13:02 < spyf> 哪裡可以註冊啊
+13:02 < hero1364> Fail to register
+13:02 < toppy368> wifi恢復了
+13:02 < Lorex_> FB登入會掛掉
+13:02 < spyf> 海報回來惹
+13:02 < [R0]seadog007_c> 。
+13:04 < wiwi_2> R有線是恢復了嗎??
+13:04 < fishlover> 註冊成功了
+13:04 < spyf> 有線目前可以用
+13:04 < Vdragon> 傳統註冊 OK
+13:05 < fishlover> 按menu裡有個註冊鍵
+13:05 < spyf> FB註冊會錯誤
+13:05 < fishlover> 然後收信
+13:05 < fishlover> XD
+13:05 < Vdragon> 信送得很快
+13:06 < fishlover> 登入成功了XD
+13:06 < TatsujinChin> 延後多久？
+13:06 < makris> 3分鐘
+13:06 < Vdragon> 快完了吧？
+13:06 < spyf> 要開始了
+13:07 < JYNY> 導播tag8
+13:07 < [R1]Hinet60613> [R1] 聲音有點小生OAO
+13:07 < s3131212> 丹丹好帥 (?
+13:07 < [R1]Hinet60613> *小聲
+13:08 < XiaoJunHong> s3131212: 顆顆
+13:08 < trololo> óÔÔò ʕ·͡ᴥ·ʔ óÔÔò   hi
+13:08 < dannyAAM> 小聲++
+13:08 < spyf> 丹丹好帥+
+13:08 < [R1]CASIO> R1太小聲+1
+13:08 < Guest4343> R1太小聲+1
+13:09 < fishlover> 好帥XD
+13:09 < pcchou> 丹丹~
+13:09 < Chih_Ping_Chang> 丹丹好帥喔
+13:10 < Davy_CC> [R0] 自己的服務自己寫
+13:10 < hector_> 丹大丹大～～
+13:10 < [R2]> \丹丹/\丹丹/\丹丹/
+13:10 < Davy_CC> Danny 走路好帥 >////<
+13:10 < vulreport> 東西
+13:10 < [R3]OtomeSound> R3等座位中....
+13:10 < pcchou> 有所聊天
+13:10 < pcchou> Davy_CC: s/an/en/
+13:10 < mmis1000_bot> pcchou 認為 Davy_CC 的意思是： Denny 走路好帥 >////<
+13:10 < Lorex_> 種下的種子不是海豹嗎XD
+13:10 < spyf> 丹丹好瀟灑
+13:11 < pcchou> Lorex_: 槓XDDD
+13:11 < Lorex_> 丹丹好帥 <3
+13:11 < knowlet> \丹丹/
+13:11 < andytwmvp> 丹丹把拔~~~~~~~~~~~
+13:11 < Davy_CC> pcchou: sor XDDD 原來有機器人嗎
+13:11 < azdkj53__> 問答系統不能用FB登入QQ
+13:11 < pcchou> 丹186
+13:11 < Lorex_> \\\\\\\\\\\\\\\\\\\\\丹丹海豹愛你///////////////////////////
+13:11 < pcchou> 丹拔~
+13:11 < pcchou> seadog007: 海豹要說話嗎
+13:11 < ioan_> Denny 種下種子, 生出海豹報
+13:11 < divazone_> 丹丹
+13:11 < tom83615> 強哥
+13:11 < dd-han> 問答系統用FB登入會錯誤，直接註冊帳號沒問題
+13:11 < TatsujinChin> 等等我怎麼上Hackpad梗收集區了？
+13:11 < Lorex_> seadog007: XD
+13:11 < [R1]Hinet60613> 強哥
+13:11 < [R1]CASIO> R1基本上全滿，有哪邊還有座位嗎?
+13:12 < ioan_> 求Hackpad Link
+13:12 < [R1]Hinet60613> [R1] YouTube Loading....
+13:12 < darkx> https://ask.sitcon.org/
+13:12 < Amomo> ¡
+13:12 < Davy_CC> [R0] 我的電腦沒辦法連到上面厚
+13:12 < petercommand> darkx: 你有在這裡嗎? XD
+13:12 < a25163967> 從上一節就坐在這是對的
+13:12 < [R0]YWJamesLin> 求Link+1
+13:13 < darkx> petercommand: 有耶，粗乃完 lol
+13:13 < pcchou> https://ask.sitcon.org/
+13:13 < seadog007> [R1]Hinet60613: 快把你的測試拿掉啊啊啊
+13:13 < [R1]Hinet60613> RRRR
+13:13 < Davy_CC> ask 503
+13:13 < cyseason> YO
+13:13 < petercommand> darkx: 我在 r0 ^^
+13:13 < Lorex_> R0 +1
+13:13 < darkx> petercommand: 我也是  >///<
+13:14 < Davy_CC> ask  變成聊天室了wwwww
+13:14 < [R1]Hinet60613> 網路當當的，求幫忙確認我的問題刪掉了沒QAQ
+13:14 < aweimeow> ask.sitcon.org 用 Facebook登入顯示 "Oops，系統出錯了"
+13:14 < [R1]CASIO> ask掛掉惹!!!!!!
+13:14 < dylandy> ask 503
+13:14 < [R1]dd-han> 直接註冊沒問題
+13:14 < wiwi_2> Oops出錯+1
+13:14 < [R1]RainJay> R1聲音很小！
+13:14 < Davy_CC> ask css 炸裂
+13:14 < Lorex_> 螢幕模糊惹
+13:14 < spyf> Lorex_ www
+13:14 < Lorex_> 丹拔朦朧美W
+13:15 < seadog007> [R1]Hinet60613: 有刪
+13:15 < darkx> Oops, 系統出錯了！
+13:15 < TatsujinChin> 畢業專題 根本壓榨學生QQ
+13:15 < [R1]Hinet60613> seadog007: thanks!
+13:15 < [R1]CASIO> 我先跟R1的工作人員反映音量問題了，等等再看看
+13:15 < Davy_CC> [R0] 學生會畢業，東西會留下
+13:15 < pcchou> james58899, licson: 快去 #sitcon
+13:16 < Vdragon> MIC 好小聲啊
+13:16 < [R1]Ren> 重點是沒人寫api啊啊啊
+13:16 < Vdragon> 現在這位聽不到（Youtube)
+13:16 < [R1]dd-han> 我們學校老師好像有提過，台中科大系統也是某屆五專寫出來的
+13:16 < lagane100> R1 聲音0 Q_Q
+13:16 < Lorex_> 重點是沒人寫 API +1
+13:16 < [R1]Ren> 我們學校直接外包...
+13:16 < SeChanChan> ぽいっ
+13:16 < AndChat|688961> r1麥克風好小聲
+13:16 < Andy___> 甚麼是學術型駭客QQ 求解
+13:16 < IGA> 學術行駭客www
+13:16 < Lorex_> 學術型駭客W
+13:16 < [R1]CASIO> 喔喔喔 R1音量回來惹
+13:16 < azdkj53__> SITCON法人～
+13:16 < [R1]Hinet60613> [R1] 聲音回來了，感謝工作人員!
+13:16 < [R1]Ren> 想要api被計中拒絕..
+13:17 < Guest4343> 太大囉
+13:17 < hector_> 學校系統有些都外包 ，學生怨聲載道根本沒人理
+13:17 < garytan> 所以有人看到學術駭客嗎XD
+13:17 < IGA> 有人問問題找學術行駭客XD
+13:17 < starlition> 如果FB無法登入 請直接註冊
+13:17 < fishlover> 會寫論文的駭客？
+13:17 < TatsujinChin> 業永頗緊張的
+13:17 < toppy368> irc客戶端不太會用，回來用網頁版
+13:17 < JYNY> http://pastebin.com/Mp1vXQ02
+13:17 < spyf> 學術型駭客會用IRC嗎
+13:17 < IGA> 心靈駭客
+13:17 < Astar> OAO
+13:17 < jeremy5189> 議程組廣播：如果問答系統無法使用FB註冊，請改用一般註冊登入，謝謝
+13:17 < toby_skarting> 蛤蠣型駭客
+13:17 < fishlover> 0w0
+13:17 < licson> 大家好
+13:18 < vik_> 食物型駭客
+13:18 < keke> Mind Hacker在哪兒？
+13:18 < Lorex_> licson欸 ewwww
+13:18 < licson> 我在看Sitcon的youtube直播
+13:18 < Yukai> 自己的資料自己爬QQ
+13:18 < Gent> test
+13:18 < [R1]Ren> 我們學校外包的平台每學期選課都會炸掉 xd
+13:18 < seadog007> OAO 我的 pastebin又出來了.......
+13:18 < toby_skarting> [問答系統]最新問題無法列出所有問題
+13:18  * darkx 肥宅型駭客 ._./
+13:18 < licson> 不過我發現 怎麼音訊那邊很不流暢
+13:18 < trololo> GabeN
+13:18 < licson> 視訊反而沒問題
+13:18 < fishlover> licson 欸～
+13:18 < a25163967> 選社團每次必炸
+13:18 < seadog007> toby_skarting: 我覺得是cache問題
+13:19 < azdkj53__> 食物型 甜食黨 ._./
+13:19 < orinx> R3 中華只收得到 3G QQ
+13:19 < [R1]Hinet60613> 有API可以用好好喔
+13:19 < licson> 所以有人管一下直播的問題嗎？
+13:19 < TatsujinChin> 發問系統現在是聊天室嗎www
+13:19 < darkx> 聊天室應該是 irc 啊www
+13:19 < [R1]Ren> 中華變3g +1
+13:20 < Davy_CC> ask  爲什麼一直有 瘋狂程設 啊？
+13:20 < fishlover> 7-mobile 變0G
+13:20 < toby_skarting> seadog007: 換個browser可以了
+13:20 < fishlover> XD
+13:20 < coin3x> Lorex_, HI~
+13:20 < [R3]OtomeSound> 丹爸的系統超威(?)
+13:20 < TatsujinChin> 有沒有瘋狂程設的八卦
+13:20 < Davy_CC> [R0] 畫面會 lag 比聲音晚
+13:20 < PTC-tw> 目前網路正常了
+13:21 < Davy_CC> [R0] 畫面大概慢 0.5 秒左右有時間差
+13:21 < PTC-tw> 請大家把私人AP關閉
+13:21 < toppy368> 我目前正在用WiFi
+13:21 < orinx> 今年私人 AP 超多的 xD
+13:21 < [R3]OtomeSound> 不關的話會有人攻擊嗎(?)
+13:21 < wiwi_2> 1秒開完票XDD~~
+13:21 < [R1]Ren> 今年沒強調不能開ap的樣子
+13:22 < s3131212> 學術型駭客 wwwwww
+13:22 < darkx> 現在已經不見惹 lol
+13:22 < fishlover> 有吧？
+13:22 < james58899> coin3x, HI~
+13:22 < wiwi_2> 私設AP會干擾thin AP
+13:22 < [R1]Ren> 有寫啦
+13:22 < toppy368> 那個手機上分享給電腦的那個算嗎？
+13:22 < Lorex_> WW
+13:22 < Lorex_> 高能
+13:22 < [R1]Hinet60613> 問題來亂的ww
+13:22 < fishlover> 我好像有看到有寫不要開AP
+13:22 < toby_skarting> yeah
+13:22 < [R1]Ren> 沒工人出來強調
+13:22 < IGA> 學術行駭客wwww
+13:22 < dannyAAM> 當然算啊 除非你用USB分享
+13:22 < rail02000> 手機分享給電腦用USB，不要開基地台
+13:22 < licson> 我是看R0直播音訊卡卡的
+13:23 < DHXD> 就大家自主規制一下吧
+13:23 < PTC-tw> 算
+13:23 < licson> 而且有雜訊
+13:23 < DHXD> USB分享沒問題
+13:23 < PTC-tw> 藍牙分享也不要開
+13:23 < [R1]Ren> r1斷了
+13:23 < [R1]dd-han> R1 YouTube斷了
+13:23 < ioan_> 網路不太穩定
+13:23 < Guest16108> ？
+13:23 < ioan_> R2 斷+1
+13:23 < toppy368> 嗯，好的
+13:23 < fishlover> r2
+13:23 < lagane100> 其實我也...斷
+13:23 < dannyAAM> 網路不怎好啊www
+13:23 < Andy___> R0 斷..
+13:23 < nightfeather>  ' A')
+13:23 < licson> R0也斷掉
+13:23 < susu> r2 斷+1
+13:23 < nobody__> bad connection
+13:23 < Guest16108> 我什麼事都沒做歐
+13:23 < jal_> Toshiba 矽膠鍵盤保護膜在 4F 領便當處的桌子上
+13:24 < fishlover> 2.4GHZ太擠
+13:24 < Andy___> 學術型駭客的陰謀拉
+13:24 < nightfeather> \('- '  )
+13:24 < nobody__> =_=
+13:24 < Yukai> http://nctuplus.nctucs.net/
+13:24 < VIKI> Yukai's URL: [NCTU+ (http://nctuplus.nctucs.net/)]
+13:24 < [R1]Hinet60613> [R1] 各位會眾，我們目前遇到技術上的問題，請各位耐心等候，謝謝。 (笑)
+13:24 < Vdragon> Youtube 斷惹 QAQ
+13:24 < Takeshi_tw> 大家好，請各位不要送單引號到註冊系統中，感恩 Q_Q
+13:24 < toby_skarting> 不知道那個攻擊會場的是不是學術型駭客
+13:24 < james58899> Live斷了 QAQ
+13:24 < Guest61114> 工作人員加油！
+13:24 < seadog007> ......
+13:24 < nobody__> ＝＿＝
+13:24 < iblis17> orz
+13:24 < seadog007> 加油啊
+13:25 < iblis17> 在努力了
+13:25 < ioan_> @@
+13:25 < Guest16108> 我是 心靈駭客. I'm Mind Hacker :)
+13:25 < Vdragon> 主辦單位加油
+13:25 < lagane100> orz
+13:25 < yunchen> 出現了
+13:25 < pcchou> orz
+13:25 < IGA> 出現了
+13:25 < lagane100> yunchen: ??
+13:25  * Lays
+13:25 < ioan_> ok 了
+13:26 < nobody__> waste of time
+13:26 < Guest16108> -)_(-
+13:26 < Ruinland> 我字數明明就在256內啊.....
+13:26 < Andy___> R0恢復~~
+13:26 < fishlover> r2回來了
+13:26 < fishlover> 又斷了
+13:26 < IGA> 心靈駭客大大wwwwwwwwwwww
+13:26 < Guest16108> 127.0.0.1
+13:26 < [R1]RainJay> 又回不去了
+13:26 < [R1]Ren> xd
+13:26 < garytan> mind hacker是真的還是反串的XD
+13:26 < Guest16108> www.facebook.com/karta1717945
+13:26 < [R1]Hinet60613> 心靈駭客好恐怖額~
+13:26 < vik_> 反串吧
+13:26 < seadog007> Ruinland: 半形?
+13:26 < IGA> 秀一手阿
+13:26 < Amomo> 卡卡
+13:26 < yunchen> 要看有沒有動詞
+13:26 < fishlover> 腦波駭客
+13:26 < [R1]Ren> 恢復10秒
+13:26 < Ruinland> 全形啊.....
+13:26 < nobody__> r1 disconnect frequently
+13:26 < CASIO> 卡卡的董雌董雌
+13:26 < vik_> (y)
+13:26 < Guest16108> 大家要認真上課 (y)
+13:26 < Ruinland> 都全形字
+13:27 < Takeshi_tw> Dear all, ask 系統可能會沒辦法登入，如果有這類的情況，請至FB中把ask的應用程式授權砍掉，在重新登入試試看，謝謝。
+13:27 < Vdragon> 地方的共筆 Youtube 卡卡，請大家分身伐樹QAQ https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+13:27 < VIKI> Vdragon's URL: [400 The plain HTTP request was sent to HTTPS port (https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW)]
+13:27 < pcchou> licson: .
+13:27 < [R1]dd-han> 開始無線Loop了
+13:27 < licson> 話說有沒有人知道直播怎麼了
+13:27 < escrowdis> 怎麼點想聽RRR
+13:27 < rail02000> 127.0.0.1是我的IP啊  拜託不要駭我
+13:27 < seadog007> Ruinland: 是算半形256字吧
+13:27 < [R1]Hinet60613> R1現在AS_Guest只有IRC可以用...
+13:27 < Astar> 心靈駭客wwww我終於懂了
+13:27 < licson> 我真的很想在現場看看到底發生什麼回事
+13:27 < Yukai> 推 crosslink.tw
+13:27 < Guest16108> www.csie.wfu.edu.tw :)
+13:27 < VIKI> 's URL: [吳鳳科技大學資訊工程系 | Department of Computer Science & Imformation Engineering (www.csie.wfu.edu.tw)]
+13:27 < Chih_Ping_Chang> Takeshi_tw: 安安
+13:27 < Vdragon> 我的 IP 也是 127.0.0.1 耶，你怎麼會有我的 IP
+13:28 < [R0]YWJamesLin> wwwwwwww
+13:28 < hrj> 心靈駭客誒
+13:28 < fishlover> 我也是127.0.0.1 XD
+13:28 < Vdragon> QAQ 鄙校課表也QAQ
+13:28 < yunchen> viki
+13:28 < VIKI> yunchen 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+13:28 < Guest16108> I don't know. :)
+13:28 < yunchen> viki hello?
+13:28 < VIKI> yunchen Hi
+13:28 < [R3]OtomeSound> 我的IP也是127.0.0.1
+13:28 < vik_> 請你駭入我的心
+13:28 < Ruinland> ......
+13:28 < pcchou> licson: 直撥不可能是wifi好嗎
+13:28 < toppy368> 複製到word還要改
+13:28 < fishlover> viki安安～
+13:28 < [R1]Hinet60613> 老師的ID是身份證字號ww
+13:28 < garytan> viki 安安
+13:29 < VIKI> garytan 午安
+13:29 < yunchen> viki help
+13:29 < VIKI> yunchen 您需要幫忙嗎??
+13:29 < [R3]OtomeSound> viki wtf?
+13:29 < tiwb> viki HI~
+13:29 < VIKI> tiwb Hello
+13:29 < licson> pcchou: 我怎知道他
+13:29 < lagane100> viki: 安安
+13:29 < garytan> viki where are you
+13:29 < licson> 不過直播真的悲劇了
+13:29 < toppy368> 身份證字號www
+13:29 < pcchou> licson: 所以現在直撥到底有什麼問題
+13:29 < [R3]OtomeSound> viki: wtf?
+13:29 < james58899> R0的恢復惹
+13:29 < licson> 我怎知道阿
+13:29 < darkx> VIKI: yoo
+13:29 < licson> 沒人回應
+13:29 < Choukai> VIKI, 蛤
+13:29 < Davy_CC> VIKI: yoooooo
+13:29 < Guest49222> viki o'_'o
+13:29 < Choukai> 太多人惹 她忙不過來XDDDDD
+13:29 < Takeshi_tw> Chih_Ping_Chang: 安 (Y)
+13:29 < garytan> viki壞惹XD
+13:29 < Guest16108> http://devco.re/ :)
+13:29 < darkx> VIKI: ob'_'ov
+13:30 < [R1]Hinet60613> VIKI被玩壞啦w
+13:30 < AMing> 還遇過不能使用教職員分機表單的...
+13:30 < gogomagnet> obov
+13:30 < nobody__> o'_'o
+13:30 < fishlover> VIKI: XD
+13:30 < IGA> VIKI : 心靈駭客呢
+13:30 < james58899> VIKI, Hi
+13:30 < VIKI> james58899 Hi
+13:30 < james58899> 沒壞R
+13:30 < CASIO> 現在R3人數大約是??
+13:30 < aweimeow> VIKI 嗨嗨
+13:30 < [R1]Hinet60613> ob'_'ob
+13:30 < andytwmvp> portal~~~~
+13:30 < yunchen> 現在是每年VIKI機器人都會出來嗎XD
+13:30 < [R1]Ren> bot來了
+13:30 < [R3]OtomeSound> 幾分鐘內就完爆一個BOT，你們給我去面壁(?)
+13:30 < nobody__> 十萬青年十萬肝
+13:30 < garytan> viki 安安幾歲住哪給窺嗎
+13:30 < [R1]Ren> xdd
+13:30 < Guest16108> 192.168.240.xxx
+13:30 < andytwmvp> portal Captured
+13:30 < lagane100> viki, hello, long time no see
+13:30 < VIKI> lagane100 Hello
+13:30 < Choukai> VIKI, 安安
+13:30 < VIKI> Choukai 午安
+13:30 < james58899> VIKI, 晚安
+13:30 < VIKI> james58899 午安, 你該不會一直盯電腦到現在吧!?
+13:30 < [R1]Hinet60613> VIKI, hello~
+13:30 < VIKI> [R1]Hinet60613 Hello
+13:30 < fishlover> VIKI hi
+13:30 < VIKI> fishlover Hello
+13:30 < garytan> viki只會說午安阿Q___Q
+13:30 < toppy368> 好像很多系統，尤其是教育部問卷，會以身份証字號為預設密碼
+13:30 < Gent> VIKI 戳
+13:30 < Testtest> o'_'o
+13:30 < lagane100> viki, 你在R0嗎
+13:31 < Ruinland> 沒關係
+13:31 < [R1]Ren> viki hi
+13:31 < VIKI> [R1]Ren 嗨
+13:31 < garytan> viki 嗨嗨嗨嗨
+13:31 < Ruinland> 有人幫我問了
+13:31 < taichunmin> VIKI 哈囉
+13:31 < nobody__> o'_'o
+13:31 < Ruinland> 交大給我Oauth！！！！！
+13:31 < james58899> VIKI, 你好
+13:31 < IGA> viki !!!!
+13:31 < VIKI> james58899 Hello
+13:31 < fishlover> VIKI 早安
+13:31 < Guest49222> viki  ゜ω゜)っ✂╰ひ╯
+13:31 < Ruinland> 黃大教授請回答！
+13:31 < garytan> viki
+13:31 < VIKI> garytan 找我嗎??
+13:31 < iblis17> Ruinland: 抱歉
+13:31 < Choukai> 教育部 像是就學資料 體適能 都是用身分證字號當密碼
+13:31 < IGA> VIKI, 安安
+13:31 < VIKI> IGA 午安, 你該不會一直盯電腦到現在吧!?
+13:31 < Gent> VIKI 你在做什麼?
+13:31 < garytan> viki 你都不理我
+13:31 < iblis17> Ruinland: 就胎死腹中
+13:31 < iblis17> Ruinland: 被檔
+13:31 < [R1]Ren> Viki 天氣
+13:31 < gogomagnet> VIKI, hi
+13:31 < trololo> ก้้้้้้้้้้้้้้้้้้้้ก็็็็็็็็็็็็็็็็็็็็กิิิิิิิิิิิิิิิิิิิิก้้้้้้้้้้้้้้้้้้้้ก้้้้้้้้้้้้้้้้้้้้
+13:31 < VIKI> gogomagnet 您好
+13:31 < yunchen> viki help
+13:31 < VIKI> yunchen 有問題嗎?? 我想線上的高手更能夠幫助您喔!!
+13:31 < Takeshi_tw> ask 如果註冊 email 沒收到信件的話，請給我 email ＠ 之前的部份（不想公開的話可以碼掉一些內容沒關係）給我，我去處理，感恩 >___<
+13:31 < Ruinland> 我要她親口講
+13:31 < yunchen> viki help command
+13:32 < IGA> viki, 我一直看電腦到現在
+13:32 < garytan> viki --help
+13:32 < toppy368> 學號=ID，還有選學校名稱
+13:32 < TakoTsai> @@
+13:32 < WELO_> viki --help
+13:32 < fishlover> VIKI 早安 午安 晚安～
+13:32 < VIKI> fishlover 午安
+13:32 < lagane100> garytan: --help
+13:32 < WELO_> VIKI 安安
+13:32 < Guest16108> karta1717945@gmail.com :)
+13:32 < VIKI> WELO_ 午安, 早上都還順利嗎??
+13:32 < chma_> viki
+13:32 < VIKI> chma_ 您好, 請問您需要什麼協助?
+13:32 < [R1]Ren> 機器人好像會預覽連結
+13:32 < tiwb> viki viki
+13:32 < garytan> viki --version
+13:32 < Ruinland> iblis17: 學校派人來打太極有講跟沒講一樣
+13:32 < chma_> viki --help
+13:32 < yunchen> viki who
+13:32 < james58899> VIKI, o/
+13:32 < chma_> viki
+13:32 < VIKI> chma_ 找我嗎??
+13:32 < WilliamSnail> [ball]:[Ann Ann]
+13:32 < Guest16108> 0.0
+13:32 < Amomo> VIKI hello
+13:32 < VIKI> Amomo 哈囉
+13:33 < WELO_> VIKI 晚安
+13:33 < KaiBro> VIKI HI
+13:33 < VIKI> WELO_ 午安
+13:33 < VIKI> KaiBro Hello
+13:33 < iblis17> Ruinland: 就我們也跟 計中談過了 Oauth2 不給假
+13:33 < chma_> viki 晚安
+13:33 < VIKI> chma_ 午安
+13:33 < garytan> viki
+13:33 < VIKI> garytan 找我嗎??
+13:33 < iblis17> *架*
+13:33 < lagane100> echo viki
+13:33 < Tomato> VIKI : hi
+13:33 < VIKI> Tomato Hello
+13:33 < taichunmin> VIKI 午安
+13:33 < VIKI> taichunmin 午安
+13:33 < WELO_> viki 講話瞜
+13:33 < [R1]RainJay> Viki午安
+13:33 < [R0]YWJamesLin> VIKI 說話
+13:33 < fishlover> VIKI select * from list where id=VIKI
+13:33 < chma_> viki 午安
+13:33 < VIKI> chma_ 午安, 你該不會一直盯電腦到現在吧!?
+13:33 < garytan> man viki
+13:33 < iblis17> Ruinland: 現在講的那個 portal 唬爛 交大那個爛透了
+13:33 < Ruinland> 黃大教授：類似的API是啥？
+13:33 < Andy___> viki 午安
+13:33 < VIKI> Andy___ 午安
+13:33 < Gundam> PLderOuO: 丟
+13:34 < Ruinland> document在哪？
+13:34 < [R3]OtomeSound> VIKI 你是誰？
+13:34 < VIKI> [R3]OtomeSound 我就是在 2014 年 台灣駭客年會 中最紅的 VIKI 啊!! *^_^*
+13:34 < vik_> 攔截失敗
+13:34 < iblis17> Ruinland: 沒有
+13:34 < Guest16108> http://www.imooc.com/course/list 這邊很多精華
+13:34 < VIKI> Guest16108's URL: [慕课网-国内最大的IT技能学习平台 (http://www.imooc.com/course/list)]
+13:34 < Gundam> PLderOuO: 丟
+13:34 < trololo> viki    Ỏ̷͖͈̞̩͎̻̫̫̜͉̠̫͕̭̭̫̫̹̗̹͈̼̠̖͍͚̥͈̮̼͕̠̤̯̻̥̬̗̼̳̤̳̬̪̹͚̞̼̠͕̼̠̦͚̫͔̯̹͉͉̘͎͕̼̣̝͙̱̟̹̩̟̳̦̭͉̮̖̭̣̣̞̙̗̜̺̭̻̥͚͙̝̦̲̱͉͖͉̰̦͎̫̣̼͎͍̠̮͓̹̹͉̤̰̗̙͕͇͔̱͕̭͈̳̗̭͔̘̖̺̮̜̠͖̘͓̳͕̟̠̱̫̤͓͔̘̰̲͙͍͇̙͎̣̼̗̖͙̯͉̠̟͈͍͕̪͓̝̩̦̖̹̼̠̘̮͚̟͉̺̜͍͓̯̳̱̻͕̣̳͉̻̭̭̱͍̪̩̭̺͕̺̼̥̪͖̦̟͎̻̰_
+13:34 < chma_> 成績單不是都是血學校地址的嬤XDD
+13:34 < [R0]YWJamesLin> viki hello
+13:34 < VIKI> [R0]YWJamesLin Hi
+13:34 < iblis17> Ruinland: 然後作法很扯
+13:34 < Tomato> VIKI : 安安幾歲住哪？
+13:34 < Ruinland> 我想衝去R0打臉.....
+13:34 < [R1]RainJay> VIKI 午安
+13:34 < VIKI> [R1]RainJay 午安, 你該不會一直盯電腦到現在吧!?
+13:34 < yunchen> viki about
+13:34 < [R1]Ren> 果然是hitcon那個viki
+13:34 < Ruinland> 超不爽
+13:34 < sntc06> 這年頭不知道為什麼做直播變成理所當然了
+13:34 < [R0]YWJamesLin> viki 骯骯
+13:34 < WilliamSnail> [jy]:[Ann Ann]
+13:34 < [R3]OtomeSound> 有人亂洗符號阿，終端機怪怪的....
+13:34 < garytan> killall viki
+13:34 < iblis17> Ruinland: 要自己傳 帳密給 portal server
+13:34 < IGA> 成績單都寫ip
+13:35 < Guest16108> root toor
+13:35 < MJ123063> @@
+13:35 < iblis17> Ruinland: 跟全世界的 oauth 都不一樣
+13:35 < Astar> 127.0.0.1嗎?
+13:35 < Ruinland> 我不行了.....我想罵髒話
+13:35 < Vdragon> 「好啦你們都不會攔截家裡的成績單喔」
+13:35 < iblis17> 作法超爛
+13:35 < TakoTsai> 結果還是寄回家啊～ (・ิω・ิ)
+13:35 < iblis17> Ruinland: 廠商寫的
+13:35 < chma_> VIKI
+13:35 < VIKI> chma_ 找我嗎??
+13:35 < [R1]Ren> hitcon minecraft哥有來嗎 XDDDDDD
+13:35 < Ruinland> iblis17: R0現在前面有空位嗎？
+13:35 < toppy368> 來不及攔截
+13:35 < IGA> 應付同學
+13:35 < gogomagnet> VIKI viki
+13:35 < atitan> 這符號好長ww
+13:35 < pcchou> ……
+13:35 < iblis17> Ruinland: 我在 r2
+13:35 < pcchou> terminal 亂掉了
+13:35 < Guest16108> www.facebook.com/denny0223 0.0
+13:35 < Singoooooooooooo> hi
+13:35 < dylandy> 符號終於跑完了XD
+13:35 < Tomato> 20歲到底是一個怎樣的分界
+13:35 < chma_> viki 拉拉拉
+13:36 < vik_> 為啥有人不爽 所以是有八卦嗎@@
+13:36 < Vdragon> Pidgin 沒看到異常
+13:36 < chma_> VIKI 不理我
+13:36 < [R0]YWJamesLin> 看起來有掛呢
+13:36 < toppy368> 可以自己開戶的差別
+13:36 < Ruinland> iblis17: 這場有QA嗎？
+13:36 < [R0]Sean> pcchou 丟
+13:36 < toby_skarting> 一個成績單自己收的概念
+13:36 < iblis17> Takeshi_tw: 現在是哪裡壞掉阿 /me 可以幫忙修阿
+13:36 < iblis17> Ruinland: 去 ask
+13:36 < Ruinland> 我快聽不下去了.....
+13:36 < iblis17> Ruinland: 去 ask.sitcon.org
+13:36 < Ruinland> 字數不夠
+13:36 < chma_> Viki 消失了!!!
+13:36 < [R0]Sean> 這裡有 Log 嗎？
+13:36 < vik_> 丟pastebin
+13:36 < vik_> XD
+13:37 < LegBone> 大家快把token交給我就安全了!
+13:37 < Guest16108> http://sais10.wfu.edu.tw/
+13:37 < orinx> 會有人錄 log 吧 XD
+13:37 < iblis17> orinx: 有
+13:37 < [R3]OtomeSound> 野生的腿骨出現了www
+13:37 < WilliamSnail> 有人這個IRC連不上怎麼解決@@
+13:37 < garytan> LegBone: 腿骨太黑拉
+13:37 < Andy___> 腿骨~~
+13:37 < s3131212> 腿骨（抖
+13:37 < chma_> 野生腿骨 太黑拉
+13:37 < JYNY> 腿古阿
+13:37 < Tomato> 是腿骨！
+13:37 < orinx> 每次結束都會有人丟 irc log 我自己的機器也有在錄
+13:37 < fishlover> 野生腿骨
+13:37 < LegBone> 繞外網在上IRC
+13:38 < Lorex_> 話說
+13:38 < fishlover> ？
+13:38 < Lorex_> 學術型到底在哪裡
+13:38 < Chih_Ping_Chang> 把便當丟給leg one 就對了
+13:38 < Guest16108> www.csie.ntu.edu.tw
+13:38 < VIKI> Guest16108's URL: [國立臺灣大學 資訊工程學系 (www.csie.ntu.edu.tw)]
+13:38 < chma_> 野生腿骨
+13:38 < Ruinland> 他到底知不知道莎小是Oauth，知不知道什麼是resource server ????
+13:38 < ZeroMu> <- log record now!
+13:38 < Yukai> \sb end
+13:38 < [R1]Ren> Viki
+13:38 < VIKI> [R1]Ren 找我嗎??
+13:38 < fishlover> 不知道
+13:38 < [R3]OtomeSound> www
+13:38 < Lorex_> 剛剛那個 Guest 好像就是他欸XDDDD
+13:38 < lagane100> 腿骨安安
+13:38 < atitan> viki viki viki
+13:38 < LeoMao> Oauth 到底有什麼可怕…
+13:38 < iblis17> Ruinland: 學校不會做 oauth2 然後也不給學生開發 全檔下
+13:38 < garytan> 我發現沒人理那個mind hacker
+13:38 < iblis17> Ruinland: 「我們有 portal」 (屎
+13:38 < Lorex_> 那就只好無視囉W
+13:39 < fishlover> VIKI sudo apt-get
+13:39 < chma_> 學術型hacker 咧!!?
+13:39 < DannyLan> 腿骨耶
+13:39 < Lorex_> 求實體地址
+13:39 < WELO_> VIKI G____G
+13:39 < toppy368> 腿骨安安
+13:39 < pcchou> .
+13:39 < bobisbuildingana> 腿骨
+13:39 < vik_> 食物型學生
+13:39 < coin3x> pcchou, Hi
+13:39 < [R3]OtomeSound> VIKI hitcon?
+13:39 < VIKI> [R3]OtomeSound 哈囉
+13:39 < Ruinland> ....轉播又掛了
+13:39 < garytan> viki
+13:39 < VIKI> garytan 您好, 請問您需要什麼協助?
+13:39 < lagane100> 學校怎麼了 T_T
+13:40 < Ruinland> 我對交大徹底心死了.......
+13:40 < fishlover> VIKI 0w0
+13:40 < [R3]OtomeSound> viki 有照片嗎(?)
+13:40 < iblis17> Ruinland: 這就是 113 bj4
+13:40 < fishlover> 交大？
+13:40 < lagane100> viki 給虧嗎
+13:40 < taichunmin> VIKI 你是誰？
+13:40 < VIKI> taichunmin 你是在跟我搭訕嗎?? ;)
+13:40 < sntc06> Ruinland: 還不開放現場提問打臉
+13:40 < iblis17> Ruinland: 歡迎來到交大
+13:40 < Zekt> \八卦/ \八卦/ \八卦/
+13:40 < AngusTsou> 不切實際www
+13:40 < Ruinland> 我們是這樣子、我們是這樣子
+13:40 < LeoMao> viki 是機器人？
+13:40 < fishlover> 歡迎來到交大
+13:40 < Ruinland> 你到底是哪樣子
+13:40 < gogomagnet> 專職人員
+13:40 < Huang_Kou> 專職人員  教授嗎
+13:40 < Ruinland> 跳針跳針叫我姊姊喔
+13:40 < Zekt> 不切實際聽起來挺不切實際的
+13:41 < iblis17> Ruinland: 全台思想最落後保守的資訊的故鄉 lol
+13:41 < taichunmin> VIKI 直播掛掉了
+13:41 < fishlover> VIKI r2 gg
+13:41 < pcchou> 據說直撥掛了
+13:41 < totomoney> 行政上的困難(O
+13:41 < azdkj53__> viki
+13:41 < VIKI> azdkj53__ 找我嗎??
+13:41 < fishlover> r2 back
+13:42 < datex> ask.sitcon.org 的字串計算是用byte去算，不是utf8的算法吧XDDDD
+13:42 < keke> 所以Mind Hacker你人在哪裡阿～～～茫茫人海中找不到你我很難過
+13:42 < [R3]OtomeSound> 可是寫一個算UTF-8的應該不難（思）
+13:43 < [R3]OtomeSound> 選課百百種www
+13:43 < lagane100> 先搶先贏 :D
+13:43 < pcchou> Choukai: (丟球
+13:43 < [R1]Ren> 給學生當專題=免費勞工
+13:43 < licson> 到底有沒人有知道Youtube的SITCON直播聲音卡卡的是怎麼啦
+13:43 < Lorex_> 免費勞工++
+13:43 < Huang_Kou> 原來一起搶課程是最古老的喔
+13:43 < licson> 可以幫忙回報嗎？
+13:43 < Choukai> pcchou, ?
+13:43 < pcchou> Choukai: http://seat.sitcon.org/
+13:43 < VIKI> pcchou's URL: [301 Moved Permanently (http://seat.sitcon.org/)]
+13:43 < [R0]BobbyHo> 註解寫不清楚就會變這樣，維護上會有困難...
+13:43 < orinx> [R3]OtomeSound: https://github.com/TakeshiTseng/SitconAskVote
+13:43 < coin3x> pcchou, 直播是好的阿
+13:44 < Choukai> pcchou, 我不確定我的實際位置
+13:44 < orinx> [R3]OtomeSound: 上吧勇者 www (X
+13:44 < james58899> coin3x, 聲音很雜
+13:44 < pcchou> Choukai: 你沒位子？
+13:44 < Choukai> pcchou, 有阿
+13:44 < pcchou> Choukai: 那為啥不確定
+13:44 < Choukai> pcchou, 我看不到前面有幾排
+13:44 < pcchou> 桌子上有寫第幾排啊
+13:44 < fishlover> 測不準原理
+13:45 < fishlover> XD
+13:45 < [R1]Ren> 有api就很幸福了...
+13:45 < Zekt> 自己做API(？
+13:45 < Ruinland> .......開放API==>好幾套選課系統???
+13:45 < Lorex_> 測不準XD
+13:45 < [R1]Ren> Zekt: 沒辦法
+13:45 < pcchou> Clarence: 聽說直撥聲音畫面沒有sync
+13:45 < joe923692012> 直播負責人員有嘗試調整麥克風音量，不過並沒有解決問題，我會再轉告給他們，看有沒有辦法解決，真的很不好意思。
+13:45 < Choukai> pcchou, 他跟我反方向 算我的還是前面的?
+13:45 < coin3x> 剛剛遺失好多Log QQ
+13:45 < IGA> 只好問一個前陣子遇到的問題，被選課系統擋IP
+13:45 < MJ123063>  /msg SITCON_BOT setGravatar mj123063@gmail.com
+13:46 < a25163967> 要怎麼把irc的留言固定在最下面
+13:46 < Takeshi_tw> MJ123063: 前面不能有空白，不然 /msg 會吃不到 >_O
+13:46 < Ruinland> a25163967: 沒有那種東西吧...
+13:46 < MJ123063>  /msg SITCON_BOT setGravatar MJ123063@gmail.com
+13:46 < [R2]knowlet> 不忍說直播播一播 Chrome 很容易 crash 掉..
+13:46 < Choukai> pcchou, 我的位置被填了
+13:46 < pcchou> Choukai: 你的
+13:46 < toby_skarting> 不是麥克風的問題……是音訊處理的問題
+13:46 < chihhsin> XD
+13:46 < Ruinland> 這不是nico擔墓啊XD
+13:46 < pcchou> Choukai: 填回去 (Y)
+13:46 < [R3]OtomeSound> orinx: 感謝你，先fork一份回去了ww
+13:46 < Choukai> pcchou, 啥
+13:46 < orinx> [R3]OtomeSound: (Y)
+13:46 < fishlover> shockwaves
+13:46 < christinesfkao> 認真覺得學校思維真的跟學生差異太大......
+13:47 < pcchou> Choukai: 複寫上去啊 上個人忘了清吧
+13:47 < YAN__> hi
+13:47 < fishlover> 很容易讓chrome 掛掉
+13:47 < Choukai> pcchou, 哦哦
+13:47 < lagane100> 誰會去看啊XDD
+13:47 < Ayumi_> hi
+13:47 < [R3]OtomeSound> 學校把API 「ㄎㄟ」放出來
+13:47 < AngusTsou> 一步一步www
+13:47 < LeoMao> go go 開 Oauth2
+13:47 < a25163967> Ruinland: 我的意思是一職讓它跳到最新的留言
+13:47 < joe923692012> 相關人員去調整直播設定了
+13:47 < watermelon> hi
+13:47 < anonymous_wrytus> 測試
+13:48 < Takeshi_tw> a25163967: 理論上拉到最下面應該會自動？
+13:48 < s3131212> 剛剛那是睡相嗎 XD
+13:48 < MJ123063>  /msg SITCON_BOT setGravatar MJ123063@gmail.com
+13:48 < Ruinland> 跪求R0開放現場問答
+13:48 < a25163967> Ruinland: 不用一直往下拉
+13:48 < LeoMao> 直播 lag
+13:48 < Choukai> pcchou, 我從左邊數過來 第四 右邊數過來 第五 ....
+13:48 < fishlover> 睡相XDD
+13:48 < Singoooooooooooo> 官腔R
+13:48 < [R1]Ren> 斷啦
+13:48 < jal_> a25163967: Web or terminal IRC ?
+13:48 < watermelon> cyeason hi
+13:48 < anonymous_wrytus> 啊啊啊啊 被連線ˊˇˋ
+13:48 < LeoMao> 慘慘慘
+13:48 < Singoooooooooooo> 直播 Legbone
+13:48 < CASIO> 斷惹= =
+13:48 < JOY> 睡相XDD
+13:48 < [R1]RainJay> R1無線網路連不太上去
+13:48 < christinesfkao> 會不會自己開youtube看比較實際（？
+13:48 < pcchou> Choukai: (丟球
+13:48 < nightfeather>  ' A')
+13:48 < [R0]Sean> 這裡除了 SITCON_BOT 還有其他 bot 嗎？
+13:49 < Choukai> pcchou, 蛤....
+13:49 < XiaoJunHong> OuO
+13:49 < taichunmin> R2 直播悲劇
+13:49 < garytan> 話說我們每寫一隻工具 學校就改一次系統欸XDDDD 然後工具就用不到了( . .)
+13:49 < pcchou> Choukai: 到底為找不到啊
+13:49 < a25163967> jal_: 網站的
+13:49 < tom83615> Oauth阿～～～ 學校只會個資法
+13:49 < [R0]Sean> pcchou 丟
+13:49 < pcchou> Choukai: 你看前面的數字是多少
+13:49 < [R0]Sean> pcchou 丟
+13:49 < [R1]RainJay> R1直播也掛了
+13:49 < [R0]Sean> pcchou 丟
+13:49 < [R0]Sean> pcchou 丟
+13:49 < pcchou> Choukai: oh 看到了
+13:49 < ddd> 學校開放漏洞 剩下的創意交給學生吧！
+13:49 < Choukai> pcchou, 11排 23
+13:49 < [R1]Ren> garytan: 哪間啊 也太勤勞
+13:49 < Choukai> 好 我選右邊數來第五 對了
+13:49 < WilliamSnail> [anonymous_wrytus]:[訊息]
+13:49 < Vdragon> Youtube GG
+13:50 < coin3x> [R0]Sean, mmis1000_bot
+13:50 < LeoMao> 各種掛掉
+13:50 < IGA> 開放漏洞
+13:50 < cyseason> watermelon:yoyoyo
+13:50 < XiaoJunHong> 「學校開放漏洞 剩下的創意交給學生吧」 wwwww
+13:50 < anonymous_wrytus> 哈囉
+13:50 < lagane100> viki
+13:50 < VIKI> lagane100 您好, 請問您需要什麼協助?
+13:50 < pcchou> tycn_otogi: hi
+13:50 < licson> 直播掛掉了
+13:50 < Singoooooooooooo> @@
+13:50 < totomoney> 創意無限阿ww
+13:50 < pcchou> Clarence: 聽說直播掛了
+13:50 < joe923692012> r0人員正在處理
+13:51 < coin3x> pcchou, 會場網路還是掛的嗎?
+13:51 < cyseason> watermelonyoyoyo
+13:51 < cyseason> 123
+13:51 < cyseason> test
+13:51 < JYNY> 別再專題拉
+13:51 < pcchou> test
+13:51 < WilliamSnail> [anonymous_wrytus]:[訊息]
+13:52 < james58899> pcchou, 網路又有問題？
+13:52 < pcchou> james58899: 現在很OK
+13:52 < [R1]Ren> loop中
+13:52 < escrowdis> 為什麼一直講專題RRRR
+13:52 < garytan_> [R2]Ren: 新莊正妹大學XD
+13:52 < [R2]knowlet> laggggggggggggggggggy
+13:52 < lagane101> R2 looping
+13:53 < Guest75920> 網路不通 是誰在發揮創意嘛～
+13:53 < Ruinland> 交大沒有專題了啦
+13:53 < pcchou> james58899, coin3x, licson: R0中研院高速有線網路回來了
+13:53 < [R1]dd-han> R1無限重播qaqqqqqqqq
+13:53 < Hexter> …..[R!] 到底要從哪個點到哪個點
+13:53 < fishlover> 著學期要做交大專題的我表示哭哭
+13:53 < [R1]Ren> 以我們學校來講的話 n次了
+13:53 < Microsheep> 嘗試其他方式
+13:53 < Ruinland> fishlover: 你專題跟哪個老師？
+13:53 < darkx> fishlover: 大三 ？
+13:54 < ggm> 專題
+13:54 < s991533>
+13:54 < Microsheep> 根本笑話
+13:54 < fishlover> 對啊～
+13:54 < pcchou> 有人要贊助: licson| 我需要贊助編碼伺服器三台和OC48線路一條
+13:54 < JOY> 我要講的事說
+13:54 < darkx> 年輕真好 T_T
+13:54 < [R1]CASIO> 想睡覺惹 怎麼辦
+13:54 < DHXD> 誰睡覺被拍XDDD
+13:54 < garytan_> [R1]Ren: 新莊正妹大學XD (打錯打到R2XD
+13:54 < fishlover> 我跟新老師的說～
+13:54 < Gundam> 一個睡覺～～～
+13:54 < Microsheep> 跟學校對談超難有結果 = =
+13:54 < Ruinland> fishlover: 年輕真好++
+13:54 < Ruinland> fishlover: 我們都老人了......(嘆)
+13:54 < [R1]RainJay_> 網路大爆炸
+13:54 < james58899> 各種timeout
+13:54 < fishlover> 年輕真好XD
+13:54 < ALiangLiang_> TakoTsai: 嘿  學長
+13:54 < jal_> a25163967: 左上角 Options -> Show a last position indicator for each window: V
+13:54 < ioan__> 不要過於激進... 要一步一步來.. 這要講幾次啦 XD
+13:55 < fishlover> ruin land 不哭
+13:55 < anonymou_> 全爆T^T
+13:55 < Ruinland> 各種踢踢樂
+13:55  * Yukai
+13:55 < Singoooooooooooo> 各種梯阿
+13:55 < lagane101> 爆炸啦 lol
+13:55 < WilliamSnail> anonymous_wrytus :　ＨＥＬＬＯＷ～
+13:55 < susu> 無限 loop
+13:55 < fishlover> 231人
+13:55 < Lorex_> XDDDDDDDDDDDDDD
+13:55 < Singoooooooooooo> Hello World
+13:55 < VIKI> 哈囉, Singoooooooooooo
+13:55 < darkx> 你不 Open 我自己讓他 Open (X
+13:55 < [R1]RainJay_> 大家睡醒了 網路就睡了
+13:55 < Singoooooooooooo> Hello
+13:55 < anonymou_> 剛要睡噎xDDD
+13:55 < Moonslight> 挖賽   連環炸
+13:55 < a25163967> 想入門  求建議
+13:56 < [R3]OtomeSound> g0v的爬資料大隊ww
+13:56 < anonymou_> 到底是誰被拍啊xDDDD
+13:56 < CharlesLien> R0睡覺都被拍xD
+13:56 < dylandy_> r0 又出現睡覺啦XDDD
+13:56 < fishlover> 入門？
+13:56 < [R0]Sean> 第二排
+13:56 < mudream> leomao@@
+13:56 < [R0]Sean> 中間 最左邊
+13:56 < a25163967> 學這些東西
+13:56 < nightfeather>  ' ')
+13:56 < LeoMao> mudream ~~
+13:56 < fishlover> a25163967 API開發？
+13:57 < coin3x> 洗Timeout 的時候配歡樂的音樂真棒(?
+13:57 < david111014> 讓大家不要一直看電腦看台上的妙招?
+13:57 < [R0]Sean> 拍到我
+13:57 < Davy_CC> hackpad 502
+13:57 < [R0]Sean> 耍智障那個
+13:57 < Astar> 下道wwww拍到我
+13:57 < Vdragon> Error(502)Hackpad is experiencing technical difficulties
+13:57 < Davy_CC> QQ
+13:57 < anonymous_wrytus> ss835l
+13:57 < Ruinland> 113教師表示：不管啦～給學生做就是不穩
+13:57 < Lorex_> XDDDDD 笑死
+13:57 < Astar> 立馬坐正www
+13:58 < anonymous_wrytus> 哪招xDDD
+13:58 < Vdragon> Hackpad 被打下來惹！
+13:58 < TatsujinChin> 竟然提到Github QAQQQ
+13:58 < a25163967> 裝睡就會被拍XD
+13:58 < [R0]Sean> Test
+13:58 < DanielChen> 終於近來了
+13:58 < anonymous_wrytus> 那真睡呢？
+13:58 < Ruinland> 給外包做最穩了、最划算了
+13:58 < nobody__> ..
+13:58 < [R0]Sean> s/e/s
+13:58 < mmis1000_bot> [R0]Sean 的意思是： Tsst
+13:58 < WilliamSnail> 裝睡的人是叫不醒的
+13:58 < Vdragon> GitHub 表示：計劃通……(X
+13:58 < azdkj532_> 樹影機死角 爽爽
+13:58 < [R1]Hinet60613> Hackpad被心靈型駭客打下來了?!
+13:58 < a25163967> 真睡被拍也不知道
+13:58 < nobody__> 有沒有學術型駭客的八卦
+13:58 < azdkj532_> 打錯 攝影機
+13:58 < [R0]Sean> 裝睡就紅了
+13:58 < atitan> hackpad例行性當機ww
+13:58 < Ruinland> 有些人是真的不舒服咪一下啊
+13:58 < fishlover> 所以學生應該去外面開工作室接學校外包？
+13:59 < Zekt> 覺得開放API做出來的東西一定要Open Source嗎？
+13:59 < anonymous_wrytus> 好像是這樣（？
+13:59 < garytan_> 可能被學術型hacker ping爆了XD
+13:59 < Ruinland> 我重感冒，吃完藥會想睡
+13:59 < anonymous_wrytus> 好像是這樣（？
+13:59 < darkx> Ruinland: 拍拍
+13:59 < ggm> 專職人員
+13:59 < [R1]Ren> fishlover: 接不到吧
+13:59 < DanielChen> G_G
+13:59 < fishlover> Ruinland 摸摸
+13:59 < lagane100> garytan_: 好可怕Q_Q
+13:59 < [R1]CASIO> 共筆是不是掛惹?????
+14:00 < anonymous_wrytus> [ruinland]:拍打（？
+14:00 < Davy_CC> 交大要讓學校包 API? 他沒聽懂吧？
+14:00 < a25163967> 其實我一直很想知道 API到底是甚麼
+14:00 < Huang_Kou> 螢幕便四格就好害怕被入境
+14:00 < fishlover> ren 大概要有門路？
+14:00 < darkx> a25163967: 應用程式街口
+14:00 < nobody__> what is api ?++
+14:00 < Davy_CC> darkx: 接口wwww
+14:00 < lagane100> [R1]CASIO: 好像是
+14:00 < darkx> ＊接口
+14:00 < Hedgehog> IE Only XDD
+14:00 < [R0]YWJamesLin> wwwwwwwwww
+14:00 < paulwang> www
+14:00 < wiwi_2> 座位表又黑了!?
+14:00 < Ruinland> API公開=/=開放原始碼
+14:00 < Moonslight> R0有人睡覺被拍啦 ~
+14:00 < Bobby_Ho> 問一下，R3目前座位的狀況如何？
+14:00 < Microsheep> 給學校做，要等民國幾年...@@
+14:00 < DanielChen> Gateway Timeout
+14:00 < [R1]Ren> fishlover: 嗯嗯 我們學校是包給提供實習的公司
+14:00 < lagane100> 共筆回來了
+14:00 < IGA> 不要黑我的座位啦www
+14:00 < fishlover> application interface？
+14:00 < s3131212> IE only wwww
+14:00 < james58899> IE Only
+14:01 < leomao> IE only OTL
+14:01 < Huang_Kou> ie onlu wwwwwwwwww
+14:01 < [R0]Sean> M$
+14:01 < anonymous_wrytus> WTF?!?!??!!?
+14:01 < ggm> IE 7/8
+14:01 < Huang_Kou> only
+14:01 < mudream> IE only Orz
+14:01 < Huang_Kou> $$
+14:01 < chma_> 不是限定IE 6嗎?
+14:01 < anonymous_wrytus> spartanˊˇˋ
+14:01 < Huang_Kou> 1024x768
+14:01 < darkx> 都 2015 了你還在 IE 7 ....
+14:01 < leomao> 砍掉重練 BJ4
+14:01 < ioan__> IE Only....... Linux, Mac 表示...
+14:01 < [R0]Sean> .docx 也是個問題
+14:01 < a25163967> 我沒黑耶
+14:01 < mudream> 只好開模擬器？
+14:01 < azdkj532_> api 簡單來說就是一組網址會回傳一些電腦容易閱讀的資料格式
+14:01 < tiwb> 腦中亂入IE800...
+14:01 < chma_> 我們學校還要幫老師莊IE 6
+14:01 < Zekt> 這樣要怎麼不出事
+14:01 < rail02000> IE Only X   IE 7/8 Only XDDDD
+14:01 < Huang_Kou> 最佳解析度1024x768
+14:01 < kevchentw> 學校的API自己寫........
+14:01 < fishlover> ie4 only
+14:01 < Vdragon> 共筆恢復正常：https://sitcon.hackpad.com/134940-ddd--EMd9Ev5VyzW#:h=梗收集區
+14:01 < Bobby_Ho> 座位表黑惹@@
+14:01 < Lorex_> 幹
+14:01 < Lorex_> 重點還是沒解決問題R
+14:01 < oor> ie5
+14:01 < ggm> tiwb HD800啦
+14:01 < azdkj532_> IE6 再戰十年
+14:01 < anonymous_wrytus> "我們之後是要這樣子推啦"
+14:01 < anonymous_wrytus> xDDDD
+14:01 < Lorex_> IE8 IE9 有差嗎，還不是一樣IEOnly
+14:01 < darkx> azdkj532_: 不一定喔... win32 api 不是吃網址....
+14:01 < IGA> 自己寫ie tab
+14:02 < james58899> 我都是chrome和firefox正常就好，IE什麼的讓他去死吧
+14:02 < a25163967> 剛說完就黑了
+14:02 < ALiangLiang_> ie only 可以用 chrome extension來覆蓋ie only的  method function 等等
+14:02 < anonymous_wrytus> 這不是笑話xDDD
+14:02 < oor> ie5
+14:02 < tiwb> ggm HD800前端好難搞XDD
+14:02 < mudream> safari好像有功能模擬IE 7.0 up
+14:02 < mudream> XD
+14:02 < WilliamSnail> 一分鐘有60個IRC訊息
+14:02 < [r0]human_whale> 這不是等於很好駭公文
+14:02 < anonymous_wrytus> safari可以喔～
+14:02 < mudream> akaiNeko@@
+14:02 < james58899> 電話轟炸XD
+14:02 < Jack___> @@
+14:02 < Ruinland> ......
+14:03 < [R0]Sean> 我在學校電腦找到放自動升級的登錄檔…
+14:03 < azdkj532_> darkx: 當然也是有系統API 不過這場議程聚焦的是網路部份 :)
+14:03 < fishlover> ie我都遇到按鈕的link沒作用的bug
+14:03 < ALiangLiang_> 或是在chrome上 有「IE Tab」這種extension可以用
+14:03 < Ruinland> azdkj532_: 你需要API(消歧義)
+14:03 < TatsujinChin> If IE then redirect!
+14:03 < IGA> POI
+14:03 < toby_skarting> 座位表怎麼黑黑der
+14:03 < azdkj532_> www
+14:03 < [R0]Sean> .help
+14:03 < darkx> azdkj532_: 什麼時候聚焦於網路部分了....
+14:04 < Lorex_> 掯，電子公文差那就整個重寫R
+14:04 < [R0]Sean> !help
+14:04 < iblis17> 唬爛
+14:04 < Lorex_> WTF，為啥這麼黑
+14:04 < DanielChen> IE except
+14:04 < [R0]Sean> -help
+14:04 < leomao> 可以幫學校寫  就會被當成廉價勞工
+14:04 < azdkj532_> darkx: 我聽聽是這樣啊 :3
+14:04 < darkx> :3
+14:04 < totomoney> 有上進的老師真好
+14:04 < DanielChen> 電子公文難用又IE only
+14:04 < iblis17> 明明是很嚴重....
+14:04 < anonymous_wrytus> 再這裡面的人都黑掉了ㄏㄏ
+14:04 < paulwang> jizzzzzzzz
+14:04 < Ruinland> 交大老師們都是活在雲端上的人
+14:04 < fishlover> if(preg_match('IE')) echo "404 not found";
+14:04 < Ruinland> 不知道下面的人怎麼呼吸
+14:05 < anonymous_wrytus> 就給他嘛
+14:05 < Lorex_> XDDD
+14:05 < anonymous_wrytus> ＠＠＠＠＠＠
+14:05 < [R1]Ren> 老師表示：不會炸掉 能用就好
+14:05 < WilliamSnail> :D~~~
+14:05 < darkx> 就技術也不熟啊... 敝系老師連 C/C++ 也不懂就可以開大一程設惹 ^Q^
+14:05 < [R3]OtomeSound> 新技術，開課www
+14:05 < Singoooooooooooo> 老師 有錢賺就好
+14:05 < Zekt> 可以丟專題吧
+14:05 < james58899> 我學校會用Google classroom耶
+14:05 < kevchentw> 但學校系統常炸啊
+14:05 < Ruinland> 「軟體定義網路之雲端大數據軟硬整合」
+14:06 < darkx> 遇到問題，找學生作專題就對了 (O
+14:06 < Huang_Kou> 這些演講內容應該撥給各學校的行政單位和計算機中心 =  =
+14:06 < azdkj532_> 上課用 devc++ ˊ_>ˋ
+14:06 < Ruinland> 撒尿牛丸摻一摻
+14:06 < [R1]Hinet60613> 中央這學期開了個什麼穿戴式裝置介面設計...
+14:06 < Gent> 座位表黑掉了 @@
+14:06 < fishlover> Ruinland XD
+14:06 < Singoooooooooooo> Gent好黑
+14:06 < yuki_> 交大教授這個關鍵字看好多次...
+14:06 < nightfeather> 專案學分抵免 聽起來是個好主意
+14:06 < susu> 交大 e3 連 https 都還不是 default, 外包廠商的維護讓人覺得好不可靠...
+14:06 < iblis17> 應該說 交大資工系教授
+14:06 < [R3]OtomeSound> Ruinland: 我專題卡SDN的說...
+14:06 < Ruinland> susu: 你終於開金口了
+14:06 < DanielChen> 基礎課不穩，就想要開先進技術的課，開出來就搖搖晃晃什麼都學不到阿
+14:07 < christin_> ㄏㄏ台大表示：
+14:07 < christin_> ＱＡＱ
+14:07 < fishlover> susu 你好～
+14:07 < kevchentw> 交大很強??都不開放....
+14:07 < [R1]Ren> r1發現有人撤退 但還是沒位子
+14:07 < Gent> Singoooooooooooo 是大黑客
+14:07 < darkx> susu: 前社長開金口惹！
+14:07 < [R1]CASIO> R1我後面一堆在睡 囧
+14:07 < iblis17> 上面的是 電機系教授 算教授中有點進入狀況的
+14:07 < [R3]OtomeSound> R3人類聚集中....
+14:07 < Zekt> 成大統計聽說有教授教大家用vim寫R
+14:07 < shouko_> http://campusdata.org
+14:07 < leomao> (y)
+14:07 < IGA> 沒問為什麼要擋IP
+14:07 < [R0]YWJamesLin> 來惹
+14:07 < Chih_Ping_Chang> 不是有人要來r0打臉嗎
+14:07 < ggm> R3還有位置嗎
+14:07 < orinx> R3 滿滿的
+14:08 < [R0]YWJamesLin> 求打臉
+14:08 < iblis17> Ruinland: 加油
+14:08 < gginin> query
+14:08 < rail02000> 現在可以打臉了ww
+14:08 < iblis17> 人在 r2
+14:08 < leomao> 誰去 R0 衝
+14:08 < Ruinland> 我快死在R1了...
+14:08 < Zekt> 我同學問我那個什麼冒號w冒號q是什麼好難喔
+14:08 < Lorex_> XDDD
+14:08 < Takeshi_tw> 舉手問丹尼程式競賽的問題就可以了 XD
+14:08 < fishlover> wq
+14:09 < Vdragon> 注意：共筆有收錄部份 IRC Log ，如果有疑慮歡迎自行合諧
+14:09 < darkx> C-x C-c
+14:09 < DanielChen> :w:q
+14:09 < a25163967> 果然從上午就坐在r0是對的
+14:09 < Sean|Phone> R0 剛剛死掉?
+14:09 < [R0]YWJamesLin> :sp :vsp
+14:09 < fishlover> :q!
+14:09 < Bobby_Ho> 等等想去R3聽TOR
+14:09 < HearSilent> R3爆滿中
+14:09 < DanielChen> :wq!
+14:09 < Ayumi_> ¢à¢²¨SÂà¼½¡A¶ã¶ã
+14:09 < alex_lu> ^W-v ^W-s
+14:10 < fishlover> 等一下的議程好像都是10分鐘？
+14:10 < Davy_CC> 交大各種迴避wwww
+14:10 < fishlover> 10分鐘就要跑場有點累
+14:10 < dannyAAM> :w !sudo tee %
+14:10 < fishlover> XD
+14:10 < iblis17> Davy_CC: lol
+14:10 < [R3]OtomeSound> :! sudo %
+14:10 < dannyAAM> R3不夠大啊www
+14:11 < [R1]Ren> r1右後 硬坐空位*1
+14:11 < alibuda5566> 破音XD
+14:11 < Lorex_> 想去R3
+14:11 < fishlover> sudo rm -r /
+14:11 < Moonslight> 想請問一下R1的狀況
+14:11 < christin_> 對OpenCampus有興趣的等下可以來聽Project Squirrel!!
+14:11 < christin_> 在R1
+14:11 < [R1]Ren> r1人多喔
+14:11 < darkx> "我願意把我的屁股賣給學校"    [ ] I Accept
+14:11 < [R1]CASIO> R1很滿 但有人在睡覺www
+14:11 < Bobby_Ho> wtf
+14:11 < ggm> 0.0
+14:11 < Lorex_> XDDDD
+14:11 < petercommand> XD
+14:12 < Bobby_Ho> 我願意XD
+14:12 < fishlover> XDDD
+14:12 < escrowdis> 早上也睡一票人XD
+14:12 < [R1]Ren> r1右後有一位子 快來喔
+14:12 < leomao> 三小回答
+14:12 < leomao> = =
+14:12 < iblis17> = =
+14:12 < Charles_Yang> op
+14:12 < divazone> ....
+14:12 < RChen> ＝ ＝
+14:12 < Singoooooooooooo> 無言
+14:12 < buck_> r3 還有位子嗎
+14:12 < [R0]YWJamesLin> ............
+14:12 < Davy_CC> 交大wwwwwwwwwwwww
+14:12 < darkx> https://www.youtube.com/watch?v=5f6Cv9PrU08
+14:12 < iblis17> 交大 op
+14:12 < Microsheep> 這..........
+14:12 < leomao> 什麼不太合適 = =
+14:12 < Ayumi_> -.-
+14:12 < [R3]OtomeSound> 學校有好多三妻四妾wwwww
+14:12 < Davy_CC> 學校覺得就算你點了「我願意」，但是學校還是覺得你不應該「願意」，這點在學校還是沒有突破
+14:12 < leomao> 理解不能
+14:13 < a25163967> 這讓我想到我們學校的通知單永遠都只有"我同意"
+14:13 < susu> 我願意還可以不能願意, 他自己前面就說同學關係比較好就會自己給別的同學資料了... 透過系統給就不行嗎?
+14:13 < escrowdis> 不解
+14:13 < fishlover> 我願意 明明有完整的法律效力（？
+14:13 < ggm> a25163967 我都自己畫一格不願意
+14:13 < leomao> 沒道理 搞的學校可以控制學生一樣
+14:13 < Lorex_> zzzzzzz
+14:13 < [R1]Hinet60613> 完全行為能力人
+14:13 < paulwang> j
+14:13 < tom83615> 就學校靠背 = =
+14:14 < leomao> 公民課www
+14:14 < totomoney> 所以20歲以下要監護人跟自己都要按我願意？
+14:14 < Lorex_> AD
+14:14 < Lorex_> AD
+14:14 < [R0]Sean> 有人要去沙龍嗎？
+14:14 < [R1]Ren> 靠背大學
+14:14 < darkx> "我願意把我的屁股賣給學校"    [ ] 我媽願意
+14:14 < Lorex_> 靠杯，按到滑鼠巨集建...
+14:14 < kevchentw> wt......
+14:14 < [R3]OtomeSound> 剛上大學的「我願意」要怎解呢？
+14:14 < leomao> R3 進不去就要去休息了...XD
+14:14 < susu> 那就先開放 20 歲以上使用啊 = ="
+14:14 < fishlover> 以後系統做兩個 20歲以下ㄧ個 20歲以上另一個
+14:14 < pcchou> Lorex_: lol
+14:14 < Lorex_> "我願意把我的屁股賣給學校"    [ ] 我願意  [ ] 我媽也願意
+14:15 < darkx> fishlover: 問題來了，請問您滿十八歲嗎?   [Yes]
+14:15 < darkx> fishlover: 問題來了，請問您滿二十歲嗎?   [Yes]
+14:15 < [R0]YWJamesLin> 系統選項 我未滿二十歲 我已滿二十歲 未滿重導向(X
+14:15 < sntc06> 是否已閱讀使用條款 (Y/n)
+14:15 < [R1]Hinet60613> 您的成績單願意讓家長可以線上觀看嗎? []我不願意 []我媽願意
+14:15 < [R3]OtomeSound> 反正色情網站的人都會成年ww
+14:15 < emuyu> 賣屁股..
+14:15 < Lorex_> 請問您滿十八歲嗎?   [Yes] [No]
+14:15 < ioan__> wwwww
+14:15 < nightfeather> 所謂的我願意不就是這樣嗎  http://i.imgur.com/ig21oHI.png (?
+14:15 < confbot> <fntsrlike>: 天阿，我好愛這場會談ＸＤＤＤ
+14:15 < a25163967> 跟19歲的女友求婚要她媽說"我願意"(只是舉例,我沒有女朋友
+14:15 < [R0]Sean> 把證件貼在螢幕上，我要檢查
+14:15 < fishlover> darkx: 請繳交身分證做實名驗證
+14:16 < sntc06> 可是你可能突破不了（X）
+14:16 < [R3]OtomeSound> 醒醒吧，你沒有女朋友QAQ
+14:16 < Lorex_> 點了 NO 會跑出這樣 ======>>>     請問您滿 18 歲嗎？ (裸女圖)   [Yes] [No]
+14:16 < [R1]dd-han> 爬資料好累QAQ
+14:16 < RChen> IRC太好笑拉XD
+14:16 < JYNY> 爬資料真的不容易
+14:16 < totomoney> 學校頁面這樣擺裸女圖ww
+14:16 < sgjsfkys> Test
+14:16 < Amomo_> ¡
+14:17 < leomao> 推推
+14:17 < [R1]dd-han> 戳戳wwwwww
+14:17 < nightfeather> 擺裸女圖是怎樣的概念 XDDDDDDD
+14:17 < [R1]Hinet60613> 偶爾戳戳一下學校單位 (y)
+14:17 < leomao> poke poke
+14:17 < Charles_Yang> 只好鑽漏洞進學校DB挖資料(誤..
+14:17 < [R3]OtomeSound> 帶頭戳戳
+14:17 < james58899> 團體戰
+14:17 < [R1]dd-han> 把他帶來SITCON就對了wwwwwwww
+14:17 < fishlover> 跟風戳戳
+14:17 < sgjsfkys> I.imgur/FpcYbz.png
+14:17 < anonymous_wrytus> 戳
+14:17 < Chih_Ping_Chang> 一個傳教的概念
+14:17 < anonymous_wrytus> 硬是拖過來
+14:17 < anonymous_wrytus> maker!!!!!
+14:18 < [R3]OtomeSound> 結果學校擔心被打臉，只好開開Google表單
+14:18 < yaoteng> R3爆了
+14:18 < anonymous_wrytus> 兼推銷
+14:18 < azdkj532_> 可惡想去
+14:18 < darkx> 可是大四以前不會寫程式 QQ
+14:18 < Guest94098> 推R1
+14:18 < flower_> (´･_･`)
+14:18 < leomao> 覺得中肯
+14:18 < seadog007_> R3有錄影嗎........
+14:18 < fishlover> 還好我會寫網頁
+14:18 < susu> fishlover: 你好, 專題加油 :)
+14:18 < flower_> 這裏有黑客嗎(´･_･`)
+14:19 < [R1]Hinet60613> 小六OAO"
+14:19 < hank_848688> ((戳戳
+14:19 < fishlover> susu: 謝謝～～
+14:19 < [RH]Sean> 揪沙龍
+14:19 < fishlover> susu: <( _ _ )>
+14:19 < chyuaner> [R3] 人爆滿了!?
+14:19 < flower_> (´･_･`)(´･_･`)(´･_･`)(´･_･`)(´･_･`)(´･_･`)(´･_･`)(´･_･`)(´･_･`)(´･_･`)(´･_･`)
+14:19 < ggm> 沙龍在做什麼
+14:19 < leomao> R3 還有位子嗎？
+14:20 < MJ123063> 我隔壁坐個黑客
+14:20 < dannyAAM> R3啥狀況啊
+14:20 < pcchou> 聽說 overflow
+14:20 < [R1]Ren> fishlover: 大大有沒有要參加專題比賽0.0
+14:20 < leomao> buffer overflow (?)
+14:20 < Lorex> 話說這裡有人在玩黑蘋果嗎?
+14:20 < Charles_Yang> seat overflow
+14:20 < RChen> 為什麼大家都要去擠R3?
+14:20 < [R1]Hinet60613> R3 14:20 Evernote漏洞的發現與研究過程
+14:20 < [R3]OtomeSound> 聽說R3的swap爆了(?)
+14:20 < [R1]Ren> 今年有交誼廳嗎
+14:20 < leomao> swap 爆了…
+14:20 < kevchentw> 剛剛浪費了一小時............
+14:21 < Bobby_Ho> 我想聽Tor...不是Evernote...
+14:21 < fishlover> Ren 現在才專題ㄧ而已
+14:21 < [R2]PingNote> /
+14:21 < fishlover> Ren 希望做出好成果
+14:21 < Vdragon> 休息時間
+14:21 < iblis17> [R2]PingNote: http://jenkins-ci.org/
+14:21 < VIKI> iblis17's URL: [Welcome to Jenkins CI! | Jenkins CI (http://jenkins-ci.org/)]
+14:21 < datex> 中央開源社社長表示無奈
+14:21 < qqabc> 請問離開的時候有接駁車嗎?
+14:22 < [R0]YWJamesLin> R0人變有點少
+14:22 < Vdragon> 接下來的議程都延後 10 分鐘（除最後一場 session 外）
+14:22 < iblis17> [R2]PingNote: https://travis-ci.org/recent
+14:22 < [R3]OtomeSound> seadog的議程竟然準時www
+14:22 < [R1]Ren> fishlover: 網頁嗎xd
+14:22 < iblis17> [R2]PingNote: http://buildbot.net/
+14:22 < seadog007> 蛤....
+14:23 < seadog007> 哲安啊QAQ
+14:23 < iblis17> [R2]PingNote: conituous intergation
+14:23 < [R3]OtomeSound> 掉zen phone還沒找到嗎wwwww
+14:23 < [R1]Ren> R1滿囉
+14:23 < flower_> (´･_･`)
+14:23 < seadog007> 各種想聽的議程都聽不到QAQQQQQQ
+14:23 < flower_> (´･_･`)
+14:23 < fishlover> 我想寫雲端硬碟的說XD
+14:24 < joe923692012_> R3有錄影沒直播，影片剪輯之後會釋出。
+14:24 < chyuaner> [R3] 現場狀況 http://imgur.com/nUoOQ7i
+14:24 < VIKI> chyuaner's URL: [ (http://imgur.com/nUoOQ7i)]
+14:24 < [R3]OtomeSound> 在R3相機死角ww
+14:24 < fishlover> PHP+MySQL 雲端硬碟
+14:24 < Choukai_> OWO
+14:24 < [R1]Ren> fishlover: 好像不錯 也不難做xD
+14:25 < buck5060> R3人超多
+14:25 < [R1]Ren> 我的老師不給我專題做網站QQ
+14:25 < fishlover> 做起來不難 做好很難XD
+14:25 < [R1]CASIO> R1已滿 站著的人大約15個
+14:25 < aweimeow> 不只15個吧 XD
+14:26 < Bobby_Ho> R3 好誇張XD
+14:26 < fishlover> 你們專題做什麼？
+14:26 < [R3]OtomeSound> 做起來不難，但是沒on起來才頭疼的說...
+14:26 < [R1]RainJay> ii
+14:26 < fishlover> XD
+14:26 < [R1]Ren> fishlover: NFC應用...
+14:27 < [R3]OtomeSound> fishlover: openflow SDN...
+14:27 < [R1]CASIO> 喔喔 原來R1最前排再往前的地上還有坐著一票人XDDD
+14:27 < Vdragon> 在 R0 直播上看到 @orinx
+14:27 < [R3]OtomeSound> fishlover: 環境架完就部知道要幹麻了QAQ
+14:27 < fishlover> NFC？我ㄧ直在想NFC能不能做到像藍芽傳檔？
+14:27 < Benyi> R1是搖滾區，等下要負責high的
+14:28 < ggm> R3 到2.30?
+14:28 < Benyi> r1前面**
+14:28 < fishlover> SDN我不太熟QQ
+14:28 < fishlover> 當年我都用BlueFTP.jar打天下的
+14:28 < [R1]Ren> fishlover: 可以啊
+14:29 < fishlover> OBEX協定
+14:29 < flower_> r0人好少
+14:29 < yaoteng> R3 滿道漫出來了~
+14:29 < totomoney> R2坐地板
+14:29 < fishlover> 在同學的手機按下確認 就可以盡情遙控
+14:29 < [R1]Ren> 我們老師要我做nfc電子鎖
+14:29 < Ruinland> fishlover: 你有來過NBA嗎？
+14:30 < [R1]Ren> 懷念的智障手機程式xd
+14:30 < fishlover> 我是上學期入社社員XD
+14:30 < [R1]Ren> 對se的手機幾乎完全控制啊
+14:30 < fishlover> 來過開頭幾次
+14:30 < wdv> fishlover: 看 id 想不起來是誰 Orz
+14:30 < [R1]Hinet60613> [R1] 第一次查課程評價就上手
+14:31 < fishlover> 修SA太忙後來都沒過去了
+14:31 < fishlover> dv你好～
+14:31 < kevchentw> SA!!!
+14:31 < fishlover> 90分修過SA
+14:32 < fishlover> 超級感動
+14:32 < Ruinland> fishlover: 會喝酒||茶||咖啡嗎？現在裡面有很多選擇
+14:32 < kevchentw> 我旁邊有個SA 99分的 XDDDD
+14:32 < Ruinland> 可以來晃晃聊天這樣XDDD
+14:32 < [R3]OtomeSound> [R3]一個夜黑風高的晚上，我撞到了XSSwww
+14:32 < Moonslight> 聽風表示 : 我一張投影片只能講10秒     啊是在 lighting talk喔 @@"
+14:32 < fishlover> ？會場有飲料了？
+14:32 < Ruinland> 不是啦XD 我是說社窩
+14:32 < fishlover> 喔喔 社窩
+14:33 < fishlover> XD
+14:33 < Chih_Ping_Chang> 沒去過nba
+14:33 < Microsheep> 旁邊一個SA 99分過
+14:33 < wdv> Ruinland: 下次我回去再帶茶具 (X
+14:33 < Bobby_Ho> 囧了，廣東腔我有障礙...
+14:33 < fishlover> 膜拜各位99分
+14:33 < Ruinland> 我要搞一台咖啡機，之前有一包蘇門達臘
+14:34 < kevchentw> 交大有NCTU+
+14:34 < nightfeather> 廣東腔表示痛苦 ' -')
+14:34 < Ruinland> 太忙沒煮一直留著
+14:34 < Bobby_Ho> 我只聽懂8成...
+14:34 < fishlover> XD
+14:34 < darkx> Microsheep: SA 99  太強惹 QQ #助教路過
+14:34 < [R0]YWJamesLin> 香港人英文不錯的...
+14:34 < Davy_CC> oops R0 聽不懂orz
+14:34 < alibuda5566> 這廣東腔....
+14:34 < darkx> 講到 hitcon 就被河蟹惹w
+14:35 < Bobby_Ho> [R0]YWJamesLin:人家講普通話我聽懂8成...
+14:35 < s3131212> HITCON 黑黑
+14:35 < [R3]OtomeSound> R3 Evernote可以執行cmd，好帥XDDDD
+14:35 < yuki_> 講到Hitcon就蓋台!?
+14:35 < Ayumi_> ¥L«Ü·QÁ¿HONG KONG¡A«á­±¤S§ï¤f¦¨­»´ä><
+14:35 < confbot> <fntsrlike>: HITCON 好黑wwww
+14:35 < fishlover> 後面趕compiler 我把LDAP放掉了
+14:35 < TakoTsai> R3 也爆滿太快了～ ＝囗＝
+14:35 < Vdragon> R2 LH 直播沒聲音QAQ
+14:35 < darkx> fishlover: QQ
+14:36 < Bobby_Ho> Fork SITCONxTW Start SITCONxHK XD
+14:36 < Chih_Ping_Chang> fishlover: 你是大學部的嗎
+14:36 < Vdragon> R2 LH 恢復正常
+14:36 < allenown> R3 在跳小算盤了
+14:36 < fishlover> 大三XD
+14:36 < s3131212> 學術型駭客 wwwwww
+14:36 < [R3]OtomeSound> 國外的玩家很喜歡開小算盤ww
+14:36 < a25163967> r1 聽不太懂阿
+14:37 < fishlover> 野生s3131212大大出現了
+14:37 < [RH]Sean> RH 遇到 Orange
+14:37 < Ren> 人心是最大的漏洞
+14:37 < totomoney> 地板的座位表要填哪裡w
+14:37 < yuki_> 學術型嗆聲!?
+14:37 < Chih_Ping_Chang> fishlover: 我碩二路過請多指教
+14:37 < Davy_CC> SITCON x HK 好像還是要推開源……
+14:37 < Guest875> 這不是嗆聲
+14:37 < tckf> 好像講英文會比較流利XD
+14:37 < pcchou> 英文+1 (?
+14:37 < seadog007> XD
+14:37 < Gent> 新聞上的不是學術型駭客啦
+14:37 < seadog007> 英文啊www
+14:37 < SilverWings> 口音好重..
+14:37 < Guest875> 心靈駭客
+14:37 < seadog007> 香港人幹嘛需要普通話啦www
+14:37 < JYNY> r2直播？
+14:38 < fishlover> chih_ping_chang學長請多指教
+14:38 < nobody__> 請問token是什麼？
+14:38 < Guest875> R0
+14:38 < Hedgehog> 學術型駭客ww
+14:38 < yuki_> 駭客圈處處有溫情阿(拭淚
+14:38 < Guest875> 未來的科技
+14:38 < pcchou> Sammy Fung 吧
+14:38 < Guest875> 真的就是心靈的駭客戰了
+14:38 < Davy_CC> 欸是不是講 英文比較好啊
+14:38 < Guest875> 20年
+14:38 < Ruinland> Bs4真的好用...
+14:38 < [R1]CASIO> R1快講不完啦www
+14:38 < Guest875> 不再是 MAC Addrss
+14:38 < Moonslight> r1好緊湊啊
+14:39 < Guest875> 今天的議程真的很好
+14:39 < Guest875> 洗腦對我沒有用 :)
+14:39 < Bobby_Ho> R0簡單來說就是，講者覺得HK人不懂Open Source...
+14:39 < DannyLan> @@
+14:39 < Bobby_Ho> 然後HK人對Open Source沒興趣...
+14:39 < Davy_CC> 看到大家的聲音
+14:39 < Ruinland> bs4的優點是他對ill-formed的html有抵抗力
+14:39 < [R3]OtomeSound> nokogiri出動(?)
+14:39 < yuki_> 貌似發現學術型駭客(艸
+14:40 < Ruinland> python內建的html parser遇到寫壞的網頁會直接噴error...
+14:40 < darkx> lxml 對爛掉的東西來說根本直接炸 orz
+14:40 < fishlover> 不會python QQ
+14:40 < nightfeather> R0 表示聽不太懂......
+14:40 < Davy_CC> R0 開始講英文wwwwww
+14:40 < Bobby_Ho> R0改講英文惹＠＠
+14:40 < seadog007> 果然英文比較好XDDDD
+14:40 < Riki922> 變英文啦
+14:40 < Davy_CC> 終於wwwww
+14:40 < fishlover> 我是PHP的XD
+14:41 < Benyi> 學號get
+14:41 < nightfeather> 直接烙英文還聽得比較懂XDDDD
+14:41 < Tomato> 875是mind hacker?
+14:41 < timcheng> 英文Mode On
+14:41 < Bobby_Ho> 這樣比較好...
+14:41 < seadog007> 強大啊XDDD
+14:41 < chihhsin> [R3] slide http://www.slideshare.net/aj0612/sitcon2015
+14:41 < Bobby_Ho> Aerodox聽完衝R3...
+14:41 < VIKI> chihhsin's URL: [[SITCON2015] 自己的異質多核心平台自己幹 (http://www.slideshare.net/aj0612/sitcon2015)]
+14:41 < [R3]OtomeSound> 拿PHP excute python(X)
+14:41 < [RH]Sean> DennyHuang topic 還沒改
+14:41 < fishlover> XD
+14:42 < darkx> chihhsin: R3 現在是那個 ??
+14:42 < ioan__> 漏洞還有打副本 XDDDD
+14:42 < chihhsin> darkx: 自己的異質多核心平台自己幹
+14:42 < darkx> QQ 可是我在 R2 QQ
+14:42 < chihhsin> darkx: GG
+14:42 < Bobby_Ho> R3人潮如何？
+14:42 < darkx> chihhsin: R3 剛開始?
+14:43 < paraselene> 滿載
+14:43 < yuki_> Vulreport在招募人潮?
+14:43 < confbot> <fntsrlike>: VulReport 註冊和登入功能完全不能用
+14:43 < confbot> <fntsrlike>: <http://i.imgur.com/k8QTlmR.png>
+14:43 < confbot> <fntsrlike>: 囧
+14:43 < chihhsin> darkx: yep
+14:43 < darkx> 抉擇中  QQ
+14:43 < chihhsin> darkx: 可是只有十分鐘
+14:43 < [r3]buck5060> R3滿
+14:43 < Guest875> Practice makes perfect
+14:43 < Guest875> Man proposes, God disposes.
+14:43 < Bobby_Ho> 我想聽Orin聊Tor啊@@
+14:44 < mabinogi80503> R3滿了，等影片好了…
+14:44 < Guest875>   One good turn deserves another.
+14:44 < Bobby_Ho> R0投影機怪怪der...
+14:44 < Guest875> A contented mind is a perpetual feast.
+14:44 < Bobby_Ho> 完全沒有畫面
+14:44 < Guest875>  A pin a day is a groat a year.
+14:44 < [R1]Ren> r3完全進不去
+14:44 < david111014> 黑掉惹
+14:44 < Bobby_Ho> R0黑掉惹@@
+14:44 < Guest875> Look before you leap. :)
+14:45 < Chih_Ping_Chang> 黑黑der
+14:45 < Guest875> 今天 SITCON
+14:45 < Guest875> 辦的很好
+14:45 < Guest875> 等等要來嘉義了
+14:45 < Guest875> 大家後會有期
+14:45 < Bobby_Ho> 除了龐克趴跟座談以外都不錯...
+14:46 < Guest875> I live from Chiayi County. :)
+14:46 < Vdragon> @fntsrlike https://www.facebook.com/vulreport
+14:46 < heyou> [失物招領] 服務台這裡仍有鑰匙一串、 USB 傳輸線一條、與黑色手機套一只仍然沒有人領回喔，各位記得檢查身邊的東西有沒有遺漏唷！
+14:46 < hector_> R3 爆了！！！！
+14:47 < benj_zz> R3沒有直播嗎?
+14:47 < shunyi> nope
+14:47 < hector_> 無
+14:47 < mabinogi80503> 貌似只有錄影？
+14:47 < joe923692012_> 沒直播只有錄影，之後會統一上傳
+14:48 < benj_zz> OK, thanks
+14:48 < DannyLan> viki whois legbone?
+14:48 < [R1]Ren> r3好硬
+14:48 < VIKI> DannyLan 哇~ 是腿骨耶!!
+14:48 < JOY> R3爆了@@
+14:48 < chma_>
+14:48 < chma_> viki
+14:48 < VIKI> chma_ 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+14:49 < coin3x> VIKI Hi
+14:49 < VIKI> coin3x 您好
+14:49 < toby_skarting> what is VIKI
+14:49 < Gent> VIKI HI
+14:49 < VIKI> Gent 哈囉
+14:49 < chma_> viki 真的嗎
+14:49 < coin3x> VIKI help
+14:49 < VIKI> coin3x 您需要幫忙嗎??
+14:49 < chihhsin> viki 今年貴庚？
+14:49 < coin3x> VIKI command
+14:49 < coin3x> VIKI commands
+14:49 < chihhsin> 壞了 QQ
+14:49 < Gent> VIKI 你在哪理?
+14:49 < toby_skarting> VIKI restart
+14:49 < Ayumi_> viki
+14:49 < VIKI> Ayumi_ 您好
+14:49 < coin3x> 誒這不科學
+14:49 < chihhsin> 選擇性對話 XXXD
+14:50 < confbot> <fntsrlike>: @Vdragon Thanks
+14:50 < LionBug> VIKI ;
+14:50 < [R1]CASIO> VIKI
+14:50 < VIKI> [R1]CASIO 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+14:50 < nightfeather> 白底投影片好痛苦 Q_Q
+14:50 < Davy_CC> R0 的圖好漂亮
+14:50 < DannyLan> viki 今年貴庚
+14:50 < coin3x> LionBug, (抖
+14:50 < Davy_CC> VIKI 好吵 = =
+14:50 < [R1]Ren> \nick [R3]Ren
+14:50 < [R1]CASIO> VIKI 您好
+14:50 < VIKI> [R1]CASIO 嗨
+14:50 < Ayumi_> viki ><
+14:50 < SoFlat> 終於連上了QAQQQQQQQQQQ
+14:50 < LionBug> VIKI () {:;}; /bin/cat /etc/passwd
+14:50 < fishlover> viki XD
+14:50 < qqabc> vike 123
+14:50 < DannyLan> viki 你今年貴庚
+14:51 < VIKI> DannyLan 你說呢??
+14:51 < nightfeather> VIKI bot or human ?
+14:51 < qqabc> viki 123
+14:51 < atitan> viki viki?
+14:51 < fishlover> VIKI 你好
+14:51 < VIKI> fishlover 哈囉
+14:51 < Chih_Ping_Chang> VIKI
+14:51 < VIKI> Chih_Ping_Chang 找我嗎??
+14:51 < [R1]Hinet60613> [R1] 腿骨、莫風爭女友，兩位都是非常好的人，不知道為什麼一直沒有女朋友
+14:51 < ioan__> ...........
+14:51 < toby_skarting> 來聽LegBone.exe
+14:52 < Ayumi_> ²ö­·¤j¤jXDDDDD
+14:52 < fishlover> VIKI how old are you？
+14:52 < nightfeather> VIKI 逆豪
+14:52 < LionBug> VIKI 不理我QQ
+14:52 < toby_skarting> VIKI
+14:52 < VIKI> toby_skarting 您好, 請問您需要什麼協助?
+14:52 < lagane100> viki
+14:52 < VIKI> lagane100 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+14:52 < toby_skarting> VIKI 你幾歲
+14:52 < VIKI> toby_skarting 你說呢??
+14:52 < qqabc> viki
+14:52 < VIKI> qqabc 找我嗎??
+14:52 < emuyu> VIKI
+14:52 < VIKI> emuyu 您好
+14:52 < Ayumi_> viki OUT
+14:52 < Bobby_Ho> viki
+14:52 < toby_skarting> VIKI 你是女生嗎？
+14:52 < VIKI> Bobby_Ho 找我嗎??
+14:52 < DriftMind> 為什麼又在玩viki了= =?(去年hitcon也這樣
+14:52 < lagane100> viki <3
+14:52 < qqabc> viki 你好嗎
+14:52 < VIKI> qqabc 你呢? 你今天好嗎?
+14:52 < a25163967> viki
+14:52 < VIKI> a25163967 您好, 請問您需要什麼協助?
+14:53 < toppy368> [R1] 看到漠風腿骨的吉祥物
+14:53 < Gundam> viki hi
+14:53 < VIKI> Gundam Hi
+14:53 < chihhsin> viki hi
+14:53 < VIKI> chihhsin 哈囉
+14:53 < fishlover> VIKI Whois VIKI
+14:53 < VIKI> fishlover 我就是在 2014 年 台灣駭客年會 中最紅的 VIKI 啊!! *^_^*
+14:53 < Bobby_Ho> VIKI 你在哪裡？
+14:53 < [R3]Ren> R3大概還可以擠10個
+14:53 < chihhsin> viki 黑黑
+14:53 < qqabc> viki 妳吃飽了嗎
+14:53 < Piano_> 啦啦啦啦啦
+14:53 < fishlover> VIKI version
+14:53 < Davy_CC> [R0] live demo
+14:54 < fishlover> VIKI about
+14:54 < fishlover> VIKI info
+14:54 < [R1]CASIO> VIKI 你的性別是?
+14:54 < Piano_> ws一天睡4~6小時
+14:54 < toby_skarting> VIKI VIKI
+14:54 < [R1]CASIO> R1開始有空位了
+14:54 < SeChanChan> VIKI ぽいっ？
+14:55 < aaaaa> kk
+14:55 < fishlover> VIKI 漂亮
+14:55 < [R0]YWJamesLin> 這太帥啦XD
+14:55 < Bobby_Ho> R0的概念還不錯...
+14:55 < Bobby_Ho> 超厲害的
+14:55 < fishlover> VIKI good
+14:55 < Davy_CC> R0 cool
+14:55 < david111014> r0的東西好酷歐!!!!!!
+14:55 < Davy_CC> 但是不知道耗電如何
+14:55 < nightfeather> R0 就差精度 這概念挺酷的
+14:55 < LionBug> VIKI %00
+14:56 < SoFlat> sensor超耗電QQ
+14:56 < linroex> http://www.slideshare.net/XiZheLin/ask-course
+14:56 < VIKI> linroex's URL: [第一次查課程評價就上手 Ask course (http://www.slideshare.net/XiZheLin/ask-course)]
+14:56 < mabinogi80503> R0不錯我覺得
+14:56 < linroex> 這是剛剛R1的簡報XD 我才剛上傳好的說O_O
+14:56 < Bobby_Ho> 衝R3囉
+14:56 < DriftMind> R0真的有點猛
+14:56 < [R2]totomoney> R2有點精彩
+14:56 < toby_skarting> 這麼精彩的Bee Talk
+14:56 < a25163967> 看起來就超屌的
+14:57 < ioan__> 超強Der~
+14:57 < toby_skarting> 等一下的更黑
+14:57 < toby_skarting> \LegBone/\LegBone/\LegBone/\LegBone/
+14:57 < dannyAAM> R3太小啦030
+14:58 < DannyLan> whois legbone?
+14:58 < qqabc> viki 在嗎
+14:58 < a25163967> r0 再加上智慧電視 遙控器即將被消滅
+14:58 < qqabc> qqtest hi
+14:58 < LionBug> r2影片傳出 我已經瘦了 我已經瘦了
+14:59 < HearSilent> 有人有剛剛R2講者的github網址嗎 ?
+14:59 < aaaaa> R1 司儀聲音好好聽阿~~ <3
+14:59 < qqabc> https://github.com/shouko/BeeHive
+14:59 < SoFlat> R3有位子嗎www或球R3直播網址~~
+14:59 < HearSilent> THX
+15:00 < DanielChen> ,o,
+15:00 < [R3]Ren> R3滿了
+15:00 < Iven> 剛剛R2犯罪啦
+15:00 < ecilAndroid> R3 剩站位
+15:00 < lagane100> A_A
+15:00 < fishlover> legbone~
+15:00 < [R1]CASIO> R1目測空位大約5個
+15:00 < toby_skarting> A底線A
+15:00 < [R3]Ren> R3開始了
+15:00 < fishlover> A_A
+15:00 < SoFlat> QQ謝謝
+15:01 < chihhsin> R3 slide http://www.slideshare.net/taichunmin/digital-oceangitlab
+15:01 < VIKI> chihhsin's URL: [在 DigitalOcean 架設 Gitlab (http://www.slideshare.net/taichunmin/digital-oceangitlab)]
+15:01 < toby_skarting> R2 Live 雜音
+15:01 < Benyi> 1
+15:02 < lagane100> 一直印一直印
+15:02 < tckf> R3還有站的位置?
+15:02 < rrland> R3爆了
+15:02 < [R3]Ren> tckf: 只能站門口了
+15:03 < tckf> rrland: sosad :(
+15:03 < lagane100> 腿骨DDOS
+15:03 < [R1]CASIO> R1開始了
+15:04 < gogomagnet> 都延後10分鐘?
+15:05 < jeremy5189> yes
+15:06  * atitan
+15:06 < dylandy> R2 好多人啊
+15:06 < dylandy> 好緊張啊啊啊啊
+15:06 < Benyi> r2很黑
+15:06 < rrland> OmniBus
+15:06 < [R3]OtomeSound> 好多表情符號ww
+15:06 < rrland> GitLab package
+15:06 < fishlover> 聽了r2終於了解什麼叫硬改binary了
+15:07 < darkx> 這樣的 php 真的沒問題嗎w
+15:07 < SoFlat> r0感覺很厲害 是實體化的scratch嗎XDDDDDD
+15:07 < [R3]OtomeSound> R2 它真的執行了www
+15:07 < dannyAAM> r2到底wwww
+15:08 < lagane100> r2wwwww
+15:08 < [R3]OtomeSound> R2 在幫忙徵女友www
+15:08 < a25163967> 徵女友= =
+15:08 < jal_> R2: ping 它沒有用 XD
+15:09 < lagane100> r2 各種嘴wwww
+15:09 < toby_skarting> 請問腿骨大大是如何過濾指令的
+15:09 < Davy_CC> [R0] 焊接等級突破天極
+15:09 < Davy_CC> *天際
+15:09 < SoFlat> 突破天際XDDDDDD
+15:10 < Vdragon> QAQ 還有人有在寫共筆嗎？https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+15:10 < [R3]OtomeSound> R2 腿骨的「暴力」演講ww
+15:10 < Iven> 暴力
+15:10 < [RR]Sean> R3 有誰?
+15:11 < a25163967> 我的右前方在玩創世神
+15:11 < Iven> R2 +dir執行的不是自己電腦裡的資料夾嗎?
+15:11 < [RR]Sean> 請攝影師協助
+15:11 < leomao> R2 是 dir server 那端
+15:12 < Vdragon> 現在的 R0 到底是？
+15:12 < Iven> 感謝大大
+15:12 < [R3]Sean> 求 R3 地下直播
+15:13 < GlueCrow> VIKI: orange
+15:13 < Davy_CC> [R0] 隔空音game XD
+15:13 < toby_skarting> VIKI
+15:13 < VIKI> toby_skarting 您好, 請問您需要什麼協助?
+15:13 < chihhsin> VIKI GlueCrow
+15:13 < toby_skarting> VIKI 你好嗎
+15:13 < VIKI> toby_skarting 你呢? 你今天好嗎?
+15:13 < [R1]CASIO> VIKI
+15:13 < VIKI> [R1]CASIO 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+15:13 < Ayumi_> ¨D R3 ¦a¤Uª½¼½
+15:13 < toby_skarting> VIKI
+15:13 < VIKI> toby_skarting 您好, 請問您需要什麼協助?
+15:13 < [R1]CASIO> VIKI
+15:13 < VIKI> [R1]CASIO 找我嗎??
+15:13 < atitan_> viki whois me
+15:13 < VIKI> atitan_ 請打 /whois atitan_
+15:13 < [R1]CASIO> VIKI
+15:13 < VIKI> [R1]CASIO 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+15:13 < a25163967> [r1]超好玩的啦
+15:13 < toby_skarting> VIKI 你是誰
+15:13 < VIKI> toby_skarting 你是在問我嗎??
+15:13 < [R1]CASIO> VIKI
+15:13 < VIKI> [R1]CASIO 找我嗎??
+15:13 < toby_skarting> VIKI 是
+15:14 < toby_skarting> VIKI
+15:14 < VIKI> toby_skarting 找我嗎??
+15:14 < qqabc> viki 吃飽了嗎
+15:14 < toby_skarting> VIKI 你有bug
+15:14 < coin3x> 這樣Viki會不會壞掉 OAO
+15:14 < a25163967> 阿是[r0]才對
+15:14 < AndChat|616761> VIKI 妳是誰製作的？
+15:14 < VIKI> AndChat|616761 你不認識我嗎??
+15:14 < DanielChen> VIKI 決鬥
+15:14 < Vdragon> RS 的議程不是在 R0 嗎？
+15:14 < qqabc> viki 講話阿
+15:14 < [R1]CASIO> VIKI
+15:14 < VIKI> [R1]CASIO 找我嗎??
+15:14 < [R1]CASIO> VIKI
+15:14 < VIKI> [R1]CASIO 找我嗎??
+15:14 < [R3]Sean> 求 R3 畫面
+15:14 < fishlover> VIKI
+15:14 < VIKI> fishlover 您好, 請問您需要什麼協助?
+15:14 < [R1]CASIO> 哈哈 BUG
+15:15 < AndChat|616761> VIKI
+15:15 < VIKI> AndChat|616761 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+15:15 < fishlover> VIKI bug
+15:15 < toby_skarting> VIKI
+15:15 < VIKI> toby_skarting 找我嗎??
+15:15 < [R3]Sean> YouTube 什麼的都好
+15:15 < Moonslight> VIKI
+15:15 < VIKI> Moonslight 您好
+15:15 < [R1]CASIO> VIKI GOGO
+15:15 < toby_skarting> VIKI 您好, 我叫 Toby, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+15:15 < SoFlat> VIKI sitcon網路修好了沒
+15:15 < nightfeather> VIKI                                                                                                             .
+15:15 < Moonslight> 現在有線網路可以用嚕
+15:16 < Davy_CC> 點心是 3:20 還是 3:30……？
+15:16 < GlueCrow> VIKI whois orange
+15:16 < VIKI> GlueCrow Orange 是號稱背影最帥的正妹!?
+15:16 < Benyi_> 任任owo//
+15:16 < chihhsin> XD
+15:16 < toby_skarting> VIKI whois VIKI
+15:16 < VIKI> toby_skarting 我就是在 2014 年 台灣駭客年會 中最紅的 VIKI 啊!! *^_^*
+15:17 < Davy_CC> https://www.plurk.com/p/kt1woe
+15:17 < chihhsin> VIKI whois GlueCrow
+15:17 < VIKI> Davy_CC's URL: [400 The plain HTTP request was sent to HTTPS port (https://www.plurk.com/p/kt1woe)]
+15:17 < VIKI> chihhsin 請打 /whois chihhsin
+15:17 < toby_skarting> VIKI whois Inndy
+15:17 < VIKI> toby_skarting 請打 /whois toby_skarting
+15:17 < mabinogi80503> Viki
+15:17 < VIKI> mabinogi80503 您好, 請問您需要什麼協助?
+15:17 < toby_skarting>  /whois toby_skarting
+15:17 < fishlover> VIKI Whois fishlover
+15:17 < VIKI> fishlover 請打 /whois fishlover
+15:17 < [R1]CASIO> VIKI who you
+15:17 < [R1]CASIO> VIKI who VIKI
+15:17 < SoFlat> 感謝告知!!
+15:17 < fishlover> VIKI friend
+15:17 < nmg> viki whois mind hacker
+15:17 < VIKI> nmg 請打 /whois nmg
+15:18 < len__> VIKI: hi
+15:18 < mabinogi80503> Viki 你的製作者是誰啊？
+15:18 < VIKI> mabinogi80503 你是在跟我搭訕嗎?? ;)
+15:19 < toby_skarting> VIKI 你媽媽是誰？
+15:19 < VIKI> toby_skarting 我就是在 2014 年 台灣駭客年會 中最紅的 VIKI 啊!! *^_^*
+15:19 < fishlover> VIKI 對啊
+15:19 < whale> [15:17] (toby_skarting) VIKI whois Inndy
+15:19 < toby_skarting> VIKI 誰製作了你？
+15:19 < fishlover> VIKI 有男朋友嗎？
+15:19 < whale> [15:17] (whale) VIKI whois Inndy
+15:19 < Ayumi_> viki whois viki
+15:19 < VIKI> Ayumi_ 我就是在 2014 年 台灣駭客年會 中最紅的 VIKI 啊!! *^_^*
+15:19 < GlueCrow> VIKI hello
+15:19 < VIKI> GlueCrow 您好
+15:19 < toby_skarting> VIKI bye
+15:19 < mabinogi80503> Viki 妳被告知不能透露製作者嗎？ww
+15:20 < fishlover> VIKI 晚安
+15:20 < VIKI> fishlover 下午茶時間到了, 不如站起來活動活動一下吧!!
+15:20 < toby_skarting> VIKI author
+15:20 < fishlover> VIKI time
+15:20 < VIKI> fishlover 現在是 15:20:23 (台北時間)
+15:20 < toby_skarting> cool
+15:20 < mabinogi80503> Viki 你喜歡司康和紅茶嗎？
+15:20 < qqabc> vike time
+15:20 < darkx> VIKI: time in New york
+15:20 < qqabc> viki time
+15:20 < VIKI> qqabc 現在是 15:20:41 (台北時間)
+15:20 < Takeshi_tw> VIKI 你其實是男的吧？XD
+15:20 < GlueCrow> Viki help
+15:20 < VIKI> GlueCrow 您需要幫忙嗎??
+15:20 < LionBug> VIKI hot
+15:20 < toby_skarting> VIKI where
+15:20 < fishlover> VIKI yooooooo~
+15:21 < qqabc> viki hi
+15:21 < VIKI> qqabc 嗨
+15:21 < qqabc> viki date
+15:21 < GlueCrow> Viki install
+15:21 < fishlover> VIKI Google
+15:21 < Chih_Ping_Chang> Viki time
+15:21 < VIKI> Chih_Ping_Chang 我現在的系統時間是 Sat Mar 07 15:21:33 2015 (台北時間)
+15:21 < qqabc> viki time
+15:21 < VIKI> qqabc 我目前的系統時間是 Sat Mar 07 15:21:40 2015 (台北時間)
+15:21 < fishlover> VIKI timer
+15:21 < VIKI> fishlover 現在是 15:21:45 (台北時間)
+15:21 < qqabc> viki 時間
+15:21 < VIKI> qqabc 現在是 15:21:47 (台北時間)
+15:21 < toby_skarting> VIKI SITCON
+15:21 < fishlover> VIKI Taipei
+15:21 < qqabc> viki 地點
+15:22 < [R1]CASIO> viki !
+15:22 < SoFlat> VIKI 嫁我~
+15:22 < atitan> viki ?
+15:22 < nightfeather> viki ikiv
+15:22 < [R1]CASIO> viki help
+15:22 < VIKI> [R1]CASIO 需要幫您打119嗎?
+15:22 < TakoTsai> VIKI ??
+15:22 < fishlover> VIKI 123
+15:22 < qqabc> viki place
+15:22 < toby_skarting> XD
+15:22 < [R1]CASIO> viki help
+15:22 < VIKI> [R1]CASIO 需要幫您打119嗎?
+15:22 < qqabc> viki 119
+15:22 < qqabc> viki help
+15:22 < VIKI> qqabc 需要幫您打119嗎?
+15:22 < toby_skarting> VIKI command
+15:22 < fishlover> VIKI fab
+15:22 < [R1]CASIO> viki browze
+15:23 < toby_skarting> VIKI ban
+15:23 < [R1]CASIO> viki go
+15:23 < fishlover> VIKI fb
+15:23 < TakoTsai> viki 你好
+15:23 < VIKI> TakoTsai Hello
+15:23 < azdkj532_> viki open google
+15:23 < inndy> 點心時間 15:25 唷
+15:23 < toby_skarting> INDY
+15:23 < BobbyHo> R3超級可怕...
+15:23 < [R1]CASIO> viki 早安
+15:23 < fishlover> VIKI phone
+15:23 < Takeshi_tw> viki 0e1d8cd98f00b204e9800998ecf8427e
+15:23 < fishlover> VIKI number
+15:23 < [R1]CASIO> R1c96cl3
+15:23 < GlueCrow> Viki food
+15:23 < [R1]CASIO> R1還好
+15:23 < inndy> 大家要 25 分才能開動，請乖乖排隊
+15:23 < azdkj532_> R3 求詳細
+15:23 < atitan> viki ^^
+15:24 < [R1]CASIO> 求R2現況
+15:24 < Guest875> See you goodbye
+15:24 < GlueCrow> Viki feed
+15:24 < atitan> viki snack
+15:24 < GlueCrow> R2結束了
+15:24 < Takeshi_tw> viki attack!
+15:24 < lagane100> R1 </END>
+15:24 < Guest875> tracroute :)
+15:25 < [R0]YWJamesLin> 工具人ww
+15:25 < [R1]CASIO> R2 人數大約???
+15:25 < Takeshi_tw> viki ddos 127.0.0.1
+15:25 < DriftMind> 工具人QQ
+15:25 < toby_skarting> VIKI ping
+15:25 < VIKI> toby_skarting PONG!
+15:25 < [R1]CASIO> viki pong
+15:26 < MouseMs> \點心/
+15:26 < toby_skarting> ./VIKI/../../
+15:26 < [R3]Ren> \點心/\點心/\點心/
+15:26 < [R1]CASIO> viki love
+15:26 < [R1]CASIO> XDDDDD
+15:26 < [R1]CASIO> 點心時間要到惹
+15:26 < toppy368> 離開R1，領點心
+15:26 < fishlover> VIKI pin
+15:26 < [R3]Ren> 已排很長
+15:27 < fishlover> viki 點心
+15:27 < [R1]CASIO> R1司儀是誰啊?????
+15:27 < toby_skarting> VIKI snack
+15:27 < AngusTsou> 趁大家排隊
+15:27 < [R1]CASIO> viki 晚安
+15:27 < VIKI> [R1]CASIO 下午茶時間到了, 不如站起來活動活動一下吧!!
+15:27 < DanieChen> VIKI "
+15:27 < [R1]CASIO> viki 午安
+15:27 < VIKI> [R1]CASIO 下午茶時間到了, 不如站起來活動活動一下吧!!
+15:27 < [R1]CASIO> viki 早安
+15:27 < whale> 剛剛有看到jesev耶
+15:28 < licson> Hello
+15:28 < licson> Allen
+15:28 < [R1]CASIO> 點心排隊現況是???
+15:28 < licson> 你應該在大螢幕上看到我的訊息的
+15:29 < licson> 加油~!
+15:29 < UnciaX> 左側排好長
+15:29 < shaolin> pass
+15:30 < BobbyHo> 排好長...放棄了，好險剛剛趕場時有先喝2杯飲料XD
+15:31 < DanieChen> owo
+15:32 < BobbyHo> 一堆Timeout啊
+15:32 < fishlover> 排好長
+15:32 < BobbyHo> R3人潮完全沒有紓解...
+15:33 < fishlover> 發現原來平板電腦可以當點心托盤XD
+15:33 < DannyLan> wow~ allenown 耶
+15:33 < fishlover> 看到有人的10.1寸平板
+15:33 < allenown_> DannyLan: hihi
+15:34 < fishlover> allenown_ 你好～
+15:34 < coin3x> 點心是什麼R
+15:34 < DannyLan> allenown 你去湊熱鬧喔??
+15:34 < AngusTsou> 傳說中的桌機哥呢？
+15:34 < allenown_> 對啊
+15:34 < [R3]Ren> 美食實況http://imgur.com/A5Rkbhu
+15:35 < DannyLan> 可惜我今天有會議不能去 @@
+15:35 < [RR]Sean> VIKI 是機器人嗎？
+15:35 < allenown_> DannyLan: 有錄影可以看
+15:35 < [RR]Sean> VIKI
+15:35 < VIKI> [RR]Sean 您好, 請問您需要什麼協助?
+15:35 < fishlover> 感覺點心變晚餐XD
+15:35 < BobbyHo> [R3]Ren:剛剛有先喝幾杯紅茶XD
+15:35 < DannyLan> allenown ok, 有空再來看 :)
+15:35 < [RR]Sean> Viki
+15:35 < fishlover> viki 幫我拿點心
+15:36 < coin3x> wwww
+15:36 < coin3x> viki 外送點心請求
+15:36 < [RR]Sean> VIKI
+15:36 < VIKI> [RR]Sean 喂喂喂!! 有完沒完啊!?
+15:36 < coin3x> VIKI
+15:36 < VIKI> coin3x 找我嗎??
+15:36 < coin3x> VIKI
+15:36 < AngusTsou> viki 你是男的還是女的？
+15:36 < coin3x> VIKI
+15:36 < VIKI> coin3x 夠了喔!!
+15:36 < coin3x> QQ
+15:36 < VIKI> coin3x 再玩下去我就不理你囉!!
+15:36 < [R1]CASIO> viki
+15:36 < VIKI> [R1]CASIO 找我嗎??
+15:37 < [R1]CASIO> viki
+15:37 < VIKI> [R1]CASIO 您好
+15:37 < [R1]CASIO> viki
+15:37 < [R2]totomoney> viki
+15:37 < VIKI> [R2]totomoney 找我嗎??
+15:37 < AngusTsou> viki 不理我
+15:37 < [R1]CASIO> viki
+15:37 < VIKI> [R1]CASIO 喂喂喂!! 有完沒完啊!?
+15:37 < [R1]CASIO> viki
+15:37 < VIKI> [R1]CASIO 你是來亂的吧!?
+15:37 < [R1]CASIO> viki
+15:37 < VIKI> [R1]CASIO 喂喂喂!! 有完沒完啊!?
+15:37 < [Hungry]PLderOuO> VIKI:
+15:37 < [Hungry]PLderOuO> Viki
+15:37 < [R1]CASIO> viki
+15:37 < VIKI> [Hungry]PLderOuO 找我嗎??
+15:37 < VIKI> [R1]CASIO 喂喂喂!! 有完沒完啊!?
+15:37 < AngusTsou> viki
+15:37 < VIKI> AngusTsou 找我嗎??
+15:37 < Vdragon> VIKI 之亂
+15:37 < [R0]icephat43> viki viki
+15:37 < AngusTsou> viki 你是男的還是女的？
+15:38 < [R2]totomoney> viki 有事嗎
+15:39 < coin3x> Viki
+15:39 < VIKI> coin3x 找我嗎??
+15:40 < BobbyHo> R0準備囉
+15:40 < BobbyHo> 別吃了，回來坐好XD
+15:41 < DriftMind> R0腳踏車準備開始囉
+15:42 < [R1]CASIO> R2現況????
+15:42 < BobbyHo> r0開始囉
+15:42 < DriftMind> R0開始了
+15:43 < BobbyHo> r0播錯片XDD
+15:43 < BobbyHo> 片頭亂播XD
+15:43 < SoFlat> r0wwwwww
+15:43 < BobbyHo> 然後簡報比GG XDD
+15:44 < makris> r1開始了～～
+15:45 < BobbyHo> 大家都在吃東西...真囧
+15:45 < [R3]Ren> r0
+15:45 < SoFlat> r0是女生啦快回來聽www
+15:45 < [R3]Ren> 捕獲r0麥塊哥http://imgur.com/X5mYIBU
+15:45 < BobbyHo> R0家醫科美女，死宅快回來！！！
+15:46 < a25163967> [R3]Ren: 還好不是我
+15:46 < BobbyHo> [R3]Ren:麥塊哥XDD
+15:46 < a25163967> [R0]Ren: 還好不是我
+15:47 < VIKI> Taiwan IRC - irc.magicworks.net 歡迎多多利用
+15:47 < coin3x> R2麥克風悲劇RR
+15:49 < coin3x> 依然頗悲劇
+15:49 < [R2]totomoney> 老師:學資安沒加薪
+15:49 < DannyLan> 所以不要學資安??
+15:49 < coin3x> wwwwww
+15:50 < Vdragon> [R2]懶人包超有洞
+15:53 < Vdragon> R2 直播會卡orz
+15:53 < Vdragon> 更正，影像沒事，聲音消失惹orz
+15:54 < iblis17> [r2] 太可怕了
+15:56 < toby_skarting> EksEsEs
+15:56 < wiwi_2> R2好黑啊~~
+15:56 < lagane100> R2好可怕Q_Q
+15:57 < SoFlat287> R2求詳細(?)
+15:57 < SoFlat287> *( ? )
+15:57 < [R1]CASIO> R2太扯了 人多嗎??
+15:58 < iblis17> [R1]CASIO: 人還好
+15:58 < nipapa> 好黑XD
+15:58 < MJ123063> [R0]好冷清
+16:00 < aweimeow> Lightning Talk的場地會在國際會議廳嗎？
+16:01 < [R2]knowlet> R2 正在各種賣海豹 XDDD
+16:02 < a25163967> 哪尼
+16:02 < a25163967> 早知道就去[r2]了
+16:02 < seadog007_> Allen!!!!!!!!
+16:02 < Choukai_> 我還在R0
+16:03 < Choukai_> 懶得走
+16:03 < Choukai_> 過去也沒位置
+16:03 < [R0]seadog007_c> 看直播(X)
+16:03 < BobbyHo> R0其實蠻有趣的
+16:03 < BobbyHo> 概念與構想都很不錯
+16:03 < [R0]Ren> r0 demo time
+16:03 < gogomagnet> R0看起還來好好玩
+16:04 < [R0]Ren> 要騎腳踏車了
+16:04 < SoFlat287> r0暈車......
+16:04 < gogomagnet> 看起來*
+16:04 < BobbyHo> r0 live demo腳踏車ing
+16:05 < BobbyHo> 如果可以Smooth一點更好就是了...
+16:05 < Unknown_> 求 R3 的投影片~
+16:05 < [R0]seadog007_c> 腳踏車XDDD
+16:06 < [R0]Ren> r0 Q&A 了
+16:06 < gogomagnet> 以後希望可以轉彎
+16:06 < Moonslight> R0 腳踏車 Live demo  講者超喘
+16:07 < yuki_> R2講者講話很平淡  但是很好笑...XD
+16:08 < Vdragon> R2 好笑 +1
+16:08 < iblis17> R2 (Y) +1
+16:08 < lagane100> R2 講話超平靜 可是很好笑XDD
+16:09 < a25163967_> 求r2 講者說了甚麼
+16:10 < SoFlat287> 求r2梗共筆(? )
+16:10 < lagane100> 生教組XDDDDD
+16:10 < fishlover> r2太神啦XD
+16:10 < iblis17> 生教組 通報 父母lol WWWWWWWWW
+16:10 < yuki_> R2講者正在詮釋 學生/家長/學校的多角關係?
+16:10 < [R2]totomoney> R2的口音ww
+16:11 < Vdragon> R2:回報漏洞給學校，學校通知他父母(!?)
+16:11 < [R0]Ren> r0推廣pycon
+16:11 < gogomagnet> pot
+16:12 < yuki_> 我看成資安跑路....(艸
+16:12 < lagane100> 只要出問題 推給駭客入侵就對了 :D
+16:13 < fishlover> ㄧ切都速駭客入侵的錯XD
+16:13 < ifTNT> R2的共筆 https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW#:h=15:30---16:10-[R2]-Allen-Chou-
+16:14 < Vdragon> 有漏掉幾張圖QAQ
+16:14 < fishlover> 賣海豹XD
+16:15 < DanieChen> R2感覺好HIGH
+16:15 < toby_skarting> \Inndy/\Inndy/\Inndy/
+16:15 < fishlover> 不愧是Allen大大XD
+16:16 < hrj> R0 父子同台誒
+16:17 < Vdragon> @hrj (woot)
+16:17 < alex_lu> 茶番？
+16:17 < DannyLan> wow~ HrJ 耶
+16:17 < [R3]OtomeSound> R1在打遊戲XD
+16:17 < Hedgehog> 父子檔唱雙簧ww
+16:17 < DannyLan> viki whois hrj
+16:17 < VIKI> DannyLan HrJ 不但人黑, 連衣服也黑 ...
+16:18 < hrj> 我的 mac 不是黑的啊！
+16:18 < [R1]OtomeSound> ww
+16:18 < lagane100> XDDD
+16:18 < DannyLan> 你的 mac 又不是衣服
+16:18 < fishlover> XDD
+16:18 < DannyLan> 你今天一定又穿黑衣服
+16:18 < [R1]CASIO> 四樓點心還有很多喔
+16:19 < hrj> 沒有喔
+16:19 < hrj> 外套也不是黑的
+16:19 < DannyLan> 心是黑的
+16:19 < hector_> 有些議程的speaker還會在嗎？
+16:19 < len__> R1：記得玩遊戲的時候記得不要把視角往下推
+16:20 < len__> R1：實在是太黑了
+16:20 < hrj> R0 : 家庭溫馨小劇場 ing
+16:20 < SeChanChan> ぽいっ
+16:20 < tckf> 雙人同台 讚
+16:21 < BobbyHo> 搞到像父子檔一樣XDD
+16:21 < Sean|Phone> 對口相聲
+16:21 < shunyi> R3 最後一場 投影片 http://goo.gl/Y6LPcT
+16:21 < VIKI> shunyi's URL: [Moved Permanently (http://goo.gl/Y6LPcT)]
+16:22 < AngusTsou> 快要變成單口了ＱＱ
+16:22 < Ruinland> shunyi:
+16:22 < david111014> 外面點心剩好多
+16:22 < toby_skarting> 大家好，我是Inndy
+16:22 < Moonslight> 真的越來越像父子了  XD
+16:23 < Sean|Phone> 單人票還是雙人票?
+16:23 < bnxcvg> 回家有車嗎???
+16:23 < BobbyHo> 感覺太緊張了，講話都結結巴巴的...
+16:24 < TatsujinChin> 終於有座位了
+16:25 < Ruinland> NetworkX是什麼QQ
+16:25 < nightfeather>  ' A')
+16:26 < Ruinland> 喔喔畫圖lib
+16:26 < Benyi> 學校計概超廢
+16:26 < MJ123063>  回去好像沒接駁
+16:27 < toby_skarting> 回不去了
+16:28 < SoFlat287> 中研院門口很多公車啦XDDD
+16:28 < Ruinland> 中研院門口隨便攔都可以坐到捷運站
+16:28 < Benyi> 自從裝了360安全衛士  首頁設成hao123，再也沒中毒過了
+16:28 < toby_skarting> +1
+16:29 < Hedgehog> 中研院附近的公車基本上都可以到南港展覽館站或是南港站
+16:29 < fishlover> hao123 XDD
+16:29 < iblis17> markdown .... /me 支持 rst
+16:29 < SoFlat287> hao123 w
+16:29 < Ruinland> iblis17: rst++
+16:29 < toby_skarting> ut 4.3.2 不要用
+16:30  * darkx markdown
+16:30 < Hedgehog> 捷運南港站、南港展覽館 這兩站是到捷運站，南港行政中心則是靠近南港火車站
+16:30 < lagane100> hao123 wwww
+16:30 < Davy_CC> [R0] 這裡就不要戰 Ruby 了
+16:30 < eitherwang> [服務台] 還有一些沒被領回去的失物正在等待主人喔！
+16:32 < iblis17> 問個掛 有沒有人可以在 FreeBSD 上跑 RoR
+16:32 < Davy_CC> iblis17: 有什麼問題嗎
+16:32 < a25163967> 那個共筆還有人寫嗎
+16:32 < a25163967> 球網址
+16:33 < darkx> 熊貓燒香www
+16:33 < gogomagnet> https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+16:33 < VIKI> gogomagnet's URL: [400 The plain HTTP request was sent to HTTPS port (https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW)]
+16:33 < Vdragon> https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+16:33 < VIKI> Vdragon's URL: [400 The plain HTTP request was sent to HTTPS port (https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW)]
+16:33 < Amomo> ¡
+16:33 < Vdragon> 現在都在丟圖說故事而已
+16:33 < SoFlat287> VIKI 謝謝~
+16:33 < VIKI> SoFlat287 不客氣
+16:33 < iblis17> Davy_CC: 之前要架 gitlab 在 BSD 上 therubyracer 編不起來
+16:33 < Davy_CC> iblis17: http://i.imgur.com/dzMqOF2.png
+16:34 < iblis17> hmmm 我誤會了嘛？
+16:34 < Davy_CC> 你需要 libv8 吧
+16:34 < dannyAAM> bash... 小心被攻擊啊! (?
+16:34 < iblis17> therubyracer 跟 RoR 的關係是？
+16:35 < Davy_CC> 你不是問 RoR XDDDDD?
+16:35 < dannyAAM> FreeBSD跑RoR很正常啊
+16:35 < iblis17> Davy_CC: 我不懂 Ruby
+16:35 < dannyAAM> therubyracer喔 js的precompile吧XD
+16:35 < gogomagnet> Ruby Warrior
+16:35 < iblis17> libv8 我的系統也有阿
+16:36 < iblis17> 就是不斷的用 gem 編不起來
+16:36 < Davy_CC> iblis17: therubyracer 應該是在 FreeBSD 沒有內建的 javascript interpreter 可以用吧，你要裝 libv8 這個 gem
+16:36 < Davy_CC> [R0] 兩個人的 IRC
+16:37 < [R0]Ren> XDDDD
+16:37 < dannyAAM> @Davy 坐哪啊www
+16:37 < [R1]MinamiKotori> 德國人超愛打氣
+16:37 < allenown> 網駭科技網站弱點探測與實務 培訓課程結業證書
+16:38  * Davy_CC screen
+16:39 < Davy_CC> [R0] 幫我切字母畫面
+16:39 < Davy_CC> 好溫馨哦 臺北到臺南的距離 >//////<
+16:39 < iblis17> Davy_CC: hmm 不知 用 ruby 寫的 gitlab 裡面 depend therubyracer 居然可以花我三天編不起來 從此就 對 ruby 留下很遭的印象
+16:40 < RChen> 這就是父愛啊（煙
+16:40 < Davy_CC> iblis17: 這個不是 ruby 的問題吧，是寫 therubyracer 的人的問題
+16:40 < Davy_CC> (ry
+16:40 < Hedgehog> pair programing  >//<
+16:40 < fishlover> r2 大推八門神器
+16:40 < iblis17> Davy_CC: lol
+16:41 < Benyi> 還好我是用 iPhone
+16:41 < a25163967> 說實在的 我根本看不到
+16:41 < [R0]YWJamesLin> wwwwwwwww
+16:41 < atitan> nokia智障機才是王道阿!
+16:42 < Moonslight> 兩輛火車同時跑 XDD
+16:42 < SoFlat287> 火車XDDDDDDDD
+16:42 < Davy_CC> [R0] 你可以分割視窗同時讓兩臺火車同時跑過去啊
+16:42 < dannyAAM> sl * 2 wwwww
+16:42 < gogomagnet> wwwwww
+16:43 < DanielChen> 火車
+16:43 < a25163967> 剛剛的網址
+16:44 < david111014> 指令當聊天室XDDDD
+16:44 < Davy_CC> [R0] 兩個人的 tmux 聊天室 >///////<
+16:44 < s3131212> 父愛偉大
+16:44 < gogomagnet> insert mode
+16:45 < Davy_CC> [R0] 只有我覺得好猥褻嗎www
+16:45 < BobbyHo> 父愛啊@@
+16:45 < a25163967> 求剛剛的網址啦
+16:45 < Benyi> 賓妹傳奇
+16:45 < paraselene> R0要戰編輯器了嗎wwww
+16:45 < pcchou> \vim/
+16:46  * iblis17 vim
+16:46 < Hedgehog> [R0] https://github.com/denny0223/rc-files
+16:46 < Moonslight> 父子在台上放閃是什麼樣的概念 ?
+16:46 < pcchou> 13~17啦
+16:47 < gogomagnet> http://fssd.gci.ba4b.net/
+16:47 < VIKI> gogomagnet's URL: [Fedora System Status Dashboard (http://fssd.gci.ba4b.net/)]
+16:47 < Vdragon> NANO
+16:47 < Hedgehog> for 大學生的 google code in = summer code
+16:47 < Davy_CC> 我差點以為要先感謝丹丹把拔
+16:47 < pcchou> ~~謝謝丹丹把拔~~
+16:47 < Hedgehog> summer of ocde
+16:47 < Hedgehog> code
+16:48 < Vdragon> 海豹：「我不小心『碰』到了學校的網路」
+16:48 < a25163967> 還有海豹的網址
+16:48 < Davy_CC> 各種切不到畫面www
+16:48 < pcchou> (碰)
+16:48 < DanielChen> 這台這台
+16:48 < DHXD> 聲控不靈
+16:48 < paraselene> Lunaterm
+16:48 < SoFlat287> （砰）
+16:48 < Davy_CC> google 輸入法走開
+16:48 < pcchou> 詳情請見 s3131212 Allen Chou: 無法定積分的中小學資安   上一場R2
+16:49 < [R0]YWJamesLin> 好煩的火車喔wwwwww
+16:49 < pcchou> 火車又來XDDD
+16:49 < a25163967> 火車
+16:49 < Riki922> 火車嘟嘟wwwwwwwww
+16:49 < paraselene> sl
+16:49 < RChen> 火車怎麼弄出來的啊？
+16:49 < dannyAAM> sl
+16:49 < pcchou> RChen: sl
+16:49 < a25163967> viki
+16:49 < VIKI> a25163967 找我嗎??
+16:49 < DanielChen> viki
+16:49 < VIKI> DanielChen 找我嗎??
+16:49 < dannyAAM> viki sl
+16:50 < coin3x> sl 是什麼 OAO
+16:50 < Davy_CC> [R0] 主持人自己問問題：爲什麼海報會叫丹丹叫把拔
+16:50 < Davy_CC> XDDDDD
+16:50 < pcchou> Takeshi_tw : 為什麼海豹會叫丹丹把拔
+16:50 < s3131212> 丹丹把拔
+16:50 < a25163967> viki 那個海豹的google code-in網址
+16:50 < RChen> pcchou: 謝謝
+16:50 < dannyAAM> sl是個指令啊OwO
+16:51 < pcchou> a25163967: https://github.com/seadog007/Google-Code-In
+16:51 < coin3x> sl 是 shell script 嗎
+16:51 < [R1]MinamiKotori> sl -l 小火車
+16:51 < pcchou> coin3x: https://github.com/mtoyoda/sl
+16:51 < pcchou> C
+16:52 < Davy_CC> [R0] 準 Mentor/Co-mentor 發問www
+16:52 < Hedgehog> 在shell 裡面的動畫是怎麼做的呢?
+16:53 < pcchou> 謝謝  DennyHuang Sean64
+16:53 < coin3x> 三個人都在\晃動/\晃動/
+16:53 < pcchou> 可惡啊
+16:53 < pcchou> tab害人不淺
+16:53 < Vdragon> Hedgehog: 有個程式叫作 sl
+16:53 < [R0]YWJamesLin> sl
+16:53 < [R1]OtomeSound> Hedgehog: 詳細直接 google "sl train"都有說明
+16:53 < pcchou> 謝謝  DennyHuang seadog007
+16:53 < pcchou> https://github.com/mtoyoda/sl
+16:53 < Vdragon> 全名叫作蒸氣火車
+16:54 < [R0]YWJamesLin> 那是sl 他解釋是
+16:54 < pcchou> XDDD
+16:54 < a25163967> 回去有車嗎
+16:54 < spyf> \海報/
+16:54 < [R0]YWJamesLin> 打錯ls就(ry
+16:54 < spyf> \丹丹/
+16:54 < a25163967> 到南港展覽館
+16:54 < pcchou> 其實是訓練你不要把ls打錯的(X
+16:54 < Chih_Ping_Chang> 先閃了大家掰
+16:54 < paraselene> 有公車
+16:54 < pcchou> 大寫LS也可以把他叫出來喔~ (?
+16:54 < [R0]Ren> a25163967: 外面公車很多喔
+16:54 < [R0]YWJamesLin> 然後加參數會有不一樣的圖片
+16:54 < Hedgehog> [R1]OtomeSound thanks
+16:54 < a25163967> 恩
+16:54 < [R0]YWJamesLin> 安裝完後man sl
+16:55 < TakoTsai> viki ?
+16:55 < Vdragon> $ alias ls=sl
+16:55 < Vdragon> 然後就可以用了（大誤
+16:56 < YooYi> VIKI 你好
+16:56 < VIKI> YooYi 哈囉
+16:57 < BobbyHo> VIKI 你很忙嗎？
+16:57 < coin3x> 話說有沒有提供動畫下載XD
+16:57 < [R1]CASIO> VIKI
+16:57 < VIKI> [R1]CASIO 您好, 請問您需要什麼協助?
+16:57 < [R1]CASIO> VIKI
+16:57 < VIKI> [R1]CASIO 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+16:57 < [R1]CASIO> VIKI
+16:57 < [R1]CASIO> VIKI
+16:57 < VIKI> [R1]CASIO 夠了喔!!
+16:57 < [R1]CASIO> VIKI
+16:57 < VIKI> [R1]CASIO 喂喂喂!! 有完沒完啊!?
+16:57 < toby_skarting> VIKI
+16:57 < [R1]CASIO> VIKI
+16:57 < VIKI> toby_skarting 您好, 請問您需要什麼協助?
+16:57 < gogomagnet> VIKI
+16:57 < VIKI> [R1]CASIO 再玩下去我就不理你囉!!
+16:57 < VIKI> gogomagnet 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+16:57 < Gundam> viki
+16:57 < VIKI> Gundam 您好, 我叫 VIKI, 從現在開始您只要在對話前方加上我的名字, 就可以直接與我互動
+16:57 < [R1]CASIO> VIKI
+16:57 < VIKI> [R1]CASIO 你是來亂的吧!?
+16:57 < [R1]CASIO> VIKI
+16:57 < VIKI> [R1]CASIO 喂喂喂!! 有完沒完啊!?
+16:57 < BobbyHo> VIKI
+16:57 < VIKI> BobbyHo 找我嗎??
+16:57 < BobbyHo> VIKI
+16:57 < VIKI> BobbyHo 找我嗎??
+16:57 < BobbyHo> VIKI
+16:58 < Vdragon> 等一下閃電秀的梗麻煩加進共筆啊 mOm https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW
+16:58 < VIKI> Vdragon's URL: [400 The plain HTTP request was sent to HTTPS port (https://sitcon.hackpad.com/SITCON-2015--EMd9Ev5VyzW)]
+16:58 < IGA> OQO
+16:58 < toby_skarting> VIKI love you
+16:58 < fishlover> VIKI is watching you
+16:58 < VIKI> fishlover 哈囉
+16:58 < gogomagnet> VIKI help
+16:58 < VIKI> gogomagnet 需要幫您打119嗎?
+16:59 < [R0]Ren> viki time
+16:59 < VIKI> [R0]Ren 現在是 16:59:19 (台北時間)
+16:59 < gogomagnet> VIKI date
+16:59 < [R0]YWJamesLin> VIKI ls
+16:59 < fishlover> VIKI sitcon
+17:00 < [R0]Ren> viki weather
+17:00 < fishlover> VIKI time
+17:00 < VIKI> fishlover 加油!!加油!! 再努力一下子就可以收工回家了!! 我現在的系統時間是 Sat Mar 07 17:00:01 2015 (台北時間)
+17:00 < [R1]CASIO> viki day
+17:00 < shaolin> VIKI END
+17:00 < [R1]CASIO> viki time
+17:00 < bnxcvg> rm VIKI
+17:00 < VIKI> [R1]CASIO 加油!!加油!! 再努力一下子就可以收工回家了!! 現在是 17:00:30 (台北時間)
+17:00 < [R1]CASIO> viki whois
+17:00 < VIKI> [R1]CASIO 請打 /whois [R1]CASIO
+17:00 < [R0]Ren> 我打的time怎麼那麼短 QAO
+17:01 < [R1]CASIO> viki whois viki
+17:01 < VIKI> [R1]CASIO 你是在問我嗎??
+17:01 < Gundam> [R0]PLderOuO: 丟
+17:01 < [R0]YWJamesLin> VIKI when
+17:01 < [R1]CASIO> viki whois viki
+17:01 < VIKI> [R1]CASIO 你是在問我嗎??
+17:01 < fishlover> VIKI who is VIKI
+17:01 < gogomagnet> VIKI return
+17:01 < Yukai> \sb end
+17:01 < [R0]YWJamesLin> viki date
+17:01 < fishlover> VIKI return 0
+17:01 < hector_> VIKI
+17:01 < VIKI> hector_ 您好
+17:01 < [R0]YWJamesLin> viki
+17:01 < VIKI> [R0]YWJamesLin 找我嗎??
+17:01 < MJ123063> 媽~~~~我上大螢幕了~~~~~~
+17:01 < fishlover> viki 我帥嗎？
+17:01 < Gundam> viki到底是什麼？
+17:01 < [R0]YWJamesLin> viki 乖
+17:02 < hector_> 請問有些會議的講者還在嗎？
+17:02 < AndChat688961> Viki ?user=0
+17:02 < BobbyHo> 要開始囉
+17:02 < hypery11> 上了
+17:02 < taichunmin> viki hello
+17:02 < VIKI> taichunmin 嗨
+17:02 < spyf> VIKI '--
+17:02 < PLderOuO> \OuO/
+17:02 < [R0]YWJamesLin> viki \
+17:02 < taichunmin> viki who are you
+17:02 < spyf> PLwww
+17:02 < [R0]YWJamesLin> viki \
+17:02 < AndChat688961> Viki hello?=?
+17:02 < VIKI> AndChat688961 哈囉
+17:02 < [R1]CASIO> R1 END
+17:02 < Gundam> [R0]PLderOuO: 丟
+17:03 < [R0]Ren> vikio
+17:03 < [R0]YWJamesLin> viki hello \
+17:03 < VIKI> [R0]YWJamesLin Hi
+17:03 < fishlover> VIKI Whois Mimi
+17:03 < VIKI> fishlover 請打 /whois fishlover
+17:03 < [R0]YWJamesLin> viki hello\
+17:03 < VIKI> [R0]YWJamesLin Hi
+17:03 < taichunmin> viki 你是機械公敵裡面的那個ＡＩ對吧
+17:03 < fishlover> VIKI Whois Miku
+17:03 < VIKI> fishlover 請打 /whois fishlover
+17:03 < [R0]YWJamesLin> viki \ hello
+17:03 < VIKI> [R0]YWJamesLin Hi
+17:03 < [R0]YWJamesLin> viki \ hello
+17:03 < VIKI> [R0]YWJamesLin 哈囉
+17:03 < [R0]YWJamesLin> viki \hello
+17:03 < VIKI> [R0]YWJamesLin 您好
+17:03 < Gundam> viki: weather ZBAA
+17:03 < [R0]YWJamesLin> viki \hello
+17:03 < VIKI> [R0]YWJamesLin 您好
+17:03 < gogomagnet> viki bye
+17:03 < [R0]YWJamesLin> viki \ hello
+17:03 < VIKI> [R0]YWJamesLin 哈囉
+17:03 < [R0]YWJamesLin> viki \\hello
+17:03 < VIKI> [R0]YWJamesLin 您好
+17:03 < fishlover> VIKI reboot
+17:03 < [R0]YWJamesLin> viki hello\\
+17:03 < VIKI> [R0]YWJamesLin 哈囉
+17:03 < [R0]Ren> viki bye
+17:03 < [R0]YWJamesLin> viki hello
+17:03 < VIKI> [R0]YWJamesLin Hi
+17:03 < Gundam> viki time
+17:03 < VIKI> Gundam 還不下班嗎?? 我現在的系統時間是 Sat Mar 07 17:03:54 2015 (台北時間)
+17:03 < [R0]YWJamesLin> ls
+17:04 < toby_skarting> VIKI
+17:04 < VIKI> toby_skarting 找我嗎??
+17:04 < BobbyHo> 不要再玩VIKI了啦www
+17:04 < [R0]Ren> xd
+17:04 < Gundam> viki是機器人？
+17:04 < toby_skarting> VIKI
+17:04 < VIKI> toby_skarting 您好
+17:04 < mmis1000_cloud> 網路還沒修好？
+17:04 < Vdragon> LT 開始了！
+17:05 < toby_skarting> VIKI '='or'L"time";
+17:05 < coin3x> 這裡好多黑黑(抖
+17:05 < [R0]YWJamesLin> 來惹
+17:06 < AndChat688961> Viki表示：你們講的我都聽不懂   比我還像機器人
+17:06 < [R0]YWJamesLin> 打臉wwww
+17:06 < [R0]Ren> XDD
+17:06 < toby_skarting> VIKI am i a human?
+17:06 < Davy_CC> 國中生
+17:06 < Gundam> 他講太快了，標題是什麼？
+17:07 < weiwei63> screen 明明就可以和 tmux 一起使用
+17:07 < Gundam> 感謝
+17:07 < Orange_> XD
+17:07 < paraselene> 好慘。。。
+17:07 < Davy_CC> [R0] 「我明明就沒有很老爲什麼我用screen 就說我是老人家
+17:08 < Orange_> 老人家加加
+17:08 < Davy_CC> screen ++
+17:08 < [R0]OtomeSound> screen ++
+17:08 < darkx> 老人家 ._./
+17:08 < [R0]YWJamesLin> wwwwwwww
+17:09 < Orange_> 然後在screen裡面再開一個 tmux
+17:09 < Davy_CC> 要不要有人幫他拿mic啊……
+17:09 < [R0]seadog007_c> 阿啊阿啊
+17:09 < [R0]seadog007_c> Orange_: 出現惹
+17:09 < Orange_> 有空惹出來晃晃
+17:09 < [R0]seadog007_c> Orange_: 不是這樣吧XDDD tmux -> screen -> tmux -> screen -> tmux (#
+17:09 < Orange_> 全面啟動感
+17:10 < iblis17> screen 不是也可切割視窗？
+17:10 < [R0]seadog007_c> 對啊
+17:10 < [R0]YWJamesLin> 無限循環的概念wwwwwww
+17:10 < darkx> 媽我在這 ._./
+17:10 < DHXD> nice meme
+17:10 < [R0]Ren> www
+17:10 < CharlesLien> xD
+17:10 < confbot> <fntsrlike>: ._./////
+17:10 < spyf> tmux>>tmux>>tmux>>tmux
+17:10 < Orange_> 喔喔喔
+17:10 < Orange_> 只有三分鐘唷
+17:10 < Moonslight> 沒工商到  哭哭  XD
+17:10 < paraselene> 工商服務失敗
+17:10 < Gundam> 哀桑，宣傳失敗
+17:10 < esan> 拍拍
+17:10 < [R0]YWJamesLin> wwwwwwwwwwwww
+17:10 < [R0]OtomeSound> 丹丹爸爸我在這ヽ(✿ﾟ▽ﾟ)ノ
+17:10 < david111014> 切掉了
+17:10 < Moonslight> 小平ㄟ ~
+17:10 < [R0]seadog007_c> Pu Wu ~
+17:11 < [R0]seadog007_c> XDDD
+17:11 < Orange_> 三分鐘開始了嗎
+17:11  * Orange_ flee
+17:11 < pcchou> #ysitd 歡迎大家來聊天~
+17:11 < paraselene> 話說下次可以在畫面旁邊跑步irc嗎
+17:11 < pcchou> 可惡啊 被切掉了
+17:11 < FinderAZ> XDDD
+17:11 < [R0]YWJamesLin> wwwwwwwwwwwwwwwwwwww
+17:11 < Gundam> XDDDD
+17:11 < fishlover> wwwwww
+17:11 < darkx> \小平/ \小平/ \小平/
+17:11 < buck5060> Xd
+17:11 < Riki922> wwwwwwwwwwwwwwwww
+17:11 < esan> DD
+17:11 < fishlover> \o/\o/
+17:11 < CharlesLien> wwww
+17:12 < MJ123063> 原來我單身是因為   我沒追男生
+17:12 < Orange_> 滿有梗的XDDDDDDD
+17:12 < Davy_CC> 「網路上很多教你怎麼追女生，都沒有教你怎麼追男生，這就是爲什麼男生都單身的原因」
+17:12 < [R1]MinamiKotori> wwwwwwwwwwwwwwwwwwwwwwwwwww
+17:12 < david111014> XDDDDDDD
+17:12 < s3131212> 尖叫
+17:12 < fishlover> wwwwwwwwwwwwwwwwwww
+17:12 < tom83615_> wwwww
+17:12 < fishlover> XDDDDDD
+17:13 < [R0]YWJamesLin> 剛剛好耶wwwwwwwwww
+17:13 < BobbyHo> wwwwwwwwwwwww
+17:13 < tycn_otogi> lollllllllllll
+17:13 < paraselene> 時間超準
+17:13 < Testtest> Xddd
+17:13 < david111014> 超準
+17:13 < Moonslight> 超強阿  時間抓剛剛好
+17:13 < [R0]seadog007_c> Orange_: 其實早上投影片就出來了
+17:13 < fishlover> 神神神！
+17:13 < FinderAZ> 小平 小平 小平 m(_ _)m
+17:13 < BobbyHo> 真的剛剛好XD
+17:13 < Orange_> 哪個（？
+17:13 < CharlesLien> 超神啊！！
+17:13 < buck5060> 我到底聽到了什麼
+17:13 < [R0]seadog007_c> Orange_: 剛剛小平那個
+17:13 < DanielChen> 為什麼!我的!PDF!一直!往下掉!
+17:13 < yaoteng> 超讚的
+17:13 < Orange_> XDDDDDDDDDDD
+17:13 < Orange_> Nice
+17:13 < [R0]seadog007_c> 各種被HITCON佔領啊XDDDD
+17:13 < divazone> XDDDDDDDDDDDDDD
+17:14 < [R0]Ren> 工商時間
+17:14 < chyuaner> 小平我可以追你嗎？？
+17:14 < [R0]seadog007_c> [R2]PingNote:
+17:14 < darkx> 小平有閃光惹w
+17:14 < Hedgehog> 徵求開鎖大師www
+17:14 < BobbyHo> 今天好多HITCON工商啊
+17:14 < paraselene> 下次可以開放現場彈幕嗎
+17:14 < a25163967> 找鎖匠
+17:15 < [R0]seadog007_c> paraselene: 有人會崩潰啦XDDDD
+17:15 < allenown_> 開鎖比賽
+17:15 < fishlover> 彈幕+1
+17:15 < wiwi_2> Hitcon時間.......
+17:15 < paraselene> 我覺得應該把irc內容同步上大畫面cd
+17:15 < [R0]seadog007_c> 為什麼!我的!螢幕!完全!看不到!
+17:15 < fishlover> 支持彈幕XD
+17:15 < [R0]Ren> 彈幕+1
+17:15 < gogomagnet> nicon
+17:15 < paraselene> *XD
+17:15 < esan> 彈幕++
+17:15 < [R0]YWJamesLin> 彈幕拉
+17:15 < pcchou> 話說我的密碼是不是leak出去了
+17:15 < [R0]OtomeSound> nicon好阿XDDDD
+17:15 < [R0]seadog007_c> 聽說在SITCON開玩笑都會........
+17:15 < [R0]Ren> 去年有把irc放後面啊Xdd
+17:15 < allenown_> 好多女駭客
+17:16 < Davy_CC> 「歡迎女生來報名」 <<<< CoC?
+17:16 < paraselene> 直接疊加在畫面⬆️拉
+17:16 < pcchou> 投影機不夠吧
+17:16 < BobbyHo> 又是HITCON=_=
+17:16 < s3131212> \ HrJ /
+17:16 < whale> 彈幕+1
+17:16 < FinderAZ> 有三場HITCON
+17:16 < s3131212> 接下來全部都是 HrJ
+17:16 < lagane100> \Hrj/
+17:16 < fishlover> 其實像魯蛋實況風格也很好
+17:16 < fishlover> XD
+17:16 < s3131212> *HITCON
+17:16 < pcchou> 前面兩個講者不見了  結果LT根本只剩我、小平 還有HITCON…
+17:16 < mmis1000_cloud> 合成成單一畫面啦
+17:16 < spyf> \TDOH/
+17:16 < Sean|Phone> HrJ 實體入侵
+17:17 < Moonslight> 大坑阿  XD
+17:17 < a25163967> 基本上什麼都缺
+17:17 < Hedgehog> HITCON junior什麼都缺欸XDD
+17:17 < Davy_CC> 「超缺贊助，超缺夥伴，超缺講師」
+17:17 < Davy_CC> XDDDDDD
+17:17 < Sean|Phone> 標準把自己踢掉？
+17:17 < lagane100> 有什麼不缺的嗎XDDDDDDD
+17:17 < yaoteng> 各種缺
+17:18 < [R0]Ren> sitcon笑話：記得去年有一講者在演說中暗示大家 希望結束有人可以起立拍手因為是他的夢想  結果萬人響應無人起立 因為是"sit"con
+17:18 < seadog007> XDDDDD
+17:18 < [R0]OtomeSound> 只有團長不缺www
+17:18 < Sean|Phone> 三缺
+17:18 < paraselene> 沒關係，這些我們也都沒有XD
+17:18 < seadog007> 缺場地 缺講師 缺贊助 缺夥伴
+17:18 < fishlover> sitcon笑話XD
+17:19 < Hedgehog> 瞎惹
+17:19 < lagane100> BP
+17:19 < seadog007> BP
+17:19 < YooYi> 閃三小～～
+17:19 < Gundam> 好閃
+17:19 < BobbyHo> BPBP
+17:19 < seadog007> 太閃惹
+17:19 < Moonslight> 我的墨鏡勒?
+17:19 < spyf> 關掉
+17:19 < Davy_CC> 「我先把他女友關掉」
+17:19 < [R0]Ren> bp
+17:19 < Gundam> B-
+17:19 < SoFlat287> 已瞎...
+17:19 < paraselene> 空白文劣退啦
+17:19 < Sean|Phone> 害主持人砸筆電
+17:19 < seadog007> Hrj沒有買墨鏡 BP
+17:19 < [R0]OtomeSound> 西瓜ww
+17:19 < RChen> 劣退
+17:19 < FinderAZ> 太閃了 違反CoC阿
+17:19 < Sean|Phone> 巴哈喔？
+17:20 < tom83615_> 閃閃
+17:20 < spyf> www
+17:20 < confbot> <fntsrlike>: 自拍ＸＤＤＤ
+17:20 < lagane100> 自拍XDDD
+17:20 < Sean|Phone> ㄜ…
+17:20 < paraselene> 艮～～～
+17:20 < seadog007> wwww
+17:20 < tycn_otogi> 自拍wwww
+17:20 < darkx> 字太小 <_<
+17:20 < a25163967> ya
+17:20 < Moonslight> 看來下次大家都會報名自拍了 XD
+17:20 < spyf> 明年鳩團自拍(X
+17:20 < Davy_CC> 簡報太小@@
+17:21 < Sean|Phone> svg sozi ?
+17:21 < [R0]OtomeSound> 當年的code......
+17:21 < iblis17> lol
+17:21 < [R0]Ren> 不管髒不髒 可以動就好xdd
+17:22 < toppy368> 好閃
+17:22 < [R0]OtomeSound> （手動斜眼）
+17:22 < toppy368> 討厭自拍
+17:22 < toppy368> 甚至討厭實名制會員系統
+17:22 < hector_> 字很小
+17:22 < hrj> 想要參加 HITCON Junior 的朋友
+17:22 < hrj> https://docs.google.com/forms/d/1vOsNYj6ZFu9O2wBv44bQ8eWVoT1EvJx9KmbO13bi3DE/viewform
+17:22 < hrj> 這邊有表單喲
+17:22 < [R0]YWJamesLin> wwwwww
+17:22 < Sean|Phone> (抖
+17:22 < Moonslight> GG
+17:22 < confbot> <fntsrlike>: 學弟對噗起wwwwwwwww
+17:22 < a25163967> XD
+17:22 < Gundam> wwwwww
+17:22 < pcchou> XDDD
+17:22 < SoFlat287> GG
+17:22 < lagane100> 我就是要切畫面
+17:22 < Davy_CC> 我就是要切畫面wwww
+17:22 < s3131212> 求解，為什麼講師獎狀上是 SITCON 2014
+17:23 < dannyAAM> XDD
+17:23 < yaoteng> 0e0
+17:23 < fishlover> XD
+17:23 < Sean|Phone> 上台未來拍照？
+17:23 < dannyAAM> 就是要切畫面www
+17:23 < hypery11> QAQ
+17:23 < hank000> 是ray欸
+17:23 < AndChat688961> 男的想要報名hitcon girl填哪一張報名表
+17:23 < AndChat688961> XD
+17:23 < a25163967> 誰叫你要自拍
+17:23 < lagane100> 好開心 <3
+17:23 < [R0]YWJamesLin> wwwwwww
+17:23 < SoFlat287> 髒髒derXDDDD
+17:23 < seadog007> wwwwwww
+17:24 < darkx> CoC ...
+17:24 < [R0]OtomeSound> 對不起我去看醫生...
+17:24 < Yuan_> 最後一個我也要切
+17:24 < hrj> 男的要參加 hitcon girl 只能當講師喲～
+17:24 < BobbyHo> 座位表被洗惹@@
+17:24 < hrj> 要先來 HITCON Junior 講 100 場
+17:24 < confbot> <fntsrlike>: e04 XDDDDDD
+17:24 < [R0]OtomeSound> CGCC => CGGG
+17:24 < Davy_CC> 違反COC啊
+17:24 < seadog007> hrj: 還有另外一個辦法啊 (y)
+17:25 < lagane100> ICED
+17:25 < hrj> 練葵花寶典嗎？
+17:25 < sntc06> seadog007: <(_ _)>
+17:25 < hank000> <(_  _)>
+17:25 < Davy_CC> 打 IOI （讀LOL）
+17:26 < david111014> IOI lOl
+17:26 < lagane100> I0I
+17:26 < [R0]OtomeSound> 有錢好辦事www
+17:26 < Sean|Phone> 時間
+17:26 < AndChat688961> 真可惜   要是開放我看可以組十隊去參加defcon
+17:26 < DanielChen> 101
+17:27 < [R0]OtomeSound> 1O1
+17:27 < fishlover> 話說之後irc log 會傳上哪裡的說？
+17:27 < Gundam> 座位表發生了什麼事？OAO
+17:27 < confbot> <fntsrlike>: 座位表發生什麼事wwww
+17:27 < darkx> 這個 X 意味不明....
+17:27 < SoFlat287> 樓上www
+17:27 < [R0]OtomeSound> NTHU X NCTU 這是本子嗎(?)
+17:27 < iblis17> ?!
+17:27 < kin> 想買
+17:27 < hank000> www
+17:27 < iblis17> lol
+17:27 < akira02_> wwwwwwwwwwwwww
+17:27 < paraselene> QAQ
+17:27 < SoFlat287> QAQ
+17:27 < lagane100> NTHU X NCTU
+17:28 < darkx> 可逆ㄇ
+17:28 < Davy_CC> 欸欸後面那個小內褲好sexy
+17:28 < hank000> NTHU X NCTU
+17:28 < iblis17> 沒錯 現在 seat 最大的 but 就是沒有 rait limit lol
+17:28 < fishlover> nthu x nctu(c87)(ch)(35p).rar
+17:28 < iblis17> *bug*
+17:28 < SoFlat287> XDDDDDDDDDDD
+17:28 < david111014> XDDDDDD
+17:28 < seadog007_c> 各種pdf跑版XD
+17:28 < akira02_> (無碼)
+17:28 < [R0]OtomeSound> food
+17:28 < iblis17> rate limit lol
+17:28 < darkx> lol
+17:28 < paraselene> 艮...有人很熟檔名各式喔
+17:28 < [R0]YWJamesLin> 有動力惹wwwwwww
+17:28 < kin> FOOD
+17:29 < sdfdfd> 食物!!
+17:29 < KUNIGUMI> \FOOD/
+17:29 < Davy_CC> 「我們花了 60% 的經費在食物上
+17:29 < Hedgehog> 60%的food XD
+17:29 < lagane100> <h1>Food</h1>
+17:29 < spyf> FOOOD<=重點
+17:29 < david111014> 食物!!!!!!!!
+17:29 < toppy368> 食物很重要的XD
+17:29 < SoFlat287> FOOOOOD
+17:29 < darkx> 你不是叛徒 你是魯蛇 (X
+17:29 < MJ123063> IOI
+17:29 < akaiNeko> ##FOOD
+17:29 < [R0]OtomeSound> 果然都是誘惑QAQ
+17:29 < paraselene> FoooooooooooooooooooD
+17:29 < Moonslight> 糟糕  我心動了  食物 ~
+17:29 < hank000> 食!物!
+17:29 < kin> 魯蛇QAQ
+17:29 < Sean|Phone> 話說這次開幕沒笑話
+17:29 < AndChat688961> pdf好糟
+17:29 < Testtest> 座位表是不是怪怪的
+17:30 < toby_skarting> 學術型駭客幹的？
+17:30 < Vdragon> 直播 GG QAQ
+17:30 < pcchou> 心靈型好嗎XD
+17:30 < iblis17> 就座位表沒有 access rate limit
+17:30 < lagane100> 好想把座位表排成字Q_Q
+17:30 < pcchou> CharlesLien: XDD
+17:31 < Sean|Phone> 明明就變態型
+17:31 < mmis1000_cloud> 又被幹掉了？
+17:31 < pcchou> aww cue 錯人
+17:31 < pcchou> cras4202tw XDD
+17:32 < lagane100> 在幹嘛啦XDD
+17:32 < Gundam> 剛剛那是Lorex?
+17:32 < [R0]OtomeSound> 打情罵俏QAQ
+17:33 < SoFlat287> 糟糕 亮亮的
+17:33 < Sean|Phone> 這個動畫會釋出嗎？
+17:33 < SoFlat287> 動畫超美的~~
+17:33 < lagane100> 這超霸氣 :D
+17:33 < Moonslight> 動畫真的做的超棒
+17:33 < hank000> Lorex閃閃
+17:33 < [R0]OtomeSound> 一天就這樣過去了，感謝飛天小女警的努力(?)
+17:33 < mmis1000_cloud> 我覺得是設計問題，現在的設計，每一個人更新，都會導致所有人重新下載一份完整的座位表
+17:34 < Sean|Phone> 就連 SITCON 的廣告都比電視普通節目好看
+17:34 < mmis1000_cloud> 各種意義上都是在ddos自己啊
+17:34 < Sean|Phone> 高清無碼
+17:34 < paraselene> 我需要彈幕啊TAT （nico廚自重
+17:34 < iblis17> mmis1000_cloud: server loading 很低阿
+17:34 < fishlover> bilibili路過
+17:34 < lagane100> 彈幕 plz
+17:34 < YooYi> 直播一直斷線誒～QAQ
+17:34 < paraselene> 話說直播有全程嗎（笑
+17:35 < hank000> 食物!!!!!
+17:35 < fateyan> 筆電正確用法
+17:35 < spyf> 原來筆電是這樣用得
+17:35 < seadog007> mmis1000_cloud: 重點是anti-flood
+17:35 < spyf> 失策
+17:35 < kin> 筆電就是拿來裝食物的啊
+17:35 < Vdragon> 請稍候。目前發生技術問題。（雖然畫面正常）
+17:35 < Hedgehog> 居然忘記拿筆電去了!!!!!!!!!!
+17:35 < Vdragon> 1080p 直播++
+17:35 < hank000> 智慧型餐盤w
+17:35 < Gundam> 動畫強大
+17:35 < spyf> 動畫真的很強
+17:35 < AndChat688961> 可以請sitcon支援phpconf嗎XD
+17:36 < spyf> 我想知道是用什麼做的
+17:36 < sdfdfd> 筆電餐盤我學弟XD
+17:36 < AndChat688961> 2015的不知道會不會難產
+17:36 < seadog007> 座位表
+17:36 < paraselene> After effects 吧？
+17:36 < seadog007> 剛剛被順著刷乾淨了
+17:36 < spyf> 我的AE還沒辦法畫成這樣Orz
+17:36 < spyf> 太強大了
+17:37 < Sean|Phone> Pcc
+17:37 < fishlover> 我上鏡了！
+17:37 < fishlover> 個人贊助
+17:37 < [R0]OtomeSound> 國小生TAT
+17:37 < [R0]YWJamesLin> 國小生!!!!!!!!!!
+17:37 < Hedgehog> 國小生OAO
+17:37 < Choukai_> ㄏ
+17:37 < gogomagnet> 118
+17:37 < darkx> 118 自肥 XDDDD
+17:37 < rail02000> 118!
+17:37 < [R0]OtomeSound> 中興上榜了ww
+17:37 < Sean|Phone> 118?
+17:38 < s3131212> 天大地大台科大！
+17:38 < Vdragon> 直播問題解決了
+17:38 < whale> 中央的到底在哪裏
+17:38 < kin> 快跪
+17:38 < spyf> 西松大概只以我一個
+17:38 < buck5060> \115/
+17:38 < Sean|Phone> 海浪曲線
+17:38 < [R0]YWJamesLin> 大安高工 台科大 這wwwwwwwww
+17:38 < whale> 嗚嗚嗚
+17:38 < dannyAAM> \115/ (你不是啦!
+17:38 < [R0]YWJamesLin> 115 wwwwwwwwww
+17:38 < mmis1000_cloud> 座位表是空的？
+17:39 < hector_> 感謝各位SITCON的工作人員與講者
+17:39 < fishlover> 完美落幕 謝謝大家～謝謝工作人員～完美落幕 謝謝大家～謝謝工作人員～
+17:39 < [R0]YWJamesLin> 謝謝\o/
+17:39 < esan> <(_ _)>
+17:39 < [R0]Ren> 大家明年見啦
+17:39 < weiwei63> 明年見～～～
+17:39 < Hedgehog> 感謝工人們和SITCON幹部～
+17:39 < Gundam> 掰掰～～～
+17:39 < mmis1000_cloud> 掰掰
+17:39 < fishlover> 完美落幕 謝謝大家～謝謝工作人員～
+17:39 < fishlover> 明年見～～
+17:39 < [R0]Ren> hitcon見才對
+17:40 < Vdragon> 感謝 SITCON 0w0/
+17:40 < Sean|Phone> 斷？
+17:42 < Vdragon> 又是 BRTD 樂團XD
+17:44 < mmis1000_cloud> 離開有接駁車嗎？
+17:49 < paraselene>
+17:58 < toby_skarting> VIKI
+18:06 < knowlet> bye
+19:00 < realstuff> HI
+19:24 < Sean64> 有人有架公開的 IRC Log Server 嗎？
+19:33 < realstuff> HI everyone
+19:34 < Sean64> Hi~
+19:34 < realstuff> I am learning NS-3 which is open source
+20:09 < yang_> Hello everybody
+20:20 < Guest23116> .
+20:58 < Vdragon> 今天 #SITCON 2015 真是開心，雖然隔了 2X 公里 + 網路線 + HDMI 線 + 螢幕但是感覺就跟現場差不多，感謝主辦單位實現低 down time 的 1080p 直播0w0/
+21:10 < Sean64> 還是想求開場動畫
+21:10 < Sean64> \開場動畫/
+21:12 < Sean64> 開場動畫是哪位大大作的？
+21:18 < Unknown_> test
+21:19 < Unknown_> is there somebody
+21:19 < jeremy5189> hello
+21:22 < UnciaX> 跪求完整版開場動畫
+21:22 < Takeshi_tw> exit
+21:23 < Takeshi_tw> 按錯...
+21:45 < seadog007_c> Takeshi_tw: 你知道 DennyHuang 會說用 ^d嗎= =
+22:01 <@DennyHuang> seadog007_c: u got it
+22:04 < Sean64> ^B + d ?
+22:05 < nobody__> haha
+22:05 < nobody__> anyone here?
+22:05 < Sean64> Hi~
+22:06 < Sean64> VIKI
+22:06 < VIKI> Sean64 您好, 請問您需要什麼協助?
+22:06 < Sean64> VIKI help
+22:06 < VIKI> Sean64 您需要什麼協助嗎?
+22:06 < Sean64> VIKI hel
+22:07 < Sean64> VIKI info
+22:07 < Sean64> VIKI hi
+22:07 < VIKI> Sean64 Hi
+22:10 < Sean64> test hi
+22:10 < Sean64> VIKI VIKI
+22:14 < spyf> 可以求開場動畫的專案檔嗎，只是想看看0.0
