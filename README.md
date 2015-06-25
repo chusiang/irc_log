@@ -60,6 +60,12 @@ http://phpconf.tw
 - [2013](https://raw.github.com/chusiang/irc_log/master/phpconf/irc-phpconf-tw-2013.log)
 - [2012](https://raw.github.com/chusiang/irc_log/master/phpconf/irc-phpconf-tw-2012.log)
 
+### PyCon Taiwan
+
+http://tw.pyconf.org
+
+- [2015](https://gitter.im/pycontw/pyconapac2015), [#chusiang](https://gitter.im/chusiang/pyconapac2015)
+
 ### SITCON 學生計算機年會 (Students' Information Technology Conference)
 
 http://sitcon.org
