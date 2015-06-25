@@ -74,6 +74,12 @@ http://sitcon.org
 - [2014](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2014.log)
 - [2013](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2013.log)
 
+### WebConf Taiwan
+
+http://webconf.tw/
+
+- [2015](https://gitter.im/f2etw/f2etw.github.io/ModernWeb2015)
+
 # Reference
 
 - [Taiwan Conference List](http://goo.gl/90yt5)
