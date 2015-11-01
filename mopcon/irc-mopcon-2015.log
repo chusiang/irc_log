@@ -1,0 +1,1606 @@
+Day 1
+========
+
+--- Log opened Sat Oct 31 00:00:14 2015
+00:09 < mopcon-bot> (mkidyt) 大家晚安！
+00:47 -!- qlife [sid42436@gateway/web/irccloud.com/x-gmahaughshergscn] has joined #mopcon
+01:04 -!- enge [~tom@paris.village.ninja] has joined #mopcon
+01:04 < enge> ni hao
+01:04 < mopcon-bot> (engerim42) hi
+01:05 < enge> :D :D
+01:07 -!- GGininder [24ed1ae9@gateway/web/freenode/ip.36.237.26.233] has joined #mopcon
+01:07 -!- GGininder [24ed1ae9@gateway/web/freenode/ip.36.237.26.233] has quit [Client Quit]
+01:24 -!- Luxun [uid13676@gateway/web/irccloud.com/x-aayxhplytemldjzu] has joined #mopcon
+01:26 -!- allan914 [cssuen@alumni.cs.nctu.edu.tw] has joined #mopcon
+02:32 -!- chusiang [~jonny@36-238-247-240.dynamic-ip.hinet.net] has joined #mopcon
+02:33 < chusiang> 開始比誰比較晚睡？大家晚安。
+02:36 < chusiang> ping chusiang-
+02:36 -!- chusiang [~jonny@36-238-247-240.dynamic-ip.hinet.net] has quit [Client Quit]
+03:35 -!- Luxun [uid13676@gateway/web/irccloud.com/x-aayxhplytemldjzu] has quit [Quit: Connection closed for inactivity]
+04:40 -!- mikimoto changed the topic of #mopcon to: MOPCON 2015 - 濁水溪以南最強大行動應用科技開發者年會 Connect everything
+06:23 < mopcon-bot> (johnroyer) 早安
+07:51 -!- BeataLin [~BeataLin@host-219-69-87-90.static.kbtelecom.net] has joined #mopcon
+07:51 -!- BeataLin [~BeataLin@host-219-69-87-90.static.kbtelecom.net] has left #mopcon []
+07:54 -!- BeataLin_ [uid123870@gateway/web/irccloud.com/x-ubbdhousmyyjonco] has joined #mopcon
+08:08 -!- y5n [~AndChat12@110.28.9.120] has joined #mopcon
+08:13 -!- DanLu [~AndChat27@223-139-163-23.EMOME-IP.hinet.net] has joined #mopcon
+08:16 -!- DanLu [~AndChat27@223-139-163-23.EMOME-IP.hinet.net] has quit [Client Quit]
+08:22 -!- Luxun [uid13676@gateway/web/irccloud.com/x-tafbctavmjhvlmao] has joined #mopcon
+08:26 -!- DanLu [~AndChat27@223-139-163-23.EMOME-IP.hinet.net] has joined #mopcon
+08:26 < DanLu> 測試~~
+08:26 -!- Martian [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+08:26 < Luxun> 早安
+08:26 < y5n> 早
+08:26 < DanLu> 大家早安
+08:26 < Martian> Morning!
+08:29 -!- xavier88 [~AndChat21@223-136-208-184.EMOME-IP.hinet.net] has joined #mopcon
+08:30 -!- DanLu [~AndChat27@223-139-163-23.EMOME-IP.hinet.net] has quit [Client Quit]
+08:30 -!- DanLu [~AndChat27@223-139-163-23.EMOME-IP.hinet.net] has joined #mopcon
+08:43 -!- thomastsaitw [~Thomas.tw@223-136-240-92.EMOME-IP.hinet.net] has joined #mopcon
+08:46 -!- andytwmvp [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+08:50 -!- andytwmvp [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Client Quit]
+08:53 < mopcon-bot> (kaihuei0519) 早安
+08:54 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+08:54 < mopcon-bot> (wupojung) 早安～
+08:54 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Client Quit]
+08:55 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+08:55 < mopcon-bot> (kaihuei0519) 屏東騎機車到高雄好遠啊～～QQ
+08:56 < mopcon-bot> (k7741118) 早阿
+08:56 < y5n> 早
+08:56 < mopcon-bot> (k7741118) 從大樹到這裡好遠><
+08:56 < thomastsaitw> 下一站 鹽埕埔
+08:57 -!- cataska [sid12717@gateway/web/irccloud.com/x-yoaicvuijfvhudfq] has joined #mopcon
+08:57 < mopcon-bot> (passerbyid) 巨大招財貓@鹽埕埔站 八塔了。
+08:59 < mopcon-bot> (kaihuei0519) 大樹在哪？
+09:00 < mopcon-bot> (keith222) 在高雄阿xd
+09:00 < mopcon-bot> (keith222) 大家早安～
+09:00 -!- wei__ [uid110036@gateway/web/irccloud.com/x-kgefxabixdhfgpul] has joined #mopcon
+09:00 < wei__> 早安
+09:00 < mopcon-bot> (tonyciou) 早安～～
+09:00 -!- Martian [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Quit: Page closed]
+09:00 < mopcon-bot> (k7741118) 高雄縣
+09:01 < mopcon-bot> (yllan) 早～
+09:01 < mopcon-bot> (k7741118) 有住大樹的嗎?XD
+09:03 -!- Hermes [uid123778@gateway/web/irccloud.com/x-aqiiauoxpwymdxvq] has joined #mopcon
+09:03 < Hermes> test
+09:03 < yrc> 安安
+09:05 < KylinWu> hi~
+09:05 -!- HCLD [uid121562@gateway/web/irccloud.com/x-qvgetsjodbnnrdxt] has joined #mopcon
+09:06 < mopcon-bot> (opjlmi) helloooooooo
+09:08 < y5n> World
+09:10 < andytwmvp> 總召jserv++
+09:10 -!- D-eye [~androirc@101.13.161.230] has joined #mopcon
+09:10 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-yhqxxppdaqmfndjz] has joined #mopcon
+09:10 < mopcon-bot> (t78973677) 總召好讚
+09:11 < mopcon-bot> (wupojung) 為什麼  總召的時間沒有筆記可以做 XDD
+09:11 -!- XiaoJunHong_m [uid84478@gateway/web/irccloud.com/x-zkcvktjqphtxgbgi] has joined #mopcon
+09:12 < mopcon-bot> (t78973677) 噓  不要問  很恐怖
+09:12 -!- Aweimeow [~Aweimeow@122.147.204.212] has joined #mopcon
+09:12 < Aweimeow> ping
+09:13 -!- y5n [~AndChat12@110.28.9.120] has quit [Ping timeout: 260 seconds]
+09:13 < mopcon-bot> (mkidyt) COSCUP Jserv封麥是翟博士當主持，等等翟博士演講是Jserv主持
+09:14 -!- ggininder [uid123879@gateway/web/irccloud.com/x-hgfcqeaqtcfmquia] has joined #mopcon
+09:15 < mopcon-bot> (wupojung) 這。。。  T⋯⋯T  今年COSCUP 沒有跟到  T⋯⋯T
+09:15 -!- ifTNT [uid52634@gateway/web/irccloud.com/x-geklvofqkthxvugf] has joined #mopcon
+09:16 -!- lego_ [~lego@27.241.137.184] has joined #mopcon
+09:17 < lego_> Hello~
+09:17 < mopcon-bot> (divazone) 早安
+09:17 < mopcon-bot> (t78973677) 早安
+09:17 < mopcon-bot> (passerbyid) 工作人員表示他也不知道 R2 R3 在哪裡 XD
+09:17 -!- ifTNT_ [~iftnt@49.216.166.117] has joined #mopcon
+09:18 -!- lego_ is now known as LegoChiang
+09:18 < mopcon-bot> (t78973677) 我也不知道！！
+09:18 -!- Sciuridae_cloud [sid102450@gateway/web/irccloud.com/x-econgpkhbcpenawr] has joined #mopcon
+09:18 < mopcon-bot> (kaihuei0519) 4F
+09:18 < mopcon-bot> (kaihuei0519) 吧？
+09:19 < mopcon-bot> (k7741118) R2 三樓
+09:19 < mopcon-bot> (k7741118) R3 四樓
+09:19 -!- y5n [~AndChat12@27.245.132.96] has joined #mopcon
+09:19 < mopcon-bot> (t78973677) 應該有平面圖
+09:19 < mopcon-bot> (kaihuei0519) 手冊有寫～
+09:19 < D-eye> 手冊裡有樓層平面圖
+09:19 < mopcon-bot> (mkidyt) R1在三樓，R2 R3在四樓
+09:19 -!- NO_NAME_ [df8ac058@gateway/web/freenode/ip.223.138.192.88] has joined #mopcon
+09:20 < mopcon-bot> (YongYuH) 左邊兩個投影片歪掉了QQ
+09:20 < y5n> r1 的有
+09:20 < mopcon-bot> (kaihuei0519) R1 講者旁邊的投影片歪了 XDD
+09:20 < NO_NAME_> 已歪
+09:20 < mopcon-bot> (t78973677) 對捏  左邊歪了
+09:20 < y5n> 應該有人踢到架子......
+09:20 < mopcon-bot> (kaihuei0519) QQ
+09:21 < thomastsaitw> 看右邊的
+09:21 < mopcon-bot> (divazone) 總覺得 左邊投影機歪歪的
+09:21 < mopcon-bot> (williesmithchen) 有工作人員可以協助調整嗎
+09:21 < NO_NAME_> 我覺得兩邊歪的間距一模一樣www
+09:21 < mopcon-bot> (wupojung) 中間的銀幕 很
+09:21 < mopcon-bot> (wupojung) GG
+09:22 < mopcon-bot> (wupojung) R 1  左邊兩台 被吃了
+09:22 < mopcon-bot> (divazone) 網路被吃掉啦
+09:22 < mopcon-bot> (kaihuei0519) 被小精靈吃掉拉～～
+09:22 -!- Aweimeow [~Aweimeow@122.147.204.212] has quit [Ping timeout: 250 seconds]
+09:23 < mopcon-bot> (t78973677) 只好認真聽聲音了
+09:23 < andytwmvp> 你看看你的D槽，有多少汙染在裡面
+09:23 < mopcon-bot> (williesmithchen) D槽www
+09:23 < NO_NAME_> D:\useful\10times
+09:23 < andytwmvp> 看17 wwwwww
+09:24 < LegoChiang> 17?
+09:24 < andytwmvp> 黃立成的APP
+09:24 < mopcon-bot> (t78973677) 17是什麼？我不懂
+09:24 < mopcon-bot> (keith222) 很有爭議性的app
+09:24 < LegoChiang> LOL~
+09:24 < mopcon-bot> (fsyoungOcean) 作文比賽~好酸~
+09:24 < mopcon-bot> (divazone) 很多不乾淨的直播
+09:25 < mopcon-bot> (keith222) 最近又重上架了xd
+09:25 -!- lws [3de76f28@gateway/web/freenode/ip.61.231.111.40] has joined #mopcon
+09:26 < DennyHuang_> 找一些專家學者來背書 才能推卸責任XDD
+09:26 -!- DennyHuang_ is now known as DennyHuang
+09:26 < mopcon-bot> (kaihuei0519) 都是專家學者的錯～～
+09:26 < mopcon-bot> (keith222) 政府高層的腦袋..
+09:26 < mopcon-bot> (t78973677) 開放地址
+09:27 < mopcon-bot> (keith222) 可是有些機關連地址開放都....
+09:27 -!- ScottChen [6e1e1d43@gateway/web/cgi-irc/kiwiirc.com/ip.110.30.29.67] has joined #mopcon
+09:28 < mopcon-bot> (divazone) 擔心資料安全之類的
+09:28 -!- circ-user-VWo3l [~circuser-@111-71-218-42.EMOME-IP.hinet.net] has joined #mopcon
+09:29 -!- NewCliCker [uid28463@gateway/web/irccloud.com/x-oojnwhsfcxzxrkgs] has joined #mopcon
+09:29 < mopcon-bot> (keith222) 想到最近open data在討論 資料隱私的問題
+09:29 < mopcon-bot> (t78973677) 外國研究文 重點！
+09:29 < mopcon-bot> (LuxunHuang) 英國研究 XDD
+09:30 < mopcon-bot> (kaihuei0519) 英國！
+09:30 < yrc> (UK)
+09:30 -!- ScottChen [6e1e1d43@gateway/web/cgi-irc/kiwiirc.com/ip.110.30.29.67] has quit [Client Quit]
+09:30 < mopcon-bot> (kaihuei0519) open data 應該不能涉及所謂的私人資料
+09:30 -!- williamg [uid123880@gateway/web/irccloud.com/x-rpeaeelvikjrckhr] has joined #mopcon
+09:30 < mopcon-bot> (kaihuei0519) 不過，如何去界定就變成問題...
+09:30 < mopcon-bot> (keith222) 沒錯
+09:31 < mopcon-bot> (dwatow) 投影機沒得調嗎？
+09:32 < mopcon-bot> (shih0810) 前方冷氣
+09:33 < Sciuridae_cloud> 後方暖氣
+09:34 -!- NO_NAME_ [df8ac058@gateway/web/freenode/ip.223.138.192.88] has quit [Ping timeout: 246 seconds]
+09:34 < mopcon-bot> (t78973677) http://data.gov.tw/data_list_topi
+09:34 < mopcon-bot> (t78973677) 很多類
+09:35 < mopcon-bot> (divazone) 找不到網頁
+09:35 < mopcon-bot> (passerbyid) 終於找到樓梯了XD
+09:35 < mopcon-bot> (keith222) 結尾應該是topic
+09:36 < mopcon-bot> (divazone) thx
+09:36 < mopcon-bot> (t78973677) http://data.gov.tw/
+09:36 < mopcon-bot> (t78973677) 這應該就可以了
+09:37 < DennyHuang> wifi 的 IP 拿不到了QQ
+09:37 < mopcon-bot> (kaihuei0519) http://data.gov.tw/data_list_topic
+09:37 < mopcon-bot> (divazone) 政府所謂危險的定義好像像是根本不應該放在網路上？XD
+09:37 < mopcon-bot> (keith222) 知道的太多了(? XD
+09:37 < mopcon-bot> (kaihuei0519) 有網路都很危險～（笑
+09:37 < mopcon-bot> (wupojung) AP快掛了？？
+09:38 < mopcon-bot> (dwatow) 給別人知道=出錯的機會大增
+09:38 < mopcon-bot> (divazone) 所謂資料正確性基本上本來就是提供者負責啊 跟公不公開好像沒關係啊
+09:38 -!- y5n [~AndChat12@27.245.132.96] has quit [Ping timeout: 240 seconds]
+09:42 < D-eye> 提醒大家！在R3的下一場議程和手冊不同，已網頁為主唷！
+09:42 < mopcon-bot> (kaihuei0519) 求 讓氣象局掛掉的手機廠～（笑
+09:42 < XiaoJunHong_m> Wi-Fi 可以連惹
+09:43 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+09:43 -!- y5n [~AndChat12@110-28-29-175.adsl.fetnet.net] has joined #mopcon
+09:45 -!- jeremy5189 [~jeremy518@ec2-54-65-187-237.ap-northeast-1.compute.amazonaws.com] has joined #mopcon
+09:46 < jeremy5189> Hello
+09:46 < XiaoJunHong_m> 意圖誘拐，不是!! 是說服 XD
+09:46 -!- LegoChiang [~lego@27.241.137.184] has quit [Ping timeout: 246 seconds]
+09:47 -!- y3n [~AndChat12@39.10.151.208] has joined #mopcon
+09:47 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+09:48 -!- lego_ [~lego@122.147.204.212] has quit [Client Quit]
+09:49 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+09:49 -!- y5n [~AndChat12@110-28-29-175.adsl.fetnet.net] has quit [Ping timeout: 240 seconds]
+09:49 < mopcon-bot> (passerbyid) R2 的 kkbox 掛反變成 kkpox
+09:49 -!- lego_ is now known as LegoChiang
+09:50 < mopcon-bot> (t78973677) 連點   我被蚊子咬了
+09:50 < mopcon-bot> (wildjcrt) 紫爆！！
+09:50 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has joined #mopcon
+09:51 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has quit [Client Quit]
+09:51 -!- yrc [uid123303@gateway/web/irccloud.com/x-tikspfiitojhnfco] has left #mopcon []
+09:51 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has joined #mopcon
+09:51 -!- FelixLin [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+09:51 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has quit [Client Quit]
+09:51 < mopcon-bot> (t78973677) 靠北路霸！！
+09:51 < mopcon-bot> (divazone) 各種靠北！
+09:52 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has joined #mopcon
+09:52 -!- jeremy5189 [~jeremy518@ec2-54-65-187-237.ap-northeast-1.compute.amazonaws.com] has quit [Quit: Lost terminal]
+09:52 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has quit [Client Quit]
+09:52 -!- YRCtw [~AndChat49@122.147.204.216] has joined #mopcon
+09:52 < Shen> Hi
+09:53 < LegoChiang> Hello~
+09:53 < mopcon-bot> (kaihuei0519) hi
+09:53 -!- Aweimeow [~Aweimeow@101.14.23.218] has joined #mopcon
+09:53 < mopcon-bot> (t78973677) 一起黑客松
+09:54 -!- YRCtw [~AndChat49@122.147.204.216] has quit [Client Quit]
+09:54 -!- yrc [uid123303@gateway/web/irccloud.com/x-tikspfiitojhnfco] has joined #mopcon
+09:55 < mopcon-bot> (kaihuei0519) 一起黑政府～ （誤
+09:55 -!- onlyfly34 [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+09:57 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has joined #mopcon
+09:57 -!- jeremy5189 [~jeremy518@ec2-54-65-187-237.ap-northeast-1.compute.amazonaws.com] has joined #mopcon
+09:57 -!- alicekey [~alicekey@223-138-170-30.EMOME-IP.hinet.net] has quit [Client Quit]
+09:58 -!- circ-user-VWo3l [~circuser-@111-71-218-42.EMOME-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+09:58 < mopcon-bot> (t78973677) 哪一家食品公司捏？
+09:58 -!- circ-user-VWo3l [~circuser-@111-71-218-42.EMOME-IP.hinet.net] has joined #mopcon
+09:58 < mopcon-bot> (wildjcrt) 該不會是義美 XD
+09:59 < mopcon-bot> (divazone) 很食安不資安的公司？XD
+09:59 -!- stkd_ [uid56888@gateway/web/irccloud.com/x-alxhswkjbiibqkgq] has joined #mopcon
+09:59 -!- FelixLin [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+10:00 < Aweimeow> 這裡有電源可以充電嗎？
+10:00 < stkd_> 有啊
+10:00 < mopcon-bot> (wupojung) AWS快哭了～～
+10:01 -!- y5n [~AndChat12@122.147.204.212] has joined #mopcon
+10:01 -!- madarame_ [uid28051@gateway/web/irccloud.com/x-cbdxzniawtdodjeh] has joined #mopcon
+10:01 -!- y3n [~AndChat12@39.10.151.208] has quit [Ping timeout: 264 seconds]
+10:01 < mopcon-bot> (mkidyt) 手冊平面圖有充電區喔，電梯附近
+10:02 -!- madarame__ [uid28051@gateway/web/irccloud.com/x-orfjtsauidppmiaw] has joined #mopcon
+10:02 < mopcon-bot> (mkidyt) 更正 R1附近
+10:02 -!- MouseMs [~root@mousems.me] has joined #mopcon
+10:02 < MouseMs> test 中文
+10:02 < WaitingChen> 好像這次議程有講AWS的講者XD
+10:02 < WaitingChen> 開場就被黑了
+10:03 -!- circ-user-VWo3l [~circuser-@111-71-218-42.EMOME-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+10:03 < Aweimeow> 我是想要充筆電的 Q__Q 希望能在會場內，不然寫共筆很快就沒電了
+10:03 < mopcon-bot> (wupojung) AWS 表示：  M$ 跟我搶就算了， Ben神 也跟我搶XDD
+10:04 -!- alicekey [~alicekey@223-139-31-104.EMOME-IP.hinet.net] has joined #mopcon
+10:04 -!- alicekey [~alicekey@223-139-31-104.EMOME-IP.hinet.net] has quit [Client Quit]
+10:05 -!- whitglint [~whitglint@li390-163.members.linode.com] has joined #mopcon
+10:05 < whitglint> 鍵盤參加
+10:06 < mopcon-bot> (wupojung) 可以調整一下 投影機嗎。。。想哭
+10:07 -!- ifTNT_ [~iftnt@49.216.166.117] has quit [Ping timeout: 268 seconds]
+10:07 < mopcon-bot> (yllan) 聽者帶 laptop 的比例高嗎？
+10:07 < WaitingChen> Mopcon的場地不像Coscup ，有天生限制，果斷不帶充電器了XD
+10:07 -!- lws [3de76f28@gateway/web/freenode/ip.61.231.111.40] has quit [Ping timeout: 246 seconds]
+10:08 -!- ScottChen [6e1e1d43@gateway/web/cgi-irc/kiwiirc.com/ip.110.30.29.67] has joined #mopcon
+10:08 < LegoChiang> 請問R3的議程有做更改是....？
+10:08 < LegoChiang> 我看官網似乎是一樣
+10:09 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+10:09 < ScottChen> 改蠻多的
+10:09 < LegoChiang> 那請問哪裡看的到=口=~~
+10:10 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 250 seconds]
+10:10 < ScottChen> 手冊把明天的放到今天了
+10:10 -!- Aweimeow [~Aweimeow@101.14.23.218] has quit [Ping timeout: 255 seconds]
+10:10 -!- y3n [~AndChat12@110.26.74.176] has joined #mopcon
+10:11 < LegoChiang> 歐~~~原來我看到的是已經改過的...
+10:11 < mopcon-bot> (FrankLin3501) 網頁的沒有錯
+10:11 < ScottChen> 官網上有正確的
+10:12 -!- blishs [~blishs@223-142-45-192.EMOME-IP.hinet.net] has joined #mopcon
+10:13 -!- NO_NAME_ [df8ac058@gateway/web/freenode/ip.223.138.192.88] has joined #mopcon
+10:14 -!- NO_NAME_ [df8ac058@gateway/web/freenode/ip.223.138.192.88] has left #mopcon []
+10:14 < mopcon-bot> (williesmithchen) 沒有插座噴電超快
+10:14 -!- y5n [~AndChat12@122.147.204.212] has quit [Ping timeout: 240 seconds]
+10:14 < y3n> 插座qq
+10:15 -!- ScottChen [6e1e1d43@gateway/web/cgi-irc/kiwiirc.com/ip.110.30.29.67] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+10:15 -!- onlyfly34 [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+10:15 < mopcon-bot> (wupojung) 我直接忽略 手冊XDD
+10:15 < mopcon-bot> (wupojung) 問個蠢問題。。。。大會衣服 有賣嗎？XD
+10:16 -!- [R1]NO_NAME [df8ac058@gateway/web/freenode/ip.223.138.192.88] has joined #mopcon
+10:16 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+10:16 < [R1]NO_NAME> 換右邊歪了
+10:17 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+10:18 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Read error: Connection reset by peer]
+10:21 -!- XiaoJunHong [~XiaoJunHo@223-138-38-232.EMOME-IP.hinet.net] has joined #mopcon
+10:21 -!- Aweimeow [~Aweimeow@101.14.23.218] has joined #mopcon
+10:21 -!- [R1]NO_NAME [df8ac058@gateway/web/freenode/ip.223.138.192.88] has quit [Ping timeout: 246 seconds]
+10:21 < Aweimeow> R1 的右側投影機 GG
+10:21 < Aweimeow> 是不是投影機被ㄎㄟˊ到了
+10:22 < XiaoJunHong> 女生包包有五個以上的舉手 XD
+10:23 < mopcon-bot> (divazone) 剛剛會場WIFI 我的Mac突然連不上
+10:23 < DennyHuang> R2 右側投影機顫抖中XD
+10:24 < mopcon-bot> (t78973677) 包包不是多一樣嗎
+10:24 -!- mikechouto [sid106119@gateway/web/irccloud.com/x-cpzbewyzbbahqqyc] has joined #mopcon
+10:24 < mopcon-bot> (t78973677) 鞋子一雙就夠了啊
+10:25 < ScottChen> Win10~~~~~~
+10:26 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+10:26 -!- Dino [~dino@122.147.204.212] has joined #mopcon
+10:26 < mopcon-bot> (chyuaner) 請問今天有共筆嗎？像是Hackpad之類的？
+10:26 < Aweimeow> Q___Q 真的沒人能救投影機嗎
+10:26 < Aweimeow> http://hackfoldr.org/MOPCON-2015/jO85QUQsrhR
+10:26 -!- Dino is now known as Guest64221
+10:27 < mopcon-bot> (chyuaner) 感謝！
+10:28 -!- trista [uid106978@gateway/web/irccloud.com/x-khczkhrcxufikzwa] has joined #mopcon
+10:30 < WaitingChen> 這次大會有官方直播嗎？
+10:30 -!- thomastsaitw [~Thomas.tw@223-136-240-92.EMOME-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+10:31 -!- alicekey [uid16113@gateway/web/irccloud.com/x-dmcpuqklntwvednv] has joined #mopcon
+10:32 -!- taichunmin [uid19896@gateway/web/irccloud.com/x-ltlfjxswrorxthsg] has joined #mopcon
+10:33 < mopcon-bot> (mkidyt) 瑞士刀www
+10:33 < XiaoJunHong>  功能都有了，超帥氣的RRR...
+10:33 < ScottChen> 想要那把瑞士刀wwwwww
+10:34 < ggininder> 尊爵不凡阿！！
+10:34 < XiaoJunHong> 想偷偷問 mopcon-bot 的來源是哪裡啊 OwO
+10:34 < mopcon-bot> (divazone) IRC
+10:34 < mopcon-bot> (divazone) 說錯 gitter
+10:34 < xavier88> 報稅程式是用delphi開發的 qq
+10:35 < D-eye> mopcon-bot 是網頁版的IRC, gitter
+10:36 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+10:36 < XiaoJunHong> 原來如此（筆記翻頁
+10:37 < lego_> 話說... http://mopcon.org/2015/schedule.php 為什麼日期那條有一條css rule width:105vw 導致跑版 為什麼要有這條阿..
+10:37 -!- LegoChiang [~lego@122.147.204.212] has quit [Quit: Lost terminal]
+10:37 < ScottChen> 寫程式好累，來賣雞排好了
+10:37 -!- yourname2 [~yourname@122.147.204.212] has joined #mopcon
+10:37 < ggininder> 要切 不要辣，謝謝
+10:37 < DennyHuang> 聽說賣滷味比較省事
+10:38 < y3n> 好吃的雞排也是一種技術啊
+10:38 -!- yourname2 is now known as divazone
+10:38 -!- Hermes_ [8c7b698f@gateway/web/freenode/ip.140.123.105.143] has joined #mopcon
+10:38 < divazone> test
+10:40 < divazone> 大部分廠商不敢真正demo車牌影像辨識
+10:41 < mopcon-bot> (zaoldyeck) @chyuaner Hackpad從官網進入 http://hackfoldr.org/MOPCON-2015/
+10:42 < whitglint> 因為 sql injection 嗎? (X
+10:43 < y3n> Whitglint 你也有來?
+10:43 < whitglint> 鍵盤參加
+10:44 < mopcon-bot> (wupojung) 影片好像在哪裡看過 QQ
+10:44 < mopcon-bot> (divazone) 哪部影片？
+10:44 < y3n> Lpr 影像辨識
+10:46 < mopcon-bot> (wupojung) r1 使用者歷程地圖
+10:46 < divazone> 想請問一下會場附近有沒有推薦吃的店
+10:47 < mikechouto> 同問 XD
+10:47 < y3n> 餓了
+10:47 < ggininder> 沒吃早餐qq
+10:47 -!- cash [~cash@122.147.204.216] has joined #mopcon
+10:48 < ScottChen> 記得要去菜市場那找
+10:48 < ScottChen> 或麥當勞
+10:48 < divazone> 是說目前R3講者還沒講到不要在雲端上作影像辨識的原因啊
+10:50 < ScottChen> 重點：只要多付一點錢
+10:51 < mopcon-bot> (mkidyt) 沒有wifi   www
+10:51 < ScottChen> 為了延續夢想竟然沒有WIFI
+10:52 -!- YRCtw [~AndChat49@122.147.204.216] has joined #mopcon
+10:52 < lego_> 然後有提供ether這樣
+10:52 -!- YRCtw [~AndChat49@122.147.204.216] has quit [Client Quit]
+10:52 < ScottChen> 使用者不會用，使用者好笨啊哈哈哈
+10:53 < mopcon-bot> (taxeswang) 可是有些使用者連想要什麼都說不出來～或是需求改來改去～
+10:56 < mopcon-bot> (xhtwj) R1的投影機解析度錯誤就是UX！
+10:58 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 268 seconds]
+10:58 -!- cash [~cash@122.147.204.216] has quit [Ping timeout: 244 seconds]
+10:58 < Guest64221> 附近有義美門市～
+10:59 < XiaoJunHong> 經理級 XD
+10:59 < mopcon-bot> (chyuaner) R2 講Gradle的，投影片有釋出嗎？有不少腳本和Code，想之後慢慢看
+10:59 -!- lego_ [~lego@122.147.204.212] has quit [Read error: Connection reset by peer]
+10:59 < ScottChen> 主管：因為我喜歡啊
+11:00 < mopcon-bot> (wahaha0231) R2有無投影片？
+11:00 < XiaoJunHong> R1 「糟糕，這個有錄影耶」 XDDDDD
+11:00 -!- cash [~AndChat48@111-83-192-117.EMOME-IP.hinet.net] has joined #mopcon
+11:00 < y3n> Xd
+11:01 -!- HHHHa [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+11:02 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+11:02 < mopcon-bot> (Jackson45252) 或許使用者不需要穿衣服(大誤
+11:02 < y3n> 從後端做辨識成本太高，從前端做
+11:03 < mopcon-bot> (Jackson45252) 他是要拿來洗貓咪(獵奇
+11:03 -!- lego_ [~lego@122.147.204.212] has quit [Read error: Connection reset by peer]
+11:05 -!- Luxun [uid13676@gateway/web/irccloud.com/x-tafbctavmjhvlmao] has quit [Quit: Connection closed for inactivity]
+11:05 < ScottChen> 大學生比較有錢
+11:05 < XiaoJunHong> 大學生比較有錢
+11:06 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+11:07 -!- lego_ [~lego@122.147.204.212] has quit [Read error: Connection reset by peer]
+11:08 < ScottChen> 通靈XD
+11:10 < mopcon-bot> (taxeswang) 所以工程師另外一個別稱叫乩童
+11:11 -!- Guest64221 [~dino@122.147.204.212] has quit [Remote host closed the connection]
+11:12 < y3n> R3 結束
+11:13 -!- HHHHa [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+11:14 < XiaoJunHong> 地板微晃動 ww
+11:15 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 260 seconds]
+11:16 < y3n> 難得有個頻道出現的帳號幾乎都不認識
+11:16 -!- kerker [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+11:17 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+11:18 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+11:18 < divazone> XDD
+11:18 -!- prpr [~prpr@122.147.204.212] has joined #mopcon
+11:19 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+11:19 -!- unciax [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+11:19 -!- Dino [~dino@122.147.204.212] has joined #mopcon
+11:20 -!- Dino is now known as Guest68082
+11:20 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+11:20 < divazone> 我的產品很好 .> 只是沒人要用
+11:20 < lego_> hi
+11:21 < mopcon-bot> (Enyasu) 有人覺得R2很冷嗎?
+11:21 < mopcon-bot> (Jackson45252) 很冷+1
+11:21 < mopcon-bot> (hobbyling) R3也頗冷
+11:21 < XiaoJunHong> 就像某台機車一樣 XDDD
+11:21 < mopcon-bot> (Enyasu) 分一點給R1吧
+11:21 < DanLu> R2好冷++
+11:22 < mopcon-bot> (taxeswang) 顧顧路那台機車嗎？
+11:22 < lego_> 我錯了 應該帶外套的
+11:22 < mopcon-bot> (Jackson45252) R1看地方 有些地方也很冷
+11:22 < mopcon-bot> (yulin0629) 前面不會冷
+11:22 < mopcon-bot> (yulin0629) 第一排
+11:23 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+11:23 < mopcon-bot> (divazone) 故陸陸大暴衝
+11:23 < mopcon-bot> (divazone) 故陸陸
+11:23 < lego_> R2右邊投影機一直抖
+11:24 -!- pastleo [~pastleo@128.199.109.181] has joined #mopcon
+11:24 < mopcon-bot> (Enyasu) 哈哈
+11:24 < mopcon-bot> (Enyasu) 我發現了!!!!
+11:24 < pastleo> hello
+11:24 < mopcon-bot> (Enyasu) 他很冷
+11:24 < pastleo> 頗抖
+11:24 < mopcon-bot> (yulin0629) 現在帝寶一戶要三億了
+11:24 < mopcon-bot> (Enyasu) @zeroplex-bot 嗨~~~
+11:25 < XiaoJunHong> 牛排住帝寶
+11:26 < mopcon-bot> (yulin0629) 什麼是pmf
+11:27 < ggininder> 想吃牛排了好餓
+11:27 -!- Aweimeow [~Aweimeow@101.14.23.218] has quit [Ping timeout: 246 seconds]
+11:27 < mopcon-bot> (divazone) 創業很容易失敗QQ
+11:29 < mopcon-bot> (taxeswang) 冷爆了～～明天要帶羽絨衣來了
+11:29 -!- prpr [~prpr@122.147.204.212] has quit [Quit: 暫離]
+11:30 -!- Wemy [uid13637@gateway/web/irccloud.com/x-ghkibpdnqqpxsrfo] has joined #mopcon
+11:30 < yrc> 羽絨衣也太誇張
+11:31 < HCLD> 決定明天不開冷氣
+11:31 < XiaoJunHong> 從暖暖包開始吧（？
+11:31 < mopcon-bot> (divazone) 外面挺熱的（?
+11:32 < XiaoJunHong> 請外面打開冷氣好嗎（？
+11:33 < allan914> 我覺得
+11:33 < allan914> R1第一排很冷啊 XD
+11:33 -!- GGininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+11:34 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:34 < XiaoJunHong> 發現擋住冷氣的人（？
+11:34 < mopcon-bot> (yulin0629) 講者手上有一個發出綠光的remote control
+11:34 < divazone> R1最後一排覺得還好XD
+11:36 < mopcon-bot> (Jackson45252) 地方的阿姨需要客人
+11:36 < XiaoJunHong> 可是看起來像詐騙集團（？
+11:36 < mopcon-bot> (chyuaner) R2坐在中間，剛好遇到通風口，★愉☆悅★
+11:37 < divazone> 不知道該不該吃的店,然後跑去賣噹噹（X
+11:38 < divazone> 舉例看起來麥噹噹行銷超好
+11:38 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+11:39 -!- DanLu [~AndChat27@223-139-163-23.EMOME-IP.hinet.net] has quit [Quit: Bye]
+11:40 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+11:40 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Client Quit]
+11:40 -!- Guest68082 [~dino@122.147.204.212] has quit [Remote host closed the connection]
+11:41 -!- IDN_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+11:41 < Wemy> 你有看到麥噹噹的landing page嗎
+11:41 < XiaoJunHong> 大大的M算嗎（？
+11:41 < divazone> 各種主題特餐
+11:41 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+11:42 < Wemy> 原本想吃小吃 走一走看到M就進去了(X
+11:42 < GGininder_> 午餐時間 餓了
+11:42 < mopcon-bot> (Jackson45252) 接近中午看這燒肉簡報....好餓~~
+11:42 < mopcon-bot> (yulin0629) @zeroplex-bot 之前有個招募酒店小姐的Landing 也做的很好
+11:42 < xavier88> 投影機餓到發抖了…
+11:42 < mopcon-bot> (Jackson45252) 喔喔 那個我記得!! 根本感覺不像一般酒店招募
+11:42 < XiaoJunHong> 好煩喔，一直出現食物的畫面... QQ
+11:42 < lego_> R2 live demo demo
+11:43 < mopcon-bot> (yulin0629) 出現了
+11:43 < thomastsaitw> Live dwmo 的剋星
+11:43 < divazone> 別讓貧窮改變你的笑容
+11:43 < mopcon-bot> (Jackson45252) 剛說就PO了 大大神預測
+11:43 < GGininder_> 來了
+11:43 < WaitingChen> R2表示demo都會有問題，所以我放影片就好了
+11:43 < divazone> 月入六位數（？！
+11:44 < GGininder_> 工程師哭哭喔
+11:44 < divazone> 飯局女太猛惹
+11:44 < mopcon-bot> (yulin0629) @zeroplex-bot 看得我都心動了
+11:44 < mopcon-bot> (prprprpony) Never live demo
+11:45 < XiaoJunHong> 降低疑慮，增加信心
+11:45 < mopcon-bot> (Jackson45252) 招募工程師-搞個"摳丁男孩"
+11:45 < XiaoJunHong> 摳丁男孩 XDDDDDDDDDDD
+11:45 < divazone> 不要看起來很屌但不能幹嘛
+11:45 < Wemy> 說說你首圖想擺什麼...
+11:45 < Wemy> XDDDD
+11:45 < mopcon-bot> (divazone) jserv(X
+11:45 < y3n> r3好冷....
+11:46 < mopcon-bot> (Jackson45252) 哈 landing page就卡住了www
+11:46 < XiaoJunHong> 看著首圖，會莫名的跪下吧... QQ
+11:46 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+11:46 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+11:46 < mopcon-bot> (Jackson45252) 放個賈伯斯之類的意象(?
+11:46 < divazone> 承襲jserv教你寫程式啊（？
+11:47 < mopcon-bot> (wupojung) 其實。。。大家都是通靈者～～
+11:47 < Wemy> 那啥...說好的男孩呢（敲碗）（不是）
+11:47 < divazone> 改成摳頂大叔
+11:47 < XiaoJunHong> jserv不好嗎 QQ
+11:47 < mopcon-bot> (Jackson45252) 我就是不懂才坐在這邊麻otz
+11:48 < XiaoJunHong> 科學性的方法
+11:49 < IDN_> 放一張少年jserv的照片（？
+11:49 < divazone> wwwww
+11:49 -!- jordanSu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+11:49 < mopcon-bot> (yulin0629) 好像需要開三個room
+11:51 -!- lancetw [sid27885@gateway/web/irccloud.com/x-yzujcjjncnaqcbia] has joined #mopcon
+11:52 < mopcon-bot> (yulin0629) 吃了小菜之後真的很難閃
+11:52 < mopcon-bot> (taxeswang) 中午肚子餓還一直講食物～～R1很煎熬
+11:52 < XiaoJunHong> R1 根本點菜，也太餓... Orzzzz
+11:52 < mopcon-bot> (divazone) 可惡想吃飯啊QAQQQQ
+11:53 < XiaoJunHong> 滴了三滴，立刻覺得賺到了（？
+11:53 < GGininder_> 跪求推薦附近美食 求大神寫APP了XDD
+11:53 -!- hey [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+11:53 < mopcon-bot> (wupojung) 超壞的R
+11:53 < mopcon-bot> (wupojung) R1
+11:53 < mopcon-bot> (Jackson45252) 求那間鐵板燒地址wwwwwwww
+11:53 < hey> ?
+11:53 -!- hey is now known as Guest78993
+11:53 < mopcon-bot> (divazone) 等等要出去覓食阿
+11:53 -!- caasih [sid13241@gateway/web/irccloud.com/x-wttsgkiulgepcyez] has joined #mopcon
+11:54 < mopcon-bot> (Jackson45252) 我記得有提供便當?
+11:54 -!- Guest78993 is now known as heyhey
+11:55 < mopcon-bot> (divazone) 學生票沒便當
+11:55 < heyhey> 外出覓食
+11:55 < mopcon-bot> (prprprpony) R2:真的超便宜
+11:55 < mopcon-bot> (prprprpony) wwww
+11:55 < XiaoJunHong> 原來如此，所以等等大大的M會充滿學生這樣 ww
+11:57 < mopcon-bot> (divazone) 來南部應該要吃丹丹吧XDDD
+11:58 < XiaoJunHong> 嘿Siri，告訴我附近的丹丹
+11:58 < unciax> 丹丹西子灣那邊有
+11:58 < IDN_> 高雄市鼓山區臨海二路24號
+11:58 < heyhey> siri : 今天 5:00 二廳有
+11:58 < y3n> 旦旦讚
+11:59 < mopcon-bot> (divazone) 我早餐吃了丹丹 等等午餐可能也要丹丹了
+11:59 < XiaoJunHong> 丹丹吃丹丹（被打
+12:00 < GGininder_> 想吃丹丹
+12:00 < heyhey> 丹丹漢堡請講者丹丹吃丹丹漢堡丹丹可樂，丹丹說好
+12:00 < mopcon-bot> (yulin0629) 好餓
+12:01 < divazone> Denny出來面對（X
+12:01 < mopcon-bot> (yulin0629) xdite的演講都是吃的
+12:01 < XiaoJunHong> 某種程度來說，丹丹首圖有效M？
+12:01 < heyhey> 出來擔擔
+12:01 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+12:01 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+12:01 < GGininder_> 請問譁達奶茶 推薦嗎
+12:01 < XiaoJunHong> 光明路五號
+12:01 < mopcon-bot> (yulin0629) 光明路5號
+12:02 < heyhey> 野生的會眾放出來啦！
+12:02 < mopcon-bot> (yulin0629) 講話好快
+12:03 < heyhey> 場務組警戒啦！
+12:03 < mopcon-bot> (divazone) http://ksdelicacy.pixnet.net/blog/post/57736350-%E9%B9%BD%E5%9F%95%E5%9F%94%E6%8D%B7%E9%81%8B%E7%AB%99%E9%80%B1%E9%82%8A%E7%BE%8E%E9%A3%9F50%E9%96%93x%E7%B2%BE%E9%81%B8%E5%B0%8F%E5%90%8310%E9%96%93(2015
+12:03 < mopcon-bot> (divazone) 不知道能不能參考
+12:05 -!- XiaoJunHong [~XiaoJunHo@223-138-38-232.EMOME-IP.hinet.net] has quit [Remote host closed the connection]
+12:06 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+12:06 -!- lego_ [~lego@122.147.204.212] has quit [Ping timeout: 240 seconds]
+12:07 -!- heyhey [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+12:07 -!- IDN_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+12:08 -!- madarame__ [uid28051@gateway/web/irccloud.com/x-orfjtsauidppmiaw] has quit [Quit: Connection closed for inactivity]
+12:08 -!- madarame_ [uid28051@gateway/web/irccloud.com/x-cbdxzniawtdodjeh] has quit [Quit: Connection closed for inactivity]
+12:08 -!- jordanSu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+12:08 -!- GGininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+12:09 -!- kerker [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+12:09 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 244 seconds]
+12:11 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+12:12 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 252 seconds]
+12:14 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+12:20 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Ping timeout: 240 seconds]
+12:23 -!- cash [~AndChat48@111-83-192-117.EMOME-IP.hinet.net] has quit [Remote host closed the connection]
+12:24 -!- nefarian [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+12:25 < unciax> [公告] 目前開放學生票領取便當 想要吃便當的會眾請到便當領取區領取
+12:25 -!- D-eye [~androirc@101.13.161.230] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+12:26 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+12:27 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+12:27 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 268 seconds]
+12:28 -!- y3n [~AndChat12@110.26.74.176] has quit [Ping timeout: 240 seconds]
+12:28 -!- nefarian [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+12:30 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Remote host closed the connection]
+12:30 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+12:32 -!- y5n [~AndChat12@110-28-2-223.adsl.fetnet.net] has joined #mopcon
+12:39 -!- xavier88 [~AndChat21@223-136-208-184.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+12:40 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+12:40 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+12:48 -!- ifTNT_ [~iftnt@49.216.166.117] has joined #mopcon
+12:54 -!- ifTNT_ [~iftnt@49.216.166.117] has quit [Ping timeout: 264 seconds]
+12:54 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Remote host closed the connection]
+12:56 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+12:58 -!- jordanSu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+13:00 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+13:01 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 252 seconds]
+13:03 -!- Mouther is now known as [R2]Mouther
+13:04 -!- IDN_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+13:05 < mopcon-bot> (mkidyt) 伊藤潤二wwww
+13:05 < mopcon-bot> (kewang) 為什麼R1講者旁邊的投影機一直沒辦法正確顯示啊= =
+13:05 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+13:05 < mopcon-bot> (wupojung) R1 左2  又又鬼了 ＝ ＝
+13:05 < IDN_> R1本來切左邊，現在切上面
+13:08 -!- jordanSu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Quit: Page closed]
+13:08 < mopcon-bot> (xhtwj) 「一定有👻動了投影機的設定」
+13:08 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+13:09 < mopcon-bot> (wupojung) 因為投影機還沒有通靈 ～
+13:09 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:10 < [R2]Mouther> 通靈你也懂
+13:13 < mopcon-bot> (wupojung) 略懂略懂。。。
+13:13 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+13:13 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+13:13 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+13:14 < ggininder_> R2畫面不見了
+13:14 < wei__> R2 畫面進入螢幕保護程式
+13:15 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 256 seconds]
+13:16 < mopcon-bot> (aacczury) R3 雜音好大啊XD
+13:17 -!- kenobilyh [uid106989@gateway/web/irccloud.com/x-jxqmgelbizofustb] has joined #mopcon
+13:17 < y5n> R3 g2g
+13:18 < mopcon-bot> (wupojung) 這件事件告訴我們不要亂跟 鬼 開玩笑：P
+13:20 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+13:21 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+13:25 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Ping timeout: 255 seconds]
+13:29 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+13:34 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:35 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+13:35 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+13:37 < mopcon-bot> (taxeswang) 下午吃飽了特別好睡～～R3趴一堆了～～
+13:38 < ggininder_> R2螢幕又在保護城市了XD
+13:38 -!- taichunmin [uid19896@gateway/web/irccloud.com/x-ltlfjxswrorxthsg] has quit [Quit: Connection closed for inactivity]
+13:38 < mopcon-bot> (hsinnan) Ｒ2筆電也趴了
+13:39 < y5n> R3 有點冷
+13:39 < mopcon-bot> (wupojung) 尷尬。。。等等想去R2 的說
+13:39 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+13:40 < BeataLin_> R2 BGM 有點搶戲
+13:41 < y5n> Bgm 名稱是什麼?
+13:41 < BeataLin_> 背景音樂，目前狀況已排除
+13:41 -!- derekhsu_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+13:42 < y5n> 不，我想知道這背景音樂的名稱
+13:42 < derekhsu_> 用這麼熱血的音樂是？
+13:44 < BeataLin_> 身為木耳，聽不出來
+13:45 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 250 seconds]
+13:45 -!- IDN_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+13:46 -!- MouseMs [~root@mousems.me] has quit [Ping timeout: 252 seconds]
+13:46 < [R2]Mouther> 聽說R1第一排有人一直在睡＠＠
+13:47 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Quit: Page closed]
+13:47 -!- y3n [~AndChat12@122.147.204.212] has joined #mopcon
+13:48 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:49 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+13:50 -!- IDN_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+13:51 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+13:51 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Remote host closed the connection]
+13:51 -!- y5n [~AndChat12@110-28-2-223.adsl.fetnet.net] has quit [Ping timeout: 252 seconds]
+13:52 -!- blishs [~blishs@223-142-45-192.EMOME-IP.hinet.net] has quit [Quit: Bye]
+13:55 < mopcon-bot> (Ennone) BGM是大神的配樂
+13:57 -!- derekhsu_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+13:57 < mopcon-bot> (wupojung) R2 右邊再發抖 。。。
+13:57 < mopcon-bot> (wupojung) T⋯⋯T
+13:57 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+14:00 -!- Aweimeow [~Aweimeow@49.216.97.184] has joined #mopcon
+14:00 < Aweimeow> R2 右側的投影機持續抖動中
+14:00 < Aweimeow> 超自然震動
+14:00 -!- derekhsu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+14:00 < XiaoJunHong> R1 「看到主持人比我緊張，我就比較不緊張」
+14:00 -!- ggininder_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+14:01 < mopcon-bot> (focaaby) 兩點了，hackpad掛惹 XDDDDDDD
+14:01 < Aweimeow> hackpad 又掛了嗎
+14:01 < Aweimeow> XDDD
+14:01 < mopcon-bot> (focaaby) 因為1400了 XDDDDD
+14:01 < mopcon-bot> (gitjolin) 請問冷氣可以調整嗎？快變冰棒啦
+14:02 < [R2]Mouther> 請問樓上是哪一廳？
+14:02 < unciax> 冷氣處理中 請稍候
+14:02 < mopcon-bot> (hobbyling) R3也需要
+14:02 < mopcon-bot> (kitah) 行者看起來好棒
+14:03 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+14:03 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-yhqxxppdaqmfndjz] has quit [Quit: Connection closed for inactivity]
+14:03 -!- [R3]NO_NAME [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+14:04 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+14:04 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+14:04 < mopcon-bot> (viator75) R2右側投影機在發抖！
+14:05 < [R3]NO_NAME> 早上就這樣了
+14:05 < mopcon-bot> (gitjolin) 是太冷發抖了嗎？
+14:05 < mopcon-bot> (wupojung) 所以我跑來左邊 跟大家一起擠
+14:05 < mopcon-bot> (viator75) 應該是，剛好在風口下
+14:06 < mopcon-bot> (taxeswang) BB Call用過（舉手）
+14:09 -!- y5n [~AndChat12@110-28-143-219.adsl.fetnet.net] has joined #mopcon
+14:09 -!- y3n [~AndChat12@122.147.204.212] has quit [Read error: Connection reset by peer]
+14:09 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+14:09 < mopcon-bot> (yulin0629) Line買Pizza感覺很方便
+14:09 < divazone> LINE買PIZZA 不是直接去網站訂嗎？
+14:10 < Aweimeow> 求工作人員大大處理 R2 右邊投影機的震動 Q__Q
+14:10 < XiaoJunHong> 嘿Siri，用LINE買Pizza
+14:10 < alicekey> R3 太冷+1
+14:11 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+14:11 < mopcon-bot> (yulin0629) 所以以後可以用Line搭小黃
+14:11 < mopcon-bot> (yulin0629) 和報警
+14:12 < [R3]NO_NAME> 反應一下冷氣吧...好冷
+14:12 -!- xavier88 [~AndChat21@223-136-208-184.EMOME-IP.hinet.net] has joined #mopcon
+14:12 < XiaoJunHong> 嘿Siri，用LINE報警
+14:12 -!- y3n [~AndChat12@122.147.204.212] has joined #mopcon
+14:12 < mopcon-bot> (taxeswang) 現在已經可以用ＡＰＰ報警了
+14:12 < mopcon-bot> (wupojung) 嘿 siri ...用line 幫我coding  （誤
+14:13 < [R2]Mouther> R2 估計等這個 session 結束之後，才能處理投影機問題
+14:13 < XiaoJunHong> App 在 monkey test 的時候就狂報警（？
+14:13 < derekhsu> 牆角真的很冷
+14:13 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:13 -!- y5n [~AndChat12@110-28-143-219.adsl.fetnet.net] has quit [Ping timeout: 244 seconds]
+14:13 < mopcon-bot> (yulin0629) 用Line幫你神路人
+14:14 < mopcon-bot> (Jackson45252) Line神?
+14:15 -!- jeremy5189 [~jeremy518@ec2-54-65-187-237.ap-northeast-1.compute.amazonaws.com] has quit [Quit: leaving]
+14:16 < mopcon-bot> (wupojung) 不過授權金 正式收費以後 很可怕（小聲說）
+14:16 < divazone> 只要LINE有17一半的功能就考慮（
+14:16 < mopcon-bot> (yulin0629) 問冰箱感覺其實很怪
+14:16 < mopcon-bot> (wupojung) JSDC 問到的價格 10萬／月
+14:16 < mopcon-bot> (wupojung) 左右。。。
+14:16 < [R2]Mouther> [公告] 4樓廁所撿到白色sony手機，請遺失的會眾到櫃檯領取
+14:16 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+14:17 -!- [R3]NO_NAME_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+14:17 < divazone> LINE的服務越來越好是不錯 不過帳號上的安全問題 我覺得還是有點不太好
+14:17 < XiaoJunHong> 「嘿LINE，冰箱還有幾瓶啤酒？」「有三瓶過期的啤酒」
+14:17 < divazone> 之前都有人被盜帳號
+14:18 < mopcon-bot> (wupojung) R2 大家都好快喔
+14:18 < [R3]NO_NAME_> SARS硬碟？
+14:18 -!- [R3]NO_NAME [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+14:18 < mopcon-bot> (yulin0629) 用Line開門好了
+14:18 < XiaoJunHong> 「嘿LINE，有幾個好友被盜？」「計算中...」
+14:19 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+14:19 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+14:19 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Client Quit]
+14:19 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+14:20 -!- [R3]NO_NAME_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Client Quit]
+14:21 < mopcon-bot> (taxeswang) R3的冷氣不用錢～～～～～（抖）
+14:24 -!- Hermes_ [8c7b698f@gateway/web/freenode/ip.140.123.105.143] has quit [Quit: Page closed]
+14:24 -!- y3n [~AndChat12@122.147.204.212] has quit [Read error: Connection reset by peer]
+14:24 -!- y5n [~AndChat12@39.8.133.108] has joined #mopcon
+14:24 < derekhsu> 「嘿LINE，冰箱還有幾瓶啤酒？」「本來有三罐，一罐被隔壁的老王喝掉了」
+14:24 < IDN_> Line的VoIP有時候也不是很順暢（X
+14:25 -!- y3n [~AndChat12@122.147.204.212] has joined #mopcon
+14:25 < XiaoJunHong> 「嘿LINE，凍結隔壁老王」
+14:25 < mopcon-bot> (yulin0629) 那台冰箱我要買
+14:25 -!- unciax [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+14:25 < mopcon-bot> (gitjolin) LINE可以幫我寫程式嗎?
+14:25 < ggininder_> yjo4urp4
+14:26 -!- wildfoot_cloud_ [uid92129@gateway/web/irccloud.com/x-czhbjdnxvadwnwda] has joined #mopcon
+14:26 < XiaoJunHong> 一年要幾百萬...
+14:26 < ggininder_> 最近yahoo的十秒完成拍賣 應該也是這個吧
+14:26 < mopcon-bot> (wupojung) 還不含後面的 分析服務XD
+14:26 < mopcon-bot> (yulin0629) Line直播
+14:26 < XiaoJunHong> 直播老王（？
+14:28 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Read error: Connection reset by peer]
+14:28 < mopcon-bot> (AugustusW) LINE的服務有點貴 可能不想氾濫吧
+14:28 -!- y5n [~AndChat12@39.8.133.108] has quit [Ping timeout: 255 seconds]
+14:29 < mopcon-bot> (yulin0629) 個人沒有的話，就不好玩了
+14:29 -!- hungwei [~hungwei@122.147.204.216] has joined #mopcon
+14:29 < mopcon-bot> (gitjolin) 所以是要有幾百萬才可以玩的意思嗎？好吧...老王 你可以繼續喝啤酒了
+14:29 < mopcon-bot> (AugustusW) 今天看到攤位介紹以為終於有開放個人使用
+14:29 < XiaoJunHong> 有種微軟 .NET 的感覺
+14:30 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:32 < XiaoJunHong> MOPCON應該要全大寫嗎 O__O
+14:33 < divazone> 應該
+14:34 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+14:34 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+14:37 < divazone> 達美樂：不要來亂
+14:37 < mopcon-bot> (shih0810) Line的ipad都不能傳貼圖⋯說好的使用者只要的是功能呢
+14:38 < mopcon-bot> (mouse170) telegram歡迎你
+14:38 -!- stkd_ [uid56888@gateway/web/irccloud.com/x-alxhswkjbiibqkgq] has quit [Quit: Connection closed for inactivity]
+14:38 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+14:38 < y3n> Telegram 讚
+14:38 < divazone> 女子高中生>////<
+14:39 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+14:39 -!- y5n [~AndChat12@110.30.30.131] has joined #mopcon
+14:40 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Remote host closed the connection]
+14:41 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+14:42 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+14:43 -!- unciax_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+14:43 -!- y3n [~AndChat12@122.147.204.212] has quit [Ping timeout: 250 seconds]
+14:45 -!- IDN_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+14:45 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Remote host closed the connection]
+14:46 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 264 seconds]
+14:49 -!- hungwei [~hungwei@122.147.204.216] has quit [Ping timeout: 244 seconds]
+14:49 -!- Aweimeow [~Aweimeow@49.216.97.184] has quit [Ping timeout: 252 seconds]
+14:49 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+14:49 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+14:50 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:50 < mopcon-bot> (passerbyid) 請問剛剛 line 那場，女子高中生的語意分析叫啥名？
+14:51 -!- ggininder_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+14:51 -!- unciax_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Quit: Page closed]
+14:51 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 240 seconds]
+14:52 -!- unciax [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+14:54 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Ping timeout: 240 seconds]
+14:55 < mopcon-bot> (mouse170) @passerbyid http://rinna.jp
+14:58 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+14:59 -!- Calos [7a93ccd8@gateway/web/cgi-irc/kiwiirc.com/ip.122.147.204.216] has joined #mopcon
+14:59 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:00 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+15:02 -!- swem_ [uid27646@gateway/web/irccloud.com/x-ohxswvmcqcndtulr] has quit [Ping timeout: 264 seconds]
+15:02 -!- swem_ [uid27646@gateway/web/irccloud.com/x-xbscccogfewefsje] has joined #mopcon
+15:05 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+15:08 -!- y5n [~AndChat12@110.30.30.131] has quit [Remote host closed the connection]
+15:15 -!- Calos [7a93ccd8@gateway/web/cgi-irc/kiwiirc.com/ip.122.147.204.216] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:16 -!- ifTNT [uid52634@gateway/web/irccloud.com/x-geklvofqkthxvugf] has quit [Quit: Connection closed for inactivity]
+15:18 < mopcon-bot> (passerbyid) @mouse170 感恩
+15:18 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Ping timeout: 240 seconds]
+15:20 < mopcon-bot> (chyuaner) 請問目前 Gradle 不只自動化而且更敏捷 投影片已經放出來了嗎？
+15:20 < mopcon-bot> (chyuaner) 我可以從那邊找到？
+15:21 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:22 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+15:22 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Remote host closed the connection]
+15:22 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+15:23 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+15:23 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+15:24 -!- stkd_ [uid56888@gateway/web/irccloud.com/x-ylnkozorpjncjzox] has joined #mopcon
+15:25 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Client Quit]
+15:27 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+15:28 -!- Shen [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+15:29 -!- derekhsu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Quit: Page closed]
+15:29 -!- derekhsu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+15:30 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+15:32 < cber> 安安
+15:33 < Hermes> 嗨嗨
+15:33 -!- iamblue [24ed4bb1@gateway/web/freenode/ip.36.237.75.177] has joined #mopcon
+15:34 < mopcon-bot> (luhaoming) Gandi是賣玉米嗎？喔，聽錯了 是域名
+15:34 -!- hungwei [~hungwei@220-143-252-201.dynamic.hinet.net] has joined #mopcon
+15:36 -!- AndChat|511 [~AndChat51@122.147.204.212] has joined #mopcon
+15:36 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:38 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+15:38 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:39 < alicekey> 我還以為是雲林到高雄XD
+15:42 -!- xavier88 [~AndChat21@223-136-208-184.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+15:42 -!- xavier88 [~AndChat21@223-136-208-184.EMOME-IP.hinet.net] has joined #mopcon
+15:43 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:43 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+15:50 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+15:52 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+15:52 -!- AndChat|511 [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:53 < mopcon-bot> (ghostwolf90) 我真的以為是買玉米....
+15:58 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Ping timeout: 265 seconds]
+16:00 < mopcon-bot> (chyuaner) 請問今天MOPCON有賣紀念T-shirt嗎？
+16:01 < mopcon-bot> (keith222) 記得有 在三樓報到處的樣子
+16:02 -!- iamblue [24ed4bb1@gateway/web/freenode/ip.36.237.75.177] has quit [Ping timeout: 246 seconds]
+16:03 -!- derekhsu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+16:05 -!- ggininder_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+16:05 -!- hungwei [~hungwei@220-143-252-201.dynamic.hinet.net] has quit [Ping timeout: 244 seconds]
+16:05 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+16:07 -!- AndChat|511 [~AndChat51@122.147.204.212] has joined #mopcon
+16:07 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:08 < mopcon-bot> (unciax) 有喔  歡迎來三樓報到處選購
+16:08 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+16:09 -!- Aweimeow [~Aweimeow@122.147.204.212] has joined #mopcon
+16:10 < pcchou> 3F BobChao Unconference!
+16:10 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+16:11 -!- madarame_ [uid28051@gateway/web/irccloud.com/x-ywgkrgjibuicxsbx] has joined #mopcon
+16:12 < Aweimeow> 喔喔喔喔喔喔喔喔喔喔喔喔 投影機不晃了
+16:14 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:15 < [R2]Mouther> 翻譯好有趣 ＸＤ
+16:16 -!- jeremy5189 [~jeremy518@ec2-54-65-187-237.ap-northeast-1.compute.amazonaws.com] has joined #mopcon
+16:16 < mopcon-bot> (keith222) XD
+16:17 -!- derekhsu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+16:17 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:18 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+16:19 < mopcon-bot> (supernisor123) 剛剛他說有放在slide share
+16:19 < mopcon-bot> (supernisor123) 有人有ＬＩＮＫ嗎
+16:19 < mopcon-bot> (kewang) http://www.slideshare.net/samchiu0419/android-gradle-mopcon-54589102
+16:19 < mopcon-bot> (kewang) hackpad上面有
+16:19 -!- hungwei [~hungwei@122.147.204.216] has joined #mopcon
+16:20 < mopcon-bot> (supernisor123) 好的感謝
+16:21 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:21 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+16:22 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+16:22 -!- AndChat|511 [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:23 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Client Quit]
+16:23 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+16:23 -!- kenobilyh [uid106989@gateway/web/irccloud.com/x-jxqmgelbizofustb] has quit [Quit: Connection closed for inactivity]
+16:25 -!- AndChat|271284 [~AndChat27@111-82-25-152.EMOME-IP.hinet.net] has joined #mopcon
+16:25 < Aweimeow> R2的翻譯口速好快 Q_Q
+16:27 < ggininder_> 口譯好厲害！
+16:27 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has joined #mopcon
+16:29 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+16:30 -!- ggininder_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Quit: Page closed]
+16:30 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:31 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+16:31 -!- ggininder_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+16:34 < mopcon-bot> (jordanSu) 口譯應該本身也有資訊背景吧?!
+16:34 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has quit [Ping timeout: 244 seconds]
+16:34 < mopcon-bot> (jordanSu) 感覺也是有專有名詞的
+16:36 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+16:36 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:36 -!- derekhsu [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+16:37 < mopcon-bot> (chusiang) 口譯本身也是資深 RD 喔！
+16:38 -!- andytwmvp- [~andytwmvp@122.147.204.216] has joined #mopcon
+16:39 < mopcon-bot> (rickchcc) 拜倒
+16:40 < [R2]Mouther> 精通日語的RD，大家快來搶唷
+16:41 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+16:41 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 256 seconds]
+16:42 < mopcon-bot> (chihying) R2口譯語速好快(掩面
+16:42 -!- andytwmvp- [~andytwmvp@122.147.204.216] has quit [Ping timeout: 244 seconds]
+16:44 < mopcon-bot> (Jackson45252) 他的舌頭是高科技
+16:45 < ggininder_> 翻譯年糕的rd
+16:46 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:46 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:47 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+16:48 < mopcon-bot> (wupojung) QQ  R1 說了一個笑話  我就跟不上了
+16:48 < [R2]Mouther> 好冷清啊這裡
+16:49 -!- AndChat|217856 [~AndChat21@223-139-224-45.EMOME-IP.hinet.net] has joined #mopcon
+16:50 -!- onlyfly34 [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+16:51 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+16:51 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+16:51 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:52 < mopcon-bot> (Jackson45252) R1是日本人
+16:52 < mopcon-bot> (Jackson45252) R3是高雄人 地主優勢?
+16:52 -!- xavier88 [~AndChat21@223-136-208-184.EMOME-IP.hinet.net] has quit [Ping timeout: 252 seconds]
+16:53 -!- wei__ [uid110036@gateway/web/irccloud.com/x-kgefxabixdhfgpul] has quit [Quit: Connection closed for inactivity]
+16:53 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:54 < ggininder_> 神人出現了
+16:54 < [R2]Mouther> 就給你們聊就好了啊
+16:54 < Wemy> 50w一行字ˊˇˋ
+16:54 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+16:55 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Remote host closed the connection]
+16:55 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:55 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+16:55 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-umzywnjoxypkjnva] has joined #mopcon
+16:57 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Quit: Leaving]
+16:58 -!- unciax [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+16:59 < mopcon-bot> (kewang) 他只想到他自己！！！
+17:01 -!- ggininder_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Quit: Page closed]
+17:02 < mopcon-bot> (kitah) Open source 只想到他自己
+17:03 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has joined #mopcon
+17:04 -!- hungwei [~hungwei@122.147.204.216] has quit [Ping timeout: 244 seconds]
+17:05 -!- Aweimeow [~Aweimeow@122.147.204.212] has quit [Ping timeout: 272 seconds]
+17:06 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+17:06 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+17:06 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:06 -!- yulin [~aaa@110-30-30-131.adsl.fetnet.net] has joined #mopcon
+17:07 < divazone> 三樓那邊還有衣服可以買嗎？
+17:07 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+17:07 < mopcon-bot> (helen-yeh) 還有~!
+17:07 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+17:09 < DennyHuang> R2 投影片網址 http://denny.one/MOPCON2015/#1
+17:09 < mopcon-bot> (wupojung) 去年的還有嘛？
+17:09 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:10 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+17:10 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+17:10 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+17:10 < mopcon-bot> (williesmithchen) [r1]出張嘴的也算工程師www
+17:11 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:11 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+17:12 < mopcon-bot> (andytwmvp) 退學宣言wwww
+17:12 < Wemy> vim開發android wwww
+17:13 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has joined #mopcon
+17:13 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:13 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:13 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+17:13 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+17:13 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+17:13 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+17:14 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+17:14 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:14 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:14 -!- AndChat|511 [~AndChat51@122.147.204.212] has joined #mopcon
+17:14 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+17:14 < mopcon-bot> (LuxunHuang) 推eclim.org
+17:14 < mopcon-bot> (LuxunHuang)
+17:15 < mopcon-bot> (mkidyt) 可是PM本人在場喔XD
+17:15 -!- ScottChen [270dcb8c@gateway/web/cgi-irc/kiwiirc.com/ip.39.13.203.140] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:16 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+17:16 < [R2]Mouther> 圖書館
+17:18 < mopcon-bot> (wupojung) 可以收錄成語錄了啦。。GJ
+17:18 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+17:27 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has joined #mopcon
+17:28 < mopcon-bot> (Lorex) denny 為什麼只問 vim 啦QQ
+17:28 < mopcon-bot> (Lorex) emacs 使用者表示覺得被歧視 QQ
+17:29 < mopcon-bot> (divazone) 好猛啊XDDD
+17:29 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:29 -!- AndChat|511 [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:29 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+17:29 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+17:30 < [R2]Mouther> 我都用 url-loader ((被揍
+17:35 < mopcon-bot> (wupojung) 這屆的梗就是 通靈嗎～～ XD
+17:37 < mopcon-bot> (divazone) doggy
+17:37 < mopcon-bot> (Lorex) doge :)
+17:38 < mopcon-bot> (Lorex) NB 沒電了，我好想念人文館QQ
+17:38 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has quit []
+17:38 < mopcon-bot> (divazone) 都只能綁充電區
+17:38 < mopcon-bot> (Lorex) 有充電區嗎？ ((眼神亮
+17:39 < mopcon-bot> (divazone) 有啊 你可以看會場地圖
+17:40 < mopcon-bot> (NightFeather) 充電區一開始還以為是啥神奇的討論區
+17:41 < mopcon-bot> (divazone) 只是很多人順便在那聊天吧www
+17:42 < mopcon-bot> (NightFeather) 直到看到桌上的線 ' -')
+17:44 -!- AndChat|261225 [~AndChat26@122.147.204.212] has joined #mopcon
+17:44 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:44 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+17:44 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+17:51 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 240 seconds]
+17:51 -!- cber [~AndChat51@122.147.204.212] has quit [Ping timeout: 250 seconds]
+17:55 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 240 seconds]
+17:58 -!- onlyfly34 [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+17:59 -!- DanLu [~AndChat26@122.147.204.212] has joined #mopcon
+17:59 -!- AndChat|261225 [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+18:03 -!- lego_ [~lego@122.147.204.212] has quit [Ping timeout: 240 seconds]
+18:04 -!- DanLu [~AndChat26@122.147.204.212] has quit [Read error: Connection reset by peer]
+18:06 -!- AndChat|271284 [~AndChat27@111-82-25-152.EMOME-IP.hinet.net] has quit [Quit: Bye]
+18:18 -!- madarame_ [uid28051@gateway/web/irccloud.com/x-ywgkrgjibuicxsbx] has quit [Quit: Connection closed for inactivity]
+18:39 -!- AndChat|217856 [~AndChat21@223-139-224-45.EMOME-IP.hinet.net] has quit [Ping timeout: 252 seconds]
+18:40 -!- xavier88 [~AndChat21@223-139-224-45.EMOME-IP.hinet.net] has joined #mopcon
+19:03 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-umzywnjoxypkjnva] has quit [Quit: Connection closed for inactivity]
+19:05 -!- HCLD [uid121562@gateway/web/irccloud.com/x-qvgetsjodbnnrdxt] has quit [Quit: Connection closed for inactivity]
+19:07 -!- yulin [~aaa@110-30-30-131.adsl.fetnet.net] has quit [Ping timeout: 240 seconds]
+19:20 -!- wildfoot_cloud_ [uid92129@gateway/web/irccloud.com/x-czhbjdnxvadwnwda] has quit [Quit: Connection closed for inactivity]
+19:24 -!- wildfoot_cloud_ [uid92129@gateway/web/irccloud.com/x-ktodzpurspooixaj] has joined #mopcon
+19:27 -!- alicekey [uid16113@gateway/web/irccloud.com/x-dmcpuqklntwvednv] has quit [Quit: Connection closed for inactivity]
+19:34 -!- yulin [~aaa@39.8.39.174] has joined #mopcon
+19:35 -!- AndChat|217856 [~AndChat21@223-139-224-45.EMOME-IP.hinet.net] has joined #mopcon
+19:35 -!- xavier88 [~AndChat21@223-139-224-45.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+19:38 -!- stkd_ [uid56888@gateway/web/irccloud.com/x-ylnkozorpjncjzox] has quit [Quit: Connection closed for inactivity]
+19:42 -!- Wemy [uid13637@gateway/web/irccloud.com/x-ghkibpdnqqpxsrfo] has quit [Quit: Connection closed for inactivity]
+19:45 -!- trista [uid106978@gateway/web/irccloud.com/x-khczkhrcxufikzwa] has quit [Quit: Connection closed for inactivity]
+19:54 -!- yulin [~aaa@39.8.39.174] has quit [Remote host closed the connection]
+21:26 -!- ifTNT [uid52634@gateway/web/irccloud.com/x-jmgmrhnrhoydlcfe] has joined #mopcon
+21:30 -!- wildfoot_cloud_ [uid92129@gateway/web/irccloud.com/x-ktodzpurspooixaj] has quit [Quit: Connection closed for inactivity]
+21:38 -!- lego_ [~lego@61-227-174-69.dynamic.hinet.net] has joined #mopcon
+22:02 -!- lego_ [~lego@61-227-174-69.dynamic.hinet.net] has quit [Ping timeout: 272 seconds]
+22:04 -!- divazone [~yourname@123-204-205-250.adsl.dynamic.seed.net.tw] has joined #mopcon
+22:06 -!- lego_ [~lego@61-227-174-69.dynamic.hinet.net] has joined #mopcon
+22:57 -!- lego_ [~lego@61-227-174-69.dynamic.hinet.net] has quit [Ping timeout: 255 seconds]
+--- Log closed Sun Nov 01 00:00:22 2015
+
+Day 2
+========
+
+--- Log opened Sun Nov 01 00:00:22 2015
+00:15 -!- AndChat|217856 [~AndChat21@223-139-224-45.EMOME-IP.hinet.net] has quit [Quit: Bye]
+00:16 -!- divazone [~yourname@123-204-205-250.adsl.dynamic.seed.net.tw] has quit [Ping timeout: 260 seconds]
+00:40 -!- XiaoJunHong_m [uid84478@gateway/web/irccloud.com/x-zkcvktjqphtxgbgi] has quit [Ping timeout: 240 seconds]
+00:40 -!- yrc [uid123303@gateway/web/irccloud.com/x-tikspfiitojhnfco] has quit [Ping timeout: 240 seconds]
+00:40 -!- cataska [sid12717@gateway/web/irccloud.com/x-yoaicvuijfvhudfq] has quit [Ping timeout: 240 seconds]
+00:41 -!- yrc [uid123303@gateway/web/irccloud.com/x-rbxxxxapmxzfwezn] has joined #mopcon
+00:43 -!- XiaoJunHong_m [uid84478@gateway/web/irccloud.com/x-rjatmpnzpkbsieof] has joined #mopcon
+00:46 -!- cataska [sid12717@gateway/web/irccloud.com/x-jayfmseeqbncqzsd] has joined #mopcon
+00:49 -!- alicekey [~alicekey@host-58-115-184-32.dynamic.kbtelecom.net] has joined #mopcon
+00:51 -!- alicekey_ [uid16113@gateway/web/irccloud.com/x-hptbmgiuqbbwlspw] has joined #mopcon
+00:53 -!- alicekey [~alicekey@host-58-115-184-32.dynamic.kbtelecom.net] has quit [Client Quit]
+00:53 -!- alicekey_ is now known as alicekey
+02:57 -!- alicekey [uid16113@gateway/web/irccloud.com/x-hptbmgiuqbbwlspw] has quit [Quit: Connection closed for inactivity]
+03:56 -!- ifTNT [uid52634@gateway/web/irccloud.com/x-jmgmrhnrhoydlcfe] has quit [Quit: Connection closed for inactivity]
+07:56 -!- xavier88 [~AndChat21@223-138-196-193.EMOME-IP.hinet.net] has joined #mopcon
+08:58 -!- lego_ [~lego@122.147.204.212] has joined #mopcon
+09:07 -!- HCLD [uid121562@gateway/web/irccloud.com/x-kwoofryntdxvjxwp] has joined #mopcon
+09:15 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+09:16 < XiaoJunHong> 會提供肉乾獎品（X
+09:19 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Remote host closed the connection]
+09:19 -!- XiaoJunHong [~XiaoJunHo@223-139-214-172.EMOME-IP.hinet.net] has joined #mopcon
+09:20 < XiaoJunHong> R1的雜音有點明顯
+09:20 -!- Aweimeow [~Aweimeow@122.147.204.212] has joined #mopcon
+09:20 < XiaoJunHong> 現在有小聲一點點
+09:20 < Aweimeow> 這個直播好頓 Q__Q
+09:21 < XiaoJunHong> bot好像沒在這邊轉訊息
+09:21 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+09:21 < Aweimeow> bot 掛掉了嗎 XD
+09:21 < divazone> 看來是壞了 沒在轉
+09:22 < divazone> 但是轉過去的還有
+09:22 < XiaoJunHong> 居然看到有人在升級Mac ww
+09:23 < Aweimeow> 這個是小俊欸！！！
+09:23 < Aweimeow> 發現小俊！
+09:23 < XiaoJunHong> 欸... QAQ 你是哪位（遮臉
+09:23 -!- ifTNT [uid52634@gateway/web/irccloud.com/x-utyzqdgybxzmvoma] has joined #mopcon
+09:23 < Aweimeow> 沒辦法小俊不讓我認親 QQ 到了現在還不知道你長怎樣
+09:24 -!- ifTNT_ [~iftnt@101.14.225.215] has joined #mopcon
+09:30 -!- Jacky [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+09:31 -!- Jacky is now known as Guest87776
+09:34 -!- DolphinWing [~androirc@122.147.204.212] has joined #mopcon
+09:35 -!- Guest87776 [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+09:35 < DolphinWing>  test
+09:39 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+09:39 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+09:40 -!- y5n [~AndChat48@39.9.32.95] has joined #mopcon
+09:41 -!- DolphinWing [~androirc@122.147.204.212] has quit [Ping timeout: 240 seconds]
+09:41 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+09:41 -!- DolphinWing [~androirc@122.147.204.216] has joined #mopcon
+09:42 < DolphinWing> 今天網路比較慢？
+09:44 < XiaoJunHong> 感覺還好？
+09:44 < XiaoJunHong> Aweimeow: 嘖嘖 XD
+09:48 < XiaoJunHong> 「這麼快就跑出來了，真是輕鬆愉快啊」
+09:53 < XiaoJunHong> 可能還有人還在賴床，比較少人自開 AP（？
+09:53 < divazone> 感覺今天人好像比較少耶
+09:54 -!- ifTNT_ [~iftnt@101.14.225.215] has quit [Ping timeout: 265 seconds]
+09:56 -!- alicekey [uid16113@gateway/web/irccloud.com/x-txpbbogyxxtsonyi] has joined #mopcon
+09:58 -!- Aweimeow [~Aweimeow@122.147.204.212] has quit [Ping timeout: 250 seconds]
+09:58 -!- DolphinWing [~androirc@122.147.204.216] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+09:59 -!- DolphinWing [~androirc@122.147.204.216] has joined #mopcon
+10:02 < DolphinWing> 所以是在排什麼
+10:03 -!- Sciuridae_ [~Sciuridae@39.10.208.111] has joined #mopcon
+10:04 < XiaoJunHong> 可惡，有點好奇排什麼
+10:06 < DolphinWing> 有人說是在抽T-shirt
+10:06 -!- Sciuridae [~Sciuridae@39.8.100.123] has quit [Ping timeout: 250 seconds]
+10:12 -!- DolphinWing [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+10:13 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+10:14 -!- DanLu [~AndChat27@223-138-227-59.EMOME-IP.hinet.net] has joined #mopcon
+10:16 -!- ifTNT_ [~iftnt@101.14.225.215] has joined #mopcon
+10:18 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+10:18 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+10:19 -!- DolphinWing [~androirc@122.147.204.216] has joined #mopcon
+10:19 < DolphinWing> 已學乖 +1
+10:19 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+10:20 -!- cber [~AndChat51@223-142-124-23.EMOME-IP.hinet.net] has joined #mopcon
+10:21 -!- ac998 [~ac_78@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+10:21 < yrc> 黑貓維茲?1
+10:21 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-wvtaqohroncazntf] has joined #mopcon
+10:21 < cber> 原來是黑貓阿
+10:21 -!- Aweimeow [~Aweimeow@49.214.10.175] has joined #mopcon
+10:21 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Client Quit]
+10:21 < divazone> 也太像
+10:21 < WaitingChen> 黑貓 頭鷹
+10:22 < yrc> 黑貓頭鷹
+10:22 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+10:22 < divazone> 不過現在很多手遊長得很像也不奇怪（？
+10:22 < ggininder_> 可能日本黑貓已經先把雷都踩過了
+10:23 < yrc> 嗯嗯不Yee外
+10:23 < DolphinWing> 就跟跑步游泳一樣，不就是你做什麼，我也做什麼嗎
+10:23 < WaitingChen> ［問卦］有沒有最近手機遊戲都很像的八卦？
+10:23 < divazone>  可是這樣說真的能夠賺到市場嗎？只有起頭的廠商會比較好賺吧？
+10:23 < yrc> 沒有綽啦
+10:24 < ggininder_> 主要是太像了! 連介面都很像....
+10:25 < divazone> 是根本都一樣吧
+10:25 < divazone> 頂多ICON跟抽獎畫面重作還有卡面不一樣
+10:25 < ggininder_> 求大大等一下拿黑貓去問他們XD
+10:26 < divazone> 我覺得等等可能有人會問吧XD
+10:26 < WaitingChen> 跪求勇者XD
+10:27 < Aweimeow> 求勇者發問 好想看看會怎麼回答 XDDD
+10:27 < DolphinWing> 發問的會送你卡片(疑)
+10:28 < ggininder_> 今天R2主題: 論著作權與工程師之關聯
+10:28 < WaitingChen> 是5星傳說卡喔<3
+10:29 < divazone> 刻場景是很OK 但是創意...XD
+10:29 < yrc> Live Demo猛猛der
+10:29 < Aweimeow> 風車會轉欸！！！
+10:30 < DolphinWing> 我不在這邊示範喔，手默默地把風車拉了個位置
+10:30 -!- AndChat|511 [~AndChat51@122.147.204.212] has joined #mopcon
+10:32 < Aweimeow> 話說 mopconbot 是不是還是沒有轉送 Q__Q
+10:32 -!- DolphinWing [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+10:32 < Aweimeow> 這邊好冷清好荒涼
+10:32 -!- DolphinWing [~androirc@122.147.204.216] has joined #mopcon
+10:32 < divazone> gitter的還是轉不過來
+10:34 -!- cber [~AndChat51@223-142-124-23.EMOME-IP.hinet.net] has quit [Ping timeout: 268 seconds]
+10:35 -!- ac998 [~ac_78@114-25-99-89.dynamic.hinet.net] has quit [Ping timeout: 246 seconds]
+10:35 -!- iRick_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+10:35 -!- mouther [uid25670@gateway/web/irccloud.com/x-vmrvjiuymribtbcg] has joined #mopcon
+10:36 < mouther> Unconference 講者來頭超大
+10:36 < mouther> 不聽會後悔
+10:36 < divazone> AWS？
+10:36 < mouther> IoT
+10:37 < divazone> WHO？
+10:38 -!- xavier88 [~AndChat21@223-138-196-193.EMOME-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+10:38 -!- ifTNT__ [~iftnt@122.147.204.212] has joined #mopcon
+10:39 -!- xavier88 [~AndChat21@223-138-196-193.EMOME-IP.hinet.net] has joined #mopcon
+10:39 < Aweimeow> 聽說昨天是 bob 大大
+10:39 < Aweimeow> 今天是誰啊 ？
+10:41 -!- ifTNT_ [~iftnt@101.14.225.215] has quit [Ping timeout: 260 seconds]
+10:42 -!- stkd_ [uid56888@gateway/web/irccloud.com/x-iksxkbpnpfyoxtxl] has joined #mopcon
+10:42 -!- ifTNT__ is now known as ifTNT_
+10:42 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Quit: Page closed]
+10:43 -!- gginder [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+10:43 -!- iRick_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Quit: Page closed]
+10:45 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+10:45 -!- AndChat|511 [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+10:47 -!- ac_77 [~ac777@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+10:47 -!- ac_77 [~ac777@114-25-99-89.dynamic.hinet.net] has quit [Client Quit]
+10:47 -!- ifTNT_ [~iftnt@122.147.204.212] has quit [Ping timeout: 255 seconds]
+10:48 -!- ac77 [~ac777@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+10:53 -!- kciri [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+10:54 -!- bd_7 [~chrome@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+10:54 -!- cber [~AndChat51@122.147.204.212] has quit [Ping timeout: 240 seconds]
+10:55 -!- ac77 [~ac777@114-25-99-89.dynamic.hinet.net] has quit [Quit: Leaving]
+10:57 -!- ifTNT_ [~iftnt@122.147.204.212] has joined #mopcon
+11:00 -!- Viktor_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+11:01 < Aweimeow> GG R2 共筆坦不起來
+11:02 -!- AndroUser2 [~androirc@122.147.204.216] has joined #mopcon
+11:02 -!- DolphinWing [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:03 < gginder> A大 是 r2 mvp
+11:03 -!- kciri [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+11:05 -!- Viktor2 [~hermes@122.147.204.216] has joined #mopcon
+11:05 -!- Viktor_ [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+11:05 -!- Viktor2 [~hermes@122.147.204.216] has left #mopcon []
+11:06 -!- Viktor2 [~hermes@122.147.204.216] has joined #mopcon
+11:06 < Aweimeow> 鬆一口氣 QQ
+11:06 < Aweimeow> 有夠累的
+11:06 -!- bd_7 [~chrome@114-25-99-89.dynamic.hinet.net] has quit [Remote host closed the connection]
+11:07 -!- XiaoJunH_ [~XiaoJunHo@122.147.204.216] has joined #mopcon
+11:08 -!- AndroUser2 [~androirc@122.147.204.216] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+11:08 -!- DanLu [~AndChat27@223-138-227-59.EMOME-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+11:09 -!- ifTNT_ [~iftnt@122.147.204.212] has quit [Ping timeout: 264 seconds]
+11:09 -!- XiaoJunHong [~XiaoJunHo@223-139-214-172.EMOME-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+11:10 -!- XiaoJunH_ [~XiaoJunHo@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:10 -!- ifTNT_ [~iftnt@122.147.204.212] has joined #mopcon
+11:11 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+11:11 -!- Aweimeow [~Aweimeow@49.214.10.175] has quit [Ping timeout: 252 seconds]
+11:11 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 240 seconds]
+11:11 -!- DanLu [~AndChat27@223-138-227-59.EMOME-IP.hinet.net] has joined #mopcon
+11:12 -!- DolphinWing [~androirc@122.147.204.216] has joined #mopcon
+11:14 < pastleo> R2 右邊有點冷QQ
+11:14 < XiaoJunHong_m> 超冷的...
+11:16 -!- Aweimeow [~Aweimeow@122.147.204.212] has joined #mopcon
+11:17 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 272 seconds]
+11:18 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+11:18 -!- DolphinWing [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:19 < Aweimeow> R2 瞬間多出好多人啊（遠望
+11:22 < y5n> Lxde 被排擠了qq
+11:23 -!- mopcon-bot [~nodebot@114-33-151-21.HINET-IP.hinet.net] has quit [Remote host closed the connection]
+11:23 -!- mopcon-bot [~nodebot@114-33-151-21.HINET-IP.hinet.net] has joined #mopcon
+11:25 < Viktor2> LXQt(?
+11:25 < dolphinwing74> R2的投影機也怕冷
+11:27 < mopcon-bot> (prprprpony) lxqt 表示：
+11:28 < mopcon-bot> (Serrok) [QNAP] 說個秘訣，看今天早上的報紙，今天下午 14:00 抽獎。還沒填(ㄇㄞˋ)問(ㄍㄜˋ)卷(ㄗ)換小禮物跟拿抽獎機會的趕快來喔喔喔～
+11:29 < mopcon-bot> (mimiguo) 能救救 R2 的投影機嗎 please~ (覺得暈眩)
+11:30 < mopcon-bot> (Azraels) R2居然不能進去了
+11:31 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+11:33 -!- DolphinWing [~androirc@122.147.204.216] has joined #mopcon
+11:33 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:33 < mopcon-bot> (johnroyer) @divazone gitter-bot 同步問題已修正，感謝回報 <(_ _)>
+11:34 < zeroplex> Aweimeow: 可能是連線有中斷，已重新啟動 gitter-bot，謝謝
+11:34 < mopcon-bot> (divazone) ＠johnroyer <(_ _)>
+11:35 < yrc> 坐好，坐滿！才不會痠中痛
+11:37 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has joined #mopcon
+11:39 -!- ac998 [~ac_78@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+11:39 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+11:39 -!- DolphinWing [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:40 -!- kcir [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has joined #mopcon
+11:41 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+11:43 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:43 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+11:47 -!- achat [~ac_78@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+11:48 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 250 seconds]
+11:48 -!- ac998 [~ac_78@114-25-99-89.dynamic.hinet.net] has quit [Ping timeout: 246 seconds]
+11:49 -!- Viktor2 [~hermes@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:53 -!- thomastsaitw [~Thomas.tw@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:53 < mopcon-bot> (kewang) 台語問日文講者 XDDDDD
+11:54 -!- gginder [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Quit: Page closed]
+11:57 < mopcon-bot> (kewang) [R1] 講者好辛苦，一下要聽台語，一下要聽中文，一下要聽英文，一下要聽日文 XDDD
+11:57 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 250 seconds]
+11:57 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:58 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+11:58 -!- Viktor2 [~hermes@122.147.204.216] has joined #mopcon
+11:58 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+11:58 < mopcon-bot> (divazone) XDDDDD
+11:59 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+11:59 < mopcon-bot> (chusiang) [![mopcon2015_lightning_talk .jpg](https://files.gitter.im/MOPCON/mopcon-chat/gPvl/thumb/mopcon2015_lightning_talk-.jpg)](https://files.gitter.im/MOPCON/mopcon-chat/gPvl/mopcon2015_lightning_talk-.jpg)
+12:00 < mopcon-bot> (divazone) 賀
+12:01 < mopcon-bot> (divazone) 等等可能會有多的便當嗎？
+12:02 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Remote host closed the connection]
+12:02 -!- Aweimeow [~Aweimeow@122.147.204.212] has quit [Read error: Connection reset by peer]
+12:03 < mopcon-bot> (chusiang) 有需要可以事後來服務台問喔，應該會多。
+12:04 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+12:05 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+12:05 -!- ifTNT_ [~iftnt@122.147.204.212] has quit [Ping timeout: 256 seconds]
+12:06 -!- kcir [7a93ccd8@gateway/web/freenode/ip.122.147.204.216] has quit [Ping timeout: 246 seconds]
+12:06 < mopcon-bot> (wupojung) miki XD
+12:09 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 250 seconds]
+12:09 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+12:09 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+12:10 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 250 seconds]
+12:10 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 256 seconds]
+12:12 -!- AndChat|217856 [~AndChat21@223-139-207-208.EMOME-IP.hinet.net] has joined #mopcon
+12:15 -!- xavier88 [~AndChat21@223-138-196-193.EMOME-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+12:17 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+12:24 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 244 seconds]
+12:24 -!- DanLu [~AndChat27@223-138-227-59.EMOME-IP.hinet.net] has quit [Ping timeout: 255 seconds]
+12:26 -!- achat [~ac_78@114-25-99-89.dynamic.hinet.net] has quit [Ping timeout: 260 seconds]
+12:26 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+12:27 -!- Viktor2 [~hermes@122.147.204.216] has quit [Ping timeout: 252 seconds]
+12:27 < mopcon-bot> (almightybobo) 學生也可以來領便當囉～
+12:28 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+12:29 < y5n> xd
+12:33 < mopcon-bot> (robinli) 冷氣太冷了~~ 能否調整一下
+12:37 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit []
+12:39 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+12:45 -!- mouther [uid25670@gateway/web/irccloud.com/x-vmrvjiuymribtbcg] has quit [Quit: Connection closed for inactivity]
+12:55 < mopcon-bot> (wupojung) 好冷啊～～
+12:57 -!- Aweimeow [~Aweimeow@122.147.204.212] has joined #mopcon
+12:59 < mopcon-bot> (AManTw) 剛剛是MGS主題曲!!
+12:59 -!- lego_ [~lego@122.147.204.212] has quit [Quit: Lost terminal]
+12:59 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+13:00 < Aweimeow> mopcon-bot 復活了耶！
+13:02 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+13:02 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Read error: Connection reset by peer]
+13:04 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+13:08 < mopcon-bot> (divazone) BOSS!!
+13:12 < BeataLin_>  想不到會在高雄重溫921
+13:15 < mopcon-bot> (AManTw) 勤益科大嗎?@@
+13:16 -!- Aweimeow [~Aweimeow@122.147.204.212] has quit [Ping timeout: 255 seconds]
+13:16 < mopcon-bot> (berget) R3轉播很悲劇………
+13:17 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+13:21 -!- ifTNT_ [~iftnt@122.147.204.212] has joined #mopcon
+13:23 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-wvtaqohroncazntf] has quit [Quit: Connection closed for inactivity]
+13:25 -!- HCLD [uid121562@gateway/web/irccloud.com/x-kwoofryntdxvjxwp] has quit [Quit: Connection closed for inactivity]
+13:28 < mopcon-bot> (Serrok) [QNAP] 聽說等等 13:50 會抽5台小AP，還沒填(ㄇㄞˋ)問(ㄍㄜˋ)卷(ㄗ)換小禮物跟拿抽獎機會來喔～
+13:29 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+13:30 < mopcon-bot> (wupojung) 宿舍倒塌的是 勤益～ 沒有錯。。。
+13:31 -!- HCLD [uid121562@gateway/web/irccloud.com/x-ggtokvspfyhtiuzv] has joined #mopcon
+13:32 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+13:32 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+13:32 < XiaoJunHong> 「四級地震」好焦慮喔...
+13:33 < mopcon-bot> (wupojung) 我的應變措施：  怎麼關音樂。。怎麼關。。 怎麼關。。。
+13:35 < mopcon-bot> (wupojung) 勤益工專電機科 ～
+13:36 < mopcon-bot> (wupojung) 找到 講者的 學歷了～～
+13:36 < mopcon-bot> (AManTw) 原來乳此
+13:36 < mopcon-bot> (AManTw) 原來如此...
+13:37 < XiaoJunHong> https://drive.google.com/file/d/0B5WaQa0OvgVNLTZOTG1neDllRTQ/view
+13:38 < dolphinwing74> 求中文版
+13:39 < XiaoJunHong> 中文 http://www.metro.tokyo.jp/CHINESE/GUIDE/BOSAI/index.htm
+13:39 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Remote host closed the connection]
+13:39 < mopcon-bot> (wupojung) 原來是學長。。。（敬禮～
+13:40 < dolphinwing74> 謝謝大大分享
+13:44 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 246 seconds]
+13:49 < mopcon-bot> (kewang) 總算問對了 XDDDD
+13:49 < mopcon-bot> (AManTw) 恭喜那位先生了wwww
+13:50 < mopcon-bot> (kitah) XD
+13:50 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-albvysgzcocajwxm] has joined #mopcon
+13:50 < mopcon-bot> (wupojung) 太準了。。。飛彈就會打到這裡了。。。 XDD
+13:51 < mopcon-bot> (AManTw) 我剛剛已經把這個APP分享推薦給我爸媽了QQQQ
+13:52 -!- ifTNT_ [~iftnt@122.147.204.212] has quit [Ping timeout: 250 seconds]
+13:52 < mopcon-bot> (wupojung) 記得要吧 演習代碼關了。。XD
+13:53 < mopcon-bot> (AManTw) 預設是空的吧XDD
+13:54 -!- ifTNT_ [~iftnt@122.147.204.212] has joined #mopcon
+13:57 < mopcon-bot> (YongYuH) 想要問一下
+13:57 < mopcon-bot> (YongYuH) 從官網議程
+13:57 < mopcon-bot> (YongYuH) (http://mopcon.org/2015/schedule.php)
+13:57 < mopcon-bot> (YongYuH) [full message: https://gitter.im/MOPCON/mopcon-chat?at=5635a9c2643ae8fb655b888b]
+13:57 < mopcon-bot> (wupojung) 真的好冷。。。
+13:57 -!- ggininder_ [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+13:58 < mopcon-bot> (kewang) @YongYuH 兩個是不同人啦，不過可以複製到一樣也不簡單 XD
+13:59 -!- DanLu [~AndChat27@223-139-168-209.EMOME-IP.hinet.net] has joined #mopcon
+14:01 -!- Aweimeow [~Aweimeow@101.8.11.39] has joined #mopcon
+14:01 < mopcon-bot> (LIYINGZHEN) ....也差太多＝＝
+14:01 < mopcon-bot> (wupojung) hackpad 又GG？
+14:02 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+14:02 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+14:02 < mopcon-bot> (wupojung) 好了。。。
+14:02 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+14:04 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+14:04 -!- qq3b0 [~qq3b0@122.147.204.216] has joined #mopcon
+14:04 < divazone> test
+14:04 -!- D-eye [~androirc@101.13.161.230] has joined #mopcon
+14:05 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+14:06 < yrc> 台中標在苗栗，高雄標在台南
+14:06 < divazone> 哪招WWW
+14:07 < Aweimeow> IRC>
+14:11 < XiaoJunHong> 「這兩天真的有夠冷的」
+14:12 < williamg> 冷冷的.....
+14:12 < divazone> 很冷啊（場內
+14:12 < mopcon-bot> (jordanSu) 冰棒養成計劃?!
+14:14 -!- Aweimeow [~Aweimeow@101.8.11.39] has quit [Ping timeout: 255 seconds]
+14:14 -!- AWEIMEOW [~AWEIMEOW@122.147.204.212] has joined #mopcon
+14:14 < XiaoJunHong> R1 中文拉拼圖寫程式
+14:14 < [R2]Mouther> 超冷
+14:15 < XiaoJunHong> R1 「Live Demo成功了」（鼓掌
+14:15 < divazone> 23度XD
+14:16 < mopcon-bot> (wupojung) 總算停了。。冷氣。。。
+14:19 < divazone> 這車好聽話
+14:21 -!- AndChat|511 [~AndChat51@122.147.204.212] has joined #mopcon
+14:21 -!- cber [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+14:22 < mopcon-bot> (Serrok) [QNAP] 本回抽獎第一批10位幸運的得獎者已經抽出來囉！
+14:22 < mopcon-bot> (Serrok) # 今日現場開放領獎，請持我們寄發的通知信 或 以手機開啟你的郵箱將可以證明這是你的email的畫面給我們工作人員看後，就可以領獎囉！
+14:22 < mopcon-bot> (Serrok) # 15:00 我們還會再抽出5位，如果還沒賣個......填問卷和拿精美小禮物的朋友，請趁吃點心時間趕快來唷～
+14:22 < mopcon-bot> (Serrok) [full message: https://gitter.im/MOPCON/mopcon-chat?at=5635af9b643ae8fb655b8904]
+14:24 < XiaoJunHong> R1 「Live Demo總是要有plan B麻～ 讓我們打開影片」
+14:24 < divazone> 看起來好好玩啊
+14:25 < mopcon-bot> (AManTw) 好有趣喔!回去要來買器材了> <
+14:26 -!- DanLu [~AndChat27@223-139-168-209.EMOME-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+14:27 < mopcon-bot> (gitjolin) R3隱約 有老歌是怎樣
+14:28 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 272 seconds]
+14:29 < mopcon-bot> (gitjolin) 樓上有人卡拉ok.
+14:30 -!- DanLu [~AndChat27@223-139-178-42.EMOME-IP.hinet.net] has joined #mopcon
+14:31 < mopcon-bot> (kitah) 4f感覺超歡樂
+14:33 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+14:33 < mopcon-bot> (divazone) 卡啦OK？
+14:34 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+14:34 -!- dolphinwing74 is now known as DolphinWing
+14:34 < XiaoJunHong> https://twitter.com/MartyShu/status/660706254222786560
+14:34 < mopcon-bot> (RJpolar) 從早上就一直出現的老歌歌聲…
+14:36 -!- cber [~AndChat51@122.147.204.212] has joined #mopcon
+14:36 -!- AndChat|511 [~AndChat51@122.147.204.212] has quit [Read error: Connection reset by peer]
+14:37 < mopcon-bot> (wupojung) 樓上好歡樂～～
+14:37 < WaitingChen> R1建議多來幾個選項然後排列組合一下XD
+14:40 < mopcon-bot> (AugustusW) 板子哪裡買呀...
+14:40 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+14:40 < mopcon-bot> (kewang) https://webduino.io/
+14:41 < XiaoJunHong> https://webduino.io/buy.html
+14:41 < [R2]Mouther> 開放點心囉
+14:43 < mopcon-bot> (AugustusW) 找到囉 感謝
+14:45 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Ping timeout: 260 seconds]
+14:47 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Remote host closed the connection]
+14:48 -!- AWEIMEOW [~AWEIMEOW@122.147.204.212] has quit [Ping timeout: 246 seconds]
+14:48 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+14:49 -!- ifTNT_ [~iftnt@122.147.204.212] has quit [Ping timeout: 240 seconds]
+14:51 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 246 seconds]
+14:53 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 250 seconds]
+14:55 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+14:57 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+14:59 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 240 seconds]
+14:59 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Read error: Connection reset by peer]
+14:59 -!- y5n [~AndChat48@39.9.32.95] has quit [Remote host closed the connection]
+14:59 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has joined #mopcon
+15:02 -!- divazone [~yourname@122.147.204.212] has joined #mopcon
+15:03 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+15:03 -!- DolphinWing [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+15:04 -!- yulin [~AndChat10@122.147.204.212] has joined #mopcon
+15:04 -!- DanLu [~AndChat27@223-139-178-42.EMOME-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+15:05 -!- Jacky [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has joined #mopcon
+15:05 < WaitingChen> Webduino 的網站上面我沒有看到剛剛demo的uno版本耶
+15:05 -!- Viktor2 [~hermes@122.147.204.216] has joined #mopcon
+15:05 -!- Jacky is now known as Guest96154
+15:05 -!- XiaoJunHong [~XiaoJunHo@122.147.204.216] has quit [Read error: Connection reset by peer]
+15:05 -!- XiaoJunH_ [~XiaoJunHo@122.147.204.216] has joined #mopcon
+15:05 < WaitingChen> 是我眼殘嗎@@？
+15:08 < mopcon-bot> (kitah) Uno 長明街買？
+15:08 < mopcon-bot> (Serrok) [QNAP] 本回抽獎第二批5名幸運的得獎者已經抽出來囉！
+15:08 < mopcon-bot> (Serrok) 今日16:00前現場開放領獎，請持我們寄發的通知信 或 以手機開啟你的郵箱將可以證明這是你的email的畫面給我們工作人員看後，就可以領獎囉！
+15:08 < mopcon-bot> (Serrok) 如果人不在現場或現場沒有領獎的話，請在收到通知信後依通知信內容聯絡我們。謝謝大家！
+15:08 < mopcon-bot> (Serrok) [full message: https://gitter.im/MOPCON/mopcon-chat?at=5635ba7f195a24fc65bdb4cb]
+15:09 -!- Guest96154 [7a93ccd4@gateway/web/freenode/ip.122.147.204.212] has quit [Ping timeout: 246 seconds]
+15:09 -!- yulin [~AndChat10@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:09 -!- yulin [~AndChat10@122.147.204.212] has joined #mopcon
+15:10 < WaitingChen> 我不是要買UNO 是要買他剛剛demo插在UNO上的擴充模組
+15:11 < [R2]Mouther> R2 好多人＠＠
+15:11 < mopcon-bot> (t78973677) 真的
+15:11 < mopcon-bot> (t78973677) 只剩站票
+15:11 < [R2]Mouther> 都來朝聖 Muki 嗎 ＸＤＤ
+15:11 < mopcon-bot> (jacky810124) Lighting talk有議程連結嗎？
+15:12 -!- XiaoJunH_ [~XiaoJunHo@122.147.204.216] has quit [Ping timeout: 260 seconds]
+15:14 < mopcon-bot> (kitah) 朝聖+1
+15:15 < mopcon-bot> (wupojung) 上面有圖片連結～～
+15:16 -!- AWEIMEOW [~AWEIMEOW@122.147.204.212] has joined #mopcon
+15:16 < [R2]Mouther> 粉專分享 https://www.facebook.com/mukispace
+15:17 < mopcon-bot> (jordanSu) R2爆滿啦
+15:17 < AWEIMEOW> R2 超多人的！！
+15:18 -!- cber [~AndChat51@122.147.204.212] has quit [Ping timeout: 272 seconds]
+15:19 -!- DanLu [~AndChat27@223-139-238-185.EMOME-IP.hinet.net] has joined #mopcon
+15:19 < mopcon-bot> (wupojung) 其實我覺得R2 右邊的螢幕如果不發抖  反而比較清楚耶
+15:21 < mopcon-bot> (wupojung) 大會是不是要考慮 以後投影機 投影 往上一點。。。
+15:21 < mopcon-bot> (wupojung) 因為座位是平面的。。。
+15:21 < mopcon-bot> (wupojung) 簡報內容的下面都會被前排的 “英姿”  擋到
+15:23 < mopcon-bot> (williesmithchen) R1開心的猴子 開心的使用者
+15:24 -!- nuliy [~AndChat10@122.147.204.212] has joined #mopcon
+15:24 -!- yulin [~AndChat10@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:28 < dolphinwing74> R1有點冷清
+15:28 < [R2]Mouther> irc 也很冷清
+15:30 < nuliy> 人都跑去r2了嗎，ㄍ
+15:30 < mopcon-bot> (divazone) R3沒什麼人
+15:32 < mopcon-bot> (chusiang) R2 F
+15:33 < mopcon-bot> (wupojung) 其實R2 還有一些空位耶。。。。
+15:34 < ggininder> 不過大家都直接站後面
+15:34 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+15:38 < AWEIMEOW> 請大家坐好坐滿 ( X )
+15:40 -!- yulin [~AndChat10@122.147.204.212] has joined #mopcon
+15:40 -!- nuliy [~AndChat10@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:43 < mopcon-bot> (bill85101) R2的右邊頭影機還是在抖動....
+15:43 < [R2]Mouther> 用 rem ？
+15:44 < [R2]Mouther> view height & view width
+15:44 < AWEIMEOW> R2 的右側 projector 昨天就開始抖了
+15:47 -!- Viktor2 [~hermes@122.147.204.216] has quit [Read error: Connection reset by peer]
+15:48 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+15:49 -!- YuCheng [uid28221@gateway/web/irccloud.com/x-aqynaazafckejiok] has joined #mopcon
+15:50 < mopcon-bot> (wupojung) 投影機表示： 我冷了兩天
+15:52 < [R2]Mouther> 今天貌似比較不抖
+15:54 < mopcon-bot> (wupojung) 主持人累了～～
+15:55 -!- nuliy [~AndChat10@122.147.204.212] has joined #mopcon
+15:55 -!- yulin [~AndChat10@122.147.204.212] has quit [Read error: Connection reset by peer]
+15:56 < [R2]Mouther> RESS?
+15:56 -!- Viktor2 [~hermes@122.147.204.216] has joined #mopcon
+15:57 < mopcon-bot> (wupojung) Responsive Design + Server Side Components
+15:57 < Viktor2> React 傳教大會
+15:57 < [R2]Mouther> wupojung: thx
+15:58 < [R2]Mouther> react 邪教無誤
+16:03 -!- nuliy [~AndChat10@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:04 -!- Viktor2 [~hermes@122.147.204.216] has quit [Ping timeout: 250 seconds]
+16:04 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:04 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:05 -!- AWEIMEOW [~AWEIMEOW@122.147.204.212] has quit [Ping timeout: 256 seconds]
+16:06 -!- yulin [~AndChat10@122.147.204.212] has joined #mopcon
+16:07 -!- divazone [~yourname@122.147.204.212] has quit [Ping timeout: 252 seconds]
+16:07 -!- AWEIMEOW [~AWEIMEOW@122.147.204.212] has joined #mopcon
+16:09 < AWEIMEOW> 原來講者大大先把共筆打完了！
+16:09 < AWEIMEOW> 一瞬間沒有事情能做，突然有種空虛的感覺
+16:10 < yulin> 你可以 debug
+16:10 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:10 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:11 -!- AWEIMEOW [~AWEIMEOW@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:18 < mopcon-bot> (wupojung) 完全。。。 恍神
+16:18 < mopcon-bot> (wupojung) 跟不上筆記內容
+16:19 -!- plkuhgt [~androirc@223-139-34-80.EMOME-IP.hinet.net] has joined #mopcon
+16:21 < [R2]Mouther> 講者有點緊張 ＸＤ
+16:21 -!- yulin [~AndChat10@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:21 -!- yulin [~AndChat10@122.147.204.212] has joined #mopcon
+16:22 -!- qq3b0_ [~qq3b0@122.147.204.216] has joined #mopcon
+16:22 -!- qq3b0 [~qq3b0@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:22 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:22 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:23 < mopcon-bot> (NFUYFSun) R1 左右側投影片上方部分被截掉了 0.0~
+16:24 -!- Viktor2 [~hermes@122.147.204.216] has joined #mopcon
+16:26 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:27 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:28 -!- Viktor2 [~hermes@122.147.204.216] has quit [Ping timeout: 250 seconds]
+16:28 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:28 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:32 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:34 < [R2]Mouther> 腦補一下 https://www.ptt.cc/bbs/Gossiping/M.1446129889.A.817.html
+16:35 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:36 -!- nuliy [~AndChat10@122.147.204.212] has joined #mopcon
+16:36 -!- yulin [~AndChat10@122.147.204.212] has quit [Read error: Connection reset by peer]
+16:38 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:39 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:41 -!- plkuhgt [~androirc@223-139-34-80.EMOME-IP.hinet.net] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+16:42 -!- AndChat|217856 [~AndChat21@223-139-207-208.EMOME-IP.hinet.net] has quit [Quit: Bye]
+16:42 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Read error: Connection reset by peer]
+16:43 -!- dolphinwing74 [~androirc@122.147.204.216] has joined #mopcon
+16:48 -!- andytwmvp [~andytwmvp@122.147.204.216] has joined #mopcon
+16:48 < dolphinwing74> 做好做滿XDDD
+16:49 < mopcon-bot> (hippoandy) 任期跑完XDD
+16:49 < [R2]Mouther> wwwwwwwwwwww
+16:53 -!- nuliy [~AndChat10@122.147.204.212] has quit [Ping timeout: 250 seconds]
+16:59 -!- qq3b0_ [~qq3b0@122.147.204.216] has quit [Remote host closed the connection]
+17:00 < mopcon-bot> (wupojung) 作者幫補 QQ
+17:02 < mopcon-bot> (wupojung) 為甚麼是我的名字啦。。。 T⋯⋯T
+17:02 -!- AC [~CLDX@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+17:05 -!- AWEIMEOW [~AWEIMEOW@101.12.12.63] has joined #mopcon
+17:06 -!- ifTNT [uid52634@gateway/web/irccloud.com/x-utyzqdgybxzmvoma] has quit [Quit: Connection closed for inactivity]
+17:06 -!- dolphinwing74 [~androirc@122.147.204.216] has quit [Ping timeout: 240 seconds]
+17:15 -!- ifTNT [uid52634@gateway/web/irccloud.com/x-kpgfvwbhnedplbfx] has joined #mopcon
+17:19 -!- andytwmvp [~andytwmvp@122.147.204.216] has quit [Read error: Connection reset by peer]
+17:20 -!- chusiang [~jonny@122.147.204.216] has joined #mopcon
+17:22 < mopcon-bot> (yllan) 可惡，太晚來，沒報到 lightning talk QQ
+17:28 < chusiang> 來賣衣服的 XDD
+17:30 < mopcon-bot> (wupojung) 我覺得 JSDC的比較刺激。。。 5分鐘 含設備 XD
+17:30 < mopcon-bot> (wupojung) GG直接拔線
+17:31 < chusiang> wupojung: 歡迎明年來當拔線的人。
+17:32 < mopcon-bot> (Mikimoto) @yllan 太可惜了
+17:33 -!- mouther [uid25670@gateway/web/irccloud.com/x-kfyplfmsatvrzgcf] has joined #mopcon
+17:33 < mouther> 沒吸引力啊
+17:34 < AWEIMEOW> mopcon 的 LT 時間 irc 好少人喔
+17:34 < mouther> @AMEIMEOW 一直都很少 Orz
+17:35 < pastleo> gradle?
+17:35 < AWEIMEOW> Q__Q
+17:35 < AWEIMEOW> 感覺冷冷的
+17:35 < AWEIMEOW> 明明會場這麼多人
+17:35 < mopcon-bot> (yllan) live demo! LT 大忌 XD
+17:36 < mopcon-bot> (Mikimoto) XDDD
+17:36 < mouther> 會場也好冷靜 xDDD
+17:36 < chusiang> 很多人開 gitter 沒 github account 啊。
+17:36 -!- Viktor2 [~hermes@122.147.204.216] has joined #mopcon
+17:36 < mopcon-bot> (Mikimoto) 今年的 LT 好喜歡 live demo :p
+17:37 < Viktor2> 想看 QML 大戰 React
+17:37 < mopcon-bot> (yllan) 居然還有一些時間！厲害！
+17:37 < chusiang> 2 min
+17:37 < mopcon-bot> (yllan) 我還以為 gradle 跑下去就要很久 XD
+17:37 < mopcon-bot> (Mikimoto) XD
+17:38 < mopcon-bot> (wupojung) https://github.com/Jintin/andle
+17:38 < AWEIMEOW> J霧霾的命名原因是甚麼 XDDD
+17:38 < mouther> J個嘛....
+17:38 < chusiang> 怕不小心按到，要一直按著 … (好酸
+17:38 < mopcon-bot> (yllan) 這語速比較有 LT 的感覺啊
+17:38 < mopcon-bot> (wupojung) @chusiang   OKOK
+17:38 < chusiang> 怕不小心按到，要一直按著 … (好酸 <=== 服務鈴
+17:39 < mopcon-bot> (wupojung) 先應徵明年志工這樣嗎
+17:39 < AWEIMEOW> 這個語速才正常啊！！！！
+17:39 < mouther> 歐 no math
+17:39 < mopcon-bot> (Mikimoto) agree ^^
+17:40 < chusiang> wupojung: 不這個時候找要什麼時候找？ XDD
+17:40 < AWEIMEOW> 不常待 TECH_JOB 版
+17:40 < AWEIMEOW> 求耿的來源 QQ
+17:40 < mouther> 包子 xD
+17:40 < ggininder> 請問是哪家公司？
+17:40 < mopcon-bot> (e19940604) 有人能解釋嗎ＸＤ
+17:41 < AWEIMEOW> 原來是奇美啊！
+17:42 < chusiang> PyCooooooooooooooooooon ~~~~~~
+17:42 < mopcon-bot> (wupojung) @chusiang    沒有注意到甚麼時候應徵
+17:43 < mouther> Mosky 表示
+17:43 < mopcon-bot> (Mikimoto) 原來還沒到重點 :p
+17:43 < mopcon-bot> (yllan) 咳，一直強調正妹 COC 會不會有問題
+17:43 < AWEIMEOW> 偷賣 jserv 嗎 XD
+17:44 < mouther> 出現了 某封麥大神
+17:44 < mopcon-bot> (wupojung) 是光明正大的賣～～XD
+17:44 -!- Viktor2 [~hermes@122.147.204.216] has quit [Ping timeout: 260 seconds]
+17:45 < chusiang> mouther 封麥神?
+17:46 < chusiang> MOPCON 就是有正妹滿不用跑到台北去 --jserv
+17:46 < mopcon-bot> (yllan) 想問一下剛剛 PyCon 的 LT 講者有在線上嗎？有些問題想請教
+17:46 < chusiang> MOPCON 就是有正妹，不用跑到台北去。 --jserv
+17:47 < mopcon-bot> (wupojung) jserv 語錄。。。 收錄！（蓋
+17:48 < chusiang> 今年沒吃到下午茶啊 ~~~~
+17:49 < AWEIMEOW> 求背景音樂
+17:49 < mopcon-bot> (wupojung) 就是今天哪個 大有來頭嗎？
+17:50 < chusiang> wupojung: Yes
+17:50 < mopcon-bot> (wupojung) 錯過了。。。 XD
+17:51 < chusiang> zeroplex: 您紅了！ XDXD
+17:51 < DanLu> 大家掰掰
+17:52 < mouther> 8888888888888888080
+17:53 -!- AWEIMEOW [~AWEIMEOW@101.12.12.63] has quit [Ping timeout: 255 seconds]
+17:55 -!- chusiang [~jonny@122.147.204.216] has quit [Ping timeout: 252 seconds]
+18:00 -!- AC [~CLDX@114-25-99-89.dynamic.hinet.net] has quit [Read error: Connection reset by peer]
+18:07 -!- YuCheng [uid28221@gateway/web/irccloud.com/x-aqynaazafckejiok] has quit [Quit: Connection closed for inactivity]
+18:08 -!- D-eye [~androirc@101.13.161.230] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+18:39 -!- qq3b0 [~qq3b0@114-33-198-144.HINET-IP.hinet.net] has joined #mopcon
+18:53 -!- AWEIMEOW [~AWEIMEOW@59-127-91-225.HINET-IP.hinet.net] has joined #mopcon
+19:11 -!- DanLu [~AndChat27@223-139-238-185.EMOME-IP.hinet.net] has quit [Quit: Bye]
+19:17 -!- alicekey [uid16113@gateway/web/irccloud.com/x-txpbbogyxxtsonyi] has quit [Quit: Connection closed for inactivity]
+19:18 -!- AWEIMEOW [~AWEIMEOW@59-127-91-225.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+19:21 -!- whitglint [~whitglint@li390-163.members.linode.com] has left #mopcon []
+19:26 -!- yulin [~chatzilla@36-236-17-107.dynamic-ip.hinet.net] has joined #mopcon
+19:27 -!- yulin [~chatzilla@36-236-17-107.dynamic-ip.hinet.net] has left #mopcon []
+19:43 -!- WaitingChen [uid107248@gateway/web/irccloud.com/x-albvysgzcocajwxm] has quit [Quit: Connection closed for inactivity]
+19:48 -!- stkd_ [uid56888@gateway/web/irccloud.com/x-iksxkbpnpfyoxtxl] has quit [Quit: Connection closed for inactivity]
+19:58 -!- ifTNT_ [~iftnt@host-110.78-234-182.cable.dynamic.kbtelecom.net] has joined #mopcon
+20:05 -!- achat [~ac_78@114-25-99-89.dynamic.hinet.net] has joined #mopcon
+20:15 -!- HCLD [uid121562@gateway/web/irccloud.com/x-ggtokvspfyhtiuzv] has quit [Quit: Connection closed for inactivity]
+20:34 -!- achat [~ac_78@114-25-99-89.dynamic.hinet.net] has quit [Ping timeout: 252 seconds]
+21:50 -!- NO_NAME_ [7bcd7d5b@gateway/web/freenode/ip.123.205.125.91] has joined #mopcon
+21:51 -!- NO_NAME_ [7bcd7d5b@gateway/web/freenode/ip.123.205.125.91] has left #mopcon []
+21:53 -!- NO_NAME_ [7bcd7d5b@gateway/web/freenode/ip.123.205.125.91] has joined #mopcon
+21:53 -!- NO_NAME_ [7bcd7d5b@gateway/web/freenode/ip.123.205.125.91] has left #mopcon []
+22:02 -!- UCCU [7bcd7d5b@gateway/web/freenode/ip.123.205.125.91] has joined #mopcon
+22:05  * UCCU slaps UCCU around a bit with a large fishbot
+22:06 -!- UCCU [7bcd7d5b@gateway/web/freenode/ip.123.205.125.91] has left #mopcon []
+22:15 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has joined #mopcon
+22:17 < mopcon-bot> (johnroyer) 我好像被紀錄組出賣了 XD
+22:19 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has quit [Ping timeout: 268 seconds]
+22:22 -!- qq3b0 [~qq3b0@114-33-198-144.HINET-IP.hinet.net] has quit []
+23:09 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has joined #mopcon
+23:15 -!- XiaoJunHong [~XiaoJunHo@59-127-151-188.HINET-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+23:26 -!- ifTNT_ [~iftnt@host-110.78-234-182.cable.dynamic.kbtelecom.net] has quit [Ping timeout: 246 seconds]
+--- Log closed Mon Nov 02 00:00:31 2015
