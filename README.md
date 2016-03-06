@@ -72,6 +72,7 @@ http://tw.pyconf.org
 
 http://sitcon.org
 
+- [2016](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2016.log)
 - [2015](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2015.log)
 - [2014](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2014.log)
 - [2013](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2013.log)
