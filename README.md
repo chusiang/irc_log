@@ -10,7 +10,7 @@
 
 ### COSCUP (開源人年會)
 
-http://coscup.org
+[http://coscup.org](http://coscup.org)
 
 - [2015](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2015.log)
 - [2014](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2014.log)
@@ -21,9 +21,17 @@ http://coscup.org
 - 2009
 - 2008
 
+### DevOps Summit
+
+[http://devopssummit.ithome.com.tw](http://devopssummit.ithome.com.tw)
+
+- [2016](https://gitter.im/DevOpsTW/devops_summit_2016)
+- 2015
+
+
 ### HITCON (台灣駭客年會)
 
-http://hitcon.org
+[http://hitcon.org](http://hitcon.org)
 
 - [2014 Enterprise](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2014-ent.log), [2014 Playground](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2014-plg.log)
 - [2013](https://github.com/chusiang/irc_log/raw/master/hitcon/irc-hitcon-2013.log)
@@ -31,14 +39,14 @@ http://hitcon.org
 
 ### JSDC (JavaScript Developers Conference, Taiwan)
 
-http://jsdc.tw/
+[http://jsdc.tw/](http://jsdc.tw/)
 
 - [2013](https://github.com/chusiang/irc_log/raw/master/jsdc/irc-jsdc-2013.log)
 - [2012](https://github.com/chusiang/irc_log/raw/master/jsdc/irc-jsdc-2012.log)
 
 ### MOPCON (Mobile Open Platform Conference)
 
-http://mopcon.org
+[http://mopcon.org](http://mopcon.org)
 
 - [2015](https://raw.github.com/chusiang/irc_log/master/mopcon/irc-mopcon-2015.log)
 - [2014](https://raw.github.com/chusiang/irc_log/master/mopcon/irc-mopcon-2014.log)
@@ -47,7 +55,7 @@ http://mopcon.org
 
 ### OSDC (Open Source Developers` Conference)
 
-http://osdc.tw
+[http://osdc.tw](http://osdc.tw)
 
 - [2014](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2014.log), [#osdctw](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2014-osdctw.log), [#fred.test](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2014-fred.test.log)
 - [2013](https://raw.github.com/chusiang/irc_log/master/osdc/irc-osdc.tw-2013.log)
@@ -57,20 +65,20 @@ http://osdc.tw
 
 ### PHPConf Taiwan
 
-http://phpconf.tw
+[http://phpconf.tw](http://phpconf.tw)
 
 - [2013](https://raw.github.com/chusiang/irc_log/master/phpconf/irc-phpconf-tw-2013.log)
 - [2012](https://raw.github.com/chusiang/irc_log/master/phpconf/irc-phpconf-tw-2012.log)
 
 ### PyCon Taiwan
 
-http://tw.pyconf.org
+[http://tw.pyconf.org](http://tw.pyconf.org)
 
 - [2015](https://gitter.im/pycontw/pyconapac2015), [#chusiang](https://gitter.im/chusiang/pyconapac2015)
 
 ### SITCON 學生計算機年會 (Students' Information Technology Conference)
 
-http://sitcon.org
+[http://sitcon.org](http://sitcon.org)
 
 - [2016](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2016.log)
 - [2015](https://raw.github.com/chusiang/irc_log/master/sitcon/irc-sitcon-2015.log)
@@ -79,7 +87,7 @@ http://sitcon.org
 
 ### WebConf Taiwan
 
-http://webconf.tw/
+[http://webconf.tw/](http://webconf.tw/)
 
 - [2015](https://gitter.im/f2etw/f2etw.github.io/ModernWeb2015)
 
