@@ -25,7 +25,7 @@
 
 [http://devopssummit.ithome.com.tw](http://devopssummit.ithome.com.tw)
 
-- [2016](https://gitter.im/DevOpsTW/devops_summit_2016)
+- [2016](https://gitter.im/DevOpsTW/devops_summit_2016) #archives [Day1](https://gitter.im/DevOpsTW/devops_summit_2016/archives/2016/07/05), [Day2](https://gitter.im/DevOpsTW/devops_summit_2016/archives/2016/07/06)
 - 2015
 
 
