@@ -1,3 +1,5 @@
+# Day1
+
 --- Log opened Sat Aug 20 00:00:42 2016
 00:09 -!- isken [6a696108@gateway/web/cgi-irc/kiwiirc.com/ip.106.105.97.8] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
 00:11 -!- wens [wens@mirror2.csie.ntu.edu.tw] has joined #coscup
@@ -5935,3 +5937,73 @@
 22:45 -!- [h2]chusiang [~chusiang@60-250-32-44.HINET-IP.hinet.net] has joined #coscup
 22:45 -!- madarame [~madarame@60-250-159-181.HINET-IP.hinet.net] has joined #coscup
 22:46 < chusiang> 先來傳一份 day1 的 irc log 到 https://github.com/chusiang/irc_log 了！
+22:51 -!- derekhsu [~derekhsu@180.204.87.86] has quit [Remote host closed the connection]
+22:53 < Ruinland> Nightfeather: 感覺你需要的是tun2sock之類的，然後其實如果你有那台server的root權限、那台也有tun/tap，可以直接用ssh -w雙邊建立tun<==>tun的連線
+22:56 -!- chihchun is now known as chihchun_afk
+22:57 -!- yolandalin [~yolandali@180-176-98-232.dynamic.kbronet.com.tw] has joined #coscup
+22:57 -!- [h2]chus1ang [~chusiang@218-161-9-240.HINET-IP.hinet.net] has joined #coscup
+22:58 -!- chusiang_ [~chusiang@60-250-159-181.HINET-IP.hinet.net] has joined #coscup
+22:59 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+22:59 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+23:00 -!- chusiang [~chusiang@60-250-32-44.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+23:00 -!- [h2]chusiang [~chusiang@60-250-32-44.HINET-IP.hinet.net] has quit [Ping timeout: 276 seconds]
+23:03 -!- lafin [uid44779@gateway/web/irccloud.com/x-sqhlfsdxlvcpjjbl] has quit [Quit: Connection closed for inactivity]
+23:04 < ETBlue> 這裡會自動存 irc log  https://logbot.g0v.tw/channel/coscup/today
+23:04 -!- M_____ [7224f49b@gateway/web/freenode/ip.114.36.244.155] has joined #coscup
+23:06 -!- M_____ [7224f49b@gateway/web/freenode/ip.114.36.244.155] has quit [Client Quit]
+23:06 < chusiang_> ETBlue: 我個人比較想要保留純文字檔的版本，謝啦！
+23:06 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+23:06 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+23:08 < ETBlue> chusiang_: 純文字++ 自己備份是一定要的 XD
+23:09 -!- chusiang_ is now known as chusiang
+23:09 -!- derekhsu [~derekhsu@180.204.87.86] has joined #coscup
+23:10 < chusiang> ETBlue: 來順便把前幾年的 logbot 連結補上，不過如果您能幫我找到 2008, 2009 的 IRC Log 我會更開心的！XD
+23:13 -!- yrc [uid123303@gateway/web/irccloud.com/x-dmrpbqgldsnrqqgq] has joined #coscup
+23:16 -!- madarame [~madarame@60-250-159-181.HINET-IP.hinet.net] has quit [Remote host closed the connection]
+23:16 -!- david11014 [uid38392@gateway/web/irccloud.com/x-hhemhcqeuvlpoktg] has joined #coscup
+23:17 -!- chris1004tw [~chris1004@36-233-53-214.dynamic-ip.hinet.net] has quit [Read error: Connection reset by peer]
+23:18 -!- chris1004tw [~chris1004@36-233-53-214.dynamic-ip.hinet.net] has joined #coscup
+23:19 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+23:19 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+23:20 -!- zhxie [~zhxie@111-83-81-60.EMOME-IP.hinet.net] has joined #coscup
+23:21 < Nightfeather> Ruinland: 好喔 我研究看看這個功能 感恩
+23:24 -!- [R0]hinet60613 [uid27221@gateway/web/irccloud.com/x-hqjguenopdvghsvi] has joined #coscup
+23:24 < Nightfeather> 雖然說我只是不想透過外面的 wifi 連 telnet 而已 (非 ptt 的站台
+23:26 -!- hortune [6ff0622e@gateway/web/freenode/ip.111.240.98.46] has joined #coscup
+23:26 -!- hortune [6ff0622e@gateway/web/freenode/ip.111.240.98.46] has quit [Client Quit]
+23:29 -!- yomao_ [uid38282@gateway/web/irccloud.com/x-qnezhlfndydbesir] has quit [Quit: Connection closed for inactivity]
+23:29 -!- yomao [uid38282@gateway/web/irccloud.com/x-pmoizyqnrwepytnk] has quit [Quit: Connection closed for inactivity]
+23:32 -!- zhxie [~zhxie@111-83-81-60.EMOME-IP.hinet.net] has quit [Quit: leaving]
+23:33 -!- u10313335 [~sol@cisco-vpn-nat.iis.sinica.edu.tw] has joined #coscup
+23:34 -!- stanely [~smuxi@1.34.176.212] has quit [Ping timeout: 258 seconds]
+23:34 -!- derekhsu [~derekhsu@180.204.87.86] has quit [Remote host closed the connection]
+23:35 -!- u1031333_ [~sol@36-231-111-73.dynamic-ip.hinet.net] has joined #coscup
+23:35 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+23:35 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+23:36 -!- u1031333_ [~sol@36-231-111-73.dynamic-ip.hinet.net] has quit [Client Quit]
+23:37 < GlueCrow> 聽說這兩天也是台大黑客松?
+23:37 < GlueCrow> 有沒有人兩邊趕場呀XDD
+23:39 -!- u10313335 [~sol@cisco-vpn-nat.iis.sinica.edu.tw] has quit [Ping timeout: 252 seconds]
+23:41 -!- vincentsue [~vincentsu@180.204.151.27] has joined #coscup
+23:42 -!- u10313335_phone2 [~hermes@36-231-111-73.dynamic-ip.hinet.net] has quit [Quit: Hermes - Material IRC Client - https://numixproject.org/]
+23:44 -!- madarame [~madarame@60-250-159-181.HINET-IP.hinet.net] has joined #coscup
+23:44 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+23:45 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+23:45 -!- alicekey [~alicekey@223-139-74-215.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+23:48 -!- abev66 [~AndChat46@49.159.168.191] has joined #coscup
+23:48 -!- barneybook [uid33576@gateway/web/irccloud.com/x-tgeiexbozueoazmz] has quit [Quit: Connection closed for inactivity]
+23:48 -!- chihchun_afk is now known as chihchun
+23:50 -!- SCWhite [650c6065@gateway/web/cgi-irc/kiwiirc.com/ip.101.12.96.101] has joined #coscup
+23:50 -!- SCWhite [650c6065@gateway/web/cgi-irc/kiwiirc.com/ip.101.12.96.101] has quit [Client Quit]
+23:57 -!- coscup [~nodebot@232.34.213.162.lcy-01.canonistack.canonical.com] has joined #coscup
+23:57 <@chihchun> gitter test
+23:58 -!- icman [~icman@123.241.5.246] has joined #coscup
+23:58 < chusiang> chihchun: 看來有人要串 Gitter 了？！XD
+23:58 <@chihchun> chusiang: yeap
+23:58 < chusiang> 伸傳送門！
+23:59 -!- abev66 [~AndChat46@49.159.168.191] has quit [Quit: Bye]
+23:59 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Ping timeout: 276 seconds]
+--- Log closed Sun Aug 21 00:00:32 2016
+
+# Day2
+
