@@ -10737,3 +10737,187 @@
 18:20 -!- Denir [~Denir__@223-142-111-251.EMOME-IP.hinet.net] has quit [Ping timeout: 260 seconds]
 18:20 -!- linc01n [~linc01n@n220246201192.netvigator.com] has quit [Quit: Leaving...]
 18:20 -!- ramax [~ramax@114-42-41-88.dynamic.hinet.net] has quit [Quit: Konversation terminated!]
+18:25 -!- bhujmn [uid107022@gateway/web/irccloud.com/x-qucsmadcqjrdajiw] has quit [Quit: Connection closed for inactivity]
+18:26 -!- veloci85 [~Thunderbi@180.217.3.71] has joined #coscup
+18:26 -!- veloci85 [~Thunderbi@180.217.3.71] has left #coscup []
+18:26 -!- [R0]buck5060 [~buck5060@140.115.206.158] has quit [Read error: Connection reset by peer]
+18:26 -!- zekt [~AndChat41@117.19.67.109] has quit [Quit: hacked by inndy]
+18:26 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+18:27 -!- [h2]chusiang [~chusiang@223-137-44-188.EMOME-IP.hinet.net] has joined #coscup
+18:27 -!- chusiang [~chusiang@223-137-44-188.EMOME-IP.hinet.net] has joined #coscup
+18:29 -!- j4ck50n [uid110064@gateway/web/irccloud.com/x-pivbenjfddnrodge] has quit [Quit: Connection closed for inactivity]
+18:30 -!- chusiang [~chusiang@223-137-44-188.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+18:30 -!- [h2]chusiang [~chusiang@223-137-44-188.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+18:32 -!- AndChat|482736 [~AndChat48@101.8.243.53] has joined #coscup
+18:32 -!- jiazheng [~jiazheng@110-26-137-48.adsl.fetnet.net] has quit [Ping timeout: 260 seconds]
+18:33 -!- takiradiny [6ff0d211@gateway/web/freenode/ip.111.240.210.17] has joined #coscup
+18:34 < takiradiny> x
+18:36 -!- takiradiny [6ff0d211@gateway/web/freenode/ip.111.240.210.17] has quit [Client Quit]
+18:37 -!- takadiny [6ff0d211@gateway/web/freenode/ip.111.240.210.17] has joined #coscup
+18:40 < swem> 我可能是在r1或r0掉的
+18:52 -!- YMHuang [~ymhuang@211.76.63.232] has joined #coscup
+18:57 -!- yolandalin [~yolandali@180-176-98-232.dynamic.kbronet.com.tw] has quit [Remote host closed the connection]
+18:57 -!- yolandalin [~yolandali@180-176-98-232.dynamic.kbronet.com.tw] has joined #coscup
+18:57 < SarsTW> swem: 有在 R0 撿到一個，請聯絡 bobchao (方式已 IRC private message)
+18:58 < SarsTW> swem: 或聯絡 bobchao @ coscup.org
+18:58 -!- yolandalin [~yolandali@180-176-98-232.dynamic.kbronet.com.tw] has quit [Client Quit]
+18:59 -!- villerhsiao [uid38272@gateway/web/irccloud.com/x-aucdywdkugmissow] has quit [Quit: Connection closed for inactivity]
+19:06 -!- descend [uid116330@gateway/web/irccloud.com/x-qhptzukhboalzmbg] has quit [Quit: Connection closed for inactivity]
+19:07 -!- mabinogi80503 [~mabinogi8@122-116-116-167.HINET-IP.hinet.net] has joined #coscup
+19:08 < swem> 謝謝，已領回！
+19:11 -!- coldsleep [uid175522@gateway/web/irccloud.com/x-gueuafftqmgorqrr] has quit [Quit: Connection closed for inactivity]
+19:11 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+19:11 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+19:11 -!- mabinogi80503 [~mabinogi8@122-116-116-167.HINET-IP.hinet.net] has quit [Ping timeout: 250 seconds]
+19:12 -!- dAiNESE [uid12429@gateway/web/irccloud.com/x-rwxpeazcrgefbmze] has quit [Quit: Connection closed for inactivity]
+19:12 -!- yrc [uid123303@gateway/web/irccloud.com/x-sbeimwkqysueqyso] has quit [Quit: Connection closed for inactivity]
+19:13 -!- ddio [uid13869@gateway/web/irccloud.com/x-umcxtcddsyrfnntm] has quit [Quit: Connection closed for inactivity]
+19:14 -!- HRY [uid148826@gateway/web/irccloud.com/x-fxgiaouphkfddciz] has quit [Quit: Connection closed for inactivity]
+19:15 -!- Tsundere_cloud [uid102719@gateway/web/irccloud.com/x-xfwuetvqdkfsedhc] has quit [Quit: Connection closed for inactivity]
+19:17 -!- AndChat|482736 [~AndChat48@101.8.243.53] has quit [Read error: No route to host]
+19:17 -!- derekhsu [~AndChat23@101.8.243.53] has quit [Read error: Connection reset by peer]
+19:19 -!- hlb [uid12715@gateway/web/irccloud.com/x-itxznbsdklmemdqs] has quit [Quit: Connection closed for inactivity]
+19:19 -!- shiyating [uid38399@gateway/web/irccloud.com/x-zwsaklwppnhymsyx] has quit [Quit: Connection closed for inactivity]
+19:24 -!- YMHuang [~ymhuang@211.76.63.232] has quit []
+19:26 -!- either [uid66282@gateway/web/irccloud.com/x-mfdqmfevwilufyyu] has quit [Quit: Connection closed for inactivity]
+19:29 -!- Lee-W_ [uid13167@gateway/web/irccloud.com/x-zmduqjobloclnbcl] has quit [Quit: Connection closed for inactivity]
+19:30 -!- billy3321 [uid12904@gateway/web/irccloud.com/x-bfaaxahdjijnuenm] has quit [Quit: Connection closed for inactivity]
+19:31 -!- JYNY [uid13953@gateway/web/irccloud.com/x-rhxrfxmryvfmhcyf] has quit [Quit: Connection closed for inactivity]
+19:33 -!- Sakamoto_ [uid106911@gateway/web/irccloud.com/x-iihuhoqhcgnqmjkx] has quit [Quit: Connection closed for inactivity]
+19:34 -!- ghostyang [650f6349@gateway/web/freenode/ip.101.15.99.73] has quit [Ping timeout: 264 seconds]
+19:34 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+19:34 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+19:39 -!- yomao_ [uid38282@gateway/web/irccloud.com/x-hnkvaytixhyebjua] has quit [Quit: Connection closed for inactivity]
+19:39 -!- [R0]hinet60613 [uid27221@gateway/web/irccloud.com/x-ftvovzygwzfxqqgk] has quit [Quit: Connection closed for inactivity]
+19:39 -!- david11014 [uid38392@gateway/web/irccloud.com/x-dmqleygdlsnkcjte] has quit [Quit: Connection closed for inactivity]
+19:41 -!- juiz [~juiz@unaffiliated/yungyuc] has joined #coscup
+19:41 -!- juiz [~juiz@unaffiliated/yungyuc] has quit [Client Quit]
+19:41 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+19:42 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+19:42 -!- vincentsue [~vincentsu@27.105.55.47] has joined #coscup
+19:42 -!- float [uid15344@gateway/web/irccloud.com/x-lhokmtifiejkwpby] has quit [Quit: Connection closed for inactivity]
+19:43 -!- fntsrCloud [uid16354@gateway/web/irccloud.com/x-hktwuocngufilovg] has quit [Quit: Connection closed for inactivity]
+19:43 -!- BobLu [uid42911@gateway/web/irccloud.com/x-jpmkfwgzrlxqtlnp] has quit [Quit: Connection closed for inactivity]
+19:43 -!- Lee1092 [uid13277@gateway/web/irccloud.com/x-eiczcibyvvmmjrcf] has quit [Quit: Connection closed for inactivity]
+19:44 -!- JethroYu [uid27569@gateway/web/irccloud.com/x-kbrbleujoswdkfxo] has quit [Quit: Connection closed for inactivity]
+19:45 -!- amo [uid38455@gateway/web/irccloud.com/x-bycvrhldwiytznnw] has quit [Quit: Connection closed for inactivity]
+19:47 -!- kunigumi [uid148732@gateway/web/irccloud.com/x-xqrqbpzbpylzcqim] has quit [Quit: Connection closed for inactivity]
+19:50 -!- derjohng [7a74da1f@gateway/web/freenode/ip.122.116.218.31] has joined #coscup
+19:50 -!- QwQ [~androirc@223-136-182-136.EMOME-IP.hinet.net] has joined #coscup
+19:50 -!- derjohng [7a74da1f@gateway/web/freenode/ip.122.116.218.31] has quit [Client Quit]
+19:51 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+19:51 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+19:51 -!- hydai [uid38396@gateway/web/irccloud.com/x-edwxspikjwrswvle] has quit [Quit: Connection closed for inactivity]
+19:52 < QwQ> 所以說 神秘禮物那個按鈕 是指集點活動嗎 ？！
+19:52 -!- darkgerm2 [uid12415@gateway/web/irccloud.com/x-bgmyypohriefwyfx] has quit [Quit: Connection closed for inactivity]
+19:52 -!- kunigumi [uid148732@gateway/web/irccloud.com/x-nwahxmadwjbfnyge] has joined #coscup
+20:00 -!- TYLin [sid187@gateway/web/mozilla/x-yxtvijmycotbrioq] has left #coscup []
+20:05 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+20:05 -!- [R0]buck5060 [~buck5060@140.115.206.158] has joined #coscup
+20:06 -!- vincents_ [~vincentsu@180.204.151.27] has joined #coscup
+20:08 -!- kewang [~kewang@220-132-107-152.HINET-IP.hinet.net] has joined #coscup
+20:08 -!- AndChat401249 [~AndChat40@223-140-43-234.EMOME-IP.hinet.net] has joined #coscup
+20:08 < [R0]Heero_Yuy> 神秘禮物按鈕忘了按orz
+20:09 -!- [R0]Heero_Yuy is now known as Heero_Yuy
+20:10 -!- vincentsue [~vincentsu@27.105.55.47] has quit [Ping timeout: 260 seconds]
+20:12 -!- cartertsai [~cartertsa@114-32-104-111.HINET-IP.hinet.net] has joined #coscup
+20:13 < coscupbot> (FinalCoffee) 不好意思請問有撿到錢包，我大概是下午兩點左右有跟服務台報告過
+20:15 -!- shareway [uid106948@gateway/web/irccloud.com/x-orzztihhesmteeqr] has quit [Quit: Connection closed for inactivity]
+20:16 -!- vincents_ [~vincentsu@180.204.151.27] has quit [Remote host closed the connection]
+20:20 -!- vincentsue [~vincentsu@27.105.55.47] has joined #coscup
+20:20 -!- kester___ [uid34598@gateway/web/irccloud.com/x-gngnpmawvbwbdwjc] has quit [Quit: Connection closed for inactivity]
+20:23 -!- muhaha03__ [uid43045@gateway/web/irccloud.com/x-trhggcdynlhhlral] has quit [Quit: Connection closed for inactivity]
+20:25 -!- clkao [sid12095@gateway/web/irccloud.com/x-dkdghjjrwgrtxvnu] has left #coscup []
+20:25 -!- kewang [~kewang@220-132-107-152.HINET-IP.hinet.net] has quit [Remote host closed the connection]
+20:25 -!- [R0]buck5060 [~buck5060@140.115.206.158] has quit [Read error: Connection reset by peer]
+20:26 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+20:27 -!- cartertsai [~cartertsa@114-32-104-111.HINET-IP.hinet.net] has quit [Remote host closed the connection]
+20:28 < chiehyou> \exit
+20:28 < chiehyou> \quit
+20:28 < chiehyou> \q
+20:28 < chiehyou> \h
+20:28 < chiehyou> \help
+20:36 -!- poga [~poga@45.32.58.97] has left #coscup ["WeeChat 1.5"]
+20:39 -!- t510599 [uid180825@gateway/web/irccloud.com/x-qcamddfsakrdjgos] has joined #coscup
+20:42 -!- mabinogi80503 [~mabinogi8@122-116-116-167.HINET-IP.hinet.net] has joined #coscup
+20:42 -!- mabinogi80503 [~mabinogi8@122-116-116-167.HINET-IP.hinet.net] has quit [Client Quit]
+20:43 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+20:43 -!- AndChat401249 [~AndChat40@223-140-43-234.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+20:43 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+20:45 -!- t510599 [uid180825@gateway/web/irccloud.com/x-qcamddfsakrdjgos] has quit []
+20:58 -!- barneybook [uid33576@gateway/web/irccloud.com/x-hzsocezwabczxurm] has quit [Quit: Connection closed for inactivity]
+20:58 -!- mp607 [~mp607@36-239-217-30.dynamic-ip.hinet.net] has joined #coscup
+21:01 -!- mp607 [~mp607@36-239-217-30.dynamic-ip.hinet.net] has quit [Client Quit]
+21:02 < Davy_CC> QwQ: 不是 神祕禮物是有個人贊助的才有
+21:02 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+21:02 < Davy_CC> 集點活動是另外的
+21:02 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+21:02 -!- descend [uid116330@gateway/web/irccloud.com/x-lgqdpvhxxsfpbjoa] has joined #coscup
+21:07 -!- takadiny [6ff0d211@gateway/web/freenode/ip.111.240.210.17] has quit [Quit: Page closed]
+21:07 -!- QwQ [~androirc@223-136-182-136.EMOME-IP.hinet.net] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+21:11 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+21:11 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+21:13 -!- jlhg [~user@211.201.199.104.bc.googleusercontent.com] has left #coscup ["ERC (IRC client for Emacs 24.5.1)"]
+21:19 -!- [Home] [0122af51@gateway/web/freenode/ip.1.34.175.81] has joined #coscup
+21:23 -!- [R0]Segno [~segno@117.19.51.40] has joined #coscup
+21:24 -!- R0-shaw [~shaw@114-136-171-200.EMOME-IP.hinet.net] has joined #coscup
+21:24 < R0-shaw> 6666
+21:24 -!- legist [6f52a11a@gateway/web/freenode/ip.111.82.161.26] has joined #coscup
+21:24 -!- [R0]Segno [~segno@117.19.51.40] has quit [Remote host closed the connection]
+21:25 -!- R0-shaw [~shaw@114-136-171-200.EMOME-IP.hinet.net] has quit [Remote host closed the connection]
+21:25 -!- [R0]Segno [~segno@117.19.51.40] has joined #coscup
+21:25 < legist> 請問有沒有哪裡放了今年的irc log？
+21:29 -!- Shawwwwww [7288abc8@gateway/web/freenode/ip.114.136.171.200] has quit [Ping timeout: 264 seconds]
+21:29 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+21:29 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+21:29 -!- stanely [~smuxi@1.34.176.212] has joined #coscup
+21:32 -!- vincentsu [~Mutter@180.204.151.27] has joined #coscup
+21:34 < David_c> 平安順利歸宅，辛苦了各位。期待明年在中研院再相會！
+21:36 -!- vincentsu [~Mutter@180.204.151.27] has quit [Ping timeout: 240 seconds]
+21:36 -!- stanely [~smuxi@1.34.176.212] has quit [Remote host closed the connection]
+21:39 -!- shaolin [uid13544@gateway/web/irccloud.com/x-srmthrphfmqprvqd] has quit [Quit: Connection closed for inactivity]
+21:41 -!- vincentsue [~vincentsu@27.105.55.47] has quit []
+21:42 -!- legist [6f52a11a@gateway/web/freenode/ip.111.82.161.26] has quit [Ping timeout: 264 seconds]
+21:43 -!- [R0]Segno [~segno@117.19.51.40] has quit [Remote host closed the connection]
+21:44 -!- zhxie [~zhxie@111-83-81-60.EMOME-IP.hinet.net] has joined #coscup
+21:45 < zhxie> Finally back to home
+21:50 -!- test_ [~hashman@64.137.227.214] has left #coscup []
+21:51 -!- RichardWU [~AndChat14@101.15.194.120] has joined #coscup
+21:51 -!- hashman [~hashman@64.137.227.214] has joined #coscup
+21:52 -!- hashman [~hashman@64.137.227.214] has quit [Client Quit]
+21:53 -!- taipeiwu [~AndChat14@175.96.113.227] has quit [Ping timeout: 240 seconds]
+21:53 -!- vincentsu [uid181072@gateway/web/irccloud.com/x-szivwznxexohaghg] has joined #coscup
+21:54 < zhxie> quit
+21:54 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has quit [Read error: Connection reset by peer]
+21:54 -!- zhxie [~zhxie@111-83-81-60.EMOME-IP.hinet.net] has quit [Quit: leaving]
+21:54 -!- [R0]buck5060 [~buck5060@158-206.dorm.ncu.edu.tw] has joined #coscup
+21:57 -!- vincentsu [uid181072@gateway/web/irccloud.com/x-szivwznxexohaghg] has quit [Client Quit]
+21:57 -!- kunigumi [uid148732@gateway/web/irccloud.com/x-nwahxmadwjbfnyge] has quit [Quit: Connection closed for inactivity]
+21:58 -!- vincentsu [uid181072@gateway/web/irccloud.com/x-fiowemuiluyjvkiw] has joined #coscup
+22:14 -!- ccn [~ccn@staff.kkbox.com.tw] has quit [Read error: Connection reset by peer]
+22:14 -!- [Home] [0122af51@gateway/web/freenode/ip.1.34.175.81] has quit [Quit: Page closed]
+22:14 -!- ccn [~ccn@staff.kkbox.com.tw] has joined #coscup
+22:26 -!- KazeMewno [~androirc@223-140-4-184.EMOME-IP.hinet.net] has quit [Read error: Connection reset by peer]
+22:36 -!- dneif [~dneif@106.1.101.154] has joined #coscup
+22:40 -!- dneif [~dneif@106.1.101.154] has quit []
+22:42 -!- dneif [~dneif@106.1.101.154] has joined #coscup
+22:44 -!- isken_ [6a696108@gateway/web/cgi-irc/kiwiirc.com/ip.106.105.97.8] has joined #coscup
+22:46 < dannyAAM> legist: 共筆裡面有
+22:58 -!- [R0]hinet60613 [uid27221@gateway/web/irccloud.com/x-bnknqjucfievhnwi] has joined #coscup
+22:58 -!- [R0]hinet60613 is now known as hinet60613
+22:59 -!- jackymaxj [daa12114@gateway/web/freenode/ip.218.161.33.20] has joined #coscup
+23:00 -!- jackymaxj [daa12114@gateway/web/freenode/ip.218.161.33.20] has quit [Client Quit]
+23:02 -!- circ-user-U6HCg [~circuser-@218-161-33-20.HINET-IP.hinet.net] has joined #coscup
+23:02 -!- circ-user-U6HCg [~circuser-@218-161-33-20.HINET-IP.hinet.net] has quit [Remote host closed the connection]
+23:10 -!- isken_ [6a696108@gateway/web/cgi-irc/kiwiirc.com/ip.106.105.97.8] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:19 -!- PichuChen [~PichuChen@220-129-147-241.dynamic.hinet.net] has joined #coscup
+23:37 -!- [R0]pakls [~ant@pakls.us.to] has quit [Quit: leaving]
+23:45 -!- nightfeather [~nightfeat@220-133-162-2.HINET-IP.hinet.net] has joined #coscup
+23:46 -!- descend [uid116330@gateway/web/irccloud.com/x-lgqdpvhxxsfpbjoa] has quit [Quit: Connection closed for inactivity]
+23:47 < nightfeather> 喵的 今天被一個奇怪的問題雷到
+23:48 < nightfeather> NetworkManager 在呼叫 dhclient 幫主要介面 dhcp 的時候
+23:49 < nightfeather> 不知道哪裡來的 signal SIGABRT 把 dhclient 砍了
+23:49 < nightfeather> 還發生了兩次 結果就讓那個介面沒 ip ....
+23:49 < nightfeather> 害我連不上
+23:58 -!- yrc [uid123303@gateway/web/irccloud.com/x-oybxgxdaggvvoadg] has joined #coscup
+--- Log closed Mon Aug 22 00:00:43 2016
