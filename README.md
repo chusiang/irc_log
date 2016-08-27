@@ -22,6 +22,12 @@
 - 2009, [HTML](https://web.archive.org/web/20100224040901/http://coscup.bluet.org/coscup-2009.html) #Preparing: [HTML](https://web.archive.org/web/20100224035450/http://coscup.bluet.org/coscup-2009-preparing.html)
 - 2008
 
+### Community Open Camp
+
+[https://community-open-camp.azurewebsites.net/](https://community-open-camp.azurewebsites.net/)
+
+* 2016 #Gitter [Lobby](https://gitter.im/community-open-camp/Lobby) [R0](https://gitter.im/community-open-camp/R0), [R1](https://gitter.im/community-open-camp/R1), [R2](https://gitter.im/community-open-camp/R2)
+
 ### DevOps Summit
 
 [http://devopssummit.ithome.com.tw](http://devopssummit.ithome.com.tw)
