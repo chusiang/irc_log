@@ -8,6 +8,14 @@
 
 ----
 
+### Container Summit
+
+[http://containersummit.ithome.com.tw/](http://containersummit.ithome.com.tw/)
+
+- [2016](https://gitter.im/orgs/Container-Summit-2016/rooms) #archives [Day1] [Lobby](https://gitter.im/Container-Summit-2016/Lobby/archives/2016/09/21), [國際會議廳](https://gitter.im/Container-Summit-2016/%E5%9C%8B%E9%9A%9B%E6%9C%83%E8%AD%B0%E5%BB%B3/archives/2016/09/21), [蘇格拉底廳](https://gitter.im/Container-Summit-2016/%E8%98%87%E6%A0%BC%E6%8B%89%E5%BA%95%E5%BB%B3/archives/2016/09/21) [Day2] [Lobby](https://gitter.im/Container-Summit-2016/Lobby/archives/2016/09/22), [國際會議廳](https://gitter.im/Container-Summit-2016/%E5%9C%8B%E9%9A%9B%E6%9C%83%E8%AD%B0%E5%BB%B3/archives/2016/09/22), [蘇格拉底廳](https://gitter.im/Container-Summit-2016/%E8%98%87%E6%A0%BC%E6%8B%89%E5%BA%95%E5%BB%B3/archives/2016/09/22)
+- 2015
+- 2014
+
 ### COSCUP (開源人年會)
 
 [http://coscup.org](http://coscup.org)
@@ -21,6 +29,8 @@
 - [2010](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2010.log) #Engadget: [R0](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room1/), [R1](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room2/), [R2](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room3/), [R3](http://chinese.engadget.com/2010/08/13/coscup-2010-8-14-room4/)
 - 2009, [HTML](https://web.archive.org/web/20100224040901/http://coscup.bluet.org/coscup-2009.html) #Preparing: [HTML](https://web.archive.org/web/20100224035450/http://coscup.bluet.org/coscup-2009-preparing.html)
 - 2008
+- 2007
+- 2006
 
 ### Community Open Camp
 
