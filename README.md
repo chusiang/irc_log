@@ -12,7 +12,7 @@
 
 [http://containersummit.ithome.com.tw/](http://containersummit.ithome.com.tw/)
 
-- [2016](https://gitter.im/orgs/Container-Summit-2016/rooms) #archives [Day1] [Lobby](https://gitter.im/Container-Summit-2016/Lobby/archives/2016/09/21), [國際會議廳](https://gitter.im/Container-Summit-2016/%E5%9C%8B%E9%9A%9B%E6%9C%83%E8%AD%B0%E5%BB%B3/archives/2016/09/21), [蘇格拉底廳](https://gitter.im/Container-Summit-2016/%E8%98%87%E6%A0%BC%E6%8B%89%E5%BA%95%E5%BB%B3/archives/2016/09/21) [Day2] [Lobby](https://gitter.im/Container-Summit-2016/Lobby/archives/2016/09/22), [國際會議廳](https://gitter.im/Container-Summit-2016/%E5%9C%8B%E9%9A%9B%E6%9C%83%E8%AD%B0%E5%BB%B3/archives/2016/09/22), [蘇格拉底廳](https://gitter.im/Container-Summit-2016/%E8%98%87%E6%A0%BC%E6%8B%89%E5%BA%95%E5%BB%B3/archives/2016/09/22)
+- [2016](https://gitter.im/orgs/Container-Summit-2016/rooms) #Gitter [Day1] [Lobby](https://gitter.im/Container-Summit-2016/Lobby/archives/2016/09/21), [國際會議廳](https://gitter.im/Container-Summit-2016/%E5%9C%8B%E9%9A%9B%E6%9C%83%E8%AD%B0%E5%BB%B3/archives/2016/09/21), [蘇格拉底廳](https://gitter.im/Container-Summit-2016/%E8%98%87%E6%A0%BC%E6%8B%89%E5%BA%95%E5%BB%B3/archives/2016/09/21) [Day2] [Lobby](https://gitter.im/Container-Summit-2016/Lobby/archives/2016/09/22), [國際會議廳](https://gitter.im/Container-Summit-2016/%E5%9C%8B%E9%9A%9B%E6%9C%83%E8%AD%B0%E5%BB%B3/archives/2016/09/22), [蘇格拉底廳](https://gitter.im/Container-Summit-2016/%E8%98%87%E6%A0%BC%E6%8B%89%E5%BA%95%E5%BB%B3/archives/2016/09/22)
 - 2015
 - 2014
 
@@ -36,7 +36,7 @@
 
 [http://devopssummit.ithome.com.tw](http://devopssummit.ithome.com.tw)
 
-- [2016](https://gitter.im/DevOpsTW/devops_summit_2016) #archives [Day1](https://gitter.im/DevOpsTW/devops_summit_2016/archives/2016/07/05), [Day2](https://gitter.im/DevOpsTW/devops_summit_2016/archives/2016/07/06)
+- [2016](https://gitter.im/DevOpsTW/devops_summit_2016) #Gitter [Day1](https://gitter.im/DevOpsTW/devops_summit_2016/archives/2016/07/05), [Day2](https://gitter.im/DevOpsTW/devops_summit_2016/archives/2016/07/06)
 - 2015
 
 
