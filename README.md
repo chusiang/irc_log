@@ -20,6 +20,7 @@
 
 [http://coscup.org](http://coscup.org)
 
+- [2017](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2017.log) #Logbot: [Day1](http://logbot.g0v.tw/channel/coscup/2017-08-05), [Day2](http://logbot.g0v.tw/channel/coscup/2017-08-06)
 - [2016](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2016.log) #Logbot: [Day1](http://logbot.g0v.tw/channel/coscup/2016-08-20), [Day2](http://logbot.g0v.tw/channel/coscup/2016-08-21)
 - [2015](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2015.log) #Logbot: [Day1](http://logbot.g0v.tw/channel/coscup/2015-08-15), [Day2](http://logbot.g0v.tw/channel/coscup/2015-08-16)
 - [2014](https://raw.github.com/chusiang/irc_log/master/coscup/irc-coscup-2014.log) #Logbot: [Day1](http://logbot.g0v.tw/channel/coscup/2014-07-19), [Day2](http://logbot.g0v.tw/channel/coscup/2014-07-20)
