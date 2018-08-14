@@ -1,0 +1,1648 @@
+10:35 -!- hashman [~hashman@109.181.236.35.bc.googleusercontent.com] has joined #coscup
+10:35 -!- Topic for #coscup: [UTF8] COSCUP 開源人年會  http://coscup.org/ | 2018 共筆目錄 https://hackmd.io/c/COSCUP2018
+10:35 -!- Topic set by bobchao [7288e097@gateway/web/freenode/ip.114.136.224.151] [Sat Aug 11 09:47:59 2018]
+10:35 [Users #coscup]
+10:35 [ a0000778] [ chihchun_afk    ] [ Denir     ] [ jrhenry     ] [ LSM_      ] [ S3p_lin         ] 
+10:35 [ AceLan  ] [ cibs            ] [ DennyHuang] [ KCinJP      ] [ mingyen_  ] [ Sean_COSCUP     ] 
+10:35 [ alicekey] [ clode___________] [ dhsung    ] [ kester___   ] [ MLChen    ] [ SlackIntegration] 
+10:35 [ aman_   ] [ Conrad          ] [ Eric_S_Yu ] [ kito-cheng  ] [ mrmoneyc_ ] [ superbil        ] 
+10:35 [ Andox   ] [ COSCUP_bridge_bo] [ GlueCrow  ] [ knowlet     ] [ mxlius_   ] [ timcheng        ] 
+10:35 [ au      ] [ COSCUP_Snake    ] [ gslin     ] [ KuroKuo     ] [ NewCliCker] [ timdream        ] 
+10:35 [ Benyi   ] [ coscupbot       ] [ hashman   ] [ lantw44     ] [ obo       ] [ tonyhusky       ] 
+10:35 [ bhujmn  ] [ CrBoy__         ] [ Heero_Yuy ] [ licson      ] [ pichu     ] [ u10313335       ] 
+10:35 [ caa51h  ] [ cswang          ] [ iblis17   ] [ licson_l3   ] [ r2tw      ] [ wcpan           ] 
+10:35 [ caasih  ] [ czchen_         ] [ isacl_    ] [ logbot___   ] [ RainnyQ   ] [ yan12125        ] 
+10:35 [ ccn_    ] [ dannyAAM        ] [ joehorn_  ] [ lother_IB401] [ RJHsiao   ] [ YChao__         ] 
+10:35 -!- Irssi: #coscup: Total of 66 nicks [0 ops, 0 halfops, 0 voices, 66 normal]
+10:35 -!- Channel #coscup created Sat Mar 22 22:31:50 2008
+10:35 -!- Irssi: Join to #coscup was synced in 2 secs
+10:35 < COSCUP_bridge_bo> <tonyhhyip>: (Haraguroicha: 就算修了應...) 叫大家去下載 apk 就好了（X
+10:35 < COSCUP_bridge_bo> <Haraguroicha>: (EricTseng: pycon...) 因為前一次用這個 app 是 PyConTW 沒錯
+10:36 < COSCUP_bridge_bo> <ccchen>: 請問有人還有多的票嗎？我買到沒有票券的貢獻票⋯⋯
+10:37 < COSCUP_bridge_bo> <EricTseng>: 401 的麥克風嗚嗚嗚嗚
+10:37 < COSCUP_bridge_bo> <tonyhhyip>: (ccchen: 請問有人還...) 這樂子很大
+10:37 < COSCUP_bridge_bo> <kuni93>: [401] Mic 又有狀況了
+10:37 < COSCUP_bridge_bo> <tonyhhyip>: (EricTseng: 401 的...) （眼神死
+10:38 < COSCUP_bridge_bo> <iGeneKuo>: (EricTseng: 401 的...) 慘...
+10:38 < COSCUP_bridge_bo> <tonyhhyip>: 401 聽不到...
+10:38 < COSCUP_bridge_bo> <alex1u>: 201 mic 沒電了...
+10:38 < COSCUP_bridge_bo> <kuni93>: 401 的低音太重，很難聽到講者講啥
+10:39 -!- zjason [~user@59-115-100-177.dynamic-ip.hinet.net] has joined #coscup
+10:39 < COSCUP_bridge_bo> <iGeneKuo>: 而且還會不時冒出雜訊
+10:39 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Remote host closed the connection]
+10:39 < COSCUP_bridge_bo> <ccchen>: (tonyhhyip: 這樂子很大) 我是覺的很瞎，我還真的沒想到COSCUP會有這種票。
+10:40 -!- asahsieh [8c769433@gateway/web/freenode/ip.140.118.148.51] has joined #coscup
+10:42 < COSCUP_bridge_bo> <CrBoy>: (alex1u: 201 m...) 身為一個開源研討會的參與者，你願意去跟講者說他可以改用講桌的有線麥克風嗎？XD
+10:42 < KuroKuo> 沒有票卷是指沒有 QR Code 的票噢？
+10:43 < COSCUP_bridge_bo> <singing_li>: (iGeneKuo: 而且401...) 剛剛調過還一樣嗎
+10:44 < COSCUP_bridge_bo> <ijliao>: (tonyhhyip: 這樂子很大) open source 感謝您的貢獻 XD
+10:44 < COSCUP_bridge_bo> <iGeneKuo>: (singing_li: 剛剛調過還...) 會 上面只能調音量
+10:44 < COSCUP_bridge_bo> <iGeneKuo>: 其他設定的被鎖住了
+10:44 < COSCUP_bridge_bo> <alex1u>: (CrBoy: 身為一個開...) 原來有這招，不過 staff 好像在處理了
+10:45 < kester___> 我記得之前也有這種票。好像不是第一次有這種票
+10:45 < COSCUP_bridge_bo> <tonyhhyip>: 401 放棄治療了 XDD
+10:45 < COSCUP_bridge_bo> <kuni93>: 401 感覺 Mic 沒對到嘴，沒收到因
+10:46 < KuroKuo> 我手邊還有一張有 QR Code 的票…
+10:47 < COSCUP_bridge_bo> <iGeneKuo>: 401 有好一點了
+10:48 < COSCUP_bridge_bo> <ccchen>: (KuroKuo: 我手邊還有...) 請問我可以跟你拿嗎？
+10:48 < Benyi> 原來 MySQL 要念成 My- S-Q-L
+10:48 < COSCUP_bridge_bo> <davihuan>: mosky 的氣音有沒有辦法調 EQ 降一點?
+10:48 -!- mp607 [~mp607@phantom.tfcis.org] has joined #coscup
+10:48 < COSCUP_bridge_bo> <chihchun>: 這裡教室的採光好怪，開燈看不到投影片，不開燈看不到講者
+10:48 < KuroKuo> > ccchen 我可以直接把郵件轉寄給你
+10:48 -!- jlhg [~user@2400:8902::f03c:91ff:fee5:dad] has joined #coscup
+10:49 < COSCUP_bridge_bo> <davihuan>: 2004 年 CC
+10:49 < COSCUP_bridge_bo> <davy_0xff>: (ccchen: 我是覺的很...) 貢獻歸貢獻，票歸票 貢獻並不代表買票 COSCUP 不以販售票券作為取得資金的手段 只是為了回饋貢獻贊助者，COSCUP 願意以票卷回饋  這跟群眾募資的道理是一樣的，你贊助他並不是在買他的商品
+10:49 < COSCUP_bridge_bo> <David_C927>: 101的麥好像有一隻沒電了嗎？
+10:50 < COSCUP_bridge_bo> <OtomeSound>: [401] 偷偷婊了一下499
+10:50 < COSCUP_bridge_bo> <davihuan>: 林強 CC 時代先驅
+10:50 < COSCUP_bridge_bo> <CrBoy>: (alex1u: 原來有這招...) 我們是多軌處理XD
+10:51 < COSCUP_bridge_bo> <davihuan>: 取之於公 用之於公
+10:51 < aman_> 林強....太猛了
+10:51 < coscupbot> (chihchun) 然後坐在後面看不到投影片下面
+10:51 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has joined #coscup
+10:51 < KuroKuo> [401] 我他ㄇ…不好意思用詞不當
+10:51 < COSCUP_bridge_bo> <Vdragon>: (ccchen: 請問有人還...) 貢獻票不是驗證後發邀請碼自己報名嗎？
+10:51 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has joined #coscup
+10:52 < COSCUP_bridge_bo> <NightFeather>: 看共筆才知道 hackmd 現在支援 inclue 其他 note 了
+10:52 < COSCUP_bridge_bo> <Vdragon>: 雖然我有收到邀請碼欄位一片空白的信XD
+10:52 < COSCUP_bridge_bo> <NightFeather>: ( 還是其實一直都有 XD
+10:52 < COSCUP_bridge_bo> <Vdragon>: (NightFeather: 看共筆才知...) +1
+10:53 -!- obo [df8cfe6c@gateway/web/freenode/ip.223.140.254.108] has quit [Ping timeout: 252 seconds]
+10:53 < COSCUP_bridge_bo> <lin31504>: 林強：大家注意身體健康，不要在電腦前面太久
+10:53 < COSCUP_bridge_bo> <David_C927>: 不要在電腦上太久(101)
+10:54 < COSCUP_bridge_bo> <aar0ntw>: 買到這個吧 https://i.imgur.com/s1cJfo5.png
+10:54 < COSCUP_bridge_bo> <yutin1987>: https://i.imgur.com/nVQezcN.jpg
+10:56 -!- shell909090 [uid13165@gateway/web/irccloud.com/x-qcdyeqotvzrcmxjp] has joined #coscup
+10:57 < coscupbot> (jserv) @jserv 在家帶小孩，遠距參加 COSCUP
+10:57 < COSCUP_bridge_bo> <caasih>: 想回家了
+10:57 < COSCUP_bridge_bo> <goodhorse>: 306也被放棄了QQ
+10:58 < COSCUP_bridge_bo> <Vdragon>: [301] 成就解鎖：幫助外國人找電源插座
+10:59 < COSCUP_bridge_bo> <Vdragon>: 202 現在很多人嗎？
+11:00 -!- u10313335 [~sol@cisco-vpn-nat.iis.sinica.edu.tw] has quit [Remote host closed the connection]
+11:00 < COSCUP_bridge_bo> <benlaud>: 會場有wifi能用嗎？
+11:00 < COSCUP_bridge_bo> <yutin1987>: 林強 X Open Source 距離技術社群 音樂祭 越來越近了 ~
+11:00 < COSCUP_bridge_bo> <CrBoy>: (benlaud: 會場有wi...) 沒有提供唷
+11:00 < COSCUP_bridge_bo> <RainnyTu>: (benlaud: 會場有wi...) 沒有提供會眾Wi-Fi喔
+11:00 < COSCUP_bridge_bo> <David_C927>: 沒有喔，自己準備熱點
+11:00 < COSCUP_bridge_bo> <David_C927>: 就是用你的手機
+11:00 -!- asahsieh [8c769433@gateway/web/freenode/ip.140.118.148.51] has quit [Ping timeout: 252 seconds]
+11:01 < COSCUP_bridge_bo> <knowlet>: (benlaud: 會場有wi...) 如果是學生的話歡迎使用學網
+11:01 < COSCUP_bridge_bo> <David_C927>: 起杜蘭代表wwwww (101)
+11:02 < COSCUP_bridge_bo> <benlaud>: 明白了，謝謝大家
+11:02 < COSCUP_bridge_bo> <CrBoy>: 如果是海外來的朋友，有需要但沒辦法上網的話，可以尋求服務臺協助
+11:02 < COSCUP_bridge_bo> <knowlet>: (Vdragon: 202 現...) 大概 9 分滿ㄅ
+11:02 < Benyi> MySQL 8.0 支援軟刪除
+11:02 < COSCUP_bridge_bo> <Vdragon>: [301] 畫面有點紫啊
+11:02 < COSCUP_bridge_bo> <Vdragon>: (knowlet: 大概 9...) 那我就不去惹QQ
+11:02 < COSCUP_bridge_bo> <yutin1987>: https://i.imgur.com/TLwuvI6.png
+11:02 < COSCUP_bridge_bo> <yutin1987>: wifi 可以連 NTUST 然後用 @itw [iTaiwan] 登入
+11:03 < Benyi> 煩耶被 klick klack 的網路寵壞了，沒 wifi 真的很困擾
+11:03 < COSCUP_bridge_bo> <tonyhhyip>: (knowlet: 如果是學生...) 找不到 eduroam QQ
+11:03 < COSCUP_bridge_bo> <ttwttw>: (tonyhhyip: 找不到 e...) TAnet
+11:04 < COSCUP_bridge_bo> <tonyhhyip>: (ttwttw: TANet) 人家是海外大學了（哭
+11:04 < COSCUP_bridge_bo> <knowlet>: (tonyhhyip: 找不到 e...) NTUST-PEAP 也可以
+11:04 < COSCUP_bridge_bo> <kuni93>: 401 簡報有放出來嗎？
+11:04 < COSCUP_bridge_bo> <tonyhhyip>: 你確定有跟香港大學對接？
+11:05 < COSCUP_bridge_bo> <knowlet>: (tonyhhyip: 你確定有跟...) 上次在香港大學登台灣學網是有成功的，反過來就不知道了ww
+11:05 < COSCUP_bridge_bo> <iGeneKuo>: (kuni93: 401 簡...) 之後會在社群 FB Group 上面放
+11:05 < COSCUP_bridge_bo> <iGeneKuo>: TGMeetup 那裡應該也會放
+11:06 < knowlet> 講者沒有網路 QQ
+11:06 < COSCUP_bridge_bo> <davihuan>: (Benyi: 煩耶被 k...) 行動網路臨時不限流量一天要 100 元唷!
+11:06 < COSCUP_bridge_bo> <tonyhhyip>: (knowlet: 上次在香港...) 在香港大學用 eduroam 就是了（首先是要收到
+11:06 -!- RunningMan [6ff1d644@gateway/web/freenode/ip.111.241.214.68] has joined #coscup
+11:07 < COSCUP_bridge_bo> <chusiang>: 「報稅軟體雖難用，但改善的機會真的是 0 嗎？」  #開源x跨界對談
+11:07 < COSCUP_bridge_bo> <yutin1987>: https://i.imgur.com/6VEs1Wn.jpg
+11:07 -!- rail02000 [7288c8fd@gateway/web/cgi-irc/kiwiirc.com/ip.114.136.200.253] has joined #coscup
+11:07 -!- rail02000 [7288c8fd@gateway/web/cgi-irc/kiwiirc.com/ip.114.136.200.253] has quit [Client Quit]
+11:07 < RunningMan> 會場沒有提供wifi嗎?4G好慢喔...
+11:08 < COSCUP_bridge_bo> <David_C927>: 那是你的電信問題
+11:08 -!- rail02000 [7288c8fd@gateway/web/cgi-irc/kiwiirc.com/ip.114.136.200.253] has joined #coscup
+11:08 < COSCUP_bridge_bo> <davihuan>: 目前台哥大 4G LTE 還順暢
+11:08 < KuroKuo> 種花電的 4G 還 OK 啊
+11:08 < COSCUP_bridge_bo> <fieliapm>: 中華也還ok
+11:09 < COSCUP_bridge_bo> <fieliapm>: 等等要上台嘴了,好抖喔QQ
+11:09 < COSCUP_bridge_bo> <Locy69>: 遠傳 ok 亞太訊號不好也還 ok
+11:09 < COSCUP_bridge_bo> <lin31504>: (knowlet: 如果是學生...) 一般民眾也能用 itaiwan 啦xd
+11:09 < KuroKuo> 半形逗號（x
+11:09 < COSCUP_bridge_bo> <David_C927>: 我也是台哥大，很穩。難道你用台星嗎？
+11:09 -!- aman__ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has joined #coscup
+11:10 -!- ywang1007 [~wangth@alumni.cs.nctu.edu.tw] has joined #coscup
+11:10 -!- RainnyQ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+11:10 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+11:10 < COSCUP_bridge_bo> <tsunalu>: 目前台星鎖4G穩穩用
+11:10 < COSCUP_bridge_bo> <davihuan>: 台興亞太我目前是關機狀態
+11:10 < COSCUP_bridge_bo> <knowlet>: (lin31504: 一般民眾也...) 因為我是用 PEAP 所以沒注意到ww
+11:10 < COSCUP_bridge_bo> <davihuan>: 訊號不好請回報會議室
+11:10 < COSCUP_bridge_bo> <RainnyTu>: (RunningMan: 會場沒有提...) 沒有唷，會場沒有提供Wi-Fi
+11:11 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+11:11 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has quit [Ping timeout: 252 seconds]
+11:11 < COSCUP_bridge_bo> <yoyo930021>: 台星很好 路過
+11:11 < RunningMan> 人類生活不可缺乏的要素陽光、空氣、水、Wi-Fi
+11:11 -!- CrBoy__ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+11:12 -!- RainnyQ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+11:12 < COSCUP_bridge_bo> <tsunalu>: (tsunalu: 目前台星鎖...) https://i.imgur.com/HylcYxj.jpg
+11:12 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+11:12 < RunningMan> 固網的速度還是屌打行網 爽度就是不一樣
+11:13 < COSCUP_bridge_bo> <davihuan>: 今天不要再按 speedtest 了!
+11:13 < COSCUP_bridge_bo> <tsunalu>: (davihuan: 今天不要再...) 好啦(哭
+11:13 < COSCUP_bridge_bo> <felixonmars>: 我把漫游卡从中华电信换到 TW Mobile 才终于信号满了……
+11:13 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has joined #coscup
+11:14 < COSCUP_bridge_bo> <Yukinoshita_Neko>: 學網漫遊ok哦，但itw剛剛一直進不去
+11:14 < COSCUP_bridge_bo> <davihuan>: (felixonmars: 我把漫游卡...) 請問哪一個會議室
+11:14 < COSCUP_bridge_bo> <aki02>: 那我可以按 fast.com 嗎
+11:14 < COSCUP_bridge_bo> <felixonmars>: (davihuan: 請問哪一個...) 刚才在 101 的时候是这样
+11:14 < COSCUP_bridge_bo> <davihuan>: (felixonmars: 刚才在 1...) 謝謝
+11:14 < COSCUP_bridge_bo> <tonyhhyip>: HKU 確定不能連（眼神死
+11:15 -!- GlueCrow [uid16983@gateway/web/irccloud.com/x-bqarjqsojjcqfvlv] has quit [Quit: Connection closed for inactivity]
+11:15 < RunningMan> 開源研討會隨時git clone一下專案不是很合理嗎？沒Wi-Fi根本沒辦法慢的要死
+11:15 < COSCUP_bridge_bo> <davihuan>: IB101 中華電信訊號比較差
+11:15 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has quit [Ping timeout: 252 seconds]
+11:15 < COSCUP_bridge_bo> <felixonmars>: 刚才收验证码短讯没收到，手选了一下才正常 🙈
+11:15 < COSCUP_bridge_bo> <IDontKnowButIm>: (knowlet: 如果是學生...) 有人數限制ＱＱ
+11:16 < COSCUP_bridge_bo> <davihuan>: (felixonmars: 刚才收验证...) 辛苦了, IB101 應該是中華電信塞機了
+11:16 < COSCUP_bridge_bo> <felixonmars>: 原来是这样 🌚
+11:16 < COSCUP_bridge_bo> <yoyo930021>: (RunningMan: 開源研討會...) 沒辦法 今年場地太大了
+11:17 < COSCUP_bridge_bo> <davihuan>: (aki02: 那我可以按...) 你按呀! 旁邊網路不好的人知道是誰幹的了 XD
+11:17 -!- CrBoy__ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+11:17 < COSCUP_bridge_bo> <EricTseng>: (RunningMan: 開源研討會...) —depth=1
+11:17 -!- RunningMan [6ff1d644@gateway/web/freenode/ip.111.241.214.68] has left #coscup []
+11:17 < COSCUP_bridge_bo> <bobchao>: (knowlet: 講者沒有網...) 講者信件理都有通知網路的方案喔，無法使用請先找該會議室協調人/主持人
+11:17 < COSCUP_bridge_bo> <kuni93>: 401 的音量好小
+11:18 -!- aman__ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has quit [Ping timeout: 252 seconds]
+11:19 < COSCUP_bridge_bo> <iGeneKuo>: (kuni93: 401 的...) 坐中間會比較小 如果想聽清楚一點可以做前後
+11:20 -!- Hinet60613 [8c76d24a@gateway/web/freenode/ip.140.118.210.74] has joined #coscup
+11:22 < COSCUP_bridge_bo> <aminzai>: (chusiang: 慘，一來就...) 你不是通常是撿到的那個嗎？
+11:22 < COSCUP_bridge_bo> <Clo5de>: 好冷喔QQQQ~
+11:23 < COSCUP_bridge_bo> <petitedan>: (aminzai: 你不是通常...) 因為撿太多 所以反饋？
+11:23 < COSCUP_bridge_bo> <chusiang>: (aminzai: 你不是通常...) 反正晚點就會再撿到了。XD
+11:23 < coscupbot> (chihchun) 是不是該定 uber eat 了？XD
+11:24 < COSCUP_bridge_bo> <davihuan>: 這是撿撿值滿到溢位嗎?
+11:24 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+11:24 < COSCUP_bridge_bo> <petitedan>: (davihuan: 這是撿撿值...) 😢 https://i.imgur.com/E0SfVLV.png
+11:25 < coscupbot> (chihchun) 中午哪裡吃飯方便阿？是不是該定 uber eat 了？XD
+11:25 < COSCUP_bridge_bo> <chusiang>: 一週會撿到兩支 smart phone 的人，應該不多吧！？🤣
+11:25 < coscupbot> (chihchun) test
+11:25 -!- chihchun_afk is now known as chihchun
+11:25 < COSCUP_bridge_bo> <snakewu>: (chusiang: 慘，一來就...) 沒找回來嗎？XD
+11:25 < COSCUP_bridge_bo> <petitedan>: (chusiang: 一週會撿到...) 難怪overflow
+11:25 < COSCUP_bridge_bo> <tonyhhyip>: (chusiang: 一週會撿到...) 😶 https://i.imgur.com/pvdLDMJ.png
+11:25 < COSCUP_bridge_bo> <liyang1994>: 今年的袋子真的很不錯
+11:25 < COSCUP_bridge_bo> <chihchun>: 疑，gitter 訊息不會進到 telegram
+11:25 < COSCUP_bridge_bo> <zackchang>: 401沒有直播喔
+11:25 < COSCUP_bridge_bo> <snakewu>: (chihchun: 疑，git...) 不會的
+11:26 < COSCUP_bridge_bo> <chusiang>: @snakewu 哈，剛剛回廁所時，已經不在那了。
+11:26 < COSCUP_bridge_bo> <CrBoy>: (chihchun: 疑，git...) 等你寫 bot
+11:26 < COSCUP_bridge_bo> <chihchun>: (snakewu: 不會的) why? gitter -> irc -> telegram
+11:26 < COSCUP_bridge_bo> <chihchun>: (CrBoy: 等你寫 b...) 已經寫了阿。
+11:26 < COSCUP_bridge_bo> <chusiang>: (chihchun: why?...) 等等 Rex 就 Live coding 了。XD
+11:27 < COSCUP_bridge_bo> <chihchun>: telegram bot ignore gitter bot
+11:27 < COSCUP_bridge_bo> <how8570>: 有台科的朋友嗎? 學餐有沒有開啊?
+11:28 < COSCUP_bridge_bo> <snakewu>: 一餐地下室沒開但是一樓摩斯有開，三餐有開
+11:28 < COSCUP_bridge_bo> <CrBoy>: 一餐摩斯跟三餐有開
+11:28 < COSCUP_bridge_bo> <benlaud>: 有沒有人也覺得那個議程的timeline很難用....?
+11:28 < COSCUP_bridge_bo> <davihuan>: 有摩斯呀呀呀呀呀呀!
+11:29 < COSCUP_bridge_bo> <davihuan>: (benlaud: 有沒有人也...) app 比較好用
+11:29 < COSCUP_bridge_bo> <pennyken>: 請現在線上送餐
+11:29 < Hinet60613>  /order 摩斯鱈魚堡
+11:29 < COSCUP_bridge_bo> <pennyken>: 另外昨天已發生，燒肉醬汁偏少，相對沒味道的問題
+11:30 < COSCUP_bridge_bo> <IDontKnowButIm>: 台科大學餐（https://drive.google.com/file/d/1NR_JE0FzNSCUd0FR-d1RXkjZ5D57bXHE/view）
+11:30 < COSCUP_bridge_bo> <yoyo930021>: /order@COSCUP_IRC_bot
+11:30 < COSCUP_bridge_bo> [Title] Google 雲端硬碟 -- 找不到頁面
+11:30 < COSCUP_bridge_bo> <pennyken>: 覺得中研院的摩絲被DDoS到超強大
+11:30 < COSCUP_bridge_bo> <JackKuo>: (IDontKnowButIm: 台科大學餐...) 多了括號
+11:30 < COSCUP_bridge_bo> <aminzai>: 正想問餐廳怎麼去 就有勇者幫忙了！
+11:30 < COSCUP_bridge_bo> <davihuan>: 中研院還有 MOS 嗎?
+11:30 < COSCUP_bridge_bo> <yoyo930021>: (pennyken: 覺得中研院...) 可是不是關了 QQ
+11:30 < kester___> 202mic 掛掉中
+11:30 < COSCUP_bridge_bo> <IDontKnowButIm>: (JackKuo: 多了括號) 已修
+11:30 < COSCUP_bridge_bo> <benlaud>: (davihuan: app 比...) 太好了，原來有這招，我終於可以好好地研究有什麼議程
+11:30 < COSCUP_bridge_bo> <pennyken>: (davihuan: 中研院還有...) 關了
+11:31 < COSCUP_bridge_bo> <pennyken>: 目前等微風開幕
+11:31 < COSCUP_bridge_bo> <aminzai>: https://i.imgur.com/6I63Mqj.jpg
+11:31 < kester___> 應該叫爆音
+11:32 < COSCUP_bridge_bo> <petitedan>: 微風中研院預計10月底開幕
+11:32 -!- KuroKuo [uid314958@gateway/web/irccloud.com/x-svcytembxoodrrni] has left #coscup []
+11:32 < COSCUP_bridge_bo> <davihuan>: 短延長線是會議活動必備的唷! 尤其是該死的白豆腐問題。
+11:32 < COSCUP_bridge_bo> <pennyken>: g0v summit好像也來不及？
+11:33 < COSCUP_bridge_bo> <pennyken>: 昨天用四爪章魚解決
+11:33 < COSCUP_bridge_bo> <yoyo930021>: 看來 SITCON 可能會有
+11:33 < COSCUP_bridge_bo> <軒懷>: [307] 800多個步驟做好一個小車
+11:33 < COSCUP_bridge_bo> <aminzai>: https://i.imgur.com/qQoHCJf.jpg
+11:33 < COSCUP_bridge_bo> <aminzai>: 目前用過最小的延長線...
+11:34 < COSCUP_bridge_bo> <Kuro>: 我終究是把白豆腐外接了一條插頭 😆
+11:35 < COSCUP_bridge_bo> <Locy69>: (Reply to aminzai) 這顆真的蠻好用的
+11:35 -!- rsghost [~rsghost@li475-129.members.linode.com] has joined #coscup
+11:35 -!- bobchao [cb4543fc@gateway/web/freenode/ip.203.69.67.252] has joined #coscup
+11:36 -!- mode/#coscup [+o bobchao] by ChanServ
+11:36 < COSCUP_bridge_bo> <aminzai>: (Locy69: 這顆真的蠻...) 是啊 出遠門帶一顆就可以出門了
+11:36 < COSCUP_bridge_bo> <petitedan>: (aminzai: 目前用過最...) 那裡買
+11:38 -!- pichu_ [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has joined #coscup
+11:38 < COSCUP_bridge_bo> <aminzai>: (petitedan: 那裡買) 照片有牌子！  網拍有人弄進來
+11:38 < COSCUP_bridge_bo> <davihuan>: https://www.instagram.com/p/BmUuOH_F7ZU/?utm_source=ig_share_sheet&igshid=1g20n4a0cva6b
+11:38 < COSCUP_bridge_bo> [Title] Instagram 上的 David Lifu Huang：「 目前的攜帶用電源連接解決方案。 」
+11:39 < knowlet> Mos 現在預訂已經說要等 60min 起跳惹..
+11:39 -!- rail02000 [7288c8fd@gateway/web/cgi-irc/kiwiirc.com/ip.114.136.200.253] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:39 < COSCUP_bridge_bo> <pennyken>: (petitedan: 那裡買) 台灣有賣
+11:39 < COSCUP_bridge_bo> <pennyken>: 這棵有代理商
+11:40 < COSCUP_bridge_bo> <IDontKnowButIm>: uber eats了(O
+11:40 < COSCUP_bridge_bo> <davihuan>: (knowlet: Mos 現...) 所以現在可以訂中餐了
+11:40 < COSCUP_bridge_bo> <yutin1987>: https://101.101.101.101/
+11:40 < COSCUP_bridge_bo> <Locy69>: (aminzai: 是啊 出遠...) 已經帶出國用過 n次了！XD
+11:41 < COSCUP_bridge_bo> <dchiang0819121>: (yutin1987: https...) 教授邀請大家一同壓力測試www
+11:41 -!- CrBoy__ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+11:42 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+11:44 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+11:44 < COSCUP_bridge_bo> <GDHFang>: (knowlet: Mos 現...) KFC 選我正解(O
+11:45 < COSCUP_bridge_bo> <knowlet>: (Kuro: 我終究是把...) https://i.imgur.com/b70Yknd.jpg
+11:45 < COSCUP_bridge_bo> <danny8376>: KFC會比較好嗎www
+11:45 < kester___> 跪求午餐資訊。謝謝各位大大
+11:45 < COSCUP_bridge_bo> <davihuan>: (Reply to knowlet) 這個厲害
+11:45 -!- chihchun is now known as chihchun_afk
+11:46 < COSCUP_bridge_bo> <pennyken>: (Reply to aminzai) here
+11:46 < COSCUP_bridge_bo> <fateyan>: [IB202] 有沒有投影片檔案 QQ
+11:46 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Quit: mp607_]
+11:46 < COSCUP_bridge_bo> <fateyan>: 他的 code 都看不到
+11:46 < COSCUP_bridge_bo> <fateyan>: 投影機（ry
+11:47 < COSCUP_bridge_bo> <Vdragon>: [301] 剛剛投影機好像自動關機囉
+11:47 < COSCUP_bridge_bo> <Irvin>: (yutin1987: https...) 到底頂不頂得住流量 https://i.imgur.com/zQwhkHe.jpg
+11:47 < COSCUP_Snake> @kester___: COSCUP 餐廳路線 https://drive.google.com/file/d/1NR_JE0FzNSCUd0FR-d1RXkjZ5D57bXHE/view
+11:50 < COSCUP_bridge_bo> <Vdragon>: (COSCUP_Snake: @kest...) 限 staff 嗎，還是含會眾？
+11:50 -!- chihchun_afk is now known as chihchun
+11:50 < COSCUP_bridge_bo> <David_C927>: 都有。
+11:50 < COSCUP_bridge_bo> <chihchun>: 三樓 Ubuntu/FreeBSD 這邊有沒有風扇呀？有點熱
+11:51 < COSCUP_bridge_bo> <yoyo930021>: (Vdragon: 限 sta...) 學校裏是不限的
+11:51 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+11:51 < COSCUP_bridge_bo> <GDHFang>: (danny8376: KFC會比...) 不要小看 KFC 20 分鐘馬上出發(有比較好對吧
+11:52 -!- pichu [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has quit [Quit: Lost terminal]
+11:52 < COSCUP_bridge_bo> <bobchao>: (GDHFang: 不要小看...) ... 還真的有 看來大家可以現在就搭訕隔壁的一群人一起訂 XD...
+11:52 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has joined #coscup
+11:52 < COSCUP_bridge_bo> <aki02>: 餓
+11:52 < COSCUP_bridge_bo> <CrBoy>: (Vdragon: 限 sta...) 歡迎所有人前往學生餐廳促進經濟！
+11:52 < COSCUP_bridge_bo> <Vdragon>: [301] Staff 不見惹QAAQ
+11:52 < COSCUP_bridge_bo> <Vdragon>: 議程開始了欸
+11:53 < COSCUP_bridge_bo> <CrBoy>: 什麼 staff？
+11:53 < COSCUP_bridge_bo> <danny8376>: (Reply to Irvin) 還行吧 最糟就跟168.95.1.1一樣而已(?
+11:53 < COSCUP_bridge_bo> <Yuy_Heero>: 307 好多人....
+11:54 < COSCUP_bridge_bo> <Ruinland>: https://paste.ee/r/ZOvFv
+11:54 < COSCUP_bridge_bo> <Bentley0928>: 307炸掉
+11:55 < COSCUP_bridge_bo> <kuni93>: 307 講者還沒出現？
+11:55 < COSCUP_bridge_bo> <Vdragon>: 301 沒人QQ
+11:55 < COSCUP_bridge_bo> <Locy69>: (Reply to knowlet) 我這顆好像掛了 要跑送修流程了
+11:55 < COSCUP_bridge_bo> <Vdragon>: 301 議程開始10分鐘了沒投影畫面
+11:55 < COSCUP_bridge_bo> <danny8376>: (Ruinland: [徵求Bo...) 不會影分身 精神參加(X
+11:55 < COSCUP_bridge_bo> <knowlet>: Uber Eats 麥當勞外送免運喔（非業配
+11:55 < COSCUP_bridge_bo> <Yuy_Heero>: 國防布
+11:56 -!- ruinland [~ruinland@li637-92.members.linode.com] has joined #coscup
+11:56 < COSCUP_bridge_bo> <knowlet>: (Locy69: 我這顆好像...) 幫 QQ<確定是充電器本體的問題嗎，我的事 type-c 線接觸不良，換一條就 ok
+11:56 < COSCUP_bridge_bo> <Locy69>: 305 爆滿還是有人要進來
+11:56 < COSCUP_bridge_bo> <benlaud>: 307 @_@
+11:56 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+11:56 < COSCUP_bridge_bo> <Locy69>: 教室太小人一進來就卡在門口
+11:57 < COSCUP_bridge_bo> <Yuy_Heero>: 307 講者出現
+11:57 < ruinland> [開源硬體BoF徵求參加者] https://tinyurl.com/yccc2wkh 歡迎有興趣的大大來參與 m(_ _)m
+11:58 < COSCUP_bridge_bo> <David_C927>: 賺錢問周滷蛋wwww(101)
+11:58 < COSCUP_bridge_bo> <Vdragon>: [301] 疑似無直播無錄影
+11:58 < COSCUP_bridge_bo> <Vdragon>: 求支援
+11:58 < COSCUP_bridge_bo> <CrBoy>: 我問問
+11:59 < COSCUP_bridge_bo> <Vdragon>: 11:55 講者開始
+12:00 -!- RainnyQ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+12:00 < COSCUP_bridge_bo> <CrBoy>: 301 直播處理中
+12:00 <@bobchao> 主持: 「我們現在開放最後一個問題（點）」  被點到的聽眾：「... 我可以問兩個問題嗎？」
+12:00 < COSCUP_bridge_bo> <Vdragon>: 感謝 mOwOm
+12:01 < COSCUP_bridge_bo> <k1tten>: (bobchao: 主持: 「...) wwwwwwwwwwwww
+12:01 < COSCUP_bridge_bo> <k1tten>: 學到了一招
+12:01 < COSCUP_bridge_bo> <k1tten>: （X
+12:01 < COSCUP_bridge_bo> <abev66>: (chusiang: 一週會撿到...) 史萊姆
+12:01 < COSCUP_bridge_bo> <Nicetea125>: 問一下 Coscup有停車優惠嗎
+12:01 < COSCUP_bridge_bo> <nfsnfschen>: 高招！
+12:02 < COSCUP_bridge_bo> <IDontKnowButIm>: (bobchao: 主持: 「...) 學習了XD
+12:02 < COSCUP_bridge_bo> <tonyhhyip>: (bobchao: 主持: 「...) 不可以，問完了(？
+12:02 < COSCUP_bridge_bo> <danny8376>: (bobchao: 主持: 「...) 不行 好 提問時間結束(X
+12:03 < COSCUP_bridge_bo> <allen0099>: (bobchao: 主持: 「...) 666
+12:03 < knowlet> COSCUP 有沒有停車優惠我不知道，我倒是知道北市公車捷運有轉乘優惠（＃
+12:03 -!- Heero_Yuy [uid106498@gateway/web/irccloud.com/x-lwgacgsfficplxwy] has quit [Quit: Connection closed for inactivity]
+12:03 < COSCUP_bridge_bo> <Yuy_Heero>: 下次喊 可以問十個嗎（x
+12:03 < COSCUP_bridge_bo> <Yuy_Heero>: 🤷‍♂️ https://i.imgur.com/46Faekz.png
+12:04 < COSCUP_bridge_bo> <Vdragon>: [301] 提醒一下這邊的投影機好像有（斷線後）隔一段時間自動關機的現象，剛剛是我自己手動把投影機電源又打開的
+12:04 < COSCUP_bridge_bo> <CrBoy>: (bobchao: 主持: 「...) 「不行，好的最後一個問題結束，讓我們掌聲謝謝.........」
+12:05 < COSCUP_bridge_bo> <joekaojoekao>: (CrBoy: 「不行。好...) XDD
+12:05 < COSCUP_bridge_bo> <Vdragon>: 議程中是正常運作啦，就是休息的時候突然嗶一聲就關機了
+12:06 -!- knowlet [8c768937@gateway/web/cgi-irc/kiwiirc.com/ip.140.118.137.55] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+12:06 < COSCUP_bridge_bo> <abev66>: https://docs.google.com/document/d/14I51R_FauCe9kwhz3vd1EQhnlNS6ALh9OksNtc3aH9Y/edit
+12:06 < COSCUP_bridge_bo> [Title] COSCUP 2018 BoF ĺ ąĺč - Google ćäťś
+12:07 < COSCUP_bridge_bo> <linroex>: 明天下午一點有 17 推出的 COSCUP 知識王，只要七題全對就有能獲得 AirPods 哦 （兩組，若得獎者超過兩人則需要抽獎），題目都和 COSCUP 有關，偷偷給個提示，可以去看今年的宣傳影片「你今天 Open Source 了嗎」 XD
+12:08 < COSCUP_bridge_bo> <pennyken>: (Reply to tonyhhyip) location
+12:08 < COSCUP_bridge_bo> <mouse170>: (Nicetea125: 問一下 C...) 24H/70元 永寧捷運站附近 Times24h土城永寧停車場 236新北市土城區承天路4巷1-1號  https://goo.gl/maps/z4Fq8axnP9y
+12:08 < COSCUP_bridge_bo> [Title] Google ĺ°ĺ
+12:08 < COSCUP_bridge_bo> <tonyhhyip>: (pennyken: locat...) 307，手機拍才是這樣
+12:09 < COSCUP_bridge_bo> <pennyken>: fine 嚇死
+12:09 < COSCUP_bridge_bo> <mouse170>: 看介不介意停這麼遠就是😆
+12:09 -!- bobchao [cb4543fc@gateway/web/freenode/ip.203.69.67.252] has quit [Ping timeout: 252 seconds]
+12:09 < COSCUP_bridge_bo> <pennyken>: fps的問題
+12:09 < COSCUP_bridge_bo> <linroex>: https://i.imgur.com/bgPINoj.jpg
+12:10 -!- pichu [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has joined #coscup
+12:10 < COSCUP_bridge_bo> <linroex>: sammy hi hi xddd
+12:10 < COSCUP_bridge_bo> <S_ean>: (mouse170: 24H/7...) 永寧在藍線左下尾端欸 😨
+12:10 < COSCUP_bridge_bo> <tonyhhyip>: (Reply to linroex) 沒 iPhone 的表示...
+12:11 < COSCUP_bridge_bo> <S_ean>: 去台嗑藥 40min
+12:11 < COSCUP_bridge_bo> <linroex>: Android 也可以玩啦xdd
+12:11 < COSCUP_bridge_bo> <pennyken>: (Reply to linroex) 倒數第二局不能再
+12:11 < COSCUP_bridge_bo> <tonyhhyip>: (linroex: Andro...) Android 連不上 AirPod 了(吼
+12:11 < COSCUP_bridge_bo> <linroex>: (pennyken: 倒數第二句...) 昨天被小畢念過了QQ
+12:12 < COSCUP_bridge_bo> <pennyken>: 拍拍
+12:12 < Hinet60613> Android用戶拿到AirPod，不就只能當轉賣廚了嗎 (X
+12:12 < COSCUP_bridge_bo> <linroex>: (tonyhhyip: Andro...) 那就 QQ 了哈哈哈哈
+12:12 -!- Benyi [~benyi@180.204.201.114] has quit [Remote host closed the connection]
+12:12 < COSCUP_bridge_bo> <snakewu>: 你今天 open source 了嗎？ https://youtu.be/AAfciN3Id2s
+12:12 < COSCUP_bridge_bo> [Title] ä˝ äťĺ¤Š open source äşĺďź - YouTube
+12:12 -!- chihchun is now known as chihchun_afk
+12:13 < COSCUP_bridge_bo> <pootel>: (tonyhhyip: Andro...) 可以賣掉買真耳機
+12:14 < COSCUP_bridge_bo> <Vdragon>: 有人在國際會議廳拾獲 HDMI 轉 VGA 線嗎？剛剛想給講者用的時候發現不見了（囧
+12:14 -!- pichu_ [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has quit [Quit: Lost terminal]
+12:14 < COSCUP_bridge_bo> <tonyhhyip>: (pootel: 可以賣掉買...) 但 $ony 把 3.5 mm 孔拔掉了
+12:14 < COSCUP_bridge_bo> <Vdragon>: [301] (GNOME Donations) "Do we have a giant party and give everyone a laptop?"
+12:15 < COSCUP_bridge_bo> <pootel>: (tonyhhyip: 但 $on...) 掛 DAC 吧 (X)
+12:15 < COSCUP_bridge_bo> <danny8376>: (tonyhhyip: Andro...) 簡單 再買支iphone就沒問題了
+12:16 < COSCUP_bridge_bo> <Yuy_Heero>: 把android設備 轉賣(x
+12:16 < COSCUP_bridge_bo> <sammyfung>: https://paste.ee/r/uGMMa
+12:16 < COSCUP_bridge_bo> <tonyhhyip>: (danny8376: 簡單 再買...) 你付錢嗎？謝謝
+12:16 < COSCUP_bridge_bo> <sammyfung>: https://i.imgur.com/ieaDxpg.jpg
+12:16 < COSCUP_bridge_bo> <sammyfung>: https://i.imgur.com/tMQlE6Y.jpg
+12:16 < COSCUP_bridge_bo> <sammyfung>: https://i.imgur.com/ZNVhnGa.jpg
+12:16 < COSCUP_bridge_bo> <abev66>: 好… 好多場 BoF 想參加 QQ
+12:17 < COSCUP_bridge_bo> <Yuy_Heero>: 精神參加
+12:17 < COSCUP_bridge_bo> <danny8376>: (abev66: 好… 好多...) 該是學習影分身的時候了(
+12:17 < COSCUP_bridge_bo> <Vdragon>: [301] GNOME Advisory Board 新成員：Canonical, System76
+12:18 < COSCUP_bridge_bo> <abev66>: 居然不是那個 yoyodiy QQ
+12:18 < COSCUP_bridge_bo> <Nicetea125>: (mouse170: 看介不介意...) 是有點遠了XD 不過還是感謝資訊
+12:18 < COSCUP_bridge_bo> <abev66>: 覺得難過 💔
+12:18 < COSCUP_bridge_bo> <Vdragon>: 那就好(?)
+12:18 < COSCUP_bridge_bo> <Yuy_Heero>: 繞過去的那位？
+12:19 < COSCUP_bridge_bo> <abev66>: (Yuy_Heero: 繞過去的那...) http://zh.pttpedia.wikia.com/wiki/Yoyodiy
+12:19 < COSCUP_bridge_bo> [Title] Yoyodiy | PTT鄉民百科 | FANDOM powered by Wikia
+12:19 < COSCUP_bridge_bo> <danny8376>: XDD
+12:19 -!- pichu_ [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has joined #coscup
+12:20 < COSCUP_bridge_bo> <Vdragon>: [301] 亞洲的 GNOME Hackfest 太少惹
+12:20 < COSCUP_bridge_bo> <Yuy_Heero>: 😃 https://i.imgur.com/t8LUW4F.png
+12:20 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has joined #coscup
+12:20 -!- pichu [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has quit [Quit: Lost terminal]
+12:20 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+12:21 < COSCUP_bridge_bo> <joekaojoekao>: (Yuy_Heero: 繞過去的那...) yoyo(noun.) diy(verb.)
+12:23 -!- RainnyQ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+12:23 < COSCUP_bridge_bo> <太猥褻金燕>: 請問今年有下午茶嗎？ 廢宅想吃xd
+12:24 < Hinet60613> [503] 外面等著進場的人群看起來好可怕....
+12:24 < COSCUP_bridge_bo> <Irvin>: [502] 根據政府資訊公開法去跟政府要任何資料，理由寫「監督政府」就對了
+12:25 < COSCUP_bridge_bo> <CrBoy>: 沒有特定下午茶時段，但是四處晃都有東西吃唷！像是果汁熊啊，爆米花之類的
+12:25 < COSCUP_bridge_bo> <太猥褻金燕>: 嗚嗚
+12:25 < coscupbot> (jserv) 就在今日 14:30，探討如何用 1500 行 C 程式開發可編譯自己、輸出 Arm 機械碼的 C 編譯器，歡迎捧場: https://hackmd.io/c/coscup18-source/%2Fcoscup18-source-c-compiler
+12:25 < COSCUP_bridge_bo> <Locy69>: 晶片身分證 夯
+12:26 < alicekey> @hinet60613 是因為pcman嗎？
+12:26 < Hinet60613> @alicekey yes
+12:27 < COSCUP_bridge_bo> <Vdragon>: (Vdragon: 有人在國際...) Nevermind，在自己背包找到惹QQ
+12:28 < COSCUP_bridge_bo> <davihuan>: (Vdragon: Never...) 😒 https://i.imgur.com/TOfqsZ2.png
+12:30 < aman_> 共筆竟然都寫好了.....
+12:31 < Hinet60613> [503] 現在剩站位了
+12:33 < COSCUP_bridge_bo> <yoga1130>: 【BoF 選邊站 吃披薩】  年會晚間好戲，Birds of a Feather 千奇百怪的 BoF 傍晚即將展開， 快找一個地方填上你的暱稱， 一起努力把披薩變不見吧！  除了披薩、可樂外， 另外 Cobinhood 還加碼啤酒喔！  報名連結：http://bit.ly/2KFjmpz
+12:33 < COSCUP_bridge_bo> [Title] COSCUP 2018 BoF ĺ ąĺč - Google ćäťś
+12:34 < COSCUP_bridge_bo> <littlebtc>: 剛到台北😂😂😍
+12:40 -!- knowlet [8c768937@gateway/web/cgi-irc/kiwiirc.com/ip.140.118.137.55] has joined #coscup
+12:41 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has quit [Ping timeout: 252 seconds]
+12:41 < COSCUP_bridge_bo> <Irvin>: [502] 台灣網路透明報告：教育部守護天使封鎖了廢死聯盟跟同志諮詢熱線
+12:41 < COSCUP_bridge_bo> <Irvin>: 應該要球他們完整揭露完整封鎖清單⋯⋯
+12:41 < COSCUP_bridge_bo> <Irvin>: 應該要求他們完整揭露完整封鎖清單⋯⋯
+12:41 < COSCUP_bridge_bo> <Irvin>: 政府查水表狀態研究報告 https://i.imgur.com/aIuocxO.jpg
+12:41 < pichu_> f
+12:44 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has joined #coscup
+12:48 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Quit: Colloquy for iPhone - http://colloquy.mobi]
+12:51 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has quit [Quit: Page closed]
+12:51 < COSCUP_bridge_bo> <kuni93>: 101 講者簡報 https://github.com/nth10sd/2015-Fuzzing-and-Mozilla
+12:51 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has joined #coscup
+12:51 < COSCUP_bridge_bo> [Title] GitHub - nth10sd/2015-Fuzzing-and-Mozilla: Slides on fuzzing and Mozilla in 2015 (updated for 2016), and where fuzzing sits in a Mozilla workflow.
+12:53 < knowlet> 大家別再玩兔子啦（＃
+12:56 < COSCUP_bridge_bo> <yoyo930021>: (Irvin: [502]...) 扯
+12:57 < COSCUP_bridge_bo> <toppy368>: (Locy69: 晶片身分證...) 我也在聽
+12:58 < COSCUP_bridge_bo> <toppy368>: 不過聽說(新聞稿)最後沒有整合健保卡
+12:58 < COSCUP_bridge_bo> <yutin1987>: https://i.imgur.com/JMq2BPQ.jpg
+13:00 < COSCUP_bridge_bo> <yutin1987>: 守護天使 是政府專案，應該要求 open source 與 open data
+13:00 < COSCUP_bridge_bo> <alxtz>: 何明諠（Ho Ming-Syuan) 講的 talk 都很棒
+13:03 -!- Hinet60613 [8c76d24a@gateway/web/freenode/ip.140.118.210.74] has quit [Ping timeout: 252 seconds]
+13:03 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has joined #coscup
+13:05 < COSCUP_bridge_bo> <Kuro>: 503 站位會擋到人，只好默默出去
+13:06 -!- shell909090 [uid13165@gateway/web/irccloud.com/x-qcdyeqotvzrcmxjp] has quit [Quit: Connection closed for inactivity]
+13:08 < COSCUP_bridge_bo> <danny8376>: 幫QQ 沒太多地方可以站
+13:08 < COSCUP_bridge_bo> <chusiang>: Kuro Kuo 那就坐最前面的地板吧。:D
+13:11 < COSCUP_bridge_bo> <alxtz>: 101 講者用來 live demo 的 terminal 字有點小 + 太黑 QQ
+13:11 < COSCUP_bridge_bo> <zackchang>: IB201沒有轉播啊
+13:11 < COSCUP_bridge_bo> <shirob>: 請問 iOS app 的議程是不是沒有顯示現在 503 iptable 的議程？
+13:14 < COSCUP_bridge_bo> <ttwttw>: (shirob: 請問 iO...) 有R
+13:16 < COSCUP_bridge_bo> <Irvin>: [502] AMIS & 以太坊研究員陳昶吾 談區塊裡的治理 https://i.imgur.com/2we3X9r.jpg
+13:17 < COSCUP_bridge_bo> <lxwee>: (Irvin: [502]...) http://www.storm.mg/article/425167
+13:17 < COSCUP_bridge_bo> [Title] 同志諮詢熱線、廢死聯盟遭教育部封鎖？台權會公佈調查報告 性教育與同志網站皆中槍-風傳媒20171031-SMG0035-快訊小紅條兒
+13:18 < COSCUP_bridge_bo> <Irvin>: (lxwee: http:...) 真的應該要 public money public code
+13:19 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Quit: alicekey]
+13:20 < COSCUP_bridge_bo> <shirob>: (ttwttw: 有R) hmm... App 滑掉重開出現了，真神奇
+13:20 < COSCUP_bridge_bo> <littlebtc>: 公車上 公館開始下雨了
+13:20 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has joined #coscup
+13:22 < COSCUP_bridge_bo> <aki02>: 挖 大雨
+13:22 < COSCUP_bridge_bo> <littlebtc>: 瞬間大雨
+13:22 < COSCUP_bridge_bo> <dan_chen>: #老王賣瓜 不一樣的選課體驗 XD https://twitter.com/dannvix/status/1028073798220709888
+13:22 < COSCUP_bridge_bo> [Title] Dan Chen ĺ¨ Twitterďź"é¨ćĺäş #COSCUP 2018 čĄĺč­°ç¨čĄ¨äžčźĺŠé¸čŞ˛ďźéčŁĄçŠďźhttps://t.co/DmUOnftZjg  // ä¸ťčŚćŻĺçľŚčŞĺˇąç¨çďźĺĽçčŁç˝Žé˝ć˛ć¸Źé đ¤Ťđ¤Ťđ¤ŤâŚ "
+13:22 -!- ofy [~ofy@2001-b011-fc02-125a-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net] has joined #coscup
+13:24 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has quit [Ping timeout: 252 seconds]
+13:25 -!- ofy [~ofy@2001-b011-fc02-125a-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net] has quit [Client Quit]
+13:26 -!- rsghost [~rsghost@li475-129.members.linode.com] has quit [Quit: Lost terminal]
+13:27 < COSCUP_bridge_bo> <littlebtc>: 被雨困在台科大站牌
+13:27 -!- Uuu [31d962a6@gateway/web/freenode/ip.49.217.98.166] has joined #coscup
+13:27 < Uuu> Test
+13:28 < Uuu> 101 面對舞台 右後方最後一排小哥哥 你開到桌上的麥克風了
+13:28 -!- ofy [~ofy@2001-b011-fc02-125a-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net] has joined #coscup
+13:29 -!- knowlet [8c768937@gateway/web/cgi-irc/kiwiirc.com/ip.140.118.137.55] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+13:30 -!- bhujmn [uid107022@gateway/web/irccloud.com/x-adxrezzkyugkegdl] has quit [Quit: Connection closed for inactivity]
+13:31 < COSCUP_bridge_bo> <HsiaoTing>: (alxtz: 何明諠（H...) 真的，我居然現在才認識
+13:33 -!- Uuu [31d962a6@gateway/web/freenode/ip.49.217.98.166] has quit [Ping timeout: 252 seconds]
+13:33 -!- ofy [~ofy@2001-b011-fc02-125a-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net] has quit [Client Quit]
+13:35 < COSCUP_bridge_bo> <alxtz>: 301 Plan your testing 開場聽起來還不錯
+13:39 -!- ofy [~ofy@2001-b011-fc02-125a-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net] has joined #coscup
+13:39 < COSCUP_bridge_bo> <yutin1987>: [502] 區塊鏈 冰河時期 xDDD
+13:40 < COSCUP_bridge_bo> <yutin1987>: [502] 4.5% 決定了區塊鏈的 fork
+13:41 < COSCUP_bridge_bo> <zackchang>: (Reply to hyww13) 我也覺得還不錯
+13:41 < COSCUP_bridge_bo> <Irvin>: [502] 以太坊 Dao attack 後，要不要硬分岔的故事，蠻有意思的（誰來決定？如何決定？） https://i.imgur.com/3T7x9h5.jpg
+13:43 < COSCUP_bridge_bo> <Irvin>: (HsiaoTing: 真的，我居...) 課金支持何明諠 👉 https://www.tahr.org.tw/
+13:43 < COSCUP_bridge_bo> [Title] 台灣人權促進會 | Taiwan Association for Human Rights Since Dec.10 1984
+13:43 -!- lother_IB401 is now known as [401]Lother
+13:43 < COSCUP_bridge_bo> <HsiaoTing>: (Irvin: 課金支持何...) 值得考慮
+13:44 -!- bhujmn [uid107022@gateway/web/irccloud.com/x-yoaldekphokncmbw] has joined #coscup
+13:46 < COSCUP_bridge_bo> <yutin1987>: (Irvin: 課金支持何...) 課金 支持 台灣未來的 EFF
+13:47 < COSCUP_bridge_bo> <Irvin>: 他們應該不會變成 EFF，但是還是目前最接近的啦⋯⋯
+13:49 < COSCUP_bridge_bo> <Kuro>: [101] 你可以用中文問R (笑
+13:51 -!- GlueCrow [uid16983@gateway/web/irccloud.com/x-qtutkuyolpgkjnzj] has joined #coscup
+13:52 -!- jlhg [~user@2400:8902::f03c:91ff:fee5:dad] has left #coscup ["ERC (IRC client for Emacs 25.1.1)"]
+13:53 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Quit: alicekey]
+13:59 < COSCUP_bridge_bo> <Irvin>: [502] 閉上眼睛不看到會被歧視的屬性，還是無法做到公平
+13:59 < COSCUP_bridge_bo> <Irvin>: https://i.imgur.com/aYWISin.jpg
+13:59 < COSCUP_bridge_bo> <yutin1987>: [502] https://medium.com/trustableai/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%85%AC%E4%B8%8D%E5%85%AC%E5%B9%B3-51cc1bfab066
+13:59 < COSCUP_bridge_bo> [Title] 機器學習公不公平？ – Trustable AI – Medium
+14:01 < COSCUP_bridge_bo> <chusiang>: @aminzai @abev66 @snakewu 我撿到小貓袋了，真是太棒了！🤣
+14:01 < COSCUP_bridge_bo> <pennyken>: so good
+14:01 < COSCUP_bridge_bo> <aminzai>: (chusiang: @amin...) 果然是史萊姆
+14:01 < COSCUP_bridge_bo> <snakewu>: (chusiang: @amin...) 正常能量釋放
+14:02 < COSCUP_bridge_bo> <chusiang>: 早上丟了一個，現在撿到一個，剛好拿一個回家。🤟
+14:03 < COSCUP_bridge_bo> <Irvin>: (yutin1987: [502]...) 這個議題居然坐滿了（讚嘆）
+14:03 < COSCUP_bridge_bo> <miaoski>: 502 的攝影同學太打擾會眾了
+14:03 < COSCUP_bridge_bo> <yutin1987>: 機器學習 當遇到少數族群時，可能就會出現偏差預測
+14:03 < COSCUP_bridge_bo> <yutin1987>: https://i.imgur.com/kpdL5H7.jpg
+14:03 < COSCUP_bridge_bo> <miaoski>: 能不能幫忙反映一下
+14:04 < COSCUP_bridge_bo> <miaoski>: 這種議題大家應該會很討厭被拍特寫吧
+14:04 < COSCUP_bridge_bo> <Irvin>: (miaoski: 能不能幫忙...) 我去講一下
+14:04 < COSCUP_bridge_bo> <miaoski>: 感謝 irvin
+14:05 < COSCUP_bridge_bo> <Irvin>: 基本上帶著手機出現在這一個座標的各位都已經被標記了
+14:06 < COSCUP_bridge_bo> <miaoski>: (Irvin: 基本上帶著...) 沒開 GPS 哈哈
+14:06 < COSCUP_bridge_bo> <Irvin>: 🚪 https://i.imgur.com/5A22XE6.png
+14:06 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has joined #coscup
+14:07 < RainnyQ> 有撿到東西或是遺失東西請找服務台夥伴幫忙處理喔～～
+14:08 < [401]Lother>  /name
+14:09 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+14:11 < COSCUP_bridge_bo> <yutin1987>: [502] 公平的三種定義 Group fairness 、 Individual fairness 、 Equal opportunity, .... 還有更多
+14:14 -!- c9sould__ [uid15100@gateway/web/irccloud.com/x-gbgjzasnpzdbrraf] has joined #coscup
+14:16 -!- ipa [650f63bc@gateway/web/freenode/ip.101.15.99.188] has joined #coscup
+14:16 -!- Benyi [~benyi@180.204.201.114] has joined #coscup
+14:17 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has joined #coscup
+14:18 < Benyi> 101 的插座 Mac 的使用者會強迫症發作
+14:18 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has quit [Client Quit]
+14:20 -!- rsghost [~rsghost@li475-129.members.linode.com] has joined #coscup
+14:24 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has joined #coscup
+14:25 < COSCUP_bridge_bo> <danny8376>: www
+14:27 < COSCUP_bridge_bo> <pennyken>: hlb: 變壓器插下"run" (failed) "run again" (failed) "run again" (failed)
+14:28 < COSCUP_bridge_bo> <Vdragon>: [301] 自助把桌底下沒插電的 switch 插上電應該不會怎麼樣……吧？
+14:29 < COSCUP_bridge_bo> <Vdragon>: （乙太網路戒斷症狀）
+14:30 < COSCUP_bridge_bo> <bobchao>: [閃電秀] 最後一小時報名時間，想報名閃電秀的請到一樓服務台
+14:30 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has quit [Quit: Page closed]
+14:30 < COSCUP_bridge_bo> <bobchao>: [BoF] 也歡迎晚上想留下來跟同好一起聊天的，上網登記 BoF https://docs.google.com/document/d/14I51R_FauCe9kwhz3vd1EQhnlNS6ALh9OksNtc3aH9Y/edit#
+14:30 < COSCUP_bridge_bo> [Title] COSCUP 2018 BoF ĺ ąĺč - Google ćäťś
+14:33 -!- ETBlue [uid12330@gateway/web/irccloud.com/x-wvmuvzrszdhgxcdp] has joined #coscup
+14:33 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has joined #coscup
+14:36 < COSCUP_bridge_bo> <yutin1987>: [502] 透過攻擊機器學習結果的模型，可以得到結論 某人 是否有在這個資料集的裡面
+14:37 < COSCUP_bridge_bo> <yutin1987>: *某人 = 某個資料
+14:39 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has joined #coscup
+14:39 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has quit [Client Quit]
+14:40 < COSCUP_bridge_bo> <benlaud>: 呀，錯過了
+14:40 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has joined #coscup
+14:40 < COSCUP_bridge_bo> <abev66>: [503] 噗噗噗噗噗噗噗
+14:44 < COSCUP_bridge_bo> <danny8376>: (Vdragon: [301]...) 會耗電(?
+14:44 < COSCUP_bridge_bo> <mai7855>: [503]這場mic才噗噗噗…所以前面幾場其實mic都沒開滿音量？
+14:45 < COSCUP_bridge_bo> <Vdragon>: (danny8376: 會耗電(?) DDoS 之類的（誤
+14:45 < COSCUP_bridge_bo> <Vdragon>: 不知道為什麼被拔電源跟上游線，現在正常(?)使用中
+14:45 -!- ipa [650f63bc@gateway/web/freenode/ip.101.15.99.188] has quit [Ping timeout: 252 seconds]
+14:46 < COSCUP_bridge_bo> <小管>: 現在一樓餐飲區發放免費便當！歡迎尚未用餐的人來領取 🙂
+14:47 < COSCUP_bridge_bo> <NightFeather>: (Vdragon: 不知道為什...) 原來只是底下的 switch 沒插嗎
+14:48 < COSCUP_bridge_bo> <NightFeather>: (早上拼了命挖接頭起來查了發現沒訊號
+14:48 -!- Heero_Yuy [uid106498@gateway/web/irccloud.com/x-jrrlsiagljrrxcyp] has joined #coscup
+14:49 < COSCUP_bridge_bo> <danny8376>: XDDDD
+14:50 < COSCUP_bridge_bo> <Anta>: [202] 畫面停了  只有我這樣嗎
+14:51 < COSCUP_bridge_bo> <danny8376>: 可能台科不給用網路才拔的吧
+14:56 < COSCUP_bridge_bo> <yutin1987>: [502] https://publiccode.eu/
+14:56 < COSCUP_bridge_bo> [Title] Public Money, Public Code
+14:57 < COSCUP_bridge_bo> <how8570>: 可以請503講者大聲一點嗎？ 後面有點模糊
+14:59 < COSCUP_bridge_bo> <iamhlb>: 廣告一下：一樓電梯旁有婚姻平權公投連署攤位，歡迎大家參與連署
+14:59 < COSCUP_bridge_bo> <bobchao>: BoF: SITCON 的還沒有寄聯絡資訊給 program@coscup.org 唷
+15:01 -!- Benyi [~benyi@180.204.201.114] has quit [Remote host closed the connection]
+15:02 -!- j5a6s7o8n [8c768f34@gateway/web/freenode/ip.140.118.143.52] has quit [Ping timeout: 252 seconds]
+15:02 -!- test [df8c646e@gateway/web/freenode/ip.223.140.100.110] has joined #coscup
+15:03 -!- test is now known as Guest85244
+15:03 < COSCUP_bridge_bo> <DennyHuang>: (bobchao: BoF:...) @yoyo930021
+15:05 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has quit [Quit: My MacBook Air has gone to sleep. ZZZzzz…]
+15:06 -!- knowlet [8c768937@gateway/web/cgi-irc/kiwiirc.com/ip.140.118.137.55] has joined #coscup
+15:07 < COSCUP_bridge_bo> <iamhlb>: https://i.imgur.com/kuXRHes.jpg
+15:07 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has joined #coscup
+15:08 < COSCUP_bridge_bo> <Kuro>: [101] 完全聽不清楚QQ
+15:09 < COSCUP_bridge_bo> <kuni93>: 101 桌上有mic可用R
+15:09 < COSCUP_bridge_bo> <iamhlb>: 503 的 swift talk 超棒
+15:10 < COSCUP_bridge_bo> <narihira2000>: [101] 用了桌上mic還是好小聲聽不太到...
+15:11 -!- asahsieh [2a4881b6@gateway/web/freenode/ip.42.72.129.182] has joined #coscup
+15:11 < COSCUP_bridge_bo> <Yukinoshita_Neko>: 嗨嗨，問一下遺失物要到哪裡找，剛剛放在3F充電區的Coscup麻布袋不見了
+15:12 < asahsieh> 請問202的直播是否offline了@Q@
+15:15 < asahsieh> 恢復了，謝謝！
+15:17 < COSCUP_bridge_bo> <k1tten>: 202 後門可以麻煩關一下嗎
+15:17 < COSCUP_bridge_bo> <pennyken>: (Yukinoshita_Neko: 嗨嗨，問一...) 服務台先登記
+15:17 < COSCUP_bridge_bo> <pennyken>: 在一樓歐
+15:17 -!- ipa [af61029d@gateway/web/freenode/ip.175.97.2.157] has joined #coscup
+15:18 < COSCUP_bridge_bo> <Yukinoshita_Neko>: (pennyken: 在一樓歐) 謝謝
+15:18 < COSCUP_bridge_bo> <yutin1987>: 不好意思！ 問一下，有人知道今晚的 BoF 場地在哪查嗎？
+15:18 < COSCUP_bridge_bo> <yutin1987>: 清單上 找不到地點 xDDD
+15:19 < COSCUP_bridge_bo> <pennyken>: 還沒公告惡
+15:19 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has joined #coscup
+15:20 < COSCUP_bridge_bo> <flandrekawaii>: 請問佔位問題這麼多年都無法解決的原因是什麼
+15:21 < COSCUP_bridge_bo> <yutin1987>: [502] Respect, Diversity
+15:22 < pichu_> 大概要等到Memory leak消失的那天吧
+15:22 -!- Guest85244 [df8c646e@gateway/web/freenode/ip.223.140.100.110] has quit [Ping timeout: 252 seconds]
+15:23 -!- aman_ [df8caa5e@gateway/web/freenode/ip.223.140.170.94] has quit [Ping timeout: 252 seconds]
+15:26 < COSCUP_bridge_bo> <bobchao>: (flandrekawaii: 請問佔位問...) 可以考慮直接發 PR （例如，坐在別人佔的位子上 :P）
+15:26 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Ping timeout: 268 seconds]
+15:27 < COSCUP_bridge_bo> <lucian_chen>: (bobchao: 可以考慮直...) 發大量垃圾袋，鼓勵大家把佔位垃圾丟掉
+15:27 < COSCUP_bridge_bo> <lifehome>: Hello，請問這裡有熟識 GRE 跟 Bird 的大大嗎？想請教一下 BGP 卡在 OpenConfirm，tcpdump 封包送不過去的問題
+15:27 < COSCUP_bridge_bo> <Yuy_Heero>: 設置回收箱（X
+15:27 < kester___> 記得有年可以找糾察幫忙清除被佔的位置
+15:27 < COSCUP_bridge_bo> <Locy69>: 背包站位法 垃圾站位法
+15:28 < COSCUP_bridge_bo> <lucian_chen>: 請大家看到桌上有垃圾，隨手丟到垃圾袋喔
+15:28 < COSCUP_bridge_bo> <Yuy_Heero>: 高級垃圾怎麼辦
+15:28 < COSCUP_bridge_bo> <flandrekawaii>: 筆電可回收怎處理
+15:28 -!- asahsieh [2a4881b6@gateway/web/freenode/ip.42.72.129.182] has quit [Ping timeout: 252 seconds]
+15:28 < COSCUP_bridge_bo> <lucian_chen>: 還是垃圾
+15:29 < COSCUP_bridge_bo> <james58899>: 資源回收
+15:29 < COSCUP_bridge_bo> <Locy69>: 筆電站位法(高級垃圾)
+15:29 < COSCUP_bridge_bo> <lucian_chen>: 如果有人用機櫃佔位，那就算了
+15:29 < COSCUP_bridge_bo> <Yuy_Heero>: 😃 https://i.imgur.com/UcG5oze.png
+15:29 < COSCUP_bridge_bo> <davihuan>: (lifehome: Hello...) 有參加 CNTUG 嗎?
+15:29 < COSCUP_bridge_bo> <Yuy_Heero>: 搬桌機
+15:29 < COSCUP_bridge_bo> <lifehome>: (davihuan: 有參加 C...) 沒有
+15:30 < COSCUP_bridge_bo> <ZoneTwelve>: (Yuy_Heero: 搬桌機) 明智的決定
+15:30 < COSCUP_bridge_bo> <Locy69>: 還有一人兩位法(其中一個給背包坐)
+15:30 < COSCUP_bridge_bo> <davihuan>: (lifehome: 沒有) https://t.me/cntug
+15:30 < COSCUP_bridge_bo> [Title] Telegram: Contact @cntug
+15:30 < COSCUP_bridge_bo> <yutin1987>: [502] mzl.la/ihr
+15:30 -!- Benyi [~benyi@180.204.201.114] has joined #coscup
+15:31 < pichu_> 存在於想像中的好朋友
+15:31 < COSCUP_bridge_bo> <Locy69>: (Yuy_Heero: 搬桌機) 今年好像沒看到桌機哥？
+15:31 < COSCUP_bridge_bo> <lifehome>: (davihuan: https...) 這個是？
+15:31 < COSCUP_bridge_bo> <flandrekawaii>: 我覺得這些意見應該都提過 我比較想知道的是為什麼還是無法實作
+15:31 -!- chihchun_afk is now known as chihchun
+15:32 < COSCUP_bridge_bo> <davihuan>: 工作人員應該要做類似執法的工作嗎?
+15:32 < COSCUP_bridge_bo> <pennyken>: (lifehome: 這個是？) TG群組
+15:32 < COSCUP_bridge_bo> <pennyken>: 愛好者聚會
+15:33 < COSCUP_bridge_bo> <pennyken>: 你可以進去看看
+15:34 < COSCUP_bridge_bo> <nfsnfschen>: 佔位是哪一間啊？
+15:34 < COSCUP_bridge_bo> <flandrekawaii>: (davihuan: 工作人員應...) 像電影清場就可以了吧
+15:34 -!- Hinet60613 [8c76d24a@gateway/web/freenode/ip.140.118.210.74] has joined #coscup
+15:35 < COSCUP_bridge_bo> <flandrekawaii>: 每間都有吧 現在如果有辦法廣播給所有會眾應該就可以驗證這件事
+15:37 < COSCUP_bridge_bo> <Locy69>: 每間都有啦！ 這次沒有統一休息時間應該有點難清場，只能大會主持宣導一下吧？
+15:40 -!- shell909090 [uid13165@gateway/web/irccloud.com/x-qapsmctzeuzilnve] has joined #coscup
+15:40 < COSCUP_bridge_bo> <Locy69>: [302] 還有座位但後面還是站一排 (佔位清除的話)
+15:42 -!- Benyi [~benyi@180.204.201.114] has quit [Remote host closed the connection]
+15:48 -!- aman_ [3cfbd3c4@gateway/web/freenode/ip.60.251.211.196] has joined #coscup
+15:50 -!- bhujmn [uid107022@gateway/web/irccloud.com/x-yoaldekphokncmbw] has quit [Quit: Connection closed for inactivity]
+15:59 < COSCUP_bridge_bo> <cocox33x>: 各位還沒領個人贊助衣服的快來服務台領阿
+16:00 -!- knowlet [8c768937@gateway/web/cgi-irc/kiwiirc.com/ip.140.118.137.55] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:00 -!- Hinet60613 [8c76d24a@gateway/web/freenode/ip.140.118.210.74] has quit [Quit: Page closed]
+16:02 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Quit: alicekey]
+16:03 -!- edhongcy [uid312357@gateway/web/irccloud.com/x-ugbusqvvqflydnli] has joined #coscup
+16:05 < edhongcy> +n
+16:05 -!- chihchun is now known as chihchun_afk
+16:06 -!- ipa [af61029d@gateway/web/freenode/ip.175.97.2.157] has quit [Ping timeout: 252 seconds]
+16:06 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has joined #coscup
+16:07 < COSCUP_bridge_bo> <abev66>: 結果 101 桌面的 Ethernet 其實並不能用？ 🤔
+16:07 < COSCUP_bridge_bo> <danny8376>: 正常(
+16:07 < COSCUP_bridge_bo> <abev66>: 好吧，本來想說讓中華電信喘口氣(?
+16:07 -!- edhongcy_ [650f220c@gateway/web/freenode/ip.101.15.34.12] has joined #coscup
+16:09 -!- alicekey [~alicekey@27-52-233-176.adsl.fetnet.net] has quit [Client Quit]
+16:10 -!- edhongcy [uid312357@gateway/web/irccloud.com/x-ugbusqvvqflydnli] has quit []
+16:11 < COSCUP_bridge_bo> <Kuro>: 早上試過，結果發現不能用後嘆了口氣 😔
+16:11 -!- mp607_ [~mp607@ip134-88.wlan.ntust.edu.tw] has joined #coscup
+16:11 < COSCUP_bridge_bo> <abev66>: 只好繼續 LTE 了，還好今天中華都還有扛住
+16:12 -!- edhongcy_ [650f220c@gateway/web/freenode/ip.101.15.34.12] has quit [Ping timeout: 252 seconds]
+16:12 < COSCUP_bridge_bo> <Bentley0928>: TaNET也爆了
+16:13 -!- mp607__ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+16:13 < COSCUP_bridge_bo> <Vdragon>: 請問今年有 Unconf 嗎？
+16:14 < COSCUP_bridge_bo> <abev66>: 好像沒有？
+16:14 < COSCUP_bridge_bo> <Vdragon>: 網站沒查到@@
+16:15 < COSCUP_bridge_bo> <pennyken>: 明天有內建的BoF
+16:15 < COSCUP_bridge_bo> <pennyken>: 可以報名
+16:15 < COSCUP_bridge_bo> <pennyken>: 請洽BoF報名處
+16:15 -!- mp607_ [~mp607@ip134-88.wlan.ntust.edu.tw] has quit [Ping timeout: 256 seconds]
+16:15 -!- aman_ [3cfbd3c4@gateway/web/freenode/ip.60.251.211.196] has quit [Quit: Page closed]
+16:16 -!- aman_ [3cfbd3c4@gateway/web/freenode/ip.60.251.211.196] has joined #coscup
+16:21 -!- GlueCrow [uid16983@gateway/web/irccloud.com/x-qtutkuyolpgkjnzj] has quit [Quit: Connection closed for inactivity]
+16:22 -!- c9sould__ [uid15100@gateway/web/irccloud.com/x-gbgjzasnpzdbrraf] has quit [Quit: Connection closed for inactivity]
+16:24 -!- knowlet [8c768937@gateway/web/cgi-irc/kiwiirc.com/ip.140.118.137.55] has joined #coscup
+16:26 -!- knowlet [8c768937@gateway/web/cgi-irc/kiwiirc.com/ip.140.118.137.55] has quit [Client Quit]
+16:29 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has quit [Quit: Textual IRC Client: www.textualapp.com]
+16:29 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has joined #coscup
+16:31 < COSCUP_bridge_bo> <bobchao>: 為什麼不能實作，通常就是沒有人來實作而已，真的歡迎來當沒有人。（這其實就是一個很大的 Open Source Project，可以一直發 issue 等別人解，有人有興趣就會撿起來解。）
+16:31 < COSCUP_bridge_bo> <PeterDaveHello>: 請問待會101的畫面會聯播到其他教室或會議室嗎？
+16:32 < COSCUP_bridge_bo> <bobchao>: 當然發 issue 的還是很感謝，只要能接受「不一定會有人撿起來解」就好
+16:32 < COSCUP_bridge_bo> <linroex>: 今天閃電秀是幾分鐘（舉手
+16:32 < COSCUP_bridge_bo> <Yuy_Heero>: 5?
+16:32 < COSCUP_bridge_bo> <aki02>: 新增佔位警察組
+16:32 < COSCUP_bridge_bo> <u10313335>: https://i.imgur.com/DClTnpZ.jpg
+16:33 < COSCUP_bridge_bo> <u10313335>: 請問泡麵佔位如何處置
+16:33 < COSCUP_bridge_bo> <Yuy_Heero>: 給下一個的糧食
+16:33 < COSCUP_bridge_bo> <pennyken>: (Reply to u10313335) location
+16:33 < COSCUP_bridge_bo> <Yuy_Heero>: *下一位
+16:33 < COSCUP_bridge_bo> <aki02>: 看起來像是忘記
+16:33 < COSCUP_bridge_bo> <littlegoodjack>: 今年沒有投票白板？
+16:33 < COSCUP_bridge_bo> <u10313335>: 已被取走XD
+16:33 < COSCUP_bridge_bo> <wuxion>: 這是忘了拿吧
+16:33 < COSCUP_bridge_bo> <Yuy_Heero>: 5:10 https://i.imgur.com/Xenzhgl.jpg
+16:33 < COSCUP_bridge_bo> <sony1733>: 今天很少人帶筆電耶
+16:34 < COSCUP_bridge_bo> <pennyken>: (linroex: 今天閃電秀...) 這是問一組有幾分鐘？
+16:34 < COSCUP_bridge_bo> <pakls>: (abev66: 只好繼續...) 跨年是這個規模的 100 倍以上，很有經驗
+16:34 < COSCUP_bridge_bo> <aweimeow>: (linroex: 今天閃電秀...) 聽說是三分鐘
+16:34 < COSCUP_bridge_bo> <NightFeather>: (sony1733: 今天很少人...) 大概沒 Wifi 嫌麻煩？
+16:34 < COSCUP_bridge_bo> <pennyken>: 跨年會調度基地台車等等等
+16:34 < COSCUP_bridge_bo> <aweimeow>: 隔壁一個閃電講者說的
+16:34 < COSCUP_bridge_bo> <abev66>: (pakls: 跨年是這個...) 跨年會有基地台車支援啊
+16:34 < COSCUP_bridge_bo> <pennyken>: (abev66: 跨年會有基...) 握手
+16:35 < COSCUP_bridge_bo> <sammyfung>: 香港開源年會2018 “We are all Hackers” “不誠實電腦使用者” Tee衣服，在 2F 攤位，只需贊助 490 TWD 便可得到。只餘有L 或 M 尺碼
+16:35 < COSCUP_bridge_bo> <sammyfung>: https://i.imgur.com/ocnIbxA.jpg
+16:35 < COSCUP_bridge_bo> <abev66>: (Reply to u10313335) ... 餓了
+16:36 < COSCUP_bridge_bo> <Cakechen>: (abev66: ... 餓...) OAO
+16:37 < COSCUP_bridge_bo> <Kalan>: 想請問一下閃電秀怎麼有抽中
+16:37 < COSCUP_bridge_bo> <pakls>: (abev66: 跨年會有基...) 別擔心，一千多個人是小 case。
+16:37 < RainnyQ> 大會公告
+16:37 < COSCUP_bridge_bo> <abev66>: (pakls: 別擔心，一...) 燒早有抽一下
+16:37 < COSCUP_bridge_bo> <pakls>: 如果每個人都在抖音，那就是大事了....
+16:37 < COSCUP_bridge_bo> <pakls>: uplink is more limited than downlink.
+16:38 < RainnyQ> 大會公告，請有遺失物品的朋友們可以去服務台詢問喔～～
+16:38 < COSCUP_bridge_bo> <abev66>: (pakls: 如果每個人...) 很難說大家會做什麼(?
+16:38 < COSCUP_bridge_bo> <Yuy_Heero>: 遺失泡麵(X
+16:38 < COSCUP_bridge_bo> <freedmantw>: (cocox33x: 各位還沒領...) 那是啥？
+16:38 < COSCUP_bridge_bo> <pennyken>: 17是大會贊助商
+16:39 < COSCUP_bridge_bo> <pennyken>: 當然要用17(O
+16:39 < COSCUP_bridge_bo> <andytwmvp>: (Locy69: 今年好像沒...) 他應該沒票？
+16:39 < COSCUP_bridge_bo> <abev66>: 全場用 17
+16:39 < COSCUP_bridge_bo> <pennyken>: (freedmantw: 那是啥？) 如果你是個人贊助票的持有者
+16:39 < COSCUP_bridge_bo> <pennyken>: 大會會回饋你某些物品
+16:39 < COSCUP_bridge_bo> <freedmantw>: 瞭
+16:39 < COSCUP_bridge_bo> <pennyken>: 有疑問還是可以前往服務台詢問
+16:39 < RainnyQ> 大會公告，請有遺失物品的朋友們可以去服務台詢問喔～～或是有拾獲物品的也請幫忙交給大會服務台唷
+16:40 -!- mp607__ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Quit: mp607__]
+16:41 < COSCUP_bridge_bo> <joekaojoekao>: (Kalan: 想請問一下...) 有接到電話就是中了
+16:41 -!- j5a6s7o8n [df88a598@gateway/web/freenode/ip.223.136.165.152] has joined #coscup
+16:41 -!- StanleyHsiao [uid27646@gateway/web/irccloud.com/x-qdnwuudpieertglv] has joined #coscup
+16:44 < COSCUP_bridge_bo> <davy_0xff>: (Vdragon: 請問今年有...) 明天有歡迎以一個小時為單位的BoF 直接開放一間教室給報名的人玩耍交流聚會喔
+16:44 < COSCUP_bridge_bo> <Vdragon>: (davy_0xff: 明天有歡迎...) 了解，感謝\o/
+16:44 < licson_l3> \o/
+16:46 -!- benzea [benjamin@s3.sipsolutions.net] has joined #coscup
+16:48 < COSCUP_bridge_bo> <pennyken>: 線路組的痛
+16:48 < COSCUP_bridge_bo> <pennyken>: 🐼 https://i.imgur.com/5ZUYI32.png
+16:48 < COSCUP_bridge_bo> <pennyken>: (Reply to pennyken) 線路組的痛，我們明年會加油的
+16:49 -!- svg_ [8c76872a@gateway/web/freenode/ip.140.118.135.42] has joined #coscup
+16:49 < svg_> 202 直播有一個刺耳的高頻聲
+16:49 < COSCUP_bridge_bo> <allen0099>: 202 嗡嗡聲好大
+16:49 < svg_> :(
+16:49 -!- svg_ [8c76872a@gateway/web/freenode/ip.140.118.135.42] has quit [Client Quit]
+16:51 -!- ppp_ [8c76872a@gateway/web/freenode/ip.140.118.135.42] has joined #coscup
+16:54 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+16:54 < COSCUP_bridge_bo> <OtomeSound>: (svg_: 202 直...) 這個高頻音好像在主場就有了，但是相對很小聲
+16:54 < ppp_> 202 高頻聲好不舒服....
+16:54 -!- ppp_ [8c76872a@gateway/web/freenode/ip.140.118.135.42] has quit [Client Quit]
+16:55 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has quit [Quit: My MacBook Air has gone to sleep. ZZZzzz…]
+16:55 < COSCUP_bridge_bo> <David_C927>: 我也感覺到高頻聲很大
+16:55 < COSCUP_bridge_bo> <OtomeSound>: 會不會是因為講臺上的麥克風沒關的緣故?
+16:57 -!- RainnyQ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+16:57 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has joined #coscup
+16:58 -!- [401]Lother is now known as Lother
+17:00 < COSCUP_bridge_bo> <Coping Po>: 這種中英混雜說法。。。聽不懂
+17:01 < COSCUP_bridge_bo> <alxtz>: 不過有些名詞中文可能沒有
+17:01 < COSCUP_bridge_bo> <alxtz>: Double spend 在中國好像是翻雙花問題
+17:04 < COSCUP_bridge_bo> <freedmantw>: 「重複花用」？四個字，比較長。
+17:05 < COSCUP_bridge_bo> <Irvin>: (OtomeSound: 會不會是因...) 講台的跟無限的連在一起，不能單獨關⋯⋯
+17:05 < COSCUP_bridge_bo> <toppy368>: (freedmantw: 「重複花用...) 而且也很不口語
+17:05 < COSCUP_bridge_bo> <freedmantw>: 因為這算「術語」
+17:05 -!- ofy [~ofy@2001-b011-fc02-125a-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net] has quit [Quit: Leaving]
+17:06 < COSCUP_bridge_bo> <OtomeSound>: 要有翻過類似論文的比較容易跟..
+17:06 < COSCUP_bridge_bo> <toppy368>: 了解
+17:06 < COSCUP_bridge_bo> <davy_0xff>: 今天晚上的 BoF 場地分配表已在網站上公布，有意參與各 BoF 的會眾可以參考： https://2018.coscup.org/programs/bof/
+17:06 < COSCUP_bridge_bo> [Title] BoF Sessions - Powered by COBINHOOD x DEXON  - 綜合 - COSCUP x GNOME.Asia x openSUSE.Asia 2018
+17:07 < COSCUP_bridge_bo> <linroex>: 哇
+17:07 < COSCUP_bridge_bo> <linroex>: ㄜ
+17:07 < COSCUP_bridge_bo> <chihchun>: 踢館囉
+17:07 < COSCUP_bridge_bo> <Vdragon>: 101 對幹w
+17:07 < Shawnlin> ^^
+17:07 < COSCUP_bridge_bo> <Kuro>: 開幹！
+17:07 < COSCUP_bridge_bo> <軒懷>: 歐歐歐
+17:08 < Shawnlin> 尷尬了
+17:08 < COSCUP_bridge_bo> <linroex>: 我現在只好驚嘆了
+17:08 < COSCUP_bridge_bo> <linroex>: 只剩表情符號
+17:08 < COSCUP_bridge_bo> <linroex>: ❗️
+17:08 < COSCUP_bridge_bo> <aki02>: 大聲
+17:08 < COSCUP_bridge_bo> <Kuro>: 旁邊一些睡著的忽然甦醒～
+17:08 < COSCUP_bridge_bo> <Kuro>: LOL
+17:08 < COSCUP_bridge_bo> <littlebtc>: [R101] 嚇死
+17:08 < COSCUP_bridge_bo> <littlebtc>: ‼ https://i.imgur.com/SBEkUl1.png
+17:09 < COSCUP_bridge_bo> <chihchun>: 講者台風超穩
+17:09 < COSCUP_bridge_bo> <David_C927>: 時間到了
+17:09 < COSCUP_bridge_bo> <Yukinoshita_Neko>: 101被…
+17:09 < COSCUP_bridge_bo> <abev66>: 好凶喔 XD
+17:09 < COSCUP_bridge_bo> <kuni93>: 強制介入www
+17:09 < COSCUP_bridge_bo> <alxtz>: conf 拆台滿沒有意義的，有點算浪費聽眾時間 Orz
+17:09 < COSCUP_bridge_bo> <Vdragon>: 我們來講最後一個 slide
+17:09 < COSCUP_bridge_bo> <OtomeSound>: 穩是穩，但是這攻擊有打到就是了
+17:09 < COSCUP_bridge_bo> <Kuro>: 遊戲理論搬出來 😆
+17:10 < COSCUP_bridge_bo> <littlebtc>: 我覺得還好啊 立論穩健 不是亂來
+17:10 < COSCUP_bridge_bo> <linroex>: 我覺得是不錯啦這樣的討論
+17:10 < COSCUP_bridge_bo> <sunnerli>: 想打臉台上www
+17:10 -!- pichu_ [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has quit [Quit: Lost terminal]
+17:10 < COSCUP_bridge_bo> <linroex>: 不過在議程有點尷尬，有限制時間
+17:10 < COSCUP_bridge_bo> <Pichu>: 真是可怕
+17:10 < COSCUP_bridge_bo> <abev66>: 我倒是覺得講者有個很妙的 tempo
+17:10 < COSCUP_bridge_bo> <Kuro>: 蠻想知道證明過程的
+17:10 < COSCUP_bridge_bo> <linroex>: 不然我覺得真正的討論本來就應該是互動而不是一問一答
+17:10 < COSCUP_bridge_bo> <David_C927>: 打不夠Bof隨你打
+17:10 < COSCUP_bridge_bo> <alxtz>: 我完全支持正經議論，但 conf 講的中途不適合
+17:11 < COSCUP_bridge_bo> <linroex>: 確實
+17:11 < COSCUP_bridge_bo> <OtomeSound>: 沒有去他們BoF，誰能幫忙紀錄他們接下來會怎打O_O
+17:11 < COSCUP_bridge_bo> <Kuro>: 先抽牌
+17:11 < COSCUP_bridge_bo> <mai7855>: 他一開始有舉手 conf中途舉的（ry
+17:12 < COSCUP_bridge_bo> <軒懷>: Bof也要開共筆了嗎 XDD
+17:12 < COSCUP_bridge_bo> <abev66>: BoF 有要開直播嗎（？
+17:12 < COSCUP_bridge_bo> <kordanou>: 2/3 以上的善良節點並不是不切實際的假設，BFT 演算法基本上都有這個假設
+17:12 < COSCUP_bridge_bo> <kordanou>: 沒有這個假設做不到 BFT
+17:13 < COSCUP_bridge_bo> <Coping Po>: 就只是話說太滿吧
+17:14 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+17:14 < COSCUP_bridge_bo> <davy_0xff>: (abev66: BoF 有...) 可能沒有 但是身為開源開放活動的與會者，想要直播的話雖時都能自己上喔！
+17:14 < COSCUP_bridge_bo> <Coping Po>: 只是提高被打下難度而已
+17:15 < COSCUP_bridge_bo> <abev66>: (davy_0xff: 可能沒有...) 要在現場才有辦法自己上 XDD
+17:15 < COSCUP_bridge_bo> <Kuro>: 應有盡有
+17:15 < COSCUP_bridge_bo> <abev66>: 🤔 https://i.imgur.com/Lox7S04.png
+17:15 < COSCUP_bridge_bo> <k1tten>: 好怕他斷氣
+17:16 < COSCUP_bridge_bo> <ijliao>: tgmeetup 一直聽成 tg喵 , 想說這是在賣萌嗎...
+17:16 < COSCUP_bridge_bo> <bobchao>: 我還真的挺推薦有興趣的人去 BoF <del>廝殺</del> 討論的，只要是真的在討論其實都正向
+17:16 < COSCUP_bridge_bo> <kordanou>: 這語速XD
+17:16 < aman_> 開源新說唱？
+17:16 < COSCUP_bridge_bo> <kordanou>: “發現講太快了，所以我們來 demo 一下” XD
+17:17 < COSCUP_bridge_bo> <abev66>: (kordanou: “發現講太...) XD
+17:17 -!- aman_ [3cfbd3c4@gateway/web/freenode/ip.60.251.211.196] has quit [Quit: Page closed]
+17:18 < COSCUP_bridge_bo> <CrBoy>: 在 101 的往前坐/站嘛大家
+17:18 < COSCUP_bridge_bo> <littlegoodjack>: 好久沒看到 COSCUP 的貓梗…
+17:19 < COSCUP_bridge_bo> <David_C927>: 貓梗可能姚文智不喜歡
+17:20 < COSCUP_bridge_bo> <Kuro>: ALYSIDA
+17:20 < COSCUP_bridge_bo> <abev66>: ALYSIDA
+17:21 < COSCUP_bridge_bo> <pjtpjt>: 坐好坐滿XD
+17:22 < COSCUP_bridge_bo> <CrBoy>: 我來試試看在我的 Facebook 開 BoF 直播好了....手持
+17:22 < COSCUP_bridge_bo> <Yukinoshita_Neko>: 重開機，然後拔線…（咦
+17:22 < COSCUP_bridge_bo> <CrBoy>: facebook CrBoy.tw
+17:22 < COSCUP_bridge_bo> <abev66>: (CrBoy: faceb...) 👍🏻
+17:22 < COSCUP_bridge_bo> <Kuro>: 手滑 做成投影片惹 就來分享下 😂
+17:23 < COSCUP_bridge_bo> <davy_0xff>: (CrBoy: faceb...) 原來是想跟大家交朋友的部分啊 okok
+17:23 < COSCUP_bridge_bo> <pennyken>: (CrBoy: 我來試試看...) 你在哪個BoF8
+17:23 < COSCUP_bridge_bo> <pakls>: 手機網路應該還ok，可是手機 wi-fi 被打死了
+17:23 < COSCUP_bridge_bo> <davy_0xff>: 今天 wifi 應該很擠XDDDD
+17:24 < COSCUP_bridge_bo> <bobchao>: 時候到了大家就跟你一樣懶 XDDDD
+17:25 < COSCUP_bridge_bo> <OtomeSound>: 人工智慧→工人智慧
+17:25 < COSCUP_bridge_bo> <abev66>: 比賽人數 < 10
+17:26 < COSCUP_bridge_bo> <bobchao>: 今日最歡笑的候選人出爐了
+17:26 < COSCUP_bridge_bo> <Kuro>: 奇怪 怎麼贏惹呢？原來
+17:26 < COSCUP_bridge_bo> <sunnerli>: 不小心拿到第1名...
+17:27 < COSCUP_bridge_bo> <abev66>: 「這不是廣告，不只是廣告」
+17:27 < COSCUP_bridge_bo> <kordanou>: 不只是廣告
+17:27 < COSCUP_bridge_bo> <bobchao>: 今天聽風有抽問我一題，連我都答錯 orz 真的有點難
+17:27 < COSCUP_bridge_bo> <Jason_Cheng>: XDD
+17:27 < COSCUP_bridge_bo> <Sheng-Kai>: 是要邊看直撥邊聽coscup嗎
+17:27 < COSCUP_bridge_bo> <Kuro>: $1 HKD
+17:28 < COSCUP_bridge_bo> <bobchao>: 1 HKD...
+17:28 < COSCUP_bridge_bo> <bobchao>: 還要所有人一起分... XD... 然後無條件進位
+17:28 < COSCUP_bridge_bo> <Kuro>: 每個人都一元 佛心公司😌
+17:28 < COSCUP_bridge_bo> <bobchao>: 所以越多人全部答對就...
+17:28 < COSCUP_bridge_bo> <OtomeSound>: 一元分20人還是有一元
+17:28 < COSCUP_bridge_bo> <bobchao>: 居然要收回 XD...
+17:29 < Shawnlin> 收回....
+17:29 < COSCUP_bridge_bo> <chihchun>: 我以為他說百分九十在寫 workaround…
+17:30 < COSCUP_bridge_bo> <coldsleep>: 90%.... XDDDDD
+17:30 < COSCUP_bridge_bo> <Kuro>: 再見 //
+17:31 < COSCUP_bridge_bo> <bobchao>: 好啦這個也挺好笑的，給你 17 分 (?)
+17:31 < COSCUP_bridge_bo> <ijliao>: 他講 SQL 我一直聽成 c code ...
+17:31 < COSCUP_bridge_bo> <David_C927>: 這桌布我可以
+17:32 < COSCUP_bridge_bo> <salagadoola>: 拖延症-driven-development
+17:32 < COSCUP_bridge_bo> <linroex>: 結果我忘記說活動的網址了！！！！！！！！ https://blog.coscup.org/2018/08/17-x-coscup.html
+17:32 < COSCUP_bridge_bo> [Title] 黃金級贊助商 - 17 直播 x COSCUP 智力測驗
+17:32 < COSCUP_bridge_bo> <linroex>: 歡迎大家來回答 COSCUP 小知識拿 AirPods，呼朋引伴一起來，還可以順便學一些 COSCUP 小知識
+17:33 < COSCUP_bridge_bo> <Kuro>: 37% 電力
+17:33 < COSCUP_bridge_bo> <yutin1987>: live debug
+17:33 < COSCUP_bridge_bo> <bobchao>: XDDDD
+17:33 < COSCUP_bridge_bo> <abev66>: XDD
+17:33 < COSCUP_bridge_bo> <David_C927>: Bang 不見了
+17:33 < COSCUP_bridge_bo> <littlegoodjack>: 拖不動 XDDD
+17:33 < COSCUP_bridge_bo> <bobchao>: 結果居然踩到 Mac 的問題 XD...
+17:33 < COSCUP_bridge_bo> <yutin1987>: 莫非理論
+17:33 < COSCUP_bridge_bo> <rail02000>: NERVER LIVE DEMO
+17:33 < COSCUP_bridge_bo> <abev66>: 更多手勢在哪裡…
+17:33 < COSCUP_bridge_bo> <allen0099>: Live Debug
+17:33 < COSCUP_bridge_bo> <軒懷>: GG
+17:33 < COSCUP_bridge_bo> <pakls>: 在台上設定手勢
+17:33 < COSCUP_bridge_bo> <yutin1987>: 墨菲定律
+17:33 < COSCUP_bridge_bo> <babogoos>: https://m.facebook.com/story.php?story_fbid=2199576183389248&id=100000106630625
+17:33 < COSCUP_bridge_bo> [Title] 找不到內容
+17:34 < COSCUP_bridge_bo> <Kuro>: Flag 已立，償還的時刻！
+17:34 < COSCUP_bridge_bo> <bobchao>: 「糟糕，這不是我的 code 的問題啊，但為什麼我在 debug...」
+17:34 < COSCUP_bridge_bo> <k1tten>: Live Debug
+17:34 < COSCUP_bridge_bo> <軒懷>: Flag秒回收
+17:34 < COSCUP_bridge_bo> <sunnerli>: 剩下兩分鐘都在拖檔案~
+17:34 < Shawnlin> 悲劇了
+17:34 < COSCUP_bridge_bo> <allen0099>: GG
+17:34 < COSCUP_bridge_bo> <babogoos>: (babogoos: https...) 閃電秀直播
+17:34 < COSCUP_bridge_bo> <Fripig>: 讓你想到就不是livedemo
+17:34 < kester___> 還能工商。XD
+17:35 < COSCUP_bridge_bo> <Kuro>: 工商也是要做的 😇
+17:35 < COSCUP_bridge_bo> <yutin1987>: ntu.st/coscup
+17:35 < COSCUP_bridge_bo> <Kuro>: ntu.st/coscup
+17:35 < COSCUP_bridge_bo> <abev66>: 拖曳了兩分鐘還可以發呆 30 秒也是蠻厲害的
+17:35 < COSCUP_bridge_bo> <Vdragon>: https://i.imgur.com/Y5iKaOI.jpg
+17:35 < COSCUP_bridge_bo> <k1tten>: 用好用滿
+17:35 < COSCUP_bridge_bo> <Vdragon>: 誰貢獻一個歪斜辨識演算法(ry
+17:36 < COSCUP_bridge_bo> <David_C927>: 又17
+17:36 < COSCUP_bridge_bo> <babogoos>: (babogoos: 閃電秀直播) 手動置底
+17:36 < COSCUP_bridge_bo> <linroex>: 我們公司真的超愛喝飲料...
+17:36 < COSCUP_bridge_bo> <Kuro>: 不是「隨便」大法喔？
+17:37 < COSCUP_bridge_bo> <yutin1987>: 每一間 IT 公司都有一個 訂餐系統 的都市傳說
+17:37 < COSCUP_bridge_bo> <knowlet>: (Vdragon: 誰貢獻一個...) https://i.imgur.com/b4rPkLD.jpg
+17:37 < COSCUP_bridge_bo> <abev66>: 驚
+17:37 < COSCUP_bridge_bo> <Vdragon>: (Reply to knowlet) proprietary(?)
+17:37 < COSCUP_bridge_bo> <Kuro>: 訂個飲料還要整合 Slack
+17:37 < COSCUP_bridge_bo> <knowlet>: 想用 Lens 來辨識 QR code 他直接把字讀出來了 XDrz
+17:38 < COSCUP_bridge_bo> <abev66>: (knowlet: 想用 Le...) 也算是解決了啦…
+17:38 < COSCUP_bridge_bo> <Vdragon>: (knowlet: 想用 Le...) 嚇哭
+17:38 < COSCUP_bridge_bo> <pakls>: 炫砲到底就對了.....
+17:38 < COSCUP_bridge_bo> <Kuro>: $51224 飲料費
+17:38 < COSCUP_bridge_bo> <yutin1987>: 這樣就可以讓 不會用 Slack 的同事無法訂餐哩
+17:38 < COSCUP_bridge_bo> <David_C927>: 9000元，土豪喔
+17:38 < COSCUP_bridge_bo> <pakls>: 還有 roadmap
+17:38 < COSCUP_bridge_bo> <Kuro>: 還可以整合 17 儲值 LOL
+17:39 < COSCUP_bridge_bo> <babogoos>: (babogoos: https...) 閃電秀直播唷
+17:40 < COSCUP_bridge_bo> <Kuro>: 怎麼變成養牛了ㄋ
+17:41 < COSCUP_bridge_bo> <David_C927>: 養雞變養牛
+17:41 < COSCUP_bridge_bo> <yutin1987>: 0.3 隻
+17:41 < COSCUP_bridge_bo> <abev66>: 0.3 隻牛....
+17:41 < COSCUP_bridge_bo> <Kuro>: Alpha
+17:41 < COSCUP_bridge_bo> <軒懷>: 牛牛載入中 XDDD
+17:41 < COSCUP_bridge_bo> <OtomeSound>: 至少不是半隻牛...
+17:41 < COSCUP_bridge_bo> <abev66>: 歐禮來（？
+17:41 < COSCUP_bridge_bo> <Kuro>: 你被轉帳了 0.31415926 隻牛 🤠
+17:42 < COSCUP_bridge_bo> <h0wpwn>: 3分熟的牛
+17:42 < COSCUP_bridge_bo> <Yuy_Heero>: 腿不見了（X
+17:42 < COSCUP_bridge_bo> <yutin1987>: 共筆 一起考滿分
+17:42 < COSCUP_bridge_bo> <Fripig>: 腳是裝飾
+17:42 < COSCUP_bridge_bo> <David_C927>: 共筆可以作弊嗎？
+17:42 < COSCUP_bridge_bo> <Kuro>: 可以收集胃的數目嗎
+17:43 < COSCUP_bridge_bo> <Kuro>: \和牛/
+17:43 < licson_l3> \和牛/
+17:44 < COSCUP_bridge_bo> <OtomeSound>: 可以整合麥當勞嗎(別
+17:44 < COSCUP_bridge_bo> <abev66>: fb.com/cryptocowapp
+17:44 < COSCUP_bridge_bo> <Yuy_Heero>: 餓
+17:44 < COSCUP_bridge_bo> <Fripig>: 沒有牛舌嗎
+17:45 < COSCUP_bridge_bo> <NightFeather>: 之前哪個 conf 是不是有 30s lightning talk (?
+17:45 < COSCUP_bridge_bo> <yutin1987>: https://cryptocow.app/ QQ https://i.imgur.com/0J2DKPr.jpg
+17:45 < COSCUP_bridge_bo> [Title] Crypto Cow
+17:45 < COSCUP_bridge_bo> <pennyken>: 閃燃秀
+17:45 < kester___> 傳說中的沒有畫面
+17:46 < COSCUP_bridge_bo> <salagadoola>: 無投影片閃電秀
+17:46 < COSCUP_bridge_bo> <Yuy_Heero>: 沒線可拔
+17:46 < COSCUP_bridge_bo> <ettoolong>: 😀 https://i.imgur.com/FsRRRdH.png
+17:46 < COSCUP_bridge_bo> <NightFeather>: 沒投影片 這無敵了 (？
+17:46 < COSCUP_bridge_bo> <babogoos>: (Yuy_Heero: 沒線可拔) 所以可以一直講！？
+17:46 < COSCUP_bridge_bo> <yutin1987>: 只好時間到 關麥 哩
+17:46 -!- shell909090 [uid13165@gateway/web/irccloud.com/x-qapsmctzeuzilnve] has quit [Quit: Connection closed for inactivity]
+17:46 < COSCUP_bridge_bo> <Kuro>: 看來這是個 feature 😄
+17:46 < COSCUP_bridge_bo> <Yuy_Heero>: 拔麥
+17:46 < COSCUP_bridge_bo> <sunnerli>: 會把麥克風搶走吧？
+17:46 < COSCUP_bridge_bo> <Locy69>: 沒畫面
+17:47 < COSCUP_bridge_bo> <Locy69>: 其他教室看轉播的是國防布了 XD
+17:47 < COSCUP_bridge_bo> <Coping Po>: 🦊
+17:47 < COSCUP_bridge_bo> <superbil>: 聽有聲書的概念
+17:47 < COSCUP_bridge_bo> <Yuy_Heero>: 不是轉 講者畫面嗎(X
+17:48 < COSCUP_bridge_bo> <OtomeSound>: 講者有點喘(?
+17:48 < COSCUP_bridge_bo> <NightFeather>: 能用 gcc 解決的問題都不是問題
+17:48 < COSCUP_bridge_bo> <CrBoy>: 咦？官方直播國防布嗎？
+17:49 < COSCUP_bridge_bo> <Yuy_Heero>: 要拔麥了嗎
+17:49 < COSCUP_bridge_bo> <David_C927>: 只好拔麥了
+17:49 < COSCUP_bridge_bo> <CrBoy>: 我看是正常的沒壞@@
+17:49 < COSCUP_bridge_bo> <Yuy_Heero>: 沒拔到 可惜
+17:49 < COSCUP_bridge_bo> <Fripig>: 還是沒得拔
+17:49 < COSCUP_bridge_bo> <babogoos>: (CrBoy: 咦？官方直...) 國防布是指沒有投影片吧 XD
+17:50 < COSCUP_bridge_bo> <Locy69>: (CrBoy: 我看是正常...) 剛剛一開始一段時間沒轉講者畫面啦
+17:50 < COSCUP_bridge_bo> <Kuro>: 絕對不讓你拔（笑
+17:50 < COSCUP_bridge_bo> <NightFeather>: 又一個沒投影片的 XDD
+17:50 < COSCUP_bridge_bo> <Yuy_Heero>: 也是沒投影片的？
+17:50 < COSCUP_bridge_bo> <太猥褻金燕>: 請問等等bof在哪啊？
+17:50 < COSCUP_bridge_bo> <abev66>: OAO
+17:50 < COSCUP_bridge_bo> <Kuro>: 哲學 😤
+17:50 < COSCUP_bridge_bo> <David_C927>: 又沒有投影片了，拔麥最快不如降麥
+17:50 < COSCUP_bridge_bo> <Locy69>: https://i.imgur.com/MdrB4C8.jpg
+17:50 < COSCUP_bridge_bo> <Yukinoshita_Neko>: (太猥褻金燕: 請問等等b...) Bof頁面有公佈了
+17:51 < COSCUP_bridge_bo> <Locy69>: 藏鏡人？
+17:51 < COSCUP_bridge_bo> <pakls>: 這位 bitrabbit CEO 有趣
+17:51 < COSCUP_bridge_bo> <JokerTaiwan>: 【SITCON @ COSCUP BoF】 今晚 BoF @ 國際大樓401 我們不見不散 @ 台灣科大 https://i.imgur.com/ub4C8nj.jpg
+17:51 < COSCUP_bridge_bo> <太猥褻金燕>: 感謝 🙏
+17:51 < COSCUP_bridge_bo> <NightFeather>: 是說前幾天看到的研究 以後自由意志可能要從電訊號變成機械波了 (？
+17:52 < COSCUP_bridge_bo> <alxtz>: 這屆怎麼這麼多牛
+17:52 < COSCUP_bridge_bo> <pakls>: 他們還寫了批評秦始皇的東西
+17:52 < COSCUP_bridge_bo> <David_C927>: 貓少牛多，只好今晚吃牛肉麵了
+17:52 < COSCUP_bridge_bo> <Locy69>: 本屆的梗？
+17:52 < COSCUP_bridge_bo> <bobchao>: (pakls: 這位 bi...) 他還蠻常在會場晃的，大家歡迎去找他聊聊
+17:52 < COSCUP_bridge_bo> <Coping Po>: 這樣貓怎麼辦
+17:53 < COSCUP_bridge_bo> <abev66>: ??
+17:53 < kester___> 好像都沒聽過
+17:53 < COSCUP_bridge_bo> <CloudHack16>: 太古老了
+17:53 < COSCUP_bridge_bo> <Sciuridae>: (NightFeather: 能用 gc...) "首先要先編譯出來"  沒 https://i.imgur.com/TV4Nwo7.jpg
+17:53 < COSCUP_bridge_bo> <pennyken>: 披薩塔
+17:53 < COSCUP_bridge_bo> <Kuro>: 哎呀 技術通過
+17:53 < COSCUP_bridge_bo> <pennyken>: https://i.imgur.com/1ikVzFv.jpg
+17:53 < COSCUP_bridge_bo> <CloudHack16>: 怎麼不是用兔子舉例
+17:53 < COSCUP_bridge_bo> <軒懷>: 六分鐘
+17:53 < COSCUP_bridge_bo> <Yuy_Heero>: 連續wwww
+17:53 < COSCUP_bridge_bo> <Fripig>: 又是BUG
+17:53 < COSCUP_bridge_bo> <joekaojoekao>: 8分鐘lightning talk XDDDDDDDDDD
+17:54 < Shawnlin> BUG
+17:54 < kester___> 喔喔有點強
+17:54 < COSCUP_bridge_bo> <bobchao>: 耍詐 XDDDDDDDDDDDDDDDDDDDDD
+17:54 < COSCUP_bridge_bo> <kordanou>: .....
+17:54 < COSCUP_bridge_bo> <chihchun>: 分身報名是哪招啦！
+17:54 < COSCUP_bridge_bo> <pakls>: 這種一個人兩段是不是創紀錄？
+17:54 < COSCUP_bridge_bo> <David_C927>: 二連拉
+17:54 < COSCUP_bridge_bo> <abev66>: ...........
+17:54 < COSCUP_bridge_bo> <NightFeather>: 用分身 wwwwww
+17:54 < COSCUP_bridge_bo> <chihchun>: …
+17:54 < COSCUP_bridge_bo> <pakls>: 開小號
+17:54 < COSCUP_bridge_bo> <darkgerm>: ........
+17:54 < COSCUP_bridge_bo> <bobchao>: 前年某人也有這樣過啦
+17:54 < COSCUP_bridge_bo> <Yuy_Heero>: 最喜歡跟大家講哲學
+17:54 < COSCUP_bridge_bo> <kordanou>: 分身報名是哪招
+17:54 < COSCUP_bridge_bo> <jalenthl>: 馬甲帳
+17:54 < COSCUP_bridge_bo> <Kuro>: 開小號講點哲學
+17:54 < COSCUP_bridge_bo> <yutin1987>: 繼續講講哲學
+17:54 < COSCUP_bridge_bo> <bobchao>: 不過他至少第二段是還拉個人一起講
+17:54 < COSCUP_bridge_bo> <Yuy_Heero>: 明年規定：不要開分身
+17:54 < COSCUP_bridge_bo> <CloudHack16>: 開小號了
+17:54 < COSCUP_bridge_bo> <joekaojoekao>: 嚴肅了
+17:55 < COSCUP_bridge_bo> <sunnerli>: 連續講兩場www
+17:55 < COSCUP_bridge_bo> <Kuro>: 剛剛是我的第一個人格 現在是第二個 不算啦
+17:55 < COSCUP_bridge_bo> <rail02000>: 閃電哲學課
+17:55 < COSCUP_bridge_bo> <wuxion>: 哲♐️學
+17:55 < COSCUP_bridge_bo> <abev66>: (rail02000: 閃電哲學課) 其實沒有很閃電（？
+17:55 < COSCUP_bridge_bo> <pakls>: 會講財富這議題本身，就代表其實
+17:55 < COSCUP_bridge_bo> <sunnerli>: 剛剛講哲學，現在講錢
+17:55 < COSCUP_bridge_bo> <pakls>: 已經不缺錢
+17:55 < COSCUP_bridge_bo> <OtomeSound>: 錢是提取社會財富的權力...
+17:56 < COSCUP_bridge_bo> <bobchao>: (abev66: 其實沒有很...) 歐洲那邊的「Lightning Talk」是 15 分鐘 😆
+17:56 < COSCUP_bridge_bo> <pakls>: 亞洲步調比較快
+17:56 < COSCUP_bridge_bo> <superbil>: 給我錢
+17:56 < kester___> 中國人講自由意志..想像力就是超能力嗎？
+17:56 < COSCUP_bridge_bo> <CloudHack16>: 這個好解決啊 上一場 LT 是五分鐘前的我
+17:56 < COSCUP_bridge_bo> <rail02000>: 時間足夠時間足夠！
+17:56 < COSCUP_bridge_bo> <Pichu>: 緯度比較高，所以閃電比較久吧(鬼扯
+17:56 < COSCUP_bridge_bo> <ijliao>: 歐洲光速 1/3
+17:56 < COSCUP_bridge_bo> <Sheng Min>: 生活背景好像與我們不同
+17:56 < COSCUP_bridge_bo> <pakls>: (Pichu: 緯度比較高...) 它公司開在澳洲
+17:56 < COSCUP_bridge_bo> <NightFeather>: 勇氣是超能力 (？
+17:56 < COSCUP_bridge_bo> <Kuro>: 可能密度高 速度慢了些
+17:56 < COSCUP_bridge_bo> <koru1130>: (CloudHack16: 這個好解決...) 沒辦法證明跟現在的我是同一個人嗎www
+17:56 < COSCUP_bridge_bo> <OtomeSound>: 15分鐘的那叫極光Talk(?
+17:57 < COSCUP_bridge_bo> <bobchao>: 去年 openSUSE.Asia Summit 特別要在網頁上寫是「Japanese Style Lightning talk, 5 minutes per slot.」
+17:57 < COSCUP_bridge_bo> <pakls>: (OtomeSound: 15分鐘的...) 不然永晝是要做什麼..... XD
+17:57 < COSCUP_bridge_bo> <bobchao>: 一個閃電，各自表述
+17:57 < COSCUP_bridge_bo> <ijliao>: (bobchao: 去年 op...) XD
+17:57 < COSCUP_bridge_bo> <davy_0xff>: (bobchao: 歐洲那邊的...) CJK 文字可以表達的內容含量比歐美來的濃
+17:57 < COSCUP_bridge_bo> <David_C927>: 你這麼愛講，開個講座就好了
+17:57 < COSCUP_bridge_bo> <Kuro>: 可能性
+17:57 < COSCUP_bridge_bo> <bobchao>: (davy_0xff: CJK 文...) 突然覺得蠻有道理的... 上台講者如果都用文言文，內容濃度或許超級高...
+17:57 < COSCUP_bridge_bo> <abev66>: (davy_0xff: CJK 文...) 日本的 LT 該不會 25 分鐘ㄅ
+17:57 < COSCUP_bridge_bo> <yutin1987>: 哲學： 時間 是因為人而存在
+17:58 -!- Shawnlin [~textual@ip136-83.wlan.ntust.edu.tw] has quit [Quit: My MacBook Air has gone to sleep. ZZZzzz…]
+17:58 -!- Benyi [~benyi@180.204.201.114] has joined #coscup
+17:58 < COSCUP_bridge_bo> <pakls>: (abev66: 日本的 L...) 前面講敬詞？
+17:58 < COSCUP_bridge_bo> <yutin1987>: 錢...  是調度 社會資源 的儲存體
+17:59 < COSCUP_bridge_bo> <Yuy_Heero>: 每個晚上w
+17:59 < COSCUP_bridge_bo> <bobchao>: 每個晚上都 BoF 豪快樂壓～
+17:59 < COSCUP_bridge_bo> <CloudHack16>: https://www.facebook.com/caigezhuanyebinlangtan/
+17:59 < COSCUP_bridge_bo> [Title] 財哥專業檳榔攤 - 首頁 | Facebook
+17:59 < COSCUP_bridge_bo> <superbil>: 日本的是 5 分鐘，然後總長有一個多小時…
+18:00 < COSCUP_bridge_bo> <chihchun>: 不要再按麥克風踢館啦！等等吃披薩再戰 (無誤
+18:00 < COSCUP_bridge_bo> <ijliao>: (bobchao: 突然覺得蠻...) 但底下的人聽出 5 種不同的意思 (?!)
+18:00 < COSCUP_bridge_bo> <bobchao>: 不過我覺得台灣的氣氛是我參加過最歡樂的... 日本有時候也很歡樂但有時候節奏掌握得沒那麼有趣
+18:00 < COSCUP_bridge_bo> <bobchao>: (ijliao: 但底下的人...) XDDDDDDD
+18:00 < COSCUP_bridge_bo> <pakls>: cobinhood 做交易所，dexon 做幣？
+18:01 < COSCUP_bridge_bo> <bobchao>: 果然台灣這個小島一年的 Conf 數生產出很多專業的閃電秀演講家？
+18:01 < COSCUP_bridge_bo> <OtomeSound>: (ijliao: 但底下的人...) 比智慧更高一層的關係(?
+18:01 < COSCUP_bridge_bo> <OtomeSound>: 那就變成莊子talk了...
+18:01 < COSCUP_bridge_bo> <David_C927>: 我還是講中文好了
+18:02 < COSCUP_bridge_bo> <kordanou>: bof 場地會貼在這裡嗎？
+18:02 < COSCUP_bridge_bo> <yutin1987>: 是 Yanny 還是 Laurel ... 的概念
+18:03 < COSCUP_bridge_bo> <kordanou>: 找到了：https://2018.coscup.org/programs/bof/
+18:03 < COSCUP_bridge_bo> [Title] BoF Sessions - Powered by COBINHOOD x DEXON  - 綜合 - COSCUP x GNOME.Asia x openSUSE.Asia 2018
+18:03 < COSCUP_bridge_bo> <linroex>: https://2018.coscup.org/programs/bof/
+18:03 < COSCUP_bridge_bo> [Title] BoF Sessions - Powered by COBINHOOD x DEXON  - 綜合 - COSCUP x GNOME.Asia x openSUSE.Asia 2018
+18:03 < COSCUP_bridge_bo> <linroex>: XD
+18:04 < COSCUP_bridge_bo> <davy_0xff>: (linroex: https...) 輸惹
+18:04 < COSCUP_bridge_bo> <chihchun>: suse 的正確發音是 suse   https://youtu.be/N4lFHP-UxTk
+18:04 < COSCUP_bridge_bo> [Title] How do you say SUSE - YouTube
+18:05 < COSCUP_bridge_bo> <linroex>: 台科同樂會大家來哦
+18:05 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Quit: mp607_]
+18:09 -!- j5a6s7o8n [df88a598@gateway/web/freenode/ip.223.136.165.152] has quit [Ping timeout: 252 seconds]
+18:10 < Benyi> 有人覺得 coscup 網站議程表的時間軸 用筆電觸控板很悲劇嗎
+18:11 -!- Benyi [~benyi@180.204.201.114] has quit [Remote host closed the connection]
+18:11 -!- Benyi [~benyi@202.153.199.8] has joined #coscup
+18:12 < COSCUP_bridge_bo> <aki02>: 用觸控螢幕很ok
+18:12 < COSCUP_bridge_bo> <davy_0xff>: (Benyi: 有人覺得...) Mac 嗎？ 我用 Windows 精準式觸控板還蠻好用的
+18:13 < COSCUP_bridge_bo> <davy_0xff>: Mac 觸控板 api 在瀏覽器被拔掉了 殘念
+18:15 < COSCUP_bridge_bo> <NightFeather>: 我是覺得除了不能雙指拖曳之外都很好
+18:15 < COSCUP_bridge_bo> <NightFeather>: 雖然不清楚是那邊的問題
+18:16 < COSCUP_bridge_bo> <davy_0xff>: (Benyi: 有人覺得...) 請以使用 google map 的邏輯使用它
+18:16 < COSCUP_bridge_bo> <danny8376>: 雙指就是一般模式啊 無法
+18:16 < Benyi> 要往下滾動，就會縮小
+18:16 < COSCUP_bridge_bo> <danny8376>: (davy_0xff: 請以使用...) 抗議 這不是地圖(?
+18:17 < COSCUP_bridge_bo> <singing_li>: Cobinhood 的攤位上有啤酒，晚上留下來 BoF 的，可以過去拿拿啤酒、聊聊天
+18:17 < COSCUP_bridge_bo> <davy_0xff>: (Benyi: 要往下滾動...) QQ 請在表外捲動
+18:18 < COSCUP_bridge_bo> <NightFeather>: 噢 那我的問題應該是捲動不是拖曳
+18:18 < Benyi> 往下滾動，時間軸同時會縮小，但網頁也會往下
+18:18 < COSCUP_bridge_bo> <davy_0xff>: 明年解決這個問題 或有人可以發揮開源精神晚上送個 PR
+18:18 < COSCUP_bridge_bo> <davy_0xff>: (Benyi: 往下滾動，...) Firefox?
+18:18 < Benyi> 對
+18:19 < COSCUP_bridge_bo> <davy_0xff>: 已知 mac + touchpad + Firefox 會有這個問題
+18:20 < COSCUP_bridge_bo> <davy_0xff>: 時間軸套件 visjs 上也有人討論，但其他瀏覽器沒有這個問題，有可能是 firefox 的實作有問題⋯⋯ ESR 也沒問題 可能是 quantum...
+18:20 < Benyi> <@davy_0xff>: 已知 mac + touchpad + Firefox 會有這個問題         https://i.imgur.com/M1L1o87.jpg
+18:22 < COSCUP_bridge_bo> <davy_0xff>: (Benyi: <@dav...) Sorry xD
+18:23 < COSCUP_bridge_bo> <chihchun>: 五樓沒樓梯嗎？
+18:23 < COSCUP_bridge_bo> <IDontKnowButIm>: (dan_chen: #老王賣瓜...) 下午看到這個行動議程表 感覺還比較實用XD
+18:23 < COSCUP_bridge_bo> <ttwttw>: (chihchun: 五樓沒樓梯...) 走樓梯間
+18:26 < COSCUP_bridge_bo> <davy_0xff>: (IDontKnowButIm: 下午看到這...) 歡迎大家自幹自己喜歡的網站
+18:33 -!- Benyi_ [~benyi@180.204.201.114] has joined #coscup
+18:34 < COSCUP_bridge_bo> <PingNote>: Hi all , 披薩盒有指定處理地點和方式嗎
+18:36 -!- Benyi [~benyi@202.153.199.8] has quit [Ping timeout: 240 seconds]
+18:44 -!- chihchun_afk is now known as chihchun
+18:51 -!- StanleyHsiao [uid27646@gateway/web/irccloud.com/x-qdnwuudpieertglv] has quit [Quit: Connection closed for inactivity]
+19:09 -!- chihchun is now known as chihchun_afk
+19:10 < COSCUP_bridge_bo> <yoga1130>: 剛剛接獲線報，COBINHOOD 上還有啤酒，如果想要喝的，歡迎到攤位上領喔！
+19:15 < COSCUP_bridge_bo> <Simon>: 請問BoF ， 項目及房間號資料表
+19:17 < COSCUP_bridge_bo> <Bilthe>: (yoga1130: 剛剛接獲線...) 🥂
+19:17 < COSCUP_bridge_bo> <Bilthe>: (Simon: 請問BoF...) https://bit.ly/2Mdew8w
+19:17 < COSCUP_bridge_bo> [Title] BoF Sessions - Powered by COBINHOOD x DEXON  - 綜合 - COSCUP x GNOME.Asia x openSUSE.Asia 2018
+19:28 -!- Benyi_ [~benyi@180.204.201.114] has quit [Remote host closed the connection]
+19:28 -!- Benyi [~benyi@180.204.201.114] has joined #coscup
+19:34 -!- YChao__ [~john@123-193-55-152.dynamic.kbronet.com.tw] has quit [Ping timeout: 265 seconds]
+19:39 < COSCUP_bridge_bo> <Vdragon>: https://i.imgur.com/7NCCQaI.jpg
+19:45 -!- Benyi_ [~benyi@180.204.201.114] has joined #coscup
+19:45 -!- Benyi [~benyi@180.204.201.114] has quit [Read error: Connection reset by peer]
+19:52 -!- YChao_ [~john@123-193-55-152.dynamic.kbronet.com.tw] has joined #coscup
+19:57 -!- Heero_Yuy [uid106498@gateway/web/irccloud.com/x-jrrlsiagljrrxcyp] has quit [Quit: Connection closed for inactivity]
+19:57 -!- StanleyHsiao [uid27646@gateway/web/irccloud.com/x-drplhffqfhzmepby] has joined #coscup
+20:22 -!- Benyi_ [~benyi@180.204.201.114] has quit [Remote host closed the connection]
+20:30 -!- kester___ [uid34598@gateway/web/irccloud.com/x-kdnzvafzmkynesae] has quit [Quit: Connection closed for inactivity]
+20:42 < COSCUP_bridge_bo> <wuxion>: https://i.imgur.com/ThZLFtf.jpg
+21:05 -!- Denir [~AndChat99@1.200.210.237] has quit [Remote host closed the connection]
+21:13 < COSCUP_bridge_bo> <carlsu>: 問一下 T-shirt 怎麼拿
+21:16 < COSCUP_bridge_bo> <carlsu>: 「每軌議程開始前志工會將該軌講者所需的 T-shirt 送到講廳」，是協調人那軌的講廳？
+21:31 < COSCUP_bridge_bo> <bobchao>: (carlsu: 「每軌議程...) 202 的講者，其衣服都會送到 202 以此類推
+21:31 < COSCUP_bridge_bo> <bobchao>: 在別的議程軌已經拿過的，不會重複給
+21:48 -!- kkkk123123 [7a743c97@gateway/web/cgi-irc/kiwiirc.com/ip.122.116.60.151] has joined #coscup
+21:49 -!- kkkk123123 [7a743c97@gateway/web/cgi-irc/kiwiirc.com/ip.122.116.60.151] has left #coscup []
+21:49 -!- Denir [~AndChat99@1.200.223.101] has joined #coscup
+21:53 < COSCUP_bridge_bo> <knsm071>: 😍 https://i.imgur.com/hUtuEht.png
+21:57 -!- chihchun_afk is now known as chihchun
+22:04 -!- alfredo [24e07c96@gateway/web/freenode/ip.36.224.124.150] has joined #coscup
+22:06 -!- chihchun is now known as chihchun_afk
+22:06 -!- StanleyHsiao [uid27646@gateway/web/irccloud.com/x-drplhffqfhzmepby] has quit [Quit: Connection closed for inactivity]
+22:07 < alfredo> hi, 請教一件事, 在kktix報名時候, 上面列了會有件T恤, 今天報到的時候沒看到, app迎賓禮那個欄位也被工作人員按掉. 明天是到報到櫃台拿嗎?
+22:09 -!- alfredo [24e07c96@gateway/web/freenode/ip.36.224.124.150] has left #coscup []
+22:11 -!- Denir [~AndChat99@1.200.223.101] has quit [Ping timeout: 240 seconds]
+22:12 -!- alfredo [24e07c96@gateway/web/freenode/ip.36.224.124.150] has joined #coscup
+22:12 < alfredo> \JOIN
+22:12 -!- alfredo [24e07c96@gateway/web/freenode/ip.36.224.124.150] has quit [Client Quit]
+22:15 < COSCUP_bridge_bo> <RSChiang>: (alfredo: hi, 請...) 我記得有贊助的人是明天才領吧OwO
+22:18 < COSCUP_bridge_bo> <davy_0xff>: (alfredo: hi, 請...) 贊助現在好像都直接找櫃檯領
+22:18 < COSCUP_bridge_bo> <davy_0xff>: (RSChiang: 我記得有贊...) 兩天都可以
+22:20 -!- alfredo [24e07c96@gateway/web/freenode/ip.36.224.124.150] has joined #coscup
+22:23 < alfredo> 好的, 我明天去櫃台問問. 沒拿到也還好, 參加比較重要
+22:23 -!- alfredo [24e07c96@gateway/web/freenode/ip.36.224.124.150] has quit [Client Quit]
+22:24 < COSCUP_bridge_bo> <pennyken>: 請到大會一樓的服務台
+22:25 -!- kester___ [uid34598@gateway/web/irccloud.com/x-zevnwiqeudoydukk] has joined #coscup
+22:29 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+22:41 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Ping timeout: 256 seconds]
+22:47 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+12:06 < COSCUP_bridge_bo> <ws23ya>: 我發現 原來我是用直接圖檔 等他畫好我直接更新原始連結好了(x
+12:08 < COSCUP_bridge_bo> <Inndy>: https://i.imgur.com/TYvLJmS.jpg
+12:09 < COSCUP_bridge_bo> <pennyken>: 沒轉90度
+12:09 < COSCUP_bridge_bo> <pennyken>: 可惜了
+12:09 < COSCUP_bridge_bo> <Inndy>: 看來我用了五分鐘
+12:09 < COSCUP_bridge_bo> <pennyken>: never live debug 😆
+12:09 < COSCUP_bridge_bo> <Inndy>: (pennyken: 沒轉90度) 我用平板LINE Brush畫的，要求真多 XDDDDDD
+12:09 < COSCUP_bridge_bo> <s5048218>: (pennyken: 沒轉90度) 幫轉 https://i.imgur.com/olHKiJi.jpg
+12:09 < COSCUP_bridge_bo> <pennyken>: 明明TG有支援圖片編輯
+12:10 < COSCUP_bridge_bo> <ws23ya>: https://i.imgur.com/9G4bS93.jpg
+12:10 < COSCUP_bridge_bo> <ws23ya>: 我可以吐槽跟這個原本的圖沒差也太多嗎…
+12:11 < COSCUP_bridge_bo> <Inndy>: (ws23ya: 我可以吐槽...) 我沒看到這個
+12:11 < COSCUP_bridge_bo> <ws23ya>: https://drive.google.com/file/d/1NR_JE0FzNSCUd0FR-d1RXkjZ5D57bXHE/view?usp=drivesdk
+12:11 < COSCUP_bridge_bo> [Title] COSCUP餐廳路線.png - Google 雲端硬碟
+12:12 < COSCUP_bridge_bo> <Inndy>: 反正open source community就喜歡重新造輪子（？
+12:12 < COSCUP_bridge_bo> <ws23ya>: 👏 https://i.imgur.com/wN9nkTx.png
+12:12 < COSCUP_bridge_bo> <littlebtc>: (Inndy: 反正ope...) 😂 https://i.imgur.com/6SUJiLf.png
+12:13 < COSCUP_bridge_bo> <Inndy>: 可惡今天本來想要吃個炒泡麵的，結果麵食館沒開
+12:13 < COSCUP_bridge_bo> <Inndy>: 只好吃燒臘了
+12:14 -!- j5a6s7o8n [8c768f27@gateway/web/freenode/ip.140.118.143.39] has quit [Ping timeout: 252 seconds]
+12:15 < COSCUP_bridge_bo> <ccchen>: /
+12:15 -!- aman_ [3cfbd3c4@gateway/web/freenode/ip.60.251.211.196] has quit [Ping timeout: 252 seconds]
+12:16 < COSCUP_bridge_bo> <ws23ya>: (Inndy: 可惡今天本...) 😭 https://i.imgur.com/oDtZ6o7.png
+12:23 < COSCUP_bridge_bo> <Yuy_Heero>: 禮拜日  學餐會開嗎（好奇
+12:26 < COSCUP_bridge_bo> <singing_li>: (Yuy_Heero: 禮拜日...) 會！
+12:27 < COSCUP_bridge_bo> <singing_li>: 第三餐廳從彩虹走廊走去會比較不淋雨一些，Mos 也會開（在運動場那側），但比較遠些，要帶把傘
+12:42 -!- aman_ [3cfbd3c4@gateway/web/freenode/ip.60.251.211.196] has joined #coscup
+12:46 < COSCUP_bridge_bo> <davihuan>: (GDHFang: 只想聽八卦...) 剛剛大腸花唷！沒來可惜。
+12:48 < COSCUP_bridge_bo> <danny8376>: (GDHFang: 只想聽八卦...) 當然有 但結束了(
+12:50 < COSCUP_bridge_bo> <linroex>: 17@COSCUP 即將開始啦，想知道 COSCUP 豆知識或抽 AirPods 的朋友趕快來哦
+12:51 < COSCUP_bridge_bo> <linroex>: 打開 17 App 搜尋 17@COSCUP 就可以玩
+12:51 < COSCUP_bridge_bo> <linroex>: 現在不到一百人所以中獎率超高（小聲
+12:52 < COSCUP_bridge_bo> <linroex>: http://bit.ly/17_coscup
+12:52 < COSCUP_bridge_bo> [Title] 17 直播 - 華人最佳直播社交 App
+12:54 < COSCUP_bridge_bo> <daisuke1230>: 在 arch 的場子內有 FreeBSD 的文宣ww
+12:54 < COSCUP_bridge_bo> <daisuke1230>: https://i.imgur.com/lhFBfUo.jpg
+12:55 < COSCUP_bridge_bo> <aki02>: wwww
+12:56 < COSCUP_bridge_bo> <tommyccgattaca>: 👵 https://i.imgur.com/pjhcFuF.png
+13:02 -!- aman_ [3cfbd3c4@gateway/web/freenode/ip.60.251.211.196] has quit [Ping timeout: 252 seconds]
+13:03 < COSCUP_bridge_bo> <daisuke1230>: 而且放在第一排w
+13:04 < COSCUP_bridge_bo> <toppy368>: (davihuan: 剛剛大腸花...) 可惜，不曉得之後有無錄影可看？
+13:04 < COSCUP_bridge_bo> <davihuan>: (toppy368: 可惜，不曉...) 當然沒有 XD
+13:06 < COSCUP_bridge_bo> <toppy368>: (davihuan: 當然沒有...) 在五樓當工人值班中GG
+13:10 < COSCUP_bridge_bo> <daisuke1230>: www手冊塔
+13:10 < COSCUP_bridge_bo> <daisuke1230>: https://i.imgur.com/yLxZKN3.jpg
+13:13 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+13:16 -!- mosu_ [~mosu@27-242-138-196.adsl.fetnet.net] has quit [Remote host closed the connection]
+13:24 < COSCUP_bridge_bo> <littlebtc>: [305] 先放投影片 https://speakerdeck.com/littlebtc/you-ren-yong-liao-geng-tou-da-openstreetmap-de-she-qun-ying-yun-tiao-zhan
+13:24 < COSCUP_bridge_bo> [Title] 有人用了更頭大： OpenStreetMap  的社群營運挑戰 - Speaker Deck
+13:30 < COSCUP_bridge_bo> <davihuan>: (littlebtc: [305]...) 😮 https://i.imgur.com/jJoeqjY.png
+13:30 -!- pichu [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has joined #coscup
+13:37 < COSCUP_bridge_bo> <engerim>: 15:40 在101 😁
+13:37 < COSCUP_bridge_bo> <seketika>: This is summary of the presentation I had today. Basically more like a short video, but anyway. Enjoy!
+13:37 < COSCUP_bridge_bo> <seketika>: https://youtu.be/KlMP6AolJrQ
+13:37 < COSCUP_bridge_bo> [Title] Whad Did I Do? - YouTube
+13:38 < COSCUP_bridge_bo> <engerim>: 👍
+13:39 -!- Rainny [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+13:39 -!- RainnyQ [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+13:41 < COSCUP_bridge_bo> <davihuan>: https://m.facebook.com/story.php?story_fbid=10155340285842136&id=550267135
+13:41 < COSCUP_bridge_bo> [Title] 第一次喝到超級老人的苦茶 但是經過 #果汁熊 的芭樂汁與香蕉牛奶的精美混合之後，成為了 #芭樂紅茶香蕉牛奶 以後，一整個瞬間覺得幸福，馬上喝完了整個早上喝不完的紅茶還不打緊，還又去續杯又馬上喝完了呢！ #線路組日常 #COSCUP2018
+13:43 < COSCUP_bridge_bo> <Haraguroicha>: (davihuan: https...) 🌵 https://i.imgur.com/RQB8Qrq.png
+13:44 < COSCUP_bridge_bo> <Haraguroicha>: 不過補充一下，香蕉牛奶是工作人員 only 的特調飲品
+13:48 -!- COSCUP_Snake [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+13:48 < COSCUP_bridge_bo> <suensummit>: [202] 看來幣圈的人沒有來聽 bitrabbit XD
+13:50 < COSCUP_bridge_bo> <HsiaoTing>: [306] 2018 年了，還有近二十人對輸入法 有興趣，有點感人  #2007~#2018
+13:52 -!- vincentsu [uid181072@gateway/web/irccloud.com/x-qjnczuqnxozdpipf] has quit [Quit: Connection closed for inactivity]
+13:52 < COSCUP_bridge_bo> <davihuan>: (HsiaoTing: [306]...) 👍 https://i.imgur.com/B6JeNB7.png
+13:53 < COSCUP_bridge_bo> <joekaojoekao>: (HsiaoTing: [306]...) 我是看到詞庫才來的🤖
+13:54 < COSCUP_bridge_bo> <HsiaoTing>: 來了來了要講詞庫了
+13:55 < COSCUP_bridge_bo> <suensummit>: (HsiaoTing: 來了來了要...) 🍧 https://i.imgur.com/8rOMEXT.png
+13:56 < COSCUP_bridge_bo> <barneybook>: (HsiaoTing: [306]...) 😘 https://i.imgur.com/OmKuzeu.png
+14:01 < COSCUP_bridge_bo> <aki02>: 原來這API是猜到的wwwww
+14:01 < COSCUP_bridge_bo> <aki02>: https://github.com/dongyuwei/hallelujahIM/issues/24
+14:01 < COSCUP_bridge_bo> [Title] č°ç¨ Google IME api ćĽčžĺĽćźéł Âˇ Issue #24 Âˇ dongyuwei/hallelujahIM Âˇ GitHub
+14:01 < COSCUP_bridge_bo> <HsiaoTing>: 呵呵
+14:02 < COSCUP_bridge_bo> <aki02>: 喔喔喔
+14:02 < COSCUP_bridge_bo> <danny8376>: www
+14:03 < COSCUP_bridge_bo> <aki02>: https://i.imgur.com/MXJXFlR.jpg
+14:03 < COSCUP_bridge_bo> <aki02>: 老大 真的能用耶
+14:03 < COSCUP_bridge_bo> <NightFeather>: ' A')
+14:03 < COSCUP_bridge_bo> <GamerGary_TW>: [305]跳出workrave提醒該起來運動囉
+14:04 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Quit: mp607_]
+14:07 < COSCUP_bridge_bo> <aki02>: 不過這個api沒像手機版有錯誤更正，而且好像也不是很即時OAO
+14:10 < COSCUP_bridge_bo> <flandrekawaii>: 即時與否依賴網路速度吧？
+14:10 < COSCUP_bridge_bo> <daisuke1230>: [306] 想說怎麼搞不定，結果 API 改了，文件沒說w 「這坑爹嘛這！」
+14:12 < COSCUP_bridge_bo> <joekaojoekao>: (daisuke1230: [306]...) fb graph api最大坑 😂
+14:16 < COSCUP_bridge_bo> <aki02>: (flandrekawaii: 即時與否依...) 原本在打測試詞，覺得這個api的詞庫好像不是太新 不過剛剛發現好像是bug有按鍵吃不到
+14:17 -!- j5a6s7o8n [8c768f27@gateway/web/freenode/ip.140.118.143.39] has joined #coscup
+14:18 < COSCUP_bridge_bo> <ipawei>: 問：失物去哪裡領呢？在502掉了magsafe轉接頭的 adapter
+14:22 < COSCUP_bridge_bo> <OtomeSound>: [501] Togi中槍
+14:23 < COSCUP_bridge_bo> <yoga1130>: (ipawei: 問：失物去...) 可以去服務台問問看喔
+14:24 < COSCUP_bridge_bo> <S_ean>: 不在會場內，終於收到了第一個通知 XD https://i.imgur.com/4iHzDbA.jpg
+14:26 < COSCUP_bridge_bo> <Inndy>: 執行緒（O）線程（X）
+14:26 < COSCUP_bridge_bo> <superbil>: coscop 的 iOS 版，目前點議程就會直接 App crash ….
+14:28 < COSCUP_bridge_bo> <k1tten>: (superbil: COSCU...) +1
+14:30 -!- Denir [~AndChat99@1.200.214.216] has quit [Remote host closed the connection]
+14:31 -!- j5a6s7o8n_ [8c768f27@gateway/web/freenode/ip.140.118.143.39] has joined #coscup
+14:31 -!- Denir [~AndChat99@1.200.214.216] has joined #coscup
+14:31 -!- SakiTW [7a743c97@gateway/web/cgi-irc/kiwiirc.com/ip.122.116.60.151] has quit [Remote host closed the connection]
+14:32 < COSCUP_bridge_bo> <Haraguroicha>: (superbil: COSCU...) 有人修改了議程資料然後沒照 spec 更新資料，所以 crash 我也沒輒，這 app 用三年了我還第一次這樣無奈
+14:33 -!- j5a6s7o8n [8c768f27@gateway/web/freenode/ip.140.118.143.39] has quit [Ping timeout: 252 seconds]
+14:33 < COSCUP_bridge_bo> <DennyHuang>: (superbil: COSCU...) 修好了
+14:33 < COSCUP_bridge_bo> <Haraguroicha>: 然後剛剛有丹丹小精靈修好了資料，請重試
+14:33 < COSCUP_bridge_bo> <superbil>: 剛試可以用了 感謝
+14:34 < COSCUP_bridge_bo> <GG>: 那個...我有答應會把火焰圖那場 talk 的投影片放上來 不過我的 4G 網路不曉得為什麼無法上傳到SlideShare 一直失敗 晚點回家我再試試看 不好意思 希望跟我要投影片的那位聽眾有看到RRRRR
+14:35 -!- pichu [~pichu@v157-7-236-149.z1d7.static.cnode.jp] has quit [Quit: Lost terminal]
+14:40 < COSCUP_bridge_bo> <ijliao>: 竟然沒 open source \_/
+14:40 < licson_l3> \_/
+14:42 < COSCUP_bridge_bo> <pennyken>: (GG: 那個......) 你地理位置在哪，可以幫你找到網路
+14:46 < COSCUP_bridge_bo> <tonyhhyip>: https://i.imgur.com/5CaNuJU.jpg
+14:46 < COSCUP_bridge_bo> <tonyhhyip>: 503 只有3 個聽眾
+14:48 < COSCUP_bridge_bo> <seketika>: https://i.imgur.com/4YHRQyt.jpg
+14:48 < COSCUP_bridge_bo> <seketika>: 306
+14:49 < COSCUP_bridge_bo> <lucian_chen>: (ijliao: 401 這...) 那場我想問能夠用在高頻交易的應用上嗎？
+14:50 < COSCUP_bridge_bo> <Sheng-Kai>: 502滿 還有人坐地上
+14:51 < COSCUP_bridge_bo> <yoyo930021>: (Reply to S_ean) 更新後就有了 昨晚修了
+14:56 < COSCUP_bridge_bo> <barneybook>: https://wordpress.lokidea.com/blog/1764/ 持續宣傳！！！
+14:56 < COSCUP_bridge_bo> [Title] Telegram 資訊相關 群組清單 – 這世上 沒有偶然 只有必然
+14:58 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+14:59 < COSCUP_bridge_bo> <yoga1130>: [公告] 拾獲一把螢光綠的傘在 IB-101，可以到一樓服務台領取！
+15:02 < COSCUP_bridge_bo> <barneybook>: 話說官網看不到共筆的連結嗎？？
+15:03 < COSCUP_bridge_bo> <Inndy>: 502 塞爆了，不愧是蒼時大大 <(_ _)>
+15:04 < COSCUP_bridge_bo> <toppy368>: 我在501QQ
+15:04 < COSCUP_bridge_bo> <yoga1130>: 首頁沒有共筆入口，但是該議程簡介底下會有該議程共筆連結。
+15:05 < COSCUP_bridge_bo> <wayne1221>: https://paste.ee/r/XDYPB
+15:07 < COSCUP_bridge_bo> <Carp_Lee>: @yckao 歐洲人
+15:07 < COSCUP_bridge_bo> <allen0099>: (wayne1221: 【打卡活動...) @yckao
+15:07 < COSCUP_bridge_bo> <babogoos>: Twitter 居然wwww
+15:07 < COSCUP_bridge_bo> <Inndy>: @yckao 歐洲人
+15:08 -!- j5a6s7o8n_ [8c768f27@gateway/web/freenode/ip.140.118.143.39] has quit [Ping timeout: 252 seconds]
+15:08 < COSCUP_bridge_bo> <PingNote>: 恭喜 wwwwwww
+15:08 < COSCUP_bridge_bo> <Haraguroicha>: Kai O Zhang 看起來很大眼的感覺
+15:08 < COSCUP_bridge_bo> <babogoos>: (Haraguroicha: Kai O...) 你確定？
+15:08 < COSCUP_bridge_bo> <Inndy>: 大眼在我隔壁
+15:09 < COSCUP_bridge_bo> <Haraguroicha>: (Inndy: 大眼在我隔...) 所以是他嗎xDDDD
+15:09 < COSCUP_bridge_bo> <babogoos>: (Haraguroicha: 所以是他嗎...) 就算是Neo 也是我去領啊 🤣
+15:09 < COSCUP_bridge_bo> <Haraguroicha>: (babogoos: 就算是Ne...) 但是 Neo 沒來吧😂
+15:11 < COSCUP_bridge_bo> <Inndy>: [502] 可是如果你每次都產生一個新的 PRNG object，又不給 seed，抽卡程式碼看起來沒錯也會抽不到
+15:11 < COSCUP_bridge_bo> <Inndy>: 或是 random seed 用了某些不夠亂的東西也會產生 bias 導致抽不到
+15:12 < COSCUP_bridge_bo> <Inndy>: QQ
+15:13 -!- SakiTW [7a743c97@gateway/web/cgi-irc/kiwiirc.com/ip.122.116.60.151] has joined #coscup
+15:20 < COSCUP_bridge_bo> <bobchao>: (HsiaoTing: [306]...) 賀 XD...
+15:21 < COSCUP_bridge_bo> <HsiaoTing>: 感謝主
+15:23 < COSCUP_bridge_bo> <chihchun>: (Reply to tonyhhyip) 這麼精彩沒有人聽，是族群打錯了吧…
+15:23 < COSCUP_bridge_bo> <aki02>: 看不懂介紹在寫什麼
+15:23 < COSCUP_bridge_bo> <Inndy>: 大家比較喜歡遊戲... XD
+15:25 -!- Denir [~AndChat99@1.200.214.216] has quit [Remote host closed the connection]
+15:27 < COSCUP_bridge_bo> <bobchao>: (GG: 那個......) 可以寄給 program@coscup.org (事實上，我之後會寫信給各位講者問投影片 😉
+15:30 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Quit: mp607_]
+15:31 < COSCUP_bridge_bo> <bobchao>: (chihchun: 這麼精彩沒...) humm 或許之後他們可以自己 announce 決定不限制入場那類，招募對的族群 😕 有點可惜
+15:34 < COSCUP_bridge_bo> <nfsnfschen>: (ijliao: 401 這...) 居然，哪一個啊
+15:38 < COSCUP_bridge_bo> <linroex>: https://i.imgur.com/ZrrRiU6.jpg
+15:38 < COSCUP_bridge_bo> <aweimeow>: (Reply to linroex) sosad QQQQQ
+15:38 < COSCUP_bridge_bo> <linroex>: 得獎者公佈囉，我應該會在攤位待10分鐘就離開了～ 有想現場領獎的可以來找我
+15:38 -!- Denir [~AndChat99@1.200.214.216] has joined #coscup
+15:39 < COSCUP_bridge_bo> <Irvin>: (Reply to linroex) 寶寶 是啥啊？
+15:39 < COSCUP_bridge_bo> <linroex>: 玩偶XD
+15:39 < COSCUP_bridge_bo> <linroex>: 17寶寶的玩偶
+15:40 < COSCUP_bridge_bo> <linroex>: 還是你想問寶寶本來到底是什麼XD
+15:40 < COSCUP_bridge_bo> <aweimeow>: 寶寶當然是指小寶寶阿 不然呢（X）
+15:43 < COSCUP_bridge_bo> <Irvin>: (aweimeow: 寶寶當然是...) 恭喜 @pennyken
+15:43 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+15:43 < COSCUP_bridge_bo> <aweimeow>: (Reply to linroex) 對了 再不是在
+15:44 < COSCUP_bridge_bo> <madarame>: 是噴泥
+15:44 < COSCUP_bridge_bo> <pennyken>: 運氣好XS
+15:44 < COSCUP_bridge_bo> <Irvin>: 升格為孩子的爸
+15:44 < COSCUP_bridge_bo> <cronobow>: (GG: 那個......) 收到😃😃
+16:09 -!- Rainny [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+16:11 -!- Rainny [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has joined #coscup
+16:20 -!- Rainny [3cfb9110@gateway/web/freenode/ip.60.251.145.16] has quit [Ping timeout: 252 seconds]
+16:20 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Quit: mp607_]
+16:22 < COSCUP_bridge_bo> <yoga1130>: [公告]如果有遺失物，請盡快前往服務台洽詢。
+16:23 < COSCUP_bridge_bo> <flandrekawaii>: https://i.imgur.com/OQKYHpq.jpg
+16:26 -!- j5a6s7o8n [8c768f27@gateway/web/freenode/ip.140.118.143.39] has joined #coscup
+16:28 -!- j5a6s7o8n [8c768f27@gateway/web/freenode/ip.140.118.143.39] has quit [Client Quit]
+16:29 < COSCUP_bridge_bo> <flandrekawaii>: 佔位者回歸
+16:29 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has joined #coscup
+16:32 < COSCUP_bridge_bo> <GDHFang>: 佔位者不可恥     是超可恥 (怒
+16:33 < COSCUP_bridge_bo> <GamerGary_TW>: 祈禱佔位者寫code變bug
+16:36 < COSCUP_bridge_bo> <OtomeSound>: 檢舉佔位者沒有開源座位(?
+16:38 < COSCUP_bridge_bo> <littlegoodjack>: 雖然快結束了 不過還是問一下 是只有我 還是 Chrome Android 版開共筆會有問題？
+16:38 < COSCUP_bridge_bo> <flandrekawaii>: 上面有說不是沒有實作 我試著當"沒有人"拋磚引玉 看看有沒有更好的解法
+16:40 -!- j5a6s7o8n [8c768f27@gateway/web/freenode/ip.140.118.143.39] has joined #coscup
+16:40 < COSCUP_bridge_bo> <flandrekawaii>: 或許可以開個檢舉 channel or format，notify各個軌的主持人
+16:40 < COSCUP_bridge_bo> <ytshih>: (littlegoodjack: 雖然快結束...) 電腦版網站打勾就可以了
+16:42 < COSCUP_bridge_bo> <knowlet>: https://i.imgur.com/KjktNsn.jpg
+16:42 < COSCUP_bridge_bo> <knowlet>: (Reply to knowlet) 原來是 pycon 阿
+16:45 -!- kester___ [uid34598@gateway/web/irccloud.com/x-yavxthjtjanoyobw] has quit [Quit: Connection closed for inactivity]
+16:45 < COSCUP_bridge_bo> <yoyo930021>: (Reply to knowlet) 沒更新 抓到 已經修復了
+16:46 < COSCUP_bridge_bo> <daisuke1230>: 感謝各位兩日下來的支持與肯定（？） 只有一罐是我自己喝ㄉwwww https://i.imgur.com/dD4Tdsr.jpg
+16:46 < COSCUP_bridge_bo> <yoga1130>: ［公告］如果有遺失背包、手機、身分證、手錶，請到一樓門口找志工認領。
+16:47 -!- j5a6s7o8n [8c768f27@gateway/web/freenode/ip.140.118.143.39] has quit [Quit: Page closed]
+16:52 < COSCUP_bridge_bo> <tai271828>: 請問 closing 那個即時文字雲怎麼弄的 @@??
+16:52 < COSCUP_bridge_bo> <tai271828>: 好酷
+16:52 < COSCUP_bridge_bo> <abev66>: mentimeter
+16:53 < COSCUP_bridge_bo> <joekaojoekao>: www.menti.com
+16:55 < COSCUP_bridge_bo> <barneybook>: https://www.mentimeter.com/
+16:55 < COSCUP_bridge_bo> [Title] Interactive presentation software - Mentimeter
+16:55 < COSCUP_bridge_bo> <chusiang>: 時間過得好快！COSCUP 2018 就快結束了。:(
+16:56 < COSCUP_bridge_bo> <abev66>: 滿滿收穫的兩天 :)
+16:59 < COSCUP_bridge_bo> <u10313335>: 貢獻太少，覺得沒資格申請啊 :(
+16:59 < COSCUP_bridge_bo> <babogoos>: https://docs.google.com/forms/d/e/1FAIpQLSem0ZoyvhJ8zRAY5GTPY2vnYwyw4yTQ6vAit_eNMUlnw2enVg/viewform?c=0&w=1
+17:00 < COSCUP_bridge_bo> [Title] COSCUP 2018 openSUSE.Asia  GNOME.Asia
+17:00 < COSCUP_bridge_bo> <s5048218>: https://i.imgur.com/27pYqdN.jpg
+17:00 < COSCUP_bridge_bo> <bobchao>: (u10313335: 貢獻太少，...) 不用擔心啊就先申請 （或者，就開始貢獻）
+17:00 < COSCUP_bridge_bo> <wayne1221>: https://paste.ee/r/B1hgz
+17:00 < COSCUP_bridge_bo> <barneybook>: (u10313335: 貢獻太少，...) 那就一起努力吧！！（推坑
+17:01 < COSCUP_bridge_bo> <flandrekawaii>: 十幾二十顆星星的專案就可以申請到了
+17:01 < COSCUP_bridge_bo> <flandrekawaii>: 這樣有沒有信心大增www
+17:02 < COSCUP_bridge_bo> <CloudHack16>: 慢慢唸清楚還會比較快 XD
+17:02 < COSCUP_bridge_bo> <abev66>: 今年記錄組好多人
+17:03 < COSCUP_bridge_bo> <OtomeSound>: 我去把我有叉子的專案轉開源好了(思
+17:04 -!- mp607_ [~mp607@36-239-211-26.dynamic-ip.hinet.net] has quit [Quit: mp607_]
+17:05 < COSCUP_bridge_bo> <barneybook>: (barneybook: https...) 推
+17:06 < COSCUP_bridge_bo> <barneybook>: (barneybook: 推) https://wordpress.lokidea.com/blog/1764/ 持續宣傳！！！
+17:06 < COSCUP_bridge_bo> [Title] Telegram 資訊相關 群組清單 – 這世上 沒有偶然 只有必然
+17:29 < COSCUP_bridge_bo> <u10313335>: (flandrekawaii: 十幾二十顆...) 我只有幾個 PR，自己的專案掛零QQ
+17:31 -!- Denir [~AndChat99@1.200.214.216] has quit [Remote host closed the connection]
+17:32 < COSCUP_bridge_bo> <yan12125>: 印象中不一定是要coding 參與推廣open source也可以
+17:37 < COSCUP_bridge_bo> <NightFeather>: 去丟 PR 也有機會中 (今年只有丟一兩個翻譯 PR 的
+17:43 < COSCUP_bridge_bo> <Locy69>: (abev66: 今年記錄組...) 據說跟去年一樣多
+17:43 < COSCUP_bridge_bo> <davy_0xff>: (chusiang: 時間過得好...) 真的 2018 要過完了
+17:44 < COSCUP_bridge_bo> <abev66>: (Locy69: 據說跟去年...) 真的嗎！！？
+17:45 < COSCUP_bridge_bo> <yoyo930021>: (Locy69: 據說跟去年...) 然後今年有 14 軌 不幫他們 QQ 嗎？
+17:46 < COSCUP_bridge_bo> <chusiang>: 是真的跟去年一樣多，不是「據說」。
+17:46 < COSCUP_bridge_bo> <Locy69>: (yoyo930021: 然後今年有...) qq 一直看到人在狂奔
+17:46 < COSCUP_bridge_bo> <daisuke1230>: (yoyo930021: 然後今年有...) 每場只能一個人
+17:48 < COSCUP_bridge_bo> <sddivid>: 忘記是誰問的ＸＤ歡迎跳坑 https://docs.google.com/forms/d/e/1FAIpQLSf69xk7CKSnti42rkaijp0zWFxesbWoJUoMvof5A9NPwl2zLw/viewform
+17:48 < COSCUP_bridge_bo> [Title] MOPCON 2018 場務組 志工招募
+17:49 < COSCUP_bridge_bo> <cocox33x>: 感謝剛剛拿了一堆手冊的朋友們
+17:49 < COSCUP_bridge_bo> <daisuke1230>: (daisuke1230: 每場只能一...) 然後總共好像有200場議程(？)
+17:49 < COSCUP_bridge_bo> <sddivid>: 原來手冊可以拿…QQ
+17:52 -!- licson_l3 [~replybot@103.105.50.165] has quit [Remote host closed the connection]
+17:53 -!- licson_l [~replybot@103.105.50.165] has joined #coscup
+17:56 < COSCUP_bridge_bo> <davihuan>: 記錄組今年悲劇呀！
+18:01 -!- Benyi [~benyi@123.241.170.131] has joined #coscup
+18:02 < COSCUP_bridge_bo> <daisuke1230>: (davihuan: 記錄組今年...) https://i.imgur.com/O2CPbel.jpg
+18:02 < COSCUP_bridge_bo> <davihuan>: (Reply to daisuke1230) 我知道
+18:05 -!- Benyi [~benyi@123.241.170.131] has quit [Ping timeout: 272 seconds]
+18:10 < COSCUP_bridge_bo> <Haraguroicha>: 聽說我是場外非專業記錄組 (？
+18:12 -!- ETBlue [uid12330@gateway/web/irccloud.com/x-wvmuvzrszdhgxcdp] has quit [Quit: Connection closed for inactivity]
+18:15 < COSCUP_bridge_bo> <Locy69>: (Reply to daisuke1230) CYJ 超強！只有三場休息
+18:17 < r2tw> 辛苦了orz
+18:19 < COSCUP_bridge_bo> <daisuke1230>: (Haraguroicha: 聽說我是場...) xDD
+18:26 < COSCUP_bridge_bo> <Haraguroicha>: (Locy69: CYJ 超...) 🍴 https://i.imgur.com/kQJC9M3.png
+18:47 < COSCUP_bridge_bo> <OtomeSound>: 我是那位被塞三本手冊的(包包差點爆掉
+19:06 < COSCUP_bridge_bo> <GamerGary_TW>: 😀 https://i.imgur.com/6WQTrCE.png
+19:06 < COSCUP_bridge_bo> <GamerGary_TW>: 覺得這次手冊很實用
+19:24 < COSCUP_bridge_bo> <sufuf3>: (flandrekawaii: 十幾二十顆...) 真的嗎？ 那歡迎從 TGmeetup 這個簡單的小專案開始 (推坑 有詳細的貢獻指南唷: https://github.com/TGmeetup/TGmeetup/blob/master/documents/CONTRIBUTING_zh-tw.md
+19:24 < COSCUP_bridge_bo> [Title] TGmeetup/CONTRIBUTING_zh-tw.md at master · TGmeetup/TGmeetup · GitHub
+19:24 < COSCUP_bridge_bo> <flandrekawaii>: (sufuf3: 真的嗎？...) 絕對是真的，因為我就是w
+19:25 < COSCUP_bridge_bo> <sufuf3>: 太厲害啦~
+19:26 < COSCUP_bridge_bo> <davy_0xff>: (sufuf3: 真的嗎？...) 真的，就算沒有星星，幫忙推廣開源文化並且有紀錄可循就可以（例如拍照
+19:27 < COSCUP_bridge_bo> <aweimeow>: (davy_0xff: 真的，就算...) +1 以往我也都是這樣申請的 不要害怕申請就對了～～
+19:29 < COSCUP_bridge_bo> <sufuf3>: 這實在是太立志了~
+19:32 < COSCUP_bridge_bo> <felixonmars>: 我这次拿了好多东西，行李被塞爆，刚刚在机场被强制托运了😂
+19:54 < COSCUP_bridge_bo> <Kuo-Le>: 請問有人在會場收拾拿到紅色摺疊傘嗎 ... 好像遺漏在會場了 😓
+20:07 < COSCUP_bridge_bo> <daisuke1230>: 最終型態(？)
+20:07 < COSCUP_bridge_bo> <daisuke1230>: https://i.imgur.com/cSqFdPx.jpg
+20:42 < COSCUP_bridge_bo> <bobchao>: (felixonmars: 我这次拿了...) XDD.... 賀（物理上的）滿載而歸
+20:42 < COSCUP_bridge_bo> <felixonmars>: 😆😆
+20:47 -!- Benyi [~benyi@123.241.170.131] has joined #coscup
+20:51 < COSCUP_bridge_bo> <how8570>: IB202 的直播是不是沒關到
+20:52 < COSCUP_bridge_bo> <how8570>: https://www.youtube.com/watch?v=2lU931-sSeY 怎麼還活著ww
+20:52 < COSCUP_bridge_bo> [Title] COSCUP x GNOME.Asia x openSUSE.Asia 2018 Day2 IB202 議程直播 Live broadcast - YouTube
+20:58 < COSCUP_bridge_bo> <AnnieHsieh>: https://paste.ee/r/VyREw
+21:00 -!- Benyi [~benyi@123.241.170.131] has quit []
+21:14 < COSCUP_bridge_bo> <Carp_Lee>: 👼 https://i.imgur.com/JCShPng.png
+21:15 < COSCUP_bridge_bo> <Kurohuang>: 😂 https://i.imgur.com/VoG34QI.png
+21:16 < COSCUP_bridge_bo> <madarame>: 😂 https://i.imgur.com/sIdm0lX.png
+21:47 < COSCUP_bridge_bo> <s5048218>: 😂 https://i.imgur.com/68BFQ8o.png
+21:47 < COSCUP_bridge_bo> <s5048218>: 哇 連 @JoeHung 都有貼塗了XDDDDD
+21:50 < COSCUP_bridge_bo> <JoeHung>: (s5048218: 哇 連 @...) 這是去年 SITCON Camp ㄉQQ
+21:50 < COSCUP_bridge_bo> <s5048218>: 我知道
+21:52 < COSCUP_bridge_bo> <s5048218>: (how8570: https...) 五個串流都還在直播中 XD
+22:00 < COSCUP_bridge_bo> <Gary>: (pennyken: 你地理位置...) 現在才看到你的回覆，來不及了 😆 anyway 感謝~
+22:01 < COSCUP_bridge_bo> <caasih>: (s5048218: 五個串流都...) 等等會上演總召洗澡秀嗎😂
+22:02 < COSCUP_bridge_bo> <Gary>: (bobchao: 可以寄給...) 那我之後再一起讓你統一收件好了，這樣你應該比較好處理 3Q~~
+22:03 < COSCUP_bridge_bo> <daisuke1230>: (how8570: https...) 感謝回報xDDD
+22:06 < COSCUP_bridge_bo> <davy_0xff>: (daisuke1230: 感謝回報x...) 可惜，看不到洗澡秀惹
+22:06 < COSCUP_bridge_bo> <yanyiyi>: 我也想看總召洗澡
+22:06 < COSCUP_bridge_bo> <daisuke1230>: 就算沒關也不會有洗澡秀(#
+22:08 < COSCUP_bridge_bo> <IDontKnowButIm>: 這時間能看到 應該是蠻恐怖的一件事吧?
+22:09 < COSCUP_bridge_bo> <Yuy_Heero>: 😃 https://i.imgur.com/G12bfIT.png
+22:10 < COSCUP_bridge_bo> <how8570>: 原來是洗澡秀嗎ww 我也想看(X
+22:10 < COSCUP_bridge_bo> <othree>: 深夜隱藏議程
+22:10 < COSCUP_bridge_bo> <David_C927>: 洗澡秀，超想看。
+22:11 < COSCUP_bridge_bo> <David_C927>: 明明農曆七月結果還有直播可能是有鬼吧(逃
+22:14 < COSCUP_bridge_bo> <toppy368>: (s5048218: 五個串流都...) 我們應該早就拆機了！
+22:15 < COSCUP_bridge_bo> <David_C927>: 既然拆了，那為什麼YT直播介面還是開著。
+22:16 < COSCUP_bridge_bo> <s5048218>: (toppy368: 我們應該早...) YouTube 那邊要停啦，我記得它是不管有沒有訊號的
+22:17 < COSCUP_bridge_bo> <Bilthe>: 我不敢點開，怕有畫面🙈
+22:18 < COSCUP_bridge_bo> <s5048218>: (s5048218: YouTu...) 因為只有 OBS 停止送訊號，YouTube 那邊還是會繼續開著，如果又有送訊號就會接續直播，所以一定要從 YouTube 那邊停止
+22:20 < COSCUP_bridge_bo> <David_C927>: 要是不停的話是GHOSTCUP，農曆七月午夜限定。免搶票想看要有心裡準備(逃)
+22:21 < COSCUP_bridge_bo> <toppy368>: (David_C927: 要是不停的...) 深夜直播研討會
+22:34 < COSCUP_bridge_bo> <babogoos>: (David_C927: 要是不停的...) 午夜場 (誤
+22:37 < COSCUP_bridge_bo> <GamerGary_TW>: (David_C927: 要是不停的...) 聽起來很嗨森🤔
+23:42 < COSCUP_bridge_bo> <daisuke1230>: 話說借問個有非官方的閉幕直播或錄影嗎XDD 自己沒看到，直播暫時下架ㄌ  還有今天有拍到我到處要貼紙的也可以給我照片哈哈哈
+23:42 < COSCUP_bridge_bo> <pennyken>: 沒有
+23:43 < COSCUP_bridge_bo> <pennyken>: 早知道我的DV一直在包包
+23:43 < COSCUP_bridge_bo> <pennyken>: 自己錄影
+23:43 < COSCUP_bridge_bo> <pennyken>: 忙死了
+23:44 < COSCUP_bridge_bo> <daisuke1230>: 哈哈哈
+23:45 < COSCUP_bridge_bo> <davihuan>: 如果直撥可以外包給鬼燈的話應該效果會不錯
+23:46 < COSCUP_bridge_bo> <daisuke1230>: ?
+23:47 < COSCUP_bridge_bo> <davihuan>: https://zh.m.wikipedia.org/zh-tw/鬼燈的冷徹
+23:47 < COSCUP_bridge_bo> [Title] 鬼燈的冷徹 - 維基百科，自由的百科全書
+00:10 < COSCUP_bridge_bo> <caasih>: 這部超好笑😂
+00:14 < COSCUP_bridge_bo> <davihuan>: 嗯，地獄版的銀魂
+00:37 < COSCUP_bridge_bo> <David_C927>: 巴哈動漫瘋有這部可以看，只是一期第一話的ED惹到H牌出碟就被改掉。要的話可以找原本日本電視播出版本。剩下不必多說了
+00:39 < COSCUP_bridge_bo> <David_C927>: H牌: 賣冷氣冰箱有名的那間，有棵樹象徵的主題曲
+00:41 < COSCUP_bridge_bo> <nfsnfschen>: (caasih: 等等會上演...) 可能會很噁心
+01:06 < COSCUP_bridge_bo> <davihuan>: (David_C927: 巴哈動漫瘋...) 😮 https://i.imgur.com/aVCamBW.png
+01:26 < SakiTW> 咦
+01:38 < COSCUP_bridge_bo> <Saki>: 現在才發現兩邊都有 BOT～
+02:00 < COSCUP_bridge_bo> <GamerGary_TW>: (David_C927: H牌: 賣...) 壓縮機非常稀少的那個嗎
+02:15 < COSCUP_bridge_bo> <davihuan>: (GamerGary_TW: 壓縮機非常...) 很稀少沒錯
+05:15 < COSCUP_bridge_bo> <caasih>: (nfsnfschen: 可能會很噁...) 總召大大出現了😂
+10:26 < COSCUP_bridge_bo> <chusiang>: (sufuf3: 這實在是太...) 我今年是拿之前參加 IT 鐵人賽的文章，申請 #開源貢獻者 票的。:P
+13:02 < COSCUP_bridge_bo> <toppy368>: (caasih: 等等會上演...) 額…我們晚餐時談鏡頭蓋還真的談到這問題
+14:13 -!- s8321414 [~s8321414@185.144.162.90] has joined #coscup
+14:40 < COSCUP_bridge_bo> <fieliapm>: (nfsnfschen: 可能會很噁...) 大大我想看你洗澡(?
+14:42 < COSCUP_bridge_bo> <Haraguroicha>: (fieliapm: 大大我想看...) https://i.imgur.com/CxuCBKP.jpg
+14:47 < COSCUP_bridge_bo> <davihuan>: (Reply to Haraguroicha) 👍 https://i.imgur.com/ALbWUuF.png
+14:48 < COSCUP_bridge_bo> <Haraguroicha>: (Reply to Haraguroicha) 這是 D0 的 Welcome Party 拍的wwww
+14:53 < COSCUP_bridge_bo> <nfsnfschen>: (fieliapm: 大大我想看...) ...
+14:57 < COSCUP_bridge_bo> <Anfauglir>: (fieliapm: 大大我想看...) ☀ https://i.imgur.com/pPNz3c5.png
+15:01 < COSCUP_bridge_bo> <davihuan>: (Reply to Anfauglir) 😉 https://i.imgur.com/8JJu55K.png
+15:02 < COSCUP_bridge_bo> <Haraguroicha>: 所以到底是 長老×NFS 還是 NFS×長老 呢？ ((問題發言注意
+15:03 < COSCUP_bridge_bo> <yanyiyi>: (Haraguroicha: 所以到底是...) 兩本，都出就可以賺兩倍的錢。（行銷組
+15:03 < COSCUP_bridge_bo> <Anfauglir>: (Haraguroicha: 所以到底是...) 我覺得可以加一隻 @medicalwei ，他總受
+15:03 < COSCUP_bridge_bo> <yanyiyi>: (Anfauglir: 我覺得可以...) 這樣排列組合更多了，可以賺更多（誒）
+15:03 < COSCUP_bridge_bo> <Haraguroicha>: (yanyiyi: 兩本，都出...) 果然很有商人頭腦
+15:03 < COSCUP_bridge_bo> <Anfauglir>: 😵 https://i.imgur.com/VXiKCJg.png
+15:03 < COSCUP_bridge_bo> <Haraguroicha>: (Anfauglir: 我覺得可以...) 🤔 https://i.imgur.com/ZNGF4fl.png
+15:04 < COSCUP_bridge_bo> <Haraguroicha>: 這樣混搭應該可以出九本 ((欸不對
+15:04 < SakiTW> 看，都看
+15:04 < SakiTW> 有洗澡就看
+15:04 < COSCUP_bridge_bo> <Haraguroicha>: 居然 IRC 還活者xDDDDD
+15:04 < COSCUP_bridge_bo> <Saki>: 那就換這邊（？）
+15:08 < COSCUP_bridge_bo> <fieliapm>: 整個歪了...
+15:09 < COSCUP_bridge_bo> <fieliapm>: 😱 https://i.imgur.com/UxjlyoJ.png
+15:11 < COSCUP_bridge_bo> <Haraguroicha>: 所以我很好奇到底是誰掰彎了誰 ((問題發言注意
+15:14 < COSCUP_bridge_bo> <Saki>: 原來CWT跟COSCUP撞期的意義是在暗示我們其實可以互相取經
+15:14 < COSCUP_bridge_bo> <Saki>: (恍然大悟)
+15:14 < COSCUP_bridge_bo> <Haraguroicha>: 😆 https://i.imgur.com/Fjg3mAW.png
+15:15 -!- chihchun_afk is now known as chihchun
+15:16 < COSCUP_bridge_bo> <Anfauglir>: (Saki: 原來CWT...) 去年也是欸… XD
+15:17 < COSCUP_bridge_bo> <nfsnfschen>: (fieliapm: 整個歪了....) 還不是你的奇怪發言
+15:17 < COSCUP_bridge_bo> <Saki>: 所以這已經不是暗示了，是明示
+15:17 < COSCUP_bridge_bo> <Anfauglir>: 從社科院走去新體好遠（不是）
+15:17 < COSCUP_bridge_bo> <nfsnfschen>: (Anfauglir: 去年也是欸...) 我今年選日子的時候原本想避開的，哈哈
+15:18 < COSCUP_bridge_bo> <fieliapm>: (nfsnfschen: 還不是你的...) 我錯了對不起QQ
+15:20 < COSCUP_bridge_bo> <minkenhsu>: 結果好像記者不喜歡動漫的題材 或是做爛了
+15:35 < COSCUP_bridge_bo> <daisuke1230>: (Haraguroicha: 所以我很好...) www
+15:37 < COSCUP_bridge_bo> <Saki>: すべては シュタインズ・ゲートの選択である
+15:38 < COSCUP_bridge_bo> <Anfauglir>: (Saki: すべては...) El psy congroo
+15:40 < COSCUP_bridge_bo> <chuanchan1116>: (Haraguroicha: 這樣混搭應...) 怎麼感覺很有經驗 (?
+15:44 < COSCUP_bridge_bo> <fieliapm>: 這邊CWT常客應該不少（？
+15:44 < COSCUP_bridge_bo> <Anfauglir>: 還好我是FF派的（唔）
+15:45 < COSCUP_bridge_bo> <Anfauglir>: CWT的毛毛比較少
+15:46 -!- chihchun is now known as chihchun_afk
+16:08 -!- s8321414 [~s8321414@185.144.162.90] has quit [Quit: Konversation terminated!]
+16:24 < COSCUP_bridge_bo> <Cakechen>: (Anfauglir: CWT的毛...) 啥
+16:25 < COSCUP_bridge_bo> <Haraguroicha>: (chuanchan1116: 怎麼感覺很...) 對不起，我沒買過本，我下次應該去買的Orz
+16:25 < COSCUP_bridge_bo> <toppy368>: (Reply to Haraguroicha) 恩...我想到可怕的事情，但不知道能不能說
+16:25 < COSCUP_bridge_bo> <toppy368>: 也是保護自己的東西
+16:26 < COSCUP_bridge_bo> <Haraguroicha>: (toppy368: 恩...我...) 我會拍這張照片是有故事的....
+16:26 < COSCUP_bridge_bo> <toppy368>: 我說的事情跟KYC有關
+16:26 < COSCUP_bridge_bo> <Haraguroicha>: 是 @fieliapm 說了某個故事之後，然後又剛好看到就拍了.....xDD
+16:27 < COSCUP_bridge_bo> <toppy368>: 我直接說好了，數位貨幣交易所的KYC程序是需要本人與證件合照
+16:28 < COSCUP_bridge_bo> <toppy368>: 才能知道這證件跟本人是同一個人
+16:28 < COSCUP_bridge_bo> <chuanchan1116>: (Haraguroicha: 對不起，我...) 那你是出過本嗎 (思 (X
+16:28 < COSCUP_bridge_bo> <chuanchan1116>: 還是被出本 (XX
+16:29 < COSCUP_bridge_bo> <toppy368>: (Reply to Haraguroicha) 而我看到這張圖我就覺得，我前幾天看到的KYC資料外洩是真的
+16:29 < COSCUP_bridge_bo> <toppy368>: P2P平台
+16:32 < COSCUP_bridge_bo> <fieliapm>: (Anfauglir: 還好我是F...) 以前還沒FF時也是去CWT,本是同根生(?
+16:33 < COSCUP_bridge_bo> <fieliapm>: "本" (硬要強調)
+16:33 < COSCUP_bridge_bo> <toppy368>: 我好像只去過PF
+16:33 < COSCUP_bridge_bo> <Anfauglir>: 這種的(?)
+16:33 < COSCUP_bridge_bo> <Anfauglir>: (Cakechen: 啥) 😃 https://i.imgur.com/xe3bRS1.png
+16:34 < COSCUP_bridge_bo> <fieliapm>: 對了問個問題,大會的slide有推薦放什麼地方嗎
+16:39 < COSCUP_bridge_bo> <ORdinarycas>: (Reply to Haraguroicha) 話說也有假裸照
+16:40 < COSCUP_bridge_bo> <nfsnfschen>: (fieliapm: 對了問個問...) 你可以寄給 program@coscup.org 不強迫 ~ 然後也可以自己放自己宣傳
+16:40 < COSCUP_bridge_bo> <ORdinarycas>: 上網抓個AV 右邊再放張圖 標題：某某@#%#$^#$
+16:43 -!- chihchun_afk is now known as chihchun
+16:43 < COSCUP_bridge_bo> <fieliapm>: (nfsnfschen: 你可以寄給...) 我是覺得都參加open source了,連投影片都不open source實在說不過去(?
+16:44 < COSCUP_bridge_bo> <nfsnfschen>: 當然是應該 open 一下
+16:44 < COSCUP_bridge_bo> <fieliapm>: 先來寄給議程組好了
+16:47 < COSCUP_bridge_bo> <fei3363>: 請問明年可以COSCUP x CWT 嗎(誤
+16:48 < COSCUP_bridge_bo> <pennyken>: 台大真的容納不了
+16:49 < COSCUP_bridge_bo> <fieliapm>: https://paste.ee/r/sg8Mu
+16:50 < COSCUP_bridge_bo> <lin4h>: (fei3363: 請問明年可...) 沒有交集吧…先不提NTUSC那個容量沒輒這點
+16:51 < COSCUP_bridge_bo> <RSChiang>: (lin4h: 沒有交集吧...) *NTUCoSS (・ω・)ノ
+16:52 < COSCUP_bridge_bo> <sntc06>: 往年都偶而會有人說小巨蛋 (?)
+16:52 < COSCUP_bridge_bo> <fieliapm>: 不過倒是可以弄點"同人社團x創用素材"的討論
+16:53 < COSCUP_bridge_bo> <davihuan>: (fieliapm: 不過倒是可...) COSCUP2019 議程組兼主持人第一位組員出現啦!
+16:53 < COSCUP_bridge_bo> <fieliapm>: 只是建議!!!
+16:54 < COSCUP_bridge_bo> <lin4h>: (sntc06: 往年都偶而...) 叫大家吞票價再來說
+16:54 < COSCUP_bridge_bo> <David_C927>: (Saki: 原來CWT...) 是不是巧合呢？其實上個禮拜日本有C94台灣跟香港有音響展...都是剛好撞期
+16:56 < COSCUP_bridge_bo> <David_C927>: 當然放棄才是最痛恨的時候
+16:56 < COSCUP_bridge_bo> <fieliapm>: 能跟Comike有合作活動就有點厲害了(?
+17:02 < COSCUP_bridge_bo> <GamerGary_TW>: 接下來的comiket改成四天
+17:03 < COSCUP_bridge_bo> <toppy368>: (GamerGary_TW: 接下來的c...) 還好我年底的機票有多訂幾天，但也不見得去得成(望向公司很高機率會炸的專案)
+17:34 < COSCUP_bridge_bo> <jung>: Comiket也是有販賣技術及開源同人誌
+17:35 < COSCUP_bridge_bo> <Haraguroicha>: (fieliapm: 只是建議!...) COSCUP 不就是誰挖坑/開坑，就誰負責填嗎？
+17:36 -!- COSCUP_bridge_bo [~COSCUP_br@163.22.17.176] has quit [Remote host closed the connection]
+17:36 -!- COSCUP_bridge_bo [~COSCUP_br@ip176.puli17.ncnu.edu.tw] has joined #coscup
+17:36 < COSCUP_bridge_bo> <nfsnfschen>: (Haraguroicha: COSCU...) 中肯， @fieliapm 根據我們的交情，你應該要來當坑主
+17:37 < COSCUP_bridge_bo> <fieliapm>: 😱 https://i.imgur.com/RWyCXz9.png
+17:38 < COSCUP_bridge_bo> <Haraguroicha>: (nfsnfschen: 中肯， @...) 這不是中不中肯的問題，因為我自己就在 COSCUP 開過坑也填過坑，不然 COSCUP Pass app 怎來 ((？
+17:38 < COSCUP_bridge_bo> <Haraguroicha>: 說話要負責啊xDDDD
+17:38 < COSCUP_bridge_bo> <pennyken>: 2019第一軌議程出來了
+17:39 < COSCUP_bridge_bo> <Anfauglir>: (fieliapm: 不過倒是可...) 第一軌
+17:39 < COSCUP_bridge_bo> <Haraguroicha>: 原來 COSCUP 2019 創了歷屆最早啟動紀錄！
+17:39 < COSCUP_bridge_bo> <Yueverlasting>: 這軌感覺會滿場OWOb
+17:40 < COSCUP_bridge_bo> <Haraguroicha>: 可能要三個國際會議聽大小了
+17:41 < COSCUP_bridge_bo> <davy_0xff>: 賀！！！ COSCUP 2019 啓動！！！
+17:42 < COSCUP_bridge_bo> <yanyiyi>: 太棒惹
+17:42 < COSCUP_bridge_bo> <GamerGary_TW>: 恭喜 大成功
+17:42 < COSCUP_bridge_bo> <GamerGary_TW>: 🙌 https://i.imgur.com/7IG39tP.png
+17:43 < COSCUP_bridge_bo> <danny8376>: 哇 才2018隔天2019就開始了
+17:43 < COSCUP_bridge_bo> <jung>: 建議人生一定要去一趟comiket
+17:44 < COSCUP_bridge_bo> <davy_0xff>: (danny8376: 哇 才20...) 再來就是要連續兩年的團隊重疊進行惹 提早籌劃
+17:44 < COSCUP_bridge_bo> <Cakechen>: (驚恐
+17:44 < COSCUP_bridge_bo> <pennyken>: DAVY你就可以現在開始修理官網
+17:44 < COSCUP_bridge_bo> <jung>: https://i.imgur.com/xoSc8w0.jpg
+17:44 < COSCUP_bridge_bo> <nfsnfschen>: 會累死
+17:44 < COSCUP_bridge_bo> <davy_0xff>: (pennyken: DAVY你...) XDDDD 你怎麼知道我有修
+17:44 < COSCUP_bridge_bo> <pennyken>: 我有看到啊XD
+17:45 < COSCUP_bridge_bo> <jung>: 這本同人誌是在昨天在攤位取得
+17:45 < COSCUP_bridge_bo> <davy_0xff>: (pennyken: 我有看到啊...) \大家快開始跳 2019 囉/
+17:45 < licson_l> \大家快開始跳 2019 囉/
+17:45 < COSCUP_bridge_bo> <jung>: 原訂在c94發售
+17:45 < COSCUP_bridge_bo> <GamerGary_TW>: (jung: 這本同人誌...) 二樓的 有看到
+17:45 < COSCUP_bridge_bo> <Cakechen>: (GamerGary_TW: 二樓的 有...) 這位 Gary 是我知道的 Gary 嘛(??
+17:46 < COSCUP_bridge_bo> <davy_0xff>: (Cakechen: 這位 Ga...) 看成 Gay 以為是歧視言論wwwww
+17:46 < COSCUP_bridge_bo> <GamerGary_TW>: (Cakechen: 這位 Ga...) 我想應該不是...嗎XDDD
+17:46 < COSCUP_bridge_bo> <jung>: 可以評估在c95/c96擺攤
+17:47 < COSCUP_bridge_bo> <Yueverlasting>: (davy_0xff: \大家快開...) 此發言令人害怕
+17:47 < COSCUP_bridge_bo> <jung>: 社團入場劵可以賣出用來籌措經費
+17:48 < COSCUP_bridge_bo> <othree>: 🐼 https://i.imgur.com/kpuzLe4.png
+17:52 < COSCUP_bridge_bo> <davihuan>: (Reply to fieliapm) 你不懂 COSCUP
+17:54 < COSCUP_bridge_bo> <davihuan>: 你以為線路組搞這麼久為什麼還在搞的原因就是坑填不滿呀!
+17:55 < COSCUP_bridge_bo> <Haraguroicha>: (davihuan: 你以為線路...) 你已經線路組十年了
+17:55 < COSCUP_bridge_bo> <Haraguroicha>: 是不是明年該... (ry
+17:57 < COSCUP_bridge_bo> <medicalwei>: (Anfauglir: 我覺得可以...) 😠 https://i.imgur.com/D4EHcgM.png
+17:58 < COSCUP_bridge_bo> <davihuan>: (Haraguroicha: 是不是明年...) 不懂?
+18:02 < COSCUP_bridge_bo> <Haraguroicha>: 十年革命？
+18:04 < COSCUP_bridge_bo> <Anfauglir>: (Reply to medicalwei) 嗨貓咪
+18:05 < COSCUP_bridge_bo> <davihuan>: 唷！  我沒有感覺，我是和尚敲鐘型的人，該怎樣就怎樣，做這種事情沒得賺錢還要貼錢的，難道還要貼錢辦感謝祭嗎？設備庫存一個月房租也要 3000 元呀！公司這邊如果有得喘氣的話我要去接案呀！
+18:05 < COSCUP_bridge_bo> <pennyken>: 這次線路組要謝謝david幫忙調配物資
+18:05 < COSCUP_bridge_bo> <pennyken>: 還兼整理
+18:06 < COSCUP_bridge_bo> <pennyken>: 跪謝
+18:06 < COSCUP_bridge_bo> <davihuan>: 跪什麼 @@ 我要錢買設備呀呀呀呀呀呀呀！
+18:09 < COSCUP_bridge_bo> <GaryJiang>: (davy_0xff: \大家快開...) 司機發車囉
+18:35 -!- chihchun is now known as chihchun_afk
+18:35 < COSCUP_bridge_bo> <Cakechen>: (davihuan: 跪什麼 @...) （跪
+18:37 < COSCUP_bridge_bo> <Haraguroicha>: 聽說我 COSCUP 2013 買了一台 Dell PC 就只是為了線路組用途而用，然後只有用兩年之後就變成我自己的 VM 主機了xDDDD ((因為有人提供更好方案了
+18:40 < COSCUP_bridge_bo> <toppy368>: (Reply to jung) 我原本2017去東京在秋葉原原本是想看這本的
+18:40 < COSCUP_bridge_bo> <toppy368>: 可惜後來沒找到]
+18:41 < COSCUP_bridge_bo> <GDHFang>: (davihuan: 跪什麼 @...) 謝大人慷慨赴義捨身為人(?
+18:42 < COSCUP_bridge_bo> <toppy368>: (Anfauglir: 第一軌) 開幕式 ? XDD
+18:42 < COSCUP_bridge_bo> <ptc0219>: (Haraguroicha: 聽說我 C...) 😂 https://i.imgur.com/RGCZ5R5.png
+18:50 < COSCUP_bridge_bo> <toppy368>: (Haraguroicha: COSCU...) ⚠ https://i.imgur.com/yniXCiN.png
+18:50 < COSCUP_bridge_bo> <Haraguroicha>: (Reply to toppy368) 對吼，我忘了 SITCON 也有繼承這個傳統
+20:58 < COSCUP_bridge_bo> <davihuan>: (GDHFang: 謝大人慷慨...) 其實也是有人不開心的。
+21:40 < COSCUP_bridge_bo> <MGdesigner>: (fieliapm: 不過倒是可...) 恭賀，新坑主誕生，已發表政見 :-P
+21:41 < COSCUP_bridge_bo> <Saki>: 要出好本子，要先有好 CP
+21:43 < COSCUP_bridge_bo> <MGdesigner>: @saki 我出過本子呢，用全oss 做的
+21:51 < COSCUP_bridge_bo> <alchotw>: 這本我今天才從日本的openSUSE 夥伴那邊聽到說也是整本 OSS
+21:51 < COSCUP_bridge_bo> <alchotw>: https://i.imgur.com/LHVuwRR.jpg
+22:07 < COSCUP_bridge_bo> <Haraguroicha>: (Saki: 要出好本子...) 所以我上面才在討論到底是 長老×NFS 還是 NFS×長老 啊wwwww
+22:11 < COSCUP_bridge_bo> <fieliapm>: 怎麼歪成這樣
+22:13 < COSCUP_bridge_bo> <Haraguroicha>: (fieliapm: 怎麼歪成這...) 呃⋯⋯⋯這是長老您開的場
+22:16 < COSCUP_bridge_bo> <chuanchan1116>: (Haraguroicha: 所以我上面...) 你怎麼好像很期待…？
+22:18 < COSCUP_bridge_bo> <Haraguroicha>: (chuanchan1116: 你怎麼好像...) 不是有本都要開心撒花一下嗎
+22:30 < COSCUP_bridge_bo> <fieliapm>: 然後就追撞了黑色高級車
+22:35 < COSCUP_bridge_bo> <aki02>: 對為了保護後輩而擔下全部責任的三浦，車主——暴力團員谷岡所提出的和解條件是...
+22:36 < COSCUP_bridge_bo> <danny8376>: 🌚
+22:53 -!- ChAndrew [~chandrew@wikipedia/Ch-Andrew] has joined #coscup
+22:58 < COSCUP_bridge_bo> <shadowcrow>: 有人遺失這個背帶嗎？
+22:59 < COSCUP_bridge_bo> <shadowcrow>: https://i.imgur.com/LccXGCb.jpg
+22:59 < COSCUP_bridge_bo> <shadowcrow>: 租借設備廠商發現他們袋子裡有這個
+23:03 < COSCUP_bridge_bo> <shadowcrow>: 避免落人口實「不是你的東西請不要占˙為己有」，如果是你的請到 OCF 領取
+23:44 < COSCUP_bridge_bo> <bestpika>: (aki02: 對為了保護...) 怎麼到處都有 XD
+01:18 < COSCUP_bridge_bo> <caasih>: (Reply to toppy368) lol 肉身填坑
+01:40 -!- ccn [~ccn@staff.kkbox.com.tw] has joined #coscup
+01:40 -!- ccn_ [~ccn@staff.kkbox.com.tw] has quit [Read error: Connection reset by peer]
+02:26 -!- s8321414 [~s8321414@185.144.162.90] has joined #coscup
+02:42 -!- ChAndrew [~chandrew@wikipedia/Ch-Andrew] has quit [Quit: Leaving]
+02:43 -!- zjason [~user@36-231-158-206.dynamic-ip.hinet.net] has joined #coscup
+02:44 -!- caa51h [~caasihuan@106.186.125.58] has quit [K-Lined]
+02:45 -!- SakiTW [7a743c97@gateway/web/cgi-irc/kiwiirc.com/ip.122.116.60.151] has quit [Ping timeout: 240 seconds]
+03:08 -!- gslin [~gslin@122-116-104-21.HINET-IP.hinet.net] has quit [Quit: WeeChat 2.2]
+03:25 -!- Netsplit *.net <-> *.split quits: MLChen
+03:31 -!- Netsplit over, joins: MLChen
+03:49 -!- s8321414 [~s8321414@185.144.162.90] has quit [Quit: Konversation terminated!]
