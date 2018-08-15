@@ -68,8 +68,10 @@
 
 ### MOPCON (Mobile Open Platform Conference)
 
-[http://mopcon.org](http://mopcon.org)
+[https://mopcon.org](https://mopcon.org)
 
+- [2017](https://raw.github.com/chusiang/irc_log/master/mopcon/gitter-mopcon-2017.log)
+- [2016](https://raw.github.com/chusiang/irc_log/master/mopcon/gitter-mopcon-2016.log)
 - [2015](https://raw.github.com/chusiang/irc_log/master/mopcon/irc-mopcon-2015.log)
 - [2014](https://raw.github.com/chusiang/irc_log/master/mopcon/irc-mopcon-2014.log)
 - [2013](https://raw.github.com/chusiang/irc_log/master/mopcon/irc-mopcon-2013.log)
