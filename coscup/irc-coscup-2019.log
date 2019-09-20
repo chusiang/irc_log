@@ -1,0 +1,1666 @@
+2019-08-17 00:00:28	COSCUP_bridge_bo	<vincent_cantin>: Thx!
+2019-08-17 00:04:44	-->	ofy (~ofy@2001-b011-fc02-14ac-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net) has joined #coscup
+2019-08-17 00:33:42	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-17 00:35:41	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 00:40:20	<--	ofy (~ofy@2001-b011-fc02-14ac-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net) has quit (Read error: Connection reset by peer)
+2019-08-17 00:40:47	-->	ofy (~ofy@2001-b011-fc02-14ac-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net) has joined #coscup
+2019-08-17 00:43:15	COSCUP_bridge_bo	<chusiang>: @lantw44 今年的 IRC log 就交給您紀錄啦！(繼續潛水趕簡報 …)
+2019-08-17 00:43:47	COSCUP_bridge_bo	<licson>: IRC log 🤔
+2019-08-17 00:45:25	COSCUP_bridge_bo	<MGdesigner>: Hello 大家
+2019-08-17 00:45:54	COSCUP_bridge_bo	<chusiang>: (MGdesigner: Hello...) 我們衝堂了，沒法聽您的分享。(已哭)
+2019-08-17 00:47:13	COSCUP_bridge_bo	<MGdesigner>: (chusiang: 我們衝堂了...) 醬子喔，沒關係啦，到Ubuntu 攤位找我看Musicha 筆電實際成品也開心 :-P
+2019-08-17 00:48:25	COSCUP_bridge_bo	<MGdesigner>: 我以前都只能用2歲借來的測試機，這次終於能為自己買一台自己的產品了XD
+2019-08-17 00:48:38	COSCUP_bridge_bo	<chusiang>: (MGdesigner: 醬子喔，沒...) 好喔，到時再來 Telegram 找人。XD
+2019-08-17 00:48:49	COSCUP_bridge_bo	<MGdesigner>: 明天就用他上陣 ;-)
+2019-08-17 00:51:16	COSCUP_bridge_bo	<chusiang>: 👍 https://i.imgur.com/MAZ9b2u.png
+2019-08-17 00:54:59	lantw44	@chusiang 這是什麼意思，不是有 logbot 嗎？
+2019-08-17 00:55:25	-->	d0gm4n (uid38259@gateway/web/irccloud.com/x-vbmegewcocbsgchd) has joined #coscup
+2019-08-17 00:55:37	COSCUP_bridge_bo	<chusiang>: 哈，我還是會想留一份純文字的版本，就看哪位好心人要接手囉。
+2019-08-17 00:58:31	lantw44	@chusiang 好啊，如果需要我可以提供，但無法保證我的 IRC client 所在網路不會斷線，因為就是個家用網路而已。
+2019-08-17 01:00:12	-->	u10313335_a (uid385842@gateway/web/irccloud.com/x-yfakktzzxkbnenlv) has joined #coscup
+2019-08-17 01:01:00	<--	u10313335_a (uid385842@gateway/web/irccloud.com/x-yfakktzzxkbnenlv) has left #coscup
+2019-08-17 01:12:11	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 258 seconds)
+2019-08-17 01:12:27	COSCUP_bridge_bo	<Sciuridae>: Owo
+2019-08-17 01:13:58	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 01:14:13	COSCUP_bridge_bo	<mrmoneyc>: 我的 irssi 也沒關過就是了XD
+2019-08-17 01:16:06	COSCUP_bridge_bo	<licson>: (lantw44: @chus...) https://mlog.licson.net/channel/coscup/today 對啊 OPass 也是用我的 log
+2019-08-17 01:16:07	COSCUP_bridge_bo	[Title] Log | #coscup
+2019-08-17 01:16:14	<--	Sciuridae (~sciuridae@122-117-253-246.HINET-IP.hinet.net) has quit (Quit: leaving)
+2019-08-17 01:17:13	-->	Sciuridae (~sciuridae@122-117-253-246.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 01:38:07	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 248 seconds)
+2019-08-17 01:40:00	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 01:50:54	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 244 seconds)
+2019-08-17 01:52:50	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 02:17:03	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 248 seconds)
+2019-08-17 02:18:55	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 03:05:08	<--	d0gm4n (uid38259@gateway/web/irccloud.com/x-vbmegewcocbsgchd) has quit (Quit: Connection closed for inactivity)
+2019-08-17 03:25:45	-->	Denir (7a92461a@122.146.70.26) has joined #coscup
+2019-08-17 03:26:07	<--	Denir (7a92461a@122.146.70.26) has left #coscup
+2019-08-17 03:27:11	-->	Denir_ (7a92461a@122.146.70.26) has joined #coscup
+2019-08-17 03:28:33	-->	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 03:29:25	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Client Quit)
+2019-08-17 03:34:11	-->	Denir (~AndChat99@180.217.161.18) has joined #coscup
+2019-08-17 04:07:50	-->	ofy_ (~ofy@61-227-24-184.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 04:10:49	<--	ofy (~ofy@2001-b011-fc02-14ac-25d5-ff7a-f117-b828.dynamic-ip6.hinet.net) has quit (Ping timeout: 250 seconds)
+2019-08-17 04:59:21	--	ofy_ is now known as help
+2019-08-17 04:59:28	--	help is now known as ofy
+2019-08-17 05:27:11	<--	ofy (~ofy@61-227-24-184.dynamic-ip.hinet.net) has quit (Read error: Connection reset by peer)
+2019-08-17 05:27:17	-->	ofy_ (~ofy@1-172-3-61.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 06:01:01	<--	Denir_ (7a92461a@122.146.70.26) has quit (Remote host closed the connection)
+2019-08-17 06:18:55	<--	COSCUP_bridge_bo (~COSCUP_br@ip176.puli17.ncnu.edu.tw) has quit (Remote host closed the connection)
+2019-08-17 06:19:11	-->	COSCUP_bridge_bo (~COSCUP_br@163.22.17.176) has joined #coscup
+2019-08-17 06:24:32	COSCUP_bridge_bo	<pennyken>: https://i.imgur.com/jmABbsk.jpg
+2019-08-17 06:24:36	COSCUP_bridge_bo	<pennyken>: 大家不要忘記補充水分
+2019-08-17 06:37:45	COSCUP_bridge_bo	<canyu>: 👍 https://i.imgur.com/yrFlP8f.png
+2019-08-17 06:39:30	COSCUP_bridge_bo	<Haraguroicha>: https://i.imgur.com/SeGeUxB.jpg
+2019-08-17 08:19:08	--	ofy_ is now known as ofy
+2019-08-17 08:28:45	-->	u10313335_a (uid385842@gateway/web/irccloud.com/x-yfakktzzxkbnenlv) has joined #coscup
+2019-08-17 08:37:15	-->	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has joined #coscup
+2019-08-17 08:39:42	COSCUP_bridge_bo	<NightFeather>: 哇哦
+2019-08-17 08:47:48	<--	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 08:53:32	COSCUP_bridge_bo	<chusiang>: 大家早！(準備吃早餐的凍仁留)
+2019-08-17 08:53:52	COSCUP_bridge_bo	<sunnerli>: 大家早！
+2019-08-17 08:54:04	COSCUP_bridge_bo	<mmis1000>: 早…安？
+2019-08-17 08:54:22	COSCUP_bridge_bo	<fntsrlike>: 早 （正在吃早餐）
+2019-08-17 08:54:36	COSCUP_bridge_bo	<GamerGary>: 早 (忘記吃早餐在苦惱
+2019-08-17 08:54:58	-->	waeting (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 08:55:24	COSCUP_bridge_bo	<mmis1000>: 台科大的會議廳是禁止飲食的嗎？
+2019-08-17 08:55:47	COSCUP_bridge_bo	<CrBoy>: 有些是
+2019-08-17 08:56:21	COSCUP_bridge_bo	<mrmoneyc>: 早.. （我討厭 Jenkins 嗚嗚...
+2019-08-17 08:57:01	COSCUP_bridge_bo	<CrBoy>: (mmis1000: 台科大的會...) 基本上你不確定的地方就不要飲食XD
+2019-08-17 08:57:28	COSCUP_bridge_bo	<Carp_Lee>: 有滾輪椅的都不行
+2019-08-17 09:00:07	COSCUP_bridge_bo	<tigercosmos>: 只有大會議廳不行吃吧
+2019-08-17 09:00:23	COSCUP_bridge_bo	<tigercosmos>: 一般教室就是可以吃 x)
+2019-08-17 09:00:56	COSCUP_bridge_bo	<mmis1000>: 聽起來電腦教室之類的飲食不是好主意
+2019-08-17 09:01:13	COSCUP_bridge_bo	<chuanchan1116>: (mrmoneyc: 早.. （...) 這有什麼關連嗎XD?
+2019-08-17 09:01:15	COSCUP_bridge_bo	<mmis1000>: 不會珍珠奶茶on the 電腦嗎
+2019-08-17 09:02:27	COSCUP_bridge_bo	<mmis1000>: 開始開幕了？
+2019-08-17 09:02:58	COSCUP_bridge_bo	<GamerGary>: 快了
+2019-08-17 09:03:01	COSCUP_bridge_bo	<mrmoneyc>: (chuanchan1116: 這有什麼關...) 這是一個半小時前準備出門卻被 Jenkins 婊到的工程師的吶喊（？
+2019-08-17 09:03:20	COSCUP_bridge_bo	<mmis1000>: (mrmoneyc: 這是一個半...) 你可以遠端
+2019-08-17 09:04:49	COSCUP_bridge_bo	<CrBoy>: (tigercosmos: 一般教室就...) 有滾輪椅的地方、有地毯的地方，都！不！可！以！吃！
+2019-08-17 09:06:13	COSCUP_bridge_bo	<barneybook>: 早上開幕101以外的地方會轉播嗎？
+2019-08-17 09:06:55	COSCUP_bridge_bo	<chuanchan1116>: Youtube 直播沒聲音
+2019-08-17 09:08:58	COSCUP_bridge_bo	<bobchao>: (chuanchan1116: Youtu...) 處理中
+2019-08-17 09:09:38	COSCUP_bridge_bo	<chuanchan1116>: 坐在 MOS 吃早餐看直播XD
+2019-08-17 09:12:39	COSCUP_bridge_bo	<dan_chen>: 請問名字要寫在 badge 的哪一面（設計上來說）？XD https://i.imgur.com/SrN4js3.jpg
+2019-08-17 09:12:58	COSCUP_bridge_bo	<CrBoy>: (Reply to dan_chen) 我相信是你有選擇的自由XD
+2019-08-17 09:13:12	COSCUP_bridge_bo	<chuanchan1116>: 說不定是雙面設計（？
+2019-08-17 09:13:13	COSCUP_bridge_bo	<joeangel>: 直播沒聲音 https://www.youtube.com/watch?v=nTfuEUqiyS8
+2019-08-17 09:13:13	COSCUP_bridge_bo	<mmis1000>: 我猜有圖的那面
+2019-08-17 09:13:14	COSCUP_bridge_bo	[Title] COSCUP 2019 直播 IB101 Day1 - YouTube
+2019-08-17 09:13:23	COSCUP_bridge_bo	<mmis1000>: 不然就沒有印圖的意義了
+2019-08-17 09:15:52	COSCUP_bridge_bo	<chuanchan1116>: \有聲音啦/
+2019-08-17 09:15:59	COSCUP_bridge_bo	<joeangel>: \\有聲音了//
+2019-08-17 09:16:17	-->	abev66 (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 09:16:27	<--	abev66 (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has left #coscup
+2019-08-17 09:18:32	COSCUP_bridge_bo	<salagadoola>: 剛才聽成植牙議程，想了幾秒開源植牙是什麼東西（其實是職涯議程軌）
+2019-08-17 09:19:18	COSCUP_bridge_bo	<joeangel>: 是職涯！ 😆
+2019-08-17 09:19:39	-->	abev66 (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 09:19:44	COSCUP_bridge_bo	<CrBoy>: (salagadoola: 剛才聽成植...) XDDDDDD
+2019-08-17 09:19:47	COSCUP_bridge_bo	<GamerGary>: (salagadoola: 剛才聽成植...) 聽起來好痛
+2019-08-17 09:19:48	COSCUP_bridge_bo	<chuanchan1116>: 吃飽剛好開場結束XD
+2019-08-17 09:19:50	COSCUP_bridge_bo	<joeangel>: 我跟人說職涯軌，第一印象都是「植牙 open source」..
+2019-08-17 09:19:52	COSCUP_bridge_bo	<NightFeather>: 開源植牙 XDD
+2019-08-17 09:19:58	COSCUP_bridge_bo	<bobchao>: 大會講者：請搜尋你的郵件匣 標題為 "Please read..."，裡面會有領取紀念 T 的步驟
+2019-08-17 09:21:24	COSCUP_bridge_bo	<barneybook>: https://i.imgur.com/jKkKL0I.jpg
+2019-08-17 09:21:30	COSCUP_bridge_bo	<toppy368>: (salagadoola: 剛才聽成植...) XDD 我記得十萬塊以上 不過就算材料開源了，定期回牙科與技術費用還是省不了
+2019-08-17 09:21:52	COSCUP_bridge_bo	<chuanchan1116>: \揪團打 Switch/ (X
+2019-08-17 09:21:56	-->	xdxd1212 (721889de@114-24-137-222.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 09:21:59	COSCUP_bridge_bo	<joeangel>: (toppy368: XDD 我...) 真的 醫材不便宜
+2019-08-17 09:25:45	COSCUP_bridge_bo	<Annie>: 報告，直播斷囉
+2019-08-17 09:25:51	COSCUP_bridge_bo	<joeangel>: 直播斷掉了
+2019-08-17 09:27:31	<--	xdxd1212 (721889de@114-24-137-222.dynamic-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 09:27:45	COSCUP_bridge_bo	<singing_li>: 我們直播努力回來中！請線上的捧油燒等一下
+2019-08-17 09:28:11	COSCUP_bridge_bo	<caasih>: 肥宅帶了毛巾忘記帶貼紙蒐集簿
+2019-08-17 09:28:15	COSCUP_bridge_bo	<eren_queue>: 👍 https://i.imgur.com/fA1olTl.png
+2019-08-17 09:28:37	COSCUP_bridge_bo	<caasih>: 然後肥宅忘記台科大的插座對白豆腐不友善⋯
+2019-08-17 09:28:56	COSCUP_bridge_bo	<joeangel>: IB101 直播改這個： https://www.youtube.com/watch?v=WoJ7dySWifk
+2019-08-17 09:28:57	COSCUP_bridge_bo	[Title] COSCUP 2019 直播 IB101 Day1 - YouTube
+2019-08-17 09:30:41	COSCUP_bridge_bo	<caasih>: (Reply to barneybook) 🐯 https://i.imgur.com/LEQqacg.png
+2019-08-17 09:30:44	COSCUP_bridge_bo	<aelcenganda>: (aelcenganda: 我今天才剛...) @catcat_4 我把性別 BoF 改到明天中午了，
+2019-08-17 09:34:09	COSCUP_bridge_bo	<mmis1000>: 是講著講話糊還是麥克風糊還是周遭雜音太大阿？感覺聽不是很清楚
+2019-08-17 09:38:03	<--	waeting (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has left #coscup
+2019-08-17 09:38:36	-->	xools1211 (721889de@114-24-137-222.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 09:38:49	COSCUP_bridge_bo	<catcat_4>: (aelcenganda: @catc...) 🙌 https://i.imgur.com/vUS8DkX.png
+2019-08-17 09:38:53	-->	waeting (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 09:40:33	<--	abev66 (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 09:41:47	COSCUP_bridge_bo	<abev66>: BoF → https://docs.google.com/document/d/1HE1KdFvXlUok8WfENmQQtQCaYisMelziWXPOdB_Bwz0/edit#heading=h.4vi51dxiqco3
+2019-08-17 09:41:50	COSCUP_bridge_bo	[Title] COSCUP 2019 BoF 報名處 - Google 文件
+2019-08-17 09:42:01	COSCUP_bridge_bo	<singing_li>: 手速慢了，才要貼過來 XD
+2019-08-17 09:42:10	COSCUP_bridge_bo	<abev66>: XD
+2019-08-17 09:42:41	COSCUP_bridge_bo	<vongola12324>: 看來需要基於關鍵字的自動轉發bot
+2019-08-17 09:46:19	-->	ddio (uid13869@gateway/web/irccloud.com/x-fwxlerypjytdsbef) has joined #coscup
+2019-08-17 09:47:01	COSCUP_bridge_bo	<singing_li>: BoF -> 縮了一下短網址：http://bit.ly/BoF2019
+2019-08-17 09:47:04	COSCUP_bridge_bo	[Title] COSCUP 2019 BoF 報名處 - Google 文件
+2019-08-17 09:49:15	COSCUP_bridge_bo	<chusiang>: (bobchao: 大會講者：...) 可以先上台分享完，再進行講者報到嗎？有點趕不上了。XD
+2019-08-17 09:51:30	COSCUP_bridge_bo	<CrBoy>: (chusiang: 可以先上台...) 嘖嘖！
+2019-08-17 09:52:11	<--	waeting (3dd80e20@61-216-14-32.HINET-IP.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-17 09:52:20	COSCUP_bridge_bo	<abev66>: (CrBoy: 嘖嘖！) XDXD
+2019-08-17 09:52:22	COSCUP_bridge_bo	<chusiang>: 想要校園響導。Orz
+2019-08-17 09:52:25	COSCUP_bridge_bo	<chuanchan1116>: 詭異的通知
+2019-08-17 09:52:26	COSCUP_bridge_bo	<chuanchan1116>: https://i.imgur.com/Ez3RAFE.jpg
+2019-08-17 09:52:42	COSCUP_bridge_bo	<chuanchan1116>: 開了 DND 還會有聲音
+2019-08-17 09:52:56	COSCUP_bridge_bo	<CrBoy>: (chusiang: 想要校園響...) 找 IB？CrBoy！
+2019-08-17 09:53:55	COSCUP_bridge_bo	<chusiang>: IB305 <===
+2019-08-17 09:54:30	COSCUP_bridge_bo	<bobchao>: (chusiang: 可以先上台...) 可以
+2019-08-17 09:54:54	COSCUP_bridge_bo	<CrBoy>: (chusiang: IB305...) 在 3 樓
+2019-08-17 09:55:14	COSCUP_bridge_bo	<abev66>: OuO 在旁邊的教室區 @chusiang
+2019-08-17 09:56:34	lother	IB305客滿
+2019-08-17 09:57:24	COSCUP_bridge_bo	<barneybook>: IB201已滿
+2019-08-17 09:57:58	COSCUP_bridge_bo	<abev66>: 全 305 都在等 @chusiang  XDD
+2019-08-17 09:58:27	COSCUP_bridge_bo	<fripig>: https://docs.google.com/presentation/d/1wF1gA_Q-cZ33nXf1YhqGIWuLy_iMcC_1XllEHEkMgAc/edit#slide=id.i0
+2019-08-17 09:58:29	COSCUP_bridge_bo	[Title] 20190817開源與職涯 - Infra 的養成之路與開源工具 - Google 簡報
+2019-08-17 09:58:40	COSCUP_bridge_bo	<Yang>: 房間沒寫wifi密碼 請問是多少呢
+2019-08-17 09:58:55	COSCUP_bridge_bo	<Sciuridae>: LoveCOSCUP
+2019-08-17 09:58:58	COSCUP_bridge_bo	<barneybook>: 201也在等講者
+2019-08-17 09:59:05	COSCUP_bridge_bo	<flandrekawaii>: (Yang: 房間沒寫w...) 貼在牆壁上
+2019-08-17 09:59:22	COSCUP_bridge_bo	<barneybook>: (Reply to barneybook) #wifi #密碼
+2019-08-17 09:59:39	COSCUP_bridge_bo	<flandrekawaii>: 301 有點小聲
+2019-08-17 10:00:14	COSCUP_bridge_bo	<flandrekawaii>: (flandrekawaii: 301 有...) 可以了
+2019-08-17 10:00:15	COSCUP_bridge_bo	<Y>: 感謝 五樓這好像沒看到
+2019-08-17 10:00:42	COSCUP_bridge_bo	<cheergo>: 麥克風好像沒開
+2019-08-17 10:01:51	COSCUP_bridge_bo	<barneybook>: 201開始
+2019-08-17 10:02:23	COSCUP_bridge_bo	<Sciuridae>: 其實講桌右邊有麥克風 (?
+2019-08-17 10:02:39	COSCUP_bridge_bo	<NaI12352>: 求302 QR CODE掃出來的網址
+2019-08-17 10:02:52	COSCUP_bridge_bo	<oTo_To_T>: https://github.com/soruly/slides/blob/master/2019-COSCUP-trace.moe.md
+2019-08-17 10:02:53	COSCUP_bridge_bo	[Title] slides/2019-COSCUP-trace.moe.md at master · soruly/slides · GitHub
+2019-08-17 10:03:01	COSCUP_bridge_bo	<barneybook>: 集點遊戲怎麼玩？
+2019-08-17 10:03:42	COSCUP_bridge_bo	<fripig>: 議程的共筆連結能不能預設用target="_blank"啊ＸＤ
+2019-08-17 10:03:52	COSCUP_bridge_bo	<Sciuridae>: (barneybook: 集點遊戲怎...) 找攤位 看他要怎麼玩 (#
+2019-08-17 10:04:15	COSCUP_bridge_bo	<chuanchan1116>: 原來 201 的共筆其實不是共筆，是講者的簡報啊wwww
+2019-08-17 10:05:33	COSCUP_bridge_bo	<CrBoy>: 503 怎麼沒講者XD
+2019-08-17 10:05:41	-->	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has joined #coscup
+2019-08-17 10:07:06	COSCUP_bridge_bo	<Yuy_Heero>: (NaI12352: 求302...) 這個？ https://github.com/soruly/slides/blob/master/2019-COSCUP-trace.moe.md
+2019-08-17 10:07:07	COSCUP_bridge_bo	[Title] slides/2019-COSCUP-trace.moe.md at master · soruly/slides · GitHub
+2019-08-17 10:07:40	COSCUP_bridge_bo	<NaI12352>: 👌 https://i.imgur.com/FcAGD9G.png
+2019-08-17 10:08:21	-->	asahsieh (uid28213@gateway/web/irccloud.com/x-noyhhyvaszqqizue) has joined #coscup
+2019-08-17 10:08:26	<--	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 10:08:39	COSCUP_bridge_bo	<chusiang>: 先準備了，謝謝各位。XD
+2019-08-17 10:09:16	COSCUP_bridge_bo	<fripig>: 305人口密度有點誇張ＸＤ
+2019-08-17 10:09:38	COSCUP_bridge_bo	<CrBoy>: 偉哉凍仁
+2019-08-17 10:09:58	COSCUP_bridge_bo	<bobchao>: @joeangel 如果人數到危險地步還是要關門喔
+2019-08-17 10:10:05	-->	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has joined #coscup
+2019-08-17 10:10:33	COSCUP_bridge_bo	<joeangel>: (bobchao: @joea...) 有關，但.. 人還是繼續進來了 🙈
+2019-08-17 10:11:20	COSCUP_bridge_bo	<chuanchan1116>: 生命會找到他的出路的（Ｘ
+2019-08-17 10:11:38	COSCUP_bridge_bo	<joekaojoekao>: 剛剛手被門夾到了QQ
+2019-08-17 10:12:10	<--	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 10:13:16	COSCUP_bridge_bo	<canfly1019>: (joekaojoekao: 剛剛手被門...) QQ
+2019-08-17 10:13:34	COSCUP_bridge_bo	<caasih>: dannvix 在嗎？ o|~/
+2019-08-17 10:14:31	COSCUP_bridge_bo	<nfsnfschen>: 我剛剛有看到 Dannvix
+2019-08-17 10:14:32	COSCUP_bridge_bo	<fntsrlike>: #IB-305 「做好自動化，遠離肝硬化」
+2019-08-17 10:14:56	COSCUP_bridge_bo	<caasih>: (nfsnfschen: 我剛剛有看...) 發了個 PR 給他的 COSCUP_Agenda XD
+2019-08-17 10:17:20	COSCUP_bridge_bo	<itshenrywu>: 201 直播 https://www.youtube.com/watch?v=C0T3qLAyxHc
+2019-08-17 10:17:20	COSCUP_bridge_bo	[Title] COSCUP 2019 直播 - IB201 Day1 - YouTube
+2019-08-17 10:19:35	COSCUP_bridge_bo	<joeangel>: (fntsrlike: #IB30...) 😆
+2019-08-17 10:20:01	COSCUP_bridge_bo	<joeangel>: 如果遇到有趣的梗，大家可以發文打卡 #COSCUP 分享 🙂
+2019-08-17 10:20:31	COSCUP_bridge_bo	<s8321414>: 😂 https://i.imgur.com/NOCzodi.png
+2019-08-17 10:21:21	COSCUP_bridge_bo	<Leon>: 咦？不是天鏡科技！
+2019-08-17 10:21:57	<--	xools1211 (721889de@114-24-137-222.dynamic-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 10:22:51	-->	rain (uid385926@gateway/web/irccloud.com/x-adqrkqmsouuauyeo) has joined #coscup
+2019-08-17 10:23:18	-->	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has joined #coscup
+2019-08-17 10:23:40	<--	rain (uid385926@gateway/web/irccloud.com/x-adqrkqmsouuauyeo) has quit (Client Quit)
+2019-08-17 10:23:49	-->	lingrain (uid385926@gateway/web/irccloud.com/x-quxpejmhlrlrfmjf) has joined #coscup
+2019-08-17 10:26:41	<--	j5a6s7o8n (df88e0bb@223-136-224-187.emome-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 10:29:17	COSCUP_bridge_bo	<barneybook>: https://i.imgur.com/9DxyTXI.jpg
+2019-08-17 10:29:30	COSCUP_bridge_bo	<mmis1000>: 為啥二樓那兩個教室完全沒標示後面是是哪個阿
+2019-08-17 10:29:32	COSCUP_bridge_bo	<barneybook>: (Reply to barneybook) 三樓 茶水間
+2019-08-17 10:29:41	COSCUP_bridge_bo	<chuanchan1116>: [201] 旁邊小夥伴：「jserv 就算封麥還是會出現在 COSCUP 的議程裡」
+2019-08-17 10:30:02	-->	freedom (b4ccd603@180.204.214.3) has joined #coscup
+2019-08-17 10:30:13	COSCUP_bridge_bo	<mmis1000>: 我看到一整排人走錯從講者旁邊進來
+2019-08-17 10:31:14	COSCUP_bridge_bo	<toppy368>: (fntsrlike: #IB30...) 😂
+2019-08-17 10:31:37	<--	freedom (b4ccd603@180.204.214.3) has quit (Remote host closed the connection)
+2019-08-17 10:33:45	COSCUP_bridge_bo	<Vdragon>: 請問會場WiFi有開放嗎？
+2019-08-17 10:34:37	-->	kiwi_49 (721889de@gateway/web/cgi-irc/kiwiirc.com/ip.114.24.137.222) has joined #coscup
+2019-08-17 10:34:37	COSCUP_bridge_bo	<NightFeather>: (Reply to barneybook) @Vdragon 這個嗎
+2019-08-17 10:35:00	COSCUP_bridge_bo	<CrBoy>: (Vdragon: 請問會場W...) COSCUP2019 / LoveCOSCUP
+2019-08-17 10:35:09	-->	mp607 (~mp607@ip134-6.wlan.ntust.edu.tw) has joined #coscup
+2019-08-17 10:35:37	COSCUP_bridge_bo	<barneybook>: (NightFeather: @Vdra...) 是的
+2019-08-17 10:35:49	COSCUP_bridge_bo	<Vdragon>: 感謝
+2019-08-17 10:36:19	COSCUP_bridge_bo	<chuanchan1116>: @DennyHuang OPass 的通知是走媒體音量嗎？手機設靜音還會響
+2019-08-17 10:36:23	COSCUP_bridge_bo	<Vdragon>: 可以把萬惡的手機熱點關掉惹
+2019-08-17 10:36:39	COSCUP_bridge_bo	<joekaojoekao>: (CrBoy: COSCU...) 這應該置頂xd
+2019-08-17 10:37:24	COSCUP_bridge_bo	<joeangel>: 怪ww https://i.imgur.com/qxQAInQ.jpg
+2019-08-17 10:37:24	COSCUP_bridge_bo	<fntsrlike>: #IB305 「不論你有什麼本事，唯有努力才能點燃那些技藝，把它們轉化爲真正的成就」——改編自 Carol S. Dweck, Ph.D. 的《心態致勝》一書
+2019-08-17 10:37:32	COSCUP_bridge_bo	<CrBoy>: 會場 Wi-Fi：COSCUP2019 / LoveCOSCUP
+2019-08-17 10:37:41	COSCUP_bridge_bo	<toppy368>: 這裡還有議程表連結嗎？
+2019-08-17 10:37:50	COSCUP_bridge_bo	<flandrekawaii>: 剛剛大會網路斷網數十秒
+2019-08-17 10:37:55	COSCUP_bridge_bo	<mmis1000>: (toppy368: 這裡還有議...) opass裡有阿？
+2019-08-17 10:37:56	COSCUP_bridge_bo	<toppy368>: 剛剛手機開官網結果開不了
+2019-08-17 10:38:04	-->	freedom (b4ccd603@180.204.214.3) has joined #coscup
+2019-08-17 10:38:05	COSCUP_bridge_bo	<toppy368>: (mmis1000: opass...) 我不在現場喔！
+2019-08-17 10:38:17	COSCUP_bridge_bo	<CrBoy>: 還是可以用 opass
+2019-08-17 10:38:20	COSCUP_bridge_bo	<eren_queue>: 安裝也能看得到喔
+2019-08-17 10:38:27	COSCUP_bridge_bo	<fripig>: (flandrekawaii: 剛剛大會網...) 305還在斷
+2019-08-17 10:38:28	COSCUP_bridge_bo	<eren_queue>: 不用在現場
+2019-08-17 10:38:31	COSCUP_bridge_bo	<joeangel>: (toppy368: 這裡還有議...) 這個嗎 https://coscup.org/2019/programs
+2019-08-17 10:38:34	COSCUP_bridge_bo	[Title] Day 1 議程 | COSCUP 2019 | Conference for Open Source Coders, Users, and Promoters
+2019-08-17 10:38:34	-->	mp607_ (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 10:38:54	COSCUP_bridge_bo	<flandrekawaii>: (fripig: 305還在...) 306 回來了
+2019-08-17 10:39:06	COSCUP_bridge_bo	<toppy368>: (CrBoy: 還是可以用...) 了解
+2019-08-17 10:39:12	COSCUP_bridge_bo	<joeangel>: (fripig: 305還在...) 305 網路有斷了一下，網路應該回來了
+2019-08-17 10:39:12	COSCUP_bridge_bo	<toppy368>: (joeangel: 這個嗎 h...) 感謝
+2019-08-17 10:39:26	<--	mp607 (~mp607@ip134-6.wlan.ntust.edu.tw) has quit (Ping timeout: 244 seconds)
+2019-08-17 10:39:27	--	mp607_ is now known as mp607
+2019-08-17 10:39:31	COSCUP_bridge_bo	<ijliao>: (fntsrlike: #IB30...) 肝硬化是喝酒喝太多吧... 自動化後更多時間可以喝酒, 反而硬更快 ?!
+2019-08-17 10:39:43	COSCUP_bridge_bo	<fripig>: (joeangel: 305 網...) 看來是連不到AP
+2019-08-17 10:39:59	COSCUP_bridge_bo	<mmis1000>: (ijliao: 肝硬化是喝...) 邊做邊喝啊，合理(x
+2019-08-17 10:40:09	COSCUP_bridge_bo	<toppy368>: (ijliao: 肝硬化是喝...) 今天才看醫生說肝硬化的原因
+2019-08-17 10:40:21	COSCUP_bridge_bo	<fripig>: 打完就好了
+2019-08-17 10:40:22	COSCUP_bridge_bo	<toppy368>: 我自己肝指數是脂肪問題
+2019-08-17 10:40:40	lingrain	原來自動化才是肝硬化的主要病因(X
+2019-08-17 10:40:43	COSCUP_bridge_bo	<sylvialiu0514>: 305會提供簡報嗎QQ
+2019-08-17 10:40:47	COSCUP_bridge_bo	<joeangel>: (fripig: 看來是連不...) 又斷了
+2019-08-17 10:41:00	COSCUP_bridge_bo	<joeangel>: (sylvialiu0514: 305會提...) 我幫你問講者 🙂
+2019-08-17 10:41:10	COSCUP_bridge_bo	<caasih>: 也有人會重複一生希望與失望的循環的啦 #討厭雞湯
+2019-08-17 10:41:21	COSCUP_bridge_bo	<toppy368>: 了解為啥305會這麼說了
+2019-08-17 10:41:50	COSCUP_bridge_bo	<joeangel>: (sylvialiu0514: 305會提...) 要舉手發問嗎XD 好像有獎品
+2019-08-17 10:42:40	COSCUP_bridge_bo	<joeangel>: IB305 不好意思問的問題，可以 tag 我幫你問喔 🙂
+2019-08-17 10:42:47	COSCUP_bridge_bo	<sylvialiu0514>: (joeangel: 要舉手發問...) 我害羞XD
+2019-08-17 10:42:59	COSCUP_bridge_bo	<sylvialiu0514>: 求幫問 感謝
+2019-08-17 10:43:00	COSCUP_bridge_bo	<iamhlb>: 305 好滿 QQ
+2019-08-17 10:43:22	COSCUP_bridge_bo	<joeangel>: (sylvialiu0514: 求幫問 感...) 好
+2019-08-17 10:44:22	COSCUP_bridge_bo	<abev66>: IB305 灑禮物灑的好努力
+2019-08-17 10:44:55	COSCUP_bridge_bo	<bobchao>: 😆
+2019-08-17 10:45:03	COSCUP_bridge_bo	<joeangel>: (abev66: IB305...) 真的
+2019-08-17 10:45:07	COSCUP_bridge_bo	<canyu>: 可惡想聽305
+2019-08-17 10:45:14	COSCUP_bridge_bo	<abev66>: @blake7823  早安
+2019-08-17 10:46:38	-->	u10313335 (~sol@ipsecvpn.iis.sinica.edu.tw) has joined #coscup
+2019-08-17 10:47:17	COSCUP_bridge_bo	<joeangel>: 305 還有禮物噢！
+2019-08-17 10:47:17	COSCUP_bridge_bo	<sylvialiu0514>: 連上網路才發現沒人寫共筆QWQ
+2019-08-17 10:47:26	COSCUP_bridge_bo	<Kuma919>: https://i.imgur.com/PvdDIh4.jpg
+2019-08-17 10:47:35	COSCUP_bridge_bo	<bobchao>: (sylvialiu0514: 連上網路才...) 賀頭香？
+2019-08-17 10:47:47	COSCUP_bridge_bo	<tigercosmos>: 共筆通常很少人會寫吧XDD
+2019-08-17 10:47:56	COSCUP_bridge_bo	<joeangel>: 305 講師： 簡報會釋出唷
+2019-08-17 10:48:17	COSCUP_bridge_bo	<Kuma919>: https://i.imgur.com/4lpPSAK.jpg
+2019-08-17 10:48:19	COSCUP_bridge_bo	<fntsrlike>: (joeangel: 305 講...) 講師：「等我這台筆電連上網路時就會釋出簡報了」 XD
+2019-08-17 10:48:22	COSCUP_bridge_bo	<joekaojoekao>: 禮物get (講者回答的東西才是大禮w)
+2019-08-17 10:48:31	COSCUP_bridge_bo	<Kuma919>: 活動期間抽好禮哦
+2019-08-17 10:48:40	COSCUP_bridge_bo	<joeangel>: (fntsrlike: 講師：「等...) 😆
+2019-08-17 10:48:40	COSCUP_bridge_bo	<Kuma919>: 👨‍👨‍👦‍👦 https://i.imgur.com/Nik7IkJ.png
+2019-08-17 10:48:55	COSCUP_bridge_bo	<Simonliuyuwei>: 我是目前比較專注於開發 請問對於負責devops的人合作 要注意甚麼事情
+2019-08-17 10:48:56	COSCUP_bridge_bo	<Simonliuyuwei>: IB305 不好意思問的問題，可以 tag 我幫你問喔 🙂 （我是今天主持天使 🙂 )
+2019-08-17 10:49:07	COSCUP_bridge_bo	<Vdragon>: IB503: 我沒看到桌機哥啊
+2019-08-17 10:49:12	COSCUP_bridge_bo	<Kuma919>: 大家趕緊來17media的攤位喔☝️☝️
+2019-08-17 10:49:24	COSCUP_bridge_bo	<Simonliuyuwei>: (joeangel: IB305...) 我是目前比較專注於開發 請問對於負責devops的人合作 要注意甚麼事情
+2019-08-17 10:50:10	COSCUP_bridge_bo	<barneybook>: https://i.imgur.com/qRazD9z.jpg
+2019-08-17 10:50:21	COSCUP_bridge_bo	<barneybook>: (Vdragon: IB503...) 不是想看到就可以看到的
+2019-08-17 10:50:23	COSCUP_bridge_bo	<joeangel>: (Simonliuyuwei: 我是目前比...) 好，我幫你問 🙂
+2019-08-17 10:50:55	COSCUP_bridge_bo	<fripig>: (joeangel: 好，我幫你...) 結果就結束了ＸＤ
+2019-08-17 10:51:39	COSCUP_bridge_bo	<Simonliuyuwei>: 感謝
+2019-08-17 10:52:09	COSCUP_bridge_bo	<joeangel>: 😎 https://i.imgur.com/2SgGM7D.png
+2019-08-17 10:54:47	<--	kiwi_49 (721889de@gateway/web/cgi-irc/kiwiirc.com/ip.114.24.137.222) has quit (Remote host closed the connection)
+2019-08-17 10:55:13	-->	iblis17 (~iblis17@IP-215-28.cs.nctu.edu.tw) has joined #coscup
+2019-08-17 10:55:51	COSCUP_bridge_bo	<blake7823>: (abev66: @blak...) 早安唷哈哈
+2019-08-17 10:58:23	COSCUP_bridge_bo	<bestony>: 后续直播视频录播会放出来么
+2019-08-17 10:58:25	COSCUP_bridge_bo	<bestony>: 有想看的，时间冲突了
+2019-08-17 10:58:27	COSCUP_bridge_bo	<bestony>: 😂 https://i.imgur.com/L8iZ4tB.png
+2019-08-17 10:59:05	COSCUP_bridge_bo	<Yuy_Heero>: 304好多人.
+2019-08-17 10:59:40	COSCUP_bridge_bo	<canyu>: (bestony: 后续直播视...) 會喔, 待大會處理好後會放出
+2019-08-17 10:59:48	COSCUP_bridge_bo	<bestony>: 好的，期待
+2019-08-17 10:59:52	COSCUP_bridge_bo	<bestony>: 👍 https://i.imgur.com/sLsiOGT.png
+2019-08-17 11:00:49	COSCUP_bridge_bo	<barneybook>: https://i.imgur.com/hawmErz.jpg
+2019-08-17 11:00:54	COSCUP_bridge_bo	<barneybook>: (Reply to barneybook) 306排隊入場
+2019-08-17 11:00:54	COSCUP_bridge_bo	<mrmoneyc>: 認真覺得托育服務可以就地催生 KidCON XD
+2019-08-17 11:01:20	COSCUP_bridge_bo	<barneybook>: https://i.imgur.com/6pi3CtD.jpg
+2019-08-17 11:01:38	COSCUP_bridge_bo	<NightFeather>: conf 眾從小養成 (?
+2019-08-17 11:05:18	COSCUP_bridge_bo	<ijliao>: 發現各場地普遍性地冷氣很弱...
+2019-08-17 11:06:21	COSCUP_bridge_bo	<selinakuo>: (ijliao: 發現各場地...) （遞衛生紙（欸
+2019-08-17 11:06:48	COSCUP_bridge_bo	<selinakuo>: 那個WiFi密碼連不上🙈不知道是不是我誤會了還是...
+2019-08-17 11:07:35	COSCUP_bridge_bo	<pennyken>: (selinakuo: 那個WiF...) 請麻煩回報實體位置及SSID名稱，方便相關人員處理
+2019-08-17 11:07:37	COSCUP_bridge_bo	<Sciuridae>: 有可能炸掉了 (欸
+2019-08-17 11:08:37	freedom	ijliao: 天大地大台科大 冷氣再弱也不怕
+2019-08-17 11:10:49	COSCUP_bridge_bo	<barneybook>: (selinakuo: 那個WiF...) COSCUP2019 -1 -2 -3 密碼都是 LoveCOSCUP
+2019-08-17 11:10:57	COSCUP_bridge_bo	<selinakuo>: (pennyken: 請麻煩回報...) https://i.imgur.com/CEvkcAM.jpg
+2019-08-17 11:11:25	COSCUP_bridge_bo	<selinakuo>: 房間201
+2019-08-17 11:12:26	COSCUP_bridge_bo	<ijliao>: (freedom: ijlia...) 太多肥宅聚集的地方, 冷氣太弱的話, 肥宅的氛圍會很濃厚... XD
+2019-08-17 11:12:45	COSCUP_bridge_bo	<selinakuo>: Mac筆電，不知道是什麼問題🙈
+2019-08-17 11:12:49	COSCUP_bridge_bo	<caasih>: 肥宅酸味😢
+2019-08-17 11:13:34	COSCUP_bridge_bo	<nonijiang>: 老闆是外行 不能用Python XD #IB305
+2019-08-17 11:14:53	COSCUP_bridge_bo	<chuanchan1116>: 是 hackmd 炸掉呢？還是網路炸掉呢？
+2019-08-17 11:15:18	COSCUP_bridge_bo	<joeangel>: 網站上有共筆連結~~~ 歡迎貢獻
+2019-08-17 11:16:24	COSCUP_bridge_bo	<joeangel>: (chuanchan1116: 是 hac...) 我用自己網路正常
+2019-08-17 11:17:10	COSCUP_bridge_bo	<chuanchan1116>: (joeangel: 我用自己網...) 現在終於又連上了 Orz
+2019-08-17 11:18:02	COSCUP_bridge_bo	<flandrekawaii>: (barneybook: COSCU...) 1 2 3 剛剛密碼都錯誤 306 只有無印可以連
+2019-08-17 11:18:50	COSCUP_bridge_bo	<keithning>: 請問有人可幫提供一下101 Learn to test 的投影片嗎，謝謝
+2019-08-17 11:21:03	<--	u10313335 (~sol@ipsecvpn.iis.sinica.edu.tw) has quit (Remote host closed the connection)
+2019-08-17 11:21:04	COSCUP_bridge_bo	<catcat_4>: (keithning: 請問有人可...) http://bit.ly/2YTbfBy
+2019-08-17 11:21:06	COSCUP_bridge_bo	[Title] 20190817-HerdingCats-in-COSCUP2019.pdf - Google 雲端硬碟
+2019-08-17 11:21:42	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Quit: mp607)
+2019-08-17 11:22:03	COSCUP_bridge_bo	<catcat_4>: 歡迎大家共筆喔，每個議程介紹裡面都有共筆連結！ https://coscup.org/2019/programs/
+2019-08-17 11:22:05	COSCUP_bridge_bo	[Title] Day 1 議程 | COSCUP 2019 | Conference for Open Source Coders, Users, and Promoters
+2019-08-17 11:22:52	COSCUP_bridge_bo	<catcat_4>: 大家拍照打卡的時候也可以用 #COSCUP 這個 hashtag ～
+2019-08-17 11:23:00	asahsieh	請問#IB305有直播嗎？
+2019-08-17 11:23:17	asahsieh	#IB305
+2019-08-17 11:23:19	COSCUP_bridge_bo	<joeangel>: (catcat_4: 大家拍照打...) 大家可以把這個寫進共筆 😆
+2019-08-17 11:24:27	COSCUP_bridge_bo	<catcat_4>: (asahsieh: 請問#IB...) 沒有唷
+2019-08-17 11:25:14	asahsieh	catcat_4: 收到> <, 看來還是要轉換陣地；謝謝XD
+2019-08-17 11:26:00	COSCUP_bridge_bo	<Dylandy>: hihi 據說 E2 熱翻了，不知道有沒有人可以幫忙看看
+2019-08-17 11:28:11	COSCUP_bridge_bo	<flandrekawaii>: 306 網路還是超不穩
+2019-08-17 11:28:20	COSCUP_bridge_bo	<chuanchan1116>: 304 這邊好像 WiFi 炸了 Orz
+2019-08-17 11:28:32	COSCUP_bridge_bo	<bobchao>: 目前應該每間網路都蠻常斷的 orz 殘念
+2019-08-17 11:28:38	COSCUP_bridge_bo	<mmis1000>: 2,3樓我剛剛都連不上
+2019-08-17 11:28:52	COSCUP_bridge_bo	<mmis1000>: 最後還是只好開熱點
+2019-08-17 11:29:24	COSCUP_bridge_bo	<flandrekawaii>: 學生可以登 TAnet
+2019-08-17 11:29:33	COSCUP_bridge_bo	<LisbethW1130>: 有人知道密碼是什麼嗎？會中的網路 https://i.imgur.com/qFggXWc.jpg
+2019-08-17 11:29:38	COSCUP_bridge_bo	<mmis1000>: 看看頂置
+2019-08-17 11:29:39	COSCUP_bridge_bo	<ptc0219>: (Reply to LisbethW1130) LoveCOSCUP
+2019-08-17 11:29:45	COSCUP_bridge_bo	<LisbethW1130>: 咁，我剛剛眼瞎了
+2019-08-17 11:29:51	COSCUP_bridge_bo	<thehyyu>: @joeangel 請問有QA講師們的slide link 嗎？
+2019-08-17 11:30:05	COSCUP_bridge_bo	<LisbethW1130>: 有什麼原因把網路分 -1 -2 -3 嗎？
+2019-08-17 11:30:07	COSCUP_bridge_bo	<flandrekawaii>: (flandrekawaii: 1 2 3...) 剛剛都會發生密碼錯誤
+2019-08-17 11:30:33	COSCUP_bridge_bo	<flandrekawaii>: 只有無印能連 但連不出外網
+2019-08-17 11:30:38	COSCUP_bridge_bo	<mmis1000>: 我是用到一半斷線就再也連不上了
+2019-08-17 11:30:48	-->	vincentsu (uid181072@gateway/web/irccloud.com/x-yposvenmnfwwqukm) has joined #coscup
+2019-08-17 11:30:50	COSCUP_bridge_bo	<joeangel>: (thehyyu: @joea...) 我幫你問 🙂
+2019-08-17 11:31:11	COSCUP_bridge_bo	<eren_queue>: 😺 https://i.imgur.com/APuc1qi.png
+2019-08-17 11:31:14	COSCUP_bridge_bo	<jackycute>: 貼個共筆入口，多寫多健康 https://hackmd.io/@coscup/2019
+2019-08-17 11:31:14	COSCUP_bridge_bo	[Title] COSCUP 2019 共同筆記 - HackMD
+2019-08-17 11:33:00	COSCUP_bridge_bo	<jiachengx>: (joeangel: 我幫你問...) https://drive.google.com/file/d/1B6AF1vd2nvCKjNOaIqaTTs9gZE7lQC_c/view
+2019-08-17 11:33:01	COSCUP_bridge_bo	[Title] quality_roadmap.pptx - Google 雲端硬碟
+2019-08-17 11:33:18	COSCUP_bridge_bo	<joeangel>: (thehyyu: @joea...) 上面 🙂
+2019-08-17 11:35:04	COSCUP_bridge_bo	<thehyyu>: (joeangel: 上面 🙂) Thank you!
+2019-08-17 11:35:22	COSCUP_bridge_bo	<Annie>: @joeangel 備註一下： #IB305 講者正在用的 type c 轉 HDMI 的轉接器是我的 😂
+2019-08-17 11:35:37	-->	d0gm4n (uid38259@gateway/web/irccloud.com/x-hrudyhrlnpjdkwst) has joined #coscup
+2019-08-17 11:36:13	COSCUP_bridge_bo	<joeangel>: (Annie: @joea...) 好！感謝 Annie 支援，這場結束還你 🙂
+2019-08-17 11:37:21	COSCUP_bridge_bo	<panmike>: https://i.imgur.com/cxRNdYo.jpg
+2019-08-17 11:37:22	COSCUP_bridge_bo	<panmike>: 202連的上COSCUP2019 ，不過AP掉下來了，這是正常的嗎 lol
+2019-08-17 11:37:35	COSCUP_bridge_bo	<NightFeather>: 現在 wifi 無法連外 [IB301]
+2019-08-17 11:37:37	COSCUP_bridge_bo	<barneybook>: E2-102很熱+1
+2019-08-17 11:37:48	COSCUP_bridge_bo	<keithning>: (catcat_4: http:...) 感謝！
+2019-08-17 11:38:58	COSCUP_bridge_bo	<fntsrlike>: (catcat_4: http:...) 這是御貓之術，也就是 IB101 下一場的簡報，好像不是原發問的 Learn to test 的
+2019-08-17 11:39:13	COSCUP_bridge_bo	<teltelro>: (barneybook: E2-10...) E2-102冷氣不涼 我早上已經把所有冷氣全開 設定16度了
+2019-08-17 11:39:25	COSCUP_bridge_bo	<catcat_4>: 貼錯 手殘XD
+2019-08-17 11:39:39	COSCUP_bridge_bo	<LisbethW1130>: (panmike: 202連的...) 我剛剛先把它放在桌子上
+2019-08-17 11:39:40	COSCUP_bridge_bo	<fntsrlike>: 沒事，有貓就給推 (#
+2019-08-17 11:39:49	COSCUP_bridge_bo	<LisbethW1130>: 不然感覺好痛XD
+2019-08-17 11:40:37	COSCUP_bridge_bo	<catcat_4>: (fntsrlike: 這是御貓之...) http://bit.ly/2Z2wUHT 101 Learn to test 的簡報，求好心人加入共筆
+2019-08-17 11:40:41	COSCUP_bridge_bo	[Title] Learn to test and then test to learn - COSCUP 2019 - Google 簡報
+2019-08-17 11:41:02	COSCUP_bridge_bo	<tonyhusky>: https://twitter.com/dryadb43738/status/1162538165401354240
+2019-08-17 11:41:04	COSCUP_bridge_bo	[Title] 小鹿維尼( ⓛ ω ⓛ🍯)🌸 在 Twitter："宋楚瑜紀年方式：  2000年是楚瑜參選元年，今年是楚瑜參選20年。  換算方式：西元紀年-1999"
+2019-08-17 11:42:30	COSCUP_bridge_bo	<fntsrlike>: (catcat_4: http:...) Done 感謝提供
+2019-08-17 11:45:56	COSCUP_bridge_bo	<joeangel>: IB305 問問題 tag 我 🙂
+2019-08-17 11:47:36	COSCUP_bridge_bo	<sammyfung>: HKOSCon 軌下一場在12:00開始，是Plug It In!  MySQL Authentication with Windows via PAM  (講員是香港利豐公司IT經理 Patrick Jolliffe) 以英語進行
+2019-08-17 11:50:07	COSCUP_bridge_bo	<Y>: Wifi好像不能連了
+2019-08-17 11:50:57	COSCUP_bridge_bo	<joeangel>: 開源與職涯軌 下一場 12:00 開始，  @susutw 代理主持
+2019-08-17 11:51:43	COSCUP_bridge_bo	<Haraguroicha>: https://i.imgur.com/IntvfSI.jpg
+2019-08-17 11:51:45	COSCUP_bridge_bo	<Haraguroicha>: https://i.imgur.com/oLJ3mWD.jpg
+2019-08-17 11:51:54	COSCUP_bridge_bo	<Haraguroicha>: 聽說是對外網路直接斷了
+2019-08-17 11:52:41	COSCUP_bridge_bo	<carlcarlking>: 被大砲的閃光燈閃得有點崩潰orz
+2019-08-17 11:54:30	COSCUP_bridge_bo	<canyu>: (carlcarlking: 被大砲的閃...) 尋求太陽眼鏡服務(誤
+2019-08-17 12:02:29	COSCUP_bridge_bo	<carlcarlking>: (canyu: 尋求太陽眼...) 😊 https://i.imgur.com/5QDH0hN.png
+2019-08-17 12:05:23	COSCUP_bridge_bo	<sammyfung>: Patrick 分享如何在一間用 Windows 的大公司，使用 MySQL 來管理 Windows 用戶登入認證。  #IB302 #hkoscon
+2019-08-17 12:10:55	COSCUP_bridge_bo	<ijliao>: [IB202] show me the code 不能幫你推廣你的 open source project, 那是用來解 bug 用的, 社交才行
+2019-08-17 12:10:59	-->	rsghost (~rsghost@li1602-29.members.linode.com) has joined #coscup
+2019-08-17 12:11:54	COSCUP_bridge_bo	<Yuy_Heero>: 太陽眼鏡 好像前年的
+2019-08-17 12:18:16	<--	freedom (b4ccd603@180.204.214.3) has quit (Remote host closed the connection)
+2019-08-17 12:19:11	COSCUP_bridge_bo	<Sciuridae>: 欸嘿 https://i.imgur.com/gagiht7.jpg
+2019-08-17 12:19:20	<--	rsghost (~rsghost@li1602-29.members.linode.com) has quit (Quit: leaving)
+2019-08-17 12:19:37	-->	rsghost (~rsghost@li1602-29.members.linode.com) has joined #coscup
+2019-08-17 12:24:58	COSCUP_bridge_bo	<bestony>: 会场的演讲可以用 Google Docs
+2019-08-17 12:27:49	COSCUP_bridge_bo	<Sciuridae>: 可以
+2019-08-17 12:30:13	COSCUP_bridge_bo	<bestony>: 晚上能试一下么？
+2019-08-17 12:32:01	COSCUP_bridge_bo	<barneybook>: 話說附近最近的便利商店在哪？
+2019-08-17 12:35:50	<--	ddio (uid13869@gateway/web/irccloud.com/x-fwxlerypjytdsbef) has quit (Quit: Connection closed for inactivity)
+2019-08-17 12:37:02	COSCUP_bridge_bo	<bobchao>: (bestony: 会场的演讲...) 可以 剛剛有人用過 你還是可以自己試試
+2019-08-17 12:40:26	COSCUP_bridge_bo	<kmnsamx>: (barneybook: 話說附近最...) 學餐有小七？
+2019-08-17 12:40:38	COSCUP_bridge_bo	<bestony>: 好的，晚上其他议程结束了我去试试看。
+2019-08-17 12:56:07	COSCUP_bridge_bo	<jiachengx>: 請問誰知道共筆在哪？
+2019-08-17 12:56:26	COSCUP_bridge_bo	<CrBoy>: opass app 上有共筆連結
+2019-08-17 12:56:55	COSCUP_bridge_bo	<flandrekawaii>: 上面也有人貼共筆入口
+2019-08-17 12:58:29	COSCUP_bridge_bo	<CrBoy>: (flandrekawaii: 上面也有人...) 在哪裡？我把它更新到置頂好了
+2019-08-17 12:58:48	COSCUP_bridge_bo	<ORdinarycas>: 305 是🤔
+2019-08-17 12:58:57	COSCUP_bridge_bo	<jiachengx>: (CrBoy: opass...) Opass app上面沒看到才來問的
+2019-08-17 12:59:08	COSCUP_bridge_bo	<CrBoy>: (CrBoy: 在哪裡？我...) 我找到了
+2019-08-17 12:59:48	COSCUP_bridge_bo	<CrBoy>: (jiachengx: Opass...) https://hackmd.io/@coscup/2019 置頂也找得到連結了
+2019-08-17 12:59:49	COSCUP_bridge_bo	[Title] COSCUP 2019 共同筆記 - HackMD
+2019-08-17 13:00:38	COSCUP_bridge_bo	<CrBoy>: @singing_li 身為五迷就是要聽一下標題有五月天的場子！XD
+2019-08-17 13:01:08	COSCUP_bridge_bo	<yoyo930021>: (jiachengx: Opass...) 每個議程點開 應該有連結
+2019-08-17 13:01:22	COSCUP_bridge_bo	<syxuan>: (kmnsamx: 學餐有小七...) 有兩間，工程二管中間地下室跟摩斯旁邊
+2019-08-17 13:04:13	COSCUP_bridge_bo	<catcat_4>: https://i.imgur.com/dPd3klj.jpg
+2019-08-17 13:04:26	COSCUP_bridge_bo	<catcat_4>: 101議程廳 御貓之術！
+2019-08-17 13:04:34	COSCUP_bridge_bo	<catcat_4>: 大家快來啊這場很精彩
+2019-08-17 13:04:39	COSCUP_bridge_bo	<迷之阿杰>: 101貓貓術
+2019-08-17 13:04:42	COSCUP_bridge_bo	<catcat_4>: 來不會後悔喔wwww
+2019-08-17 13:04:51	COSCUP_bridge_bo	<allen0099>: 貓貓
+2019-08-17 13:10:05	COSCUP_bridge_bo	<fripig>: 305網路又出現奇妙的狀況了
+2019-08-17 13:10:38	COSCUP_bridge_bo	<linroex>: 大家知道閃電秀去哪報名嗎XD
+2019-08-17 13:10:40	COSCUP_bridge_bo	<CrBoy>: (fripig: 305網路...) 什麼狀況？
+2019-08-17 13:11:04	COSCUP_bridge_bo	<fripig>: 斷了
+2019-08-17 13:11:19	COSCUP_bridge_bo	<fripig>: 剛剛是很慢
+2019-08-17 13:11:24	COSCUP_bridge_bo	<Sciuridae>: (linroex: 大家知道閃...) OPass 或是 服務臺
+2019-08-17 13:11:37	COSCUP_bridge_bo	<linroex>: 感謝！
+2019-08-17 13:13:21	COSCUP_bridge_bo	<fripig>: (CrBoy: 什麼狀況？) 網路突然好了
+2019-08-17 13:19:39	COSCUP_bridge_bo	<fripig>: 305有人站門口不進來不關門 冷氣會跑掉啊Xddd
+2019-08-17 13:20:59	COSCUP_bridge_bo	<CrBoy>: (fripig: 305有人...) 這是佛系勸說嗎XD
+2019-08-17 13:21:43	COSCUP_bridge_bo	<fripig>: (CrBoy: 這是佛系勸...) 因為有點遠 直接出聲會干擾教師咩
+2019-08-17 13:23:26	COSCUP_bridge_bo	<CrBoy>: (fripig: 因為有點遠...) 那有沒有誰待會路過跟他說一下XD
+2019-08-17 13:24:04	COSCUP_bridge_bo	<一尾>: 門口有點滿 總之我勸一下
+2019-08-17 13:27:22	COSCUP_bridge_bo	<joeangel>: 感謝 已轉達主持人
+2019-08-17 13:31:02	COSCUP_bridge_bo	<fourdollars>: WiFi 好像回來了
+2019-08-17 13:31:20	-->	mark97 (650a52cc@101.10.82.204) has joined #coscup
+2019-08-17 13:32:25	<--	mark97 (650a52cc@101.10.82.204) has quit (Remote host closed the connection)
+2019-08-17 13:33:06	-->	freedom (b4ccd603@180.204.214.3) has joined #coscup
+2019-08-17 13:38:48	-->	asahsieh_ (uid28213@gateway/web/irccloud.com/x-mrvepmpellirdxmt) has joined #coscup
+2019-08-17 13:40:04	-->	waeting (7288a55e@114-136-165-94.emome-ip.hinet.net) has joined #coscup
+2019-08-17 13:40:56	-->	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 13:45:23	<--	d0gm4n (uid38259@gateway/web/irccloud.com/x-hrudyhrlnpjdkwst) has quit (Quit: Connection closed for inactivity)
+2019-08-17 13:47:29	COSCUP_bridge_bo	<timcheng>: IB305 排隊好長呀
+2019-08-17 13:49:40	COSCUP_bridge_bo	<fuchiao>: IB202 沒有串流嗎
+2019-08-17 13:50:56	COSCUP_bridge_bo	<canyu>: (fuchiao: IB202...) 目前串流有問題，會後處理完成會釋出錄影檔
+2019-08-17 13:52:07	<--	waeting (7288a55e@114-136-165-94.emome-ip.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-17 13:53:15	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Quit: mp607)
+2019-08-17 13:54:22	COSCUP_bridge_bo	<fntsrlike>: (timcheng: IB305...) 是在排 14:00 的議程嗎
+2019-08-17 13:54:38	COSCUP_bridge_bo	<timcheng>: 好像是
+2019-08-17 13:55:00	COSCUP_bridge_bo	<timcheng>: https://i.imgur.com/X9B0HwQ.jpg
+2019-08-17 13:57:26	COSCUP_bridge_bo	<TristaTu>: https://reurl.cc/jbnen
+2019-08-17 13:57:26	COSCUP_bridge_bo	[Title] COSCUP 2019 BoF 報名處
+2019-08-17 13:57:37	COSCUP_bridge_bo	<TristaTu>: BoF https://i.imgur.com/FsU8dVA.jpg
+2019-08-17 13:58:07	COSCUP_bridge_bo	<barneybook>: https://i.imgur.com/wm5swOm.jpg
+2019-08-17 13:58:09	COSCUP_bridge_bo	<Jerry>: 議程組錯估想轉職的人潮了 305現在是走廊系列
+2019-08-17 13:58:16	COSCUP_bridge_bo	<barneybook>: (Reply to barneybook) 305爆炸
+2019-08-17 13:58:17	COSCUP_bridge_bo	<Jerry>: 搖滾區
+2019-08-17 13:58:39	COSCUP_bridge_bo	<Jerry>: Telegram會轉回irc嗎？怕這邊講話大家聽不到
+2019-08-17 13:58:51	COSCUP_bridge_bo	<Jerry>: 305可以來可是要有坐地板準備
+2019-08-17 14:02:56	COSCUP_bridge_bo	<hellorose>: 我在睡覺
+2019-08-17 14:03:29	COSCUP_bridge_bo	<CrBoy>: (Jerry: Teleg...) 會轉（正常的話）
+2019-08-17 14:05:33	COSCUP_bridge_bo	<bestony>: 说起来，摄影师的照片最后可以在官网下载么？
+2019-08-17 14:06:10	COSCUP_bridge_bo	<othree>: 官方的會上官方相簿
+2019-08-17 14:06:23	COSCUP_bridge_bo	<othree>: 以往都在 Flickr
+2019-08-17 14:06:33	COSCUP_bridge_bo	<bestony>: 好的
+2019-08-17 14:06:35	COSCUP_bridge_bo	<bestony>: 我去翻翻
+2019-08-17 14:07:34	COSCUP_bridge_bo	<rsghost>: 剛剛才發現是那篇文的作者，好想去啊XDD
+2019-08-17 14:09:45	COSCUP_bridge_bo	<bobchao>: (bestony: 我去翻翻) 啊啊沒有那麼快通常要一陣子 XD 你也可以問 track coordinator 他有沒有派人拍
+2019-08-17 14:09:52	COSCUP_bridge_bo	<bestony>: 👍
+2019-08-17 14:09:53	COSCUP_bridge_bo	<brlin_tw>: 我有一個迎賓袋不知道丟哪裡去了，裡面有一個小型白色手持電風扇，有找到的話請跟我聯繫
+2019-08-17 14:11:07	COSCUP_bridge_bo	<brlin_tw>: 移動範圍：1、2F、IB503
+2019-08-17 14:12:05	-->	sntc06 (~sntc06@neptune.snowtec.org) has joined #coscup
+2019-08-17 14:12:06	COSCUP_bridge_bo	<joeangel>: (timcheng: IB305...) 超... 超多，主持人差點進不來..
+2019-08-17 14:12:17	COSCUP_bridge_bo	<brlin_tw>: (brlin_tw: 我有一個迎...) 找到了，感謝工作人員
+2019-08-17 14:16:09	COSCUP_bridge_bo	<ArisuShizuku>: 😈 https://i.imgur.com/d5uWDxf.png
+2019-08-17 14:16:12	COSCUP_bridge_bo	<Shawn_N>: 🙂 https://i.imgur.com/yfQRN4t.png
+2019-08-17 14:16:32	-->	ofy_ (~ofy@2001-b011-fc02-2e49-a413-ac79-9437-66ba.dynamic-ip6.hinet.net) has joined #coscup
+2019-08-17 14:19:07	COSCUP_bridge_bo	<Sheng-Min>: 305 為什麼鎖門? 現在議程這樣排本來就會有時間上喬不攏的情況
+2019-08-17 14:19:37	<--	ofy (~ofy@1-172-3-61.dynamic-ip.hinet.net) has quit (Ping timeout: 244 seconds)
+2019-08-17 14:19:56	COSCUP_bridge_bo	<fripig>: (Sheng-Min: 305 為...) 應該是滿到沒辦法再進去了
+2019-08-17 14:20:25	COSCUP_bridge_bo	<PingNote>: (Sheng-Min: 305 為...) 報：305 鎖的是後門，後門沒通道供進出，前門沒鎖但裡面已滿員
+2019-08-17 14:21:40	<--	ofy_ (~ofy@2001-b011-fc02-2e49-a413-ac79-9437-66ba.dynamic-ip6.hinet.net) has quit (Ping timeout: 264 seconds)
+2019-08-17 14:22:23	COSCUP_bridge_bo	<Sheng-Min>: (fripig: 應該是滿到...) 那也不應該現制別人不能在窗邊旁聽啊
+2019-08-17 14:22:46	COSCUP_bridge_bo	<joeangel>: (Sheng-Min: 305 為...) 305 鎖後門，因為後面有滿滿的桌子、沒有動線可走路，整天沒有開過，請走前門可以進入
+2019-08-17 14:23:06	-->	mp607 (~mp607@ip134-6.wlan.ntust.edu.tw) has joined #coscup
+2019-08-17 14:25:08	-->	mp607_ (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 14:25:20	COSCUP_bridge_bo	<joeangel>: 所以門常關；前門沒開是因為冷氣跑出去太熱了，窗簾要問會眾.. 🙈 我們沒有去關窗簾（也沒有再繞過前台去把窗簾拉開就是.. 在演講orz
+2019-08-17 14:27:41	<--	mp607 (~mp607@ip134-6.wlan.ntust.edu.tw) has quit (Ping timeout: 258 seconds)
+2019-08-17 14:27:41	--	mp607_ is now known as mp607
+2019-08-17 14:32:09	COSCUP_bridge_bo	<Jerry>: 305的梗有點政治不正確，可以寫嗎（？）  （講的人自己身份很正確..）
+2019-08-17 14:32:39	COSCUP_bridge_bo	<bobchao>: (Jerry: 305的梗...) 就... 自己斟酌一下或舉手問講者好了
+2019-08-17 14:32:48	COSCUP_bridge_bo	<Jerry>: “外國工作都不承認雙重國籍須放棄母國身份，但是台灣不是一個國家”
+2019-08-17 14:32:56	<--	freedom (b4ccd603@180.204.214.3) has quit (Remote host closed the connection)
+2019-08-17 14:33:03	COSCUP_bridge_bo	<Jerry>: 全場笑了三十秒以上
+2019-08-17 14:33:07	COSCUP_bridge_bo	<bobchao>: 喔這個我知道
+2019-08-17 14:33:27	COSCUP_bridge_bo	<bobchao>: 某種程度上莫名地變成方便的事情 （炸飛）
+2019-08-17 14:33:30	COSCUP_bridge_bo	<Jerry>: 🎖 https://i.imgur.com/gAowonE.png
+2019-08-17 14:34:55	COSCUP_bridge_bo	<joeangel>: 😎 https://i.imgur.com/RIi2lgW.png
+2019-08-17 14:37:27	COSCUP_bridge_bo	<TonyQtw>: 301 正在講 lanuage grammer
+2019-08-17 14:37:43	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Quit: mp607)
+2019-08-17 14:38:55	COSCUP_bridge_bo	<chusiang>: 提問，哪邊有網路可以讓我上傳簡報？敝人的 4G 網路每每傳到 34% 就卡住了。XDD
+2019-08-17 14:39:18	COSCUP_bridge_bo	<iamhlb>: 被 censor 了！
+2019-08-17 14:39:45	COSCUP_bridge_bo	<joeangel>: 履歷用 Excel 寫，先加五十分
+2019-08-17 14:40:10	-->	tonyq_____ (uid32846@gateway/web/irccloud.com/x-ajzjalukanykypnq) has joined #coscup
+2019-08-17 14:40:15	COSCUP_bridge_bo	<fourdollars>: @chusiang 一樓會議室裡面有有線網路的孔，不曉得能不能用。
+2019-08-17 14:40:22	COSCUP_bridge_bo	<PingNote>: (joeangel: 「履歷用...) 聽起來很日本 www
+2019-08-17 14:40:24	COSCUP_bridge_bo	<joeangel>: (chusiang: 提問，哪邊...) 要回來找我嗎ww 我的網路還行
+2019-08-17 14:40:58	COSCUP_bridge_bo	<chusiang>: (fourdollars: @chus...) 感謝，下個議程換地點再來試了。XDD
+2019-08-17 14:41:17	COSCUP_bridge_bo	<chusiang>: (joeangel: 要回來找我...) 等等見。(咦？！)
+2019-08-17 14:41:26	COSCUP_bridge_bo	<joeangel>: 🙂 https://i.imgur.com/n2gii8d.png
+2019-08-17 14:42:54	COSCUP_bridge_bo	<greyli>: 欢迎两点五十五分来 202~ https://coscup.org/2019/programs/787db403-6b67-4599-9f39-74a078545cfa/
+2019-08-17 14:42:56	COSCUP_bridge_bo	[Title] 如何在两年内从初学者成长为流行开源项目维护者和技术书作者？ by 李辉 | COSCUP 2019 | Conference for Open Source Coders, Users, and Promoters
+2019-08-17 14:43:08	COSCUP_bridge_bo	<greyli>: https://i.imgur.com/6c0zfPA.jpg
+2019-08-17 14:43:40	COSCUP_bridge_bo	<pennyken>: (chusiang: 提問，哪邊...) 要來服務台嗎？
+2019-08-17 14:44:46	COSCUP_bridge_bo	<joeangel>: 服務台也可以！
+2019-08-17 14:44:59	tonyq_____	301 這場還滿有趣的，只是講的代號有點多，可能有些人已經在符號海迷失了。
+2019-08-17 14:46:52	-->	fieliapm (8c7687b6@ip135-182.wlan.ntust.edu.tw) has joined #coscup
+2019-08-17 14:59:25	COSCUP_bridge_bo	<Kevin>: 202也好爆炸
+2019-08-17 14:59:40	COSCUP_bridge_bo	<daisuke1230>: (Kevin: 202也好...) 202我只知道掉下來的AP (X
+2019-08-17 15:01:58	COSCUP_bridge_bo	<brlin_tw>: 早上IB503的demo:  https://snapcraft.io/taiwan-consensus
+2019-08-17 15:01:59	COSCUP_bridge_bo	[Title] Install taiwan-consensus for Linux using the Snap Store | Snapcraft
+2019-08-17 15:02:00	-->	waeting (d3171f02@211-23-31-2.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 15:03:22	COSCUP_bridge_bo	<OtomeSound>: 301要實作過才知道那感覺，用聽的要花點時間
+2019-08-17 15:03:42	COSCUP_bridge_bo	<brlin_tw>: 用台語講Tensorflow好威
+2019-08-17 15:04:12	-->	j5a6s7o8n (df8862ff@223-136-98-255.emome-ip.hinet.net) has joined #coscup
+2019-08-17 15:05:49	COSCUP_bridge_bo	<joeangel>: 我們把窗簾拉開了，這場地上還可以坐，可以進來 #IB305
+2019-08-17 15:06:08	COSCUP_bridge_bo	<smailzhu>: (brlin_tw: 用台語講T...) 請問是哪場？
+2019-08-17 15:06:15	COSCUP_bridge_bo	<chusiang>: 我用「COSCUP 2019」的 AP 上傳完了！OH YA ~~~  ▌ [Day1] 系統工程師的打怪升級之旅 by 凍仁翔 ▌ - https://speakerdeck.com/chusiang/my-devops-tour-0-dot-1
+2019-08-17 15:06:16	COSCUP_bridge_bo	[Title] My DevOps Tour 0.1 - Speaker Deck
+2019-08-17 15:06:33	COSCUP_bridge_bo	<joeangel>: (chusiang: 我用「CO...) #IB305
+2019-08-17 15:07:02	COSCUP_bridge_bo	<chusiang>: @joeangel 已補上 #IB305。thank you.
+2019-08-17 15:07:24	COSCUP_bridge_bo	<joeangel>: 👍 https://i.imgur.com/2kbngmw.png
+2019-08-17 15:08:12	COSCUP_bridge_bo	<brlin_tw>: (smailzhu: 請問是哪場...) IB503
+2019-08-17 15:09:07	<--	waeting (d3171f02@211-23-31-2.HINET-IP.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-17 15:10:07	<--	fieliapm (8c7687b6@ip135-182.wlan.ntust.edu.tw) has quit (Remote host closed the connection)
+2019-08-17 15:12:17	COSCUP_bridge_bo	<barneybook>: [202] 不要談戀愛
+2019-08-17 15:14:15	<--	j5a6s7o8n (df8862ff@223-136-98-255.emome-ip.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-17 15:15:29	COSCUP_bridge_bo	<joekaojoekao>: [202] 感謝父母曾經的衝動
+2019-08-17 15:16:24	COSCUP_bridge_bo	<smailzhu>: (brlin_tw: IB503...) 感謝
+2019-08-17 15:18:49	COSCUP_bridge_bo	<joekaojoekao>: 問: OPass更新後好像favorate tag會全部消失?
+2019-08-17 15:19:14	COSCUP_bridge_bo	<DennyHuang>: (joekaojoekao: 問: OP...) Android? iOS?
+2019-08-17 15:19:16	COSCUP_bridge_bo	<pennyken>: 那個平台？
+2019-08-17 15:19:33	COSCUP_bridge_bo	<joekaojoekao>: (DennyHuang: Andro...) iOS
+2019-08-17 15:19:39	COSCUP_bridge_bo	<joekaojoekao>: 剛剛才發現全部消失了 原本兩天都有打好tag
+2019-08-17 15:20:01	COSCUP_bridge_bo	<DennyHuang>: @Haraguroicha @FrankWu ^
+2019-08-17 15:22:02	-->	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 15:22:14	COSCUP_bridge_bo	<linroex>: https://i.imgur.com/OHfuoKO.jpg
+2019-08-17 15:22:15	COSCUP_bridge_bo	<linroex>: https://i.imgur.com/LB6GVz5.jpg
+2019-08-17 15:23:28	COSCUP_bridge_bo	<brlin_tw>: IB503教室後方有遺留一迎賓袋 https://i.imgur.com/LOAbdTt.jpg
+2019-08-17 15:23:46	COSCUP_bridge_bo	<linroex>: https://i.imgur.com/V2EZONc.jpg
+2019-08-17 15:26:00	COSCUP_bridge_bo	<joeangel>: ฅ'ω'ฅ
+2019-08-17 15:26:28	COSCUP_bridge_bo	<FrankWu>: (joekaojoekao: 問: OP...) @Haraguroicha
+2019-08-17 15:27:01	COSCUP_bridge_bo	<TristaTu>: (Reply to brlin_tw) 服務台有失物招領區唷~
+2019-08-17 15:27:44	COSCUP_bridge_bo	<brlin_tw>: OK
+2019-08-17 15:28:31	COSCUP_bridge_bo	<yucheng77>: 305 前門也被鎖起來了
+2019-08-17 15:28:54	COSCUP_bridge_bo	<joeangel>: 我來處理
+2019-08-17 15:29:34	COSCUP_bridge_bo	<Haraguroicha>: (joekaojoekao: 問: OP...) 會，因為我忘了寫去 UserDefaults 這回事會被更新覆蓋
+2019-08-17 15:30:03	COSCUP_bridge_bo	<joeangel>: (yucheng77: 305 前...) 門已開。請大家不要將門把後的按鈕按下去wwww
+2019-08-17 15:31:19	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Read error: Connection reset by peer)
+2019-08-17 15:32:43	-->	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 15:37:15	COSCUP_bridge_bo	<thehyyu>: @joeangel 請問有app 兩位講師的slide link 嗎？謝謝您XD
+2019-08-17 15:40:16	COSCUP_bridge_bo	<alieonsido>: 救命 有沒有人看到我的水壺QQ 保溫杯 上面有吊環 杯蓋上有貼名字跟手機
+2019-08-17 15:40:54	COSCUP_bridge_bo	<joeangel>: (alieonsido: 救命 有沒...) 移動範圍是（？
+2019-08-17 15:41:17	COSCUP_bridge_bo	<alieonsido>: 三樓跟五樓
+2019-08-17 15:41:33	COSCUP_bridge_bo	<alieonsido>: 剛剛最後一個聽的是502的IoT security
+2019-08-17 15:41:36	COSCUP_bridge_bo	<蒼井仁美>: 301PEG那場有任何簡報連結嗎 感謝<(_ _)>
+2019-08-17 15:42:27	COSCUP_bridge_bo	<alieonsido>: 顏色是銀色ㄉ
+2019-08-17 15:42:30	COSCUP_bridge_bo	<oTo_To_T>: 問個那些直播會在哪
+2019-08-17 15:42:36	COSCUP_bridge_bo	<joeangel>: (thehyyu: @joea...) QA 可以問 我也可以問講者
+2019-08-17 15:43:35	tonyq_____	剛剛 301 這個講者有個反思我覺得蠻有意思的
+2019-08-17 15:43:47	tonyq_____	在反思 callback 跟 future 的一面倒是不是真的是比較好的
+2019-08-17 15:44:02	tonyq_____	我覺得在社群表達這樣的思考是很難得的
+2019-08-17 15:45:19	COSCUP_bridge_bo	<joeangel>: (thehyyu: @joea...) 講者們會再丟出來 🙂
+2019-08-17 15:47:09	tonyq_____	301 講者後面的牆的討論聲量有點高過頭了
+2019-08-17 15:47:16	tonyq_____	對裡面的講者跟聽眾有點干擾
+2019-08-17 15:47:26	COSCUP_bridge_bo	<alieonsido>: 不好意思 剛剛在502找到了 貌似是別人的袋子放在離我袋子很近的地方 我拿錯了
+2019-08-17 15:48:05	COSCUP_bridge_bo	<alieonsido>: 然後我剛剛的袋子放在502我原本坐的地方了
+2019-08-17 15:48:19	COSCUP_bridge_bo	<fourdollars>: XD
+2019-08-17 15:48:24	COSCUP_bridge_bo	<timtor>: (joekaojoekao: 問: OP...) 剛剛遇到一樣的問題😣
+2019-08-17 15:52:13	COSCUP_bridge_bo	<pennyken>: (oTo_To_T: 問個那些直...) 基本上除了IB101之外，都是錄影，但是有些議程沒有授權不能錄影
+2019-08-17 15:52:50	COSCUP_bridge_bo	<joeangel>: \\晚上歡迎到 SITOCN BoF 找我們聊天//
+2019-08-17 15:53:03	COSCUP_bridge_bo	<joeangel>: 台大應力館 101室
+2019-08-17 15:54:07	COSCUP_bridge_bo	<alieonsido>: IB503 中文太6了吧
+2019-08-17 15:55:16	a0000778	後悔沒看 IB201 上一場，會後有錄影資料嗎？
+2019-08-17 16:02:24	COSCUP_bridge_bo	<brlin_tw>: https://i.imgur.com/RcWKeiH.jpg
+2019-08-17 16:04:13	COSCUP_bridge_bo	<s8321414>: 😂 https://i.imgur.com/s0Rw857.png
+2019-08-17 16:04:33	COSCUP_bridge_bo	<蒼井仁美>: 戰什麼戰 大家都是文組啊
+2019-08-17 16:05:05	COSCUP_bridge_bo	<alieonsido>: 你全家都文組啦 嘻嘻
+2019-08-17 16:05:12	COSCUP_bridge_bo	<ijliao>: (alieonsido: IB503...) 根本就是老外裡的鄉民 !
+2019-08-17 16:05:26	COSCUP_bridge_bo	<蒼井仁美>: 從C到RUST每一軌都在講語言 怎麼不文組(X
+2019-08-17 16:06:08	COSCUP_bridge_bo	<OtomeSound>: 用latex才有機會被教授收編當文書(?
+2019-08-17 16:06:45	COSCUP_bridge_bo	<davy_0xff>: 我以為是寫一個 word to latex translator
+2019-08-17 16:08:08	COSCUP_bridge_bo	<BoxyHuang>: 用Latex錯了嗎...
+2019-08-17 16:12:00	COSCUP_bridge_bo	<alieonsido>: IB503 為什麼沒有Sublime！
+2019-08-17 16:12:12	COSCUP_bridge_bo	<alieonsido>: 身為 Sublime 用戶 玻璃心大爆炸當中
+2019-08-17 16:13:21	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-17 16:13:42	COSCUP_bridge_bo	<abev66>: 這是不是什麼團康遊戲
+2019-08-17 16:13:49	COSCUP_bridge_bo	<alieonsido>: FINAL V99999.999
+2019-08-17 16:13:52	COSCUP_bridge_bo	<oTo_To_T>: 有人有web cell那個群ㄇ，好奇想看個
+2019-08-17 16:14:57	-->	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 16:15:27	COSCUP_bridge_bo	<TommyChapter>: https://i.imgur.com/g8Ibnwt.jpg
+2019-08-17 16:15:45	COSCUP_bridge_bo	<TommyChapter>: Ib201撿到 送往服務台
+2019-08-17 16:17:59	<--	asahsieh (uid28213@gateway/web/irccloud.com/x-noyhhyvaszqqizue) has quit (Quit: Connection closed for inactivity)
+2019-08-17 16:17:59	<--	asahsieh_ (uid28213@gateway/web/irccloud.com/x-mrvepmpellirdxmt) has quit (Quit: Connection closed for inactivity)
+2019-08-17 16:21:02	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 272 seconds)
+2019-08-17 16:22:25	-->	a0000778 (~a0000778@114.35.181.217) has joined #coscup
+2019-08-17 16:24:05	-->	j5a6s7o8n (df8862ff@223-136-98-255.emome-ip.hinet.net) has joined #coscup
+2019-08-17 16:24:39	<--	j5a6s7o8n (df8862ff@223-136-98-255.emome-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-17 16:25:28	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-17 16:27:00	COSCUP_bridge_bo	<chihchun>: 感覺今年女性聽眾比例上升許多 第一次前左右都是女孩。有統計數據嗎？😁
+2019-08-17 16:32:06	COSCUP_bridge_bo	<TommyChapter>: https://i.imgur.com/fMYEUFF.jpg
+2019-08-17 16:32:28	COSCUP_bridge_bo	<TommyChapter>: 一大包遺失物 送往服務台
+2019-08-17 16:33:18	COSCUP_bridge_bo	<Leon>: 可是不好的內容不是17的賣點嗎？
+2019-08-17 16:34:58	COSCUP_bridge_bo	<TommyChapter>: (TommyChapter: 一大包遺失...) 306
+2019-08-17 16:36:14	COSCUP_bridge_bo	<abev66>: 「OK 好 👌🏻」
+2019-08-17 16:38:07	COSCUP_bridge_bo	<joekaojoekao>: 「原本有國旗 變成字了」 顆
+2019-08-17 16:39:04	COSCUP_bridge_bo	<Kuang-che>: Bob 不是說跟 COSCUP 主題有關嗎
+2019-08-17 16:39:49	COSCUP_bridge_bo	<chihchun>: (Kuang-che: Bob 不...) 呵
+2019-08-17 16:54:46	COSCUP_bridge_bo	<sarsc>: 有點可惜  OpenTok 應該有些內容可以說 只是在 iOS 端的確就沒太多可以著墨的
+2019-08-17 16:56:01	COSCUP_bridge_bo	<Jerry>: 偷偷問：閃電講報名狀況如何？   <-想到如果有很大的機率沒被抽到就很懶得做投影片..XD
+2019-08-17 16:59:08	<--	vincentsu (uid181072@gateway/web/irccloud.com/x-yposvenmnfwwqukm) has quit (Quit: Connection closed for inactivity)
+2019-08-17 17:07:20	COSCUP_bridge_bo	<TristaTu>: [服務台] 失物招領：耳機、轉接頭、帽子、停車繳費單、眼鏡盒、外套、背心、水瓶、延長線 請失主 17:40 前到服務台領取~(明天營業時間為 09:00 後~) 撿到遺失物也歡迎送來服務台唷~
+2019-08-17 17:21:22	COSCUP_bridge_bo	<bobchao>: (Jerry: 偷偷問：閃...) 還真的不知道… 應該是明天早上才會看一下  你也可以挑戰沒投影片講呀
+2019-08-17 17:22:10	COSCUP_bridge_bo	<joeangel>: bit.ly/BoF2019
+2019-08-17 17:22:38	COSCUP_bridge_bo	<bobchao>: (Kuang-che: Bob 不...) 有用 open source 東西啦，這是最基礎標準
+2019-08-17 17:22:40	COSCUP_bridge_bo	<Jerry>: 現在終於知道講者為什麼都會壓死線交投影片了  我腦中出現不想做投影片這個念頭，真的母湯！XD
+2019-08-17 17:23:14	<--	a0000778 (~a0000778@114.35.181.217) has quit (Ping timeout: 258 seconds)
+2019-08-17 17:24:44	COSCUP_bridge_bo	<TristaTu>: [服務台] 失物招領：耳機、轉接頭、帽子、停車繳費單、眼鏡盒、外套、背心、水瓶、延長線、Mac 請失主 17:40 前到服務台領取~(明天營業時間為 09:00 後~) 撿到遺失物也歡迎送來服務台唷~
+2019-08-17 17:25:05	-->	a0000778 (~a0000778@114.35.181.217) has joined #coscup
+2019-08-17 17:25:08	COSCUP_bridge_bo	<davy_0xff>: mac 是怎樣XDDDD
+2019-08-17 17:28:49	COSCUP_bridge_bo	<Yuan218>: Mac XDD
+2019-08-17 17:29:18	COSCUP_bridge_bo	<GamerGary>: 關鍵字 Mac
+2019-08-17 17:29:44	COSCUP_bridge_bo	<RainnyQ>: (TristaTu: [服務台]...) 遺失mac的夥伴，請趕快至服務台，謝謝！
+2019-08-17 17:32:29	COSCUP_bridge_bo	<joekaojoekao>: (davy_0xff: mac 是...) 可能現場開始排隊踹密碼
+2019-08-17 17:32:54	COSCUP_bridge_bo	<imkojima>: (joekaojoekao: 可能現場開...) 石中劍？
+2019-08-17 17:33:13	COSCUP_bridge_bo	<RainnyQ>: 不要說的這麼明白~~~😆
+2019-08-17 17:34:24	COSCUP_bridge_bo	<Sciuridae>: Command-R 沒
+2019-08-17 17:35:55	COSCUP_bridge_bo	<davy_0xff>: (RainnyQ: 遺失 #m...) 大會公告也許可以上 hashtag ，這樣大家比較方便找公告
+2019-08-17 17:36:15	COSCUP_bridge_bo	<davy_0xff>: telegram 的部分啦
+2019-08-17 17:41:41	COSCUP_bridge_bo	<Irvin>: 閃電講在哪裡報名？某面牆嗎？
+2019-08-17 17:42:03	COSCUP_bridge_bo	<Sciuridae>: OPass 或 服務台
+2019-08-17 17:42:18	COSCUP_bridge_bo	<davy_0xff>: 這麼方便 app 還可以報名哦XD
+2019-08-17 17:42:37	COSCUP_bridge_bo	<Sciuridae>: 裡面有連結 （？
+2019-08-17 19:23:21	-->	lantw44 (~Ting-Wei_@106.104.151.171) has joined #coscup
+2019-08-17 19:23:21	--	Topic for #coscup is "[UTF8] COSCUP 開源人年會  https://coscup.org/ | 2019 共筆請見議程表"
+2019-08-17 19:23:21	--	Topic set by bobchao (70681c7b@112-104-28-123.adsl.dynamic.seed.net.tw) on Thu, 15 Aug 2019 22:06:20
+2019-08-17 19:23:21	--	Channel #coscup: 45 nicks (0 ops, 0 voices, 45 normals)
+2019-08-17 19:23:27	--	Channel created on Sat, 22 Mar 2008 22:31:50
+2019-08-17 19:26:49	-->	Denir_ (7a92461a@122.146.70.26) has joined #coscup
+2019-08-17 19:33:24	<--	a0000778 (~a0000778@114.35.181.217) has quit (Ping timeout: 248 seconds)
+2019-08-17 19:35:26	-->	a0000778 (~a0000778@114.35.181.217) has joined #coscup
+2019-08-17 19:49:21	COSCUP_bridge_bo	<NightFeather>: 問個 沒有票的能去社群攤位嗎
+2019-08-17 19:52:22	<--	a0000778 (~a0000778@114.35.181.217) has quit (Ping timeout: 258 seconds)
+2019-08-17 19:54:19	-->	a0000778 (~a0000778@114.35.181.217) has joined #coscup
+2019-08-17 20:36:16	<--	a0000778 (~a0000778@114.35.181.217) has quit (Ping timeout: 272 seconds)
+2019-08-17 20:37:43	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 21:04:27	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 268 seconds)
+2019-08-17 21:05:47	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-17 21:09:28	COSCUP_bridge_bo	<teltelro>: 剛才在學校的版看到
+2019-08-17 21:09:38	COSCUP_bridge_bo	<teltelro>: 國際大樓現在大停電
+2019-08-17 21:09:42	COSCUP_bridge_bo	<teltelro>: 不知道會不會影響到明天
+2019-08-17 21:10:11	COSCUP_bridge_bo	<teltelro>: 看起來是全校都停電了
+2019-08-17 21:10:20	COSCUP_bridge_bo	<pennyken>: https://news.tvbs.com.tw/life/1184961
+2019-08-17 21:10:21	COSCUP_bridge_bo	[Title] 「開源」減人力成本 業者推自販機+智慧支付│TVBS新聞網
+2019-08-17 21:10:29	COSCUP_bridge_bo	<pennyken>: 關鍵字訂閱收到這個
+2019-08-17 21:10:50	COSCUP_bridge_bo	<pennyken>: 「開源」節流的開源
+2019-08-17 21:11:08	COSCUP_bridge_bo	<pennyken>: (teltelro: 國際大樓現...) 囧，好險設備都有關機
+2019-08-17 21:22:28	COSCUP_bridge_bo	<ptc0219>: (teltelro: 國際大樓現...) 聽說影響範圍是全校XD
+2019-08-17 21:23:01	COSCUP_bridge_bo	<teltelro>: 要祈禱最好今晚能夠恢復了XD
+2019-08-17 21:23:43	COSCUP_bridge_bo	<lin4h>: 先問是什麼情況吧
+2019-08-17 21:24:05	COSCUP_bridge_bo	<lin4h>: 如果是變電箱爆就GG了
+2019-08-17 21:24:16	COSCUP_bridge_bo	<jackycute>: 閃電講什麼時候公佈名單啊XDDDD
+2019-08-17 21:24:21	COSCUP_bridge_bo	<teltelro>: 哇塞
+2019-08-17 21:24:24	COSCUP_bridge_bo	<teltelro>: 好多消防車
+2019-08-17 21:24:26	COSCUP_bridge_bo	<teltelro>: 跑來學校了
+2019-08-17 21:24:59	COSCUP_bridge_bo	<teltelro>: 4台消防車
+2019-08-17 21:26:05	COSCUP_bridge_bo	<ptc0219>: (teltelro: 4台消防車) 這.................
+2019-08-17 21:26:18	<--	Denir (~AndChat99@180.217.161.18) has quit (Ping timeout: 272 seconds)
+2019-08-17 21:26:20	COSCUP_bridge_bo	<alchotw>: 消防車....
+2019-08-17 21:26:31	COSCUP_bridge_bo	<vincentinttsh>: 本校的台電高壓電纜因施工廠商施工不慎挖斷，導致全校停電。
+2019-08-17 21:26:52	COSCUP_bridge_bo	<vincentinttsh>: (vincentinttsh: 本校的台電...) 台科大公布的
+2019-08-17 21:27:03	COSCUP_bridge_bo	<ptc0219>: https://i.imgur.com/7TLxuoR.jpg
+2019-08-17 21:28:45	COSCUP_bridge_bo	<pennyken>: 辛苦大會的工作人員了
+2019-08-17 21:29:21	COSCUP_bridge_bo	<teltelro>: 我現在很尷尬，回不去宿舍
+2019-08-17 21:29:34	COSCUP_bridge_bo	<teltelro>: 電梯停電，8樓懶得走
+2019-08-17 21:29:40	COSCUP_bridge_bo	<pennyken>: (teltelro: 我現在很尷...) 前線記者辛苦了
+2019-08-17 21:29:47	COSCUP_bridge_bo	<pennyken>: 而且宿舍也很熱吧
+2019-08-17 21:30:06	COSCUP_bridge_bo	<teltelro>: 熱爆
+2019-08-17 21:32:31	COSCUP_bridge_bo	<sss2500>: (Reply to blake7823) Hi
+2019-08-17 21:34:21	COSCUP_bridge_bo	<singing_li>: 台電客服目前還沒收到回報搶修時間要多久
+2019-08-17 21:34:51	-->	d0gm4n (uid38259@gateway/web/irccloud.com/x-thyqlrbgvuxbrudd) has joined #coscup
+2019-08-17 21:36:14	COSCUP_bridge_bo	<lin4h>: 可能要得先確認有沒有傷亡…
+2019-08-17 21:43:43	COSCUP_bridge_bo	<pennyken>: 「各位教職員生大家好: 因總站VCB設備故障導致全校停電,目前總務處營繕組人員及高壓設備廠商已返校處理,請大家注意人身安全,若有人需要協助紓困再請告知,盡快復電再請稍後」
+2019-08-17 21:43:46	COSCUP_bridge_bo	<pennyken>: (Reply to ptc0219) 這
+2019-08-17 21:45:31	COSCUP_bridge_bo	<teltelro>: 結果來了四台消防車，是來救被電梯受困的同學們 QQ
+2019-08-17 21:46:27	COSCUP_bridge_bo	<jukeyeejoker>: 🙄 https://i.imgur.com/CIFzvCG.png
+2019-08-17 21:47:30	COSCUP_bridge_bo	<MGdesigner>: 停電！！！
+2019-08-17 21:47:41	COSCUP_bridge_bo	<MGdesigner>: :O
+2019-08-17 21:48:36	COSCUP_bridge_bo	<jiachengx>: 哇，真是挑戰不斷
+2019-08-17 21:48:44	COSCUP_bridge_bo	<alchotw>: (teltelro: 結果來了四...) QQ 希望同學們平安
+2019-08-17 21:51:02	COSCUP_bridge_bo	<mousems>: 總務長表示
+2019-08-17 21:51:03	COSCUP_bridge_bo	<mousems>: https://i.imgur.com/rukht1f.jpg
+2019-08-17 21:52:05	COSCUP_bridge_bo	<MGdesigner>: 明天準備大字報來做簡報？
+2019-08-17 21:53:20	COSCUP_bridge_bo	<MGdesigner>: (chihchun: 感覺今年女...) 好像是真的耶
+2019-08-17 22:00:53	COSCUP_bridge_bo	<MGdesigner>: 希望明天能復電啊
+2019-08-17 22:02:52	COSCUP_bridge_bo	<singing_li>: COSCUP 大會現在持續關心停電狀況，先來問一下，會不會剛好有 COSCUP 網友認識臺大職員，有可能明天可以借用到台大教室呢？
+2019-08-17 22:03:12	-->	Denir (~AndChat99@180.217.171.23) has joined #coscup
+2019-08-17 22:06:08	COSCUP_bridge_bo	<teltelro>: (singing_li: COSCU...) “聽說”台大也停電 ?
+2019-08-17 22:06:40	COSCUP_bridge_bo	<pennyken>: 同一條高壓的話，勢必要斷電才能搶修
+2019-08-17 22:06:47	COSCUP_bridge_bo	<singing_li>: SITCON BoF 在台大應力所，目前沒問題！
+2019-08-17 22:07:00	COSCUP_bridge_bo	<teltelro>: (singing_li: SITCO...) 喔喔好的，感謝
+2019-08-17 22:07:01	-->	Denir__ (~Denir___@39-8-62-46.adsl.fetnet.net) has joined #coscup
+2019-08-17 22:07:01	COSCUP_bridge_bo	<singing_li>: 台大也滿大的拉，可能是某個小小角落停電了
+2019-08-17 22:09:14	-->	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has joined #coscup
+2019-08-17 22:09:36	COSCUP_bridge_bo	<pennyken>: https://i.imgur.com/KgY53s3.jpg
+2019-08-17 22:09:42	COSCUP_bridge_bo	<pennyken>: 看來就是基隆路這側
+2019-08-17 22:10:39	COSCUP_bridge_bo	<chuanchan1116>: (vincentinttsh: 本校的台電...) 怎麼好像常常聽到這個原因（？
+2019-08-17 22:10:55	COSCUP_bridge_bo	<pennyken>: 南六推文內已恢復
+2019-08-17 22:11:09	COSCUP_bridge_bo	<RainnyQ>: (jackycute: 閃電講什麼...) 明天最後一波報名再服務台前10-11點，Pass線上也可以報名~~
+2019-08-17 22:11:16	COSCUP_bridge_bo	<yoyo930021>: (chuanchan1116: 怎麼好像常...) 聽說這是上次不是這次新聞
+2019-08-17 22:13:38	COSCUP_bridge_bo	<ioan_lb>: https://i.imgur.com/iFP8gN1.jpg
+2019-08-17 22:15:10	COSCUP_bridge_bo	<pennyken>: https://i.imgur.com/5dbTLsb.jpg
+2019-08-17 22:16:24	COSCUP_bridge_bo	<pennyken>: https://news.tvbs.com.tw/local/1185507?fbclid=IwAR2sEgwUJENK_cWKEd-qeRhqu1Je6DGXd8k2GZPiNhToUhUzOd51jbbdf_o
+2019-08-17 22:16:25	COSCUP_bridge_bo	[Title] 快訊／台科大校園火警跳電 電梯受困警消搶救│TVBS新聞網
+2019-08-17 22:19:05	COSCUP_bridge_bo	<teltelro>: 研揚大樓 恢復電力了，感覺今晚應該能夠搶修完
+2019-08-17 22:22:49	<--	mp607 (~mp607@1-171-7-86.dynamic-ip.hinet.net) has quit (Quit: mp607)
+2019-08-17 22:24:13	COSCUP_bridge_bo	<singing_li>: 👍 https://i.imgur.com/bL3Bhdj.png
+2019-08-17 22:28:59	COSCUP_bridge_bo	<daisuke1230>: (teltelro: 研揚大樓...) 讚讚
+2019-08-17 22:30:06	COSCUP_bridge_bo	<alchotw>: 👍 https://i.imgur.com/Fueocyq.png
+2019-08-17 22:30:16	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 272 seconds)
+2019-08-17 22:31:48	-->	a0000778 (~a0000778@114.35.181.217) has joined #coscup
+2019-08-17 22:49:39	<--	a0000778 (~a0000778@114.35.181.217) has quit (Ping timeout: 248 seconds)
+2019-08-17 22:51:42	-->	a0000778 (~a0000778@114.35.181.217) has joined #coscup
+2019-08-17 23:09:21	COSCUP_bridge_bo	<GamerGary>: 再一個就1000人了
+2019-08-17 23:10:53	COSCUP_bridge_bo	<jefferysac>: (GamerGary: 再一個就1...) 開源一千壯士？
+2019-08-17 23:12:17	COSCUP_bridge_bo	<ioan_lb>: https://i.imgur.com/x7kjXkR.jpg
+2019-08-17 23:12:24	COSCUP_bridge_bo	<ioan_lb>: 做個紀錄
+2019-08-17 23:13:25	COSCUP_bridge_bo	<jefferysac>: (Reply to ioan_lb) 為什麼你右下角有一撇？
+2019-08-17 23:13:50	COSCUP_bridge_bo	<pennyken>: 手殘
+2019-08-17 23:13:53	COSCUP_bridge_bo	<CrBoy>: 截圖畫到而已吧
+2019-08-17 23:14:01	COSCUP_bridge_bo	<pennyken>: 截圖縮小去畫到
+2019-08-17 23:14:18	COSCUP_bridge_bo	<MGdesigner>: (singing_li: COSCU...) 我認識一位物理所的，我聯絡看看
+2019-08-17 23:14:47	COSCUP_bridge_bo	<singing_li>: (MGdesigner: 我認識一位...) 問題暫時排除了，還是很感謝你
+2019-08-17 23:14:57	COSCUP_bridge_bo	<MGdesigner>: 喔，ok
+2019-08-17 23:15:21	COSCUP_bridge_bo	<singing_li>: 台科大有一棟大樓目前有電了，我們會守候確定國際大樓的狀況
+2019-08-17 23:15:43	COSCUP_bridge_bo	<MGdesigner>: 他也是會眾，如果明天不行的話，我跟他說
+2019-08-17 23:20:44	COSCUP_bridge_bo	<pjxpj>: 恭喜
+2019-08-17 23:20:49	COSCUP_bridge_bo	<pennyken>: 一千拉
+2019-08-17 23:20:55	COSCUP_bridge_bo	<pjxpj>: 1000人XD
+2019-08-17 23:20:55	COSCUP_bridge_bo	<jukeyeejoker>: \1000/
+2019-08-17 23:20:56	COSCUP_bridge_bo	<pennyken>: 🧨
+2019-08-17 23:20:57	COSCUP_bridge_bo	<seadog007>: 冒出來呼吸ㄍ
+2019-08-17 23:21:03	COSCUP_bridge_bo	<TigerHuang>: 賀（？
+2019-08-17 23:21:12	COSCUP_bridge_bo	<TigerHuang>: 第一千位有獎品嗎（Ｘ
+2019-08-17 23:21:17	COSCUP_bridge_bo	<CrBoy>: (Reply to nella17_tw) 恭喜🎉
+2019-08-17 23:21:21	COSCUP_bridge_bo	<pennyken>: 虎虎的愛心？
+2019-08-17 23:21:45	COSCUP_bridge_bo	<Jerry>: 😁 https://i.imgur.com/uxmQ9GT.png
+2019-08-17 23:31:52	COSCUP_bridge_bo	<chusiang>: 這下成了線上線下都是 \ 千人研討會 / 的研討會了！
+2019-08-17 23:33:07	COSCUP_bridge_bo	<GamerGary>: 哇 這裡也有虎虎
+2019-08-17 23:34:34	COSCUP_bridge_bo	<IshengChen>: 好奇請問 這些議程會錄影上傳嗎 想看一些沒參加到的 謝謝
+2019-08-17 23:36:17	COSCUP_bridge_bo	<we684123>: (IshengChen: 好奇請問...) 可以參考看看(？ https://i.imgur.com/z5PON1G.jpg
+2019-08-17 23:38:26	COSCUP_bridge_bo	<IshengChen>: (Reply to we684123) 了解，已訂閱 謝謝你😃
+2019-08-17 23:44:33	<--	d0gm4n (uid38259@gateway/web/irccloud.com/x-thyqlrbgvuxbrudd) has quit (Quit: Connection closed for inactivity)
+2019-08-17 23:52:36	<--	a0000778 (~a0000778@114.35.181.217) has quit (Ping timeout: 272 seconds)
+2019-08-17 23:54:20	-->	a0000778 (~a0000778@114.35.181.217) has joined #coscup
+2019-08-18 00:07:48	<--	a0000778 (~a0000778@114.35.181.217) has quit (Ping timeout: 272 seconds)
+2019-08-18 00:07:54	COSCUP_bridge_bo	<teltelro>: https://i.imgur.com/HfZXFhU.jpg
+2019-08-18 00:09:12	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 00:09:29	COSCUP_bridge_bo	<dan_chen>: (Reply to teltelro) with the seasoning XD
+2019-08-18 00:10:18	COSCUP_bridge_bo	<teltelro>: 沒有燈 洗澡會怕欸
+2019-08-18 00:10:26	COSCUP_bridge_bo	<teltelro>: 🙈 https://i.imgur.com/e98Lkux.png
+2019-08-18 00:33:23	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-18 00:35:15	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 00:54:49	COSCUP_bridge_bo	<chusiang>: 說個鬼故事：#COSCUP2019 已經過完一半了。:P  大家晚安啦 ~~~
+2019-08-18 00:55:20	COSCUP_bridge_bo	<CrBoy>: (chusiang: 說個鬼故事...) 我的 COSCUP 2019 才正要開始....（怕）
+2019-08-18 00:55:52	COSCUP_bridge_bo	<chusiang>: (CrBoy: 我的 CO...) 早點休息。XDD
+2019-08-18 00:59:09	COSCUP_bridge_bo	<Haraguroicha>: (chusiang: 說個鬼故事...) 😃 https://i.imgur.com/EcVlxR0.png
+2019-08-18 01:36:21	COSCUP_bridge_bo	<tai271828>: (chihchun: 感覺今年女...) 我也這樣覺得  好像變多了
+2019-08-18 01:52:10	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 246 seconds)
+2019-08-18 01:54:10	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 02:06:06	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 258 seconds)
+2019-08-18 02:08:04	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 02:20:01	<--	dannyAAM (~dannyAAM@saru.saru.moe) has quit (Quit: znc.saru.moe : ZNC 1.6.2 - http://znc.in)
+2019-08-18 02:20:20	-->	dannyAAM (~dannyAAM@saru.saru.moe) has joined #coscup
+2019-08-18 02:52:24	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 244 seconds)
+2019-08-18 02:54:28	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 03:33:03	COSCUP_bridge_bo	<Jerry>: 整理信件的時候突然發現本屆coscup最大謊言 https://i.imgur.com/BGXAV3X.jpg
+2019-08-18 05:42:20	COSCUP_bridge_bo	<lue>: 請問議程都會移到延陽大樓去嗎？因為聽說台科大的電力搶救其他部分都尚未恢復
+2019-08-18 05:44:36	COSCUP_bridge_bo	<lue>: 如果是延陽大樓的話 那就是跟第一天場地完全不同 那樣一定要有人導引 想知道一下現在的情況
+2019-08-18 05:47:03	<--	wcpan (~quassel@2400:8902::f03c:91ff:fee0:f952) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2019-08-18 05:47:21	-->	wcpan (~quassel@2400:8902::f03c:91ff:fee0:f952) has joined #coscup
+2019-08-18 06:17:31	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-18 06:17:56	COSCUP_bridge_bo	<singing_li>: 我們今日場地將考慮移到研揚，工作人員會負責相關事務
+2019-08-18 06:19:27	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 06:32:41	COSCUP_bridge_bo	<chusiang>: @singing_li 早。
+2019-08-18 06:46:31	COSCUP_bridge_bo	<petertcdotchu>: 辛苦啦
+2019-08-18 06:47:39	COSCUP_bridge_bo	<MGdesigner>: 辛苦了！
+2019-08-18 06:57:40	COSCUP_bridge_bo	<teltelro>: 那個
+2019-08-18 06:58:02	COSCUP_bridge_bo	<teltelro>: 那個壞消息
+2019-08-18 06:58:09	COSCUP_bridge_bo	<teltelro>: 大概中午才會有電
+2019-08-18 06:58:21	COSCUP_bridge_bo	<CrBoy>: (teltelro: 大概中午才...) IB？
+2019-08-18 06:58:24	COSCUP_bridge_bo	<teltelro>: @singing_li
+2019-08-18 06:59:24	COSCUP_bridge_bo	<teltelro>: https://i.imgur.com/dsC0mFy.jpg
+2019-08-18 06:59:25	COSCUP_bridge_bo	<teltelro>: https://i.imgur.com/UXoR7Q5.jpg
+2019-08-18 06:59:45	COSCUP_bridge_bo	<CrBoy>: (teltelro: 大概中午才...) 你指的是研揚還是 IB？
+2019-08-18 07:00:28	COSCUP_bridge_bo	<teltelro>: 研揚目前已經有電，至於其它地區包括 IB，大概要等到中午了
+2019-08-18 07:01:12	COSCUP_bridge_bo	<CrBoy>: (Reply to teltelro) 感謝！這個資訊工作人員已經收到，也已經在處理相關的工作了！
+2019-08-18 07:02:41	COSCUP_bridge_bo	<teltelro>: 其實詳細幾點復原我也不曉得，只是根據經驗判斷，大概要中午了，不過感覺至少一定會影響到早上就是了
+2019-08-18 07:19:56	COSCUP_bridge_bo	<Telegram>: https://paste.ee/r/2ZI5K
+2019-08-18 07:22:04	COSCUP_bridge_bo	<CrBoy>: (Reply to Telegram) 求擴散！求擴散！求擴散！
+2019-08-18 07:24:52	COSCUP_bridge_bo	<joeangel>: (Reply to Telegram) 看看是不是晚點 app 也推播通知
+2019-08-18 07:25:14	COSCUP_bridge_bo	<Adela Hsieh>: 等待翻譯，待會會推
+2019-08-18 07:25:19	COSCUP_bridge_bo	<rosa32222>: 有喔但系統規定現有英文版才能通知
+2019-08-18 07:25:36	COSCUP_bridge_bo	<joeangel>: 辛苦了
+2019-08-18 07:25:55	COSCUP_bridge_bo	<rosa32222>: 感謝提醒OTZ
+2019-08-18 07:27:12	COSCUP_bridge_bo	<MGdesigner>: 記得要有英文版通知，外籍人士也要讓他們知道
+2019-08-18 07:31:15	COSCUP_bridge_bo	<Telegram>: https://paste.ee/r/wEuBx
+2019-08-18 07:32:58	COSCUP_bridge_bo	<dan_chen>: 謝謝工作人員和台科努力不懈
+2019-08-18 07:41:29	COSCUP_bridge_bo	<yichinlee>: 如果有人還在飯店的 可否幫忙問櫃檯有沒有看到一個側背包裡面裝藥和badge在609 (剛已經打電話說過了，如果可以請幫忙帶來台科感謝)
+2019-08-18 07:51:57	COSCUP_bridge_bo	<ijliao>: 這要從正門進去再繞過去嗎 ? 還是它有獨立的對外門 ?
+2019-08-18 07:51:58	COSCUP_bridge_bo	<蒼井仁美>: 換場果然是因為昨天火災跳電嗎
+2019-08-18 07:54:09	COSCUP_bridge_bo	<蒼井仁美>: 我記得TR有自己的門  不過比IB小
+2019-08-18 07:54:38	COSCUP_bridge_bo	<蒼井仁美>: 想請教有教室轉換對應表之類的東西嘛(?)
+2019-08-18 07:54:57	COSCUP_bridge_bo	<pennyken>: 大會目前整理中
+2019-08-18 07:55:03	COSCUP_bridge_bo	<CrBoy>: (蒼井仁美: 想請教有教...) 正在處理，晚點會公布
+2019-08-18 07:55:35	COSCUP_bridge_bo	<蒼井仁美>: 辛苦了
+2019-08-18 07:56:25	-->	vincentsu (uid181072@gateway/web/irccloud.com/x-xtllaqhmfufxyxse) has joined #coscup
+2019-08-18 08:00:31	COSCUP_bridge_bo	<caasih>: 謝謝工作人員🙏
+2019-08-18 08:01:17	COSCUP_bridge_bo	<nonijiang>: 辛苦了工作人員
+2019-08-18 08:06:52	COSCUP_bridge_bo	<rosa32222>: (Reply to Telegram) 已更新場地配置資訊唷！
+2019-08-18 08:10:29	COSCUP_bridge_bo	<pupuliao>: 請問是要先從大門進入校園嗎
+2019-08-18 08:10:41	COSCUP_bridge_bo	<yoga1130>: 想確認一下，所以 hackroom 有對應空間嗎？上面好像沒看到
+2019-08-18 08:12:36	COSCUP_bridge_bo	<ijliao>: (yoga1130: 想確認一下...) 對應表處理中
+2019-08-18 08:13:14	COSCUP_bridge_bo	<daisuke1230>: 目前場地空間不夠，Hackroom 沒有目前對應空間
+2019-08-18 08:13:30	COSCUP_bridge_bo	<seadog007>: 多災多難
+2019-08-18 08:13:33	COSCUP_bridge_bo	<bobchao>: Hackroom cancelled.
+2019-08-18 08:14:07	COSCUP_bridge_bo	<bobchao>: https://paste.ee/r/CyCG9
+2019-08-18 08:17:00	COSCUP_bridge_bo	<CrBoy>: https://paste.ee/r/Jj4HI
+2019-08-18 08:22:56	COSCUP_bridge_bo	<panmike>: 托育在一樣地點嗎
+2019-08-18 08:23:37	COSCUP_bridge_bo	<panmike>: 喔喔看到email說取消，辛苦了
+2019-08-18 08:23:43	COSCUP_bridge_bo	<Adela Hsieh>: (panmike: 托育在一樣...) 今天托育服務取消喔
+2019-08-18 08:25:19	COSCUP_bridge_bo	<chusiang>: 早上不能到場，只能在 Facebook 幫擴散了。  ▌https://www.facebook.com/photo.php?fbid=10211645439010822
+2019-08-18 08:25:20	COSCUP_bridge_bo	[Title] 楚翔 - #COSCUP2019 8/18 (Day2) 緊急更換至研揚大樓。   ▌8/18 All EVENT... | Facebook
+2019-08-18 08:28:34	COSCUP_bridge_bo	<CrBoy>: https://zh.m.wikipedia.org/zh-tw/%E7%A0%94%E6%8F%9A%E5%A4%A7%E6%A8%93 這是新地點，大家可以幫忙其他會眾朋友認路唷～
+2019-08-18 08:28:35	COSCUP_bridge_bo	[Title] 研揚大樓 - 維基百科，自由的百科全書
+2019-08-18 08:30:16	COSCUP_bridge_bo	<chusiang>: 看來我們大拜拜的火，燒得太旺了。(苦中作樂)
+2019-08-18 08:31:23	COSCUP_bridge_bo	<CrBoy>: 乾這是地獄梗嗎....😢
+2019-08-18 08:33:22	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-18 08:35:19	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 08:35:19	COSCUP_bridge_bo	<ijliao>: (CrBoy: 給大家場地...) app 有辦法緊急更新嗎 ?
+2019-08-18 08:35:52	COSCUP_bridge_bo	<bobchao>: 很快會更新上去
+2019-08-18 08:36:13	COSCUP_bridge_bo	<Jerry>: app我剛剛看裡面的圖已經換了? 有個大大的紅圈跟緊急公告
+2019-08-18 08:36:36	COSCUP_bridge_bo	<DennyHuang>: (ijliao: app 有...) 已經更新了
+2019-08-18 08:36:48	COSCUP_bridge_bo	<DennyHuang>: 重 load 議程頁面都會拉到新資料
+2019-08-18 08:37:59	COSCUP_bridge_bo	<waeting>: 是因為這個嗎 https://www.ettoday.net/news/20190817/1515472.htm
+2019-08-18 08:37:59	COSCUP_bridge_bo	[Title] 快訊／碰！台灣科技大學火警 瞬間跳電致電梯停擺…1女4男受困20分鐘 | ETtoday社會 | ETtoday新聞雲
+2019-08-18 08:39:08	COSCUP_bridge_bo	<S_ean>: 今天改到研揚大樓後沒有會場網路  我先用個人行動數據開暫時熱點，不保證順暢使用  SSID: COSCUP-Temp Password: LoveCOSCUP
+2019-08-18 08:40:08	COSCUP_bridge_bo	<Jerry>: 您是工作人員或是廠商中的其中一位嗎？  https://coscup.org/2019/staffs  <==對資安問題比較敏感
+2019-08-18 08:40:10	COSCUP_bridge_bo	[Title] 工作人員 | COSCUP 2019 | Conference for Open Source Coders, Users, and Promoters
+2019-08-18 08:41:41	COSCUP_bridge_bo	<bobchao>: 社群攤位： 原先 2樓的社群將在 TR 514 ，原先 3 樓的社群將在 TR 513
+2019-08-18 08:47:16	COSCUP_bridge_bo	<S_ean>: (Jerry: 您是工作人...) 我是場務組 Sean，但提供 Wi-Fi 行為不代表 COSCUP
+2019-08-18 08:47:31	COSCUP_bridge_bo	<CrBoy>: (S_ean: 今天改到研...) 感謝大大無私的分享
+2019-08-18 08:48:23	COSCUP_bridge_bo	<CrBoy>: (S_ean: 我是場務組...) 你可以改名字加上 non-officail 那類的。不過不改也無所謂
+2019-08-18 08:53:03	COSCUP_bridge_bo	<Irvin>: 大樓旁邊有學校大門嗎？我要載東西過去想搭車到最近的入口
+2019-08-18 08:53:51	COSCUP_bridge_bo	<CrBoy>: (Irvin: 大樓旁邊有...) 我自己的印象好像有，在校區的北側
+2019-08-18 08:54:04	COSCUP_bridge_bo	<Jerry>: 沒問題，這種緊急時刻本來就是大家想辦法各自臨機應變..我只是確認一下而已，怕有人趁亂打劫XD
+2019-08-18 08:56:40	COSCUP_bridge_bo	<Jerry>: 感謝您的細心！
+2019-08-18 08:56:42	COSCUP_bridge_bo	<rosa32222>: (Reply to Telegram) 場地資訊已是最新版本，謝謝
+2019-08-18 08:56:53	COSCUP_bridge_bo	<ijliao>: (Irvin: 大樓旁邊有...) 有獨立對外門
+2019-08-18 08:57:16	COSCUP_bridge_bo	<Irvin>: (ijliao: 有獨立對外...) 👍 https://i.imgur.com/trly6D4.png
+2019-08-18 08:57:17	COSCUP_bridge_bo	<Irvin>: Ok
+2019-08-18 08:58:02	COSCUP_bridge_bo	<pennyken>: 在台大癌醫的那條巷子有個研揚大樓的獨立門
+2019-08-18 08:58:28	-->	asahsieh (uid28213@gateway/web/irccloud.com/x-sgksvhjahcyxxnlb) has joined #coscup
+2019-08-18 08:58:33	COSCUP_bridge_bo	<dan_chen>: (ijliao: 有獨立對外...) 公車可以改搭到「台大公館醫院（台大癌醫）」
+2019-08-18 08:58:38	COSCUP_bridge_bo	<DennyHuang>: (Reply to DennyHuang) 這個位置有鄰近馬路的出入口
+2019-08-18 08:59:03	COSCUP_bridge_bo	<jiachengx>: ˋ基隆路三段155巷
+2019-08-18 08:59:17	COSCUP_bridge_bo	<pennyken>: https://i.imgur.com/KNJHbUT.jpg
+2019-08-18 08:59:20	COSCUP_bridge_bo	<jiachengx>: https://i.imgur.com/H20GZl2.jpg
+2019-08-18 08:59:24	COSCUP_bridge_bo	<DennyHuang>: https://i.imgur.com/Aw4iqNm.jpg
+2019-08-18 08:59:26	COSCUP_bridge_bo	<chuanchan1116>: Mos 那邊也停電了 QwQ
+2019-08-18 08:59:41	COSCUP_bridge_bo	<aweimeow>: (chuanchan1116: Mos 那...) GG
+2019-08-18 08:59:41	COSCUP_bridge_bo	<chuanchan1116>: 來開外送 BoF 算了 (X
+2019-08-18 08:59:52	COSCUP_bridge_bo	<jiachengx>: 很需要
+2019-08-18 09:02:43	COSCUP_bridge_bo	<ijliao>: (chuanchan1116: 來開外送...) 傑出的一手 !
+2019-08-18 09:02:57	<--	lother (~lother@lother.cc) has quit (Quit: leaving)
+2019-08-18 09:03:26	-->	lother (~lother@lother.cc) has joined #coscup
+2019-08-18 09:05:19	COSCUP_bridge_bo	<LisbethW1130>: (chuanchan1116: 來開外送...) 有空位嗎XDDD
+2019-08-18 09:05:48	COSCUP_bridge_bo	<Yuy_Heero>: 那附近有ubike嗎
+2019-08-18 09:06:04	COSCUP_bridge_bo	<CrBoy>: 台科大門旁有 YouBike
+2019-08-18 09:07:35	COSCUP_bridge_bo	<joeangel>: 在 IB 那側
+2019-08-18 09:11:00	-->	r2tw (~r2@140.116.112.110) has joined #coscup
+2019-08-18 09:12:48	COSCUP_bridge_bo	<Yuy_Heero>: 想說 有沒有 另一個亭比較靠近TR
+2019-08-18 09:12:55	COSCUP_bridge_bo	<Yuy_Heero>: 😀 https://i.imgur.com/8Kdynpq.png
+2019-08-18 09:13:19	<--	r2tw (~r2@140.116.112.110) has quit (Client Quit)
+2019-08-18 09:13:48	-->	r2tw (~r2@114-137-209-229.emome-ip.hinet.net) has joined #coscup
+2019-08-18 09:17:26	COSCUP_bridge_bo	<Sciuridae>: https://i.imgur.com/xcXtA0r.jpg
+2019-08-18 09:17:54	COSCUP_bridge_bo	<rosa32222>: 基隆路三段１５５巷交叉口＆校園內籃球場旁邊的即是研揚大樓（TR大樓） 原IB國際大樓至TR研揚大樓地板上皆貼有箭頭指引，敬請留意
+2019-08-18 09:21:13	COSCUP_bridge_bo	<Sorry>: 請問今年有共筆可以讀嗎？
+2019-08-18 09:21:36	COSCUP_bridge_bo	<jackycute>: (Sorry: 請問今年有...) 共筆入口在此 https://hackmd.io/@coscup/2019
+2019-08-18 09:21:36	COSCUP_bridge_bo	[Title] COSCUP 2019 共同筆記 - HackMD
+2019-08-18 09:22:12	COSCUP_bridge_bo	<Sorry>: 感謝！
+2019-08-18 09:23:03	COSCUP_bridge_bo	<imfhj>: 由於場地臨時異動，今日大會不提供Wi-Fi服務，敬請見諒！
+2019-08-18 09:24:05	COSCUP_bridge_bo	<kmnsamx>: 101 有直播了嗎？謝謝
+2019-08-18 09:24:47	COSCUP_bridge_bo	<RainnyQ>: 今日COSCUP不提供WiFi。
+2019-08-18 09:25:09	COSCUP_bridge_bo	<TonyQtw>: COSCUP 的本體，Lightning Talk，今年嘗試線上報名、每場次 3-5 分鐘、第二天(8/18) 11:00 抽籤、限時演講！  看起來是十一點後才會公布
+2019-08-18 09:26:04	COSCUP_bridge_bo	<ballfish>: (TonyQtw: COSCU...) 是的
+2019-08-18 09:28:50	COSCUP_bridge_bo	<caasih>: 量子 H gate 是貓 #誤解
+2019-08-18 09:29:27	COSCUP_bridge_bo	<Thomas>: 請問有直播嗎？
+2019-08-18 09:30:25	COSCUP_bridge_bo	<DennyHuang>: (Thomas: 請問有直播...) 原則上有錄影 直播要再看網路狀況
+2019-08-18 09:33:07	COSCUP_bridge_bo	<CrBoy>: https://paste.ee/r/gs7Je
+2019-08-18 09:41:00	COSCUP_bridge_bo	<RainnyQ>: *今日COSCUP不提供WiFi。 *大會攤位在513教室。
+2019-08-18 09:47:21	COSCUP_bridge_bo	<chihchun>: (CrBoy: IB101...) Mapping table 可以貼到教室外之類的嗎？目前只有一樓有
+2019-08-18 09:50:14	COSCUP_bridge_bo	<CrBoy>: (chihchun: Mappi...) ok，正在處理
+2019-08-18 09:51:55	<--	r2tw (~r2@114-137-209-229.emome-ip.hinet.net) has quit (Ping timeout: 244 seconds)
+2019-08-18 09:52:39	COSCUP_bridge_bo	<lin4h>: @DennyHuang app好條有bug。 似乎昨天pin的議程，今天亮notification時出來的room還是舊的
+2019-08-18 09:53:45	COSCUP_bridge_bo	<chihchun>: (chuanchan1116: Mos 那...) 中午沒飯吃的節奏？
+2019-08-18 09:55:03	COSCUP_bridge_bo	<lin4h>: (chihchun: 中午沒飯吃...) Mos那邊還沒復電吧
+2019-08-18 09:55:15	COSCUP_bridge_bo	<fntsrlike>: (chihchun: 中午沒飯吃...) Plurk 上看到的： > kidwm: 超商補給可以到隔壁台大 就在長興街口 也有 MOS
+2019-08-18 09:55:20	COSCUP_bridge_bo	<Haraguroicha>: (lin4h: @Denn...) iOS ONLY issue
+2019-08-18 09:55:47	COSCUP_bridge_bo	<fntsrlike>: (chuanchan1116: Mos 那...) @lin4h 也停電了
+2019-08-18 09:55:52	COSCUP_bridge_bo	<ijliao>: 中午就看到難民四處流竄...
+2019-08-18 09:56:08	COSCUP_bridge_bo	<lin4h>: (Haraguroicha: iOS O...) Android也有，等下碰到再看截不截得到
+2019-08-18 09:56:08	COSCUP_bridge_bo	<zeroplex>: 用愛發電？  （誤
+2019-08-18 09:56:28	COSCUP_bridge_bo	<Haraguroicha>: iOS 的議程資訊有顯示問題，對應表可以存下這張離線使用 https://i.imgur.com/wKlYhn0.jpg
+2019-08-18 09:56:53	COSCUP_bridge_bo	<bobchao>: 😆 nice
+2019-08-18 09:58:12	COSCUP_bridge_bo	<CrBoy>: (Reply to Haraguroicha) XDDD
+2019-08-18 10:01:12	COSCUP_bridge_bo	<JoanneTsai_HanJi>: 請問 day 2蓋章在哪呀？
+2019-08-18 10:01:18	COSCUP_bridge_bo	<Wei-Ting>: 想詢問一下今天Coscup的官方攤位在那邊呢？
+2019-08-18 10:01:22	-->	r2tw (~r2@114-137-209-229.emome-ip.hinet.net) has joined #coscup
+2019-08-18 10:02:31	COSCUP_bridge_bo	<kmnsamx>: 這則的最下方
+2019-08-18 10:02:31	COSCUP_bridge_bo	<kmnsamx>: https://paste.ee/r/hF2YO
+2019-08-18 10:02:46	COSCUP_bridge_bo	<DennyHuang>: (lin4h: @Denn...) 對 目前實做是存下星號當下的資料 這個之後要再改
+2019-08-18 10:03:10	COSCUP_bridge_bo	<DennyHuang>: (Wei-Ting: 想詢問一下...) 513
+2019-08-18 10:03:17	COSCUP_bridge_bo	<DennyHuang>: (JoanneTsai_HanJi: 請問 da...) 也在 513
+2019-08-18 10:03:24	COSCUP_bridge_bo	<lin4h>: 有confirm到就好，反正不urgent
+2019-08-18 10:03:31	COSCUP_bridge_bo	<JoanneTsai_HanJi>: 了解謝謝
+2019-08-18 10:03:46	COSCUP_bridge_bo	<Wei-Ting>: (DennyHuang: 513) 感謝您
+2019-08-18 10:04:29	-->	waeting (df88aecb@223-136-174-203.emome-ip.hinet.net) has joined #coscup
+2019-08-18 10:05:51	COSCUP_bridge_bo	<CrBoy>: 正在編輯一份即時佈告欄 https://hackmd.io/WogzEqFLRZm6x4GY3Cd9LA
+2019-08-18 10:05:51	COSCUP_bridge_bo	[Title] 即時資訊佈告欄 COSCUP 2019 - HackMD
+2019-08-18 10:09:46	COSCUP_bridge_bo	<chuanchan1116>: https://i.imgur.com/1pZVpom.jpg
+2019-08-18 10:11:10	-->	mp607 (~mp607@223-140-37-207.emome-ip.hinet.net) has joined #coscup
+2019-08-18 10:15:51	COSCUP_bridge_bo	<Telegram>: 【請留意】 最新場地更動等資訊一覽，請見以下網址： https://hackmd.io/WogzEqFLRZm6x4GY3Cd9LA
+2019-08-18 10:15:52	COSCUP_bridge_bo	[Title] 即時資訊佈告欄 COSCUP 2019 - HackMD
+2019-08-18 10:16:52	COSCUP_bridge_bo	<CrBoy>: (Reply to chuanchan1116) 處理中，感謝！
+2019-08-18 10:18:24	COSCUP_bridge_bo	<aweimeow>: (Reply to chuanchan1116) 金金黑客 害怕
+2019-08-18 10:18:48	COSCUP_bridge_bo	<iGeneKuo>: (Reply to chuanchan1116) 黑金金大大
+2019-08-18 10:18:57	COSCUP_bridge_bo	<chuanchan1116>: (aweimeow: 金金黑客...) 🐶 https://i.imgur.com/XFxR0CM.png
+2019-08-18 10:18:59	COSCUP_bridge_bo	<chuanchan1116>: 🐶 https://i.imgur.com/f3V6MO8.png
+2019-08-18 10:19:00	COSCUP_bridge_bo	<chuanchan1116>: 🐶 https://i.imgur.com/1qNfMco.png
+2019-08-18 10:19:04	COSCUP_bridge_bo	<chuanchan1116>: 🐶 https://i.imgur.com/loaIy1B.png
+2019-08-18 10:19:05	COSCUP_bridge_bo	<chuanchan1116>: 🐶 https://i.imgur.com/78bY8A9.png
+2019-08-18 10:19:12	COSCUP_bridge_bo	<teltelro>: (Reply to chuanchan1116) 金金大黑黑
+2019-08-18 10:20:03	<--	mp607 (~mp607@223-140-37-207.emome-ip.hinet.net) has quit (Quit: mp607)
+2019-08-18 10:21:58	COSCUP_bridge_bo	<CrBoy>: (Telegram: 【請留意】...) 嗨各位，我會努力更新這裡的資訊，若有不足之處請發問，我會視情況加上。謝謝！
+2019-08-18 10:22:39	COSCUP_bridge_bo	<davy_0xff>: (CrBoy: 嗨各位，我...) 更多英文資訊？ 上面很多內容只有中文
+2019-08-18 10:23:01	COSCUP_bridge_bo	<ORdinarycas>: (iGeneKuo: 黑金金大大) jinjin ?
+2019-08-18 10:23:40	COSCUP_bridge_bo	<蒼井仁美>: 還是可以開共筆 翻譯大家一起搞比較快
+2019-08-18 10:25:14	COSCUP_bridge_bo	<CrBoy>: (davy_0xff: 更多英文資...) 努力中
+2019-08-18 10:25:16	COSCUP_bridge_bo	<蒼井仁美>: 喔沒事 我沒登入到
+2019-08-18 10:31:07	<--	waeting (df88aecb@223-136-174-203.emome-ip.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-18 10:31:08	COSCUP_bridge_bo	<lin4h>: 516，這廠商腦袋脫線了嗎 https://i.imgur.com/nJtkjSd.jpg
+2019-08-18 10:32:03	COSCUP_bridge_bo	<Cheng Wei>: Rebase的時候掉了嗎
+2019-08-18 10:36:13	COSCUP_bridge_bo	<ijliao>: rebase 的 conflict 太強了
+2019-08-18 10:36:51	COSCUP_bridge_bo	<LisbethW1130>: 手上剛好有 500MB 流量 4G 網卡，有需要的可以找我 土撥鼠
+2019-08-18 10:37:30	COSCUP_bridge_bo	<CrBoy>: (Cheng Wei: Rebas...) rebase 害我狂笑XDDDDD
+2019-08-18 10:38:45	COSCUP_bridge_bo	<iamhlb>: 人族飛主堡 # StarCraft
+2019-08-18 10:40:34	-->	infate (~infate@shadow.ind.ntou.edu.tw) has joined #coscup
+2019-08-18 10:41:27	COSCUP_bridge_bo	<yisiliu>: 所以我们需要protected branch
+2019-08-18 10:41:40	COSCUP_bridge_bo	<yisiliu>: ✊️ https://i.imgur.com/dvlXuZ2.png
+2019-08-18 10:42:00	COSCUP_bridge_bo	<Telegram>: 因昨日IB大樓跳電以致於場地異動，本日大會不提供 Wi-Fi 服務，敬請見諒。  No Wi-Fi connection today because the electric power of IB building was tripped off. We're sorry for the inconvenience.  其它詳細資訊，請看置頂訊息 More details please read instructions.
+2019-08-18 10:47:05	COSCUP_bridge_bo	<cheergo>: 我發現直播回音很重
+2019-08-18 10:47:26	COSCUP_bridge_bo	<joeangel>: (Reply to lin4h) 這... 還在漏嗎
+2019-08-18 10:47:32	COSCUP_bridge_bo	<cheergo>: 幹 是我開兩個視窗
+2019-08-18 10:47:55	COSCUP_bridge_bo	<lin4h>: (joeangel: 這......) 沒有漏
+2019-08-18 10:48:45	COSCUP_bridge_bo	<joeangel>: 🆗 https://i.imgur.com/NJYjQu9.png
+2019-08-18 10:49:47	COSCUP_bridge_bo	<Irvin>: Mozilla 攤位闖關今天有過期的 one size t-shirt 放送，數量有限 #514
+2019-08-18 10:50:10	COSCUP_bridge_bo	<CrBoy>: (Irvin: Mozil...) 什麼 t-shirt 啊？
+2019-08-18 10:50:26	COSCUP_bridge_bo	<LisbethW1130>: (CrBoy: 什麼 t-...) 去看就知道了，但是是 S 號
+2019-08-18 10:50:46	COSCUP_bridge_bo	<Irvin>: 小畢可以穿吧XD
+2019-08-18 10:50:57	COSCUP_bridge_bo	<daisuke1230>: https://i.imgur.com/WyuksiK.jpg
+2019-08-18 10:50:57	COSCUP_bridge_bo	<daisuke1230>: 好潮ㄛ
+2019-08-18 10:51:03	COSCUP_bridge_bo	<daisuke1230>: 中國的高中開源教育
+2019-08-18 10:51:13	COSCUP_bridge_bo	<CrBoy>: 我現在在水深火熱嘛QQ
+2019-08-18 10:52:01	COSCUP_bridge_bo	<lin4h>: Firefox Rocket的T shirt
+2019-08-18 10:52:40	COSCUP_bridge_bo	<lin4h>: 昨天工寮BOF已經清了大半了還清不完
+2019-08-18 10:52:44	COSCUP_bridge_bo	<catcat_4>: 要蓋day1+day2集點的朋友要晚點再來，day2的集點機已上線在513&514中間。
+2019-08-18 11:01:54	COSCUP_bridge_bo	<catcat_4>: 1+2集點機在大會攤位囉
+2019-08-18 11:01:54	COSCUP_bridge_bo	<chihchun>: 412-2 戰作業系統啦
+2019-08-18 11:02:07	COSCUP_bridge_bo	<catcat_4>: (chihchun: 412-2...) 快轉播
+2019-08-18 11:02:15	COSCUP_bridge_bo	<sylvialiu0514>: 推412-2
+2019-08-18 11:02:20	COSCUP_bridge_bo	<catcat_4>: 求轉播～～～
+2019-08-18 11:02:46	COSCUP_bridge_bo	<fntsrlike>: 求文字轉播 XD
+2019-08-18 11:03:21	COSCUP_bridge_bo	<barneybook>: (sylvialiu0514: 推412-...) 快文字轉播
+2019-08-18 11:03:25	COSCUP_bridge_bo	<David_C927>: https://i.imgur.com/ZUzMLEM.jpg
+2019-08-18 11:03:37	COSCUP_bridge_bo	<sylvialiu0514>: 英文太爛手跟不上(X
+2019-08-18 11:03:46	COSCUP_bridge_bo	<catcat_4>: 共筆連結在議程表上大家記得共筆
+2019-08-18 11:04:30	COSCUP_bridge_bo	<barneybook>: (catcat_4: 共筆連結在...) https://hackmd.io/@coscup/2019 共筆（遞
+2019-08-18 11:04:30	COSCUP_bridge_bo	[Title] COSCUP 2019 共同筆記 - HackMD
+2019-08-18 11:04:31	COSCUP_bridge_bo	<aelcenganda>: https://paste.ee/r/ek6b2
+2019-08-18 11:11:42	COSCUP_bridge_bo	<jung>: 請問 @MGdesigner  今天還會在會場？
+2019-08-18 11:12:41	COSCUP_bridge_bo	<jung>: 昨天沒有拍到投影片,最後聯絡方式
+2019-08-18 11:13:51	COSCUP_bridge_bo	<fntsrlike>: #TR409-2 大家開始玩起來講者的實驗性程式
+2019-08-18 11:15:02	COSCUP_bridge_bo	<Haraguroicha>: (CrBoy: rebas...) 笑死+1
+2019-08-18 11:15:21	COSCUP_bridge_bo	<fntsrlike>: #TR409_2 開始各種資安測試 (# https://i.imgur.com/3hMiOOl.jpg
+2019-08-18 11:15:56	COSCUP_bridge_bo	<Haraguroicha>: (Reply to fntsrlike) 怕，黑坑還沒到啊啊啊啊
+2019-08-18 11:19:28	COSCUP_bridge_bo	<lin4h>: (jung: 請問 @M...) 他在，有碰到
+2019-08-18 11:19:31	COSCUP_bridge_bo	<bobchao>: 各位,  HxxxxN 在下星期喔，不是現在 XD...
+2019-08-18 11:19:36	COSCUP_bridge_bo	<mmis1000>: 不是應該試rtl control character 之類的嗎
+2019-08-18 11:19:42	COSCUP_bridge_bo	<mmis1000>: 體驗版面爆炸
+2019-08-18 11:20:19	COSCUP_bridge_bo	<GamerGary>: (jung: 請問 @M...) 或許可以去UbuntuTW攤位找找
+2019-08-18 11:22:43	COSCUP_bridge_bo	<fntsrlike>: (mmis1000: 體驗版面爆...) https://i.imgur.com/otfjGFc.jpg
+2019-08-18 11:22:59	COSCUP_bridge_bo	<fntsrlike>: wwwwwww https://i.imgur.com/dXFsUrb.jpg
+2019-08-18 11:23:41	-->	fieliapm (1b346341@27-52-99-65.adsl.fetnet.net) has joined #coscup
+2019-08-18 11:23:59	COSCUP_bridge_bo	<fntsrlike>: #TR409_2 提到今年初 Facetime 的 bug https://mrmad.com.tw/facetime-bug-hear-audio
+2019-08-18 11:24:00	COSCUP_bridge_bo	[Title] FaceTime爆發「監聽漏洞」！ iPhone 就算不接聽也可以竊聽 - 瘋先生
+2019-08-18 11:24:03	COSCUP_bridge_bo	<MGdesigner>: (jung: 請問 @M...) 在，我在Ubuntu 攤位
+2019-08-18 11:26:45	COSCUP_bridge_bo	<fntsrlike>: #TR409_2 （講師問會眾有沒有寫過某個 if 敘述） 「只要你沒舉手，只有一種可能，就是你根本沒在寫程式」
+2019-08-18 11:27:17	COSCUP_bridge_bo	<linroex>: 想問閃電秀什麼時候公布（舉手
+2019-08-18 11:27:40	COSCUP_bridge_bo	<CrBoy>: (linroex: 想問閃電秀...) 12 點前
+2019-08-18 11:27:41	COSCUP_bridge_bo	<GamerGary>: (fntsrlike: #TR40...) 派耶wwww
+2019-08-18 11:28:42	COSCUP_bridge_bo	<smailzhu>: 請問會場有飲水機嗎
+2019-08-18 11:29:46	COSCUP_bridge_bo	<barneybook>: (smailzhu: 請問會場有...) 女廁旁
+2019-08-18 11:30:06	COSCUP_bridge_bo	<smailzhu>: (barneybook: 女廁旁) 謝謝
+2019-08-18 11:30:42	COSCUP_bridge_bo	<fntsrlike>: 4F 的飲水機目前水溫過高（十分鐘前），建議去其他樓層取水
+2019-08-18 11:33:14	COSCUP_bridge_bo	<joeangel>: (smailzhu: 請問會場有...) 每一層樓的女廁旁有茶水間，可以取水
+2019-08-18 11:35:34	COSCUP_bridge_bo	<chuanchan1116>: 原來 app 通知的場地沒有更新？
+2019-08-18 11:36:13	COSCUP_bridge_bo	<CrBoy>: (chuanchan1116: 原來 ap...) won’t fix
+2019-08-18 11:37:23	<--	fieliapm (1b346341@27-52-99-65.adsl.fetnet.net) has quit (Remote host closed the connection)
+2019-08-18 11:38:18	COSCUP_bridge_bo	<jiachengx>: (chuanchan1116: 原來 ap...) 有些有，有些沒有
+2019-08-18 11:39:02	COSCUP_bridge_bo	<fntsrlike>: #TR409_2 「當你問朋友有沒有聽過狀態機時，他們通常都會回『有』，但你若再問下去，通常就會被已讀不回」
+2019-08-18 11:40:01	<--	Sciuridae (~sciuridae@122-117-253-246.HINET-IP.hinet.net) has quit (Ping timeout: 272 seconds)
+2019-08-18 11:40:41	COSCUP_bridge_bo	<joekaojoekao>: [313] PCMan: 只是想做一下軟體工程師  <- 我「只能」做.. QQ
+2019-08-18 11:40:51	<--	r2tw (~r2@114-137-209-229.emome-ip.hinet.net) has quit (Ping timeout: 248 seconds)
+2019-08-18 11:41:35	-->	Sciuridae (~sciuridae@122-117-253-246.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 11:48:18	COSCUP_bridge_bo	<fei3363>: 請問停電的話 學餐會開嗎
+2019-08-18 11:48:28	COSCUP_bridge_bo	<CrBoy>: (fei3363: 請問停電的...) 不會
+2019-08-18 11:51:14	COSCUP_bridge_bo	<s5048218>: 請問有人知道校內 7-11 有開嗎？
+2019-08-18 11:51:15	-->	r2tw (~r2@114-137-209-229.emome-ip.hinet.net) has joined #coscup
+2019-08-18 11:51:32	COSCUP_bridge_bo	<CrBoy>: (s5048218: 請問有人知...) 沒有
+2019-08-18 11:52:21	r2tw	聽日本人用英文講自由軟體與中國經典思想hmmmmmm
+2019-08-18 11:52:22	COSCUP_bridge_bo	<CrBoy>: 據報，台科只有 TR 這棟有電，所以其他台科內的用電設施都無法使用.....
+2019-08-18 11:52:40	COSCUP_bridge_bo	<Cheng Wei>: 7-ELEVEN 長星門市 No. 85, 基隆路三段大安區台北市106 02 2739 5493 https://goo.gl/maps/hvQFkeQpWS6kJpLaA 這間7-11比較近
+2019-08-18 11:52:41	COSCUP_bridge_bo	[Title] Google 地圖
+2019-08-18 11:53:08	COSCUP_bridge_bo	<s5048218>: Thanks 我去看看臺大長興有沒有開
+2019-08-18 11:53:12	COSCUP_bridge_bo	<joeangel>: 請到太子學舍，或是公館用餐
+2019-08-18 11:53:47	COSCUP_bridge_bo	<fntsrlike>: (r2tw: 聽日本人用...) 聽起來很有趣www
+2019-08-18 11:54:45	COSCUP_bridge_bo	<ijliao>: (r2tw: 聽日本人用...) 潮 !
+2019-08-18 11:56:05	COSCUP_bridge_bo	<windasd>: 然後還用中文筆談
+2019-08-18 12:01:18	COSCUP_bridge_bo	<Irvin>: Mozilla 攤位 T-shirt 沒了 #沒惹
+2019-08-18 12:04:31	COSCUP_bridge_bo	<mmis1000>: 剛剛409-2工作人員說有slido提問，但我好像沒看到slido連結在哪？
+2019-08-18 12:07:17	COSCUP_bridge_bo	<tantan3141>: (aelcenganda: 待會開源性...) 我們在512 歡迎加入
+2019-08-18 12:07:51	-->	linpc (~linpc@45.32.63.27) has joined #coscup
+2019-08-18 12:10:22	COSCUP_bridge_bo	<oTo_To_T>: (mmis1000: 剛剛409...) 白板上(?
+2019-08-18 12:10:53	COSCUP_bridge_bo	<mmis1000>: emmmm完全沒注意到有字
+2019-08-18 12:11:02	COSCUP_bridge_bo	<mmis1000>: 還以為是學校教師自己的
+2019-08-18 12:11:07	COSCUP_bridge_bo	<Irvin>: (aelcenganda: 待會開源性...) 幫忙宣傳一下姓名貼吧
+2019-08-18 12:14:36	<--	r2tw (~r2@114-137-209-229.emome-ip.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-18 12:15:14	COSCUP_bridge_bo	<afutseng>: 請問今天台科大裡面的摩斯有營業嗎？
+2019-08-18 12:16:24	COSCUP_bridge_bo	<fntsrlike>: 沒
+2019-08-18 12:16:54	COSCUP_bridge_bo	<mmis1000>: 摩斯7-11都沒
+2019-08-18 12:17:23	COSCUP_bridge_bo	<afutseng>: 謝謝
+2019-08-18 12:17:37	COSCUP_bridge_bo	<mmis1000>: 需要的話要往外走(路邊的同學說的
+2019-08-18 12:17:54	COSCUP_bridge_bo	<rosa32222>: 今天台科裡面的餐廳都沒有電喔QQ
+2019-08-18 12:18:06	COSCUP_bridge_bo	<joeangel>: 校內都沒有店家營業
+2019-08-18 12:18:22	COSCUP_bridge_bo	<joeangel>: 只有 TR 有電..
+2019-08-18 12:18:30	COSCUP_bridge_bo	<mmis1000>: 出去往右走一段路會看到一堆店
+2019-08-18 12:19:18	COSCUP_bridge_bo	<fntsrlike>: 長興街小七滿近的
+2019-08-18 12:19:19	COSCUP_bridge_bo	<joeangel>: (mmis1000: 出去往右走...) 那邊是太子學舍
+2019-08-18 12:19:29	COSCUP_bridge_bo	<joeangel>: 有吃的 有小七
+2019-08-18 12:19:46	COSCUP_bridge_bo	<fntsrlike>: (fntsrlike: 長興街小七...) 但這裡座位區在整修
+2019-08-18 12:20:36	COSCUP_bridge_bo	<linroex>: 鹿鳴堂有 7-11
+2019-08-18 12:21:12	COSCUP_bridge_bo	<BryceTsao>: 鹿鳴堂不是歇業很久了嗎？
+2019-08-18 12:21:41	COSCUP_bridge_bo	<joeangel>: (linroex: 鹿鳴堂有...) 今天有開嗎
+2019-08-18 12:22:09	COSCUP_bridge_bo	<BryceTsao>: (joeangel: 今天有開嗎) 沒有，以後也不會開
+2019-08-18 12:22:23	COSCUP_bridge_bo	<iamhlb>: https://i.imgur.com/4Fxby77.jpg
+2019-08-18 12:22:46	COSCUP_bridge_bo	<iamhlb>: 409-2 的～
+2019-08-18 12:24:30	COSCUP_bridge_bo	<joeangel>: 🆗 https://i.imgur.com/pVowyjE.png
+2019-08-18 12:29:25	<--	ccn (~ccn@staff.kkbox.com.tw) has quit (Read error: Connection reset by peer)
+2019-08-18 12:29:44	-->	ccn (~ccn@staff.kkbox.com.tw) has joined #coscup
+2019-08-18 12:33:49	COSCUP_bridge_bo	<Irvin>: (TonyQtw: COSCU...) 公佈了嗎？
+2019-08-18 12:34:31	COSCUP_bridge_bo	<bobchao>: https://paste.ee/r/mgQDi
+2019-08-18 12:35:11	COSCUP_bridge_bo	<bobchao>: 今年中籤率好像大概是 1/2.5 😆
+2019-08-18 12:35:17	COSCUP_bridge_bo	<bobchao>: 那附近
+2019-08-18 12:36:24	COSCUP_bridge_bo	<bobchao>: 長興街那邊台大宿舍還有另一間全家
+2019-08-18 12:36:47	COSCUP_bridge_bo	<chusiang>: (bobchao: - 聖家堂...) 請問下午的閃電秀，會在哪間教室？
+2019-08-18 12:37:06	COSCUP_bridge_bo	<bobchao>: (chusiang: 請問下午的...) TR313
+2019-08-18 12:37:18	COSCUP_bridge_bo	<bobchao>: （議程表可見網站）
+2019-08-18 12:37:27	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 268 seconds)
+2019-08-18 12:38:56	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 12:41:01	COSCUP_bridge_bo	<Irvin>: 只好開閃電秀落選者BoF
+2019-08-18 12:52:36	-->	fieliapm (1b346341@27-52-99-65.adsl.fetnet.net) has joined #coscup
+2019-08-18 12:54:27	COSCUP_bridge_bo	<chusiang>: 沒想到 10 年後，還會在 COSCUP 裡聽到完全聽不懂的議題。  (其實只是來佔坐子的)  #412-1
+2019-08-18 12:55:57	COSCUP_bridge_bo	<chusiang>: 現在台上拿麥克風的人都好年輕啊！
+2019-08-18 12:58:36	COSCUP_bridge_bo	<Jerry>: 我決定發揮開源精神來發issue
+2019-08-18 12:58:52	COSCUP_bridge_bo	<joeangel>: (chusiang: 現在台上拿...) 😎 https://i.imgur.com/f96crL7.png
+2019-08-18 12:59:41	COSCUP_bridge_bo	<Jerry>: Issue:商借一台windows筆電讓我閃電秀有投影片...<-窮鬼沒laptop  因為場地電腦不能用 mac的好像無法顯示內嵌字形
+2019-08-18 13:00:04	COSCUP_bridge_bo	<Jerry>: 不知有沒有人要跳坑der 我寄slides給您
+2019-08-18 13:00:13	COSCUP_bridge_bo	<Jerry>: 😊 https://i.imgur.com/Kk2ai1w.png
+2019-08-18 13:01:33	<--	fieliapm (1b346341@27-52-99-65.adsl.fetnet.net) has quit (Remote host closed the connection)
+2019-08-18 13:06:37	COSCUP_bridge_bo	<catcat_4>: 開源教育 BoF 在 412-1 ，關心開源教育的朋友可以加入喔
+2019-08-18 13:11:25	COSCUP_bridge_bo	<CrBoy>: (catcat_4: 開源教育...) 我遠端關心！
+2019-08-18 13:12:37	COSCUP_bridge_bo	<Yuy_Heero>: 他...
+2019-08-18 13:12:50	COSCUP_bridge_bo	<Yuy_Heero>: https://i.imgur.com/RQBLY68.jpg
+2019-08-18 13:12:51	COSCUP_bridge_bo	<Yuy_Heero>: https://i.imgur.com/Wri8tcw.jpg
+2019-08-18 13:13:14	COSCUP_bridge_bo	<minakokojima>: - 在滴滴是如何做开源的 | https://www.bilibili.com/video/av64227520/  - Five years on the Rust core team: a retrospective | https://www.bilibili.com/video/av64227591/ - 17 直播從 0 到 1 之狼人殺 | https://www.bilibili.com/video/av64227682/  Day1 我聽的幾個 Channel
+2019-08-18 13:13:14	COSCUP_bridge_bo	[Title] 出错啦! - bilibili.com
+2019-08-18 13:13:14	COSCUP_bridge_bo	[Title] 出错啦! - bilibili.com
+2019-08-18 13:13:14	COSCUP_bridge_bo	[Title] 出错啦! - bilibili.com
+2019-08-18 13:13:27	COSCUP_bridge_bo	<GamerGary>: (Reply to Yuy_Heero) 怕 被拔下來的意思嗎
+2019-08-18 13:13:49	COSCUP_bridge_bo	<Yuy_Heero>: 好像自己掉下來的
+2019-08-18 13:13:56	COSCUP_bridge_bo	<s8321414>: (catcat_4: 開源教育...) 🌏 https://i.imgur.com/rX3GtIR.png
+2019-08-18 13:19:39	COSCUP_bridge_bo	<joekaojoekao>: 卡米狗
+2019-08-18 13:19:54	COSCUP_bridge_bo	<joekaojoekao>: hello的o刪除是什麼地獄梗 (期待卡米狗回應
+2019-08-18 13:23:02	COSCUP_bridge_bo	<DerekKonoha>: (joekaojoekao: hello...) hell === 地獄
+2019-08-18 13:24:18	COSCUP_bridge_bo	<joekaojoekao>: (DerekKonoha: hell...) 🙂 https://i.imgur.com/9tHYC0d.png
+2019-08-18 13:25:40	COSCUP_bridge_bo	<kcyak>:  818发财日㳘50园送50员，妖清码5550，不限制IP三倍水安全出款，综合平台：ad82●cc
+2019-08-18 13:26:05	COSCUP_bridge_bo	<moontai0724>: ....
+2019-08-18 13:26:10	COSCUP_bridge_bo	<Jerry>: 這隻bot怎麼爬進來的 ㄏ厲害
+2019-08-18 13:29:37	COSCUP_bridge_bo	<singing_li>: (catcat_4: 開源教育...) 我遠端關心 +1
+2019-08-18 13:30:41	COSCUP_bridge_bo	<catcat_4>: https://hackmd.io/@coscup/HklVkXeES   開源教育 BoF 共筆，大家一起關心~~~
+2019-08-18 13:30:42	COSCUP_bridge_bo	[Title] 開源教育 BoF - HackMD
+2019-08-18 13:35:23	COSCUP_bridge_bo	<yomao>: 請問有人可以提供 TR313 aka IB101 的 php 加密的簡報嗎，講者一開始的 QR 沒有掃到
+2019-08-18 13:35:34	COSCUP_bridge_bo	<yomao>: 或著幫忙 update 到共筆，謝謝～
+2019-08-18 13:37:14	COSCUP_bridge_bo	<canyu>: (yomao: 請問有人可...) 從直播這裡找? https://www.youtube.com/watch?v=MvsaZuSnlCM
+2019-08-18 13:37:15	COSCUP_bridge_bo	[Title] COSCUP 2019 直播 TR313 (原IB101) Day2 - YouTube
+2019-08-18 13:42:44	-->	waeting (df88aecb@223-136-174-203.emome-ip.hinet.net) has joined #coscup
+2019-08-18 13:47:22	<--	asahsieh (uid28213@gateway/web/irccloud.com/x-sgksvhjahcyxxnlb) has quit (Quit: Connection closed for inactivity)
+2019-08-18 13:57:22	<--	waeting (df88aecb@223-136-174-203.emome-ip.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-18 14:07:17	COSCUP_bridge_bo	<David_C927>: Ban吧
+2019-08-18 14:11:51	COSCUP_bridge_bo	<s5048218>: https://i.imgur.com/iLt6d34.jpg
+2019-08-18 14:12:05	COSCUP_bridge_bo	<s5048218>: DAY 1 + DAY 2 哪裡刷ㄚ
+2019-08-18 14:14:41	COSCUP_bridge_bo	<jingo1113>: 水冷扇尿尿中
+2019-08-18 14:14:46	COSCUP_bridge_bo	<jingo1113>: -裸男
+2019-08-18 14:18:31	COSCUP_bridge_bo	<Adela Hsieh>: (s5048218: DAY 1...) 在大會攤位唷，TR513
+2019-08-18 14:19:09	COSCUP_bridge_bo	<s5048218>: (Adela Hsieh: 在大會攤位...) 我剛刷是 Day 2 耶
+2019-08-18 14:19:43	COSCUP_bridge_bo	<s5048218>: 感謝
+2019-08-18 14:22:03	COSCUP_bridge_bo	<daisuke1230>: https://i.imgur.com/m6AhHn6.jpg
+2019-08-18 14:22:08	COSCUP_bridge_bo	<daisuke1230>: 純日文上陣la！
+2019-08-18 14:24:39	COSCUP_bridge_bo	<tenling>: 需要翻譯嗎w
+2019-08-18 14:25:07	COSCUP_bridge_bo	<daisuke1230>: (tenling: 需要翻譯嗎...) 可能很需要
+2019-08-18 14:25:10	COSCUP_bridge_bo	<littlegoodjack>: 請問今天贊助商攤位是到幾點？
+2019-08-18 14:25:20	COSCUP_bridge_bo	<tenling>: 哪一間
+2019-08-18 14:25:20	COSCUP_bridge_bo	<daisuke1230>: 感覺有些人一臉懵(X
+2019-08-18 14:26:19	COSCUP_bridge_bo	<daisuke1230>: (tenling: 哪一間) 312，可以來晃晃XP 說不定可以文字翻譯實況(被揍
+2019-08-18 14:27:18	COSCUP_bridge_bo	<othree>: 問一下個人贊助的紀念品要在哪裡拿
+2019-08-18 14:29:18	COSCUP_bridge_bo	<rail02000>: (daisuke1230: 312，可...) 打在共筆，但打字速度跟不上
+2019-08-18 14:29:32	COSCUP_bridge_bo	<dan_chen>: TR411 羅老師正在 live demo 大學授課 😂
+2019-08-18 14:29:41	COSCUP_bridge_bo	<daisuke1230>: (rail02000: 打在共筆，...) 你不是走掉了www
+2019-08-18 14:30:15	COSCUP_bridge_bo	<rail02000>: 回來了(x
+2019-08-18 14:32:28	COSCUP_bridge_bo	<RainnyQ>: 下雨了☔
+2019-08-18 14:34:31	COSCUP_bridge_bo	<chusiang>: 剛剛在 412-1 漏掉了一個灰色的水壺，應該是 500 ml，等等看拿不拿得回來了。XD
+2019-08-18 14:36:01	COSCUP_bridge_bo	<TristaTu>: (RainnyQ: 下雨了☔) 大雨中
+2019-08-18 14:39:11	COSCUP_bridge_bo	<bobchao>: 啊啊啊啊我來不及集章！！！
+2019-08-18 14:39:34	COSCUP_bridge_bo	<Kevin>: 集滿可以幹麻
+2019-08-18 14:39:40	COSCUP_bridge_bo	<CrBoy>: (bobchao: 啊啊啊啊我...) 哈哈哈我剛集完！！！
+2019-08-18 14:40:14	COSCUP_bridge_bo	<Jerry>: 召喚神龍許願：神龍啊神龍，請給我下一屆的總招
+2019-08-18 14:40:58	COSCUP_bridge_bo	<nfsnfschen>: (Jerry: 召喚神龍許...) 許願++
+2019-08-18 14:46:35	COSCUP_bridge_bo	<Adela Hsieh>: (othree: 問一下個人...) TR513 COSCUP大會攤位
+2019-08-18 14:47:43	COSCUP_bridge_bo	<Adela Hsieh>: (Kevin: 集滿可以幹...) 可以兌換大會限定商品喔～
+2019-08-18 14:47:54	COSCUP_bridge_bo	<catcat_4>: (nfsnfschen: 許願++) 我剛還以為nfs是報名++
+2019-08-18 14:48:21	COSCUP_bridge_bo	<Kevin>: 來不及集滿了
+2019-08-18 14:48:24	COSCUP_bridge_bo	<Adela Hsieh>: (littlegoodjack: 請問今天贊...) 到15:30唷～
+2019-08-18 14:48:40	COSCUP_bridge_bo	<joeangel>: 來不及集+1
+2019-08-18 14:50:47	COSCUP_bridge_bo	<alieonsido>: 413-2 "會寫軟體的一定會寫硬體" ??? XD
+2019-08-18 14:51:48	COSCUP_bridge_bo	<brlin_tw>: 411：這個（魔物獵人BOSS）傷害主要是在損血
+2019-08-18 14:51:50	COSCUP_bridge_bo	<GamerGary>: #TR509 醫學的東西有一個特性：只要假設一件事，你就能找到對應的文獻。 你假設花生可以抗癌，就可以找到花生可以抗癌的文獻。
+2019-08-18 15:00:09	COSCUP_bridge_bo	<tmonk>: 我今天在 chatbot 議程軌聽到「聊天機器人與社群經營」，我覺得他 20 分鐘的 talk 都在談生酮飲食跟介紹他的粉絲專頁，實在跟 chatbot 與 open source 沒甚麼關係，希望大會能了解一下是不是在審稿過程中發生了甚麼問題。
+2019-08-18 15:02:07	COSCUP_bridge_bo	<Pichu>: 示範如何傳教？
+2019-08-18 15:02:59	-->	either (uid66282@gateway/web/irccloud.com/x-hkwbqryfqnxbcpst) has joined #coscup
+2019-08-18 15:03:05	COSCUP_bridge_bo	<nfsnfschen>: (catcat_4: 我剛還以為...) 呃
+2019-08-18 15:04:03	COSCUP_bridge_bo	<pjxpj>: (nfsnfschen: 呃) 以為nfs報名++ +1
+2019-08-18 15:04:56	COSCUP_bridge_bo	<ettoolong>: (othree: 問一下個人...) 500 元票是個人贊助嗎？
+2019-08-18 15:05:07	COSCUP_bridge_bo	<panmike>: (tmonk: 我今天在...) +1 我從別的議程軌過來，還想說是不是我走錯教室還是記錯時間
+2019-08-18 15:06:32	COSCUP_bridge_bo	<mexcelsa>: 我是閃電秀的講者，剛剛接到電話太開心了沒聽清楚，想請問幾點在哪裡集合呢？怎麼提供投影片呢？
+2019-08-18 15:08:41	COSCUP_bridge_bo	<bobchao>: (mexcelsa: 我是閃電秀...) 投影片：可以用自己的電腦（HDMI）
+2019-08-18 15:08:46	COSCUP_bridge_bo	<iamhlb>: nfs 報名當總召？
+2019-08-18 15:08:53	COSCUP_bridge_bo	<bobchao>: 這樣你超時我們才能來拔插頭 😉 (不對）
+2019-08-18 15:09:09	COSCUP_bridge_bo	<bobchao>: (mexcelsa: 我是閃電秀...) 在哪集合： 3:50 於 TR 313 外面
+2019-08-18 15:09:18	COSCUP_bridge_bo	<mexcelsa>: 只有VGA的話，有轉接頭嗎 qq
+2019-08-18 15:09:41	COSCUP_bridge_bo	<David_C927>: 一人一信支持拔總召插頭
+2019-08-18 15:10:26	<--	AceLan (~Chia-Lin@114-32-69-186.HINET-IP.hinet.net) has quit (Ping timeout: 248 seconds)
+2019-08-18 15:11:57	COSCUP_bridge_bo	<bobchao>: (tmonk: 我今天在...) 我們基本是信任社群審稿，只要跟 Open Source 有關即可，不過既然內容有點問題我們會與社群溝通，感謝回報
+2019-08-18 15:12:10	COSCUP_bridge_bo	<othree>: (ettoolong: 請問 50...) 500 好像是純贊助？
+2019-08-18 15:12:11	COSCUP_bridge_bo	<bobchao>: (mexcelsa: 只有VGA...) 你可以用 PDF / Google Slide 那類東西嗎？
+2019-08-18 15:12:44	COSCUP_bridge_bo	<othree>: 可以拿另外一台接 HDMI 然後開 webcam 翻拍
+2019-08-18 15:12:56	COSCUP_bridge_bo	<mexcelsa>: 有，我是用google slide做的，可以給你們連結
+2019-08-18 15:12:56	COSCUP_bridge_bo	<alieonsido>: 413-2 大家不愛ㄉ馬克示威
+2019-08-18 15:13:16	COSCUP_bridge_bo	<bobchao>: (mexcelsa: 有，我是用...) 好的那至少也許我的電腦可以借你
+2019-08-18 15:13:41	COSCUP_bridge_bo	<mexcelsa>: (bobchao: 你可以用...) 感謝您，私訊您
+2019-08-18 15:14:45	COSCUP_bridge_bo	<ijliao>: (Adela Hsieh: TR513...) 欸, 大會攤位幾時收 ?
+2019-08-18 15:15:20	COSCUP_bridge_bo	<aweimeow>: (ijliao: 欸, 大會...) 印象中是 15:30，但我不是很確定
+2019-08-18 15:15:57	COSCUP_bridge_bo	<Adela Hsieh>: (aweimeow: 印象中是...) 是
+2019-08-18 15:19:03	COSCUP_bridge_bo	<ettoolong>: (othree: 500 好...) 好der XD
+2019-08-18 15:19:23	COSCUP_bridge_bo	<Jerry>: (bobchao: 在哪集合：...) 窩在聽標定三點十分到四點的talk，他結束我就趕快過去-
+2019-08-18 15:19:37	COSCUP_bridge_bo	<OtomeSound>: [310-1]工程師都有一種具象化能力
+2019-08-18 15:20:38	COSCUP_bridge_bo	<keithning>: 請問有 312 Graph-powered translation model 的投影片可分享嗎？ 謝謝
+2019-08-18 15:21:25	COSCUP_bridge_bo	<CrBoy>: 先打預防針：萬一待會的任何時候，發生突然斷電的情況，請大家不要驚慌，有可能是台科大在進行復電作業，需要暫時將 TR 大樓的電斷掉。 換句話說，如果突然斷電的話，大家應該要感到開心！
+2019-08-18 15:22:42	COSCUP_bridge_bo	<OtomeSound>: Lightening talk要從拔線進化成斷電了嗎....
+2019-08-18 15:22:51	COSCUP_bridge_bo	<CrBoy>: 希望不要啦orz
+2019-08-18 15:23:22	COSCUP_bridge_bo	<seanho>: 真。Lighting
+2019-08-18 15:23:48	COSCUP_bridge_bo	<Cheng Wei>: Unlightening Talk (unlight梗）
+2019-08-18 15:23:52	COSCUP_bridge_bo	<nfsnfschen>: (iamhlb: nfs 報...) 我記得我有報名過了 .....
+2019-08-18 15:23:53	COSCUP_bridge_bo	<s5048218>: 斷電講（X
+2019-08-18 15:23:57	COSCUP_bridge_bo	<CrBoy>: It's "lightning" XD
+2019-08-18 15:24:02	COSCUP_bridge_bo	<susutw>: (CrBoy: 先打預防針...) 感到開心！然後 COSCUP 就結束不需要 IB 了......
+2019-08-18 15:24:29	COSCUP_bridge_bo	<littlegoodjack>: Ruby 軌投影機爆炸
+2019-08-18 15:24:39	COSCUP_bridge_bo	<GamerGary>: (littlegoodjack: Ruby...) 怕
+2019-08-18 15:24:46	COSCUP_bridge_bo	<littlegoodjack>: 不是那個爆炸
+2019-08-18 15:24:49	COSCUP_bridge_bo	<CrBoy>: (littlegoodjack: Ruby...) 爆.....爆炸💥？
+2019-08-18 15:24:51	COSCUP_bridge_bo	<GamerGary>: 😭 https://i.imgur.com/ek4CBWP.png
+2019-08-18 15:24:59	COSCUP_bridge_bo	<littlegoodjack>: 壞掉 剛剛修好了
+2019-08-18 15:25:33	COSCUP_bridge_bo	<GamerGary>: (littlegoodjack: 不是那個爆...) 還好不是explosion
+2019-08-18 15:25:50	COSCUP_bridge_bo	<littlegoodjack>: 大概斷訊了五分鐘
+2019-08-18 15:25:57	COSCUP_bridge_bo	<Haraguroicha>: (GamerGary: 還好不是e...) 太惠了
+2019-08-18 15:26:30	COSCUP_bridge_bo	<Jerry>: https://i.imgur.com/8p7AbjD.jpg
+2019-08-18 15:28:36	COSCUP_bridge_bo	<joeangel>: (Reply to Jerry) ww
+2019-08-18 15:29:06	-->	AceLan (~Chia-Lin@114-32-69-186.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 15:29:06	COSCUP_bridge_bo	<alieonsido>: 413-2 降頻很難 "啊他就是很難就對了啦"
+2019-08-18 15:32:18	COSCUP_bridge_bo	<Irvin>: 412-1 台權會何明諠正在介紹（新）晶片身分證的進程 明年要換了喔，真的要換了喔，全民監控時代進步了
+2019-08-18 15:32:40	COSCUP_bridge_bo	<OtomeSound>: [310-1]（框架名字怎麼念？）當你想要當哪國人的時候，就學他們的念法就對了
+2019-08-18 15:33:49	COSCUP_bridge_bo	<tmonk>: (Irvin: 412-1...) 就一整個無法阻擋下來的火車
+2019-08-18 15:34:53	COSCUP_bridge_bo	<Irvin>: (tmonk: 就一整個無...) 規畫案正結束了，製作案一個月內要發包了，明年3季建製，十月發
+2019-08-18 15:35:05	COSCUP_bridge_bo	<LisbethW1130>: 靠......
+2019-08-18 15:35:09	COSCUP_bridge_bo	<q>: 狼友福利，免费看片 @WUSEBUHUAN
+2019-08-18 15:35:21	COSCUP_bridge_bo	<LisbethW1130>: 不順便免術換證一起推嗎（怒
+2019-08-18 15:35:27	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-18 15:35:27	COSCUP_bridge_bo	<Pichu>: 想知道晶片身分證目前主要的問題是哪邊？
+2019-08-18 15:35:35	COSCUP_bridge_bo	<LisbethW1130>: 你走開啦，生氣
+2019-08-18 15:36:03	COSCUP_bridge_bo	<LisbethW1130>: 剛剛在罵廣告，結果他刪了囧
+2019-08-18 15:36:11	<--	vincentsu (uid181072@gateway/web/irccloud.com/x-xtllaqhmfufxyxse) has quit (Quit: Connection closed for inactivity)
+2019-08-18 15:36:15	COSCUP_bridge_bo	<CrBoy>: (LisbethW1130: 剛剛在罵廣...) 我啦XD
+2019-08-18 15:36:20	COSCUP_bridge_bo	<Pichu>: (LisbethW1130: 剛剛在罵廣...) lol
+2019-08-18 15:36:20	COSCUP_bridge_bo	<Irvin>: (Pichu: 想知道晶片...) 資料庫要結合多少資料、生物辨識資料，如何控管敏感資料被給出去
+2019-08-18 15:36:39	COSCUP_bridge_bo	<Murasakio>: (LisbethW1130: 剛剛在罵廣...) 連加入紀錄都不見了 超快
+2019-08-18 15:36:55	COSCUP_bridge_bo	<Pichu>: 生物辨識部分應該是提供一個容器但是不一定會把東西裝進去？
+2019-08-18 15:37:04	COSCUP_bridge_bo	<tmonk>: (Pichu: 想知道晶片...) 台權會網站有詳細的討論 https://www.tahr.org.tw/issues/privacy/eid
+2019-08-18 15:37:08	COSCUP_bridge_bo	[Title] 晶片身分證 |台灣人權促進會
+2019-08-18 15:37:32	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 15:38:06	COSCUP_bridge_bo	<Murasakio>: [310-1] 該用什麼工具 IDE or Editor
+2019-08-18 15:38:27	COSCUP_bridge_bo	<Irvin>: 啊！忘了請印度人來自己說 Adhaar！
+2019-08-18 15:40:04	COSCUP_bridge_bo	<Pichu>: 目前台灣對隱私權的做法和日本以及歐洲最大差別應該是在台灣沒有個專責的個資委員會吧？
+2019-08-18 15:40:19	COSCUP_bridge_bo	<Irvin>: (Irvin: 資料庫要整...) 如果晶片身分證照概念是 PKI 憑證，你以後去小七取貨，感應身分證認證身分，會不會被內政部記錄下來？
+2019-08-18 15:40:42	COSCUP_bridge_bo	<Pichu>: 不會
+2019-08-18 15:41:28	COSCUP_bridge_bo	<joekaojoekao>: [312] 其實用日文講我覺得應該大家可以聽(看)懂七成
+2019-08-18 15:41:55	COSCUP_bridge_bo	<Pichu>: 要擔心的是小七會不會把身分證字號存下來送到不該送的地方去儲存或分析
+2019-08-18 15:43:40	COSCUP_bridge_bo	<Pichu>: https://paste.ee/r/5mZeO
+2019-08-18 15:44:56	COSCUP_bridge_bo	<Kevin>: 應該還好吧 網購普及率沒這麼高
+2019-08-18 15:45:07	COSCUP_bridge_bo	<Kevin>: 好少人什麼都靠網購
+2019-08-18 15:45:11	COSCUP_bridge_bo	<Pichu>: 台權會的文章需要有技術人員幫忙檢視，不然沒辦法提出真的有問題的場景。
+2019-08-18 15:45:25	COSCUP_bridge_bo	<Irvin>: 印度講者 Ankit 等一下會講 Adhaar #412-1
+2019-08-18 15:45:27	COSCUP_bridge_bo	<Kevin>: 這樣很難建出有效的模型
+2019-08-18 15:45:29	COSCUP_bridge_bo	<CrBoy>: (Pichu: 台權會的文...) 去吧皮丘！就覺得是你了！
+2019-08-18 15:47:03	COSCUP_bridge_bo	<Pichu>: (CrBoy: 去吧皮丘！...) 我覺得個資這塊在華語圈還有很大的空間，相信在場不少工程師聽到GDPR就想殺人，假如我提個建議政府資安規範接軌GDPR出來不知道會不會哪天被打... 😆
+2019-08-18 15:47:29	COSCUP_bridge_bo	<alieonsido>: 413-2 那一根出現惹！
+2019-08-18 15:48:46	COSCUP_bridge_bo	<sarsc>: (Pichu: 我覺得個資...) 上有政策下有對策
+2019-08-18 15:49:51	COSCUP_bridge_bo	<tmonk>: (Pichu: 我覺得個資...) 與 GDPR 的接軌有在做了 https://pipa.ndc.gov.tw/
+2019-08-18 15:49:52	COSCUP_bridge_bo	[Title] 國發會個人資料保護專區網站
+2019-08-18 15:51:59	COSCUP_bridge_bo	<Pichu>: https://paste.ee/r/kcVJX
+2019-08-18 15:54:33	COSCUP_bridge_bo	<mexcelsa>: Lighting talk 講者在313外面的哪裡集合呢？
+2019-08-18 15:57:29	COSCUP_bridge_bo	<Pichu>: https://paste.ee/r/AaMJ5
+2019-08-18 15:58:32	COSCUP_bridge_bo	<Pichu>: 你如果要傳到台灣也是可以的，但是使用者必須要知情並且明示同意，基本上如果你是台灣公司在台灣做研發即使伺服器在歐洲好了，會SSH登進去然後看到客戶的地址那就已經傳到台灣了。
+2019-08-18 15:59:05	COSCUP_bridge_bo	<fntsrlike>: 主場似乎滿了，待會的議程有直播嗎
+2019-08-18 15:59:28	COSCUP_bridge_bo	<pjxpj>: TR313爆滿中😱
+2019-08-18 16:00:10	COSCUP_bridge_bo	<rosa32222>: (fntsrlike: 主場似乎滿...) 閃電秀的話，因為電力設備異常場內沒有wifi，因此沒有直播，但是會有錄影
+2019-08-18 16:01:22	COSCUP_bridge_bo	<oTo_To_T>: 求個WebXR的那幾個resource
+2019-08-18 16:01:28	COSCUP_bridge_bo	<David_C927>: 聽說閃電秀超過一般大學教室含旁聽最大人數
+2019-08-18 16:02:33	COSCUP_bridge_bo	<s5048218>: https://youtu.be/XANSuy3VV8c
+2019-08-18 16:02:34	COSCUP_bridge_bo	[Title] COSCUP 2019 直播 TR313 (原IB101) Day2 - YouTube
+2019-08-18 16:02:36	COSCUP_bridge_bo	<LisbethW1130>: (David_C927: 這次閃電秀...) 這應該很正常，沒有大學旁聽人數會有 500 以上吧XD
+2019-08-18 16:02:59	COSCUP_bridge_bo	<jiachengx>: 地上應該還有位置
+2019-08-18 16:03:19	COSCUP_bridge_bo	<CrBoy>: LT 爆棚
+2019-08-18 16:03:27	COSCUP_bridge_bo	<rosa32222>: (s5048218: https...) 可以直播了！
+2019-08-18 16:03:46	COSCUP_bridge_bo	<minakokojima>: Cool
+2019-08-18 16:04:23	COSCUP_bridge_bo	<minakokojima>: 今年 Coscup 好厲害～！
+2019-08-18 16:04:28	COSCUP_bridge_bo	<lin4h>: 體感CO2爆表中…
+2019-08-18 16:05:33	COSCUP_bridge_bo	<Cute_Panda>: 你永遠不知道Lighting Talk那間裡塞了多少人
+2019-08-18 16:06:00	COSCUP_bridge_bo	<pjxpj>: (Cute_Panda: 你永遠不知...) XDDDD
+2019-08-18 16:06:53	COSCUP_bridge_bo	<迷之阿杰>: (Cute_Panda: 你永遠不知...) 根本無法去想有多少人XDDDD
+2019-08-18 16:07:07	COSCUP_bridge_bo	<Kevin>: 可以來張360環景嗎
+2019-08-18 16:08:25	COSCUP_bridge_bo	<joeangel>: TR312 有轉播 Lightning talk
+2019-08-18 16:08:48	-->	waeting (df88aecb@223-136-174-203.emome-ip.hinet.net) has joined #coscup
+2019-08-18 16:08:51	COSCUP_bridge_bo	<bobchao>: Jerry 轉接頭在我手上但我也進不去
+2019-08-18 16:09:56	COSCUP_bridge_bo	<pjxpj>: https://i.imgur.com/1IEjIhH.jpg
+2019-08-18 16:10:37	COSCUP_bridge_bo	<David_C927>: 最Fuckup的世界遺產
+2019-08-18 16:10:56	-->	ca (728826be@114-136-38-190.emome-ip.hinet.net) has joined #coscup
+2019-08-18 16:11:00	COSCUP_bridge_bo	<minakokojima>: 😂 一館壞了可以到二館
+2019-08-18 16:11:07	COSCUP_bridge_bo	<Kevin>: 蠻有趣的耶
+2019-08-18 16:11:09	COSCUP_bridge_bo	<Kevin>: 好好玩
+2019-08-18 16:11:18	COSCUP_bridge_bo	<Kevin>: 現在的直播
+2019-08-18 16:11:31	COSCUP_bridge_bo	<catcat_4>: (fntsrlike: 主場似乎滿...) 目前在隔壁轉播
+2019-08-18 16:11:37	COSCUP_bridge_bo	<纵横四海>: 《王美玲骚货电报 @xsm13 》  大家好，  我是电报女神王美玲的男朋友  这个小骚货跟我分手了，  找到马尼拉一个棋牌老板  我现在把我们的性爱视频发在这个群里  想看的小伙伴请进群  @xsm13
+2019-08-18 16:11:55	waeting	轉播的聲音有點糊ＱＱ
+2019-08-18 16:13:13	COSCUP_bridge_bo	<catcat_4>: 抱歉，因為沒有音源線～只能靠近麥克風，並請大家腦補XDDD
+2019-08-18 16:13:32	COSCUP_bridge_bo	<Cute_Panda>: (catcat_4: 抱歉，因為...) 啥聊天室逐字稿(#
+2019-08-18 16:13:59	COSCUP_bridge_bo	<David_C927>: Dog.com本人
+2019-08-18 16:14:18	COSCUP_bridge_bo	<catcat_4>: 在主場的夥伴大家可以幫忙共筆造福轉播聽眾
+2019-08-18 16:15:55	COSCUP_bridge_bo	<Telegram>: 【閃電秀直播中】 https://youtu.be/XANSuy3VV8c
+2019-08-18 16:15:56	COSCUP_bridge_bo	[Title] COSCUP 2019 直播 TR313 (原IB101) Day2 - YouTube
+2019-08-18 16:16:31	COSCUP_bridge_bo	<Jerry>: (bobchao: Jerry...) 你要請人遞ㄇ 我到前面ㄌ了可是好遠 出去好難
+2019-08-18 16:16:45	COSCUP_bridge_bo	<Jerry>: Usbc to projector
+2019-08-18 16:17:29	COSCUP_bridge_bo	<joeangel>: (David_C927: 這次閃電秀...) 台科只有段考的時候 老師才發現一間大教室不夠用 XD
+2019-08-18 16:18:29	COSCUP_bridge_bo	<Cute_Panda>: 楓之谷真的造就很多大大
+2019-08-18 16:19:00	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 258 seconds)
+2019-08-18 16:19:36	COSCUP_bridge_bo	<David_C927>: (Cute_Panda: 楓之谷真的...) 真的
+2019-08-18 16:20:48	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 16:21:23	COSCUP_bridge_bo	<Jerry>: 慘了 我寫FGOㄉ 是不是透漏年紀ㄌ
+2019-08-18 16:21:37	COSCUP_bridge_bo	<Jerry>: Open source 大家自己找（？
+2019-08-18 16:22:42	COSCUP_bridge_bo	<pjxpj>: 拔線囉
+2019-08-18 16:22:45	COSCUP_bridge_bo	<bobchao>: (Jerry: Usbc...) 你用完直接放台前就好我再去回收
+2019-08-18 16:22:48	COSCUP_bridge_bo	<bobchao>: 賀拔線～～～
+2019-08-18 16:22:52	COSCUP_bridge_bo	<Moon_slight>: 第三位就拔到插頭啦 ~ (( 大成功
+2019-08-18 16:22:59	COSCUP_bridge_bo	<bobchao>: 我剛就在想這個節奏看起來就是會被拔 😆
+2019-08-18 16:23:12	COSCUP_bridge_bo	<minakokojima>: 歡 喜
+2019-08-18 16:24:07	COSCUP_bridge_bo	<TonyQtw>: 麥克風看起來有點問題
+2019-08-18 16:25:54	COSCUP_bridge_bo	<engerim>: https://i.imgur.com/ymlzJmH.jpg
+2019-08-18 16:26:09	COSCUP_bridge_bo	<davy_0xff>: 講者的 menubar 有 BTC 的即時幣值耶wwww
+2019-08-18 16:26:17	COSCUP_bridge_bo	<joeangel>: \\TonyQ// （認親
+2019-08-18 16:26:34	COSCUP_bridge_bo	<s5048218>: https://i.imgur.com/dS5PNbc.jpg
+2019-08-18 16:26:39	COSCUP_bridge_bo	<Jerry>: 認涼鞋 認透抽
+2019-08-18 16:26:43	COSCUP_bridge_bo	<s5048218>: BTC ww
+2019-08-18 16:27:02	COSCUP_bridge_bo	<engerim>: 太忙
+2019-08-18 16:27:18	COSCUP_bridge_bo	<Cute_Panda>: 冷氣直接過勞死 👍
+2019-08-18 16:27:54	COSCUP_bridge_bo	<minakokojima>: 觀察力+100
+2019-08-18 16:28:18	COSCUP_bridge_bo	<TonyQtw>: 我在搖滾區 講者正前方
+2019-08-18 16:28:39	COSCUP_bridge_bo	<TonyQtw>: 立馬加一顆
+2019-08-18 16:29:50	COSCUP_bridge_bo	<davy_0xff>: https://hackmd.io/@root/is-me
+2019-08-18 16:29:51	COSCUP_bridge_bo	[Title] 欸 名字可以自己取耶 - HackMD
+2019-08-18 16:32:23	COSCUP_bridge_bo	<OtomeSound>: 需要light的talk
+2019-08-18 16:32:40	COSCUP_bridge_bo	<davy_0xff>: 帥氣
+2019-08-18 16:33:05	COSCUP_bridge_bo	<David_C927>: Lighting type
+2019-08-18 16:33:13	COSCUP_bridge_bo	<davy_0xff>: live-demo
+2019-08-18 16:33:13	COSCUP_bridge_bo	<chialiaw>: lightning keynote
+2019-08-18 16:33:22	COSCUP_bridge_bo	<CrBoy>: LT - Lightning Type 中！
+2019-08-18 16:33:25	COSCUP_bridge_bo	<ca1025>: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvbnldBBftzhLrw9bbPgY8Kkl21vf4IO41eSJbaJkZaIyzTQNP
+2019-08-18 16:33:28	COSCUP_bridge_bo	<Cute_Panda>: BGM呢？#
+2019-08-18 16:33:31	COSCUP_bridge_bo	<Kevin>: 靠腰
+2019-08-18 16:33:44	COSCUP_bridge_bo	<Kevin>: 都用這麼潮的輸入法
+2019-08-18 16:33:49	COSCUP_bridge_bo	<Kevin>: 怎麼還會用注音
+2019-08-18 16:34:29	COSCUP_bridge_bo	<chialiaw>: 誰幫忙開bgm？
+2019-08-18 16:35:13	COSCUP_bridge_bo	<minakokojima>: 開始燃起來了
+2019-08-18 16:35:14	COSCUP_bridge_bo	<David_C927>: 這直播存檔會消音
+2019-08-18 16:35:17	COSCUP_bridge_bo	<davy_0xff>: 有小紅點啊啊啊啊
+2019-08-18 16:35:26	COSCUP_bridge_bo	<minakokojima>: 燃える
+2019-08-18 16:35:40	COSCUP_bridge_bo	<davy_0xff>: 來不及惹wwwww
+2019-08-18 16:36:21	COSCUP_bridge_bo	<pjxpj>: https://github.com/LSChyi/ex-dactyl-keyboard/tree/ex-dactyl
+2019-08-18 16:36:23	COSCUP_bridge_bo	[Title] GitHub - LSChyi/ex-dactyl-keyboard at ex-dactyl
+2019-08-18 16:36:36	COSCUP_bridge_bo	<minakokojima>: 谢谢茄子
+2019-08-18 16:36:43	COSCUP_bridge_bo	<koru1130>: https://www.thingiverse.com/thing:3815317
+2019-08-18 16:36:44	COSCUP_bridge_bo	[Title] Ex-Dactyl Keyboard by LSChyi - Thingiverse
+2019-08-18 16:37:09	COSCUP_bridge_bo	<eren_queue>: 👍 https://i.imgur.com/l1LyVqH.png
+2019-08-18 16:37:21	COSCUP_bridge_bo	<davy_0xff>: https://medium.com/@alan81920/%E5%BE%9E-0-%E9%96%8B%E5%A7%8B-%E6%89%8B%E6%89%93%E4%B8%80%E6%8A%8A%E5%B0%88%E5%B1%AC%E7%9A%84%E8%97%8D%E7%89%99%E9%9B%99%E6%A8%A1%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8%E9%8D%B5%E7%9B%A4-0-559e623f48a2
+2019-08-18 16:37:22	COSCUP_bridge_bo	[Title] 從 0 開始，手打一把專屬的藍牙雙模人體工學鍵盤 (0) - 李松錡 - Medium
+2019-08-18 16:37:41	COSCUP_bridge_bo	<Kevin>: 太耗時了
+2019-08-18 16:37:48	COSCUP_bridge_bo	<Kevin>: 先投資輸入法比較實在
+2019-08-18 16:37:57	COSCUP_bridge_bo	<Kevin>: 換輸入法不用錢
+2019-08-18 16:38:01	COSCUP_bridge_bo	<davy_0xff>: 注音也沒有什麼不好R
+2019-08-18 16:38:08	COSCUP_bridge_bo	<yoyo930021>: \無蝦米/
+2019-08-18 16:38:10	COSCUP_bridge_bo	<Kevin>: 選字
+2019-08-18 16:38:13	COSCUP_bridge_bo	<linroex>: 講不完的閃電秀，不務正業工程師，晚上九點自己開直播講XDDD  https://www.facebook.com/100000103984786/posts/2840465852633520/
+2019-08-18 16:38:14	COSCUP_bridge_bo	[Title] 林熙哲 - 閃電秀來不及講完阿阿果然應該把自我介紹放後面的，決定晚上九點來 Facebook 自己開直播講閃電秀！... | Facebook
+2019-08-18 16:38:17	COSCUP_bridge_bo	<Kevin>: 除非你打英文
+2019-08-18 16:38:21	COSCUP_bridge_bo	<yoyo930021>: (Kevin: 換輸入法不...) 可以兩個都換啊
+2019-08-18 16:38:30	COSCUP_bridge_bo	<Moon_slight>: 不是先練習在台上打字嗎?
+2019-08-18 16:38:32	COSCUP_bridge_bo	<Kevin>: 一個一個來好嗎
+2019-08-18 16:38:34	COSCUP_bridge_bo	<davy_0xff>: 不管什麼輸入法都需要選字囉 鍵盤按鍵就這麼多個
+2019-08-18 16:38:44	COSCUP_bridge_bo	<Kevin>: 無蝦米不太需要
+2019-08-18 16:39:08	COSCUP_bridge_bo	<davy_0xff>: 你選字其實也是在輸入按鍵R
+2019-08-18 16:39:26	COSCUP_bridge_bo	<OtomeSound>: 自製意念打字(?
+2019-08-18 16:39:30	COSCUP_bridge_bo	<Kevin>: 選字要判斷
+2019-08-18 16:39:32	COSCUP_bridge_bo	<yoyo930021>: 輸入法戰起來（？
+2019-08-18 16:39:39	COSCUP_bridge_bo	<oneleo760823>: 還有 V
+2019-08-18 16:39:43	COSCUP_bridge_bo	<Kevin>: 就卡了
+2019-08-18 16:40:24	COSCUP_bridge_bo	<davy_0xff>: 用米家不會反而更危險ㄇ……
+2019-08-18 16:40:24	COSCUP_bridge_bo	<joeangel>: (linroex: 講不完的閃...) 😎 https://i.imgur.com/9G2bhg3.png
+2019-08-18 16:42:18	COSCUP_bridge_bo	<TristaTu>: [服務台] 失物招領~ 安全帽、車鑰匙、水壺水壺水壺、雨傘雨傘雨傘、雨衣雨衣、膠帶
+2019-08-18 16:42:38	COSCUP_bridge_bo	<lin4h>: 嘸蝦米你用快打跟熟字基本沒什麼機會覺
+2019-08-18 16:43:32	COSCUP_bridge_bo	<Haraguroicha>: (davy_0xff: 用米家不會...) 不會，有鎖他連線能力
+2019-08-18 16:43:39	COSCUP_bridge_bo	<Haraguroicha>: https://bit.ly/2HbQeal
+2019-08-18 16:43:42	COSCUP_bridge_bo	[Title] 機房監控酷炫上手 - Google 簡報
+2019-08-18 16:44:34	COSCUP_bridge_bo	<lin4h>: 米家喔，鎖對外就好…雖然不用最簡單
+2019-08-18 16:44:45	COSCUP_bridge_bo	<Haraguroicha>: 鎖了xD
+2019-08-18 16:46:26	COSCUP_bridge_bo	<lin4h>: 不過你家dell還能撐到溫控40幾度也太扯
+2019-08-18 16:46:46	COSCUP_bridge_bo	<Haraguroicha>: 44.5
+2019-08-18 16:46:48	COSCUP_bridge_bo	<lin4h>: 我家30幾度HP就開始出問題了…現在18度
+2019-08-18 16:46:50	COSCUP_bridge_bo	<OtomeSound>: Doggy，怕
+2019-08-18 16:47:12	COSCUP_bridge_bo	<alchotw>: 😂 https://i.imgur.com/vckr7L6.png
+2019-08-18 16:47:33	COSCUP_bridge_bo	<licson>: (lin4h: 我家30幾...) 我也是用 HP，入風溫度三十幾就開始飆風扇錯誤了
+2019-08-18 16:47:37	COSCUP_bridge_bo	<licson>: 就是壞風扇
+2019-08-18 16:48:00	COSCUP_bridge_bo	<Haraguroicha>: (licson: 就是壞風扇) 這笑你，業障
+2019-08-18 16:48:26	COSCUP_bridge_bo	<lin4h>: 話說目前只有idrac嗎？有沒有機會接ilo？
+2019-08-18 16:48:58	COSCUP_bridge_bo	<licson>: (lin4h: 話說目前只...) 應該也是靠 ipmitool 而已
+2019-08-18 16:49:06	COSCUP_bridge_bo	<Haraguroicha>: (lin4h: 話說目前只...) 可以，給我機器就行
+2019-08-18 16:49:15	COSCUP_bridge_bo	<Haraguroicha>: (licson: 應該也是靠...) 沒，我直接戳他 API
+2019-08-18 16:49:28	COSCUP_bridge_bo	<licson>: (Haraguroicha: 沒，我直接...) 那你改一下就行啦（
+2019-08-18 16:49:40	COSCUP_bridge_bo	<licson>: iLO 有 Sea of Sensors 3D
+2019-08-18 16:49:42	COSCUP_bridge_bo	<David_C927>: Vga沒有畫面源？
+2019-08-18 16:49:48	COSCUP_bridge_bo	<licson>: 幾十個溫度感測點
+2019-08-18 16:49:49	COSCUP_bridge_bo	<bobchao>: (David_C927: Vga沒有...) 對
+2019-08-18 16:49:51	COSCUP_bridge_bo	<lin4h>: 沒關係，反正study是一定要的
+2019-08-18 16:50:10	COSCUP_bridge_bo	<Haraguroicha>: (licson: 那你改一下...) 你機器來啊wwww
+2019-08-18 16:50:29	COSCUP_bridge_bo	<catcat_4>: (Jerry: 慘了 我寫...) 想加fgo好友～～～
+2019-08-18 16:50:44	COSCUP_bridge_bo	<Haraguroicha>: 你機器來我改好就馬上 Release Early
+2019-08-18 16:51:23	COSCUP_bridge_bo	<lin4h>: WTF
+2019-08-18 16:52:00	COSCUP_bridge_bo	<Haraguroicha>: 😃 https://i.imgur.com/k7XOPI1.png
+2019-08-18 16:52:12	COSCUP_bridge_bo	<CrBoy>: 不動產估價放國外就好了啊XD
+2019-08-18 16:52:35	COSCUP_bridge_bo	<Moon_slight>: 剛剛的QRcode是講者FB就算了，我還手腳太慢拍到下一張投影片
+2019-08-18 16:52:36	COSCUP_bridge_bo	<CrBoy>: 屬地主義罰不到吧
+2019-08-18 16:52:48	COSCUP_bridge_bo	<Haraguroicha>: (Moon_slight: 剛剛的QR...) 笑死
+2019-08-18 16:54:29	COSCUP_bridge_bo	<David_C927>: 沒有畫面直接放計時
+2019-08-18 16:56:32	COSCUP_bridge_bo	<CrBoy>: (David_C927: 沒有畫面直...) 效果很棒XD
+2019-08-18 16:56:33	COSCUP_bridge_bo	<bobchao>: 「你們一定會記住我，因為我可能是你們看到最後一個以自由行身份過來的大陸人」 XD...
+2019-08-18 16:56:59	COSCUP_bridge_bo	<alieonsido>: 這句話真的笑死
+2019-08-18 16:57:04	COSCUP_bridge_bo	<bobchao>: 超強
+2019-08-18 16:57:22	COSCUP_bridge_bo	<CrBoy>: 這笑了會下地獄嗎XD
+2019-08-18 16:57:24	COSCUP_bridge_bo	<bobchao>: 「今天晚上又在公司睡了，耶，又可以 hackathon 了」
+2019-08-18 16:57:45	COSCUP_bridge_bo	<Jerry>: (catcat_4: 想加fgo...) 台版！ Taipei ethereum meetup https://www.facebook.com/eth.taipei/  9595 9595工人招募中！
+2019-08-18 16:57:48	COSCUP_bridge_bo	[Title] Taipei Ethereum Meetup - 首頁 | Facebook
+2019-08-18 16:58:10	COSCUP_bridge_bo	<bobchao>: 就是那條龍
+2019-08-18 16:59:50	COSCUP_bridge_bo	<catcat_4>: (Jerry: 我四日版！...) 我4貓 (?)
+2019-08-18 16:59:56	COSCUP_bridge_bo	<littlegoodjack>: 直播的麥克風收音是桌上那隻嗎
+2019-08-18 17:00:46	COSCUP_bridge_bo	<catcat_4>: 是資訊講桌的
+2019-08-18 17:01:22	COSCUP_bridge_bo	<bobchao>: (littlegoodjack: 直播的麥克...) 看起來好像是...
+2019-08-18 17:01:31	COSCUP_bridge_bo	<joeangel>: (littlegoodjack: 直播的麥克...) 是的..
+2019-08-18 17:02:03	COSCUP_bridge_bo	<joeangel>: 換了場地 教室設備不好喬QQ
+2019-08-18 17:02:27	COSCUP_bridge_bo	<minakokojima>: 已经很了不起了，火线救援～
+2019-08-18 17:04:18	COSCUP_bridge_bo	<littlegoodjack>: 我覺得是指向方向的關係 講者站在麥克風前面的時候其實很清楚
+2019-08-18 17:04:43	COSCUP_bridge_bo	<RainnyQ>: (TristaTu: [服務台]...) 拜託掉東西的人趕快來領...
+2019-08-18 17:05:09	COSCUP_bridge_bo	<TristaTu>: [服務台] 失物持續招領中~ 安全帽、車鑰匙、水壺水壺水壺、雨傘雨傘雨傘、雨衣雨衣、膠帶、帽子、筆袋、眼鏡盒
+2019-08-18 17:05:10	COSCUP_bridge_bo	<littlegoodjack>: (minakokojima: 已经很了不...) 真的 辛苦工人們了 🙏🙏
+2019-08-18 17:05:48	COSCUP_bridge_bo	<Sean>: (TristaTu: [服務台]...) 有綠色蓋子的透明水壺嗎？
+2019-08-18 17:06:02	COSCUP_bridge_bo	<RainnyQ>: (Sean: 有綠色蓋子...) 看起來有
+2019-08-18 17:06:08	COSCUP_bridge_bo	<joeangel>: 💃 https://i.imgur.com/NXTz9aT.png
+2019-08-18 17:06:39	COSCUP_bridge_bo	<OtomeSound>: Google Spreadsheet萬能論(?
+2019-08-18 17:07:05	COSCUP_bridge_bo	<davy_0xff>: spreadsheet 真的萬用XD
+2019-08-18 17:07:07	COSCUP_bridge_bo	<bobchao>: 嘖嘖嘖 我應該有空再來分享一下議程組為了應對那個 opass 設定檔跟其他雜七雜八的資料需求到底怎麼玩 Google Spreadsheet
+2019-08-18 17:07:46	COSCUP_bridge_bo	<minakokojima>: 原来不是我一个
+2019-08-18 17:08:14	COSCUP_bridge_bo	<abev66>: (bobchao: 嘖嘖嘖 我...) 期待分享
+2019-08-18 17:08:17	COSCUP_bridge_bo	<joeangel>: (bobchao: 嘖嘖嘖 我...) 要有 talk 了嗎
+2019-08-18 17:08:24	COSCUP_bridge_bo	<OtomeSound>: 我之前有用Spreadsheet弄簡單的POST/GET，很好玩
+2019-08-18 17:08:42	<--	ca (728826be@114-136-38-190.emome-ip.hinet.net) has quit (Remote host closed the connection)
+2019-08-18 17:09:02	COSCUP_bridge_bo	<Moon_slight>: 竟然拔到丹丹的線啦 ! !
+2019-08-18 17:09:27	COSCUP_bridge_bo	<abev66>: \拔線成功/
+2019-08-18 17:10:22	COSCUP_bridge_bo	<minakokojima>: XD
+2019-08-18 17:10:31	COSCUP_bridge_bo	<joeangel>: @DennyHuang 後門還有什麼還沒講w?
+2019-08-18 17:11:05	COSCUP_bridge_bo	<lin4h>: (joeangel: @Denn...) 簡報link撒出來就知道了XD
+2019-08-18 17:11:16	COSCUP_bridge_bo	<Haraguroicha>: (joeangel: @Denn...) 他其實有講到
+2019-08-18 17:11:20	COSCUP_bridge_bo	<Haraguroicha>: 一秒
+2019-08-18 17:11:22	COSCUP_bridge_bo	<Haraguroicha>: 。
+2019-08-18 17:11:25	waeting	一閃而過
+2019-08-18 17:11:26	COSCUP_bridge_bo	<daisuke1230>: 就 SITCON 2020 2020/03/28 @ 中研院人文社會科學館w
+2019-08-18 17:11:50	COSCUP_bridge_bo	<lin4h>: 螢幕線應該鬆了
+2019-08-18 17:11:58	COSCUP_bridge_bo	<davy_0xff>: 所以是跟 OCF 合作，把開源審核機制交給 OCF 囉？
+2019-08-18 17:13:50	COSCUP_bridge_bo	<joeangel>: TR312 講台附近還有座位歐
+2019-08-18 17:14:28	COSCUP_bridge_bo	<barneybook>: 宣傳一下群組 @JavaScriptTw
+2019-08-18 17:15:15	COSCUP_bridge_bo	<Kevin>: 好優秀喔
+2019-08-18 17:15:27	COSCUP_bridge_bo	<Kevin>: 這樣還能順利進行
+2019-08-18 17:15:39	COSCUP_bridge_bo	<Kevin>: 唯一一棟有電的大樓
+2019-08-18 17:16:05	COSCUP_bridge_bo	<joeangel>: 校內網路全斷了，因為計算機中心也沒電
+2019-08-18 17:16:11	COSCUP_bridge_bo	<joeangel>: 超困難XD
+2019-08-18 17:17:01	COSCUP_bridge_bo	<CrBoy>: QQ 感傷的時間
+2019-08-18 17:17:14	COSCUP_bridge_bo	<Kevin>: ＱＱ
+2019-08-18 17:17:26	COSCUP_bridge_bo	<Moon_slight>: QQ
+2019-08-18 17:17:39	COSCUP_bridge_bo	<OtomeSound>: QQ
+2019-08-18 17:17:45	COSCUP_bridge_bo	<devink0430>: QQ
+2019-08-18 17:17:46	COSCUP_bridge_bo	<GDHFang>: QQ
+2019-08-18 17:17:55	COSCUP_bridge_bo	<darkgerm>: QQ
+2019-08-18 17:18:28	COSCUP_bridge_bo	<davy_0xff>: QQ
+2019-08-18 17:18:30	COSCUP_bridge_bo	<pjxpj>: QQ
+2019-08-18 17:18:40	COSCUP_bridge_bo	<David_C927>: R.I.P.
+2019-08-18 17:18:42	COSCUP_bridge_bo	<iamcyj>: QQ
+2019-08-18 17:18:50	COSCUP_bridge_bo	<littlegoodjack>: QQQQ
+2019-08-18 17:19:24	COSCUP_bridge_bo	<Kevin>: 乾
+2019-08-18 17:19:27	COSCUP_bridge_bo	<Kevin>: 太催淚了
+2019-08-18 17:19:29	COSCUP_bridge_bo	<taichunmin>: R.I.P.
+2019-08-18 17:19:58	COSCUP_bridge_bo	<jiachengx>: R.I.P
+2019-08-18 17:20:13	COSCUP_bridge_bo	<Irvin>: 直播超震的，後製會很辛苦
+2019-08-18 17:20:55	COSCUP_bridge_bo	<mexcelsa>: QQ
+2019-08-18 17:21:18	<--	waeting (df88aecb@223-136-174-203.emome-ip.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-18 17:21:23	COSCUP_bridge_bo	<OtomeSound>: QQ
+2019-08-18 17:21:39	COSCUP_bridge_bo	<soruly>: QQ
+2019-08-18 17:22:42	COSCUP_bridge_bo	<brlin_tw>: QQ
+2019-08-18 17:22:44	COSCUP_bridge_bo	<daisuke1230>: 🐱 https://i.imgur.com/FhsCvpW.png
+2019-08-18 17:25:04	COSCUP_bridge_bo	<mexcelsa>: (CrBoy: 不動產估價...) 其實也是實價登錄很多造假，和真實的成交價會有落差，所以後來就終止專案啦XD
+2019-08-18 17:26:03	COSCUP_bridge_bo	<davy_0xff>: 2011
+2019-08-18 17:26:04	COSCUP_bridge_bo	<CrBoy>: 2019 + 1 = 2011 by @singing_li
+2019-08-18 17:26:10	COSCUP_bridge_bo	<waeting>: 2011
+2019-08-18 17:26:10	COSCUP_bridge_bo	<David_C927>: 回到過去
+2019-08-18 17:26:23	COSCUP_bridge_bo	<brlin_tw>: 原來今年是2010啊
+2019-08-18 17:26:57	COSCUP_bridge_bo	<mmis1000>: https://i.imgur.com/Guu4fnV.jpg
+2019-08-18 17:27:32	COSCUP_bridge_bo	<brlin_tw>: (mexcelsa: 其實也是實...) 所以那個實價登錄2.0（ry
+2019-08-18 17:33:03	COSCUP_bridge_bo	<DennyHuang>: (joeangel: @Denn...) SITCON 2020 3/28
+2019-08-18 17:34:54	<--	infate (~infate@shadow.ind.ntou.edu.tw) has left #coscup
+2019-08-18 17:36:56	COSCUP_bridge_bo	<joekaojoekao>: お疲れ様でした‼️
+2019-08-18 17:37:39	COSCUP_bridge_bo	<joekaojoekao>: ❤️ https://i.imgur.com/Fk86LWO.png
+2019-08-18 17:38:26	COSCUP_bridge_bo	<u10313335>: 謝謝，大家辛苦了！
+2019-08-18 17:39:36	COSCUP_bridge_bo	<Ti_wb>: 辛苦惹 <(_ _)>
+2019-08-18 17:40:03	COSCUP_bridge_bo	<brlin_tw>: 感謝主協辦單位
+2019-08-18 17:40:23	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 272 seconds)
+2019-08-18 17:41:25	COSCUP_bridge_bo	<canfly1019>: ⏲ https://i.imgur.com/dO8sR81.png
+2019-08-18 17:41:50	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 17:41:54	COSCUP_bridge_bo	<mexcelsa>: (brlin_tw: 所以那個實...) 可以去看實價登錄造假的機制 個人覺得2.0的幫助不大 而且最後也變成0.5
+2019-08-18 17:48:11	COSCUP_bridge_bo	<brlin_tw>: (mexcelsa: 可以去看實...) 感謝資訊
+2019-08-18 17:52:18	<--	either (uid66282@gateway/web/irccloud.com/x-hkwbqryfqnxbcpst) has quit (Quit: Connection closed for inactivity)
+2019-08-18 17:53:19	COSCUP_bridge_bo	<singing_li>: (CrBoy: 2019...) 只睡兩個小時，沒吃午餐真的會變笨 QQ
+2019-08-18 17:54:58	COSCUP_bridge_bo	<singing_li>: 大家 2020 要來參加！
+2019-08-18 17:59:04	COSCUP_bridge_bo	<pjxpj>: 好～
+2019-08-18 18:00:30	COSCUP_bridge_bo	<Darren Ng>: 臺灣哪一種注音輸入法比較流行
+2019-08-18 18:00:43	COSCUP_bridge_bo	<Darren Ng>: gcin歷史了吧
+2019-08-18 18:01:56	COSCUP_bridge_bo	<Darren Ng>: fcitx-rime？
+2019-08-18 18:03:47	COSCUP_bridge_bo	<bobchao>: (oTo_To_T: 求個Web...) https://blog.mozvr.com/tag/webxr/  沒聽那場但也許這裡有
+2019-08-18 18:03:49	COSCUP_bridge_bo	[Title] WebXR - Mozilla Mixed Reality Blog
+2019-08-18 18:05:51	COSCUP_bridge_bo	<othree>: (oTo_To_T: 求個Web...) 我有拍不過目前無法處理
+2019-08-18 18:06:58	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 248 seconds)
+2019-08-18 18:08:52	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 18:18:52	COSCUP_bridge_bo	<Jerry>: (singing_li: 只睡兩個小...) 只睡三小 很想續攤（認識心朋友）  可是我的理智叫我不要疲勞駕駛趕快回家睡覺 0rz  大家辛苦啦！2020見。
+2019-08-18 18:33:22	COSCUP_bridge_bo	<Moon_slight>: (brlin_tw: 所以那個實...) 那個我也有興趣
+2019-08-18 18:36:32	COSCUP_bridge_bo	<smailzhu>: (davy_0xff: 不管什麼輸...) 倉頡也不太需要
+2019-08-18 18:51:57	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 272 seconds)
+2019-08-18 18:53:13	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 19:00:16	COSCUP_bridge_bo	<caasih>: 好～
+2019-08-18 19:00:45	COSCUP_bridge_bo	<Jerry>: 我用rime  注音無聲韻輸入（Pcman對不起）  其實還可以
+2019-08-18 19:03:37	COSCUP_bridge_bo	<Jerry>: 就缺一個有big data 的search engine跳進來做輸入預測..
+2019-08-18 19:03:55	COSCUP_bridge_bo	<Jerry>: 為何G家只有Android version 嘖嘖
+2019-08-18 19:13:03	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 246 seconds)
+2019-08-18 19:15:13	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 19:18:43	COSCUP_bridge_bo	<yuchitung>: https://paste.ee/r/Ge6FY
+2019-08-18 19:23:54	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 246 seconds)
+2019-08-18 19:26:03	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 19:40:57	COSCUP_bridge_bo	<barneybook>: 🌟 https://i.imgur.com/2oGXOa6.png
+2019-08-18 19:57:51	COSCUP_bridge_bo	<OK>: 原來有tg wwww
+2019-08-18 19:58:15	COSCUP_bridge_bo	<OK>: 好像看到每個議場後都有錄影
+2019-08-18 19:58:20	COSCUP_bridge_bo	<OK>: 會公開ㄇˉ
+2019-08-18 19:59:10	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2019-08-18 20:00:13	COSCUP_bridge_bo	<fieliapm>: 都要等幾個月吧
+2019-08-18 20:01:14	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 20:04:39	COSCUP_bridge_bo	<Darren Ng>: 首先抱歉收回太快 然後試了一下倉頡 爽翻
+2019-08-18 20:05:52	COSCUP_bridge_bo	<Cheng Wei>: 以下開放輸入法鄙視鍊
+2019-08-18 20:08:33	COSCUP_bridge_bo	<mmis1000>: 先出注音輸入法 on mac
+2019-08-18 20:08:46	COSCUP_bridge_bo	<mmis1000>: 我保證沒有人能比我更下位
+2019-08-18 20:09:22	COSCUP_bridge_bo	<cbs_ghost>: ㄅ半
+2019-08-18 20:09:31	COSCUP_bridge_bo	<mmis1000>: 9102年依然不能在注音狀態下輸入半形數字
+2019-08-18 20:09:52	COSCUP_bridge_bo	<mmis1000>: (cbs_ghost: ㄅ半) ㄅ半某些公務人員能破百歐…
+2019-08-18 20:11:04	COSCUP_bridge_bo	<mmis1000>: 位置是固定的，所以夠常用的話效率意外的不低
+2019-08-18 20:13:20	COSCUP_bridge_bo	<cbs_ghost>: (mmis1000: 9102年...) 我從mac OS X 10.4 一直用到現在的10.14，以前的mac內建注音輸入法是可以輸入半形數字的，不知道從哪個版本開始突然就不行了，到現在都沒有修正
+2019-08-18 20:16:32	COSCUP_bridge_bo	<hazel910159>: Hi 不好意思，想請問一下這是誰的線？ 我不小心帶走它了..
+2019-08-18 20:16:37	COSCUP_bridge_bo	<hazel910159>: https://i.imgur.com/AFCyHTr.jpg
+2019-08-18 20:16:56	COSCUP_bridge_bo	<Pichu>: (fieliapm: 都要等幾個...) 基本上已經上線了
+2019-08-18 20:21:22	-->	planetoid (df88596e@223-136-89-110.emome-ip.hinet.net) has joined #coscup
+2019-08-18 20:22:25	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 258 seconds)
+2019-08-18 20:24:17	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 20:28:50	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 248 seconds)
+2019-08-18 20:30:57	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 20:31:42	<--	planetoid (df88596e@223-136-89-110.emome-ip.hinet.net) has quit (Ping timeout: 260 seconds)
+2019-08-18 20:59:43	COSCUP_bridge_bo	<oTo_To_T>: (othree: 我有拍不過...) 希望大大之後可以幫忙放到共筆之類的裡面
+2019-08-18 21:02:30	COSCUP_bridge_bo	<Darren Ng>: 手中口 卜卜卜月手 竹月木弓   =   哲♂學
+2019-08-18 21:14:15	COSCUP_bridge_bo	<teltelro>: 靠 到現在還沒恢復電源，又要爬八樓了
+2019-08-18 21:14:19	COSCUP_bridge_bo	<teltelro>: 崩潰
+2019-08-18 21:18:55	COSCUP_bridge_bo	<oneleo760823>: (yuchitung: 第一次參加...) 讚讚！
+2019-08-18 21:19:31	COSCUP_bridge_bo	<JoeHung>: (teltelro: 到現在還沒...) ？？不是說六點半ㄇ
+2019-08-18 21:19:45	COSCUP_bridge_bo	<Darren Ng>: (teltelro: 到現在還沒...) 健身延壽
+2019-08-18 21:19:52	COSCUP_bridge_bo	<JoeHung>: https://i.imgur.com/xnv2dYc.jpg
+2019-08-18 21:20:38	COSCUP_bridge_bo	<teltelro>: (JoeHung: ？？不是說...) 假的，眼睛業障重
+2019-08-18 21:20:38	COSCUP_bridge_bo	<teltelro>: 又改到說盡量在午夜12點前了
+2019-08-18 21:21:22	COSCUP_bridge_bo	<JoeHung>: (teltelro: 又改到說盡...) ....不會明天還不行ㄅ 這樣我又要再打電話的廠商了...
+2019-08-18 21:24:42	COSCUP_bridge_bo	<teltelro>: (JoeHung: ....不...) 今天再幫你注意下電力
+2019-08-18 21:25:00	COSCUP_bridge_bo	<JoeHung>: (teltelro: 今天再幫你...) 感謝大大感激不盡QQ
+2019-08-18 21:38:45	COSCUP_bridge_bo	<barneybook>: 今天的conf事故，應該是算 conf 史上首例吧
+2019-08-18 21:47:46	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 248 seconds)
+2019-08-18 21:49:51	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 21:53:35	COSCUP_bridge_bo	<Clo5de>: (barneybook: 今天的co...) 以後都需要斷電備案 ㄏ
+2019-08-18 21:56:12	COSCUP_bridge_bo	<fieliapm>: 不過如果碰到大規模突發停電的話不知道要怎麼辦
+2019-08-18 21:58:48	COSCUP_bridge_bo	<fei3363>: 不插電研討會 XD
+2019-08-18 21:59:13	COSCUP_bridge_bo	<teltelro>: (fieliapm: 不過如果碰...) 以後先看工人住宿的旅館有沒有斷電就知道了
+2019-08-18 21:59:29	COSCUP_bridge_bo	<teltelro>: 可以先提早預知
+2019-08-18 22:00:11	COSCUP_bridge_bo	<fieliapm>: 要使用飛鴿封包了(爛梗
+2019-08-18 22:03:31	COSCUP_bridge_bo	<Clo5de>: (teltelro: 可以先提早...) 先知晶璽
+2019-08-18 22:03:51	COSCUP_bridge_bo	<Cute_Panda>: (Clo5de: 先知晶璽) 聽起來像是甚麼道具
+2019-08-18 22:05:08	COSCUP_bridge_bo	<fieliapm>: 可能是碼農職階的專用寶具
+2019-08-18 22:06:03	COSCUP_bridge_bo	<John Le>: 今天辛苦各位了
+2019-08-18 22:06:37	COSCUP_bridge_bo	<fieliapm>: 可以預測短時間的未來但也會受到side channel attack之類(?
+2019-08-18 22:08:19	COSCUP_bridge_bo	<Clo5de>: (fieliapm: 可能是碼農...) 對 Conf 大規模寶具
+2019-08-18 22:10:07	COSCUP_bridge_bo	<joeangel>: (fieliapm: 不過如果碰...) 工人智慧！
+2019-08-18 22:15:24	COSCUP_bridge_bo	<joeangel>: 簡單分享，我覺得收受團隊運作的放式影響，讓更多人不斷想可以怎麼辦，進而產出很多方案，每個人做自己拿手的事（每個人貢獻自己的每項技能XD），再看看哪個比較快，慢慢將問題難度變小
+2019-08-18 22:22:33	COSCUP_bridge_bo	<MGdesigner>: (teltelro: 又改到說盡...) 我Pm9:00多回到台科大正門，的確還是全黑的
+2019-08-18 22:23:12	COSCUP_bridge_bo	<MGdesigner>: 一種恐怖遊戲裡荒廢大樓加廣場的氣氛
+2019-08-18 22:25:13	COSCUP_bridge_bo	<alchotw>: 這次沒有這群強大的 COSCUP 工人和 沒有台科大校方的大力協助是不可能度過這個危機的，真的棒！
+2019-08-18 22:25:56	COSCUP_bridge_bo	<CrBoy>: 感謝大家！開源價值滿滿！
+2019-08-18 22:28:15	COSCUP_bridge_bo	<MGdesigner>: (alchotw: 這次沒有這...) 👍 https://i.imgur.com/yRJ6qdf.png
+2019-08-18 22:31:16	COSCUP_bridge_bo	<Jerry>: (Reply to MGdesigner) 你貼這個等一下484下面會噴另一串討論出來開始勞資議題 XDD   給其他人：政治不正確議題ry
+2019-08-18 22:32:37	COSCUP_bridge_bo	<MGdesigner>: (Jerry: 你貼這個等...) 絆愛有勞資議題？ :O
+2019-08-18 22:32:59	COSCUP_bridge_bo	<MGdesigner>: 我最近沒有follow到
+2019-08-18 22:33:15	COSCUP_bridge_bo	<Jerry>: 你..........你一定沒跟上ry  雖然不太能類比，你把他當國道收費員不當解僱應該勉強可以算....XD
+2019-08-18 22:35:05	COSCUP_bridge_bo	<singing_li>: (fei3363: 不插電研討...) 這個有討論過，但怕大家太熱
+2019-08-18 22:35:23	COSCUP_bridge_bo	<MGdesigner>: (Jerry: 你.......) 剛才查到了，原來是6月開始發生的事情，我沒跟到XD
+2019-08-18 22:36:19	COSCUP_bridge_bo	<Jerry>: 沒關係，大家看到不合理的勞僱關係記得要出來幫受僱者發聲就好   (怎麽有種g0v track的感覺)
+2019-08-18 22:36:22	COSCUP_bridge_bo	<fieliapm>: (Reply to MGdesigner) 還我一號機!!!
+2019-08-18 22:36:25	COSCUP_bridge_bo	<Jerry>: 😱 https://i.imgur.com/ByF9wqR.png
+2019-08-18 22:36:38	COSCUP_bridge_bo	<koru1130>: (fieliapm: 還我一號機...) 一號機 (X) 初號機 (O)
+2019-08-18 22:36:45	COSCUP_bridge_bo	<koru1130>: 後者聽起來比較帥
+2019-08-18 22:36:48	COSCUP_bridge_bo	<MGdesigner>: 啊，是我事業太忙了
+2019-08-18 22:37:34	COSCUP_bridge_bo	<fieliapm>: 都真的生出專用NB了XD
+2019-08-18 22:37:56	COSCUP_bridge_bo	<fieliapm>: 有AMD版本的話我就真的想入手一台了XD
+2019-08-18 22:40:33	COSCUP_bridge_bo	<MGdesigner>: (fieliapm: 都真的生出...) 絆愛專用NB?
+2019-08-18 22:40:46	COSCUP_bridge_bo	<fieliapm>: 是說你的NB 😆
+2019-08-18 22:41:12	COSCUP_bridge_bo	<fieliapm>: 有Ryzen的話我想要一台(?
+2019-08-18 22:41:13	COSCUP_bridge_bo	<MGdesigner>: (koru1130: 一號機 (...) 所以初始的那個絆愛聲優被fire?
+2019-08-18 22:41:36	COSCUP_bridge_bo	<fieliapm>: 目前是被冷凍只負責歌唱項目
+2019-08-18 22:42:03	COSCUP_bridge_bo	<MGdesigner>: (fieliapm: 是說你的N...) amd的話還要很久…哦
+2019-08-18 22:42:24	COSCUP_bridge_bo	<fieliapm>: 看來重返農藥還很遙遠
+2019-08-18 22:42:32	COSCUP_bridge_bo	<MGdesigner>: 我也來為我們的角色找個中之人好了 :-)
+2019-08-18 22:43:00	COSCUP_bridge_bo	<MGdesigner>: (fieliapm: 看來重返農...) 筆電不會那麼快的
+2019-08-18 22:43:11	COSCUP_bridge_bo	<fieliapm>: 要找什麼native language的聲優
+2019-08-18 22:43:13	COSCUP_bridge_bo	<Jerry>: AMD有rdrand bug 等他們解完再說吧（硬拉回coscup主題
+2019-08-18 22:43:29	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 258 seconds)
+2019-08-18 22:43:53	COSCUP_bridge_bo	<fieliapm>: 但intel的分支預測會leak資訊(戰
+2019-08-18 22:44:33	COSCUP_bridge_bo	<MGdesigner>: 筆電系統廠換CPU不只是技術問題，還有商務因素
+2019-08-18 22:44:37	COSCUP_bridge_bo	<Jerry>: 出來混的遲早要還的 沒辦法 之前偷太多
+2019-08-18 22:45:25	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 22:45:33	COSCUP_bridge_bo	<fieliapm>: 剛剛也有聽MG大大講過惹,生態系真的不是馬上就可以翻過來
+2019-08-18 22:46:49	COSCUP_bridge_bo	<MGdesigner>: 聲優的話則是在想 :-)
+2019-08-18 22:47:22	COSCUP_bridge_bo	<fieliapm>: 要英文日文還中文(?
+2019-08-18 22:47:28	COSCUP_bridge_bo	<MGdesigner>: 剛才VIEW完絆愛事件了，看了摘要好像初號愛被冷落
+2019-08-18 22:48:28	COSCUP_bridge_bo	<MGdesigner>: 不過也許不是被冷落，而是「升職」了，不想站第一線了？
+2019-08-18 22:48:59	COSCUP_bridge_bo	<MGdesigner>: 但是觀眾不接受其他新「工讀生」之類的
+2019-08-18 22:49:37	COSCUP_bridge_bo	<fieliapm>: 但看中之人的推特文似乎又不是這個樣子
+2019-08-18 22:49:44	COSCUP_bridge_bo	<MGdesigner>: 也許原始愛變成「部門director 」我的猜想
+2019-08-18 22:50:33	COSCUP_bridge_bo	<MGdesigner>: 喔，那就得有時間來看比較詳細的來龍去脈
+2019-08-18 22:50:38	-->	vincentsu (uid181072@gateway/web/irccloud.com/x-nuwvhbvnfusmlqgm) has joined #coscup
+2019-08-18 22:51:19	COSCUP_bridge_bo	<MGdesigner>: (fieliapm: 要英文日文...) 華語、日語吧
+2019-08-18 22:51:34	COSCUP_bridge_bo	<MGdesigner>: 只是在想
+2019-08-18 22:51:51	COSCUP_bridge_bo	<MGdesigner>: 好了，拉的有點遠了
+2019-08-18 22:52:21	COSCUP_bridge_bo	<MGdesigner>: 這一次真的是印象深刻的coscup
+2019-08-18 22:54:36	COSCUP_bridge_bo	<fieliapm>: 結果今天忘記摸Musicha 😢
+2019-08-18 22:55:14	COSCUP_bridge_bo	<alchotw>: (MGdesigner: 這一次真的...) 真的，太深刻了。
+2019-08-18 22:56:19	COSCUP_bridge_bo	<catcat_4>: (fieliapm: 不過如果碰...) 租大聲公在校園裡遍地開花XD?
+2019-08-18 22:56:34	COSCUP_bridge_bo	<Haraguroicha>: (catcat_4: 租大聲公在...) 🌚 https://i.imgur.com/YbCH39P.png
+2019-08-18 22:56:52	COSCUP_bridge_bo	<MGdesigner>: (fieliapm: 結果今天忘...) 有影片可以遠端體驗 XD https://www.youtube.com/channel/UCHIS1MMY5odBYeX3cx2bj1g
+2019-08-18 22:56:53	COSCUP_bridge_bo	[Title] MUSICHA musictop  - YouTube
+2019-08-18 22:57:27	COSCUP_bridge_bo	<fieliapm>: 露天先追縱個
+2019-08-18 22:58:36	COSCUP_bridge_bo	<fieliapm>: (catcat_4: 租大聲公在...) 會眾每個人帶氣笛回應講者
+2019-08-18 22:59:50	COSCUP_bridge_bo	<fieliapm>: "所以開源可以讓人類往正人口月土的道路前進,大家說對不對!" (對!) 叭~~~
+2019-08-18 23:01:37	COSCUP_bridge_bo	<MGdesigner>: (catcat_4: 租大聲公在...) 本來以為今天可能要用不插電技術講簡報了（頓時慶幸自己是昨天講的XD）
+2019-08-18 23:02:22	COSCUP_bridge_bo	<excfergodst>: 感恩大家 要感恩的人太多ㄌ🙏
+2019-08-18 23:04:47	COSCUP_bridge_bo	<MGdesigner>: 期待本次活動工作人員的回憶錄
+2019-08-18 23:05:22	COSCUP_bridge_bo	<MGdesigner>: 昨晚開始的應變一定很多不為人知的甘苦
+2019-08-18 23:05:58	COSCUP_bridge_bo	<joeangel>: 我們想要找出大象的樣子
+2019-08-18 23:06:44	COSCUP_bridge_bo	<MGdesigner>: (fieliapm: 露天先追縱...) :-)
+2019-08-18 23:20:00	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 268 seconds)
+2019-08-18 23:21:34	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 23:23:05	<--	Denir__ (~Denir___@39-8-62-46.adsl.fetnet.net) has quit (Ping timeout: 268 seconds)
+2019-08-18 23:23:46	COSCUP_bridge_bo	<catcat_4>: (alchotw: 這次沒有這...) 還有很多社群攤位跟會眾跳出來幫忙搬桌椅，超感人的！XD
+2019-08-18 23:33:02	COSCUP_bridge_bo	<mrmoneyc>: 阿不就 david 喊了有肚子的馬上放下背包加入場務…（遠目
+2019-08-18 23:36:02	COSCUP_bridge_bo	<teltelro>: @JoeHung 宿舍剛來電了。國際大樓不曉得有沒有，但應該等下全校都會有電了
+2019-08-18 23:38:41	COSCUP_bridge_bo	<JoeHung>: (teltelro: @JoeH...) 感謝
+2019-08-18 23:43:40	<--	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has quit (Ping timeout: 258 seconds)
+2019-08-18 23:45:36	-->	a0000778 (~a0000778@114-35-181-217.HINET-IP.hinet.net) has joined #coscup
+2019-08-18 23:48:12	COSCUP_bridge_bo	<MGdesigner>: (davy_0xff: https...) 這個好酷
+2019-08-18 23:51:17	COSCUP_bridge_bo	<pennyken>: https://paste.ee/r/1M3Fx
+2019-08-18 23:57:18	COSCUP_bridge_bo	<Haraguroicha>: (MGdesigner: 期待本次活...) 如何一個週末舉辦兩年份 COSCUP ？ Please ref. COSCUP 2019 and see you in COSCUP 2011
+2019-08-18 23:58:03	COSCUP_bridge_bo	<davy_0xff>: (Haraguroicha: 如何一個週...) 我以為是plan A+B
