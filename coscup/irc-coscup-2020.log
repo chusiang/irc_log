@@ -1,0 +1,1792 @@
+# Day1
+
+--- Log opened Sat Aug 01 00:00:10 2020
+00:01 < coscup-matterbot> <alznn> bopomofo > ㄅㄆㄇㄈ
+00:01 < coscup-matterbot> <alznn> finally figure out 🤣 (re @Brendelman: i am using my poor Mandarin knowledge and my pinyin keyboard (sorry my bopomofo skills aren't ready yet ;p))
+00:07 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+00:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+00:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:25 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+00:25 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+00:25 < coscup-matterbot> <kaiiiz> /me (re @PingNote: /me Arch Linux User)
+00:28 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+00:28 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+00:33 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+00:35 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:44 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+00:46 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:52 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+00:54 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:02 < coscup-matterbot> <linroex> 剛打開議程表才發現
+01:02 < coscup-matterbot> <linroex> 今年在 TR！
+01:05 -!- Denir [7a92461a@122.146.70.26] has joined #coscup
+01:05 < coscup-matterbot> <bobchao> 沒錯！
+01:06 < coscup-matterbot> <bobchao> 打開 Telegram 才發現，我還在弄簡報！ (<- 沒有，我早就發現了)
+01:18 < coscup-matterbot> <davy_0xff> 打開才發現 原來我會講不完（我本來以為還要再多一倍內容）
+01:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+01:24 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:24 -!- Denir_ [~AndChat99@110-26-190-140.adsl.fetnet.net] has joined #coscup
+01:31 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+01:32 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+01:37 < coscup-matterbot> <JoeAngel> 打開議程表才發現，我的簡報呢？他剛剛還在的呀
+01:38 < coscup-matterbot> <JoeAngel> 打開議程表才發現，我的簡報呢？他剛剛還在的呀
+01:38 < coscup-matterbot> <JoeAngel> 不對，這是夢（醒來）原來他沒有存在過（開始做 (edited)
+01:39 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:40 < coscup-matterbot> <linroex> 幸好有看議程表，差點走去 IB
+01:46 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+01:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:50 -!- Denir_n7p [~Denir@1.200.212.190] has joined #coscup
+01:52 -!- Denir_ [~AndChat99@110-26-190-140.adsl.fetnet.net] has quit [Quit: Bye]
+01:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+02:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+02:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+02:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+02:54 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+02:55 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+03:11 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:17 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+03:18 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+03:24 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:46 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+03:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:58 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+03:58 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+03:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+04:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+04:21 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+04:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+04:30 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+04:32 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+04:41 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+04:42 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+04:45 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+04:45 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+05:13 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+05:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:19 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+05:21 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:22 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+05:22 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+05:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+05:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:38 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+05:39 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:51 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+05:53 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:03 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+06:04 < coscup-matterbot> <S_ean> 想問一下今年沒有報到時間限制，那最早幾點入場比較方便
+06:05 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:19 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+06:21 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:21 -!- Heero_Yuy [uid106498@gateway/web/irccloud.com/x-depmozvbqqufwuoj] has joined #coscup
+06:25 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+06:25 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+06:34 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+06:35 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:40 < coscup-matterbot> <singing_li> 8:30 ，但時間會依照報到台的準備狀況再調整 (re @S_ean: 想問一下今年沒有報到時間限制，那最早幾點入場比較方便)
+06:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+06:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:54 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+06:56 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+07:03 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:13 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+07:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+07:28 < coscup-matterbot> <Telegram> Forwarded from unknown: 早安，我的開源朋友！今天風和日麗，是個 COSCUP 好天氣☀️健康，是人生最大財富；有聲明的健康，更暢通你入場的路😀請用：下載 OPass →填寫健康聲明→報到領大地遊戲點數兌換精美紀念品。的方式，開啟你愉快的一天認同請分享！#COSCUP #COSCUP2020---若不知道小啄在說啥毀，請見：https://blog.cos
+07:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:42 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+07:44 < coscup-matterbot> <S_ean> 這邊手機版 ?m=1 參數忘記刪掉囉
+07:44 < coscup-matterbot> <S_ean> 小編辛苦了，還要用手機發文 XD (re @Telegram: )
+07:44 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+07:51 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:55 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+07:57 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+07:57 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+07:57 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+08:04 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:19 < coscup-matterbot> <chusiang> 大家早安。:P
+08:20 < coscup-matterbot> <miku3920>
+08:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+08:21 < coscup-matterbot> <pjxpj>
+08:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+08:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:31 -!- Heero_Yuy [uid106498@gateway/web/irccloud.com/x-depmozvbqqufwuoj] has quit [Quit: Connection closed for inactivity]
+08:43 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+08:45 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:10 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+09:11 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:15 < coscup-matterbot> <ijliao> 議程主持人也可以 JIT 真的是太神啦 XD
+09:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+09:17 < coscup-matterbot> <nfsnfs> XDDDD
+09:18 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:21 -!- lother [~lother@lother.dev] has joined #coscup
+09:21 -!- asahsieh [uid28213@gateway/web/irccloud.com/x-vdjldsyhtqpadmyr] has joined #coscup
+09:24 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:24 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+09:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:30 < coscup-matterbot> <chusiang> 請問這個 JIT，是指什麼意思呢？ (re @ijliao: 議程主持人也可以 JIT 真的是太神啦 XD)
+09:32 -!- Mengseng [df8c7e68@223-140-126-104.emome-ip.hinet.net] has joined #coscup
+09:34 < coscup-matterbot> <htchien> 一堆人在國際大樓找不到會場 XDDD
+09:34 < coscup-matterbot> <littlebtc> 這次的入口好像不太顯眼 (re @htchien: 一堆人在國際大樓找不到會場 XDDD)
+09:34 < coscup-matterbot> <littlechin> 我剛剛問工人才知道在哪裡😂😂
+09:35 < coscup-matterbot> <nfsnfs> 地上有地貼 看來是不夠多 XDrz
+09:36 < coscup-matterbot> <ireck_04> 好多大神
+09:36 < coscup-matterbot> <pjxpj> 真的wwww (re @htchien: 一堆人在國際大樓找不到會場 XDDD)
+09:36 < coscup-matterbot> <htchien> 好幾個人疑惑地說以往都在國際大樓，怎麼今年不是？XDDD
+09:36 < Mengseng> 小圓點地貼
+09:37 < coscup-matterbot> <chusiang> 這裡一位等等要搭計程車過去台大，但不會形容的人。
+09:37 < coscup-matterbot> <ijliao> 就常見的 just in time 啊~ (re @chusiang: 請問這個 JIT，是指什麼意思呢？)
+09:37 < coscup-matterbot> <JoeAngel> 因為 TR 大樓的走樓有冷氣～～ (re @htchien: 好幾個人疑惑地說以往都在國際大樓，怎麼今年不是？XDDD)
+09:38 < coscup-matterbot> <littlebtc> 說到台科大門口就好了嗎 (re @chusiang: 這裡一位等等要搭計程車過去台大，但不會形容的人。)
+09:38 -!- Mengseng [df8c7e68@223-140-126-104.emome-ip.hinet.net] has quit [Remote host closed the connection]
+09:39 < coscup-matterbot> <catcatcatcat> 如果是要來 COSCUP 地點不在台大喔，是台科大。基隆路上的台科大。
+09:39 < coscup-matterbot> <flandrekawaii> 地板有看到往研揚大樓的貼紙
+09:39 < coscup-matterbot> <flandrekawaii> 但沒有看到研究大樓的
+09:40 < coscup-matterbot> <JoeAngel> 1. 基隆路，轉進三段155巷（臺灣大學動物醫院），側門在這裡
+09:40 < coscup-matterbot> <JoeAngel> 2. 大門下車，進校門左轉，經過圖書館、AU 圓形貝殼聽、操場、到達 TR (re @chusiang: 這裡一位等等要搭計程車過去台大，但不會形容的人。)
+09:40 < coscup-matterbot> <htchien> 要說台灣科技大學喔，不然可能被載到台北科技大學 (re @littlebtc: 說到台科大門口就好了嗎)
+09:41 < coscup-matterbot> <flandrekawaii> 公車站找台大癌醫站 過馬路就可以到研揚大樓了
+09:42 < coscup-matterbot> <htchien> 真的感覺地面指示不夠多，尤其是開車停在國際大樓地下室的話
+09:43 -!- FourDollars [uid12544@gateway/web/irccloud.com/x-blypbabohmmfgqkf] has joined #coscup
+09:44 < coscup-matterbot> <flandrekawaii> 麥克風問題有點大
+09:45 < coscup-matterbot> <chusiang> @JoeAngel @htchien 感謝二位的在地交通支援。<[_ _]>
+09:45 < coscup-matterbot> <pennyken> 台大動物醫院 (re @chusiang: 這裡一位等等要搭計程車過去台大，但不會形容的人。)
+09:45 -!- Mengseng [df8c7e68@223-140-126-104.emome-ip.hinet.net] has joined #coscup
+09:46 < Mengseng> 不選擇性消音(?!
+09:47 < coscup-matterbot> <JoeAngel> RB105，想辦法處理中！ (re @flandrekawaii: 麥克風問題有點大)
+09:47 < coscup-matterbot> <chusiang> 研揚大樓，是去年 Day2 臨時換過去的那一棟嗎？ (re @flandrekawaii: 公車站找台大癌醫站 過馬路就可以到研揚大樓了)
+09:48 < coscup-matterbot> <JoeAngel> 沒錯的！ (re @chusiang: 研揚大樓，是去年 Day2 臨時換過去的那一棟嗎？)
+09:50 -!- Mengseng [df8c7e68@223-140-126-104.emome-ip.hinet.net] has quit [Remote host closed the connection]
+09:53 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+09:53 < coscup-matterbot> <littlebtc> RB105剩不到1/4
+09:54 < coscup-matterbot> <ambersun1234> 我的 OPASS 開源巔峰挑戰賽會 Invalid token…請問我該怎麼辦
+09:55 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:57 -!- JalenLin [~jalen@64.185.228.58] has joined #coscup
+09:58 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has joined #coscup
+09:59 < coscup-matterbot> <abev66> \大家好我是開源新手/
+09:59 < coscup-matterbot> <yurenju> 是 ios 嗎？昨天有聽到 ios 會有問題，不過應該修正了？
+09:59 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has quit [Quit: Quit]
+09:59 < coscup-matterbot> <Brendelman> @PingNote my friends want to go to rust, i will come later!
+09:59 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has joined #coscup
+10:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+10:01 < coscup-matterbot> <ambersun1234> 我的是 android 8.0, 三星 s7 (re @yurenju: 是 ios 嗎？昨天有聽到 ios 會有問題，不過應該修正了？)
+10:01 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+10:02 < coscup-matterbot> <yurenju> 恩那就不知道了...
+10:02 -!- Mengseng [df8c7e68@223-140-126-104.emome-ip.hinet.net] has joined #coscup
+10:04 < coscup-matterbot> <David_C927> 麥克風至少要兩支備用，電池也需要。 (re @flandrekawaii: 麥克風問題有點大)
+10:05 < coscup-matterbot> <flandrekawaii> [TR202] 麥克風還是喇叭會爆音
+10:06 < coscup-matterbot> <nfsnfs> RB105 的麥克風已經找人解決了 有問題的話再請大家反應
+10:07 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+10:08 < coscup-matterbot> <David_C927> （209）翻白的法師w
+10:09 -!- Mengseng [df8c7e68@223-140-126-104.emome-ip.hinet.net] has quit [Remote host closed the connection]
+10:09 < coscup-matterbot> <Jyutoku> 不知道怎麼連wifi
+10:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+10:10 < coscup-matterbot> <littlebtc> 話說看到這種AP :
+10:11 < coscup-matterbot> <flandrekawaii> [TR212] 麥克風還是喇叭會爆音 (edited)
+10:12 -!- fripig [~androirc@180.217.174.68] has joined #coscup
+10:14 -!- au [~audreyt@li1878-163.members.linode.com] has joined #coscup
+10:14 -!- au [~audreyt@li1878-163.members.linode.com] has left #coscup []
+10:14 < coscup-matterbot> <fripig> 請問教室內不開風扇是有防疫因素嗎xd
+10:15 -!- fripig [~androirc@180.217.174.68] has quit [Remote host closed the connection]
+10:17 < coscup-matterbot> <hong_xin> 請問有共筆傳送門嗎
+10:17 < coscup-matterbot> <JoeAngel> 官網有～ (re @hong_xin: 請問有共筆傳送門嗎)
+10:17 < coscup-matterbot> <littlebtc> https://hackmd.io/@coscup/2020
+10:17 < coscup-matterbot> <fripig> TR214 有點悶
+10:17 < coscup-matterbot> <JoeAngel> 可以直接開 (re @fripig: 請問教室內不開風扇是有防疫因素嗎xd)
+10:20 < coscup-matterbot> <Telegram> Forwarded from unknown: ‼️請注意，今年場地【不是】國際大樓‼️有許多參加者反應，怎麼跟去年的場地不一樣咩噗😭迷錯，今年將場地更改到視聽館、綜合大樓與研揚大樓（對就是去年停電去的那棟...），有強強的冷氣可以吹囉🌪再請開源朋友們來的時候多留意！－【地點】台灣科技大學【地址】臺北市基隆路四?
+10:20 < coscup-matterbot> <yurenju> 有人知道學校的鐘聲響的時間嗎？感覺可以當作講者提醒
+10:20 < coscup-matterbot> <fripig> 收到 (re @JoeAngel: 可以直接開)
+10:20 < coscup-matterbot> <singing_li> 找人去處理 (re @fripig: TR214 有點悶)
+10:23 < coscup-matterbot> <abev66> XDDDDDDDDDDDDDDDDDD (re @Telegram: )
+10:24 < coscup-matterbot> <rosa32222> https://www.academic.ntust.edu.tw/ezfiles/1/1001/img/122/81188417.pdf
+10:24 < coscup-matterbot> <rosa32222> J個嘛我查到台科大的課程節次表 應該是照這個... (re @yurenju: 有人知道學校的鐘聲響的時間嗎？感覺可以當作講者提醒)
+10:24 < coscup-matterbot> <yurenju> yaaaay 謝謝
+10:24 < coscup-matterbot> <PingNote> Okay OwO)/ (re @Brendelman: @PingNote my friends want to go to rust, i will come later!)
+10:25 < coscup-matterbot> <yurenju> 剛剛 20 分有一次鐘聲
+10:26 < coscup-matterbot> <rosa32222> 應該是每節開始跟結束都會打一次
+10:27 < coscup-matterbot> <davy_0xff> 地圖應該要有方位？ (re @Telegram: )
+10:27 < coscup-matterbot> <rosa32222> 直接截圖比較好看如果需要鐘聲應用（？）的話可以參考 :
+10:30 < coscup-matterbot> <davy_0xff> 我比較在意要怎麼從入口到報到處… 圖書館是可以穿越的嗎
+10:35 < coscup-matterbot> <MGdesigner> 我是TR的講者，請問報到處在每一棟都有嗎？還是要在其中的一棟才有呢？ (re @Telegram: )
+10:35 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+10:36 < coscup-matterbot> <flandrekawaii> 都有 (re @MGdesigner: 我是TR的講者，請問報到處在每一棟都有嗎？還是要在其中的一棟才有呢？)
+10:36 < coscup-matterbot> <MGdesigner> Thank you! 那我到以後直衝TR。 (re @flandrekawaii: 都有)
+10:37 < coscup-matterbot> <Ruinland> 214抱歉QQ，因為開燈會影響講者
+10:37 < coscup-matterbot> <Ruinland> 待session結束我會處理
+10:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+10:37 < coscup-matterbot> <flandrekawaii> 不知道怎麼走的可以問問路人
+10:37 < coscup-matterbot> <flandrekawaii> 大家都是開源人
+10:37 < coscup-matterbot> <flandrekawaii> 很樂意回答的
+10:38 < coscup-matterbot> <davy_0xff> 在正門的時候其實沒有什麼人
+10:38 < coscup-matterbot> <davy_0xff> 只有警衛北北
+10:38 < coscup-matterbot> <flandrekawaii> 他應該更熟we (re @davy_0xff: 只有警衛北北)
+10:38 < coscup-matterbot> <flandrekawaii> 他應該更熟www (edited) (re @davy_0xff: 只有警衛北北)
+10:39 < coscup-matterbot> <Wang> 這天氣⋯太可怕了😱
+10:39 < coscup-matterbot> <medicalwei> 有沒有每一間議程的 channel
+10:39 < coscup-matterbot> <davy_0xff> 但警衛北北不能離開崗位只能給你大概的方向wwwwwww
+10:40 < coscup-matterbot> <tsunalu> 大門進去左轉，一路走到底
+10:40 < coscup-matterbot> <tsunalu> 你會經過一堆販賣機跟籃球場(o
+10:40 < coscup-matterbot> <Yuy_Heero> 好險 昨天有發現 ，今年還是在研揚
+10:41 < coscup-matterbot> <rosa32222> 報到處：TR 和 RB 有哦！ (re @MGdesigner: 我是TR的講者，請問報到處在每一棟都有嗎？還是要在其中的一棟才有呢？)
+10:41 < coscup-matterbot> <MGdesigner> Roger, copy that. (re @rosa32222: 報到處：TR 和 RB 有哦！)
+10:42 < coscup-matterbot> <littlebtc> [AU]「小型的公司不會遇到 (OSS Upstream 的效能問題)」
+10:42 < coscup-matterbot> <littlebtc> 我覺得也會好嗎
+10:45 < coscup-matterbot> <Telegram> Forwarded from unknown:  (edited)‼️請注意，今年場地【不是】國際大樓‼️有許多參加者反應，怎麼跟去年的場地不一樣咩噗😭迷錯，今年將場地更改到視聽館、綜合大樓與研揚大樓（對就是去年停電去的那棟...），有強強的冷氣可以吹囉🌪查看健康聲明的報到處，在 綜大/研揚 都有開設，敬請直奔！再請開源朋友們?
+10:45 < coscup-matterbot> <medicalwei> 還是要考慮基本的情境
+10:45 < coscup-matterbot> <littlebtc> 其實我覺得 LINE 這場講的蠻符合大部分 DevOps / Engineer 的情境的
+10:46 < coscup-matterbot> <medicalwei> 例如拿 mongodb 存 metrics 這種狀況，資料會爆炸也不好做分析
+10:46 < coscup-matterbot> <medicalwei> 例如拿 mongodb 存 metrics 這種狀況，資料量會爆炸也不好做分析 (edited)
+10:47 < coscup-matterbot> <littlebtc> 我們的 CloudWatch 處於大爆炸 (太多了拿 log 要好幾分鐘)狀態 想不到好解法
+10:47 < coscup-matterbot> <flandrekawaii> solved thx staff (re @flandrekawaii: [TR212] 麥克風還是喇叭會爆音)
+10:47 < coscup-matterbot> <nfsnfs> 覺得 214 講者講 BPF 講得很不錯
+10:47 < coscup-matterbot> <catcatcatcat> 大家知道議程介紹頁面有 hackmd 共筆嗎？有空的話可以留下筆記！另外如果有精彩照片，歡迎大家分享在 SNS，記得上 #COSCUP tag 讓大家容易找到唷
+10:48 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:48 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:50 < coscup-matterbot> <singing_li> TR 313 的門鎖住了，網站看沒有滿，有沒有人在裡面可以幫開
+10:51 < coscup-matterbot> <littlebtc> 「Upstream 版本不能 100% 解決問題」
+10:51 < coscup-matterbot> <littlebtc> Real Story
+10:51 < coscup-matterbot> <Telegram> Forwarded from unknown:  (edited)‼️請注意，今年場地【不是】國際大樓‼️有許多參加者反應，怎麼跟去年的場地不一樣咩噗😭迷錯，今年將場地更改到視聽館、綜合大樓與研揚大樓（對就是去年停電去的那棟...），有強強的冷氣可以吹囉🌪查看健康聲明的報到處，在 綜大/研揚 都有開設，敬請直奔！再請開源朋友們?
+10:51 < coscup-matterbot> <Telegram> Forwarded from unknown:  (edited)‼️請注意，今年場地【不是】國際大樓‼️有許多參加者反應，怎麼跟去年的場地不一樣咩噗😭迷錯，今年將場地更改到視聽館、綜合大樓與研揚大樓（對就是去年停電去的那棟...），有強強的冷氣可以吹囉🌪查看健康聲明的報到處，在 綜大/研揚 都有開設，敬請直奔！再請開源朋友們?
+10:51 < coscup-matterbot> <rosa32222> 已更新上有方位的地圖連結惹～～ (re @davy_0xff: 地圖應該要有方位？)
+10:53 < coscup-matterbot> <davy_0xff> 問一下是只有 AU 的投影機是 16：9 嗎
+10:53 < coscup-matterbot> <davy_0xff> 我來到現場發現投影機的比例是 16：9
+10:53 < coscup-matterbot> <davy_0xff> 但我被通知的時候是投影設備是 4：3？
+10:54 < coscup-matterbot> <davy_0xff> 大家應該都懂 16：9 跟 4：3 的差異
+10:54 < coscup-matterbot> <davy_0xff> 如果尺寸不對投影片的效果會有多大影響…
+10:55 < coscup-matterbot> <PingNote> [TR213][預告] 11:05
+10:55 < coscup-matterbot> <PingNote> 群組太多訊息看不完、退群又怕傷感情怎麼辦？何不做一隻跨平台的訊息轉送機器人：以 C++ REST SDK 在 Arch Linux 上實作 Chat Bot 經驗談
+10:55 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:55 < coscup-matterbot> <PingNote> https://coscup.org/2020/zh-TW/agenda/Q8XEW7
+10:55 < coscup-matterbot> <PingNote> 希望夠歡樂有趣 www
+10:55 < coscup-matterbot> <davy_0xff> 丟進 index engine 例如 AWS Athena 做前處理 (re @littlebtc: 我們的 CloudWatch 處於大爆炸 (太多了拿 log 要好幾分鐘)狀態 想不到好解法)
+10:55 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:55 < coscup-matterbot> <davy_0xff> 當然費用就會…起飛
+10:57 < coscup-matterbot> <littlebtc> QAQ (re @davy_0xff: 丟進 index engine 例如 AWS Athena 做前處理)
+10:57 < coscup-matterbot> <JoeAngel> [RB105][預告] 11:20
+10:57 < coscup-matterbot> <JoeAngel> PM 和 RD 的關係像極了愛情
+10:57 < coscup-matterbot> <JoeAngel> 溝通的藝術，專案經理與工程師的二三事
+10:57 < coscup-matterbot> <JoeAngel> 目標：讓你聽完後，能知道如何改善問題
+10:57 < coscup-matterbot> <JoeAngel> https://coscup.org/2020/zh-TW/agenda/LJZQPK
+10:57 < coscup-matterbot> <JoeAngel> 感謝 @PingNote idea//
+11:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+11:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:04 < coscup-matterbot> <singing_li> 若有教室太悶熱的，可以在這提醒工作人員，或到服務台
+11:06 < coscup-matterbot> <littlebtc> [AU] 其實這個 Demo 應該叫「How to manage changes different than upstream」
+11:08 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+11:08 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:08 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:11 < coscup-matterbot> <aki02> 想問一下附近有什麼地方可以取得食物嗎？7-11跟餐廳好像都沒開的樣子QwQQ
+11:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+11:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:17 < coscup-matterbot> <iGeneKuo> 要這樣說也是可以啦 (re @littlebtc: [AU] 其實這個 Demo 應該叫「How to manage changes different than upstream」)
+11:17 < coscup-matterbot> <ijliao> 去年一堆人擠摩斯, 供參... (re @aki02: 想問一下附近有什麼地方可以取得食物嗎？7-11跟餐廳好像都沒開的樣子QwQQ)
+11:17 < coscup-matterbot> <OtomeSound> TR大樓出學校可以沿著基隆路走到下一個公車站，那邊有台大的7－11 (re @aki02: 想問一下附近有什麼地方可以取得食物嗎？7-11跟餐廳好像都沒開的樣子QwQQ)
+11:18 < coscup-matterbot> <abev66> 摩斯我看是沒開.. (re @ijliao: 去年一堆人擠摩斯, 供參...)
+11:18 < coscup-matterbot> <ijliao> 怕了 XD (re @abev66: 摩斯我看是沒開..)
+11:18 < coscup-matterbot> <tjjh89017> Ubereats囉
+11:18 < coscup-matterbot> <abev66> 該棟停電 (re @ijliao: 怕了 XD)
+11:19 < coscup-matterbot> <abev66> 應該是該棟停電 (edited) (re @ijliao: 怕了 XD)
+11:19 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has quit [Ping timeout: 260 seconds]
+11:19 < coscup-matterbot> <ijliao> 現在組團訂外送正是時候 !
+11:19 < coscup-matterbot> <iamhlb> +1 (?)
+11:20 < coscup-matterbot> <ijliao> 找 8 個人就可以呼喚必勝客 (?!)
+11:20 < coscup-matterbot> <abev66> 可想見等下台科大會被滿滿的 UE 和 Foodpanda 包圍..
+11:20 < coscup-matterbot> <aki02> 求抱團（？ (re @tjjh89017: Ubereats囉)
+11:20 < coscup-matterbot> <tjjh89017> 我沒開團阿xdd
+11:20 -!- buck5060 [~buck5060@101-137-98-141.mobile.dynamic.aptg.com.tw] has joined #coscup
+11:20 < coscup-matterbot> <iGeneKuo> 那可以抱大腿嗎？ (re @tjjh89017: 我沒開團阿xdd)
+11:21 < coscup-matterbot> <Cute_Panda> 然後就要開始任哪臺是誰的（# (re @abev66: 可想見等下台科大會被滿滿的 UE 和 Foodpanda 包圍..)
+11:21 -!- buck5060 [~buck5060@101-137-98-141.mobile.dynamic.aptg.com.tw] has quit [Read error: Connection reset by peer]
+11:21 < coscup-matterbot> <Cute_Panda> 然後就要開始認哪臺是誰的（# (edited) (re @abev66: 可想見等下台科大會被滿滿的 UE 和 Foodpanda 包圍..)
+11:22 < coscup-matterbot> <abev66> Foodpanda 交貨大會 (re @Cute_Panda: 然後就要開始認哪臺是誰的（#)
+11:22 < coscup-matterbot> <abev66> Foodpanda 交貨大會，一個一個輪流唱名 (edited) (re @Cute_Panda: 然後就要開始認哪臺是誰的（#)
+11:22 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has joined #coscup
+11:26 < coscup-matterbot> <chusiang> #TR412
+11:26 < coscup-matterbot> <chusiang> https://youtu.be/xykc3AsMQ04
+11:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+11:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:32 < coscup-matterbot> <Juiwen> 請問一下 有人知道今年有沒有會眾充電區呢？
+11:35 < coscup-matterbot> <davy_0xff> 覺得 AU 很悶是我的問題嗎 不知道是不是因為我在角落
+11:36 < coscup-matterbot> <singing_li> TR 有 Hackroom 4樓五樓 (re @Juiwen: 請問一下 有人知道今年有沒有會眾充電區呢？)
+11:37 < coscup-matterbot> <David_C927> 第三餐廳有開 :
+11:38 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+11:38 < coscup-matterbot> <cliffxzx>  (re @David_C927: )
+11:39 < coscup-matterbot> <bobchao> 覺得不錯 XD (re @ijliao: 找 8 個人就可以呼喚必勝客 (?!))
+11:40 < coscup-matterbot> <Juiwen> 感謝🙏 (re @singing_li: TR 有 Hackroom 4樓五樓)
+11:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:41 < coscup-matterbot> <davy_0xff> 其實我覺得 AU 應該要兩邊門都可以進出
+11:41 < coscup-matterbot> <davy_0xff> 因為大家都只能從最前面通過
+11:41 < coscup-matterbot> <davy_0xff> 這樣最裡面的人或是要進去最裡面的人 會很尷尬…
+11:41 < coscup-matterbot> <davy_0xff> 同樂會（# (re @bobchao: 覺得不錯 XD)
+11:41 < coscup-matterbot> <iamhlb> 心臟大顆一點就不會尷尬了！
+11:46 < coscup-matterbot> <davy_0xff> 請問一下這在哪裡啊 (re @David_C927: )
+11:47 < coscup-matterbot> <David_C927>  (re @davy_0xff: 請問一下這在哪裡啊)
+11:47 < coscup-matterbot> <davy_0xff> 3Q
+11:47 < coscup-matterbot> <littlebtc> https://www.openstreetmap.org/node/5827513654#map=17/25.01294/121.54281
+11:49 < coscup-matterbot> <littlebtc> [411]「還有20分鐘，我們要正面地思考」
+11:50 < coscup-matterbot> <littlebtc> [411]「我又做了一件很可怕的事情」
+11:51 < coscup-matterbot> <davy_0xff> 其實我是滿建議把場館的門口標示出來一下… 有時候真的不知道要怎麼進去XDDD (re @Telegram: )
+11:52 < coscup-matterbot> <littlebtc> [411]「我跟他學 Arduino，學完的第一天我崩潰了」
+11:53 -!- FourDollars [uid12544@gateway/web/irccloud.com/x-blypbabohmmfgqkf] has quit [Quit: Connection closed for inactivity]
+11:53 < coscup-matterbot> <jackycute> 議程表上也有共筆連結喔～可以一起寫XD :
+11:54 < coscup-matterbot> <littlebtc> OK 我只是把不適合共筆的一些 quotes 跟嘴砲寫下來 QQ
+11:55 < coscup-matterbot> <jackycute>  (re @littlebtc: OK 我只是把不適合共筆的一些 quotes 跟嘴砲寫下來 QQ)
+11:56 < coscup-matterbot> <jackycute>  (re @littlebtc: OK 我只是把不適合共筆的一些 quotes 跟嘴砲寫下來 QQ)
+11:59 < coscup-matterbot> <littlebtc> [TR411]「每個人都說好用，但是為什麼我用起來跟地獄一樣...」
+12:00 < coscup-matterbot> <littlebtc> [TR411]「(HxxkMX) 每個人都說好用，但是為什麼我用起來跟地獄一樣...」 (edited)
+12:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+12:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+12:02 < coscup-matterbot> <alznn> 411 經典語錄太多了吧XDD
+12:03 < coscup-matterbot> <littlebtc> 我覺得411應該叫「三個文化人的開源世界探索之旅」 XDDDD
+12:06 < coscup-matterbot> <littlebtc> [411] (社群的人捐了很多東西)「三五年過後就變倉庫了」
+12:07 < coscup-matterbot> <littlebtc> 「這蘋果老店 有了他 我就像賈伯斯在世」
+12:10 < coscup-matterbot> <alznn> XDD
+12:10 < coscup-matterbot> <alznn> XDD 太嗨了吧 (edited)
+12:12 < coscup-matterbot> <JoeAngel> TR1F 有餐車
+12:14 < coscup-matterbot> <chusiang> 要跑社群，首先要先養個倉庫。XD (re @littlebtc: [411] (社群的人捐了很多東西)「三五年過後就變倉庫了」)
+12:16 < coscup-matterbot> <suensummit> 就當作上台就好ㄚ (re @iamhlb: 心臟大顆一點就不會尷尬了！)
+12:16 < coscup-matterbot> <pichuchen> 有人看到一個紫色蓋子的透明水壺嗎？我不確定他是不是被忘在會場的某處了。
+12:18 < coscup-matterbot> <littlebtc> [PSA] TR411 目前滿席，該軌有提供直播，請見 HackMD
+12:18 < coscup-matterbot> <littlebtc> [自以為PSA] TR411 目前滿席，該軌有提供直播，請見 HackMD (edited)
+12:22 -!- alextwl [df88266b@223-136-38-107.emome-ip.hinet.net] has joined #coscup
+12:27 < coscup-matterbot> <littlebtc> [TR411] 在座有音樂家？(nobody) 藝術家？(nobody) 工程師？ (bunch) 那是剩下的是什麼人 (?????)
+12:31 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+12:32 < coscup-matterbot> <David_C927> 412-2 :
+12:33 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+12:34 < coscup-matterbot> <littlebtc> 我還以為是 Sekiro (re @David_C927: )
+12:34 < coscup-matterbot> <littlebtc> [TR411] 「(要推廣開源) 你要離開你的電腦，走出你的辦公室」
+12:36 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has quit [Ping timeout: 256 seconds]
+12:37 -!- buck5060 [~buck5060@101-137-118-129.mobile.dynamic.aptg.com.tw] has joined #coscup
+12:38 < coscup-matterbot> <medicalwei> 我看到 AU 開頭以為是唐鳳
+12:39 < coscup-matterbot> <CatfoodTW> 唉 遠端會議講者因為設備問題而沒講完，這樣後面的時間被延遲議程被卡掉呀
+12:40 < coscup-matterbot> <davy_0xff> 哪場啊 (re @CatfoodTW: 唉 遠端會議講者因為設備問題而沒講完，這樣後面的時間被延遲議程被卡掉呀)
+12:45 -!- Bean [31d7a089@49.215.160.137] has joined #coscup
+12:45 < Bean> hello world
+12:46 -!- alextwl [df88266b@223-136-38-107.emome-ip.hinet.net] has quit [Ping timeout: 245 seconds]
+12:47 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+12:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+12:54 < coscup-matterbot> <davy_0xff> 有道理 (re @suensummit: 就當作上台就好ㄚ)
+12:56 < a0000778> 請問今年有直播嗎？
+12:57 < Bean> TR411直撥 怎麼上
+12:57 < coscup-matterbot> <littlebtc> [TR411] 直播連結請看 HackMD 共筆
+13:00 -!- buck5060 [~buck5060@101-137-118-129.mobile.dynamic.aptg.com.tw] has quit [Ping timeout: 260 seconds]
+13:02 -!- Bean [31d7a089@49.215.160.137] has quit [Remote host closed the connection]
+13:03 < coscup-matterbot> <littlebtc> [TR411] https://app.sli.do/event/uxsewvnh
+13:06 < coscup-matterbot> <David_C927> （212）UI設計師不想做，所以..(笑)
+13:07 < coscup-matterbot> <David_C927> （212）口罩地圖UI設計師不想做，所以..(笑) (edited)
+13:08 < coscup-matterbot> <SylviaDepon> 想問有剛剛[TR212］Keyword and BERT的投影片嗎？謝謝
+13:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+13:11 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+13:12 < coscup-matterbot> <JackKuo> 請問台科有什麼餐廳是有開的嗎？
+13:12 < coscup-matterbot> <aar0ntw> 工院 (re @JackKuo: 請問台科有什麼餐廳是有開的嗎？)
+13:13 < coscup-matterbot> <JackKuo> 感恩
+13:14 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:15 < coscup-matterbot> <littlebtc> [TR411] 藝術它一定支持少數
+13:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+13:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+13:22 < coscup-matterbot> <David_C927> (212)為了做2月6日上線，上班日都請假
+13:24 < coscup-matterbot> <kewangtw> http://www.slideshare.net/kewang/blurhash
+13:24 < coscup-matterbot> <kewangtw> 早上我跟 simon 在 TR410 的分享題目，有興趣的可以看看
+13:25 < coscup-matterbot> <littlebtc> [TR411] 「這個順序蠻好的，像極了愛情」
+13:26 < coscup-matterbot> <GamerGary_prime> 完了 這梗出處是什麼(脫節 (re @littlebtc: [TR411] 「這個順序蠻好的，像極了愛情」)
+13:26 < coscup-matterbot> <littlebtc> https://www.businessweekly.com.tw/focus/blog/3003354 (re @GamerGary_prime: 完了 這梗出處是什麼(脫節)
+13:29 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:29 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:37 -!- buck5060 [~buck5060@101-137-193-180.mobile.dynamic.aptg.com.tw] has joined #coscup
+13:37 < coscup-matterbot> <littlebtc> [TR411]「我們為了反對白把黑找出來XX性並不高」
+13:38 < coscup-matterbot> <littlebtc> [TR411]「我們為了反對白把黑找出來代表性並不高，我們為了反對白把黑找出來不像黑」 (edited)
+13:40 < coscup-matterbot> <littlebtc> [TR411]唐鳳：「有人竟然在這邊公然邀請我演講」
+13:43 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+13:43 < coscup-matterbot> <tjjh89017> 這次有bof的連結嗎？
+13:44 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+13:46 < coscup-matterbot> <petertcdotchu> 可以直接看議程表，或是到tr412-1門口看啊歐 (re @tjjh89017: 這次有bof的連結嗎？)
+13:46 < coscup-matterbot> <tjjh89017> 我是要看BoF XD
+13:46 < coscup-matterbot> <tjjh89017> 不是議程 (re @petertcdotchu: 可以直接看議程表，或是到tr412-1門口看啊歐)
+13:47 < coscup-matterbot> <petertcdotchu> Bof這次有上議程表哦
+13:47 < coscup-matterbot> <tjjh89017> Cool
+13:47 < coscup-matterbot> <tjjh89017> 好
+13:47 < coscup-matterbot> <tjjh89017> 等等看看
+13:47 < coscup-matterbot> <petertcdotchu>
+13:54 < coscup-matterbot> <littlebtc> [TR411] https://tchina.kyodonews.net/news/2020/07/f55e2cedd41c.html
+13:55 < coscup-matterbot> <PingNote> https://t.me/ArchLinuxTaiwan/15425
+13:57 < coscup-matterbot> <littlebtc> [TR411]「你答不出來的時候就回答這很複雜」
+14:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+14:04 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+14:05 < coscup-matterbot> <medicalwei> [TR409-2] https://netfilter.org/licensing.html#mchardy
+14:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+14:11 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:11 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:11 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+14:16 < coscup-matterbot> <littlebtc> [TR411]「其實現在我們教室都很像過熱的電池」
+14:28 < coscup-matterbot> <jefferysac>  (re @JoeAngel: [RB105][預告] 11:20PM 和 RD 的關係像極了愛情溝通的藝術，專案經理與工程師的二三事目標：讓你聽完後，能知道如何改善問題https://coscup.org/2020/zh-TW/agenda/LJZQPK感謝 @PingNote idea//)
+14:34 < coscup-matterbot> <davy_0xff> 309 滿熱的…… 是不是沒開冷氣
+14:36 < coscup-matterbot> <JoeAngel> 我在 309，我看看怎麼處理 (re @davy_0xff: 309 滿熱的…… 是不是沒開冷氣)
+14:37 < coscup-matterbot> <davy_0xff> [AU] 這是我剛剛 13:15 在 Cloud Native Hub 講的投影片
+14:37 < coscup-matterbot> <davy_0xff> 有興趣的可以再繼續來交流XD
+14:37 < coscup-matterbot> <davy_0xff> https://speakerdeck.com/david50407/operator-sdk-dai-ni-wan-zhuan-kubernetes
+14:38 < coscup-matterbot> <davy_0xff> 感恩 (re @JoeAngel: 我在 309，我看看怎麼處理)
+14:38 < coscup-matterbot> <JoeAngel> 有感覺有了嗎？ (re @davy_0xff: 感恩)
+14:38 < coscup-matterbot> <davy_0xff> 有風的感覺了XD
+14:39 < coscup-matterbot> <JoeAngel> 好～
+14:39 < coscup-matterbot> <JoeAngel> 請學校場地方盡量幫忙了，看看會不會慢慢涼
+14:46 < coscup-matterbot> <CatfoodTW> 請問杯ˊ裝飲料可以帶進教室嗎？，還是要先喝光
+14:46 < coscup-matterbot> <bobchao> 請避免 (re @CatfoodTW: 請問杯ˊ裝飲料可以帶進教室嗎？，還是要先喝光)
+14:47 < coscup-matterbot> <CatfoodTW> 好的 謝謝 (re @bobchao: 請避免)
+14:47 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+14:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+14:50 < coscup-matterbot> <Meng-syun> 想請問有[TR212] "用 Google Apps Script 挑戰輕鬆 RPA", 講者有分享投影片嗎？謝謝
+14:55 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:55 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+15:00 < coscup-matterbot> <CatfoodTW> 我上午在北科處理事情，有人跑到北科呀 XDDD (re @Telegram: )
+15:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+15:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:03 < coscup-matterbot> <Cakechen> 北科 台科傻傻分不清楚
+15:03 < coscup-matterbot> <bobchao> open source education 最後一場爆滿，jserv 已經先寫了一些筆記了：  https://hackmd.io/TzVAFkexRe6Kp-0S2XyQkQ
+15:05 < coscup-matterbot> <davy_0xff> [AU] 真的滿熱的 剛剛去 TR 才發現根本是天堂地獄…
+15:05 < coscup-matterbot> <davy_0xff> AU 是不是被放生的孤兒wwwwww
+15:08 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+15:09 < coscup-matterbot> <davy_0xff> 可幫一下 AU 嗎QQ (re @singing_li: 若有教室太悶熱的，可以在這提醒工作人員，或到服務台)
+15:10 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:11 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+15:11 < coscup-matterbot> <MGdesigner> 唐鳳大樓？ (re @medicalwei: 我看到 AU 開頭以為是唐鳳)
+15:11 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+15:11 < coscup-matterbot> <davy_0xff> 視聽館
+15:14 < coscup-matterbot> <CatfoodTW> TR412有接觸過SZ生態的會覺得很有趣，口音有點重要留意
+15:14 < coscup-matterbot> <Wig> 請問想拿coscup活動照片要找誰? 謝謝
+15:16 < coscup-matterbot> <singing_li> 好！我們來問問 (re @davy_0xff: 可幫一下 AU 嗎QQ)
+15:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+15:16 < coscup-matterbot> <bobchao> 之後大會會公布我們拍的內容，各議程軌教室內的狀況會需要看議程軌主辦社群是否釋出 (re @Wig: 請問想拿coscup活動照片要找誰? 謝謝)
+15:17 < coscup-matterbot> <bobchao> 過去的在 flickr https://www.flickr.com/photos/coscup/albums
+15:17 < coscup-matterbot> <Wig> 謝謝 (re @bobchao: 之後大會會公布我們拍的內容，各議程軌教室內的狀況會需要看議程軌主辦社群是否釋出)
+15:19 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:20 < coscup-matterbot> <Za>
+15:20 < coscup-matterbot> <Za> 想問問會有投影片嗎 謝謝大家
+15:21 < coscup-matterbot> <ijliao> TR409 有點熱...
+15:23 < coscup-matterbot> <singing_li> 牆上的冷氣，還有電扇要打開 (re @ijliao: TR409 有點熱...)
+15:24 < coscup-matterbot> <singing_li> 我請人去看看
+15:28 < coscup-matterbot> <singing_li> 已請場地方再調整冷氣溫度了 (re @davy_0xff: AU 是不是被放生的孤兒wwwwww)
+15:30 < coscup-matterbot> <Toomore> TR409 冷氣 電風扇 都重新開啟了！
+15:33 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+15:34 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+15:35 < coscup-matterbot> <CatfoodTW> 跳機了
+15:35 < coscup-matterbot> <bobchao> 今年大會人數應該會破紀錄
+15:40 < coscup-matterbot> <ellischeng123> 請問 15:30 TR410 Deceptive Security using Python 是不是放到別的議程的預錄影片了？
+15:40 < coscup-matterbot> <ellischeng123> 現在放的內容看起來像是 Julia Flowgorithm 的
+15:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+15:40 < coscup-matterbot> <catcat_4> 現在 RB 很涼喔
+15:40 < coscup-matterbot> <alznn> !!
+15:41 < coscup-matterbot> <catcat_4> 來聽 Standardization of Web technologies and its solution for IoT interoperability 吧
+15:41 < coscup-matterbot> <littlebtc> 聽說人少到炸裂？
+15:41 < coscup-matterbot> <littlebtc> 聽說人少到炸裂？ QQ (edited)
+15:41 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:42 < coscup-matterbot> <bobchao> 感謝回報，我們確認一下 (re @ellischeng123: 請問 15:30 TR410 Deceptive Security using Python 是不是放到別的議程的預錄影片了？
+15:42 < coscup-matterbot> <bobchao> 現在放的內容看起來像是 Julia Flowgorithm 的)
+15:42 -!- d0gm4n [uid38259@gateway/web/irccloud.com/x-sanhgafzlngpscsa] has joined #coscup
+15:42 < coscup-matterbot> <Telegram> Forwarded from unknown: ⚡️閃電講報名，只剩明天 1 小時⚡️今天的報名時段已結束！不錄了不錄了（嗯？請把握【明天 8/2(日) 10:00 - 11:00】最後報名時機，至 TR 2 樓服務台提供稱呼、題目、聯絡方式等資料報名。第二天（8/2）11:00 前將進行抽籤並於此公布最後入選名單！錯過今年的閃電講，就要再等 366 天，還不一定??
+15:42 < coscup-matterbot> <alznn> 感謝回報 已修正
+15:42 < coscup-matterbot> <catcat_4>  (re @littlebtc: 聽說人少到炸裂？ QQ)
+15:42 < coscup-matterbot> <ellischeng123>
+15:42 < coscup-matterbot> <littlebtc>
+15:42 < coscup-matterbot> <catcat_4> 大家快來
+15:43 < coscup-matterbot> <davy_0xff> wwwwwwww (re @catcat_4: 現在 RB 很涼喔)
+15:44 < coscup-matterbot> <alznn> 感謝回報，TR410 講者會線上進行QA喔，歡迎大家來參加
+15:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+15:51 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:51 -!- buck5060 [~buck5060@101-137-193-180.mobile.dynamic.aptg.com.tw] has quit [Read error: Connection reset by peer]
+15:52 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has joined #coscup
+15:53 < coscup-matterbot> <littlebtc> [TR411] 「白金贊助商掛在那邊，當然要講5G啊」
+15:54 < coscup-matterbot> <bobchao> [Open Source Education] 洪老師: 多一點人來做才會有情聚.. 情趣... 群聚效應 (以上是空耳，完全不代表原講者立場）
+15:56 < coscup-matterbot> <medicalwei>
+15:56 < coscup-matterbot> <AkishinoShiame> Will the PowerPoint be released later in official site?
+15:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+16:00 < coscup-matterbot> <littlebtc> [TR411] 逐字稿破 22k 字
+16:01 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+16:02 < coscup-matterbot> <yurenju> 今天的議程快要結束囉！不知道大家明天想聽什麼議程呢？在這邊廣告一下明天的 COSCUP Statups 社群議程是一個從新創公司的角度來切入開源社群的議程，在上午的議程從「文化」的角度切入，看不同公司在各自發展的脈絡中如何貢獻開源專案。下午從「專案」面向來看各自不同開源專案在新創公司的發展。歡迎大家
+16:02 < coscup-matterbot> <jefferysac> COSCUP Stat*r*ups?
+16:02 < coscup-matterbot> <jefferysac> COSCUP Sta*r*tups? (edited)
+16:02 < coscup-matterbot> <ijliao> 2500 ?! (re @bobchao: 今年大會人數應該會破紀錄)
+16:02 < coscup-matterbot> <yurenju>  (edited)今天的議程快要結束囉！不知道大家明天想聽什麼議程呢？在這邊廣告一下明天的 COSCUP Startups 社群議程是一個從新創公司的角度來切入開源社群的議程，在上午的議程從「文化」的角度切入，看不同公司在各自發展的脈絡中如何貢獻開源專案。下午從「專案」面向來看各自不同開源專案在新創公司的發展。??
+16:02 < coscup-matterbot> <yurenju> 感謝除錯，已修改 XD (re @jefferysac: COSCUP Sta*r*tups?)
+16:02 < coscup-matterbot> <bobchao> 還不知道 等明天看 (re @ijliao: 2500 ?!)
+16:03 < coscup-matterbot> <bobchao> 今天 COSCUP Enterprise 我覺得超有誠意喔，明天 Start ups  也很期待! (re @yurenju: )
+16:04 < coscup-matterbot> <bobchao> hopefully -- we will check with speakers about this (re @AkishinoShiame: Will the PowerPoint be released later in official site?)
+16:09 < coscup-matterbot> <AkishinoShiame> I see... Much of thanks! m(_ _)m (re @bobchao: hopefully -- we will check with speakers about this)
+16:14 < coscup-matterbot> <bobchao> 本日壓軸開源<del>和龜</del>合規，在 RB105 將要開始囉！
+16:16 -!- buck5060 [~buck5060@ip149-218.wlan.ntust.edu.tw] has quit [Ping timeout: 240 seconds]
+16:16 -!- buck5060 [~buck5060@101-137-193-180.mobile.dynamic.aptg.com.tw] has joined #coscup
+16:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+16:19 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+16:26 < coscup-matterbot> <bobchao> dis 是什麼，有在聽饒舌的都知道（不對）
+16:26 -!- buck5060 [~buck5060@101-137-193-180.mobile.dynamic.aptg.com.tw] has quit [Quit: Quit]
+16:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+16:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+16:29 < coscup-matterbot> <abev66> 我被記錄組的跳燈直打 X_X
+16:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+16:38 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+16:40 < coscup-matterbot> <bobchao> 我們研究一下怎麼兼顧攝影需求，也許是頻率降低等等，不過這個場地評估下是一定會打閃燈請多見諒 (re @abev66: 我被記錄組的跳燈直打 X_X)
+16:41 < coscup-matterbot> <abev66> 應該是失誤吧，一般應該是往上打，不會往後面打吧Orz (re @bobchao: 我們研究一下怎麼兼顧攝影需求，也許是頻率降低等等，不過這個場地評估下是一定會打閃燈請多見諒)
+16:41 < coscup-matterbot> <bobchao> 喔原來是這意思，我再回報給攝影組
+16:42 < coscup-matterbot> <Thelitchi> 感覺是高手！歡迎加入攝影組一起改善議程進行的拍照呀 (re @abev66: 應該是失誤吧，一般應該是往上打，不會往後面打吧Orz)
+16:43 < coscup-matterbot> <Thelitchi> 感覺是高手 😍！歡迎加入攝影組一起改善議程進行的拍照呀 (edited) (re @abev66: 應該是失誤吧，一般應該是往上打，不會往後面打吧Orz)
+16:52 -!- Denir_n7p [~Denir@1.200.212.190] has quit [Read error: Connection reset by peer]
+16:52 -!- Denir_n7p [~Denir@1.200.212.190] has joined #coscup
+16:54 -!- Denir_n7p [~Denir@1.200.212.190] has quit [Read error: Connection reset by peer]
+16:54 -!- Denir_n7p [~Denir@1.200.212.190] has joined #coscup
+16:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:00 -!- Denir_n7p [~Denir@1.200.212.190] has quit [Read error: Connection reset by peer]
+17:00 -!- Denir_n7p [~Denir@1.200.212.190] has joined #coscup
+17:01 -!- Denir_n7p [~Denir@1.200.212.190] has quit [Read error: Connection reset by peer]
+17:01 -!- Denir_n7p [~Denir@1.200.212.190] has joined #coscup
+17:01 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:06 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+17:08 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:12 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:19 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:21 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:22 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+17:22 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+17:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:33 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:36 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:42 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:51 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:53 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:05 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+18:07 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+18:18 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:20 -!- asahsieh [uid28213@gateway/web/irccloud.com/x-vdjldsyhtqpadmyr] has quit [Quit: Connection closed for inactivity]
+18:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+18:24 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+18:31 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:04 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+19:06 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:11 -!- d0gm4n [uid38259@gateway/web/irccloud.com/x-sanhgafzlngpscsa] has quit [Quit: Connection closed for inactivity]
+19:12 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+19:12 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+19:41 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+19:42 -!- sciuridae [~sciuridae@static.home.twn.sciuridae.cloud] has joined #coscup
+19:42 -!- sciuridae is now known as Sciuridar
+19:42 -!- Sciuridar is now known as Sciuridae
+19:43 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:46 < coscup-matterbot> <Telegram> Forwarded from unknown: 有人今晚已經在用這兩咖喝啤酒，那你呢？🍻
+19:46 < coscup-matterbot> <Telegram> 明天最後一天，TR 312 大會攤位各式年度紀念品，歡迎參觀支持！
+19:46 < coscup-matterbot> <Telegram> —
+19:46 < coscup-matterbot> <Telegram> ★2020 開源啤酒杯（兩款）
+19:46 < coscup-matterbot> <Telegram> →$350/個；$500/成雙
+19:46 < coscup-matterbot> <Telegram> ★2020 小啄愛台灣線材包
+19:46 < coscup-matterbot> <Telegram> →$350/個
+19:46 < coscup-matterbot> <Telegram> ★2020 限量開源紀念T
+19:46 < coscup-matterbot> <Telegram> →原價 $1000/件
+19:46 < coscup-matterbot> <Telegram> →集 500 點，$600/件
+19:46 < coscup-matterbot> <Telegram> —
+19:46 < coscup-matterbot> <Telegram> 大地遊戲（開源巔峰挑戰賽），集點可換超可愛2020限定鑰匙圈/貼紙！
+19:46 < coscup-matterbot> <Telegram> ※贊助商攤位= 一次集 60 點
+19:46 < coscup-matterbot> <Telegram> 跑兩攤就換一個鑰匙圈
+19:46 < coscup-matterbot> <Telegram> 歡迎多逛多走跳💨
+19:46 < coscup-matterbot> <Telegram> https://blog.coscup.org/2020/08/coscup-2020.html
+19:46 < coscup-matterbot> <Telegram> —
+19:46 < coscup-matterbot> <Telegram> ⚡️閃電講報名⚡️
+19:46 < coscup-matterbot> <Telegram> 10:00 - 11:00 最後時機！！
+19:46 < coscup-matterbot> <Telegram> 至 TR 2 樓服務台提供稱呼、題目、聯絡方式等資料報名。
+19:46 < coscup-matterbot> <Telegram> 第二天（8/2）11:00 前將進行抽籤並於此公布最後入選名單！
+19:46 < coscup-matterbot> <Telegram> —
+19:46 < coscup-matterbot> <Telegram> #COSCUP #COSCUP2020
+19:46 < coscup-matterbot> <Telegram> #支持啦哪次不支持
+19:46 < coscup-matterbot> <Telegram> #感謝紀錄組志工拍攝絕世美照
+19:46 < coscup-matterbot> <Telegram> #挺開源 #夏開啤
+19:46 < coscup-matterbot> <Telegram> #用小啄杯喝起來就是特別涼
+19:46 < coscup-matterbot> <Telegram> Forwarded from unknown:
+19:46 < coscup-matterbot> <Telegram> Forwarded from unknown:
+19:46 < coscup-matterbot> <Telegram> Forwarded from unknown:
+19:47 < coscup-matterbot> <Telegram> Forwarded from unknown:
+19:47 < coscup-matterbot> <Telegram> Forwarded from unknown: 有人今晚已經在用這兩咖喝啤酒，那你呢？🍻
+19:47 < coscup-matterbot> <Telegram> 明天最後一天，TR 312 大會攤位各式年度紀念品，歡迎參觀支持！
+19:47 < coscup-matterbot> <Telegram> —
+19:47 < coscup-matterbot> <Telegram> ★2020 開源啤酒杯（兩款）
+19:47 < coscup-matterbot> <Telegram> →$350/個；$500/成雙
+19:47 < coscup-matterbot> <Telegram> ★2020 小啄愛台灣線材包
+19:47 < coscup-matterbot> <Telegram> →$350/個
+19:47 < coscup-matterbot> <Telegram> ★2020 限量開源紀念T
+19:47 < coscup-matterbot> <Telegram> →原價 $1000/件
+19:47 < coscup-matterbot> <Telegram> →集 500 點，$600/件
+19:47 < coscup-matterbot> <Telegram> —
+19:47 < coscup-matterbot> <Telegram> 大地遊戲（開源巔峰挑戰賽），集點可換超可愛2020限定鑰匙圈/貼紙！
+19:47 < coscup-matterbot> <Telegram> ※贊助商攤位= 一次集 60 點
+19:47 < coscup-matterbot> <Telegram> 跑兩攤就換一個鑰匙圈
+19:47 < coscup-matterbot> <Telegram> 歡迎多逛多走跳💨
+19:47 < coscup-matterbot> <Telegram> https://blog.coscup.org/2020/08/coscup-2020.html
+19:47 < coscup-matterbot> <Telegram> —
+19:47 < coscup-matterbot> <Telegram> ⚡️閃電講報名⚡️
+19:47 < coscup-matterbot> <Telegram> 10:00 - 11:00 最後時機！！
+19:47 < coscup-matterbot> <Telegram> 至 TR 2 樓服務台提供稱呼、題目、聯絡方式等資料報名。
+19:47 < coscup-matterbot> <Telegram> 第二天（8/2）11:00 前將進行抽籤並於此公布最後入選名單！
+19:47 < coscup-matterbot> <Telegram> —
+19:47 < coscup-matterbot> <Telegram> #COSCUP #COSCUP2020
+19:47 < coscup-matterbot> <Telegram> #支持啦哪次不支持
+19:47 < coscup-matterbot> <Telegram> #感謝攝影組志工拍攝絕世美照
+19:47 < coscup-matterbot> <Telegram> #挺開源 #夏開啤
+19:47 < coscup-matterbot> <Telegram> #用小啄杯喝起來就是特別涼 (edited)
+19:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+19:48 < coscup-matterbot> <Telegram> Forwarded from unknown: 有人今晚已經在用這兩咖喝啤酒，那你呢？🍻明天最後一天，TR 312 大會攤位各式年度紀念品，歡迎參觀支持！—★2020 開源啤酒杯（兩款）→$350/個；$500/成雙★2020 小啄愛台灣線材包→$350/個★2020 限量開源紀念T→原價 $1000/件→集 500 點，$600/件—大地遊戲（開源巔峰挑戰賽），集點可換超可愛2020
+19:50 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:55 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+19:56 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:01 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+20:03 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:13 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+20:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:28 -!- RJHsiao [uid28324@gateway/web/irccloud.com/x-jeevscpgwaddbxez] has quit [Quit: Connection closed for inactivity]
+20:31 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+20:33 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+20:50 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:55 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+20:56 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:58 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+20:58 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+21:07 -!- s8321414 [~s8321414@2001-b011-e60d-35d3-6818-d887-1749-b419.dynamic-ip6.hinet.net] has joined #coscup
+21:12 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+21:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:40 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+21:40 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+21:44 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+21:46 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:57 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+21:58 -!- s8321414 [~s8321414@2001-b011-e60d-35d3-6818-d887-1749-b419.dynamic-ip6.hinet.net] has quit [Quit: Konversation terminated!]
+21:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:08 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+22:10 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+22:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+22:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+22:30 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:37 < coscup-matterbot> <flandrekawaii> https://news.pts.org.tw/article/489234
+22:38 < coscup-matterbot> <flandrekawaii> 危
+22:40 < coscup-matterbot> <chuanchan1116> 我知道我有點煩，但還是希望大家盡量戴上口罩 QwQ
+22:46 < coscup-matterbot> <bobchao> 今年規定請各位在室內一定要帶上口罩
+22:47 < coscup-matterbot> <bobchao> 「戴啦x」「嗚嗚嗚」
+22:51 < coscup-matterbot> <calee0219>  (re @chuanchan1116: 我知道我有點煩，但還是希望大家盡量戴上口罩 QwQ)
+23:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+23:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+23:06 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+23:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+23:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+23:17 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+23:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+23:31 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+23:38 -!- d0gm4n [uid38259@gateway/web/irccloud.com/x-wqzrosuqrztlpgyn] has joined #coscup
+23:47 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+23:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+--- Log closed Sun Aug 02 00:00:20 2020
+
+# Day2
+
+--- Log opened Sun Aug 02 00:00:20 2020
+00:04 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+00:06 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:11 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+00:13 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:18 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+00:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:25 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+00:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:33 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+00:35 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+00:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+00:50 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+01:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:04 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+01:05 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+01:08 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+01:10 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:23 -!- Denir_n7p [~Denir@1.200.212.190] has quit [Ping timeout: 264 seconds]
+01:23 -!- ch0upi_bsd [~r96006@linux1.csie.ntu.edu.tw] has quit [Ping timeout: 256 seconds]
+01:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+01:25 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:35 < coscup-matterbot> <singing_li> Day2 早上 9:00 由 Ant 開場，會帶領大家巡禮今日議程，緊接著由Vue.js 的作者尤雨溪，為我們帶來「Vue 3 and the evolution of OSS projects」，有在關心 Vue.js 新資訊，乃至於大型開源軟體框架發展考量點的朋友，千萬不要睡過頭，錯過這場難得邀請的重磅演講！🤟
+01:35 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+01:35 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+01:41 < coscup-matterbot> <abev66>  (re @singing_li: Day2 早上 9:00 由 Ant 開場，會帶領大家巡禮今日議程，緊接著由Vue.js 的作者尤雨溪，為我們帶來「Vue 3 and the evolution of OSS projects」，有在關心 Vue.js 新資訊，乃至於大型開源軟體框架發展考量點的朋友，千萬不要睡過頭，錯過這場難得邀請的重磅演講！🤟)
+01:41 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+01:41 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+01:41 -!- d0gm4n [uid38259@gateway/web/irccloud.com/x-wqzrosuqrztlpgyn] has quit [Quit: Connection closed for inactivity]
+01:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+01:51 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+01:51 -!- Denir_n7p [~Denir@110.50.139.239] has joined #coscup
+02:06 -!- Denir_n7p [~Denir@110.50.139.239] has quit [Ping timeout: 246 seconds]
+02:18 -!- Denir_n7p [~Denir@180.217.128.199] has joined #coscup
+02:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+02:24 -!- Denir_n7p [~Denir@180.217.128.199] has quit [Ping timeout: 240 seconds]
+02:25 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+02:30 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+02:32 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+02:45 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+02:46 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+02:53 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+02:53 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+02:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+03:01 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+03:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:38 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+03:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+03:53 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+03:55 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+04:05 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+04:06 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+04:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+04:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+04:30 -!- Denir_n7p [~Denir@180.217.178.166] has joined #coscup
+04:36 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+04:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:01 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+05:03 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+05:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:38 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+05:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:45 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+05:46 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+05:47 -!- wcpan [~quassel@2400:8902::f03c:91ff:fee0:f952] has quit [Quit: http://quassel-irc.org - Chat comfortably. Anywhere.]
+05:47 -!- wcpan [~quassel@2400:8902::f03c:91ff:fee0:f952] has joined #coscup
+05:53 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+05:54 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+06:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:38 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+06:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:45 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+06:47 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+06:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+07:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:13 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+07:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:19 < coscup-matterbot> <Telegram> Forwarded from unknown: ☀️COSCUP．第二日 Morning Call☀️
+07:19 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+07:19 < coscup-matterbot> <Telegram> feat. DAY 1速記釋出🍎
+07:20 < coscup-matterbot> <Telegram> 早安，我的開源朋友們！
+07:20 < coscup-matterbot> <Telegram> 大概 2 小時後就要見面，小啄已確認過你期待的眼神w
+07:20 < coscup-matterbot> <Telegram> －
+07:20 < coscup-matterbot> <Telegram> Day2 早上 9:00 將由 Ant 開場，為大家進行今日議程的精采巡禮，緊接著由 Vue.js 的作者尤雨溪，為我們帶來「Vue 3 and the evolution of OSS projects」，有在關心 Vue.js 新資訊、乃至於大型開源軟體框架發展考量點的朋友，千萬不要睡過頭，錯過這場難得邀請的重磅演講！
+07:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+07:20 < coscup-matterbot> <Telegram> —
+07:20 < coscup-matterbot> <Telegram> ★DAY 1 圖文速記 ★
+07:20 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+07:20 < coscup-matterbot> <Telegram> 昨天不克出席的開源人免失落~
+07:20 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+07:20 < coscup-matterbot> <Telegram> COSCUP 志工團隊生出圖文並茂的超誠意速記，讓你一覽精彩亮點
+07:20 < coscup-matterbot> <Telegram> 兩天都參加的朋友也大可回味一發哦🙌
+07:20 < coscup-matterbot> <Telegram> https://medium.com/@coscup/coscup-2020-day-1-%E9%80%9F%E5%AF%AB-f46d9cb316bf
+07:20 < coscup-matterbot> <Telegram> —
+07:20 < coscup-matterbot> <Telegram> ‼️報到注意‼️
+07:20 < coscup-matterbot> <Telegram> 口罩要戴好，健康有擔保！
+07:20 < coscup-matterbot> <Telegram> ★昨天已報到者：一律憑頸繩+Badge 入場，遺失請到報到台洽詢。
+07:20 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+07:20 < coscup-matterbot> <Telegram> ★今天初次報到者：研揚、綜大皆有報到台，敬請利用！
+07:20 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+07:20 < coscup-matterbot> <Telegram> #COSCUP #COSCUP2020
+07:20 < coscup-matterbot> <Telegram> #等等見
+07:20 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+07:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+07:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+07:41 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:47 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+07:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+07:58 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+08:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:04 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+08:06 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+08:16 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:50 < coscup-matterbot> <Telegram> Forwarded from unknown:  (edited)【更正啤酒杯金額】有人今晚已經在用這兩咖喝啤酒，那你呢？🍻明天最後一天，TR 312 大會攤位各式年度紀念品，歡迎參觀支持！—★2020 開源啤酒杯（兩款）→$300/個；$500/成雙★2020 小啄愛台灣線材包→$350/個★2020 限量開源紀念T→原價 $1000/件→集 500 點，$600/件—大地遊戲（開源巔峰挑?
+08:50 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+08:50 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+08:56 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+08:57 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+08:59 < coscup-matterbot> <singing_li> RB 105 1 分鐘後準時開場
+08:59 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:00 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+09:04 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:07 < coscup-matterbot> <chuanchan1116> 和大家說一下，大家進去會議室有看到一塔的衛生紙可以取用，配合贊助商贈送的酒精噴灑在桌上或紙上在擦拭一遍，就可以進行桌椅消毒囉~
+09:07 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:07 < coscup-matterbot> <chuanchan1116> 開放式空間會放一捲藍色的紙抹布，也是可以取用做大面積清潔的
+09:07 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:08 -!- s8321414 [~s8321414@2001-b011-e60d-151a-5fa7-8bcd-594e-4947.dynamic-ip6.hinet.net] has joined #coscup
+09:08 < coscup-matterbot> <chuanchan1116> 大家昨天好像不知道怎麼用都沒拆開來用，窩道歉 QwQ
+09:08 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:08 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:14 < coscup-matterbot> <singing_li> 第一場議程 9:15 要開始囉，趕快來 RB 105，別錯過最新 Vue.js 的發展
+09:14 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:19 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+09:21 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:26 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+09:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:42 < coscup-matterbot> <JoeAngel>
+09:42 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:42 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:42 < coscup-matterbot> <JoeAngel>  (edited)車子來了 :
+09:42 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:42 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:51 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+09:51 < coscup-matterbot> <Sorry> （汗）
+09:51 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:51 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:52 < coscup-matterbot> <Sorry> [RB105]（汗） (edited)
+09:52 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:53 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+09:53 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:56 < coscup-matterbot> <David_C927> https://youtu.be/AINumE9p3YA 我說的是這個，Kuro大也有在現場。
+09:56 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:56 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:57 < coscup-matterbot> <David_C927> 所以想問差異在那，擇一才想學
+09:57 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:57 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:57 < coscup-matterbot> <ddqq7> 可以拿完免費資料夾就走 :
+09:57 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+09:57 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+09:58 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+09:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+10:02 < coscup-matterbot> <dan_chen>  (re @ddqq7: )
+10:02 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:02 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:03 < coscup-matterbot> <iamhlb> 講者被帶到場外（物理）問問題了
+10:03 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:03 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:04 -!- s8321414_ [~s8321414@36-238-112-194.dynamic-ip.hinet.net] has joined #coscup
+10:04 -!- s8321414 [~s8321414@2001-b011-e60d-151a-5fa7-8bcd-594e-4947.dynamic-ip6.hinet.net] has quit [Ping timeout: 260 seconds]
+10:07 -!- asahsieh [uid28213@gateway/web/irccloud.com/x-hazpofgulkyiazco] has joined #coscup
+10:08 < coscup-matterbot> <chusiang> 大家早。
+10:08 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:08 < coscup-matterbot> <chusiang> 看氣象報告下午台北降雨機率有到 40%。出門時，不妨多帶把傘。
+10:08 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:09 < coscup-matterbot> <flandrekawaii> 那場的結論是：小孩子才做選擇 (re @David_C927: 所以想問差異在那，擇一才想學)
+10:09 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:09 -!- s8321414_ is now known as s8321414
+10:09 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:10 < coscup-matterbot> <alznn> [410] 我做的 bug 大家修
+10:10 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:10 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:13 < coscup-matterbot> <flandrekawaii> [313] 指著vim ）我以前很討厭這個，我撐了15年
+10:13 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:13 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+10:15 < coscup-matterbot> <StarNight> 我愛vim
+10:15 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:15 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:16 < coscup-matterbot> <chuanchan1116> 大家好，在社群/贊助商攤位享用零食飲料，交友聊天的同時，不要忘了飲食中盡量避免交談，飲食完畢後即戴上口罩喔·
+10:16 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:16 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:17 < coscup-matterbot> <JoeAngel> 還有很多資料夾XD (re @ddqq7: )
+10:17 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:17 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+10:17 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:33 < coscup-matterbot> <JoeAngel> 如果你路過發現議程軌滿了～可以提醒社群議程軌協調人改一下教室狀態為爆滿～或是可以在這喊一下，會有專人服務您～
+10:33 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:34 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:34 < coscup-matterbot> <flandrekawaii> 教室狀態可以在哪看？
+10:34 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:34 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:35 < coscup-matterbot> <JoeAngel>
+10:35 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:35 < coscup-matterbot> <JoeAngel>  (edited)在 OPass 這邊 :
+10:35 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:35 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+10:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+10:39 < coscup-matterbot> <Telegram> Forwarded from unknown: ⚡️閃電講⚡️
+10:39 < coscup-matterbot> <Telegram> ⏰報名截止最後 30 分鐘⏰
+10:39 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:39 < coscup-matterbot> <Telegram> 11 點前請至 TR大樓 2F 服務台報名，本次採抽籤制，有投有機會，錯過再等一整年！
+10:39 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:39 < coscup-matterbot> <dan_chen> 原來教室狀態是人工更新的嗎 (re @JoeAngel: 如果你路過發現議程軌滿了～可以提醒社群議程軌協調人改一下教室狀態為爆滿～或是可以在這喊一下，會有專人服務您～)
+10:39 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:40 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:40 < coscup-matterbot> <flandrekawaii>  (re @JoeAngel: )
+10:40 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:40 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:42 < coscup-matterbot> <JoeAngel> 工人智慧！也可以請大家提供更好的解決方案，歡迎跳坑！XD (re @dan_chen: 原來教室狀態是人工更新的嗎)
+10:42 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:42 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:45 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+10:46 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:46 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:47 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+10:49 < coscup-matterbot> <babogoos> TR211
+10:49 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:49 < coscup-matterbot> <babogoos> OSM：「我們沒有錢是我們的財務狀況，但我們的服務不用錢」
+10:49 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:52 -!- Denir_n7p [~Denir@180.217.178.166] has quit [Remote host closed the connection]
+10:53 -!- Denir_n7p [~Denir@180.217.178.166] has joined #coscup
+10:56 < coscup-matterbot> <babogoos> TR211
+10:56 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+10:56 < coscup-matterbot> <babogoos> 講者：「我們沒有錢是我們的財務狀況，但我們的服務不用錢」 (edited)
+10:56 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+10:56 -!- vincentsu [uid181072@gateway/web/irccloud.com/x-zascxvuctvragalb] has joined #coscup
+11:06 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+11:08 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:11 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:11 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:11 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has joined #coscup
+11:12 < coscup-matterbot> <cheergo> 資料夾是不是沒了 (re @ddqq7: )
+11:12 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:12 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:12 < coscup-matterbot> <ddqq7> 還有唷 但是我在二樓
+11:12 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:12 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:13 < coscup-matterbot> <ddqq7> 你可以找一個穿DAL的人拿
+11:13 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:13 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:13 < coscup-matterbot> <cheergo> DAL?
+11:13 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:13 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:13 < coscup-matterbot> <蒼井仁美> 這是哪間呀 BoF? (re @ddqq7: 還有唷 但是我在二樓)
+11:13 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+11:14 < coscup-matterbot> <ddqq7> 我站在appier前面
+11:14 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:15 < coscup-matterbot> <cheergo> 我去樓下看看
+11:15 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:15 < coscup-matterbot> <ddqq7> 找我搭訕 可以拿
+11:15 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:15 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:15 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:20 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has quit [Remote host closed the connection]
+11:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+11:20 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has joined #coscup
+11:22 < coscup-matterbot> <chusiang> DAL 是動森裡的那個 DAL 航空嗎？@@ (re @ddqq7: 你可以找一個穿DAL的人拿)
+11:22 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:22 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:24 < coscup-matterbot> <蒼井仁美> 也有可能是某個小說(ry
+11:24 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:24 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+11:29 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:36 < coscup-matterbot> <sntc06> 是哦！ (re @chusiang: DAL 是動森裡的那個 DAL 航空嗎？@@)
+11:36 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:36 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+11:38 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has quit [Remote host closed the connection]
+11:39 -!- sammyfung [~sammyfung@n112118186064.netvigator.com] has joined #coscup
+11:39 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:40 -!- sammyfung [~sammyfung@n112118186064.netvigator.com] has quit [Client Quit]
+11:44 < coscup-matterbot> <ddqq7> 找到一個穿 DAL 的 NPC 攀談可以獲得 PTT 資料夾一個 :
+11:44 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:44 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:45 < coscup-matterbot> <flandrekawaii> 有大地圖標示NPC位置嗎
+11:45 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:45 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+11:45 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:45 < coscup-matterbot> <abev66> kwin
+11:45 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:46 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:46 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:49 -!- ch0upi_bsd [~r96006@linux1.csie.ntu.edu.tw] has joined #coscup
+11:50 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+11:53 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+11:56 < coscup-matterbot> <JoeAngel>
+11:56 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:57 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:59 < coscup-matterbot> <JoeAngel>  (edited)TR1F :
+11:59 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+11:59 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+11:59 < coscup-matterbot> <Samuel_CA_Lee> 請問開源T還有嗎？
+11:59 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:00 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:05 -!- s8321414 [~s8321414@36-238-112-194.dynamic-ip.hinet.net] has quit [Quit: Konversation terminated!]
+12:05 < coscup-matterbot> <suensummit>
+12:05 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:06 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:08 < coscup-matterbot> <S> 大家都渴了！飲料消耗的比餅乾快
+12:08 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:08 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:12 < coscup-matterbot> <CatfoodTW> 昨天也是呀，該鼓勵自備杯子呀
+12:12 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:12 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:12 < coscup-matterbot> <cheergo> NPC 有去聽 pyptt 嗎
+12:12 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:12 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:13 < coscup-matterbot> <ddqq7> 有
+12:13 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:13 < coscup-matterbot> <k1tten> 看到 NPC 了
+12:13 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:13 < coscup-matterbot> <cheergo> 那我等等應該能遇到了
+12:13 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:13 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:14 < coscup-matterbot> <Patrick> 請問閃電秀會開放直播嗎？
+12:14 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:14 < coscup-matterbot> <Telegram> Forwarded from unknown: 賀！大會攤位收到第一張三倍券啦！🍻振興開源．晚上喝啤🍻★2020 開源啤酒杯（兩款）→$300/個；$500/成雙★2020 小啄愛台灣線材包→$350/個★2020 限量開源紀念T→原價 $1000/件→集 500 點，$600/件最後一天，TR 312 大會攤位各式年度紀念品，歡迎參觀支持！－大地遊戲（開源巔峰挑戰賽），集點就換
+12:14 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:20 < coscup-matterbot> <yurenju> COSCUP startups 講者海帶提到的活動寫在投影片最後一頁可以參考這邊！ https://docs.google.com/presentation/d/1xXx0_OsheE9wwedwQiRr97MC5dR8Q0spxSdUyVa-UWs/edit
+12:20 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:20 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+12:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+12:31 < coscup-matterbot> <S_ean> 再次貼個午餐訊息
+12:31 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:31 < coscup-matterbot> <S_ean> Forwarded from David_C927: 第三餐廳有開 :
+12:31 < coscup-matterbot> <S_ean> Forwarded from David_C927:
+12:32 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:37 < coscup-matterbot> <Wang> 請問還有鄉民L夾嗎
+12:37 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:37 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+12:42 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+12:48 < coscup-matterbot> <hamlet-cpdt> +1
+12:48 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:49 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:49 < coscup-matterbot> <hamlet-cpdt> +1 我也想要 (edited)
+12:49 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:49 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:49 < coscup-matterbot> <ddqq7> 有 我在四樓412-2 附近遊蕩
+12:49 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+12:49 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+12:49 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+12:51 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+13:05 -!- vincentsu [uid181072@gateway/web/irccloud.com/x-zascxvuctvragalb] has quit [Quit: Connection closed for inactivity]
+13:13 < coscup-matterbot> <Planetoid> 剛剛遇到會眾問 APP 裡面的 IRC LOG 連結被疑掉了
+13:13 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:13 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:14 < coscup-matterbot> <Planetoid> 打錯字 疑掉 -> 移掉
+13:14 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:14 < coscup-matterbot> <Wang> Sorry，剛在聽課，請問您現在在哪兒 (re @ddqq7: 有 我在四樓412-2 附近遊蕩)
+13:14 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:14 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:15 < coscup-matterbot> <OK> +1 (re @Wang: Sorry，剛在聽課，請問您現在在哪兒)
+13:15 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:15 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:15 < coscup-matterbot> <ddqq7> 一樓門口 坐著
+13:15 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:16 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:16 < coscup-matterbot> <JoeAngel> 這是新的大地遊戲
+13:16 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:16 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:19 < coscup-matterbot> <k1tten> 《任務完成》✅ 找到 NPC，與 NPC 對話 《任務獎勵》PTT 資料夾 x 1 :
+13:19 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:19 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:20 < coscup-matterbot> <singing_li> 沒有喔 (re @Patrick: 請問閃電秀會開放直播嗎？)
+13:20 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:20 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:21 < coscup-matterbot> <蒼井仁美> 顧session中不能拿資料夾QQ
+13:21 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:21 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+13:24 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+13:31 < coscup-matterbot> <OK> 還在嗎 (re @ddqq7: 一樓門口 坐著)
+13:31 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:32 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:32 < coscup-matterbot> <S_ean> Teemo.request_location();
+13:32 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:32 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:32 < coscup-matterbot> <ddqq7> 在唷
+13:32 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:32 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:33 < coscup-matterbot> <OK> 404not found
+13:33 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:33 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:34 < coscup-matterbot> <OK> 在哪～
+13:34 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:34 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:35 < coscup-matterbot> <ddqq7>
+13:35 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:35 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:35 < coscup-matterbot> <davy_0xff> [TR213] 麥克風是不是要壞了啊…
+13:35 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:35 < coscup-matterbot> <davy_0xff> 一直有雜音跟爆音
+13:36 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:39 < coscup-matterbot> <OK> 有人有多的microsoft口罩嗎？
+13:39 < coscup-matterbot> <OK> 可以用opass點數跟你換一個嗎xdd
+13:39 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:39 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:41 < coscup-matterbot> <tsunalu> 顧攤位中不能拿資料夾QQ (re @k1tten: )
+13:41 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:41 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:43 < coscup-matterbot> <JoeAngel> 謝謝，已協助轉達 (re @davy_0xff: [TR213] 麥克風是不是要壞了啊…
+13:43 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:43 < coscup-matterbot> <JoeAngel> 一直有雜音跟爆音)
+13:43 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:43 < coscup-matterbot> <davy_0xff> opass 點數要變成新興貨幣了嗎XDDDD (re @OK: 有人有多的microsoft口罩嗎？
+13:43 < coscup-matterbot> <davy_0xff> 可以用opass點數跟你換一個嗎xdd)
+13:43 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:43 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:50 < coscup-matterbot> <Telegram> Forwarded from unknown: ！請花 5 分鐘，讓 COSCUP 變得更好！
+13:50 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:50 < coscup-matterbot> <Telegram> 會後調查問卷釋出⭐️https://bit.ly/3flLIV1
+13:50 < coscup-matterbot> <Telegram> #確認過眼神 #遇上開源人
+13:50 < coscup-matterbot> <Telegram> #請填滿表格 #讓明年更出色
+13:50 < coscup-matterbot> <Telegram> 2020 年籌備團隊首度嘗試不售票、跨場地等許多突破，希望讓開源夥伴們有更多的機會參與盛會，響應開源的自由理念！
+13:50 < coscup-matterbot> <Telegram> 除了新嘗試，全球疫情也讓籌組過程更添變化。
+13:50 < coscup-matterbot> <Telegram> 因此，希望來參加的朋友們能高抬貴指
+13:50 < coscup-matterbot> <Telegram> 動動手幫忙完成問卷🙌
+13:50 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:50 < coscup-matterbot> <Telegram> 您的寶貴意見或鼓勵，都是 COSCUP 進步的最大動力！
+13:50 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:50 < coscup-matterbot> <Telegram> #COSCUP #COSCUP2020
+13:50 < coscup-matterbot> <Telegram> #會後問卷
+13:50 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:52 < coscup-matterbot> <flandrekawaii> 走路走一半有gank到NPC 🥳
+13:52 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:52 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:57 < coscup-matterbot> <chusiang>
+13:57 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:57 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:57 < coscup-matterbot> <chusiang>  (edited)311 即將爆滿。 :
+13:57 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:57 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:59 < coscup-matterbot> <pennyken> 看雷達回波，今天結束後下雨機率高
+13:59 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:59 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:59 < coscup-matterbot> <Cod> 請問 NPC 位置 ～
+13:59 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+13:59 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+13:59 < coscup-matterbot> <pennyken> 大家要多注意
+13:59 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:00 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has joined #coscup
+14:00 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:00 < coscup-matterbot> <David_C927> 311爆棚
+14:00 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:00 < Mengseng> 滿滿的
+14:00 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:02 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has quit [Remote host closed the connection]
+14:04 < coscup-matterbot> <ddqq7> 大概14：30會出現在三樓 (re @Cod: 請問 NPC 位置 ～)
+14:04 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:04 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:04 < coscup-matterbot> <JoeAngel> 感大家回報~ (re @David_C927: 311爆棚)
+14:04 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:04 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:10 < coscup-matterbot> <mexcelsa> 請問有入選閃電講，要幾點，在哪裡集合嗎？
+14:10 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:10 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:11 < coscup-matterbot> <mkidyt> 16:00@RB105舞台前 (re @mexcelsa: 請問有入選閃電講，要幾點，在哪裡集合嗎？)
+14:11 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:11 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:16 < coscup-matterbot> <susutw>
+14:16 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:16 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:16 < coscup-matterbot> <CrBoy> （在線等）哪裡可以獲得 PTT 資料夾
+14:16 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:16 < coscup-matterbot> <susutw> 尋找 NPC
+14:16 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:17 < coscup-matterbot> <davy_0xff> (re @ddqq7: 大概14：30會出現在三樓)
+14:17 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:17 < coscup-matterbot> <davy_0xff> 三樓有等待 NPC 的隊伍出現了
+14:17 < coscup-matterbot> <davy_0xff> 求 NPC 觸發對話
+14:17 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:17 < coscup-matterbot> <fieliapm> 🤣 (re @ddqq7: )
+14:17 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:17 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:17 < coscup-matterbot> <davy_0xff> 有沒有人有 NPC 的線索
+14:17 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:18 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:18 < coscup-matterbot> <JoeAngel> @susutw 可以幫我拿一個嗎XD
+14:18 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:18 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:18 < coscup-matterbot> <susutw> 我也在卡位等QQ (re @JoeAngel: @susutw 可以幫我拿一個嗎XD)
+14:18 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:19 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:19 < coscup-matterbot> <mexcelsa> 好的感謝 (re @mkidyt: 16:00@RB105舞台前)
+14:19 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:19 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:24 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+14:26 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+14:28 < coscup-matterbot> <caasih> TR313 iOS 開發者寫一下共筆啊，我寫 js 的聽不懂辣
+14:28 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:28 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:31 -!- licson_l [~replybot@185.207.176.134] has quit [Remote host closed the connection]
+14:31 < coscup-matterbot> <CatfoodTW>
+14:31 -!- licson_l [~replybot@185.207.176.134] has joined #coscup
+14:31 < coscup-matterbot> <singing_li> 外面剛剛有滴雨
+14:34 < coscup-matterbot> <Haraguroicha> IRC 反應沒訊息的問題剛剛修復了，但有掉訊息就是了🤔 :
+14:34 < coscup-matterbot> <abev66> 有被滴到，怕 (re @singing_li: 外面剛剛有滴雨)
+14:34 < coscup-matterbot> <alieonsido> 召喚獸尋覓中
+14:37 < coscup-matterbot> <davy_0xff> Android opass 點議程通知都會被跳到早上vue那場是什麼bug嗎
+14:38 < coscup-matterbot> <CrBoy> Vue 的陰謀 (?) (re @davy_0xff: Android opass 點議程通知都會被跳到早上vue那場是什麼bug嗎)
+14:41 < coscup-matterbot> <davy_0xff> COSCUP 全大寫 嗚嗚 :
+14:43 < coscup-matterbot> <Sheng> 請問這是在哪間教室 (re @davy_0xff: )
+14:43 < coscup-matterbot> <kmnsamx> TR214 (re @Sheng: 請問這是在哪間教室)
+14:47 < coscup-matterbot> <davy_0xff> 等等 這是盜版吧wwwwww :
+14:47 -!- mp607_ [~mp607@1-171-15-220.dynamic-ip.hinet.net] has joined #coscup
+14:48 < coscup-matterbot> <bobchao> XDDDDD 快舉手發問 (re @davy_0xff: )
+14:49 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has joined #coscup
+14:49 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has quit [Remote host closed the connection]
+14:50 < coscup-matterbot> <littlebtc> 買個 YouTube Premium 不就好了 (吐槽 (re @davy_0xff: )
+14:50 < coscup-matterbot> <iamhlb> 鍵人谷的人滿出來了 XD
+14:51 < coscup-matterbot> <David_C927> 官方的 (re @davy_0xff: )
+14:53 < coscup-matterbot> <davy_0xff> 你 download 下來不就成盜版了嗎wwwwwww (re @David_C927: 官方的)
+14:58 < coscup-matterbot> <Planetoid> 感謝 (re @Haraguroicha: )
+15:01 < coscup-matterbot> <bobchao> (小公告) OSC Tokyo 的 closing
+15:01 < coscup-matterbot> <bobchao> 從 16:00-16:15 改成 15:45-16:00，官網跟 OPass 即將更新，特此公告週知
+15:05 < lother> Every gopher works very often with slice. Let’s go from source code to understand some details we should take care in slice manipulation.
+15:06 < lother> sorry 按到 :p
+15:08 < coscup-matterbot> <pennyken> 基隆路上看到三台wemo，大家隨緣啊
+15:12 < coscup-matterbot> <calvintso> 我是Calvin@HKOSCON, 想知有誰拿到Kottis 的貼紙/Folder?
+15:13 < coscup-matterbot> <calvintso> 最好能SNS分享一下，Tag 一下我們的fan page...
+15:13 < coscup-matterbot> <calvintso> 功德無量...
+15:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+15:15 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:20 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+15:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:27 < coscup-matterbot> <Hello> 有人要一起買書的嗎～
+15:28 < coscup-matterbot> <Hello> 我只有一本沒超過1000
+15:28 < coscup-matterbot> <Hello> 揪合買xd
+15:30 < coscup-matterbot> <mexcelsa> HIHI，我是有抽中閃電講的柯克，卡米狗的演講太精采了，我可能16:05才會到RB 105的舞台前
+15:31 < coscup-matterbot> <JoeAngel> 沒時間去買書QQ 顧整天
+15:32 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+15:34 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+15:37 < coscup-matterbot> <davy_0xff> [TR311] 「這把鍵盤還有一個旋鈕
+15:37 < coscup-matterbot> <davy_0xff> 那這個旋鈕可以幹什麼咧
+15:37 < coscup-matterbot> <davy_0xff> 幹什麼都可以」
+15:38 < coscup-matterbot> <Hello> 可以幫你買 (re @JoeAngel: 沒時間去買書QQ 顧整天)
+15:39 < coscup-matterbot> <JoeAngel> 3Q 沒關係XD 我都喜歡逛再決定w
+15:39 < coscup-matterbot> <JoeAngel> 閃電秀講者可以直接到 RB105 講台前兩排座位唷
+15:40 < coscup-matterbot> <JoeAngel> 閃電秀講者可以直接到 RB105 講台前兩排座位唷（進場左前方 (edited)
+15:41 < coscup-matterbot> <davy_0xff> [TR311] 「就這一顆，我這顆就 Ctrl-C，阿 Ctrl-V 在旁邊，就這樣按」
+15:41 < coscup-matterbot> <davy_0xff> 聽眾『然後論文就寫完了』
+15:41 < coscup-matterbot> <davy_0xff> 「我論文自己寫」
+15:41 < coscup-matterbot> <davy_0xff> XDDDDDDD
+15:42 < coscup-matterbot> <CatfoodTW> AU在手把手教手機破解安裝LINUX中(文字說明)
+15:42 < coscup-matterbot> <medicalwei> \OwO/
+15:43 < coscup-matterbot> <bobchao> 😆 cool
+15:44 < coscup-matterbot> <bobchao> 我先提名這一段作為今年傳唱經典 (re @davy_0xff: [TR311] 「就這一顆，我這顆就 Ctrl-C，阿 Ctrl-V 在旁邊，就這樣按」
+15:44 < coscup-matterbot> <bobchao> 聽眾『然後論文就寫完了』
+15:44 < coscup-matterbot> <bobchao> 「我論文自己寫」)
+15:44 < coscup-matterbot> <littlebtc> +1 (re @bobchao: 我先提名這一段作為今年傳唱經典)
+15:45 < coscup-matterbot> <Hello> 這場有錄影嗎～ (re @CatfoodTW: AU在手把手教手機破解安裝LINUX中(文字說明))
+15:45 < coscup-matterbot> <abev66> 🤣 (re @davy_0xff: [TR311] 「就這一顆，我這顆就 Ctrl-C，阿 Ctrl-V 在旁邊，就這樣按」
+15:45 < coscup-matterbot> <abev66> 聽眾『然後論文就寫完了』
+15:45 < coscup-matterbot> <abev66> 「我論文自己寫」)
+15:46 < coscup-matterbot> <Hello> 卡米狗太精彩
+15:46 < coscup-matterbot> <JoeAngel> XD (re @davy_0xff: [TR311] 「就這一顆，我這顆就 Ctrl-C，阿 Ctrl-V 在旁邊，就這樣按」
+15:46 < coscup-matterbot> <JoeAngel> 聽眾『然後論文就寫完了』
+15:46 < coscup-matterbot> <JoeAngel> 「我論文自己寫」)
+15:48 < coscup-matterbot> <CatfoodTW> ͅ不知道，我看得懂簡報，但我聽不懂在說什麼了 (re @Hello: 這場有錄影嗎～)
+15:52 < coscup-matterbot> <JoeAngel> 請提早前來，找 Martian 測試設備唷 (re @JoeAngel: 閃電秀講者可以直接到 RB105 講台前兩排座位唷（進場左前方)
+15:52 < coscup-matterbot> <Hello> 有看到錄影設備嗎 (re @CatfoodTW: ͅ不知道，我看得懂簡報，但我聽不懂在說什麼了)
+15:55 < coscup-matterbot> <CatfoodTW> 沒有瞧見 (re @Hello: 有看到錄影設備嗎)
+15:55 < coscup-matterbot> <Irvin> AI 軌的 AI in 挖礦意外很有趣！（真的地底的礦）
+15:57 < coscup-matterbot> <CatfoodTW> 總覺得這次大多數遠端會議都不是很理想呀
+15:58 < coscup-matterbot> <davy_0xff> 畢竟講者看不到會眾
+15:58 < coscup-matterbot> <davy_0xff> 會眾就會偷懶（ry (re @CatfoodTW: 總覺得這次大多數遠端會議都不是很理想呀)
+15:58 < coscup-matterbot> <Sheng> 請問早上 10.  TR313 的議程加開到下午場的哪裡
+15:58 < coscup-matterbot> <CatfoodTW> ͅ沒有互動感，而且語言問題
+15:59 < coscup-matterbot> <Murasakio> 請問閃電秀會有直播嗎
+15:59 < coscup-matterbot> <mkidyt> 不好意思，不會喔 (re @Murasakio: 請問閃電秀會有直播嗎)
+16:00 < coscup-matterbot> <Murasakio> 好喔
+16:00 < coscup-matterbot> <JoeAngel> 那個，閃電秀的議程，已經公告在這裡了唷
+16:00 < coscup-matterbot> <JoeAngel> https://coscup.org/2020/zh-TW/agenda/N9BDJJ
+16:00 -!- mp607_ [~mp607@1-171-15-220.dynamic-ip.hinet.net] has quit [Quit: leaving]
+16:01 < coscup-matterbot> <salagadoola> 閃電秀會有hackmd嗎？議程簡介裡沒有hackmd連結
+16:02 < coscup-matterbot> <JoeAngel> 請稍等 (re @salagadoola: 閃電秀會有hackmd嗎？議程簡介裡沒有hackmd連結)
+16:02 < coscup-matterbot> <CatfoodTW> 手機開直播
+16:03 < coscup-matterbot> <bobchao> https://hackmd.io/aI1G7txnRlSA46HChdczYw 先用這個 XDD (re @salagadoola: 閃電秀會有hackmd嗎？議程簡介裡沒有hackmd連結)
+16:03 -!- asahsieh [uid28213@gateway/web/irccloud.com/x-hazpofgulkyiazco] has quit [Quit: Connection closed for inactivity]
+16:06 < coscup-matterbot> <JoeAngel> 請大家進入 RB105，可以往前找座位唷
+16:08 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+16:09 < coscup-matterbot> <JoeAngel> 請大家進入 RB105，可以往前找座位唷
+16:09 < coscup-matterbot> <JoeAngel> 左前方還有一些座位 (edited)
+16:09 < coscup-matterbot> <CatfoodTW> 種花4G不給力中
+16:10 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+16:10 < coscup-matterbot> <toppy368> 害我想到有人P圖出這個鍵盤 (re @davy_0xff: [TR311] 「就這一顆，我這顆就 Ctrl-C，阿 Ctrl-V 在旁邊，就這樣按」
+16:10 < coscup-matterbot> <toppy368> 聽眾『然後論文就寫完了』
+16:10 < coscup-matterbot> <toppy368> 「我論文自己寫」)
+16:12 < coscup-matterbot> <bobchao> https://hackmd.io/dc3MCEtVQZm39rXLdEQ0Tg (re @JoeAngel: 請稍等)
+16:12 < coscup-matterbot> <CatfoodTW> 強制消音
+16:12 < coscup-matterbot> <bobchao> https://hackmd.io/dc3MCEtVQZm39rXLdEQ0Tg 請參考 (re @salagadoola: 閃電秀會有hackmd嗎？議程簡介裡沒有hackmd連結)
+16:13 < coscup-matterbot> <nfsnfs> 完了 播不出來
+16:13 < coscup-matterbot> <nfsnfs> 被拔線了
+16:13 < coscup-matterbot> <CatfoodTW> 事故發生
+16:13 < coscup-matterbot> <David_C927>
+16:15 < coscup-matterbot> <medicalwei> ⏱🎙🚨🔌🙀👏 (re @David_C927: )
+16:15 < coscup-matterbot> <CatfoodTW> 回音
+16:15 < coscup-matterbot> <David_C927> 105回音處理一下
+16:16 < coscup-matterbot> <bobchao> 今天這間的設定應該有什麼問題
+16:16 < coscup-matterbot> <CatfoodTW> mic音量降低
+16:17 < coscup-matterbot> <nfsnfschen> 聲音可能太大聲了
+16:17 < coscup-matterbot> <JoeAngel> 嗯，後台的聲音推太多
+16:19 < coscup-matterbot> <bobchao> 郭又宗 應該是一個人名...
+16:19 < coscup-matterbot> <bobchao> @JoeAngel 有可能幫忙去溝通一下嗎
+16:20 < coscup-matterbot> <CatfoodTW> 恩 有被消音的預感
+16:21 < coscup-matterbot> <davy_0xff> 影像處理可是不是資電學院🤔
+16:21 < coscup-matterbot> <JoeAngel> 有好多了吧？
+16:21 < coscup-matterbot> <bobchao> @joeangel \o/ 好棒棒
+16:21 < coscup-matterbot> <CatfoodTW> good (re @JoeAngel: 有好多了吧？)
+16:22 < coscup-matterbot> <CatfoodTW> 好棒 有錢的實驗室
+16:22 < coscup-matterbot> <davy_0xff> 混在一起做撒尿牛丸
+16:22 < coscup-matterbot> <sntc06> 所有東西套上 Grafana 看起來就很酷
+16:24 < coscup-matterbot> <CatfoodTW> 鈴聲建議大聲點
+16:24 < coscup-matterbot> <TsundereChen> 欸等等那個 GitHub Repo 呢
+16:25 < coscup-matterbot> <bobchao> 「過了五秒鐘.... 十秒鐘也過去了，你再也不相信愛情。」
+16:26 < coscup-matterbot> <sntc06> 趕快傳 Line 過去囉
+16:27 < coscup-matterbot> <davy_0xff> Never live demo
+16:27 < coscup-matterbot> <sntc06> information leakage
+16:28 < coscup-matterbot> <CatfoodTW> ͅ出包啦
+16:28 -!- Denir_n7p [~Denir@180.217.178.166] has quit [Ping timeout: 240 seconds]
+16:28 < coscup-matterbot> <chialiaw> 10 分鐘隕石系簡報
+16:29 < coscup-matterbot> <medicalwei>
+16:31 < coscup-matterbot> <S_ean> ͅ U+0345 COMBINING GREEK YPOGEGRAMMENI
+16:31 < coscup-matterbot> <S_ean> 這怎樣ww (re @CatfoodTW: ͅ出包啦)
+16:31 < coscup-matterbot> <bobchao> 糟糕剛剛那句只有我笑得出來 #kktix...
+16:32 < coscup-matterbot> <David_C927> Sponsor Talk
+16:32 < coscup-matterbot> <davy_0xff> 這個速度…是不是會被拔ㄌ
+16:33 < coscup-matterbot> <medicalwei> PRAISE THE SUN
+16:33 < coscup-matterbot> <David_C927> 太慢該拔
+16:33 < coscup-matterbot> <CatfoodTW> 肯定
+16:33 < coscup-matterbot> <bobchao> 有推回 upstream 就是棒棒
+16:33 < coscup-matterbot> <CrBoy> 不，我也笑了 (re @bobchao: 糟糕剛剛那句只有我笑得出來 #kktix...)
+16:34 < coscup-matterbot> <abev66> 我也… (re @CrBoy: 不，我也笑了)
+16:34 < coscup-matterbot> <medicalwei> GKH 有來過 COSCUP 喔
+16:34 < coscup-matterbot> <bobchao> 笑吧你 每人... [老梗] (re @CrBoy: 不，我也笑了)
+16:35 < coscup-matterbot> <medicalwei> Greg-Kroah Hartmann 來的時候，那時辦在 TICC （逃走
+16:35 < coscup-matterbot> <bobchao> 這看起來要拔了...
+16:35 < coscup-matterbot> <bobchao> 居然！！！！
+16:35 < coscup-matterbot> <David_C927> 還是過了
+16:35 < coscup-matterbot> <abev66> 1TB… (re @bobchao: 笑吧你 每人... [老梗])
+16:35 < coscup-matterbot> <CrBoy> 轉眼就講完了！
+16:35 < coscup-matterbot> <nfsnfschen> 讚讚
+16:35 < coscup-matterbot> <medicalwei> 然後，Linux kernel 有一個版本的 codename 是 TOSSUG（3.18 還是哪一版）
+16:36 < coscup-matterbot> <bobchao> 在我以為他後面還有的同時 後面就沒有了
+16:36 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has joined #coscup
+16:36 < coscup-matterbot> <davy_0xff> 太厲害了
+16:36 < coscup-matterbot> <medicalwei> https://www.ptt.cc/bbs/Linux/M.1376372342.A.304.html
+16:36 < coscup-matterbot> <bobchao> 第一作者 😆
+16:37 < coscup-matterbot> <bobchao> 「為什麼會離職，等下會跟大家講」
+16:37 < coscup-matterbot> <David_C927> 是前J社的
+16:37 < coscup-matterbot> <davy_0xff> 錢
+16:37 < coscup-matterbot> <nfsnfschen> 錢！
+16:38 < coscup-matterbot> <bobchao> 「因為蝦蝦說參加開源社群一定要穿旗袍，我沒有旗袍只好拿這個應急一下...」
+16:38 < coscup-matterbot> <linroex> 先等我們把 workaround 修乾淨XDDD (re @TsundereChen: 欸等等那個 GitHub Repo 呢)
+16:38 < coscup-matterbot> <medicalwei> 錢 ;w;
+16:38 < coscup-matterbot> <JoeAngel> s............. 錢
+16:38 < coscup-matterbot> <bobchao> 「那些參加沒有穿旗袍的，給我注意一點哈」
+16:38 < Mengseng> 錢 XD
+16:38 < coscup-matterbot> <medicalwei> 我的確有幹話要講：https://github.com/justfont/open-huninn-font/issues/4
+16:38 < coscup-matterbot> <David_C927> 今年COSCUP LOGO是用金萱吧
+16:39 < coscup-matterbot> <medicalwei> 我的確有__話要講：https://github.com/justfont/open-huninn-font/issues/4 (edited)
+16:39 < coscup-matterbot> <bobchao> 剛剛講出了心裡話 😆
+16:40 < coscup-matterbot> <nfsnfschen> 打碼打碼
+16:40 < coscup-matterbot> <GamerGary_prime> 千里專案始於fork
+16:41 < coscup-matterbot> <sntc06> 加速中
+16:41 < coscup-matterbot> <bobchao> 「千里專案始於 fork.... []... 最後是新增 14xx 個字，修改了... 幾乎全部的字」
+16:41 < coscup-matterbot> <CatfoodTW> 離職原因呀
+16:41 < coscup-matterbot> <nfsnfschen> 來不及講為什麼離職
+16:41 < coscup-matterbot> <linroex> 八卦勒
+16:41 < coscup-matterbot> <nfsnfschen> XDDD 沒有八卦到
+16:41 < coscup-matterbot> <medicalwei> 辛苦了 ;w;
+16:41 < coscup-matterbot> <GamerGary_prime> 八卦沒了
+16:41 < coscup-matterbot> <davy_0xff> 八卦QQ
+16:41 -!- Denir_n7p [~Denir@1.200.222.51] has joined #coscup
+16:42 < coscup-matterbot> <caasih> 沒有旗袍😭
+16:43 < coscup-matterbot> <GamerGary_prime> 明年旗袍大量發生預告
+16:43 < coscup-matterbot> <GamerGary_prime> 明年旗袍大量發生預告(X (edited)
+16:43 < coscup-matterbot> <WilliamMou> 用 vim 當簡報（owo
+16:43 < coscup-matterbot> <iamhlb> 求推薦旗袍
+16:43 < coscup-matterbot> <WilliamMou> 用 vim 當簡報（owo！ (edited)
+16:43 < coscup-matterbot> <aki02>  (re @medicalwei: 我的確有__話要講：https://github.com/justfont/open-huninn-font/issues/4)差一頁的的八卦是 :
+16:43 < coscup-matterbot> <CatfoodTW> 今年女裝子不少，明年會旗袍大量發生嗎？ ＼( ^▽^ )／
+16:44 < coscup-matterbot> <GamerGary_prime> 肥宅無法
+16:44 < coscup-matterbot> <OtomeSound> 這vim主題可以分享嗎（？
+16:44 < coscup-matterbot> <chusiang> 可惜 Vim 沒有幫忙倒數。
+16:44 < coscup-matterbot> <caasih> 中年肥宅無法
+16:44 < coscup-matterbot> <medicalwei> *抖* 是能理解… (re @aki02: )
+16:44 < coscup-matterbot> <aki02>  (edited) (re @medicalwei: 我的確有__話要講：https://github.com/justfont/open-huninn-font/issues/4)差一頁的的八卦是老闆其實不太希望大家改 :
+16:44 < coscup-matterbot> <davy_0xff> 還以為要被 DO 拖累閃電講
+16:45 < coscup-matterbot> <CatfoodTW> 現在Twitter先前才有穿上去脫不下來
+16:45 < coscup-matterbot> <medicalwei> Vim: Solarized Light + Powerline / Airline
+16:45 < coscup-matterbot> <CrBoy> 大家閃電講都結束得很閃電...
+16:45 < coscup-matterbot> <davy_0xff> 所以原來一點都不開源嗎 🤔
+16:45 < coscup-matterbot> <davy_0xff> 該抵制ㄌ拔 借開源知名行銷又不想開源 (re @aki02: )
+16:46 < coscup-matterbot> <chusiang> 〈我在健身房  …〉後面是什麼啊？！
+16:46 < coscup-matterbot> <nfsnfschen> 投影困難
+16:46 < coscup-matterbot> <CrBoy> 學python工程師的時間管理之術？
+16:46 < coscup-matterbot> <Inndy> https://github.com/elct9620/elct9620-vim (re @OtomeSound: 這vim主題可以分享嗎（？)
+16:46 < coscup-matterbot> <bobchao> 悲劇
+16:46 < coscup-matterbot> <CY> 輸出不能
+16:46 < coscup-matterbot> <GamerGary_prime> 投影傲嬌
+16:46 < coscup-matterbot> <CatfoodTW> 剛剛沒上台測試呦
+16:46 < coscup-matterbot> <caasih> 開源不就是別人做好我免費用ㄇ #反串 (re @davy_0xff: 所以原來一點都不開源嗎 🤔
+16:46 < coscup-matterbot> <caasih> 該抵制ㄌ拔 借開源知名行銷又不想開源)
+16:46 < coscup-matterbot> <TzuYu16> 剛剛後面有欸
+16:46 < coscup-matterbot> <chusiang> 為什麼要在健康房學 Python？XD
+16:46 < coscup-matterbot> <chusiang> 為什麼要在健身房學 Python？XD (edited)
+16:47 < coscup-matterbot> <GamerGary_prime> 薛丁格的簡報
+16:47 < coscup-matterbot> <bobchao> 「那不然... 蒼時你要不要回應一下你是用哪套 VIM 佈景主題，我也很想知道」
+16:47 < coscup-matterbot> <medicalwei> 不過另一方面來說，做字體吃力不討好，台灣也很少有人跳出來做字體，光是有就很難得了…… (re @davy_0xff: 所以原來一點都不開源嗎 🤔
+16:47 < coscup-matterbot> <medicalwei> 該抵制ㄌ拔 借開源知名行銷又不想開源)
+16:47 < coscup-matterbot> <JLurker> 應該說會遠端的就外國講者 英文或其他語言大家就興趣偏低惹 (re @CatfoodTW: 總覺得這次大多數遠端會議都不是很理想呀)
+16:47 < coscup-matterbot> <bobchao> 這位看起來好激動的感覺 😆
+16:47 < coscup-matterbot> <JoeAngel> 原來閃電秀就說把電腦畫面投出來
+16:47 < coscup-matterbot> <Thelitchi> 前面投影出現比較慢
+16:47 < coscup-matterbot> <CatfoodTW> 應該要無線滑鼠呀
+16:47 < coscup-matterbot> <davy_0xff> 有線滑鼠wwwwwww
+16:47 < coscup-matterbot> <OtomeSound> 謝謝 (re @Inndy: https://github.com/elct9620/elct9620-vim)
+16:47 < coscup-matterbot> <davy_0xff> 唉 (re @medicalwei: 不過另一方面來說，做字體吃力不討好，台灣也很少有人跳出來做字體，光是有就很難得了……)
+16:47 < coscup-matterbot> <abev66> ???
+16:48 < coscup-matterbot> <CatfoodTW>
+16:48 < coscup-matterbot> <ballfish> 你對人家的橢圓機做了什麼 (re @CatfoodTW: )
+16:48 < coscup-matterbot> <medicalwei> <- 通勤時玩 Duolingo （至少一小時）
+16:48 < coscup-matterbot> <davy_0xff> 為什麼滑鼠不是藍芽的wwwww
+16:48 < coscup-matterbot> <bobchao> 「踩橢圓機的時候才能這麼做喔，請不要在臥推硬舉的時候做」
+16:48 < coscup-matterbot> <CatfoodTW> 期待把NB拉下來
+16:48 < coscup-matterbot> <linroex> 坐馬桶打手遊要小心痔瘡🤔
+16:48 < coscup-matterbot> <JoeAngel>  (re @Inndy: https://github.com/elct9620/elct9620-vim)
+16:48 < coscup-matterbot> <bobchao> 我剛剛也覺得會發生這件事 😆 (re @CatfoodTW: 期待把NB拉下來)
+16:48 < coscup-matterbot> <pjxpj> 滑鼠雷射攻擊
+16:48 < coscup-matterbot> <GamerGary_prime> 意圖使人換電腦(?
+16:49 < coscup-matterbot> <chusiang> 好想拿簡報筆上去。(不對，我今天沒帶到 …)
+16:49 < coscup-matterbot> <abev66> 🤔 :
+16:49 < coscup-matterbot> <medicalwei> <- 平日坐馬桶超過一小時 (re @linroex: 坐馬桶打手遊要小心痔瘡🤔)
+16:49 < coscup-matterbot> <CatfoodTW> 在廁所"打"手遊
+16:49 < coscup-matterbot> <iamhlb>
+16:49 < coscup-matterbot> <linroex> 推推 omnifocus 超好用
+16:49 < coscup-matterbot> <how8570> 本質是加班QQ
+16:49 < coscup-matterbot> <chusiang> 「工程師的本質，就是加班。」
+16:50 < coscup-matterbot> <aki02> 不過其實字體又不用編譯，原始檔跟Release檔案幾乎是一樣的啦，主要應該室外框合併了 (re @davy_0xff: 所以原來一點都不開源嗎 🤔
+16:50 < coscup-matterbot> <aki02> 該抵制ㄌ拔 借開源知名行銷又不想開源)
+16:50 < coscup-matterbot> <aki02> 不過其實字體又不用編譯，原始檔跟Release檔案幾乎是一樣的啦，主要應該是外框合併了 (edited) (re @davy_0xff: 所以原來一點都不開源嗎 🤔
+16:50 < coscup-matterbot> <aki02> 該抵制ㄌ拔 借開源知名行銷又不想開源)
+16:50 < coscup-matterbot> <sntc06> 四大公有雲
+16:50 < coscup-matterbot> <CatfoodTW> 這是工商嗎？
+16:50 < coscup-matterbot> <JoeAngel> 中華電信四大 Cloud
+16:50 < coscup-matterbot> <Imo_ininder> 笑死
+16:50 < coscup-matterbot> <davy_0xff> 自肥wwwwwwww
+16:50 < coscup-matterbot> <GamerGary_prime>
+16:50 < coscup-matterbot> <Sorry> 四大 XDDD
+16:50 < coscup-matterbot> <davy_0xff> 開源要有可修改性ㄚ
+16:50 < coscup-matterbot> <davy_0xff> 外框合併了根本…… (re @aki02: 不過其實字體又不用編譯，原始檔跟Release檔案幾乎是一樣的啦，主要應該是外框合併了)
+16:51 < coscup-matterbot> <nfsnfschen> 四 .... 大 ......
+16:51 < coscup-matterbot> <linroex> 我是四大工程師
+16:51 < coscup-matterbot> <Inndy>
+16:51 < coscup-matterbot> <kewangtw> 四大 xddd 用過真的是回不去了
+16:51 < coscup-matterbot> <pjxpj> 好.....大......
+16:51 < coscup-matterbot> <tai271828> 😂😂😂😂😂😂😂😂😂😂😂😂👍👍👍👍👍 (re @Inndy: )
+16:51 < coscup-matterbot> <ws23ya> 太強喇~~~~XDDDDD (re @Inndy: )
+16:52 < coscup-matterbot> <bobchao> XD... nice one (re @Inndy: )
+16:52 < coscup-matterbot> <davy_0xff> 對岸 是美國嗎
+16:53 < coscup-matterbot> <sntc06> 拼音輸入有類似的雙拼，是類似的概念嗎
+16:53 < coscup-matterbot> <CatfoodTW> 超注音
+16:53 < coscup-matterbot> <chusiang> 雙碼注音？是這個嗎？
+16:53 < coscup-matterbot> <chusiang> https://github.com/imper0502/rime-double-bopomo
+16:53 < coscup-matterbot> <elct9620> 看報紙才知道有 Telegram 群組 🤔
+16:53 < coscup-matterbot> <abev66>
+16:53 < coscup-matterbot> <abev66>
+16:53 < coscup-matterbot> <chusiang> 學過許氏注音的人路過，感謝 @jouston 推薦。<[_ _]>
+16:54 < coscup-matterbot> <mcdlee> 推許氏
+16:54 < coscup-matterbot> <Inndy> 拼音用兩三年，昨天去唱歌差點不知道怎麼用注音搜尋歌曲 XDDD
+16:55 < coscup-matterbot> <medicalwei> 我當時用了 Nokia N900 的時候，用過許氏注音，因為鍵盤只有三列
+16:55 < coscup-matterbot> <chusiang> 不過我最後跳槽用嘸蝦米輸入法了。XD (re @chusiang: 學過許氏注音的人路過，感謝 @jouston 推薦。<[_ _]>)
+16:55 < coscup-matterbot> <bobchao> 開雲人年會
+16:55 < coscup-matterbot> <bobchao> 之
+16:55 < coscup-matterbot> <bobchao> 四大公雲
+16:55 < coscup-matterbot> <CrBoy> 開運人
+16:55 < coscup-matterbot> <CrBoy> 開運人年會 (edited)
+16:56 < coscup-matterbot> <JoeAngel> ㄎㄞ ㄩㄣ ㄖㄣ ㄋㄧㄢ ㄏㄨㄟ
+16:56 < coscup-matterbot> <bobchao> 「現在...  25 個星星而已... （落寞）」
+16:56 < coscup-matterbot> <GamerGary_prime> 看來是這個 (re @chusiang: 雙碼注音？是這個嗎？
+16:56 < coscup-matterbot> <GamerGary_prime> https://github.com/imper0502/rime-double-bopomo)
+16:56 < coscup-matterbot> <chusiang> ID 看來是同一個。
+16:56 < coscup-matterbot> <chusiang> GitHub ID 看來是同一個。 (edited)
+16:57 < coscup-matterbot> <yichinlee> 33個星星了！
+16:57 < coscup-matterbot> <Inndy> 漲星星小秘訣：把自己的專案加入 awesome-xxxxxx 列表，放置兩年就可以破千 star
+16:57 < coscup-matterbot> <Inndy> https://github.com/Inndy/vue-clipboard2
+16:57 < coscup-matterbot> <CrBoy> 法國人！！！！
+16:57 < coscup-matterbot> <sntc06> oui
+16:57 < coscup-matterbot> <chusiang> 法國人在台灣！
+16:57 < coscup-matterbot> <David_C927>
+16:57 < coscup-matterbot> <davy_0xff> 投影片下面有一個最大化按鈕
+16:57 < coscup-matterbot> <JoeAngel> 法國人在台灣！
+16:58 < coscup-matterbot> <bobchao> 也是很想去幫他按... (re @davy_0xff: 投影片下面有一個最大化按鈕)
+16:58 < coscup-matterbot> <David_C927> 竟然有內建，拔的了嗎？
+16:58 < coscup-matterbot> <CatfoodTW> 好想按
+16:58 < coscup-matterbot> <davy_0xff> 大大快上 (re @bobchao: 也是很想去幫他按...)
+16:58 < coscup-matterbot> <ballfish> 重上去啊！ (re @bobchao: 也是很想去幫他按...)
+16:58 < coscup-matterbot> <JoeAngel> 布丁成功了！！
+16:58 < coscup-matterbot> <davy_0xff> 哇
+16:58 < coscup-matterbot> <ballfish> 衝上去啊！ (edited) (re @bobchao: 也是很想去幫他按...)
+16:58 < coscup-matterbot> <GamerGary_prime> 哇
+16:58 < coscup-matterbot> <kewangtw> awesome xdddd
+16:58 < coscup-matterbot> <bobchao> AWESOME!!!
+16:58 < coscup-matterbot> <yichinlee> XDDDDDD
+16:59 < coscup-matterbot> <iamhlb> 強制送交 patch
+16:59 < coscup-matterbot> <bobchao> 這個應該是 reveal.js
+16:59 < coscup-matterbot> <CatfoodTW>
+16:59 < coscup-matterbot> <chusiang> 沒拍到國旗。:(
+17:00 < coscup-matterbot> <davy_0xff> 這個拔的下去嗎
+17:00 < coscup-matterbot> <GamerGary_prime>
+17:00 < coscup-matterbot> <davy_0xff>
+17:00 < coscup-matterbot> <davy_0xff> Woooo  so quick
+17:00 < coscup-matterbot> <bobchao> Ohhh so quick
+17:01 < coscup-matterbot> <bobchao> 😆
+17:01 < coscup-matterbot> <abev66>
+17:01 < coscup-matterbot> <abev66>
+17:01 < coscup-matterbot> <elct9620> 長知識了 😲 (re @Inndy: 漲星星小秘訣：把自己的專案加入 awesome-xxxxxx 列表，放置兩年就可以破千 star
+17:01 < coscup-matterbot> <elct9620> https://github.com/Inndy/vue-clipboard2)
+17:02 < coscup-matterbot> <OtomeSound> plz ask him for sharing slides, there are so many memes🙈
+17:02 < coscup-matterbot> <JoeAngel> Awesome (re @Inndy: 漲星星小秘訣：把自己的專案加入 awesome-xxxxxx 列表，放置兩年就可以破千 star
+17:02 < coscup-matterbot> <JoeAngel> https://github.com/Inndy/vue-clipboard2)
+17:02 < coscup-matterbot> <chusiang> cz-cli?
+17:03 < coscup-matterbot> <CrBoy>
+17:03 < coscup-matterbot> <kewangtw> 真的沒在寫 js，Java Script...
+17:03 < coscup-matterbot> <CrBoy> 啊啊啊我說那個空白XD
+17:03 < coscup-matterbot> <flandrekawaii> JavaScript 不用空格！！
+17:03 < coscup-matterbot> <CrBoy> 果然沒在寫 (?)
+17:04 < coscup-matterbot> <JoeAngel> https://github.com/commitizen/cz-cli
+17:04 < coscup-matterbot> <bobchao> 😆
+17:05 < coscup-matterbot> <CrBoy> 中文的 git 好不習慣XD
+17:05 < coscup-matterbot> <aki02> 居然有中文的git
+17:05 < coscup-matterbot> <Inndy> LC_* 設定一下語言就會變
+17:05 < coscup-matterbot> <bobchao> 根提交...
+17:05 < coscup-matterbot> <chusiang> 根提交。XDD
+17:06 < coscup-matterbot> <xini6> COSCUP全大寫啊啊
+17:06 < coscup-matterbot> <sntc06> coscuip
+17:06 < coscup-matterbot> <chusiang> 打錯了，沒關係，我們加一個 feature。XDD
+17:06 < coscup-matterbot> <abev66> 我的 git 也…
+17:06 < coscup-matterbot> <davy_0xff> 阿打錯了
+17:06 < coscup-matterbot> <GamerGary_prime> 啊 打錯了
+17:06 < coscup-matterbot> <davy_0xff> 哎呀 怎麼會沒有時間了呢
+17:06 < coscup-matterbot> <CatfoodTW> 噯呀怎麼會沒有時間了呢
+17:06 < coscup-matterbot> <CrBoy> 哎呀！怎麼會沒有時間了呢
+17:06 < coscup-matterbot> <abev66> 哎呀怎麼會沒有時間了呢 XDDD
+17:07 < coscup-matterbot> <catcat_4> @clleew 竟然 COSCUP 沒有大寫
+17:07 < coscup-matterbot> <bobchao> 喔還不錯
+17:07 < coscup-matterbot> <JoeAngel> 好像不錯
+17:07 < coscup-matterbot> <medicalwei> 看起來方便
+17:07 < coscup-matterbot> <davy_0xff> 看起來還不錯
+17:07 < coscup-matterbot> <GamerGary_prime> 看起來好快
+17:07 < coscup-matterbot> <davy_0xff> 感覺會有更輕量的實作？
+17:07 < coscup-matterbot> <chusiang> 「先要買，再考慮好..」
+17:07 < coscup-matterbot> <chusiang> - Python 2017
+17:08 < coscup-matterbot> <yoyo930021> Nodejs 最常見的相關工具
+17:08 < coscup-matterbot> <yoyo930021> https://github.com/semantic-release/semantic-release
+17:08 < coscup-matterbot> <ballfish>
+17:08 < coscup-matterbot> <bobchao> 「先要買，再考慮好」 <- @ballfish 表示為什麼要考慮
+17:08 < coscup-matterbot> <yichinlee> 直接買爆
+17:08 < coscup-matterbot> <nfsnfschen> 我全都要
+17:08 < coscup-matterbot> <ballfish>
+17:08 < coscup-matterbot> <chusiang> 「先要買，再考慮好..」
+17:08 < coscup-matterbot> <chusiang> - Pycon 2017 (edited)
+17:08 < coscup-matterbot> <bobchao>
+17:10 < coscup-matterbot> <clleew>  (re @catcat_4: @clleew 竟然 COSCUP 沒有大寫)
+17:10 < coscup-matterbot> <nfsnfschen> COSCUP 結束都沒聲音啦
+17:10 < coscup-matterbot> <davy_0xff> 怕 好險沙啞不是肺炎
+17:10 < coscup-matterbot> <bobchao> 2800 人
+17:10 < coscup-matterbot> <medicalwei> 但口罩記得戴好 >"<
+17:10 < coscup-matterbot> <nfsnfschen> 2800！！！
+17:10 < coscup-matterbot> <iamhlb> 「聲音變成這副德性」聲音是要怎樣變成這副德性 XD
+17:11 < coscup-matterbot> <aki02> 時間旅人
+17:11 < coscup-matterbot> <xini6> 是1+2 2800嗎@@
+17:11 < coscup-matterbot> <davy_0xff> 4 (re @xini6: 是1+2 2800嗎@@)
+17:11 < coscup-matterbot> <bobchao> 不是，unique  2800 人 (re @xini6: 是1+2 2800嗎@@)
+17:11 < coscup-matterbot> <CatfoodTW> 小朋友保管處
+17:11 < coscup-matterbot> <medicalwei>
+17:11 < coscup-matterbot> <davy_0xff> 從報到數
+17:11 < coscup-matterbot> <GamerGary_prime> 跟兔兔一起玩
+17:11 < coscup-matterbot> <davy_0xff> 總報到數 (edited)
+17:12 < coscup-matterbot> <bobchao> 啊嚴格講起來說 1+2 是對的啦
+17:12 < coscup-matterbot> <bobchao> 但不是兩天各自的人次加起來 😆
+17:12 < coscup-matterbot> <davy_0xff> XDDDDD (re @bobchao: 啊嚴格講起來說 1+2 是對的啦)
+17:12 < coscup-matterbot> <iamhlb> 哼哼明年叫自己家小孩來投稿
+17:12 < coscup-matterbot> <bobchao> 因為有些會議的算法是這樣（也沒有對錯，就是定義問題）
+17:12 < coscup-matterbot> <medicalwei> Forwarded from medicalwei:
+17:12 < coscup-matterbot> <davy_0xff> 有沒有想過說不定是有人 badge 掉了再領一張（等等 (re @bobchao: 但不是兩天各自的人次加起來 😆)
+17:13 < coscup-matterbot> <xini6> 喔喔喔了解 不重複人頭的概念 (re @bobchao: 但不是兩天各自的人次加起來 😆)
+17:13 < coscup-matterbot> <nfsnfschen> 是的 (re @xini6: 喔喔喔了解 不重複人頭的概念)
+17:13 < coscup-matterbot> <GamerGary_prime> https://www.facebook.com/init.kobeengineer/photos/a.1416496745064002/3170442956336030/?type=3
+17:13 < coscup-matterbot> <bobchao> 應該少，他再掃一次再拿到，也只會當成一個人 (re @davy_0xff: 有沒有想過說不定是有人 badge 掉了再領一張（等等)
+17:13 < coscup-matterbot> <JoeAngel> 沒朋友可以過來教
+17:13 < coscup-matterbot> <JoeAngel> 沒朋友可以過來交 (edited)
+17:14 < coscup-matterbot> <davy_0xff> 可以填第二張聲明表（# (re @bobchao: 應該少，他再掃一次再拿到，也只會當成一個人)
+17:14 < coscup-matterbot> <aki02> 交 都交朋友
+17:14 < coscup-matterbot> <abev66>
+17:14 < coscup-matterbot> <abev66>
+17:14 < coscup-matterbot> <abev66>
+17:14 < coscup-matterbot> <nfsnfschen> QR code 不見的話的確可以 (re @davy_0xff: 可以填第二張聲明表（#)
+17:14 < coscup-matterbot> <JoeAngel> 我填了五次，因為可以健康 (re @davy_0xff: 可以填第二張聲明表（#)
+17:14 < coscup-matterbot> <davy_0xff> 笑死wwwwww (re @JoeAngel: 我填了五次，因為可以健康)
+17:14 < coscup-matterbot> <bobchao> 也有可能其實 2800 都是同一個人填的，大家其實現在都在家裡沒有來參加 （這是什麼平行世界 XDD） (re @davy_0xff: 可以填第二張聲明表（#)
+17:15 < coscup-matterbot> <chusiang> 「沒事多消毒，多消毒沒事。」
+17:15 < coscup-matterbot> <JoeAngel> 小飛機大帥哥
+17:16 < coscup-matterbot> <JoeAngel>
+17:16 < coscup-matterbot> <bobchao> 感恩各位乾爹
+17:16 < coscup-matterbot> <nfsnfschen> 感謝今年的贊助商 跟 個人贊助
+17:17 < coscup-matterbot> <bobchao> 其實在中研院的時候有做過一次貼紙交換桌
+17:17 < coscup-matterbot> <nfsnfschen> 也謝謝大家努力用台幣下架我們的週邊 XD
+17:17 < coscup-matterbot> <medicalwei> Debian 的貼紙是多的，下次要有切好的貼紙的話可以找我
+17:17 < coscup-matterbot> <medicalwei> Debian 的貼紙是多印的，下次要有切好的貼紙的話可以找我我會另外做 (edited)
+17:17 < coscup-matterbot> <chusiang> 原來有貼紙分享站？明年多印一點來發。
+17:18 < coscup-matterbot> <davy_0xff> XDDDDDDDD (re @bobchao: 也有可能其實 2800 都是同一個人填的，大家其實現在都在家裡沒有來參加 （這是什麼平行世界 XDD）)
+17:18 < coscup-matterbot> <GamerGary_prime> 都在聽議程沒機會用新台幣下架衣服QQ (re @nfsnfschen: 也謝謝大家努力用台幣下架我們的週邊 XD)
+17:18 < coscup-matterbot> <CatfoodTW> 鴿子智慧
+17:18 < coscup-matterbot> <davy_0xff> 工人智慧
+17:19 < coscup-matterbot> <iamhlb> OPass 真心覺得有變更好用
+17:19 < coscup-matterbot> <davy_0xff> 覺得今年的filter有點怪
+17:19 < coscup-matterbot> <JoeAngel>  (re @JoeAngel: 如果你路過發現議程軌滿了～可以提醒社群議程軌協調人改一下教室狀態為爆滿～或是可以在這喊一下，會有專人服務您～)
+17:19 < coscup-matterbot> <davy_0xff> 應該要可以filter track
+17:19 < coscup-matterbot> <davy_0xff> 不然只分難度還是沒有太多參考性
+17:20 < coscup-matterbot> <bobchao> 「這個時間點到底有什麼、他們的下一場又是什麼」這件事情有點難
+17:20 < coscup-matterbot> <JoeAngel> 「讓與會者當志工，這會是怎麼樣的感覺」
+17:20 < coscup-matterbot> <medicalwei> Engelsystem
+17:20 < coscup-matterbot> <xini6> 不能 by 議程軌篩選有點苦惱 (re @davy_0xff: 覺得今年的filter有點怪)
+17:20 < coscup-matterbot> <iamhlb> 不過丹董的議程表比較好用 https://dannvix.github.io/COSCUP_Agenda/
+17:21 < coscup-matterbot> <mikucat0309> https://forms.gle/wBgcQaXpt4VkZpu87
+17:21 < coscup-matterbot> <JoeAngel>
+17:21 < coscup-matterbot> <medicalwei> 我有接到 request 是把 OPass 放到 FDroid
+17:21 < coscup-matterbot> <nfsnfschen> 拜託大家幫忙填問卷啊啊啊啊
+17:21 < coscup-matterbot> <medicalwei> 我有接到 request 是把 OPass 放到 F-Droid (edited)
+17:21 < coscup-matterbot> <singing_li> 會後問卷 https://forms.gle/wBgcQaXpt4VkZpu87
+17:22 < coscup-matterbot> <singing_li> 訂閱電子報 https://secretary.coscup.org/subscribe/coscup
+17:22 < coscup-matterbot> <JoeAngel> https://secretary.coscup.org/subscribe/coscup :
+17:22 < coscup-matterbot> <JoeAngel>  (edited)https://forms.gle/wBgcQaXpt4VkZpu87 :
+17:23 -!- Mengseng [df896734@223-137-103-52.emome-ip.hinet.net] has quit [Remote host closed the connection]
+17:23 < coscup-matterbot> <nfsnfschen> 問卷連結： https://forms.gle/R19MtCbUE2ihPRJd7
+17:23 < coscup-matterbot> <chusiang> 問問，有人要一起搭計程車去台北火車站的嗎？
+17:23 < coscup-matterbot> <John L> 有人要揪吃飯的嗎？
+17:23 < coscup-matterbot> <linroex> 我
+17:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+17:28 < coscup-matterbot> <abev66> 我要躲颱風去了大家明年見 QQ
+17:29 < coscup-matterbot> <chusiang> 是要吃飯，還是要搭計程車？ (re @linroex: 我)
+17:29 < coscup-matterbot> <abev66>
+17:30 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:35 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+17:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:44 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+17:45 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:50 < coscup-matterbot> <chusiang> 已搭上計程車，大家明年見。:'D
+17:50 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+17:52 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+17:57 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+17:59 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:06 < coscup-matterbot> <PingNote>  (re @chusiang: 已搭上計程車，大家明年見。:'D)
+18:08 < coscup-matterbot> <chusiang> @PingNote 今年沒看到小平呢。越來越帥了！
+18:09 < coscup-matterbot> <PingNote>  (re @chusiang: @PingNote 今年沒看到小平呢。越來越帥了！)
+18:11 < coscup-matterbot> <PingNote> 凍人才帥、凍人最帥、凍人全家都
+18:11 < coscup-matterbot> <PingNote> ⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄
+18:11 < coscup-matterbot> <PingNote> 凍仁才帥、凍仁最帥、凍仁全家都
+18:11 < coscup-matterbot> <PingNote> ⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄ (edited)
+18:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+18:24 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:26 < coscup-matterbot> <PttCodingMan> 謝謝大家 明年見
+18:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+18:30 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:37 < coscup-matterbot> <Wang> 第一次參加Coscup，感謝各位大神的分享～🧎‍♂️
+18:39 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+18:41 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:48 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+18:50 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+18:51 < coscup-matterbot> <chusiang> 第十三次參加 COSCUP，謝謝各位工作人員、講者和與會人員，讓今年 COSCUP 能圓滿。<[_ _]>
+19:08 < coscup-matterbot> <JoeAngel>
+19:10 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+19:12 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+19:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+19:30 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:34 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+19:37 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:41 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+19:43 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+19:58 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+20:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:05 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+20:07 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:22 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+20:24 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:25 -!- Denir [7a92461a@122.146.70.26] has quit [Remote host closed the connection]
+20:27 < coscup-matterbot> <kn_man>
+20:28 < coscup-matterbot> <kn_man>
+20:30 < coscup-matterbot> <Sorry> 請問「零知識證明」的議程有投影片嗎？
+20:32 < coscup-matterbot> <mexcelsa> 我明年會買簡報筆來講了😂😂😂😂 (re @abev66: )
+20:33 < coscup-matterbot> <Sorry> 請問「零知識證明」的議程講者有釋出投影片嗎？ (edited)
+20:33 < coscup-matterbot> <mexcelsa> 至少是本土研發最強咩😅😂😂 (re @Inndy: )
+20:35 < coscup-matterbot> <mexcelsa> 有上台先測試，測試時也是有類似的狀況😢😢😢 (re @CatfoodTW: 剛剛沒上台測試呦)
+20:41 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+20:42 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+20:54 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+20:55 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:00 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+21:02 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:06 -!- s8321414 [~s8321414@2001-b011-e60d-151a-5fa7-8bcd-594e-4947.dynamic-ip6.hinet.net] has joined #coscup
+21:07 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+21:09 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:17 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 256 seconds]
+21:17 < coscup-matterbot> <aki02> 目前正在努力w也許明年的COSCUP會有好消息（？
+21:17 < coscup-matterbot> <aki02> 主要是還沒想出如何在顧好設計品質的前提下，讓大家參與進來 (re @davy_0xff: 開源要有可修改性ㄚ
+21:17 < coscup-matterbot> <aki02> 外框合併了根本……)
+21:18 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+21:25 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:33 < coscup-matterbot> <elct9620> https://github.com/elct9620/coscup-2020-cdktf
+21:33 < coscup-matterbot> <elct9620> 想到都沒人在意我忘記給 Terraform CDK 的 Repo
+21:33 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 265 seconds]
+21:35 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:40 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+21:41 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+21:51 -!- s8321414 [~s8321414@2001-b011-e60d-151a-5fa7-8bcd-594e-4947.dynamic-ip6.hinet.net] has quit [Quit: Konversation terminated!]
+22:11 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+22:14 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:15 < coscup-matterbot> <JoeAngel> 翻了 GitHub 有看到就沒問了XD (re @elct9620: https://github.com/elct9620/coscup-2020-cdktf
+22:15 < coscup-matterbot> <JoeAngel> 想到都沒人在意我忘記給 Terraform CDK 的 Repo)
+22:26 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+22:27 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:37 < coscup-matterbot> <boncream> 抱歉今天有人撿到一個台達電的電腦充電線嗎？
+22:37 < coscup-matterbot> <boncream> 應該掉在413
+22:38 < coscup-matterbot> <boncream>
+22:39 < coscup-matterbot> <boncream> 長的像這樣
+22:45 < coscup-matterbot> <pennyken> 後來有送去服務台 (re @boncream: 抱歉今天有人撿到一個台達電的電腦充電線嗎？)
+22:46 < coscup-matterbot> <pennyken> 後來有送去服務台，你的是國際版的 (edited) (re @boncream: 抱歉今天有人撿到一個台達電的電腦充電線嗎？)
+22:46 < coscup-matterbot> <pennyken> 請另外跟OCF聯絡
+22:47 < coscup-matterbot> <boncream> 國際版的沒錯，ocf 的部分我剛剛有聯絡粉專不知道是不是？很感謝您
+22:47 < coscup-matterbot> <pennyken> 開放文化基金會，寫email或粉專應該都可
+22:48 < coscup-matterbot> <pennyken> 但是可能明天才會回你訊息
+22:52 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+22:54 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+22:57 < coscup-matterbot> <chusiang> 一整個帥氣！ (re @mexcelsa: 我明年會買簡報筆來講了😂😂😂😂)
+22:59 < coscup-matterbot> <Jason_Cheng> @chusiang 今年終於見到你本人了 XD
+23:02 < coscup-matterbot> <chusiang> @Jason_Cheng 中南部的開源勇者，通常都只能在 COSCUP 相認啊。XDD
+23:02 < coscup-matterbot> <Jason_Cheng>
+23:03 < coscup-matterbot> <chusiang> COSCUP 參加的越來越多，兩天不見得能與所有的朋友打過招呼呢。😂
+23:03 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 246 seconds]
+23:05 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+23:06 < coscup-matterbot> <mukawang> 在失物招領有看到 (re @boncream: 國際版的沒錯，ocf 的部分我剛剛有聯絡粉專不知道是不是？很感謝您)
+23:07 < coscup-matterbot> <freedmantw> 應該是 1∩2 (聯集) (re @bobchao: 啊嚴格講起來說 1+2 是對的啦)
+23:08 < coscup-matterbot> <freedmantw> 應該是 1∪2 (聯集) (edited) (re @bobchao: 啊嚴格講起來說 1+2 是對的啦)
+23:08 < coscup-matterbot> <freedmantw> 抱歉剛剛打成交集符號
+23:11 < coscup-matterbot> <boncream> 收到！感謝您 (re @pennyken: 但是可能明天才會回你訊息)
+23:12 < coscup-matterbot> <boncream> 有收到他們的回覆了！！謝謝社群的大家 (re @mukawang: 在失物招領有看到)
+23:17 < coscup-matterbot> <freedmantw> 這個問題我有感覺到，我開啟 OPass 的「會議廳狀態」時，只能看到「進行中議程」，感覺上應該加入一個「up coming」的欄位，內有下一場的時間跟議題名稱。 (re @bobchao: 「這個時間點到底有什麼、他們的下一場又是什麼」這件事情有點難)
+23:18 < coscup-matterbot> <DennyHuang> 我有看到 issue
+23:18 < coscup-matterbot> <DennyHuang> 不過對於 F-droid 的詳細規則還沒看過 (re @medicalwei: 我有接到 request 是把 OPass 放到 F-Droid)
+23:21 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 264 seconds]
+23:23 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+23:28 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 240 seconds]
+23:30 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+23:54 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has quit [Ping timeout: 260 seconds]
+23:56 -!- a0000778 [~a0000778@114-35-181-217.HINET-IP.hinet.net] has joined #coscup
+--- Log closed Mon Aug 03 00:00:30 2020
